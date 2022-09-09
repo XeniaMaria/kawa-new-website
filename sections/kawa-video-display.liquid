@@ -1,0 +1,54 @@
+<link
+  rel="stylesheet"
+  href="{{ 'kawa-video-display.css' | asset_url }}"
+  media="print"
+  onload="this.media='all'"
+/>
+
+<div class="kawa-video-display mw-1200-c text-center">
+  <h2 class="video-display-title">See the Best #KawaCaptures</h2>
+  <a class="video-display-link">
+    <span class="text">See All</span>
+    <span
+      class="iconify icon-arrow-right"
+      data-icon="dashicons:arrow-right-alt2"
+    ></span>
+  </a>
+  <a class="video-display-link share-link">
+    <span class="text">Share Your Clips to Win Gifts</span>
+    <span
+      class="iconify icon-arrow-right"
+      data-icon="dashicons:arrow-right-alt2"
+    ></span>
+  </a>
+  <ul class="all-video flex-b m-auto">
+    <li class="video-item">
+      <img
+        src="https://reolink.com/wp-content/assets/2018/03/home-video-1.jpg"
+      />
+    </li>
+    <li class="video-item">
+      <img
+        src="https://reolink.com/wp-content/assets/2018/03/home-video-1.jpg"
+      />
+    </li>
+    <li class="video-item">
+      <img
+        src="https://reolink.com/wp-content/assets/2018/03/home-video-1.jpg"
+      />
+    </li>
+    <li class="video-item">
+      <img
+        src="https://reolink.com/wp-content/assets/2018/03/home-video-1.jpg"
+      />
+    </li>
+  </ul>
+</div>
+
+{% schema %} 
+{
+    "name": "t:sections.kawa-video-display.name",
+    "tag": "section",
+    "presets": [{ "name": "t:sections.kawa-video-display.name" }]
+} 
+{% endschema %}

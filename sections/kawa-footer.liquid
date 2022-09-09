@@ -1,0 +1,53 @@
+{{ "kawa-footer.css" | asset_url | stylesheet_tag }}
+
+<div class="kawa-footer">
+  <div class="footer-container mw-1200-c">
+    <div class="footer-contact">
+      <div class="contact-title">Contact us</div>
+      <ul class="flex-b text-white">
+        <li class="flex">
+          <span
+            class="iconify"
+            data-icon="bx:phone-call"
+            data-width="24"
+            data-height="24"
+          ></span>
+          <p>
+            USA: +1 (800)988 7973<br />Mon-Sat 6:00AM - 6:00PM (PT)<br />Sun
+            7:00AM - 4:00PM (PT)
+          </p>
+        </li>
+        <li class="flex">
+          <span
+            class="iconify"
+            data-icon="bx:mail-send"
+            data-width="24"
+            data-height="24"
+          ></span>
+          <p>
+            <a
+              href="mailto:kawa-in@kawa-in.com?ref=footer"
+              title="mailto:kawa-in@kawa-in.com"
+              class="kawa-email"
+              >kawa-in@kawa-in.com</a
+            >
+          </p>
+        </li>
+        <li class="flex">
+          <span
+            class="iconify"
+            data-icon="carbon:chat-bot"
+            data-width="24"
+            data-height="24"
+          ></span>
+          <p><a>Website Live Chat</a><br />Mon-Fri 9:00 AM-5:00 PM (PT)</p>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-maps">
+        123
+    </div>
+  </div>
+</div>
+
+{% schema %} { "name": "t:sections.kawa-footer.name" } {% endschema %}

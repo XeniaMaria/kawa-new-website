@@ -1,0 +1,56 @@
+<link rel="stylesheet" href="{{ 'kawa-preview-video.css' | asset_url }}" media="print" onload="this.media='all'" />
+
+<div class="kawa-preview-video mw-1200-c">
+  <div class="video-player pr w-100">
+    <div class="mask acc wh-100"></div>
+    <img class="pointer acc play-icon"
+      src="//cdn.shopify.com/s/files/1/0552/2774/4279/t/21/assets/paly.png?v=179953367799169005241660268975" alt=""
+      width="48px" height="48px" loading="lazy" />
+    <video class="preview-video w-100" style="display: block" controls="" preload="none" playsinline=""
+      poster="{{ section.settings.cover_image | image_url }}">
+      <source
+        src="{{ section.settings.video_link }}"
+        type="video/mp4" />
+    </video>
+  </div>
+</div>
+
+<script type="text/javascript">
+  const previewVideo = document.querySelector(".preview-video");
+  const videoMask = document.querySelector(".video-player .mask")
+  const videoIcon = document.querySelector(".video-player .play-icon")
+  videoIcon.onclick = function () {
+    previewVideo.play()
+    videoMask.style.visibility = "hidden"
+    videoIcon.style.visibility = "hidden"
+  }
+  previewVideo.onpause = function () {
+    videoMask.style.visibility = "visible"
+    videoIcon.style.visibility = "visible"
+  }
+  previewVideo.ontimeupdate = function () {
+    videoMask.style.visibility = "hidden"
+    videoIcon.style.visibility = "hidden"
+  }
+</script>
+
+{% schema %}
+{
+  "name": "t:sections.kawa-preview-video.name",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "url",
+      "id": "video_link",
+      "label": "视频链接",
+      "info": "将mp4文件上传后，复制链接。"
+    },
+    {
+      "type": "image_picker",
+      "id": "cover_image",
+      "label": "视频封面"
+    }
+  ],
+  "presets": [{ "name": "t:sections.kawa-preview-video.name" }]
+}
+{% endschema %}

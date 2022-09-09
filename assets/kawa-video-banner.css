@@ -1,0 +1,124 @@
+.kawa-video-banner-section {
+  position: relative;
+  top: -88px;
+  z-index: 0;
+}
+
+.video-banner-pagination {
+  bottom: 20px !important;
+}
+
+.video-banner {
+  width: 100%;
+}
+
+/*轮播图前进后退样式*/
+.video-swiper-container .swiper-button-next,
+.video-swiper-container .swiper-button-prev {
+  transition: all 0.3s ease-in-out;
+  display: block;
+}
+
+.video-banner .swiper-button-next {
+  transform: translateX(200%);
+}
+
+.video-banner .swiper-button-prev {
+  transform: translateX(-200%);
+}
+
+.video-banner:hover .swiper-button-next,
+.video-banner:hover .swiper-button-prev {
+  transform: translateX(0);
+}
+
+.video-banner .banner-item-content .banner-main-text {
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 94px;
+  margin-bottom: 30px;
+  line-height: 1;
+}
+
+/*光标闪烁相关*/
+.text-blink::after {
+  content: "";
+  display: inline-block;
+  width: 2px;
+  height: 80px;
+  background-color: #fff;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  0% {
+    background-color: #fff;
+  }
+
+  50% {
+    background-color: transparent;
+  }
+
+  100% {
+    background-color: #fff;
+  }
+}
+
+/*轮播图上面的描述*/
+.video-banner .banner-item-name {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: Quicksand;
+}
+
+.video-banner .banner-item-desc {
+  font-size: 28px;
+  font-weight: 500;
+  font-family: Quicksand;
+  margin-bottom: 50px;
+  max-width: 680px;
+  line-height: 1.2;
+}
+
+/*轮播图上面的按钮*/
+.video-banner .item-shop-now-btn {
+  background: linear-gradient(150deg, #eb3349, #f45c43);
+}
+
+.video-banner .item-learn-more-btn {
+  background: linear-gradient(150deg, #1e7ff2, #1dc4e4);
+  margin-left: 30px;
+}
+
+.video-banner .banner-btn {
+  display: inline-block;
+  height: 48px;
+  box-sizing: border-box;
+  padding: 0 24px;
+  line-height: 46px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 30px;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+  top: 0;
+  color: #fff;
+  transition: top .5s;
+}
+
+.video-banner .banner-btn:hover {
+  position: relative;
+  top: -6px;
+  box-shadow: 0 5px 10px rgb(0 0 0 / 20%);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 5px 10px rgb(0 0 0 / 20%);
+  -o-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -ms-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.video-banner .icon-arrow-right {
+  margin-left: 10px;
+  position: relative;
+  top: 4px;
+}

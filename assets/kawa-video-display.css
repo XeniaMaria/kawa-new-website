@@ -1,0 +1,45 @@
+.kawa-video-display .video-display-title {
+  color: #333;
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 35px;
+}
+
+.kawa-video-display .video-display-link {
+  color: #00ade5;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.kawa-video-display .share-link {
+  margin-left: 42px;
+}
+
+.video-display-link .icon-arrow-right {
+  margin-left: 10px;
+  position: relative;
+  top: 2px;
+  transition: margin-left 0.3s ease;
+}
+
+.video-display-link:hover .text {
+  border-bottom: 1px solid #00ade5;
+}
+
+.video-display-link:hover .icon-arrow-right {
+  margin-left: 20px;
+}
+
+.kawa-video-display .all-video {
+  margin-top: 50px;
+}
+
+.kawa-video-display .video-item {
+  width: 270px;
+  height: 200px;
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 0;
+  box-shadow: 0 1px 3px rgba (30, 127, 242, 0.2);
+}

@@ -1,0 +1,13 @@
+.kawa-preview-video {
+  margin-top: 90px;
+}
+
+.kawa-preview-video .mask {
+  display: block;
+}
+
+.kawa-preview-video .mask,
+.kawa-preview-video .preview-video {
+  border-radius: 30px;
+  overflow: hidden;
+}

@@ -1,0 +1,89 @@
+.product-carousel {
+  display: flex;
+  flex: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.new-products-title {
+  margin-bottom: 25px;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.3;
+  color: #171717;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide-product {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.swiper-slide .slide-item-title {
+  padding-top: 2vw;
+  padding-bottom: 4px;
+  font-size: 24px;
+  white-space: nowrap;
+  font-weight: 400;
+}
+
+.swiper-slide .slide-item-sub-title {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.swiper-slide .slide-item-button {
+  max-width: 150px;
+  width: 12vw;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  background: #479dea;
+  border-radius: 40px;
+  margin: 0 auto;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  position: absolute;
+  bottom: 5.5%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.swiper-slide .slide-item-button:hover {
+  background: #1a73e8;
+  transition: all 0.3s ease-in-out;
+}
+
+.swiper-prev,
+.swiper-next {
+  width: 20px;
+  cursor: pointer;
+}
+
+.swiper-prev {
+  margin-right: 24px;
+}
+
+.swiper-next {
+  margin-left: 24px;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  transform: scale(1);
+  transition: transform 0.4s ease-in-out 0s;
+}
+
+.product-image:hover {
+  transform: scale(1.05);
+}

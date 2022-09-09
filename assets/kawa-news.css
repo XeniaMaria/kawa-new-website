@@ -1,0 +1,74 @@
+.kawa-news {
+  margin-top: 50px;
+}
+
+.kawa-news .news-container h2 {
+  font-size: 40px;
+  margin-bottom: 5px;
+  font-family: Montserrat;
+  margin-top: 0;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+  text-transform: capitalize;
+  padding-bottom: 50px;
+}
+
+.kawa-news .all-news {
+  background-color: #d3d4d733;
+}
+
+.kawa-news .news-item {
+  max-width: calc(100% / 3);
+  flex-grow: 1;
+  padding: 15px;
+}
+
+.kawa-news .news-info {
+  padding: 50px 30px 30px 30px;
+  text-align: left;
+  background: white;
+}
+
+.kawa-news .news-publish-time {
+  margin-bottom: 15px;
+  display: block;
+  text-align: left;
+  color: #000;
+  font-family: Montserrat;
+}
+
+.kawa-news .news-title {
+  margin-top: 0;
+  margin-bottom: 15px;
+  text-align: left;
+  font-size: 30px;
+  font-family: Montserrat;
+  color: #000;
+  line-height: 30px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.kawa-news .news-title a {
+  cursor: pointer;
+}
+
+.kawa-news .news-title a:hover {
+  color: #606060;
+}
+
+.kawa-news .view-details-btn {
+  color: #006ce5;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.kawa-news .view-details-btn:hover {
+  color: #606060;
+}
+
+.kawa-news .icon-arrow-right {
+  position: relative;
+  top: 2px;
+}

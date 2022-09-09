@@ -1,0 +1,106 @@
+<link
+  rel="stylesheet"
+  href="{{ 'kawa-new-products.css' | asset_url }}"
+  media="print"
+  onload="this.media='all'"
+/>
+
+<link
+  rel="stylesheet"
+  href="{{ 'swiper.min.css' | asset_url }}"
+  media="print"
+  onload="this.media='all'"
+/>
+<script src="{{ 'swiper.min.js' | asset_url }}" defer="defer"></script>
+
+<div class="kawa-new-products mw-1200-c flex-vc">
+  {%- for block in section.blocks -%} {%- case block.type -%} {%- when 'heading'
+  -%}
+  <div class="new-products-title text-center" {{ block.shopify_attributes }}>
+    {{ block.settings.heading | escape }}
+  </div>
+  {%- endcase -%} {%- endfor -%}
+
+  <div class="product-carousel w-100">
+    <img
+      src="https://cdn.shopify.com/s/files/1/0552/2774/4279/t/21/assets/swiper_prev.png?v=69566787568211713521660208662"
+      class="swiper-prev"
+    />
+    <div class="swiper-container product-swiper-container">
+      <div class="swiper-wrapper">
+        {% for product in section.settings.product_list %}         
+          <div class="swiper-slide swiper-slide-product">
+            <div class="slide-item-content acc h-100">
+              <h1 class="slide-item-title"> {{ product.metafields.descriptors.subtitle }} </h1>
+              <h1 class="slide-item-sub-title">(2K)</h1>
+              <div class="slide-item-button">
+                <a href="{{ product.url }}" class="text-white">Learn more</a>
+              </div>
+            </div>
+              <img
+                src="{{ product.featured_media | image_url }}"
+                class="product-image"
+              />
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+    <img
+      src="https://cdn.shopify.com/s/files/1/0552/2774/4279/t/21/assets/swiper_next.png?v=166447657013783674001660208663"
+      class="swiper-next"
+    />
+  </div>
+</div>
+
+<script type="text/javascript">
+  window.addEventListener("load", () => {
+    var mySwipe = new Swiper(".product-swiper-container", {
+      autoplay: 5000,
+      loop: true,
+      slidesPerView: 3,
+      spaceBetween: 24,
+      nextButton: ".swiper-next",
+      prevButton: ".swiper-prev",
+    });
+  });
+</script>
+
+{% schema %} 
+{
+  "name": "t:sections.kawa-product-carousel.name",
+  "tag": "section",
+  "settings":[
+    {
+      "type": "product_list",
+      "id": "product_list",
+      "label": "轮播产品列表",
+      "limit": 3
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "name": "t:sections.kawa-new-products.blocks.hading.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "default": "New on Kawa Store",
+          "label": "t:sections.kawa-new-products.blocks.heading.settings.heading.label"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.kawa-product-carousel.name",
+      "blocks": [
+        {
+          "type": "heading"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

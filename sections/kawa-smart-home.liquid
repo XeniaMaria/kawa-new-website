@@ -1,0 +1,121 @@
+<link
+  rel="stylesheet"
+  href="{{ 'kawa-smart-home.css' | asset_url }}"
+  media="print"
+  onload="this.media='all'"
+/>
+
+<div class="kawa-smart-home">
+  <h2 class="smart-home-title text-center">
+    <span>Build Your Smart Home</span>
+  </h2>
+  <div class="smart-home-tabs mw-1200-c">
+    <div class="tabs-menu flex-c flex-warp">
+      <button id="tab-menu-01" class="tabs-menu-item" data-of-tab-active="true">
+        <span>CJ1013</span>
+      </button>
+      <button
+        id="tab-menu-02"
+        class="tabs-menu-item"
+        data-of-tab-active="false"
+      >
+        <span>CJ1001</span>
+      </button>
+      <button
+        id="tab-menu-03"
+        class="tabs-menu-item"
+        data-of-tab-active="false"
+      >
+        <span>CJ1002</span>
+      </button>
+      <button
+        id="tab-menu-04"
+        class="tabs-menu-item"
+        data-of-tab-active="false"
+      >
+        <span>CJ1003</span>
+      </button>
+      <button
+        id="tab-menu-05"
+        class="tabs-menu-item"
+        data-of-tab-active="false"
+      >
+        <span>CJ1004</span>
+      </button>
+    </div>
+    <div class="tab-content-wrapper w-100">
+      <div class="tab-content tab-content-01" style="display: block">
+        <a class="w-100">
+          <img
+            class="w-100-h-auto"
+            src="https://cdn.shopify.com/s/files/1/0407/1043/9075/t/4/assets/pf-30ce55c4--WeChat-Image20210812100248.png?v=1628777416"
+          />
+        </a>
+      </div>
+      <div class="tab-content tab-content-02" style="display: none">
+        <a class="w-100">
+          <img
+            class="w-100-h-auto"
+            src="https://cdn.shopify.com/s/files/1/0407/1043/9075/t/4/assets/pf-ce55c422--WeChat-Image20210812100240.png?v=1628777422"
+          />
+        </a>
+      </div>
+      <div class="tab-content tab-content-03" style="display: none">
+        <a class="w-100">
+          <img
+            class="w-100-h-auto"
+            src="https://cdn.shopify.com/s/files/1/0407/1043/9075/t/4/assets/pf-55c422bd--WeChat-Image20210812100232.png?v=1628777426"
+          />
+        </a>
+      </div>
+      <div class="tab-content tab-content-04" style="display: none">
+        <a class="w-100">
+          <img
+            class="w-100-h-auto"
+            src="https://cdn.shopify.com/s/files/1/0407/1043/9075/t/4/assets/pf-c422bd01--WeChat-Image20210812100221.png?v=1628777432"
+          />
+        </a>
+      </div>
+      <div class="tab-content tab-content-05" style="display: none">
+        <a class="w-100">
+          <img
+            class="w-100-h-auto"
+            src="https://cdn.shopify.com/s/files/1/0407/1043/9075/t/4/assets/pf-22bd010b--WeChat-Image20210812100214.png?v=1628777436"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  const tabList = [];
+  const addTabMenuClick = (tab) => {
+    tab.tabMenu.addEventListener("click", (e) => {
+      if (tab.tabMenu.getAttribute("data-of-tab-active") !== true) {
+        tabList.forEach((t) => {
+          t.tabMenu.setAttribute("data-of-tab-active", false);
+          t.tabContent.style.display = "none";
+        });
+        tab.tabMenu.setAttribute("data-of-tab-active", true);
+        tab.tabContent.style.display = "block";
+      }
+    });
+  };
+  for (let i = 1; i <= 5; i++) {
+    const temp = {
+      tabMenu: document.getElementById(`tab-menu-0${i}`),
+      tabContent: document.querySelector(`.tab-content-0${i}`),
+    };
+    tabList.push(temp);
+    addTabMenuClick(temp);
+  }
+</script>
+
+{% schema %}
+{
+    "name": "t:sections.kawa-smart-home.name",
+    "tag": "section",
+    "presets": [{ "name": "t:sections.kawa-smart-home.name" }]
+}
+{% endschema %}

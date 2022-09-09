@@ -1,0 +1,92 @@
+<link
+  rel="stylesheet"
+  href="{{ 'kawa-news.css' | asset_url }}"
+  media="print"
+  onload="this.media='all'"
+/>
+
+<div class="kawa-news mw-1200-c">
+  <div class="news-container flex flex-wrap">
+    <h2 class="text-center w-100">News</h2>
+    <div class="all-news flex-b w-100">
+      <div class="news-item w-100">
+        <a class="news-link w-100">
+          <img
+            class="news-img w-100-h-auto pointer"
+            src="//cdn.shopify.com/s/files/1/0407/1043/9075/articles/camera.png?v=1632343043"
+            loading="eager"
+          />
+        </a>
+        <div class="news-info">
+          <div class="news-publish-time">
+            Sep 13, 2021
+            <br />
+          </div>
+          <h3 class="news-title">
+            <a>Winner of A' Design Award</a>
+          </h3>
+          <a class="view-details-btn">
+            <span
+              class="iconify icon-arrow-right"
+              data-icon="dashicons:arrow-right-alt2"
+            ></span>
+            <span>View Details</span>
+          </a>
+        </div>
+      </div>
+      <div class="news-item w-100">
+        <a class="news-link w-100">
+          <img
+            class="news-img w-100-h-auto pointer"
+            src="https://cdn.shopify.com/s/files/1/0407/1043/9075/articles/Bella.png?v=1632343028"
+            loading="eager"
+          />
+        </a>
+        <div class="news-info">
+          <div class="news-publish-time">
+            Sep 13, 2021
+            <br />
+          </div>
+          <h3 class="news-title">
+            <a>IMILAB’s Newest Tech!</a>
+          </h3>
+          <a class="view-details-btn">
+            <span
+              class="iconify icon-arrow-right"
+              data-icon="dashicons:arrow-right-alt2"
+            ></span>
+            <span>View Details</span>
+          </a>
+        </div>
+      </div>
+      <div class="news-item w-100">
+        <a class="news-link w-100">
+          <img
+            class="news-img w-100-h-auto pointer"
+            src="https://cdn.shopify.com/s/files/1/0407/1043/9075/articles/gift.png?v=1632343056"
+            loading="eager"
+          />
+        </a>
+        <div class="news-info">
+          <div class="news-publish-time">
+            Sep 13, 2021
+            <br />
+          </div>
+          <h3 class="news-title">
+            <a>Something Special For Mother’s Day</a>
+          </h3>
+          <a class="view-details-btn">
+            <span
+              class="iconify icon-arrow-right"
+              data-icon="dashicons:arrow-right-alt2"
+            ></span>
+            <span>View Details</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %} { "name": "t:sections.kawa-news.name", "tag": "section", "presets":
+[ { "name": "t:sections.kawa-news.name" } ] } {% endschema %}

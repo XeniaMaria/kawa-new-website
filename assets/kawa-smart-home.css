@@ -1,0 +1,47 @@
+.kawa-smart-home {
+  margin-top: 20px;
+  background-image: none;
+  background-size: cover;
+  background-color: #d3d4d733;
+}
+
+.kawa-smart-home .smart-home-title {
+  text-transform: capitalize;
+  font-size: 40px;
+  color: #000;
+  margin-bottom: 5px;
+  font-family: Montserrat, sans-serif;
+  margin-top: 0;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 50px;
+}
+
+.kawa-smart-home .smart-home-tabs {
+  padding: 10px;
+}
+
+.kawa-smart-home .tabs-menu-item {
+  padding: 0 30px;
+  font-family: Montserrat;
+  color: #333;
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 20px;
+  background-color: #f0f2f300;
+  outline: 0;
+  border: none;
+  cursor: pointer;
+}
+
+.kawa-smart-home .tabs-menu-item[data-of-tab-active="true"] {
+  color: #4a90e2;
+}
+
+.kawa-smart-home .tab-content {
+  padding: 15px;
+}
+
+.kawa-smart-home .tab-content a {
+  cursor: pointer;
+}

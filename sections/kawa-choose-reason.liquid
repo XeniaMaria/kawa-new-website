@@ -1,0 +1,133 @@
+<link
+  rel="stylesheet"
+  href="{{ 'kawa-choose-reason.css' | asset_url }}"
+  media="print"
+  onload="this.media='all'"
+/>
+
+<div class="kawa-choose-reason mw-1200-c">
+  <h2 class="choose-reason-title">{{ section.settings.title }}</h2>
+  <div class="card-container flex-b">
+    
+    {%- for block in section.blocks -%}
+    <div class="card-item card-item-{{ forloop.index }} card-radius" {{ block.shopify_attributes }}>
+      <figure class="img-icon">
+
+        {%- case block.settings.card_icon -%}
+          {%- when 'icon-truck' -%}
+            <img
+            src="https://cdn.shopify.com/s/files/1/0504/7094/4954/files/Free_Shipping.png?v=1657165356"
+            />
+          {%- when 'icon-return' -%}
+            <img
+            src="https://cdn.shopify.com/s/files/1/0504/7094/4954/files/20220701-114213.png?v=1657165356"
+            />
+          {%- when 'icon-warranty' -%}
+            <img
+            src="https://cdn.shopify.com/s/files/1/0504/7094/4954/files/Hassle-Free.png?v=1657165356"
+            />                 
+        {%- endcase -%}      
+      </figure>
+      <p class="short-desc">{{ block.settings.card_title }}</p>
+      <div class="card-content">
+        {{ block.settings.card_content }}
+      </div>
+    </div>
+    {%- endfor -%} 
+  </div>
+</div>
+
+<script type="text/javascript">
+  const card1 = document.querySelector(".card-item-1");
+  const card2 = document.querySelector(".card-item-2");
+  const card3 = document.querySelector(".card-item-3");
+
+  const addListener = (el, otherEls) => {
+    el.addEventListener("mouseenter", () => {
+      el.classList.add("is-expand");
+      otherEls.forEach((otherEl) => {
+        otherEl.classList.add("is-collapse");
+      });
+    });
+    el.addEventListener("mouseleave", () => {
+      el.classList.remove("is-expand");
+      otherEls.forEach((otherEl) => {
+        otherEl.classList.remove("is-collapse");
+      });
+    });
+  };
+  addListener(card1, [card2, card3]);
+  addListener(card2, [card1, card3]);
+  addListener(card3, [card1, card2]);
+</script>
+
+{% schema %} 
+{
+    "name": "t:sections.kawa-choose-reason.name",
+    "tag": "section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "标题"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "卡片",
+        "type": "reason_card",
+        "limit": 3,
+        "settings": [
+          {
+            "type": "text",
+            "id": "card_title",
+            "label": "卡片标题"
+          },
+          {
+            "type": "html",
+            "id": "card_content",
+            "label": "卡片内容",
+            "info": "合法的html内容"
+          },
+          {
+            "type": "select",
+            "id": "card_icon",
+            "label": "卡片图标",      
+            "options": [
+              {
+                "value": "icon-truck",
+                "label": "发货快"
+              },
+              {
+                "value": "icon-return",
+                "label": "30天免费退"
+              },
+              {
+                "value": "icon-warranty",
+                "label": "1年保修"
+              }
+            ],
+            "default": "icon-truck"
+          }
+        ]
+      }
+    ],
+    "max_blocks": 3,
+    "presets": [
+      { 
+        "name": "t:sections.kawa-choose-reason.name",
+        "blocks": [
+          {
+            "type": "reason_card"
+          },
+          {
+            "type": "reason_card"
+          },
+          {
+            "type": "reason_card"
+          }
+        ]
+      }
+    ]
+} 
+{% endschema %}

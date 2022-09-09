@@ -1,0 +1,134 @@
+<link
+  rel="stylesheet"
+  href="{{ 'component-header-kawa.css' | asset_url }}"
+  media="print"
+  onload="this.media='all'"
+/>
+<script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+
+<div id="header">
+  <div class="header-wrapper-kawa">
+    <div class="logo-container">
+      <a href="/">
+        <img
+          id="header-logo"
+          class="logo main-header-logo"
+          src="https://cdn.shopify.com/s/files/1/0565/3135/3760/files/logo_2150b735-98c0-4cea-9c3f-00a808884338_128x.png?v=1659002283"
+        />
+      </a>
+    </div>
+    <div class="nav-container">
+      <ul class="nav-left">
+        <li class="nav-item product-menu">
+          <a class="nav-text">Shop</a>
+          <div class="product-sub-menu">
+            <div class="product-category-panel">
+              <ul class="product-category-tab">
+                {%- for collection in section.settings.collection_list -%}
+                  <li class="flex-b category-tab-{{ forloop.index }}">
+                    {{ collection.title }}
+                    <span
+                      class="iconify icon-arrow-right"
+                      data-icon="dashicons:arrow-right-alt2"
+                    ></span>
+                  </li>
+                {%- endfor -%}               
+              </ul>
+              <div class="product-category-content">
+                {%- for collection in section.settings.collection_list -%}
+                  <div class="category-content category-content-{{ forloop.index }}">
+                    <div class="product-card-list flex flex-wrap">
+                      {%- for product in collection.products -%}
+                        <a href="{{ product.url }}" class="product-card-item flex-vc">
+                          <img
+                            class="product-card__img"
+                            alt=""
+                            loading="lazy"
+                            src="{{ product.featured_media | image_url }}"
+                          />
+                          <div class="product-card__name">{{ product.metafields.descriptors.subtitle }}</div>
+                          <div class="product-card__icon flex-cc">
+                            <svg width="35" height="47" viewBox="0 0 35 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M0 44.9922V0H35V44.9922C35 46.4214 33.5443 47.3893 32.2263 46.8365L18.2737 40.9834C17.7788 40.7758 17.2212 40.7758 16.7263 40.9834L2.77367 46.8365C1.45572 47.3893 0 46.4214 0 44.9922Z" fill="#21D2C5"></path>
+                            </svg>
+                            <span class="card-text">{{ product.metafields.custom.label }}</span>
+                          </div>
+                        </a>
+                      {%- endfor -%}                                     
+                    </div>
+                  </div>
+                {%- endfor -%}
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-text">KEEN</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-text">Support</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-text">Deals</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-text">Partner</a>
+        </li>
+      </ul>
+      <ul class="nav-right">
+        <li class="nav-icon search-nav">
+          <a><span class="iconify" data-icon="fe:search"></span></a>
+        </li>
+        <li class="nav-icon account-nav">
+          <a><span class="iconify" data-icon="charm:person"></span></a>
+        </li>
+        <li class="nav-icon manage-nav">
+          <a><span class="iconify" data-icon="bx:shopping-bag"></span></a>
+        </li>
+        <li class="nav-icon lang-nav">
+          <a>
+            <span class="iconify" data-icon="mingcute:earth-line"></span>
+            <span class="current-lang">Other Regions</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  const productCategoryTabList = [];
+  const addTabMenuMouseenter = (tab) => {
+    tab.tabMenu.addEventListener("mouseenter", (e) => {
+      productCategoryTabList.forEach((t) => {
+        t.tabMenu.classList.remove("active");
+        t.tabContent.classList.remove("active");
+      });
+      tab.tabMenu.classList.add("active");
+      tab.tabContent.classList.add("active");
+    });
+  };
+
+  const allTabs = document.getElementsByClassName('category-content')
+  for (let i = 1; i <= allTabs.length; i++) {
+    const temp = {
+      tabMenu: document.querySelector(`.category-tab-${i}`),
+      tabContent: document.querySelector(`.category-content-${i}`),
+    };
+    productCategoryTabList.push(temp);
+    addTabMenuMouseenter(temp);
+  }
+</script>
+
+{% schema %} 
+{ 
+  "name": "t:sections.kawa-header.name",
+  "settings": [
+    {
+     "type": "collection_list",
+     "id": "collection_list",
+     "label": "产品系列列表"
+    }
+  ]
+} 
+{% endschema %}

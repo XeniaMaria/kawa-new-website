@@ -1,0 +1,102 @@
+.kawa-choose-reason .choose-reason-title {
+  margin-bottom: calc(90 / 2580 * 100vw);
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.35;
+  text-align: center;
+  color: #000;
+}
+
+/*默认样式*/
+.kawa-choose-reason .card-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: calc((100% - 40px) / 3);
+  height: 320px;
+  background: #f5f5f7;
+  transition: width 0.3s ease-in;
+}
+
+.card-radius {
+  overflow: hidden;
+  border-radius: 32px;
+}
+
+.kawa-choose-reason .card-item .img-icon {
+  width: 70px;
+  height: 70px;
+}
+
+.kawa-choose-reason .img-icon img {
+  width: 100%;
+  height: auto;
+}
+
+.kawa-choose-reason .short-desc {
+  font-size: 16px;
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.3s;
+  font-weight: 400;
+  color: #000;
+}
+
+.kawa-choose-reason .card-content {
+  display: block;
+  opacity: 0;
+  margin-top: 10px;
+  width: 0%;
+  height: 0%;
+  transition: opacity 0s ease-in;
+  margin-top: 10px;
+}
+
+/*展开样式*/
+.kawa-choose-reason .card-item.is-expand {
+  width: 70%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.kawa-choose-reason .card-item.is-expand .img-icon {
+  height: 48px;
+  width: 48px;
+  margin-right: 16px;
+}
+
+.kawa-choose-reason .card-item.is-expand .short-desc {
+  height: 48px;
+  line-height: 48px;
+  font-weight: 600;
+}
+
+.kawa-choose-reason .card-item.is-expand .card-content {
+  opacity: 1;
+  width: 100%;
+  height: calc(100% - 58px);
+  transition: opacity 0.3s ease-in;
+}
+
+/*折叠样式*/
+.kawa-choose-reason .card-item.is-collapse {
+  width: calc((30% - 20px) / 2);
+}
+
+.kawa-choose-reason .card-item.is-collapse .short-desc {
+  display: none;
+}
+
+@media screen and (max-width: 1920px) and (min-width: 1281px) {
+  .card-radius {
+    border-radius: 24px;
+  }
+
+  .kawa-choose-reason .card-item {
+    width: calc((100% - 20px) / 3);
+    height: 240px;
+  }
+}

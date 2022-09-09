@@ -1,0 +1,105 @@
+{
+  "sections": {
+    "kawa_video_banner": {
+      "type": "kawa-video-banner"
+    },
+    "kawa-new-products": {
+      "type": "kawa-new-products",
+      "settings": {
+        "product_list": [
+          "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6",
+          "kawa-5-720p-hd-display-video-baby-monitor-with-night-vision-temperature-sensor-2-way-audio-pan-tilt-zoom-white-noise-lullaby-20-hours-battery-1000ft-range",
+          "baby-monitor-with-camera-and-audio-kawa-video-baby-monitor-no-wifi-5-720p-hd-display-110-wide-angle-night-vision-temperature-sensor-2-way-audio-ptz-white-noise-20hrs-battery-1000ft-range"
+        ]
+      },
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "New on Kawa Store"
+          }
+        }
+      },
+      "block_order" :[
+        "heading"
+      ]
+    },
+    "kawa-preview-video": {
+      "type": "kawa-preview-video",
+      "settings": {
+        "video_link": "https://cdn.shopify.com/videos/c/o/v/fd5bb78358954e02a5d6013bae20fefc.mp4",
+        "cover_image": "shopify:\/\/shop_images\/my-video-poster.webp"
+      }
+    },
+    "kawa-products-card": {
+      "type": "kawa-products-card",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Kawa Fans Love These Products"
+          }
+        }
+      },
+      "block_order": [
+        "heading"
+      ]
+    },
+    "kawa-video-display": {
+      "type": "kawa-video-display"
+    },
+    "kawa-choose-reason": {
+      "type": "kawa-choose-reason",
+      "blocks": {
+        "card-truck": {
+          "type": "reason_card",
+          "settings": {
+            "card_title": "Fast, Free Shipping",
+            "card_content": "<p>We offer free shipping straight to your door throughout the contiguousUS*.</p><p></p><p>It usually takes 3-7 business days* for your package to be delivered,so you can sit back and relax, worry-free.</p><p>*Please see our shipping policy for more details.</p><p>*Due to COVID-19 shipping times may vary.</p>",
+            "card_icon": "icon-truck"
+          }
+        },
+        "card-return": {
+          "type": "reason_card",
+          "settings": {
+            "card_title": "30-Day Money-Back Guarantee",
+            "card_content": "<p>Get a full refund when you return your undamaged products within 30days - for any reason. Once the item arrives back at the eufywarehouse for inspection, the refund process will begin.</p><p>See our refund policy for more details about what is needed for asmooth refund process..</p>",
+            "card_icon": "icon-return"
+          }
+        },
+        "card-warranty": {
+          "type": "reason_card",
+          "settings": {
+            "card_title": "Hassle-Free Warranty",
+            "card_content": "<p>eufy provides a straightforward, hassle-free warranty to save you someheadaches. All pre-owned and refurbished products come with their ownunique warranty that you can find on the product listing or contact usat support@eufylife.com with your order receipt for confirmation.</p>",
+            "card_icon": "icon-warranty"
+          }
+        }
+      },
+      "block_order": [
+        "card-truck",
+        "card-return",
+        "card-warranty"
+      ],
+      "settings": {
+        "title": "Why Choose Kawa?"
+      }
+    },
+    "kawa-smart-home": {
+      "type": "kawa-smart-home"
+    },
+    "kawa-news": {
+      "type": "kawa-news"
+    }
+  },
+  "order": [
+    "kawa_video_banner",
+    "kawa-new-products",
+    "kawa-preview-video",
+    "kawa-products-card",
+    "kawa-video-display",
+    "kawa-choose-reason",
+    "kawa-smart-home",
+    "kawa-news"
+  ]
+}
