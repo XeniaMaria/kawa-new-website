@@ -90,6 +90,12 @@
     },
     "kawa-news": {
       "type": "kawa-news"
+    },
+    "kawa-email-subscribe": {
+      "type": "kawa-email-subscribe",
+      "settings": {
+        "title": "Subscribe to our emails"
+      }
     }
   },
   "order": [
@@ -100,6 +106,7 @@
     "kawa-video-display",
     "kawa-choose-reason",
     "kawa-smart-home",
-    "kawa-news"
+    "kawa-news",
+    "kawa-email-subscribe"
   ]
 }

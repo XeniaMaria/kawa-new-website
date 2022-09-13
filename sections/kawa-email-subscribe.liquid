@@ -1,0 +1,49 @@
+<link
+  rel="stylesheet"
+  href="{{ 'kawa-email-subscribe.css' | asset_url }}"
+  media="print"
+  onload="this.media='all'"
+/>
+
+<div class="kawa-email-subscribe mw-1200-c">
+    <div class="subscribe-container flex-cc w-1200">
+        <div class="subscribe-box">
+            <div class="subscribe-box__title text-center">
+                {{ section.settings.title }}
+            </div>
+            <div class="subscribe-box__form__wrapper w-100 mw-100">
+                {% form 'customer' %}
+                <input type="hidden" name="contact[tags]" value="newsletter">
+                    <div class="subscribe-form__item flex-c flex-wrap">
+                        <div class="email-input__wrapper w-100">
+                            <input 
+                                class="email-input"
+                                placeholder="Enter your e-mail" 
+                                type="email" 
+                                name="contact[email]"
+                                value="{{ form.email }}"
+                                />
+                        </div>
+                        <div class="submit-btn__wrapper">
+                            <input class="submit-btn pointer" type="submit" id="Subscribe" value="Sign up" />
+                        </div>
+                    </div>
+                {% endform %}
+            </div>
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+  "name": "邮箱订阅模块",
+  "tag": "section",
+  "settings": [
+    {
+        "type": "text",
+        "id": "title",
+        "label": "标题"
+    }
+  ]
+}
+{% endschema %}
