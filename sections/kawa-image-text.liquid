@@ -1,0 +1,40 @@
+{{ "kawa-image-text.css" | asset_url | stylesheet_tag }}
+
+<div class="kawa-image-text mw-1300-c">
+  <div class="image-text-wrapper flex-a w-100">
+    {%- for block in section.blocks -%}
+    <div class="image-text-item flex-v">
+      <img
+        class="w-100-h-auto"
+        src="{{ block.settings.image | image_url }}"
+        loading="lazy"
+        width="100"
+        height="100"
+      />
+      <div class="item-text">
+        <h5>{{ block.settings.title }}</h5>
+        <p>{{ block.settings.content }}</p>
+      </div>
+    </div>
+    {%- endfor -%}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "图片加文字描述",
+  "tag": "section",
+  "max_blocks": 4,
+  "blocks": [
+    {
+      "type": "image_text",
+      "name": "图片文字描述项",
+      "settings": [
+        { "type": "image_picker", "id": "image", "label": "图片" },
+        { "type": "text", "id": "title", "label": "标题" },
+        { "type": "textarea", "id": "content", "label": "内容" }
+      ]
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,17 @@
+.kawa-image-text .image-text-wrapper {
+  gap: 1.71vw;
+  margin-top: 50px;
+  padding-bottom: 30px;
+}
+
+.kawa-image-text .image-text-item {
+  flex: 1;
+}
+
+.kawa-image-text .image-text-item .item-text {
+  padding: 10px 0 0;
+}
+
+.kawa-image-text .image-text-item .item-text h5 {
+    font-size: 25px;
+}

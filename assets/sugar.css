@@ -13,6 +13,10 @@
 .flex {
   display: flex;
 }
+.flex-a {
+  display: flex;
+  justify-content: space-around;
+}
 .flex-b {
   display: flex;
   justify-content: space-between;
@@ -30,6 +34,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.flex-v {
+  display: flex;
+  flex-direction: column;
 }
 .flex-vc {
   display: flex;
@@ -92,8 +100,18 @@
 }
 
 /* 重置部分标签的样式 */
+body {
+  font-weight: 400;
+  font-size: 14px;
+  color: #000;
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
 figure,
 h1,
+h5,
 p {
   margin: 0;
   padding: 0;
@@ -116,4 +134,17 @@ ul {
 }
 li {
   list-style-type: none;
+}
+
+h5 {
+  font-family: Open Sans, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 19px;
+  text-transform: none;
+  line-height: 1.5;
+  display: block;
+  letter-spacing: 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
