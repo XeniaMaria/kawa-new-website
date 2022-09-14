@@ -1,0 +1,83 @@
+{{ "kawa-product-comparison.css" | asset_url | stylesheet_tag }}
+
+<div class="kawa-product-comparison mw-1300-c">
+  <h1 class="product-comparison-title">{{ section.settings.title }}</h1>
+  <div class="product-comparison-wrapper flex-c">
+    {%- liquid assign product1 = section.settings.product_1 
+               assign product2 = section.settings.product_2 
+    -%}
+    <div class="product-comparison-item">
+      <img
+        class="w-100-h-auto"
+        src="{{ product1.featured_media | image_url }}"
+        loading="lazy"
+        width="100"
+        height="100"
+      />
+      <p class="product_subtitle">
+        {{ product1.metafields.descriptors.subtitle }}
+      </p>
+      <p class="product_price">
+        {{ product1.price | money }}
+      </p>
+      <div class="product_desc">
+        {{ section.settings.product_desc_1 }}
+      </div>
+    </div>
+    <div class="product-comparison-item">
+      <img
+        class="w-100-h-auto"
+        src="{{ product2.featured_media | image_url }}"
+        loading="lazy"
+        width="100"
+        height="100"
+      />
+      <p class="product_subtitle">
+        {{ product2.metafields.descriptors.subtitle }}
+      </p>
+      <p class="product_price">
+        {{ product2.price | money }}
+      </p>
+      <div class="product_desc">
+        {{ section.settings.product_desc_2 }}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+    "name": "产品对比",
+    "tag": "section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "标题",
+        "default": "Product Comparison"
+      },
+      {
+        "type": "product",
+        "id": "product_1",
+        "label": "产品1"
+      },
+      {
+        "type": "product",
+        "id": "product_2",
+        "label": "产品2"
+      },
+      {
+        "type": "html",
+        "id": "product_desc_1",
+        "label": "详细对比信息1",
+        "info": "每个对比项用<p></p>标签包围，对比项会自己换行，对比项中换行使用<br>或<br/>"
+      },
+      {
+        "type": "html",
+        "id": "product_desc_2",
+        "label": "详细对比信息2",
+        "info": "每个对比项用<p></p>标签包围，对比项会自己换行，对比项中换行使用<br>或<br/>"
+      }
+    ]
+  }
+{% endschema %}
