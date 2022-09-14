@@ -1,0 +1,91 @@
+{{ "kawa-main-product-carousel.css" | asset_url | stylesheet_tag }}
+
+<div class="kawa-main-product-carousel mw-1300-c {{ section.id }}">
+  <div class="swiper-container">
+    <div class="swiper-item-nav flex-cc">
+      {%- for block in section.blocks -%}
+      <div class="nav-item">{{ block.settings.name }}</div>
+      {%- endfor -%}
+    </div>
+    <div class="swiper-wrapper">
+      {%- for block in section.blocks -%}
+      <div class="swiper-slide">
+        <img
+          src="{{ block.settings.image | image_url }}"
+          ,
+          class="w-100-h-auto {{ forloop.index }}"
+          loading="lazy"
+          width="100"
+          height="100"
+        />
+        <div class="swiper-item-text">
+          <h5>{{ block.settings.title }}</h5>
+          <p>{{ block.settings.content }}</p>
+        </div>
+      </div>
+      {%- endfor -%}
+    </div>
+    <div class="swiper-button-next swiper-button-white"></div>
+    <div class="swiper-button-prev swiper-button-white"></div>
+  </div>
+</div>
+
+<script class="text/javascript">
+  window.addEventListener("load", () => {
+    const sectionId = "{{ section.id }}";
+    const allNavItem = document.querySelectorAll(`.${sectionId} .nav-item`);
+
+    const swiper = new Swiper(`.${sectionId} .swiper-container`, {
+      loop: true,
+      nextButton: `.${sectionId} .swiper-button-next`,
+      prevButton: `.${sectionId} .swiper-button-prev`,
+      onSlideChangeEnd: function (e) {
+        allNavItem.forEach((item) => {
+          item.classList.remove("active");
+        });
+        if (e.activeIndex === 0) {
+          allNavItem[allNavItem.length - 1].classList.add("active");
+        } else if (e.activeIndex <= allNavItem.length) {
+          allNavItem[e.activeIndex - 1].classList.add("active");
+        } else {
+          allNavItem[(e.activeIndex % allNavItem.length) - 1].classList.add(
+            "active"
+          );
+        }
+      },
+    });
+
+    //切换
+    if (allNavItem?.length !== 0) {
+      allNavItem[0].classList.add("active");
+    }
+    allNavItem.forEach((navItem, index) => {
+      navItem.addEventListener("click", () => {
+        allNavItem.forEach((item) => {
+          item.classList.remove("active");
+        });
+        navItem.classList.add("active");
+        swiper.slideTo(index + 1, 1000, false);
+      });
+    });
+  });
+</script>
+
+{% schema %}
+{
+  "name": "产品图片与描述轮播",
+  "tag": "section",
+  "blocks": [
+    {
+      "type": "carousel_item",
+      "name": "轮播项",
+      "settings": [
+        { "type": "text", "id": "name", "label": "名称" },
+        { "type": "text", "id": "title", "label": "描述标题" },
+        { "type": "textarea", "id": "content", "label": "描述内容" },
+        { "type": "image_picker", "id": "image", "label": "图片" }
+      ]
+    }
+  ]
+}
+{% endschema %}

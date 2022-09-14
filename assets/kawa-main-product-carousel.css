@@ -1,0 +1,73 @@
+.kawa-main-product-carousel {
+  margin-top: 40px;
+}
+
+.kawa-main-product-carousel .swiper-button-next,
+.kawa-main-product-carousel .swiper-button-prev {
+  display: block;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: #989b9e;
+  background-size: 10px;
+}
+
+.kawa-main-product-carousel .swiper-item-text {
+  font-family: Open Sans, sans-serif;
+  position: absolute;
+  z-index: 2;
+  max-width: 500px;
+  left: 80px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #fff;
+  padding: 18px 28px;
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  color: #000;
+  line-height: 1.5;
+}
+
+.kawa-main-product-carousel .swiper-item-text h5 {
+  font-weight: 600;
+  font-style: normal;
+  font-size: 19px;
+  text-transform: none;
+  display: block;
+  letter-spacing: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.kawa-main-product-carousel .swiper-item-text p {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+/*轮播图上的按键导航*/
+.kawa-main-product-carousel .swiper-item-nav{
+  position: absolute;
+  z-index: 2;
+  top: 50px;
+  left: 0;
+  width: 100%;
+}
+
+.kawa-main-product-carousel .nav-item {
+  padding: 8px 30px;
+  border: 1px solid #000;
+  background: #fff;
+  color: #000;
+  margin: 0 10px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.kawa-main-product-carousel .nav-item.active {
+  border: 1px solid #fff;
+  background: #000;
+  color: #fff;
+  cursor: default;
+}

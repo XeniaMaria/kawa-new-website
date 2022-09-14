@@ -6,17 +6,65 @@
     "banner": {
       "type": "kawa-main-product-banner",
       "settings": {
-        "banner_image": "shopify:\/\/shop_images\/product-banner.webp"
+        "banner_image": "shopify://shop_images/product-banner.webp"
       }
     },
     "video": {
       "type": "kawa-preview-video",
       "settings": {
         "video_link": "https://cdn.shopify.com/videos/c/o/v/fd5bb78358954e02a5d6013bae20fefc.mp4",
-        "cover_image": "shopify:\/\/shop_images\/my-video-poster.webp",
+        "cover_image": "shopify://shop_images/my-video-poster.webp",
         "max_width": "mw-1300-c",
         "has_border": false
       }
+    },
+    "carousel-1": {
+      "type": "kawa-main-product-carousel",
+      "blocks": {
+        "carousel-item-1": {
+          "type": "carousel_item",
+          "settings": {
+            "name": "Sleep Tracker",
+            "title": "Know Your Baby is Sleeping Well",
+            "content": "Smart sock tracks your baby's real-time sleep data, including heart rate, sleep status, and movements. Easily gain access to the data from your phone so that you can both get a well-deserved, good night's sleep.",
+            "image": "shopify://shop_images/carousel-item-one.webp"
+          }
+        },
+        "carousel-item-2": {
+          "type": "carousel_item",
+          "settings": {
+            "name": "Sleep Analysis",
+            "title": "Sleep Analysis and Reports",
+            "content": "The eufy Baby app provides a daily report for you to better understand your baby's sleep patterns—no subscription fee needed.",
+            "image": "shopify://shop_images/carousel-item-two.webp"
+          }
+        }
+      },
+      "block_order": ["carousel-item-1", "carousel-item-2"]
+    },
+    "carousel-2": {
+      "type": "kawa-main-product-carousel",
+      "blocks": {
+        "carousel-item-1": {
+          "type": "carousel_item",
+          "settings": {
+            "name": "Sleep Tracker",
+            "title": "Know Your Baby is Sleeping Well",
+            "content": "Smart sock tracks your baby's real-time sleep data, including heart rate, sleep status, and movements. Easily gain access to the data from your phone so that you can both get a well-deserved, good night's sleep.",
+            "image": "shopify://shop_images/carousel-item-one.webp"
+          }
+        },
+        "carousel-item-2": {
+          "type": "carousel_item",
+          "settings": {
+            "name": "Sleep Analysis",
+            "title": "Sleep Analysis and Reports",
+            "content": "The eufy Baby app provides a daily report for you to better understand your baby's sleep patterns—no subscription fee needed.",
+            "image": "shopify://shop_images/carousel-item-two.webp"
+          }
+        }
+      },
+      "block_order": ["carousel-item-1", "carousel-item-2"]
     },
     "image-with-text": {
       "type": "image-with-text",
@@ -31,15 +79,12 @@
         "image-with-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "text_style": "body"
           }
         }
       },
-      "block_order": [
-        "image-with-text-0",
-        "image-with-text-1"
-      ],
+      "block_order": ["image-with-text-0", "image-with-text-1"],
       "settings": {
         "height": "small",
         "desktop_image_width": "medium",
@@ -60,7 +105,7 @@
           "type": "column",
           "settings": {
             "title": "Free Shipping",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -69,16 +114,13 @@
           "type": "column",
           "settings": {
             "title": "Hassle-Free Exchanges",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
         }
       },
-      "block_order": [
-        "column-0",
-        "column-1"
-      ],
+      "block_order": ["column-0", "column-1"],
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -117,6 +159,8 @@
     "main",
     "banner",
     "video",
+    "carousel-1",
+    "carousel-2",
     "image-with-text",
     "multicolumn",
     "product-recommendations"
