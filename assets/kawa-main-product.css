@@ -1,0 +1,124 @@
+.kawa-main-product {
+  width: 100%;
+  color: #000;
+}
+
+.kawa-main-product .product-page-header {
+  height: 72px;
+  position: relative;
+  background-origin: #fff;
+  transition: opacity 0.25s;
+  border-top: 1px solid #e5e5e5;
+}
+
+.kawa-main-product .product-short-name {
+  padding: 24px 10px 24px 76px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.kawa-main-product .product-header-nav {
+  padding: 0 5.2% 0 4.2%;
+  min-width: 37.5%;
+}
+
+.kawa-main-product .header-nav-item {
+  position: relative;
+  padding: 24px 0;
+  font-size: 16px;
+  margin: 0 14px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+  color: #000;
+}
+
+.kawa-main-product .header-nav-item.active {
+  font-weight: 700;
+  color: #21d2c5;
+}
+
+.kawa-main-product .header-nav-item::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #21d2c5;
+  transition: 0.2s;
+  transform: scale(0);
+  will-change: transform;
+}
+
+.kawa-main-product .header-nav-item.active::after {
+  transform: scale(1);
+}
+
+.kawa-main-product .product-images {
+  flex: 1;
+  width: 62.5%;
+}
+
+.kawa-main-product .product-information {
+  padding: 2.6% 5.2% 2.6% 4.2%;
+  width: 37.5%;
+  min-width: 500px;
+}
+
+.kawa-main-product .product-page-main {
+  background: #fbfbfb;
+}
+
+/*轮播图样式*/
+.kawa-main-product .main-product-swiper-container {
+  position: sticky;
+  top: 0;
+}
+.kawa-main-product .main-product-button-next,
+.kawa-main-product .main-product-button-prev {
+  display: block;
+  width: 28px;
+  height: 28px;
+  background-color: #989b9e;
+  border-radius: 50%;
+  background-size: 10px;
+}
+.kawa-main-product .swiper-pagination-custom {
+  font-family: Open sans-serif;
+  color: #fff;
+  font-size: 14px;
+  background: #989b9e;
+  border-radius: 5px;
+  padding: 2px 5px;
+  z-index: 9;
+  font-weight: 400;
+  top: 36px;
+  right: 52px;
+  bottom: unset;
+  left: unset;
+  letter-spacing: -1px;
+  width: unset;
+}
+
+/*右侧的产品信息样式*/
+.kawa-main-product .border-bottom {
+  border-bottom: 1px #e5e5e5 solid;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+}
+.kawa-main-product .product-information-name {
+  font-size: 24px;
+  font-weight: 700;
+}
+.kawa-main-product .product-information-price {
+  margin: 8px 0 14px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+}
+.kawa-main-product .iconify {
+  position: relative;
+  top: 8px;
+  margin-right: 5px;
+}

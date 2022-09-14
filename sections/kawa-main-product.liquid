@@ -1,0 +1,96 @@
+{{ 'kawa-main-product.css' | asset_url | stylesheet_tag }}
+<link
+  rel="stylesheet"
+  href="{{ 'swiper.min.css' | asset_url }}"
+  media="print"
+  onload="this.media='all'"
+/>
+<script src="{{ 'swiper.min.js' | asset_url }}" defer="defer"></script>
+
+<div class="kawa-main-product w-100">
+    <div class="product-page-header flex-b">
+        <p class="product-short-name">{{ product.metafields.descriptors.subtitle }}</p>
+        <nav class="product-header-nav flex-bc">
+            <a href="" class="header-nav-item product-nav-item-1 active">Purchase</a>
+            <a href="" class="header-nav-item product-nav-item-2 ">Overview</a>
+            <a href="" class="header-nav-item product-nav-item-3">Compare</a>
+            <a href="" class="header-nav-item product-nav-item-4">FAQ</a>
+            <a href="" class="header-nav-item product-nav-item-5">Reviews</a>
+        </nav>
+    </div>
+
+    <div class="product-page-main flex w-100">
+        <div class="product-images">
+            <div class="swiper-container main-product-swiper-container">
+                <div class="swiper-wrapper">
+                    {%- for image in product.images -%}
+                    <div class="swiper-slide">
+                        <img
+                            src="{{ image | image_url }}"
+                            class="w-100-h-auto"
+                        />                           
+                    </div>
+                    {%- endfor -%}
+                </div>
+                <div class="swiper-pagination swiper-pagination-custom"></div>
+                <div class="main-product-button-next swiper-button-next swiper-button-white"></div>
+                <div class="main-product-button-prev swiper-button-prev swiper-button-white"></div>
+            </div>
+        </div>
+        <div class="product-information">
+            <div class="product-details">
+                <div class="name-and-price border-bottom">
+                    <h1 class="product-information-name">
+                        {{ product.metafields.descriptors.subtitle }}
+                    </h1>
+                    <div class="product-information-price">
+                        {{ product.price | money }}
+                    </div>
+                </div>
+                <div class="product-description border-bottom">
+                    {{ product.description }}
+                </div>
+                <div class="product-rating border-bottom">
+                    5颗星
+                </div>
+                <div class="product-discount-code border-bottom">
+                    折扣码
+                </div>
+                <div class="porduct-share-friend border-bottom">
+                    <span class="iconify" data-icon="humbleicons:tag" data-width="24" data-height="24"></span>
+                    Get $40 for every friend you refer
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    const productTabList = []
+    const onProductTabClick = (tab) => {
+        tab.tabMenu.addEventListener("click",(e) => {
+            productTabList.forEach((t) => {
+                t.tabMenu.classList.remove("active");
+            })
+            tab.tabMenu.classList.add("active")
+        });
+    }
+    for(let i = 1; i <= 5; i++) {
+        const temp = {
+            tabMenu: document.querySelector(`.product-nav-item-${i}`),
+        }
+        productTabList.push(temp)
+        onProductTabClick(temp)
+    }
+
+    window.addEventListener("load", () => {
+        var swiper = new Swiper(".main-product-swiper-container",{
+            loop: true,
+            nextButton: ".main-product-button-next",
+            prevButton: ".main-product-button-prev",
+            pagination: ".swiper-pagination-custom",
+            paginationType: "fraction"
+        })
+    });
+</script>

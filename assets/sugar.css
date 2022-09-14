@@ -13,6 +13,11 @@
   display: flex;
   justify-content: space-between;
 }
+.flex-bc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .flex-c {
   display: flex;
   justify-content: center;
