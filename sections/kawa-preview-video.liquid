@@ -1,13 +1,18 @@
 <link rel="stylesheet" href="{{ 'kawa-preview-video.css' | asset_url }}" media="print" onload="this.media='all'" />
 
-<div class="kawa-preview-video mw-1200-c">
+<div class="kawa-preview-video {{ section.settings.max_width }}">
   <div class="video-player pr w-100">
-    <div class="mask acc wh-100"></div>
+    <div class="mask acc wh-100 {% if section.settings.has_border %} has_border{% endif %}"></div>
     <img class="pointer acc play-icon"
       src="//cdn.shopify.com/s/files/1/0552/2774/4279/t/21/assets/paly.png?v=179953367799169005241660268975" alt=""
       width="48px" height="48px" loading="lazy" />
-    <video class="preview-video w-100" style="display: block" controls="" preload="none" playsinline=""
-      poster="{{ section.settings.cover_image | image_url }}">
+    <video 
+      class="preview-video w-100 {% if section.settings.has_border %} has_border{% endif %}"
+      style="display: block"
+      controls="" preload="none"
+      playsinline=""
+      poster="{{ section.settings.cover_image | image_url }}"
+    >
       <source
         src="{{ section.settings.video_link }}"
         type="video/mp4" />
@@ -49,6 +54,28 @@
       "type": "image_picker",
       "id": "cover_image",
       "label": "视频封面"
+    },
+    {
+      "type": "select",
+      "id": "max_width",
+      "label": "最大宽度",
+      "options": [
+        {
+          "value": "mw-1200-c",
+          "label": "1200px"
+        },
+        {
+          "value": "mw-1300-c",
+          "label": "1300px"
+        }
+      ],
+      "default": "mw-1200-c"
+    },
+    {
+      "type": "checkbox",
+      "id": "has_border",
+      "label": "边框圆角",
+      "default": true
     }
   ],
   "presets": [{ "name": "t:sections.kawa-preview-video.name" }]

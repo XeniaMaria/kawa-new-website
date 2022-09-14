@@ -8,6 +8,9 @@
 
 .kawa-preview-video .mask,
 .kawa-preview-video .preview-video {
-  border-radius: 30px;
   overflow: hidden;
+}
+
+.kawa-preview-video .has_border {
+  border-radius: 30px;
 }
