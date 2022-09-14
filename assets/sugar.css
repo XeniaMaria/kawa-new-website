@@ -6,6 +6,10 @@
 .w-1200 {
   width: 1200px;
 }
+.mw-1300-c {
+  max-width: 1300px;
+  margin: 0 auto;
+}
 .flex {
   display: flex;
 }

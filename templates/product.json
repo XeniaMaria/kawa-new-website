@@ -3,6 +3,12 @@
     "main": {
       "type": "kawa-main-product"
     },
+    "banner": {
+      "type": "kawa-main-product-banner",
+      "settings": {
+        "banner_image": "shopify:\/\/shop_images\/product-banner.webp"
+      }
+    },
     "image-with-text": {
       "type": "image-with-text",
       "blocks": {
@@ -100,6 +106,7 @@
   },
   "order": [
     "main",
+    "banner",
     "image-with-text",
     "multicolumn",
     "product-recommendations"

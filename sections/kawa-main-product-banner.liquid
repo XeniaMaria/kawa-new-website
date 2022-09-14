@@ -1,0 +1,22 @@
+{{ 'kawa-main-product-banner.css' | asset_url | stylesheet_tag }}
+
+<div class="kawa-main-product-banner mw-1300-c">
+    <img
+        class="w-100-h-auto"
+        src="{{ section.settings.banner_image | image_url }}"
+    />
+</div>
+
+{% schema %}
+{
+    "name": "产品banner",
+    "tag": "section",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "banner_image",
+            "label": "banner图"
+        }
+    ]
+}
+{% endschema %}
