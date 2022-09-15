@@ -172,12 +172,16 @@
           }
         }
       },
-      "block_order": [
-        "faq-1",
-        "faq-2",
-        "faq-3",
-        "faq-4"
-      ]
+      "block_order": ["faq-1", "faq-2", "faq-3", "faq-4"]
+    },
+    "video-text": {
+      "type": "kawa-video-text",
+      "settings": {
+        "video_link": "https://cdn.shopify.com/videos/c/o/v/fd5bb78358954e02a5d6013bae20fefc.mp4",
+        "title": "Super Fun Time Lapse",
+        "content": "E1 Outdoor with time lapse makes it quicker and easier to capture the dynamic of long-term events like sun rising and flower blooming. Have fun shooting movie-like videos!",
+        "warning": "* This feature is incompatible when camera is connected to NVRs."
+      }
     }
   },
   "order": [
@@ -189,6 +193,7 @@
     "image-text-1",
     "image-text-2",
     "product-comparison",
-    "faq"
+    "faq",
+    "video-text"
   ]
 }

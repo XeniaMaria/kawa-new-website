@@ -1,0 +1,40 @@
+{{ "kawa-video-text.css" | asset_url | stylesheet_tag }}
+
+<div class="kawa-video-text">
+  <div class="kawa-video-text-wrapper">
+    <div class="video-text__video">
+      <video loop muted autoplay="autoplay">
+        <source type="video/mp4" src="{{ section.settings.video_link }}" />
+      </video>
+    </div>
+    <div class="text-content">
+      <h3 class="text-content-title">
+        {{ section.settings.title }}
+      </h3>
+      <p class="text-content-description">
+        {{ section.settings.content }}
+      </p>
+      <p class="text-content-warning">
+        {{ section.settings.warning }}
+      </p>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "视频和文本介绍",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "url",
+      "id": "video_link",
+      "label": "视频链接",
+      "info": "将mp4文件上传后，复制链接。"
+    },
+    { "type": "text", "id": "title", "label": "标题" },
+    { "type": "textarea", "id": "content", "label": "内容" },
+    { "type": "textarea", "id": "warning", "label": "警告" }
+  ]
+}
+{% endschema %}

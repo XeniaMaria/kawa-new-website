@@ -1,0 +1,56 @@
+.kawa-video-text {
+  margin-top: 50px;
+}
+
+.kawa-video-text .kawa-video-text-wrapper {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.kawa-video-text video {
+  width: 620px;
+  height: 380px;
+  object-fit: fill;
+}
+
+.kawa-video-text .video-text__video {
+  width: 50%;
+  margin: 0;
+}
+
+.kawa-video-text .text-content {
+  margin-left: 100px;
+  display: inline-block;
+  width: 500px;
+  vertical-align: middle;
+}
+
+.kawa-video-text .text-content-title {
+  font-family: Quicksand !important;
+  font-weight: 500 !important;
+  line-height: 1.2;
+  margin-bottom: 40px;
+  font-size: 46px;
+  color: #333;
+}
+
+.kawa-video-text .text-content-description {
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: 400;
+  color: #333;
+  display: inline-block;
+  margin-bottom: 0 !important;
+  width: 500px;
+}
+
+.kawa-video-text .text-content-warning {
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: 400;
+  color: red;
+  display: inline-block;
+  margin-bottom: 0 !important;
+  margin-top: 12px;
+}
