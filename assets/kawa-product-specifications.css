@@ -1,0 +1,12 @@
+.kawa-product-specifications {
+  margin-top: 50px;
+}
+
+.kawa-product-specifications .specifications-title {
+  margin-bottom: 14px;
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 600;
+}

@@ -5,8 +5,8 @@
 
   {%- for block in section.blocks -%}
   <div {{ block.shopify_attributes }}>
-    <div class="kawa-accordion faq-item flex-b">
-      <span class="faq-question">
+    <div class="kawa-accordion">
+      <span class="kawa-accordion-name">
         {{ block.settings.question }}
       </span>
       <span
@@ -14,29 +14,14 @@
         data-icon="dashicons:arrow-right-alt2"
       ></span>
     </div>
-    <div class="kawa-accordion-content faq-solution">
-      <span class="faq-solution-content">
+    <div class="kawa-accordion-content">
+      <span class="accordion-content__inner">
         {{ block.settings.solution }}
       </span>
     </div>
   </div>
   {%- endfor -%}
 </div>
-
-<script>
-  const allAccordion = document.getElementsByClassName("kawa-accordion");
-  Array.from(allAccordion).forEach((e) => {
-    e.addEventListener("click", function () {
-      this.classList.toggle("active");
-      const contentElm = e.nextElementSibling;
-      if (contentElm.style.display === "none" || !contentElm.style.display) {
-        contentElm.style.display = "block";
-      } else {
-        contentElm.style.display = "none";
-      }
-    });
-  });
-</script>
 
 {% schema %}
 {
