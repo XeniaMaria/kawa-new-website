@@ -1,4 +1,8 @@
 /* 自定义样式 */
+.mw-1000-c {
+  max-width: 1000px;
+  margin: 0 auto;
+}
 .mw-1200-c {
   max-width: 1200px;
   margin: 0 auto;

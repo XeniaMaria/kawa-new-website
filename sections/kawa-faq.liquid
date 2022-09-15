@@ -1,0 +1,59 @@
+{{ "kawa-faq.css" | asset_url | stylesheet_tag }}
+
+<div class="kawa-faq mw-1000-c">
+  <h1 class="title">{{ section.settings.title }}</h1>
+
+  {%- for block in section.blocks -%}
+  <div {{ block.shopify_attributes }}>
+    <div class="kawa-accordion faq-item flex-b">
+      <span class="faq-question">
+        {{ block.settings.question }}
+      </span>
+      <span
+        class="iconify icon-arrow-right"
+        data-icon="dashicons:arrow-right-alt2"
+      ></span>
+    </div>
+    <div class="kawa-accordion-content faq-solution">
+      <span class="faq-solution-content">
+        {{ block.settings.solution }}
+      </span>
+    </div>
+  </div>
+  {%- endfor -%}
+</div>
+
+<script>
+  const allAccordion = document.getElementsByClassName("kawa-accordion");
+  Array.from(allAccordion).forEach((e) => {
+    e.addEventListener("click", function () {
+      this.classList.toggle("active");
+      const contentElm = e.nextElementSibling;
+      if (contentElm.style.display === "none" || !contentElm.style.display) {
+        contentElm.style.display = "block";
+      } else {
+        contentElm.style.display = "none";
+      }
+    });
+  });
+</script>
+
+{% schema %}
+{
+  "name": "FAQ",
+  "tag": "section",
+  "settings": [
+    { "type": "text", "id": "title", "label": "标题", "default": "FAQ" }
+  ],
+  "blocks": [
+    {
+      "type": "faq_item",
+      "name": "faq项",
+      "settings": [
+        { "type": "text", "id": "question", "label": "问题" },
+        { "type": "textarea", "id": "solution", "label": "解答" }
+      ]
+    }
+  ]
+}
+{% endschema %}
