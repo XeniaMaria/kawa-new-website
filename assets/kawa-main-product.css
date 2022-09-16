@@ -11,6 +11,19 @@
   border-top: 1px solid #e5e5e5;
 }
 
+.kawa-main-product .product-page-header.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  z-index: 99;
+  transition: transform 0.3s, opacity 0.25s;
+  will-change: transform;
+  visibility: visible;
+  opacity: 1;
+}
+
 .kawa-main-product .product-short-name {
   padding: 24px 10px 24px 76px;
   font-size: 16px;
