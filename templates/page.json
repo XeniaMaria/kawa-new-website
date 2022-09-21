@@ -1,14 +1,50 @@
 {
   "sections": {
-    "main": {
-      "type": "main-page",
-      "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
-      }
+    "test-club": {
+      "type": "kawa-test-club",
+      "blocks": {
+        "product_card_1": {
+          "type": "testing_product_card",
+          "settings": {
+            "card_product": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6",
+            "required": 5,
+            "applied": 382,
+            "star_number": 4,
+            "comment_number": 312,
+            "valid_area": "US"
+          }
+        },
+        "product_card_2": {
+          "type": "testing_product_card",
+          "settings": {
+            "card_product": "kawa-5-720p-hd-display-video-baby-monitor-with-night-vision-temperature-sensor-2-way-audio-pan-tilt-zoom-white-noise-lullaby-20-hours-battery-1000ft-range",
+            "required": 5,
+            "applied": 382,
+            "star_number": 4.5,
+            "comment_number": 383,
+            "valid_area": "US"
+          }
+        },
+        "product_card_3": {
+          "type": "testing_product_card",
+          "settings": {
+            "card_product": "baby-monitor-with-camera-and-audio-kawa-video-baby-monitor-no-wifi-5-720p-hd-display-110-wide-angle-night-vision-temperature-sensor-2-way-audio-ptz-white-noise-20hrs-battery-1000ft-range",
+            "required": 5,
+            "applied": 382,
+            "star_number": 5,
+            "comment_number": 182,
+            "valid_area": "US"
+          }
+        }
+      },
+      "block_order":[
+        "product_card_1",
+        "product_card_2",
+        "product_card_3"
+      ]
     }
   },
   "order": [
-    "main"
+    "test-club"
   ]
 }

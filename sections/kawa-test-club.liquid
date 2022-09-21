@@ -1,0 +1,152 @@
+<link
+  rel="stylesheet"
+  href="{{ 'kawa-test-club.css' | asset_url }}"
+  media="print"
+  onload="this.media='all'"
+/>
+
+<div class="kawa-test-club mw-1200-c">
+  <div class="test-club-tabs flex-c">
+    <div class="test-club-tag test-club-tag-1 is-active">ACTIVE TESTING</div>
+    <div class="test-club-tag test-club-tag-2">RULES</div>
+  </div>
+
+  <div class="test-club-content test-club-content-1 is-active">
+    <div class="row">
+        {% for block in section.blocks %}
+            {%- assign product = block.settings.card_product -%}
+            <div class="col-xl-4 col-md-6 col-12" {{ block.shopify_attributes }}>
+                <div class="testing-product-card">
+                    <div class="product-image-wrapper flex-cc">
+                        <img
+                            class="testing-product-image"
+                            loading="lazy"
+                            src="{{ product.featured_media | image_url }}"
+                            width="100"
+                            height="100"
+                        />
+                    </div>
+                    <div class="testing-product-title" title="{{ product.title }}">
+                        {{ product.title }}
+                    </div>
+                    <div class="flex-a testing-product-info">
+                        <div class="flex-vbc">
+                            <div class="testing-product-discount-price">
+                                {{ product.price | money }}
+                            </div>
+                            <div class="testing-product-price">
+                                {{ product.price | money }}
+                            </div>
+                        </div>
+                        <div class="testing-product-divider"></div>
+                        <div class="flex-vbc">
+                            <div class="testing-product-count">
+                                {{ block.settings.required }}
+                            </div>
+                            <div class="testing-product-note">Required</div>
+                        </div>
+                        <div class="testing-product-divider"></div>
+                        <div class="flex-vbc">
+                            <div class="testing-product-count">
+                                {{ block.settings.applied }}
+                            </div>
+                            <div class="testing-product-note">Applied</div>
+                        </div>
+                    </div>
+                    <div class="testing-product-star flex-c">
+                        <div class="testing-product-star-container">                           
+                            {% render 'kawa-star-rate',
+                                star_number: block.settings.star_number
+                            %}
+                        </div>
+                        <div class="testing-product-comment-number">
+                            <span style="padding: 0px 10px;">
+                                {{ block.settings.comment_number }}
+                            </span>
+                        </div>
+                    </div>
+                    <div class="testing-product-area">
+                        Valid In: {{ block.settings.valid_area }}
+                    </div>
+                    <button class="testing-product-apply-button">
+                        APPLY NOW
+                    </button>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+  </div>
+  <div class="test-club-content test-club-content-2">
+  </div>
+</div>
+
+<script type="text/javascript">
+  (function () {
+    const testClubTabList = [];
+    const onTab = (tab) => {
+      tab.tabMenu.addEventListener("click", (e) => {
+        testClubTabList.forEach((t) => {
+          t.tabMenu.classList.remove("is-active");
+          t.tabContent.classList.remove("is-active");
+        });
+        tab.tabMenu.classList.add("is-active");
+        tab.tabContent.classList.add("is-active");
+      });
+    };
+
+    const allTabs = document.getElementsByClassName("test-club-content");
+    for (let i = 1; i <= allTabs.length; i++) {
+      const temp = {
+        tabMenu: document.querySelector(`.test-club-tag-${i}`),
+        tabContent: document.querySelector(`.test-club-content-${i}`),
+      };
+      testClubTabList.push(temp);
+      onTab(temp);
+    }
+  })();
+</script>
+
+{% schema %} 
+{ 
+    "name": "产品测试", 
+    "tag": "section",
+    "blocks": [
+        {
+            "type": "testing_product_card",
+            "name": "正在测试的产品",
+            "settings": [
+                {
+                    "type": "product",
+                    "id": "card_product",
+                    "label": "产品"
+                },
+                {
+                    "type": "number",
+                    "id": "required",
+                    "label": "Required"
+                },
+                {
+                    "type": "number",
+                    "id": "applied",
+                    "label": "Applied"
+                },
+                {
+                   "type": "number",
+                   "id": "star_number",
+                   "label": "评价星级"
+                },
+                {
+                    "type": "number",
+                    "id": "comment_number",
+                    "label": "评价数量"
+                },
+                {
+                    "type": "text",
+                    "id": "valid_area",
+                    "label": "有效地区"
+                }
+            ]
+        }
+    ] 
+} 
+{% endschema %}
