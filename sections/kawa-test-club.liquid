@@ -11,7 +11,7 @@
             <div class="test-club-tag test-club-tag-1 is-active">ACTIVE TESTING</div>
             <div class="test-club-tag test-club-tag-2">RULES</div>
           </div>
-        
+
           <div class="test-club-content test-club-content-1 is-active">
             <div class="row">
                 {% for block in section.blocks %} {%- assign product =
@@ -25,6 +25,8 @@
                       src="{{ product.featured_media | image_url }}"
                       width="100"
                       height="100"
+                      data-product-id="{{ product.id }}"
+                      onclick="displayProductDetail(this)"
                     />
                   </div>
                   <div
@@ -95,7 +97,7 @@
                         ></span>
                       </button>
                     </div>
-        
+
                     <!-- 模态框主体 -->
                     <div class="modal-body">
                       <h6 class="testing-product-form__title">TEST APPLY FORM</h6>
@@ -175,12 +177,11 @@
                             id="testing-customer-remark"
                           />
                         </div>
-        
+
                         <div class="testing-form-submit flex-c">
                           <input
                             type="submit"
                             value="Apply By Email"
-                            onclick="() => false"
                           />
                         </div>
                         {%- endform -%}
@@ -253,16 +254,25 @@
             </div>
           </div>
     </div>
-    <div class="testing-product-detail">
-        {% for block in section.blocks %} {%- assign product =
-            block.settings.card_product -%}
-            
+    <div class="testing-product-detail" style="display: none;">
+        <div class="go-back-btn" onclick="goBackProductList()">
+            <span class="iconify" data-icon="bytesize:chevron-left"></span>
+            <span>goback</span>
+        </div>
+        {% for block in section.blocks %}
+            <div class="testing-product-detail__item" data-product-id="{{ block.settings.card_product.id }}" style="display: none;">
+                {% render 'kawa-product-detail',
+                    cur_product: block.settings.card_product,
+                    star_number: block.settings.star_number
+                %}
+            </div>
         {% endfor %}
     </div>
 </div>
 
 <script type="text/javascript">
   (function () {
+    //tab页
     const testClubTabList = [];
     const onTab = (tab) => {
       tab.tabMenu.addEventListener("click", (e) => {
@@ -285,6 +295,37 @@
       onTab(temp);
     }
   })();
+
+  //产品详细信息页
+  const productListContainer = document.querySelector('.testing-product-list');
+  const productDetailContainer =  document.querySelector('.testing-product-detail')
+  const productIdElePairs = [];
+  const allProductDetails = document.getElementsByClassName('testing-product-detail__item')
+  Array.from(allProductDetails).forEach((item) => {
+    const productId = item.getAttribute('data-product-id');
+    const pair = {
+        id: productId,
+        ele: item
+    }
+    productIdElePairs.push(pair);
+  })
+  //根据id显示产品详情页
+  const displayProductDetail = (obj) => {
+    const productId = obj.getAttribute('data-product-id');
+    const pair = productIdElePairs.find((item) => {
+        return item.id === productId
+    })
+    productListContainer.style.display = "none";
+    productDetailContainer.style.display = "block";
+    pair.ele.style.display = "block";
+  }
+  const goBackProductList = () => {
+    productDetailContainer.style.display = "none";
+    productIdElePairs.forEach((item) => {
+        item.ele.style.display = "none";
+    })
+    productListContainer.style.display = "block";
+  }
 </script>
 
 {% schema %}

@@ -1,0 +1,47 @@
+/*轮播图样式*/
+.kawa-product-detail .main-product-swiper-container {
+  position: sticky;
+  top: 0;
+}
+.kawa-product-detail .main-product-button-next,
+.kawa-product-detail .main-product-button-prev {
+  display: block;
+  width: 28px;
+  height: 28px;
+  background-color: #989b9e;
+  border-radius: 50%;
+  background-size: 10px;
+}
+.kawa-product-detail .swiper-pagination-custom {
+  font-family: Open sans-serif;
+  color: #fff;
+  font-size: 14px;
+  background: #989b9e;
+  border-radius: 5px;
+  padding: 2px 5px;
+  z-index: 9;
+  font-weight: 400;
+  top: 36px;
+  right: 52px;
+  bottom: unset;
+  left: unset;
+  letter-spacing: -1px;
+  width: unset;
+}
+
+/*右侧的产品信息样式*/
+.kawa-product-detail .border-bottom {
+  border-bottom: 1px #e5e5e5 solid;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+}
+.kawa-product-detail .product-information-name {
+  font-size: 24px;
+  font-weight: 700;
+}
+.kawa-product-detail .product-information-price {
+  margin: 8px 0 14px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+}

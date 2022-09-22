@@ -1,0 +1,84 @@
+{% comment %}
+    Renders a product detail information  产品的详细信息
+
+    Accepts:
+    - cur_product: {Object}  要渲染的产品对象
+    - star_number: {Number}  默认为0,最大为5，传入非整数表示半星
+
+    Usage:
+    {% render 'kawa-product-detail' %}
+{% endcomment %}
+
+{%- if cur_product and cur_product != empty -%}
+    {{ "kawa-product-detail.css" | asset_url | stylesheet_tag }}
+    <link
+    rel="stylesheet"
+    href="{{ 'swiper.min.css' | asset_url }}"
+    media="print"
+    onload="this.media='all'"
+    />
+    <script src="{{ 'swiper.min.js' | asset_url }}" defer="defer"></script>
+
+    <div class="kawa-product-detail w-100">
+        <div class="product-page-main row">
+            <div class="product-images col-md-6">
+                <div class="swiper-container main-product-swiper-container">
+                    <div class="swiper-wrapper">
+                        {%- for image in cur_product.images -%}
+                            <div class="swiper-slide">
+                                <img
+                                    src="{{ image | image_url }}"
+                                    loading="lazy"
+                                    class="w-100-h-auto"
+                                    width="100"
+                                    height="100"
+                                />
+                            </div>
+                        {%- endfor -%}
+                    </div>
+                <div class="swiper-pagination swiper-pagination-custom"></div>
+                    <div
+                        class="main-product-button-next swiper-button-next swiper-button-white"
+                    ></div>
+                    <div
+                        class="main-product-button-prev swiper-button-prev swiper-button-white"
+                    ></div>
+                </div>
+            </div>
+            <div class="product-information col-md-6">
+                <div class="product-details">
+                    <div class="name-and-price border-bottom">
+                        <h1 class="product-information-name">
+                        {{ cur_product.metafields.descriptors.subtitle }}
+                        </h1>
+                        <div class="product-information-price">
+                        {{ cur_product.price | money }}
+                        </div>
+                    </div>
+                    <div class="product-description border-bottom">
+                        {{ cur_product.description }}
+                    </div>
+                    <div class="product-rating border-bottom">
+                        {% render 'kawa-star-rate',
+                            star_number: star_number
+                        %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+    window.addEventListener("load", () => {
+        var swiper = new Swiper(".main-product-swiper-container", {
+        loop: true,
+        nextButton: ".main-product-button-next",
+        prevButton: ".main-product-button-prev",
+        pagination: ".swiper-pagination-custom",
+        paginationType: "fraction",
+        observer: true,
+        observeParents: true
+        });
+    });
+    </script>
+{%- endif -%}

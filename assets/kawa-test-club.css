@@ -2,6 +2,11 @@
   margin-bottom: 32px;
 }
 
+.kawa-test-club .testing-product-list,
+.kawa-test-club .testing-product-detail {
+  transition: all 0.5s ease-out;
+}
+
 .kawa-test-club .test-club-tag {
   width: 170px;
   padding-bottom: 12px;
@@ -237,3 +242,15 @@ label.required::after {
 }
 
 /* 产品详情页 */
+.kawa-test-club .go-back-btn {
+  color: rgba(0, 0, 0, 0.35);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 10px;
+  display: inline-block;
+  cursor: pointer;
+}
+.kawa-test-club .go-back-btn:hover {
+  color: rgba(0, 0, 0, 0.65);
+}
