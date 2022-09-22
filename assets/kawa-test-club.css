@@ -140,3 +140,100 @@
   vertical-align: top;
   cursor: pointer;
 }
+
+.kawa-test-club .modal-header {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.kawa-test-club .modal-body {
+  padding: 10px 40px;
+}
+
+.kawa-test-club .testing-product-form__title {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #000;
+  text-align: center;
+}
+
+.kawa-test-club .testing-product-form__description {
+  margin-bottom: 20px;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 12px;
+}
+
+.kawa-test-club .testing-product-form {
+  text-align: left;
+}
+
+/* 客户提交的信息表单 */
+.kawa-test-club .testing-product-form .testing-form-item {
+  margin-bottom: 15px;
+}
+
+.kawa-test-club .testing-product-form label {
+  display: block;
+  height: 20px;
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+.kawa-test-club .testing-product-form input[type="text"] {
+  display: block;
+  width: 100%;
+  height: 38px;
+  padding: 6px 12px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.kawa-test-club .testing-product-form input[type="text"]:focus {
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+
+.kawa-test-club .testing-form-submit {
+  margin-top: 20px;
+}
+.kawa-test-club .testing-form-submit input {
+  width: 60%;
+  height: 40px;
+  font-size: 16px;
+  color: #fff;
+  background: #faa72d;
+  border: none;
+}
+
+label.required::after {
+  content: "*";
+  color: red;
+  margin-left: 5px;
+}
+
+/*rules部分*/
+.test-club-content .testing-rules-content {
+  margin-bottom: 40px;
+  padding: 20px 40px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 25px;
+}
+@media (min-width: 768px) {
+  .test-club-content .testing-rules-content {
+    padding: 40px 100px;
+  }
+}
+
+/* 产品详情页 */

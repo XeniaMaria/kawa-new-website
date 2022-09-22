@@ -1,0 +1,49 @@
+{% comment %}
+    Renders a start rate   5星评分
+
+    Accepts:
+    - star_number: {Number} 默认为0,最大为5，传入非整数表示半星
+
+    Usage:
+    {% render 'kawa-start-rate' %}
+{% endcomment %}
+
+{%- liquid
+    if star_number > 5
+        assign real_star_number = 5
+    else
+        assign real_star_number = star_number
+    endif
+-%}
+{%- assign solid_star_number = real_star_number | floor -%}
+{%- assign half_start_number = 0 -%}
+{%- assign origin_star_number = real_star_number -%}
+{%- for i in (1..solid_star_number) -%}
+    <span 
+        class="iconify"
+        data-icon="ic:baseline-star"
+        style="color: #ffc200;"
+        data-width="20"
+        data-height="20"
+        ></span>
+{%- endfor -%}
+{%- unless origin_star_number == solid_star_number -%}     
+    {%- assign half_start_number = 1 -%}                               
+    <span 
+        class="iconify"
+        data-icon="ic:baseline-star-half"
+        style="color: #ffc200;"
+        data-width="20"
+        data-height="20"
+        ></span>
+{%- endunless -%}
+{%- assign border_star_number =  5 | minus: solid_star_number | minus: half_start_number -%}
+{%- for i in (1..border_star_number) -%}
+    <span 
+        class="iconify"
+        data-icon="ic:baseline-star-border"
+        style="color: #ffc200;"
+        data-width="20"
+        data-height="20"
+        ></span>
+{%- endfor -%}

@@ -1,0 +1,8 @@
+/* 重置bootstrap部分样式 */
+.modal {
+  background: rgba(0, 0, 0, 0.5);
+}
+body.modal-open {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
