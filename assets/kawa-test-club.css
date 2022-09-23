@@ -250,6 +250,20 @@ label.required::after {
   color: rgba(0, 0, 0, 0.65);
 }
 
+/* 推荐区 */
+.kawa-test-club .testing-product-recommend__title {
+  margin: 20px 0;
+  color: rgba(0, 0, 0, 0.55);
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+}
+.kawa-test-club .testing-product-recommend__item {
+  height: auto;
+  width: 100%;
+  cursor: pointer;
+}
+
 .kawa-test-club .testing-product-comments {
   border-top: 1px solid #dee2e6;
 }

@@ -266,6 +266,23 @@
                     star_number: block.settings.star_number
                 %}
 
+                <div class="testing-proudct-recommend">
+                  <div class="testing-product-recommend__title">
+                    More Recommended Products
+                  </div>
+                  {%- for recommend in section.blocks limit: 3 -%}
+                    <img
+                    src="{{ recommend.settings.card_product.featured_media | image_url }}"
+                    class="testing-product-recommend__item col-xl-4 col-md-6 col-12"
+                    loading="lazy"
+                    width="100"
+                    height="100"
+                    data-product-id="{{ recommend.settings.card_product.id }}"
+                    onclick="displayProductDetail(this)"
+                    />
+                  {%- endfor -%}
+                </div>
+
                 <div class="testing-product-comments">
                   <div class="testing-product-comments_title">
                     Product Comments
@@ -347,6 +364,9 @@
     const productId = obj.getAttribute('data-product-id');
     const pair = productIdElePairs.find((item) => {
         return item.id === productId
+    })
+    productIdElePairs.forEach((item) => {
+        item.ele.style.display = "none";
     })
     productListContainer.style.display = "none";
     productDetailContainer.style.display = "block";
