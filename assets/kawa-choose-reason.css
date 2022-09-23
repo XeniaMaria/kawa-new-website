@@ -100,3 +100,32 @@
     height: 240px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .kawa-choose-reason .card-container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .kawa-choose-reason .card-item {
+    margin-bottom: calc(32 / 750 * 100vw);
+    padding: 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    height: calc(184 / 750 * 100vw);
+  }
+
+  .kawa-choose-reason .img-icon {
+    margin-left: 8vw;
+    margin-right: calc(40 / 750 * 100vw);
+    width: 48px;
+    height: 48px;
+  }
+
+  .kawa-choose-reason .short-desc {
+    margin-right: 8vw;
+    font-size: calc(28 / 750 * 100vw);
+    text-align: left;
+  }
+}

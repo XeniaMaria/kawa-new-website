@@ -28,7 +28,7 @@
     />
     <div class="swiper-container product-swiper-container">
       <div class="swiper-wrapper">
-        {% for product in section.settings.product_list %}         
+        {% for product in section.settings.product_list %}
           <div class="swiper-slide swiper-slide-product">
             <div class="slide-item-content acc h-100">
               <h1 class="slide-item-title"> {{ product.metafields.descriptors.subtitle }} </h1>
@@ -56,16 +56,27 @@
   window.addEventListener("load", () => {
     var mySwipe = new Swiper(".product-swiper-container", {
       autoplay: 5000,
+      paginationClickable: true,
       loop: true,
       slidesPerView: 3,
       spaceBetween: 24,
+      breakpoints: {
+        720: {
+          slidesPerView: 2,
+          spaceBetween: 16
+        },
+        576: {
+          slidesPerView: 1,
+          spaceBetween: 8,
+        }
+      },
       nextButton: ".swiper-next",
       prevButton: ".swiper-prev",
     });
   });
 </script>
 
-{% schema %} 
+{% schema %}
 {
   "name": "t:sections.kawa-product-carousel.name",
   "tag": "section",

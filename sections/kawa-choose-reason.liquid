@@ -8,7 +8,7 @@
 <div class="kawa-choose-reason mw-1200-c">
   <h2 class="choose-reason-title">{{ section.settings.title }}</h2>
   <div class="card-container flex-b">
-    
+
     {%- for block in section.blocks -%}
     <div class="card-item card-item-{{ forloop.index }} card-radius" {{ block.shopify_attributes }}>
       <figure class="img-icon">
@@ -16,24 +16,33 @@
         {%- case block.settings.card_icon -%}
           {%- when 'icon-truck' -%}
             <img
-            src="https://cdn.shopify.com/s/files/1/0504/7094/4954/files/Free_Shipping.png?v=1657165356"
+              src="https://cdn.shopify.com/s/files/1/0504/7094/4954/files/Free_Shipping.png?v=1657165356"
+              loading="lazy"
+              width="100"
+              height="100"
             />
           {%- when 'icon-return' -%}
             <img
-            src="https://cdn.shopify.com/s/files/1/0504/7094/4954/files/20220701-114213.png?v=1657165356"
+              src="https://cdn.shopify.com/s/files/1/0504/7094/4954/files/20220701-114213.png?v=1657165356"
+              loading="lazy"
+              width="100"
+              height="100"
             />
           {%- when 'icon-warranty' -%}
             <img
-            src="https://cdn.shopify.com/s/files/1/0504/7094/4954/files/Hassle-Free.png?v=1657165356"
-            />                 
-        {%- endcase -%}      
+              src="https://cdn.shopify.com/s/files/1/0504/7094/4954/files/Hassle-Free.png?v=1657165356"
+              loading="lazy"
+              width="100"
+              height="100"
+            />
+        {%- endcase -%}
       </figure>
       <p class="short-desc">{{ block.settings.card_title }}</p>
       <div class="card-content">
         {{ block.settings.card_content }}
       </div>
     </div>
-    {%- endfor -%} 
+    {%- endfor -%}
   </div>
 </div>
 
@@ -61,7 +70,7 @@
   addListener(card3, [card1, card2]);
 </script>
 
-{% schema %} 
+{% schema %}
 {
     "name": "t:sections.kawa-choose-reason.name",
     "tag": "section",
@@ -92,7 +101,7 @@
           {
             "type": "select",
             "id": "card_icon",
-            "label": "卡片图标",      
+            "label": "卡片图标",
             "options": [
               {
                 "value": "icon-truck",
@@ -114,7 +123,7 @@
     ],
     "max_blocks": 3,
     "presets": [
-      { 
+      {
         "name": "t:sections.kawa-choose-reason.name",
         "blocks": [
           {
@@ -129,5 +138,5 @@
         ]
       }
     ]
-} 
+}
 {% endschema %}
