@@ -1,0 +1,40 @@
+{% comment %}
+    Renders a product detail information  产品的详细信息
+
+    Accepts:
+    - name: {String}  评论者
+    - avatar: {String}  url,评论者头像
+    - date: {String} 评论日期
+    - star_number: {Number} 此条评论的星级
+    - content: {String} 评论的内容
+
+    Usage:
+    {% render 'kawa-product-comment' %}
+{% endcomment %}
+
+{{ "kawa-product-comment.css" | asset_url | stylesheet_tag }}
+<div class="kawa-product-comment">
+    <div class="kawa-product-comment__name">
+        <div class="avatar-wrapper">
+            <img
+            src="{{ avatar | image_url }}"
+            class="kawa-product-comment__avatar"
+            loading="lazy"
+            width="35"
+            height="35"
+        />
+        </div>
+        <span>{{ name }}</span>
+    </div>
+    <div class="kawa-product-comment__date">
+        Reviewed on {{ date }}
+    </div>
+    <div class="kawa-product-comment__star">
+        {% render 'kawa-star-rate',
+            star_number: star_number
+        %}
+    </div>
+    <div class="kawa-product-comment__content">
+        {{ content }}
+    </div>
+</div>

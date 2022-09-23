@@ -254,7 +254,7 @@
             </div>
           </div>
     </div>
-    <div class="testing-product-detail" style="display: none;">
+    <div class="testing-product-detail container" style="display: none;">
         <div class="go-back-btn" onclick="goBackProductList()">
             <span class="iconify" data-icon="bytesize:chevron-left"></span>
             <span>goback</span>
@@ -265,6 +265,39 @@
                     cur_product: block.settings.card_product,
                     star_number: block.settings.star_number
                 %}
+
+                <div class="testing-product-comments">
+                  <div class="testing-product-comments_title">
+                    Product Comments
+                  </div>
+                  <div class="testing-product-comment__item">
+                    {% render 'kawa-product-comment',
+                      name: block.settings.comment_1_name,
+                      avatar: block.settings.comment_1_avatar,
+                      date: block.settings.comment_1_date,
+                      star_number: block.settings.comment_1_star_number,
+                      content: block.settings.comment_1_content;
+                    %}
+                  </div>
+                  <div class="testing-product-comment__item">
+                    {% render 'kawa-product-comment',
+                      name: block.settings.comment_2_name,
+                      avatar: block.settings.comment_2_avatar,
+                      date: block.settings.comment_2_date,
+                      star_number: block.settings.comment_2_star_number,
+                      content: block.settings.comment_2_content;
+                    %}
+                  </div>
+                  <div class="testing-product-comment__item">
+                    {% render 'kawa-product-comment',
+                      name: block.settings.comment_3_name,
+                      avatar: block.settings.comment_3_avatar,
+                      date: block.settings.comment_3_date,
+                      star_number: block.settings.comment_3_star_number,
+                      content: block.settings.comment_3_content;
+                    %}
+                  </div>
+                </div>
             </div>
         {% endfor %}
     </div>
@@ -366,6 +399,90 @@
             "type": "text",
             "id": "valid_area",
             "label": "有效地区"
+          },
+          {
+            "type": "text",
+            "id": "comment_1_name",
+            "label": "评论1的评论者名称"
+          },
+          {
+            "type": "image_picker",
+            "id": "comment_1_avatar",
+            "label": "评论1的评论者头像"
+          },
+          {
+            "type": "text",
+            "id": "comment_1_date",
+            "label": "评论1的评论日期",
+            "info": "正确的日期字符串"
+          },
+          {
+            "type": "number",
+            "id": "comment_1_star_number",
+            "label": "评论1的星级",
+            "info": "整数n等于n颗星,任何小数都等于半颗星,最大值为5"
+          },
+          {
+            "type": "textarea",
+            "id": "comment_1_content",
+            "info": "评论1的内容",
+            "label": "输入任何内容"
+          },
+          {
+            "type": "text",
+            "id": "comment_2_name",
+            "label": "评论2的评论者名称"
+          },
+          {
+            "type": "image_picker",
+            "id": "comment_2_avatar",
+            "label": "评论2的评论者头像"
+          },
+          {
+            "type": "text",
+            "id": "comment_2_date",
+            "label": "评论2的评论日期",
+            "info": "正确的日期字符串"
+          },
+          {
+            "type": "number",
+            "id": "comment_2_star_number",
+            "label": "评论2的星级",
+            "info": "整数n等于n颗星,任何小数都等于半颗星,最大值为5"
+          },
+          {
+            "type": "textarea",
+            "id": "comment_2_content",
+            "info": "评论2的内容",
+            "label": "输入任何内容"
+          },
+          {
+            "type": "text",
+            "id": "comment_3_name",
+            "label": "评论3的评论者名称"
+          },
+          {
+            "type": "image_picker",
+            "id": "comment_3_avatar",
+            "label": "评论3的评论者头像"
+          },
+          {
+            "type": "text",
+            "id": "comment_3_date",
+            "label": "评论3的评论日期",
+            "info": "正确的日期字符串"
+          },
+          {
+            "type": "number",
+            "id": "comment_3_star_number",
+            "label": "评论3的星级",
+            "info": "整数n等于n颗星,任何小数都等于半颗星,最大值为5"
+          },
+          {
+            "type": "textarea",
+            "id": "comment_3_content",
+            "info": "评论3的内容",
+            "label": "输入任何内容"
           }
         ]
       }
