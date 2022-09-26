@@ -8,7 +8,7 @@
   color: #000;
 }
 
-.products-card-container .container-all-card .product-card {
+.products-card-container .product-card {
   border-radius: 24px;
   overflow: hidden;
   margin-bottom: 20px;
@@ -24,7 +24,7 @@
   width: calc(50% - 10px);
 }
 
-.products-card-container .product-card .card-description-box {
+.products-card-container .card-description-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -41,7 +41,7 @@
 
 .products-card-container .product-card-second .description-title,
 .products-card-container .product-card-third .description-title {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 .products-card-container .product-card .description-desc {
@@ -70,12 +70,48 @@
 
 .products-card-container .product-card-second .learn-more-btn,
 .products-card-container .product-card-third .learn-more-btn {
-    height: 48px;
-    width: 140px;
-    border-radius: 24px;
-    font-size: 14px;
+  height: 48px;
+  width: 140px;
+  border-radius: 24px;
+  font-size: 14px;
 }
 
 .products-card-container .product-card .learn-more-btn:hover {
   background-color: rgba(0, 0, 0, 0.08);
+}
+
+@media screen and (max-width: 576px) {
+  .kawa-products-card__section {
+    background: linear-gradient(0deg, white, #f5f5f7 10%, #f5f5f7 90%, white);
+    padding-bottom: 50px;
+  }
+
+  .products-card-container {
+    padding: 0 24px;
+  }
+
+  .products-card-container .product-card {
+    margin-bottom: 32px;
+    width: 100%;
+    background: #ffffff;
+  }
+
+  .products-card-container
+    .container-all-card
+    .product-card.product-card-second,
+  .products-card-container
+    .container-all-card
+    .product-card.product-card-third {
+    width: 100%;
+  }
+
+  .products-card-container .card-description-box {
+    padding: 32px;
+    position: static;
+    height: auto;
+  }
+
+  .products-card-container .product-card .learn-more-btn {
+    display: none;
+  }
 }

@@ -104,7 +104,7 @@
   position: relative;
   top: 0;
   color: #fff;
-  transition: top .5s;
+  transition: top 0.5s;
 }
 
 .video-banner .banner-btn:hover {
@@ -121,4 +121,10 @@
   margin-left: 10px;
   position: relative;
   top: 4px;
+}
+
+@media screen and (max-width: 576px) {
+  .kawa-video-banner-section {
+    top: 0;
+  }
 }

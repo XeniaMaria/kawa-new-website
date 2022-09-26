@@ -1,0 +1,21 @@
+.kawa-product-tabs .product-tabs-title {
+  max-width: 1080px;
+  margin: 0 auto;
+  font-weight: 500;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 46px;
+}
+
+.kawa-product-tabs .product-tabs-description {
+  max-width: 1080px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #333;
+  line-height: 1.6;
+  letter-spacing: -0.3px;
+  font-size: 18px;
+  font-family: Quicksand, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}

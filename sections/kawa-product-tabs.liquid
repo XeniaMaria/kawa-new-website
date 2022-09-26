@@ -1,0 +1,67 @@
+{{ "kawa-product-tabs.css" | asset_url | stylesheet_tag }}
+
+<link
+  rel="stylesheet"
+  href="{{ 'swiper.min.css' | asset_url }}"
+  media="print"
+  onload="this.media='all'"
+/>
+<script src="{{ 'swiper.min.js' | asset_url }}" defer="defer"></script>
+
+<div class="kawa-product-tabs mw-1300-c">
+    <h3 class="product-tabs-title">
+        {{ section.settings.title }}
+    </h3>
+    <p class="product-tabs-description">
+        {{ section.settings.description }}
+    </p>
+    <div class="tabs-container">
+        {%- for block in section.blocks -%}
+            
+        {%- endfor -%}
+    </div>
+</div>
+
+{% schema %}
+{
+   "name": "视频/图片加描述tabs",
+   "tag": "section",
+   "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "标题"
+        },
+        {
+            "type": "textarea",
+            "id": "description",
+            "label": "描述"
+        }
+   ],
+   "blocks": [
+        {
+            "type": "tab_item",
+            "name": "tab项",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "name",
+                    "label": "tab名称"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "图片",
+                    "info": "图片和视频只用设置其中一个。"
+                },
+                {
+                    "type": "url",
+                    "id": "video_link",
+                    "label": "视频链接",
+                    "info": "图片和视频只用设置其中一个。"
+                }
+            ]
+        }
+   ]
+}
+{% endschema %}

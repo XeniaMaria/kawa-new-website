@@ -33,6 +33,7 @@
 
 .kawa-video-display .all-video {
   margin-top: 50px;
+  overflow: hidden;
 }
 
 .kawa-video-display .video-item {

@@ -6,3 +6,6 @@ body.modal-open {
     overflow-y: auto;
     overflow-x: hidden;
 }
+body {
+  font-size: 14px ;
+}
