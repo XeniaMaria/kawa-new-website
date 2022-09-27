@@ -28,40 +28,58 @@
             <div class="product-category-panel">
               <ul class="product-category-tab">
                 {%- for collection in section.settings.collection_list -%}
-                  <li class="flex-b category-tab-{{ forloop.index }}">
-                    {{ collection.title }}
-                    <span
-                      class="iconify icon-arrow-right"
-                      data-icon="dashicons:arrow-right-alt2"
-                    ></span>
-                  </li>
+                <li class="flex-b category-tab-{{ forloop.index }}">
+                  {{ collection.title }}
+                  <span
+                    class="iconify icon-arrow-right"
+                    data-icon="dashicons:arrow-right-alt2"
+                  ></span>
+                </li>
                 {%- endfor -%}
               </ul>
               <div class="product-category-content">
                 {%- for collection in section.settings.collection_list -%}
-                  <div class="category-content category-content-{{ forloop.index }}">
-                    <div class="product-card-list flex flex-wrap">
-                      {%- for product in collection.products -%}
-                        <a href="{{ product.url }}" class="product-card-item flex-vc">
-                          <img
-                            class="product-card__img"
-                            alt=""
-                            loading="lazy"
-                            src="{{ product.featured_media | image_url }}"
-                            width="100"
-                            height="100"
-                          />
-                          <div class="product-card__name">{{ product.metafields.descriptors.subtitle }}</div>
-                          <div class="product-card__icon flex-cc">
-                            <svg width="35" height="47" viewBox="0 0 35 47" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M0 44.9922V0H35V44.9922C35 46.4214 33.5443 47.3893 32.2263 46.8365L18.2737 40.9834C17.7788 40.7758 17.2212 40.7758 16.7263 40.9834L2.77367 46.8365C1.45572 47.3893 0 46.4214 0 44.9922Z" fill="#21D2C5"></path>
-                            </svg>
-                            <span class="card-text">{{ product.metafields.custom.label }}</span>
-                          </div>
-                        </a>
-                      {%- endfor -%}
-                    </div>
+                <div
+                  class="category-content category-content-{{ forloop.index }}"
+                >
+                  <div class="product-card-list flex flex-wrap">
+                    {%- for product in collection.products -%}
+                    <a
+                      href="{{ product.url }}"
+                      class="product-card-item flex-vc"
+                    >
+                      <img
+                        class="product-card__img"
+                        alt=""
+                        loading="lazy"
+                        src="{{ product.featured_media | image_url }}"
+                        width="100"
+                        height="100"
+                      />
+                      <div class="product-card__name">
+                        {{ product.metafields.descriptors.subtitle }}
+                      </div>
+                      <div class="product-card__icon flex-cc">
+                        <svg
+                          width="35"
+                          height="47"
+                          viewBox="0 0 35 47"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M0 44.9922V0H35V44.9922C35 46.4214 33.5443 47.3893 32.2263 46.8365L18.2737 40.9834C17.7788 40.7758 17.2212 40.7758 16.7263 40.9834L2.77367 46.8365C1.45572 47.3893 0 46.4214 0 44.9922Z"
+                            fill="#21D2C5"
+                          ></path>
+                        </svg>
+                        <span class="card-text">{{
+                          product.metafields.custom.label
+                        }}</span>
+                      </div>
+                    </a>
+                    {%- endfor -%}
                   </div>
+                </div>
                 {%- endfor -%}
               </div>
             </div>
@@ -98,12 +116,35 @@
         </li>
       </ul>
       <div class="nav-hamburger">
-        <span class="iconify" data-icon="cil:hamburger-menu" data-width="51" data-height="51"></span>
+        <span
+          class="iconify nav-switch"
+          data-icon="cil:hamburger-menu"
+        ></span>
       </div>
     </div>
     <div class="cart-icon-container">
-      <span class="iconify" data-icon="ion:cart-outline" data-width="51" data-height="51" style="color: #333;" ></span>
+      <span
+        class="iconify"
+        data-icon="ion:cart-outline"
+        style="color: #333"
+      ></span>
     </div>
+  </div>
+
+  <!-- drawer -->
+  <div class="kawa-drawer">
+    <span
+      class="iconify kawa-drawer-close"
+      data-icon="ant-design:close-outlined"
+    ></span>
+    <ul class="sidebar-menu">
+      <li>
+        <a>Shop</a>
+      </li>
+      <li>
+        <a>Keen</a>
+      </li>
+    </ul>
   </div>
 </div>
 
@@ -120,7 +161,7 @@
     });
   };
 
-  const allTabs = document.getElementsByClassName('category-content')
+  const allTabs = document.getElementsByClassName("category-content");
   for (let i = 1; i <= allTabs.length; i++) {
     const temp = {
       tabMenu: document.querySelector(`.category-tab-${i}`),
@@ -129,17 +170,28 @@
     productCategoryTabList.push(temp);
     addTabMenuMouseenter(temp);
   }
+
+  //drawer
+  window.addEventListener("load", () => {
+    const drawerEle = document.querySelector(".kawa-drawer");
+    const drawerTrigger = document.querySelector(".nav-hamburger .nav-switch");
+    const menu = document.querySelector(".sidebar-menu");
+    const mainContent = document.querySelector("#MainContent");
+    drawerEle.style.transition = "all 0.3s ease-in";
+    drawerTrigger.onclick = () => {
+      drawerEle.classList.add("drawer-display");
+      mainContent.style.display = "none";
+    };
+    drawerEle.onclick = () => {
+      drawerEle.classList.remove("drawer-display");
+      mainContent.style.display = "block";
+    };
+    menu.onclick = (e) => {
+      e.stopPropagation();
+    };
+  });
 </script>
 
-{% schema %}
-{
-  "name": "t:sections.kawa-header.name",
-  "settings": [
-    {
-     "type": "collection_list",
-     "id": "collection_list",
-     "label": "产品系列列表"
-    }
-  ]
-}
-{% endschema %}
+{% schema %} { "name": "t:sections.kawa-header.name", "settings": [ { "type":
+"collection_list", "id": "collection_list", "label": "产品系列列表" } ] } {%
+endschema %}

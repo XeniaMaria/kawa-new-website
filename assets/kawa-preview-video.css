@@ -14,3 +14,15 @@
 .kawa-preview-video .has_border {
   border-radius: 30px;
 }
+
+@media screen and (max-width: 900px) {
+  .kawa-preview-video {
+    margin-top: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .kawa-preview-video .has_border {
+    border-radius: 20px;
+  }
+}

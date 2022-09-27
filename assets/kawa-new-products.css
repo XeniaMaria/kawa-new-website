@@ -5,7 +5,7 @@
   justify-content: center;
 }
 
-.new-products-title {
+.kawa-new-products .new-products-title {
   margin-bottom: 25px;
   font-size: 40px;
   font-weight: 500;
@@ -27,7 +27,7 @@
   overflow: hidden;
 }
 
-.swiper-slide .slide-item-title {
+.kawa-new-products .slide-item-title {
   padding-top: 2vw;
   padding-bottom: 4px;
   font-size: 24px;
@@ -40,7 +40,7 @@
   font-weight: normal;
 }
 
-.swiper-slide .slide-item-button {
+.kawa-new-products .slide-item-button {
   max-width: 150px;
   width: 12vw;
   height: 36px;
@@ -63,17 +63,17 @@
   transition: all 0.3s ease-in-out;
 }
 
-.swiper-prev,
-.swiper-next {
+.kawa-new-products .swiper-prev,
+.kawa-new-products .swiper-next {
   width: 20px;
   cursor: pointer;
 }
 
-.swiper-prev {
+.kawa-new-products .swiper-prev {
   margin-right: 24px;
 }
 
-.swiper-next {
+.kawa-new-products .swiper-next {
   margin-left: 24px;
 }
 
@@ -86,4 +86,42 @@
 
 .product-image:hover {
   transform: scale(1.05);
+}
+
+@media screen and (max-width: 767px) {
+  .kawa-new-products .new-products-title {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #171717;
+    line-height: 1.3;
+    font-family: Poppins;
+  }
+
+  .kawa-new-products .slide-item-title {
+    font-size: 20px;
+    padding-top: 36px;
+  }
+
+  .swiper-prev,
+  .swiper-next {
+    width: 12px;
+    height: 21px;
+  }
+
+  .kawa-new-products .swiper-prev {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .kawa-new-products .swiper-next {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .kawa-new-products .slide-item-button {
+    width: 150px;
+    bottom: 20px;
+  }
 }
