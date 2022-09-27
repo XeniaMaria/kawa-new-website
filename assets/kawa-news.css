@@ -16,11 +16,10 @@
 
 .kawa-news .all-news {
   background-color: #d3d4d733;
+  margin-left: 0;
 }
 
 .kawa-news .news-item {
-  max-width: calc(100% / 3);
-  flex-grow: 1;
   padding: 15px;
 }
 
@@ -70,5 +69,5 @@
 
 .kawa-news .icon-arrow-right {
   position: relative;
-  top: 2px;
+  bottom: 2px;
 }
