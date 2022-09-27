@@ -45,3 +45,14 @@
 .kawa-smart-home .tab-content a {
   cursor: pointer;
 }
+
+@media screen and (max-width: 767px) {
+  .kawa-smart-home .smart-home-title {
+    font-size: 30px;
+  }
+
+  .kawa-smart-home .tabs-menu-item {
+    font-size: 13px;
+    padding: 10px;
+  }
+}

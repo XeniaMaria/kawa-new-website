@@ -25,7 +25,7 @@
   border-radius: 32px;
 }
 
-.kawa-choose-reason .card-item .img-icon {
+.kawa-choose-reason .img-icon {
   width: 70px;
   height: 70px;
 }
@@ -90,6 +90,41 @@
   display: none;
 }
 
+/* 模态框 */
+.kawa-choose-reason .modal-content {
+  padding: 10px 20px 20px 20px;
+  border-radius: 16px;
+  width: calc(100% - 32px);
+  margin: 0 auto;
+}
+
+.kawa-choose-reason .modal-header {
+  border-bottom: none;
+  padding-right: 0;
+  padding-top: 0;
+}
+
+.kawa-choose-reason .modal-body {
+  padding: 0;
+}
+
+.kawa-choose-reason .modal-header button {
+  font-size: 25px;
+}
+
+.kawa-choose-reason .modal-img-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.kawa-choose-reason .modal-desc {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
+
 @media screen and (max-width: 1920px) and (min-width: 1281px) {
   .card-radius {
     border-radius: 24px;
@@ -102,6 +137,16 @@
 }
 
 @media screen and (max-width: 768px) {
+  .kawa-choose-reason {
+    padding: 0 24px;
+  }
+
+  .kawa-choose-reason .choose-reason-title {
+    margin: 0% 10%;
+    margin-bottom: 8vw;
+    font-size: calc(32 / 750 * 100vw);
+  }
+
   .kawa-choose-reason .card-container {
     flex-direction: column;
     width: 100%;
@@ -114,6 +159,7 @@
     justify-content: flex-start;
     width: 100%;
     height: calc(184 / 750 * 100vw);
+    border-radius: 32px;
   }
 
   .kawa-choose-reason .img-icon {
@@ -127,5 +173,31 @@
     margin-right: 8vw;
     font-size: calc(28 / 750 * 100vw);
     text-align: left;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .kawa-choose-reason {
+    padding: 0 16px;
+  }
+
+  .kawa-choose-reason .choose-reason-title {
+    margin: 0% 10% 30px;
+    font-size: 20px;
+  }
+
+  .kawa-choose-reason .card-item {
+    margin-bottom: calc(32 / 750 * 100vw);
+    padding: 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    height: calc(184 / 750 * 100vw);
+    border-radius: 20px;
+  }
+
+  .kawa-choose-reason .img-icon {
+    margin-left: 28px;
+    margin-right: 20px;
   }
 }
