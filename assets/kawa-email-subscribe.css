@@ -26,6 +26,7 @@
 
 .subscribe-box .email-input__wrapper {
   flex: 3 0 80%;
+  margin-bottom: 1rem;
 }
 
 .subscribe-box .email-input {
@@ -74,4 +75,50 @@
       rgba(255, 255, 255, 0.2)
     ),
     black !important;
+}
+
+@media screen and (max-width: 768px) {
+  .subscribe-box .subscribe-box__title {
+    font-size: 3.2vw;
+  }
+
+  .kawa-email-subscribe .subscribe-container {
+    padding: 50px 24px;
+  }
+
+  .subscribe-box .email-input__wrapper {
+    flex: 3 0 calc(100% - 150px);
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .subscribe-box .subscribe-box__title {
+    font-size: 16px;
+  }
+
+  .kawa-email-subscribe .subscribe-container {
+    padding: 50px 16px;
+    border-radius: 0;
+    margin-top: 30px;
+  }
+
+  .subscribe-box .email-input__wrapper {
+    flex: 1 0 100%;
+  }
+
+  .subscribe-box .email-input {
+    height: 50px;
+    line-height: 50px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 14px;
+  }
+
+   .subscribe-box .submit-btn {
+    height: 50px;
+    line-height: 50px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 14px;
+  }
 }

@@ -14,20 +14,20 @@
             <div class="subscribe-box__form__wrapper w-100 mw-100">
                 {% form 'customer' %}
                 <input type="hidden" name="contact[tags]" value="newsletter">
-                    <div class="subscribe-form__item flex-c flex-wrap">
-                        <div class="email-input__wrapper w-100">
-                            <input
-                                class="email-input"
-                                placeholder="Enter your e-mail"
-                                type="email"
-                                name="contact[email]"
-                                value="{{ form.email }}"
-                                />
-                        </div>
-                        <div class="submit-btn__wrapper">
-                            <input class="submit-btn pointer" type="submit" id="Subscribe" value="Sign up" />
-                        </div>
+                <div class="subscribe-form__item flex-c flex-wrap">
+                    <div class="email-input__wrapper w-100">
+                        <input
+                            class="email-input"
+                            placeholder="Enter your e-mail"
+                            type="email"
+                            name="contact[email]"
+                            value="{{ form.email }}"
+                            />
                     </div>
+                    <div class="submit-btn__wrapper">
+                        <input class="submit-btn pointer" type="submit" id="Subscribe" value="Sign up" />
+                    </div>
+                </div>
                 {% endform %}
             </div>
         </div>
