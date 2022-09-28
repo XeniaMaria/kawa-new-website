@@ -253,12 +253,12 @@
   box-sizing: border-box;
 }
 
-#header .sidebar-menu li {
+#header .sidebar-menu > li {
   font-size: 4.2vw;
   background: #f7f8f9;
 }
 
-#header .sidebar-menu li a {
+#header .sidebar-menu > li > a {
   display: block;
   background: #f7f8f9;
   padding: 4vw 0;
@@ -266,6 +266,70 @@
   margin-right: 4.2vw;
   border-bottom: 1px solid #d6d8d8;
   color: #333;
+}
+
+#header .sidebar-menu > li > a:hover {
+  text-decoration: none;
+}
+
+/* 移动端的产品系列菜单 */
+#header .sidebar-menu > li svg {
+  color: #00ade5;
+  transition: transform 0.3s ease;
+}
+#header .sidebar-menu > li.is-open svg {
+  transform: rotate(180deg);
+}
+#header .sidebar-menu > li.is-open {
+  background-color: #fff;
+}
+#header .sidebar-menu > li.is-open a {
+  background-color: #fff;
+  border: none;
+  display: block;
+}
+#header li .sidebar-sub-menu {
+  display: none;
+}
+#header li.is-open .sidebar-sub-menu {
+  display: block;
+  padding-bottom: 5vw;
+}
+#header .sidebar-sub-menu > li {
+  padding: 0 8vw;
+  background-color: #fff;
+}
+#header .sidebar-sub-menu > li > a {
+  font-size: 3.4vw;
+  margin: 0;
+  border: none;
+  padding-top: 7.7vw;
+  padding-bottom: 0;
+}
+#header .sidebar-sub-menu > li:first-child > a {
+  padding-top: 2vw;
+}
+/* 产品列表 */
+#header .sidebar-sub-menu .collection-menu-products {
+  display: none;
+}
+#header
+  .sidebar-sub-menu.sidebar-sub-menu
+  .is-expand
+  .collection-menu-products {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 4vw;
+}
+#header .sidebar-sub-menu .product-card-link {
+  width: 45%;
+  margin-right: 5%;
+  margin-bottom: 3.4vw;
+}
+#header .sidebar-sub-menu .product-card-subtitle {
+  text-align: center;
+  font-size: 3.3vw;
+  color: #777;
 }
 
 @media screen and (max-width: 576px) {

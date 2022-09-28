@@ -116,10 +116,7 @@
         </li>
       </ul>
       <div class="nav-hamburger">
-        <span
-          class="iconify nav-switch"
-          data-icon="cil:hamburger-menu"
-        ></span>
+        <span class="iconify nav-switch" data-icon="cil:hamburger-menu"></span>
       </div>
     </div>
     <div class="cart-icon-container">
@@ -138,12 +135,54 @@
       data-icon="ant-design:close-outlined"
     ></span>
     <ul class="sidebar-menu">
-      <li>
-        <a>Shop</a>
+      {%- for link in linklists.main-menu.links -%}
+      <li class="{%- if link.links.size > 0 -%}has-child{%- endif -%}">
+        <a
+          href="{{ link.url }}"
+          class="d-flex justify-content-between align-items-center"
+        >
+          {{ link.title }}
+          {%- if link.links.size > 0 -%}
+          <span class="iconify" data-icon="ep:arrow-down-bold"></span>
+          {%- endif -%}
+        </a>
+        {%- if link.links.size > 0 -%}
+        <ul class="sidebar-sub-menu">
+          {%- for sub-link in link.links -%} {%- case sub-link.type -%} {%- when
+          'collection_link' -%}
+          <li class="collection-menu">
+            <a>
+              {{ sub-link.title }}
+            </a>
+            {%- assign collection = sub-link.object -%}
+            <div class="collection-menu-products">
+              {%- for product in collection.products -%}
+              <a href="{{ product.url }}" class="product-card-link">
+                <img
+                  src="{{ product.featured_media | image_url }}"
+                  class="w-100-h-auto"
+                  loading="lazy"
+                  width="100"
+                  height="100"
+                />
+                <div class="product-card-subtitle">
+                  {{ product.metafields.descriptors.subtitle }}
+                </div>
+              </a>
+              {%- endfor -%}
+            </div>
+          </li>
+          {%- else -%}
+          <li>
+            <a href="{{ sub-link.url }}">
+              {{ sub-link.title }}
+            </a>
+          </li>
+          {%- endcase -%} {%- endfor -%}
+        </ul>
+        {%- endif -%}
       </li>
-      <li>
-        <a>Keen</a>
-      </li>
+      {%- endfor -%}
     </ul>
   </div>
 </div>
@@ -187,6 +226,38 @@
       mainContent.style.display = "block";
     };
     menu.onclick = (e) => {
+      e.stopPropagation();
+    };
+  });
+
+  //拥有子元素的菜单
+  const hasChildMenus = document.querySelectorAll(".sidebar-menu .has-child");
+  Array.from(hasChildMenus).forEach((hasChildMenu) => {
+    hasChildMenu.onclick = () => {
+      hasChildMenu.classList.toggle("is-open");
+    };
+  });
+  //产品系列菜单
+  const collectionMenus = document.querySelectorAll(
+    ".sidebar-menu .sidebar-sub-menu .collection-menu"
+  );
+  Array.from(collectionMenus).forEach((collectionMenu) => {
+    collectionMenu.onclick = (e) => {
+      if (!collectionMenu.classList.contains("is-expand")) {
+        Array.from(collectionMenus).forEach((cm) => {
+          cm.classList.remove("is-expand");
+        });
+      }
+      collectionMenu.classList.toggle("is-expand");
+      e.stopPropagation();
+    };
+  });
+  //阻止事件冒泡
+  const collectionMenuProducts = document.querySelectorAll(
+    ".sidebar-menu .sidebar-sub-menu .collection-menu .collection-menu-products"
+  );
+  Array.from(collectionMenuProducts).forEach((el) => {
+    el.onclick = (e) => {
       e.stopPropagation();
     };
   });
