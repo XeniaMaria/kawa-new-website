@@ -55,6 +55,7 @@
 #header .nav-left {
   padding-left: 38px;
   list-style-type: none;
+  margin-bottom: 0;
 }
 
 #header .nav-left > li,
@@ -76,7 +77,7 @@
 
 #header .nav-left > li > a:hover {
   border-bottom: 3px solid #00ade5;
-  padding-bottom: 30px;
+  padding-bottom: 32px;
 }
 
 #header .nav-right > li {
@@ -184,6 +185,7 @@
 
 .product-sub-menu .product-card-item:hover {
   background: #f8f8f8;
+  text-decoration: none;
 }
 
 .product-card-item .product-card__img {

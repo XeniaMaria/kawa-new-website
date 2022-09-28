@@ -22,81 +22,80 @@
     </div>
     <div class="nav-container">
       <ul class="nav-left">
-        <li class="nav-item product-menu">
-          <a class="nav-text">Shop</a>
-          <div class="product-sub-menu">
-            <div class="product-category-panel">
-              <ul class="product-category-tab">
-                {%- for collection in section.settings.collection_list -%}
-                <li class="flex-b category-tab-{{ forloop.index }}">
-                  {{ collection.title }}
-                  <span
-                    class="iconify icon-arrow-right"
-                    data-icon="dashicons:arrow-right-alt2"
-                  ></span>
-                </li>
-                {%- endfor -%}
-              </ul>
-              <div class="product-category-content">
-                {%- for collection in section.settings.collection_list -%}
-                <div
-                  class="category-content category-content-{{ forloop.index }}"
-                >
-                  <div class="product-card-list flex flex-wrap">
-                    {%- for product in collection.products -%}
-                    <a
-                      href="{{ product.url }}"
-                      class="product-card-item flex-vc"
-                    >
-                      <img
-                        class="product-card__img"
-                        alt=""
-                        loading="lazy"
-                        src="{{ product.featured_media | image_url }}"
-                        width="100"
-                        height="100"
-                      />
-                      <div class="product-card__name">
-                        {{ product.metafields.descriptors.subtitle }}
+        {% for link in linklists.main-menu.links %}
+          <li class="nav-item {% if link.title == 'Shop' -%} product-menu {%- endif %}">
+            <a href="{{ link.url }}" class="nav-text">
+              {{ link.title }}
+            </a>
+
+            {% if link.links.size > 0 %}
+              <div class="product-sub-menu">
+                <div class="product-category-panel">
+                  <ul class="product-category-tab">
+                    {%- for sub_link in link.links -%}
+                    {%- assign collection = sub_link.object -%}
+                      <li class="flex-b category-tab-{{ forloop.index }}">
+                        {{ collection.title }}
+                        <span
+                          class="iconify icon-arrow-right"
+                          data-icon="dashicons:arrow-right-alt2"
+                        ></span>
+                      </li>
+                    {%- endfor -%}
+                  </ul>
+                  <div class="product-category-content">
+                    {%- for sub_link in link.links -%}
+                    {%- assign collection = sub_link.object -%}
+                      <div
+                        class="category-content category-content-{{ forloop.index }}"
+                      >
+                        <div class="product-card-list flex flex-wrap">
+                          {%- for product in collection.products -%}
+                            <a
+                              href="{{ product.url }}"
+                              class="product-card-item flex-vc"
+                            >
+                              <img
+                                class="product-card__img"
+                                alt=""
+                                loading="lazy"
+                                src="{{ product.featured_media | image_url }}"
+                                width="100"
+                                height="100"
+                              />
+                              <div class="product-card__name">
+                                {{ product.metafields.descriptors.subtitle }}
+                              </div>
+                              {%- if product.metafields.custom.label != nil -%}
+                                <div class="product-card__icon flex-cc">
+                                  <svg
+                                    width="35"
+                                    height="47"
+                                    viewBox="0 0 35 47"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                  >
+                                    <path
+                                      d="M0 44.9922V0H35V44.9922C35 46.4214 33.5443 47.3893 32.2263 46.8365L18.2737 40.9834C17.7788 40.7758 17.2212 40.7758 16.7263 40.9834L2.77367 46.8365C1.45572 47.3893 0 46.4214 0 44.9922Z"
+                                      fill="#21D2C5"
+                                    ></path>
+                                  </svg>
+                                  <span class="card-text">{{
+                                    product.metafields.custom.label
+                                  }}</span>
+                                </div>
+                              {%- endif -%}
+                            </a>
+                        {%- endfor -%}
                       </div>
-                      <div class="product-card__icon flex-cc">
-                        <svg
-                          width="35"
-                          height="47"
-                          viewBox="0 0 35 47"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M0 44.9922V0H35V44.9922C35 46.4214 33.5443 47.3893 32.2263 46.8365L18.2737 40.9834C17.7788 40.7758 17.2212 40.7758 16.7263 40.9834L2.77367 46.8365C1.45572 47.3893 0 46.4214 0 44.9922Z"
-                            fill="#21D2C5"
-                          ></path>
-                        </svg>
-                        <span class="card-text">{{
-                          product.metafields.custom.label
-                        }}</span>
-                      </div>
-                    </a>
+                    </div>
                     {%- endfor -%}
                   </div>
                 </div>
-                {%- endfor -%}
               </div>
-            </div>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-text">KEEN</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-text">Support</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-text">Deals</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-text">Partner</a>
-        </li>
+            {% endif %}
+          </li>
+        {% endfor %}
       </ul>
       <ul class="nav-right">
         <li class="nav-icon search-nav">
