@@ -1,11 +1,13 @@
 .kawa-image-text .image-text-wrapper {
   gap: 1.71vw;
-  margin-top: 50px;
+  margin: 50px 0 0 0;
   padding-bottom: 30px;
+  padding: 0;
+  display: flex;
 }
 
 .kawa-image-text .image-text-item {
-  flex: 1;
+  padding: 0;
 }
 
 .kawa-image-text .image-text-item .item-text {
@@ -13,5 +15,21 @@
 }
 
 .kawa-image-text .image-text-item .item-text h5 {
-    font-size: 25px;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 768px) {
+  .kawa-image-text .image-text-wrapper {
+    display: block;
+  }
+
+  .kawa-image-text .image-text-item .item-text {
+    padding: 15px;
+  }
+
+  .kawa-image-text .image-text-item .item-text h5 {
+    font-size: 15px;
+  }
 }

@@ -47,7 +47,7 @@
 }
 
 /*轮播图上的按键导航*/
-.kawa-main-product-carousel .swiper-item-nav{
+.kawa-main-product-carousel .swiper-item-nav {
   position: absolute;
   z-index: 2;
   top: 50px;
@@ -70,4 +70,23 @@
   background: #000;
   color: #fff;
   cursor: default;
+}
+
+@media only screen and (max-width: 798px) {
+  .kawa-main-product-carousel .swiper-item-nav {
+    display: none;
+  }
+
+  .kawa-main-product-carousel .swiper-item-text {
+    position: relative;
+    max-width: none;
+    top: 0;
+    left: 0;
+    transform: translateY(0);
+    padding: 15px;
+  }
+
+  .kawa-main-product-carousel .swiper-item-text h5 {
+    font-size: 15px;
+  }
 }

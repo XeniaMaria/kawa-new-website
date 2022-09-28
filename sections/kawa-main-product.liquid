@@ -21,8 +21,8 @@
     </nav>
   </div>
 
-  <div class="product-page-main row w-100">
-    <div class="product-images col-md-6">
+  <div class="product-page-main d-flex w-100">
+    <div class="product-images">
       <div class="swiper-container main-product-swiper-container">
         <div class="swiper-wrapper">
           {%- for image in product.images -%}
@@ -46,7 +46,7 @@
         ></div>
       </div>
     </div>
-    <div class="product-information col-md-6">
+    <div class="product-information">
       <div class="product-details">
         <div class="name-and-price border-bottom">
           <h1 class="product-information-name">

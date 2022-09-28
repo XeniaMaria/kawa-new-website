@@ -1,5 +1,6 @@
 .kawa-product-specifications {
   margin-top: 50px;
+  padding: 0 1rem;
 }
 
 .kawa-product-specifications .specifications-title {
@@ -9,4 +10,22 @@
   font-size: 24px;
   line-height: 1.2;
   font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  .kawa-product-specifications {
+    padding: 12px 16px;
+  }
+
+  .kawa-product-specifications .specifications-title {
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 4px;
+    font-weight: 700;
+  }
+
+  .kawa-product-specifications .kawa-accordion-content {
+    padding: 10px 0;
+    color: #000;
+  }
 }

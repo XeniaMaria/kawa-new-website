@@ -42,7 +42,7 @@
   color: #333;
   display: inline-block;
   margin-bottom: 0 !important;
-  width: 500px;
+  width: 100%;
 }
 
 .kawa-video-text .text-content-warning {
@@ -53,4 +53,42 @@
   display: inline-block;
   margin-bottom: 0 !important;
   margin-top: 12px;
+}
+
+@media screen and (max-width: 992px) {
+  .kawa-video-text .kawa-video-text-wrapper {
+    display: block;
+    padding: 24px 16px;
+  }
+
+  .kawa-video-text .video-text__video {
+    width: 100%;
+  }
+
+  .kawa-video-text video {
+    width: 100%;
+    height: auto;
+    object-fit: fill;
+  }
+
+  .kawa-video-text .text-content {
+    margin-left: 0;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+  }
+
+  .kawa-video-text .text-content-title {
+    font-size: 8vw;
+    margin-bottom: 7.8vw;
+  }
+
+  .kawa-video-text .text-content-description {
+    font-size: 4.1vw;
+  }
+
+  .kawa-video-text .text-content-warning {
+    font-size: 3.8vw;
+  }
+
 }

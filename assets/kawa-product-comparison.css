@@ -1,6 +1,12 @@
 .kawa-product-comparison {
   margin-top: 50px;
 }
+
+.kawa-product-comparison .product-comparison-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 .kawa-product-comparison .product-comparison-title {
   font-weight: 600;
   text-align: center;
@@ -39,4 +45,40 @@
   font-weight: 400;
   color: #7d7d7d;
   margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .kawa-product-comparison {
+    padding: 24px 16px;
+  }
+
+  .kawa-product-comparison .product-comparison-wrapper {
+    justify-content: start;
+  }
+
+  .kawa-product-comparison .product-comparison-title {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+  }
+
+  .kawa-product-comparison .product-comparison-item {
+    max-width: 48%;
+    padding-left: 0;
+    margin-right: 2%;
+  }
+
+  .kawa-product-comparison .product_subtitle {
+    font-size: 14px;
+    min-height: 42px;
+  }
+
+  .kawa-product-comparison .product_price {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .kawa-product-comparison .product_desc p {
+    font-size: 12px;
+  }
 }

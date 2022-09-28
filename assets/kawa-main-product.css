@@ -69,7 +69,6 @@
 }
 
 .kawa-main-product .product-images {
-  flex: 1;
   width: 62.5%;
 }
 
@@ -134,4 +133,49 @@
   position: relative;
   top: 8px;
   margin-right: 5px;
+}
+
+@media (max-width: 1440px) {
+  .kawa-main-product .product-images {
+    width: 10%;
+    flex-grow: 1;
+  }
+
+  .kawa-main-product .product-information {
+    padding: 2.6% 5.2% 2.6% 7%;
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .kawa-main-product .product-short-name {
+    display: none;
+  }
+
+  .kawa-main-product .product-header-nav {
+    width: 100%;
+  }
+
+  .kawa-main-product .header-nav-item {
+    padding: 10px 0;
+    margin: 0 6px;
+    font-size: 14px;
+    flex-shrink: 0;
+  }
+
+  .kawa-main-product .product-page-main {
+    flex-wrap: wrap;
+  }
+
+  .kawa-main-product .product-images {
+    width: 100%;
+  }
+
+  .kawa-main-product .product-information {
+    width: 100%;
+    min-width: 0;
+    border-bottom: 10px solid #f4f4f4;
+    padding: 24px 16px
+  }
 }
