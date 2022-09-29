@@ -20,6 +20,7 @@
 }
 
 #header .logo {
+  margin-left: 18px;
   margin-top: 26px;
   width: 138px;
   height: 35px;
@@ -334,7 +335,7 @@
   color: #777;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   #header {
     background-color: #fff;
   }

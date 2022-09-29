@@ -32,7 +32,7 @@
   transform: translateX(0);
 }
 
-.video-banner .banner-item-content .banner-main-text {
+.video-banner .banner-main-text {
   font-family: Montserrat, sans-serif;
   font-weight: 700;
   font-size: 94px;
@@ -118,13 +118,70 @@
 }
 
 .video-banner .icon-arrow-right {
-  margin-left: 10px;
+  margin-left: 5px;
   position: relative;
-  top: 4px;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 1200px) {
+  .video-banner .banner-main-text {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 768px) {
   .kawa-video-banner-section {
     top: 0;
+  }
+
+  .video-banner .item-wrapper {
+    position: relative;
+    height: calc(1.28533 * 100vw);
+  }
+
+  .video-banner .banner-item-content {
+    width: 100%;
+    top: 8vw;
+    left: 0;
+    bottom: 40px;
+    transform: translate(0, 0);
+    text-align: center;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .video-banner .banner-main-text {
+    font-size: 9vw;
+    width: 100%;
+    margin-bottom: auto;
+  }
+
+  .video-banner .banner-item-name,
+  .video-banner .banner-item-desc {
+    font-weight: 500;
+    font-size: 4.15vw;
+  }
+
+  .video-banner .banner-item-desc {
+    margin-bottom: 4vw;
+  }
+
+  .video-banner .banner-btn {
+    font-size: 3.4vw;
+    height: 9.9vw;
+    line-height: 9.6vw;
+  }
+
+  .video-banner .icon-arrow-right {
+    bottom: 1px;
+  }
+
+  .video-banner .vc-video {
+    object-fit: fill;
+  }
+
+  .video-banner:hover .swiper-button-next,
+  .video-banner:hover .swiper-button-prev {
+    display: none;
   }
 }

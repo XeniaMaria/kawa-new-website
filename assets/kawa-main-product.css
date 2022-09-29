@@ -33,6 +33,7 @@
 .kawa-main-product .product-header-nav {
   padding: 0 5.2% 0 4.2%;
   min-width: 37.5%;
+  overflow: auto;
 }
 
 .kawa-main-product .header-nav-item {
