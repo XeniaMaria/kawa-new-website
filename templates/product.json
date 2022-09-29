@@ -216,6 +216,17 @@
         "content": "E1 Outdoor with time lapse makes it quicker and easier to capture the dynamic of long-term events like sun rising and flower blooming. Have fun shooting movie-like videos!",
         "warning": "* This feature is incompatible when camera is connected to NVRs."
       }
+    },
+    "phone-preview": {
+      "type": "kawa-phone-preview",
+      "settings": {
+        "img_width": 340,
+        "img_height": 616,
+        "phone_simulator": "shopify://shop_images/phone-simulator.webp",
+        "img_1": "shopify://shop_images/my-video-poster.webp",
+        "img_2": "shopify://shop_images/carousel-item-one.webp",
+        "img_3": "shopify://shop_images/carousel-item-two.webp"
+      }
     }
   },
   "order": [
@@ -230,6 +241,7 @@
     "specifications",
     "faq",
     "tabs",
-    "video-text"
+    "video-text",
+    "phone-preview"
   ]
 }
