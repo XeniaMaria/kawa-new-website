@@ -1,0 +1,254 @@
+.kawa-cloud-commodity {
+  position: relative;
+  background-color: #f1f1f1;
+  padding: 4.2vw 0;
+}
+
+.kawa-cloud-commodity .cloud-commodity-title {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  color: #171717;
+  line-height: 1.3;
+}
+
+.kawa-cloud-commodity .cloud-commodity-title:after {
+  position: relative;
+  content: "";
+  display: block;
+  width: 58px;
+  height: 3px;
+  background: #000;
+  opacity: 0.3;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 30px;
+}
+
+.kawa-cloud-commodity .commodities-wrapper {
+  margin-top: 10vw;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 6px;
+  box-sizing: border-box;
+  height: 35vw;
+}
+
+.kawa-cloud-commodity .mobile-card-switch {
+  display: none;
+}
+
+.kawa-cloud-commodity .commodity-card {
+  width: 22.4%;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 2.92%;
+  padding: 2.4vw 0;
+  background-color: #fff;
+  border-radius: 0.5vw;
+  box-shadow: 12px 12px 25px #aaa;
+}
+.kawa-cloud-commodity .commodity-card:last-child {
+  margin-right: 0;
+}
+
+.kawa-cloud-commodity .commodity-title {
+  font-size: 2.7vw;
+  font-weight: 600;
+  color: #696969;
+}
+
+.kawa-cloud-commodity .commodity-orig-price {
+  font-size: 1.3vw;
+  font-weight: 500;
+  color: #8c8c8c;
+  text-decoration: line-through;
+  margin: 0.5vw 0;
+}
+
+.kawa-cloud-commodity .commodity-price {
+  font-size: 3.5vw;
+  font-weight: 500;
+}
+
+.kawa-cloud-commodity .commodity-price > span {
+  font-size: 1.5vw;
+}
+
+.kawa-cloud-commodity .commodity-desc {
+  font-size: 1.2vw;
+  font-weight: 500;
+  color: #515151;
+  margin: 0.5vw 0;
+}
+
+.kawa-cloud-commodity .commodity-line {
+  display: block;
+  width: 70%;
+  height: 1px;
+  background: #bfbfbf;
+  margin: 1vw auto;
+}
+
+.kawa-cloud-commodity .commodity-detail-box {
+  padding-left: 15%;
+  box-sizing: border-box;
+  height: 40%;
+}
+
+.kawa-cloud-commodity .commodity-detail-box > div {
+  font-size: 1vw;
+  font-weight: 400;
+  color: #3a3a3a;
+  line-height: 1.7;
+  position: relative;
+  padding-left: 1vw;
+  text-align: left;
+  margin: 0.5vw 0;
+}
+
+.kawa-cloud-commodity .commodity-detail-box > div::before {
+  position: absolute;
+  content: "";
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  display: block;
+  top: 0.85vw;
+  left: 0;
+}
+
+@media (max-width: 768px) {
+  .kawa-cloud-commodity .cloud-commodity-title {
+    font-size: 24px;
+    color: #3a3a3a;
+    padding: 0 10vw;
+  }
+
+  .kawa-cloud-commodity .cloud-commodity-title:after {
+    top: 20px;
+    width: 23px;
+    height: 2px;
+    background: #c0c0c0;
+  }
+
+  .kawa-cloud-commodity .commodities-wrapper {
+    flex-direction: column;
+    height: auto;
+    padding: 0 4%;
+  }
+
+  .kawa-cloud-commodity .mobile-card-switch {
+    border-radius: 20px;
+    background: #fff;
+    height: 60px;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 0 34px 0 23px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .kawa-cloud-commodity .mobile-card-switch.is-collapse {
+    margin-bottom: 4px;
+  }
+
+  .kawa-cloud-commodity .switch-icon {
+    width: 25px;
+    margin-right: 18px;
+    transform: rotate(90deg);
+    transition: all .1s ease-in-out;
+  }
+  .kawa-cloud-commodity .mobile-card-switch.is-collapse .switch-icon{
+    transform: rotate(0deg);
+  }
+
+  .kawa-cloud-commodity .switch-commodity-title {
+    font-size: 18px;
+    font-weight: 500;
+    color: #515151;
+    flex: 1;
+  }
+
+  .kawa-cloud-commodity .switch-commodity-price {
+    font-size: 18px;
+    font-weight: 500;
+    color: #515151;
+  }
+
+  .kawa-cloud-commodity .commodity-card {
+    width: 100%;
+    box-shadow: unset;
+    margin: 4px 0;
+    padding: 48px 0 40px 0;
+    border-radius: 20px;
+  }
+
+  .kawa-cloud-commodity .is-collapse + .commodity-card {
+    display: none;
+  }
+
+  .kawa-cloud-commodity .commodity-title {
+    font-size: 32px;
+    color: #3a3a3a;
+    line-height: 36px;
+  }
+
+  .kawa-cloud-commodity .commodity-orig-price {
+    font-size: 18px;
+    font-weight: 500;
+    color: #8c8c8c;
+    line-height: 33px;
+    margin-top: 30px;
+  }
+
+  .kawa-cloud-commodity .commodity-price {
+    font-size: 54px;
+    font-weight: 500;
+    line-height: 67px;
+  }
+
+  .kawa-cloud-commodity .commodity-price > span {
+    font-size: 23px;
+  }
+
+  .kawa-cloud-commodity .commodity-desc {
+    font-size: 16px;
+    font-weight: 500;
+    color: #515151;
+    line-height: 23px;
+    margin: 16px 0 8px 0;
+  }
+
+  .kawa-cloud-commodity .commodity-detail-box {
+    padding-left: 22%;
+  }
+
+  .kawa-cloud-commodity .commodity-detail-box > div {
+    margin: 12px 0;
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #3a3a3a;
+    line-height: 23px;
+  }
+
+  .kawa-cloud-commodity .commodity-detail-box > div::before {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    display: block;
+    top: 9px;
+    left: 0;
+  }
+}
