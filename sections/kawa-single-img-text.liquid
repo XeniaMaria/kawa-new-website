@@ -1,0 +1,110 @@
+{{ "kawa-single-img-text.css" | asset_url | stylesheet_tag }}
+
+<div class="kawa-single-img-text w-100">
+  <div class="pc-img-show">
+    <img
+      src="{{ section.settings.pc_img | image_url }}"
+      loading="lazy"
+      width="100"
+      height="100"
+      class="w-100-h-auto"
+    />
+  </div>
+  <div class="mobile-img-show">
+    {%- liquid
+        if section.settings.mobile_img == nil
+            assign mobile_image = section.settings.pc_img
+        else
+            assign mobile_image = section.settings.mobile_img
+        endif
+    -%}
+    <img
+      src="{{ mobile_image | image_url }}"
+      loading="lazy"
+      width="100"
+      height="100"
+      class="w-100-h-auto"
+    />
+  </div>
+  <div
+    class="text-box {% if section.settings.text_pos == "center" %} acc {% else %} at {% endif %}
+    {% if section.settings.text_color == "white" %}
+        txt-white
+        {% else %}
+        txt-gray
+    {% endif %}
+    "
+  >
+    <div
+        class=" {% if section.settings.text_pos == "center" %}
+         text-title-center
+        {% else %}
+         text-title-top
+        {% endif %} "
+    >
+        {{ section.settings.title }}
+    </div>
+    <div class="
+    {% if section.settings.text_pos == "center" %}
+    text-content-center
+    {% else %}
+    text-content-top
+    {% endif %}">
+        {{ section.settings.content }}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "单张图片和文字",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "pc_img",
+      "label": "PC端显示的图片"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_img",
+      "label": "手机端显示的图片",
+      "info": "未设置默认使用PC端的图片"
+    },
+    { "type": "text", "id": "title", "label": "标题" },
+    { "type": "textarea", "id": "content", "label": "内容" },
+    {
+        "type": "radio",
+        "id": "text_pos",
+        "label": "文本在图片的位置",
+        "options": [
+            {
+                "value": "center",
+                "label": "中心"
+            },
+            {
+                "value": "top",
+                "label": "上方"
+            }
+        ],
+        "default": "center"
+    },
+    {
+        "type": "radio",
+        "id": "text_color",
+        "label": "文本颜色",
+        "options": [
+            {
+                "value": "white",
+                "label": "白色"
+            },
+            {
+                "value": "gray",
+                "label": "灰黑色"
+            }
+        ],
+        "default": "white"
+    }
+  ]
+}
+{% endschema %}
