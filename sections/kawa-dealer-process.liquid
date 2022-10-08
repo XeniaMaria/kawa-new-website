@@ -1,0 +1,61 @@
+{{ "kawa-dealer-process.css" | asset_url | stylesheet_tag }}
+
+<div class="kawa-dealer-process">
+    <h2 class="dealer-process-title">{{ section.settings.title }}</h2>
+    <div class="process-steps">
+        {%- for block in section.blocks -%}
+            <div class="process-step" {{ block.shopify_attributes }}>
+                <div class="step-wrapper">
+                    <div class="step-image-wrapper">
+                        <img
+                            class="step-image"
+                            src="{{ block.settings.image | image_url }}"
+                            loading="lazy"
+                            width="100"
+                            height="100"
+                        />
+                    </div>
+                    <h3 class="step-title">{{ block.settings.title }}</h3>
+                    <p class="step-sub-title">{{ block.settings.sub_title }}</p>
+                </div>
+            </div>
+        {%- endfor -%}
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "dealer apply process",
+    "tag": "section",
+    "settings":[
+        {
+            "type": "text",
+            "id": "title",
+            "label": "标题"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "process_step",
+            "name": "步骤卡",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "图片"
+                },
+                {
+                    "type": "text",
+                    "id": "title",
+                    "label": "标题"
+                },
+                {
+                    "type": "text",
+                    "id": "sub_title",
+                    "label": "副标题"
+                }
+            ]
+        }
+    ]
+}
+{% endschema %}

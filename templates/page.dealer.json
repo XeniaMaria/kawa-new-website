@@ -1,0 +1,60 @@
+{
+  "sections": {
+    "dealer-process": {
+      "type": "kawa-dealer-process",
+      "settings": {
+        "title": "How Does the Process Work?"
+      },
+      "blocks": {
+        "process-step-1": {
+          "type": "process_step",
+          "settings": {
+            "image": "shopify://shop_images/carousel-item-one.webp",
+            "title": "Register",
+            "sub_title": "Submit Application"
+          }
+        },
+        "process-step-2": {
+          "type": "process_step",
+          "settings": {
+            "image": "shopify://shop_images/carousel-item-one.webp",
+            "title": "Internal",
+            "sub_title": "Verifying Details"
+          }
+        },
+        "process-step-3": {
+          "type": "process_step",
+          "settings": {
+            "image": "shopify://shop_images/carousel-item-one.webp",
+            "title": "We Reach Out",
+            "sub_title": "Phone or Email"
+          }
+        },
+        "process-step-4": {
+          "type": "process_step",
+          "settings": {
+            "image": "shopify://shop_images/carousel-item-one.webp",
+            "title": "Agreement",
+            "sub_title": "Review Terms"
+          }
+        },
+        "process-step-5": {
+          "type": "process_step",
+          "settings": {
+            "image": "shopify://shop_images/carousel-item-one.webp",
+            "title": "Success!",
+            "sub_title": "We Contact You"
+          }
+        }
+      },
+      "block_order": [
+        "process-step-1",
+        "process-step-2",
+        "process-step-3",
+        "process-step-4",
+        "process-step-5"
+      ]
+    }
+  },
+  "order": ["dealer-process"]
+}
