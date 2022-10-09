@@ -1,7 +1,46 @@
 {
   "sections": {
     "main": {
-      "type": "kawa-main-product"
+      "type": "kawa-main-product",
+      "settings": {
+        "discount_code": "WS24S360"
+      },
+      "blocks": {
+        "store-info-item-1": {
+          "type": "store_info_item",
+          "settings": {
+            "title": "Fast, Free Shipping",
+            "content": "<p>We offer free shipping straight to your door throughout the contiguous US*. It usually takes 3-7 business days* for your package to be delivered, so you can sit back and relax, worry-free.</p><p>*Please see our shipping policy for more details.</p><p>*Due to COVID-19 shipping times may vary.</p>"
+          }
+        },
+        "store-info-item-2": {
+          "type": "store_info_item",
+          "settings": {
+            "title": "30-Day Money-Back Guarantee",
+            "content": "<p> Get a full refund when you return your undamaged products within 30 days - for any reason. Once the item arrives back at the eufy warehouse for inspection, the refund process will begin.</p><p> See our refund policy for more details about what is needed for a smooth refund process..</p>"
+          }
+        },
+        "store-info-item-3": {
+          "type": "store_info_item",
+          "settings": {
+            "title": "Hassle-free Warranty",
+            "content": "<p> eufy provides a straightforward, hassle-free warranty to save you some headaches. All pre-owned and refurbished products come with their own unique warranty that you can find on the product listing or contact us at support@eufylife.com with your order receipt for confirmation.</p><p> This limited warranty provided by the manufacturer in no way affects a potential statutory warranty provided by law.</p>"
+          }
+        },
+        "store-info-item-4": {
+          "type": "store_info_item",
+          "settings": {
+            "title": "Lifetime Customer Support",
+            "content": "<p> We'll Always be There for You.</p><p> If you have any questions or concerns, feel free to contact us at support@eufylife.com.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "store-info-item-1",
+        "store-info-item-2",
+        "store-info-item-3",
+        "store-info-item-4"
+      ]
     },
     "banner": {
       "type": "kawa-main-product-banner",

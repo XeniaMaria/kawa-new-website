@@ -60,20 +60,123 @@
           {{ product.description }}
         </div>
         <div class="product-rating border-bottom">5颗星</div>
-        <div class="product-discount-code border-bottom">折扣码</div>
-        <div class="porduct-share-friend border-bottom">
+        <div class="product-discount-code border-bottom">
+          <p class="discount-title"  data-toggle="modal" data-target="#discount-modal">
+            <span class="iconify" data-icon="fa-solid:question-circle"></span>
+            <span>Hurry! Offer Ends Soon!</span>
+
+            <div class="modal fade" id="discount-modal">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+
+                  <!-- 模态框头部 -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">Discount Code FAQ</h4>
+                    <button type="button" class="close" data-dismiss="modal" style="font-size: 35px;">&times;</button>
+                  </div>
+
+                  <!-- 模态框主体 -->
+                  <div class="modal-body">
+                    <div style="margin-bottom: 1rem;">
+                      <h4>1. How do I use the discount code?</h4>
+                      <p>Copy the discount code from the product page, and then apply the discount code at check out.</p>
+                    </div>
+                    <div style="margin-bottom: 1rem;">
+                      <h4>2. Can I redeem multiple discount codes?</h4>
+                      <p>No. Discount codes cannot be combined.Only one code can be applied per order.</p>
+                    </div>
+                    <div style="margin-bottom: 1rem;">
+                      <h4>3. Why is my discount code invalid?</h4>
+                      <p>1) The discount code is not applicable to the specific items you want to buy</p>
+                      <p>2) The discount code wasn't entered correctly</p><p>3) The discount code has expired</p>
+                      <p>4) The discount code is not from eufy's official website</p>
+                    </div>
+                    <p>If you have any questions, please feel free to reach out to our customer service team:
+                      <a href="mailto:kawa-in@kawa.com" style="display: inline-block;border: none;color: #00a7e1;">support@eufylife.com</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </p>
+          <div class="discount-code">
+            <div class="price-off">
+              <h3>$70</h3>
+              <span>OFF</span>
+            </div>
+            <div class="discount-code-wrapper">
+              <div class="code-text">
+                <h5>
+                  <span>Code: </span>
+                  <span class="code" id="discount-code">{{ section.settings.discount_code }}</span>
+                </h5>
+              </div>
+              <div class="copy-box">
+                <p class="copy-text" onclick="onCopyTextClick()" data-clipboard-target="#discount-code">COPY</p>
+                <p class="copied-text" style="display: none;">COPIED</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product-share-friend border-bottom">
+          <span>
+            <span
+              class="iconify"
+              data-icon="humbleicons:tag"
+              data-width="24"
+              data-height="24"
+            ></span>
+            Get $40 for every friend you refer
+          </span>
           <span
-            class="iconify"
-            data-icon="humbleicons:tag"
+            class="iconify chevron-right"
+            data-icon="fluent:chevron-right-20-regular"
             data-width="24"
             data-height="24"
           ></span>
-          Get $40 for every friend you refer
+        </div>
+        <div class="product-store border-bottom">
+          <div class="product-store-title">Kawa Store</div>
+          <div class="product-store-list">
+            {%- for block in section.blocks -%}
+              {%- case block.type -%}
+                {%- when "store_info_item" -%}
+                  <div class="kawa-store-list__item">
+                    <div class="store-info-item" data-toggle="modal" data-target="#store-modal-{{ forloop.index }}">
+                      <p>{{ block.settings.title }}</p>
+                    </div>
+
+                    <div class="modal fade" id="store-modal-{{ forloop.index }}">
+                      <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+
+                          <!-- 模态框头部 -->
+                          <div class="modal-header">
+                            <h4 class="modal-title">{{ block.settings.title }}</h4>
+                            <button type="button" class="close" data-dismiss="modal" style="font-size: 35px;">&times;</button>
+                          </div>
+
+                          <!-- 模态框主体 -->
+                          <div class="modal-body">
+                            {{ block.settings.content }}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                {%- else -%}
+              {%- endcase -%}
+            {%- endfor -%}
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
+
+<script src="{{ 'clipboard.min.js' | asset_url }}"></script>
 
 <script type="text/javascript">
   const productTabList = [];
@@ -123,6 +226,19 @@
   window.addEventListener('load',()=> {
     fixNav();
   })
+
+  const copyText = document.querySelector(".copy-text");
+  const copiedText = document.querySelector(".copied-text");
+
+  const onCopyTextClick = () => {
+    copyText.style.display = "none";
+    copiedText.style.display = "block";
+    setTimeout(() => {
+      copyText.style.display = "block";
+    copiedText.style.display = "none";
+    },1000);
+  }
+  new ClipboardJS(".copy-text");
 </script>
 
 {% schema %}
@@ -134,6 +250,24 @@
      "type": "text",
      "id": "discount_code",
      "label": "折扣码"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "store_info_item",
+      "name": "商店信息项",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "标题"
+        },
+        {
+          "type": "html",
+          "id": "content",
+          "label": "内容"
+        }
+      ]
     }
   ]
 }

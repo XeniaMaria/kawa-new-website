@@ -131,10 +131,190 @@
   font-weight: 600;
   color: #000;
 }
-.kawa-main-product .iconify {
-  position: relative;
-  top: 8px;
+
+.kawa-main-product .discount-title {
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.kawa-main-product .modal-dialog {
+  width: 90%;
+  max-width: 840px;
+}
+
+.kawa-main-product .modal-content {
+  border-radius: 8px;
+}
+
+.kawa-main-product .modal-header {
+  color: #333;
+  padding: 21px 50px 21px 35px;
+  border-bottom: 1px solid #e6e6e6;
+  font-size: 28px;
+  margin: 0;
+}
+
+.kawa-main-product .modal-header h4 {
+  font-size: 28px;
+}
+
+.kawa-main-product .modal-body {
+  width: 100%;
+  padding: 21px 35px 35px;
+  box-sizing: border-box;
+}
+
+.kawa-main-product .modal-body h4 {
+  font-family: Open Sans, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 21px;
+  text-transform: none;
+  line-height: 1.5;
+  display: block;
+  letter-spacing: 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  color: #6b6b6b;
+}
+
+.kawa-main-product .modal-body p {
+  font-size: 16px;
+  color: #6b6b6b;
+}
+
+.kawa-main-product .discount-code {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  background: #fbe6da;
+  border-radius: 4px;
+  padding: 4px;
+}
+.kawa-main-product .price-off {
+  text-align: center;
+  flex: 1;
+  border-right: 1px #fff dashed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.kawa-main-product .price-off > h3 {
+  font-size: 28px;
+  color: #ed844a;
+  line-height: 1.2;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.kawa-main-product .price-off > span {
+  color: #ed844a;
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 8px;
+}
+.kawa-main-product .discount-code-wrapper {
+  width: 70%;
+  padding: 13px 10px 11px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.kawa-main-product .code-text {
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.kawa-main-product .code-text h5 {
+  color: #666;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 0;
+}
+.kawa-main-product .copy-box {
+  width: 40%;
+  margin-left: 5%;
+}
+.kawa-main-product .copy-text {
+  box-sizing: border-box;
+  width: 100%;
+  height: 32px;
+  line-height: 32px;
+  color: #fff;
+  margin-bottom: 0;
+  border-radius: 16px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  background: #ed844a;
+}
+.kawa-main-product .copied-text {
+  box-sizing: border-box;
+  width: 100%;
+  height: 32px;
+  line-height: 32px;
+  color: #ed844a;
+  margin-bottom: 0;
+  border-radius: 16px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  background: #fff;
+  border: 1px solid #ed844a;
+}
+
+.kawa-main-product .product-share-friend {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.kawa-main-product .iconify:first-child {
   margin-right: 5px;
+}
+
+.kawa-main-product .product-store {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.kawa-main-product .product-store-title {
+  font-weight: 700;
+  font-size: 16px;
+  min-width: 95px;
+  color: #000;
+}
+.kawa-main-product .product-store-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-width: 300px;
+}
+.kawa-main-product .kawa-store-list__item {
+  width: 50%;
+}
+.kawa-main-product .store-info-item {
+  display: flex;
+  margin: 12px 2px;
+  justify-content: flex-end;
+}
+.kawa-main-product .store-info-item:hover {
+  color: #21d2c5;
+  cursor: pointer;
+}
+.kawa-main-product .store-info-item > p {
+  font-size: 12px;
+  font-weight: 400;
+  height: 25px;
+  line-height: 25px;
+  margin-left: 2px;
+  margin-bottom: 0;
+  width: 174px;
 }
 
 @media (max-width: 1440px) {
@@ -150,7 +330,6 @@
 }
 
 @media (max-width: 768px) {
-
   .kawa-main-product .product-short-name {
     display: none;
   }
@@ -178,6 +357,78 @@
     width: 100%;
     min-width: 0;
     border-bottom: 10px solid #f4f4f4;
-    padding: 24px 16px
+    padding: 24px 16px;
+  }
+
+  .kawa-main-product .price-off {
+    flex-direction: column;
+  }
+  .kawa-main-product .price-off h3 {
+    margin-left: 0;
+  }
+  .kawa-main-product .price-off span {
+    margin-left: 0;
+  }
+  .kawa-main-product .discount-code-wrapper {
+    flex-direction: column-reverse;
+    padding: 13.5px 10px 7.5px;
+  }
+  .kawa-main-product .code-text {
+    justify-content: center;
+    margin-top: 5px;
+  }
+  .kawa-main-product .copy-box {
+    width: 72%;
+    margin: 0 auto 3px;
+  }
+
+  .kawa-main-product .modal-content {
+    border-radius: 0;
+  }
+
+  .kawa-main-product .modal-dialog {
+    transform: translate(0);
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .kawa-main-product .modal-header {
+    color: #333;
+    padding: 21px 50px 21px 21px;
+  }
+
+  .kawa-main-product .modal-header h4 {
+    font-size: 24px;
+  }
+
+  .kawa-main-product .modal-body {
+    padding: 18px;
+  }
+
+  .kawa-main-product .modal-body h4 {
+    font-size: 16px;
+  }
+
+  .kawa-main-product .product-store {
+    flex-direction: column;
+  }
+  .kawa-main-product .product-store-title {
+    width: 100%;
+  }
+  .kawa-main-product .product-store-list {
+    width: 100%;
+    margin-top: 5px;
+  }
+  .kawa-main-product .kawa-store-list__item {
+    width: 100%;
+  }
+  .kawa-main-product .store-info-item {
+    margin: 5px 0;
+    justify-content: unset;
+  }
+  .kawa-main-product .store-info-item > p {
+    width: auto;
   }
 }
