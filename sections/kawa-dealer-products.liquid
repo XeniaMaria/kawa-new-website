@@ -1,0 +1,50 @@
+{{ "kawa-dealer-products.css" | asset_url | stylesheet_tag }}
+
+<div class="kawa-dealer-products">
+    <div class="dealer-products-wrapper" {{ block.shopify_attributes }}>
+        {%- for block in section.blocks -%}
+            {%- assign product = block.settings.product -%}
+                <div class="dealer-product">
+                    <div class="dealer-product-image-wrapper">
+                        <img
+                            src="{{ product.featured_image | image_url }}",
+                            loading="lazy"
+                            width="100"
+                            height="100"
+                        />
+                    </div>
+                    <div class="dealer-product-info-wrapper">
+                        <h3>
+                            <span>{{ product.metafields.descriptors.subtitle }}</span>
+                        </h3>
+                        <p>{{ product.metafields.descriptors.subtitle }}</p>
+                        <a href=" {{ product.url }} ">
+                            <span>
+                                <span>Learn More</span>
+                            </span>
+                        </a>
+                    </div>
+            </div>
+        {%- endfor -%}
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "dealer products",
+    "tag": "section",
+    "blocks": [
+        {
+            "type": "preview_product",
+            "name": "产品",
+            "settings":[
+                {
+                    "type": "product",
+                    "id": "product",
+                    "label": "选择产品"
+                }
+            ]
+        }
+    ]
+}
+{% endschema %}

@@ -54,7 +54,25 @@
         "process-step-4",
         "process-step-5"
       ]
+    },
+    "dealer-products": {
+      "type": "kawa-dealer-products",
+      "blocks": {
+        "preview-product-1": {
+          "type": "preview_product",
+          "settings": {
+            "product": "baby-monitor-with-camera-and-audio-kawa-video-baby-monitor-no-wifi-5-720p-hd-display-110-wide-angle-night-vision-temperature-sensor-2-way-audio-ptz-white-noise-20hrs-battery-1000ft-range"
+          }
+        },
+        "preview-product-2": {
+          "type": "preview_product",
+          "settings": {
+            "product": "kawa-5-720p-hd-display-video-baby-monitor-with-night-vision-temperature-sensor-2-way-audio-pan-tilt-zoom-white-noise-lullaby-20-hours-battery-1000ft-range"
+          }
+        }
+      },
+      "block_order": ["preview-product-1", "preview-product-2"]
     }
   },
-  "order": ["dealer-process"]
+  "order": ["dealer-process", "dealer-products"]
 }

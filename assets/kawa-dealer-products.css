@@ -1,0 +1,131 @@
+.kawa-dealer-products {
+  padding: 0 15px;
+  width: 100%;
+  margin: auto;
+  max-width: 1170px;
+}
+
+.kawa-dealer-products .dealer-products-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.kawa-dealer-products .dealer-product {
+  display: flex;
+  padding: 10px;
+  max-width: 50%;
+  flex-basis: 50%;
+  position: relative;
+}
+
+.kawa-dealer-products .dealer-product-image-wrapper {
+  width: 100%;
+}
+
+.kawa-dealer-products .dealer-product-image-wrapper > img {
+  width: 100%;
+  height: auto;
+}
+
+.kawa-dealer-products .dealer-product-info-wrapper {
+  position: absolute;
+  text-align: center;
+  padding: 0 200px 500px;
+  width: 100%;
+}
+
+.kawa-dealer-products .dealer-product-info-wrapper > h3 {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 60px;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+.kawa-dealer-products .dealer-product-info-wrapper > p {
+  text-align: center;
+  font-size: 25px;
+  margin: 10px -100px 25px;
+  color: #333232;
+}
+
+.kawa-dealer-products .dealer-product-info-wrapper > a {
+  display: inline-block;
+  margin: 0;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 40px;
+  background-color: #58c1e3;
+  line-height: 1;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  outline: 0;
+  transition-duration: 0.3s;
+  transition-property: box-shadow, transform;
+}
+
+.kawa-dealer-products .dealer-product-info-wrapper > a:hover {
+  box-shadow: 0 10px 10px -10px rgb(0 0 0 / 50%);
+  transform: scale(1.1);
+}
+
+@media (max-width: 1199px) {
+  .kawa-dealer-products .dealer-products-wrapper {
+    margin: 0px;
+  }
+
+  .kawa-dealer-products .dealer-product {
+    padding: 5px;
+  }
+
+  .kawa-dealer-products .dealer-product-info-wrapper {
+    padding: 20px 100px 250px;
+  }
+
+  .kawa-dealer-products .dealer-product-info-wrapper > h3 {
+    font-size: 25px;
+    margin: 0;
+  }
+
+  .kawa-dealer-products .dealer-product-info-wrapper > p {
+    font-size: 18px;
+    margin: 0 -50px;
+    padding-bottom: 5px;
+  }
+
+  .kawa-dealer-products .dealer-product-info-wrapper > a {
+    margin: 0;
+    font-size: 13px;
+    padding: 8px 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .kawa-dealer-products .dealer-product {
+    max-width: 100%;
+    flex-basis: 100%;
+    padding: 15px;
+  }
+
+  .kawa-dealer-products .dealer-product-info-wrapper {
+    padding: 20px 0 280px;
+  }
+
+  .kawa-dealer-products .dealer-product-info-wrapper > p {
+    font-size: 18px;
+    margin: 0;
+    padding-bottom: 5px;
+  }
+
+  .kawa-dealer-products .dealer-product-info-wrapper > a {
+    margin: 0;
+    font-size: 15px;
+    padding: 8px 10px;
+  }
+}
