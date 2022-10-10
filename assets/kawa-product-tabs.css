@@ -63,3 +63,45 @@
   width: 950px;
   margin: 40px auto 0;
 }
+
+@media (max-width: 950px) {
+  .kawa-product-tabs {
+    padding: 0  3.85vw;
+    margin-top: 16vw;
+  }
+
+  .kawa-product-tabs .product-tabs-title {
+    font-size: 8.4vw;
+    margin-bottom: 8.4vw;
+  }
+
+  .kawa-product-tabs .product-tabs-description {
+    font-size: 4.2vw;
+    margin-bottom: 4.2vw;
+  }
+
+  .kawa-product-tabs .tabs-nav {
+    margin-top: 20px;
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+
+  .kawa-product-tabs .tabs-nav > li > span {
+    font-size: 14px;
+    margin: 0;
+    line-height: 1.3;
+  }
+
+  .kawa-product-tabs .tabs-nav > li + li > span {
+    margin-left: 20px;
+  }
+
+  .kawa-product-tabs .tabs-nav > li + li::before {
+    display: none;
+  }
+
+  .kawa-product-tabs .tabs-content {
+    width: 100%;
+    margin: 20px 0 0 0;
+  }
+}

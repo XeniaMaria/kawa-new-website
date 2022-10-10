@@ -7,17 +7,17 @@
 />
 <script src="{{ 'swiper.min.js' | asset_url }}" defer="defer"></script>
 
-<div class="kawa-main-product w-100">
+<div id="product-page-purchase" class="kawa-main-product w-100">
   <div class="product-page-header flex-b">
     <p class="product-short-name">
       {{ product.metafields.descriptors.subtitle }}
     </p>
     <nav class="product-header-nav flex-bc">
-      <a href="" class="header-nav-item product-nav-item-1 active">Purchase</a>
-      <a href="" class="header-nav-item product-nav-item-2">Overview</a>
-      <a href="" class="header-nav-item product-nav-item-3">Compare</a>
-      <a href="" class="header-nav-item product-nav-item-4">FAQ</a>
-      <a href="" class="header-nav-item product-nav-item-5">Reviews</a>
+      <a class="header-nav-item product-nav-item-1 active">Purchase</a>
+      <a class="header-nav-item product-nav-item-2">Overview</a>
+      <a class="header-nav-item product-nav-item-3">Compare</a>
+      <a class="header-nav-item product-nav-item-4">FAQ</a>
+      <a class="header-nav-item product-nav-item-5">Reviews</a>
     </nav>
   </div>
 
@@ -239,6 +239,50 @@
     },1000);
   }
   new ClipboardJS(".copy-text");
+
+  //导航
+  window.addEventListener("load",() => {
+    const purchaseEl = document.getElementById("product-page-purchase");
+    const purchaseNav = document.querySelector(".product-nav-item-1");
+    const overviewEl = document.getElementById("product-page-overview");
+    const overviewNav = document.querySelector(".product-nav-item-2");
+    const compareEl = document.getElementById("product-page-compare");
+    const compareNav = document.querySelector(".product-nav-item-3");
+    const faqEl = document.getElementById("product-page-faq");
+    const faqNav = document.querySelector(".product-nav-item-4");
+
+    const productNavEls = [
+      {el:purchaseEl,nav:purchaseNav},
+      {el:overviewEl,nav:overviewNav},
+      {el:compareEl,nav:compareNav},
+      {el:faqEl,nav:faqNav}
+    ]
+
+    productNavEls.forEach((item) => {
+      if(item.el && item.nav) {
+        item.nav.onclick = () => {
+          window.scrollTo({
+            top: item.el.offsetTop - 100,
+            behavior: "smooth"
+          })
+        }
+      }
+    })
+
+    window.addEventListener("scroll", () => {
+      const viewportHeight = window.innerHeight;
+      productNavEls.forEach((item) => {
+        if(item.el && item.nav) {
+          if(item.el.getBoundingClientRect().top < viewportHeight) {
+            productNavEls.forEach((it) => {
+              it.nav.classList.remove("active");
+            });
+            item.nav.classList.add("active");
+          }
+        }
+      })
+    })
+  })
 </script>
 
 {% schema %}

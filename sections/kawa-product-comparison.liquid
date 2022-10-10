@@ -1,6 +1,6 @@
 {{ "kawa-product-comparison.css" | asset_url | stylesheet_tag }}
 
-<div class="kawa-product-comparison mw-1300-c">
+<div id="product-page-compare" class="kawa-product-comparison mw-1300-c">
   <h1 class="product-comparison-title">{{ section.settings.title }}</h1>
   <div class="product-comparison-wrapper">
     {%- liquid assign product1 = section.settings.product_1
