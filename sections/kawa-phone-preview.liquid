@@ -143,11 +143,13 @@
         contentImgMaps.forEach((item) => {
           item.img.classList.add("d-none");
           item.step.classList.remove("active");
+          item.content.classList.remove("active");
         });
       };
       const activeNewItem = (item) => {
         item.img.classList.remove("d-none");
         item.step.classList.add("active");
+        item.content.classList.add("active");
       };
 
       //图片切换

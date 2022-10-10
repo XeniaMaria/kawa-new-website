@@ -78,6 +78,11 @@
   padding-bottom: calc((194 / 860) * 100vh);
   max-width: 587px;
   height: 100vh;
+  opacity: .5;
+}
+
+.kawa-phone-preview .preview-content.active {
+  opacity: 1;
 }
 
 .kawa-phone-preview .content-wrapper .phone-simulator {
@@ -117,7 +122,7 @@
     padding: 12px 16px 0;
   }
 
-  .kawa-phone-preview .preview-content:nth-child(3){
+  .kawa-phone-preview .preview-content:nth-child(3) {
     background-color: #fff;
   }
 }

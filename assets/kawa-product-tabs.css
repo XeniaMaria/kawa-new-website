@@ -19,3 +19,47 @@
   font-family: Quicksand, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
+
+.kawa-product-tabs .tabs-nav {
+  margin-top: 40px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.kawa-product-tabs .tabs-nav > li {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+  cursor: pointer;
+  padding-bottom: 2px;
+  box-sizing: border-box;
+  line-height: 28.8px;
+  position: relative;
+}
+
+.kawa-product-tabs .tabs-nav > li > span {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 40px;
+  padding-bottom: 2px;
+}
+
+.kawa-product-tabs .tabs-nav > li.active > span {
+  color: #00ade5;
+  border-bottom: solid 1px #00ade5;
+}
+
+.kawa-product-tabs .tabs-nav > li + li::before {
+  height: 16px;
+  content: "|";
+  color: #999;
+  font-weight: 500;
+}
+
+.kawa-product-tabs .tabs-content {
+  width: 950px;
+  margin: 40px auto 0;
+}
