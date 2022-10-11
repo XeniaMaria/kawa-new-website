@@ -1,5 +1,13 @@
 {
   "sections": {
+    "dealer-banner": {
+      "type": "kawa-dealer-banner",
+      "settings": {
+        "title": "Become an Kawa Dealer",
+        "content": "Empower your customers with industry-leading portable power stations and clean, reliable energy.",
+        "image": "shopify://shop_images/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg"
+      }
+    },
     "dealer-process": {
       "type": "kawa-dealer-process",
       "settings": {
@@ -84,5 +92,11 @@
       "type": "kawa-dealer-footer"
     }
   },
-  "order": ["dealer-process", "dealer-products", "dealer-form", "dealer-footer"]
+  "order": [
+    "dealer-banner",
+    "dealer-process",
+    "dealer-products",
+    "dealer-form",
+    "dealer-footer"
+  ]
 }
