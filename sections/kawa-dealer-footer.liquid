@@ -1,0 +1,17 @@
+{{ "kawa-dealer-footer.css" | asset_url | stylesheet_tag }}
+
+<div class="kawa-dealer-footer">
+    <div class="contact-information">
+        Contact <a href="mailto:{{ shop.email }}" class="contact-email">
+            {{ shop.email }}
+        </a>
+        for more information
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "dealer footer",
+    "tag": "section"
+}
+{% endschema %}

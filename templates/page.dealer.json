@@ -79,7 +79,10 @@
         "form_title": "Become a Dealer",
         "form_des": "Enter your details, and we'll get back to you as soon as possible."
       }
+    },
+    "dealer-footer": {
+      "type": "kawa-dealer-footer"
     }
   },
-  "order": ["dealer-process", "dealer-products","dealer-form"]
+  "order": ["dealer-process", "dealer-products", "dealer-form", "dealer-footer"]
 }

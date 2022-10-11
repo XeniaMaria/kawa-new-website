@@ -1,0 +1,19 @@
+.kawa-dealer-footer {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.kawa-dealer-footer .contact-information {
+  font-family: Montserrat;
+  font-size: 16px;
+  color: #3a3a3a;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.kawa-dealer-footer .contact-email {
+  font-weight: bold;
+  color: rgb(14, 207, 226);
+  text-decoration: none;
+}
