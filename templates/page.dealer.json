@@ -72,7 +72,14 @@
         }
       },
       "block_order": ["preview-product-1", "preview-product-2"]
+    },
+    "dealer-form": {
+      "type": "kawa-dealer-form",
+      "settings": {
+        "form_title": "Become a Dealer",
+        "form_des": "Enter your details, and we'll get back to you as soon as possible."
+      }
     }
   },
-  "order": ["dealer-process", "dealer-products"]
+  "order": ["dealer-process", "dealer-products","dealer-form"]
 }

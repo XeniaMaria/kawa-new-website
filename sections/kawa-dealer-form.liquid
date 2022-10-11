@@ -1,0 +1,149 @@
+{{ "kawa-dealer-form.css" | asset_url | stylesheet_tag }}
+
+<div class="kawa-dealer-form w-1200">
+    <div class="form-wrapper">
+        <div class="form-header">
+            <h2 class="form-title">
+                {{ section.settings.form_title }}
+            </h2>
+            <p class="form-des">
+                {{ section.settings.form_des }}
+            </p>
+            {%- form 'contact', class: 'dealer-form' -%}
+                <div class="form-items-section">
+                    <div class="form-item">
+                        <input
+                            type="text"
+                            name="contact[first_name]"
+                            placeholder="*First Name"
+                            required
+                        >
+                    </div>
+                    <div class="form-item">
+                        <input
+                            type="text"
+                            name="contact[last_name]"
+                            placeholder="*Last Name"
+                            required
+                        >
+                    </div>
+                    <div class="form-item">
+                        <input
+                            type="text"
+                            name="contact[email]"
+                            placeholder="*Email Address"
+                            required
+                            pattern="^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$"
+                        >
+                    </div>
+                    <div class="form-item">
+                        <input
+                            type="text"
+                            name="contact[company]"
+                            placeholder="*Company Name"
+                            required
+                        >
+                    </div>
+                    <div class="form-item">
+                        <input
+                            type="text"
+                            name="contact[business]"
+                            placeholder="*Business Category"
+                            required
+                        >
+                    </div>
+                    <div class="form-item">
+                        <input
+                            type="text"
+                            name="contact[business]"
+                            placeholder="*Business Category"
+                            required
+                        >
+                    </div>
+                    <div class="form-item form-item-full">
+                        <input
+                            type="text"
+                            name="contact[website]"
+                            placeholder="Company Website"
+                        >
+                    </div>
+                </div>
+                <div class="company-address-header">Company Address</div>
+                <div class="form-items-section address-details-section">
+                    <div class="form-item form-item-full">
+                        <input
+                            type="text"
+                            name="contact[street]"
+                            placeholder="*Street Address"
+                            required
+                        >
+                    </div>
+                    <div class="form-item form-item-full">
+                        <input
+                            type="text"
+                            name="contact[address2]"
+                            placeholder="Address line 2"
+                        >
+                    </div>
+                    <div class="form-item">
+                        <input
+                            type="text"
+                            name="contact[city]"
+                            placeholder="*City"
+                            required
+                        >
+                    </div>
+                    <div class="form-item">
+                        <input
+                            type="text"
+                            name="contact[state]"
+                            placeholder="*State/Province"
+                            required
+                        >
+                    </div>
+                    <div class="form-item">
+                        <input
+                            type="text"
+                            name="contact[postal]"
+                            placeholder="*Postal/Zip Code"
+                            required
+                        >
+                    </div>
+                    <div class="form-item">
+                        <input
+                            type="text"
+                            name="contact[country]"
+                            placeholder="*Country"
+                            required
+                        >
+                    </div>
+                </div>
+                <div class="submit-button-wrapper">
+                    <input type="submit" value="Submit">
+                </div>
+            {%- endform -%}
+        </div>
+    </div>
+</div>
+
+<script>
+</script>
+
+{% schema %}
+{
+    "name": "dealer申请表单",
+    "tag": "section",
+    "settings": [
+        {
+            "type": "text",
+            "id": "form_title",
+            "label": "表单标题"
+        },
+        {
+            "type": "text",
+            "id": "form_des",
+            "label": "表单描述"
+        }
+    ]
+}
+{% endschema %}
