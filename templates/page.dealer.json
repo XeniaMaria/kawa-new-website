@@ -38,6 +38,20 @@
       },
       "block_order": ["carousel-1", "carousel-2", "carousel-3"]
     },
+    "common-image-1": {
+      "type": "kawa-common-image",
+      "settings": {
+        "show_title": false,
+        "image": "shopify://shop_images/dealer-no-title.webp"
+      }
+    },
+    "common-image-2": {
+      "type": "kawa-common-image",
+      "settings": {
+        "title": "What Do We Offer?",
+        "image": "shopify://shop_images/dealer-offer.webp"
+      }
+    },
     "dealer-process": {
       "type": "kawa-dealer-process",
       "settings": {
@@ -125,6 +139,8 @@
   "order": [
     "dealer-banner",
     "dealer-carousel",
+    "common-image-1",
+    "common-image-2",
     "dealer-process",
     "dealer-products",
     "dealer-form",

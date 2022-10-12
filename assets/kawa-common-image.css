@@ -1,0 +1,25 @@
+.kawa-common-image {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+
+.kawa-common-image .image-title {
+  padding: 0 15px 15px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.kawa-common-image .has_radius {
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .kawa-common-image .image-title {
+    margin-bottom: 0;
+  }
+}

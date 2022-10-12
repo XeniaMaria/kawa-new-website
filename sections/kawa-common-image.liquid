@@ -1,0 +1,43 @@
+{{ "kawa-common-image.css" | asset_url | stylesheet_tag }}
+
+<div class="kawa-common-image">
+    {%- if section.settings.show_title -%}
+        <div class="image-title">
+            {{ section.settings.title }}
+        </div>
+    {%- endif -%}
+    <div class="image">
+        <img
+            class="w-100-h-auto"
+            width="100"
+            height="100"
+            loading="lazy"
+            src="{{ section.settings.image | image_url }}"
+        />
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "通用的图片section",
+    "tag": "section",
+    "settings": [
+        {
+            "type": "checkbox",
+            "id": "show_title",
+            "label": "是否显示标题",
+            "default": true
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": "标题"
+        },
+        {
+            "type": "image_picker",
+            "id": "image",
+            "label": "图片"
+        }
+    ]
+}
+{% endschema %}
