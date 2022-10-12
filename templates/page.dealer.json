@@ -8,6 +8,36 @@
         "image": "shopify://shop_images/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg"
       }
     },
+    "dealer-carousel": {
+      "type": "kawa-dealer-carousel",
+      "settings": {
+        "title": "Explore the Market"
+      },
+      "blocks": {
+        "carousel-1": {
+          "type": "carousel_item",
+          "settings": {
+            "title": "Marine",
+            "image": "shopify://shop_images/carousel-item-two.webp"
+          }
+        },
+        "carousel-2": {
+          "type": "carousel_item",
+          "settings": {
+            "title": "Construction",
+            "image": "shopify://shop_images/carousel-item-two.webp"
+          }
+        },
+        "carousel-3": {
+          "type": "carousel_item",
+          "settings": {
+            "title": "Green Energy",
+            "image": "shopify://shop_images/carousel-item-two.webp"
+          }
+        }
+      },
+      "block_order": ["carousel-1", "carousel-2", "carousel-3"]
+    },
     "dealer-process": {
       "type": "kawa-dealer-process",
       "settings": {
@@ -94,6 +124,7 @@
   },
   "order": [
     "dealer-banner",
+    "dealer-carousel",
     "dealer-process",
     "dealer-products",
     "dealer-form",

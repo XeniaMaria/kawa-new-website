@@ -65,10 +65,7 @@
   .kawa-dealer-banner .banner-text-box {
     left: 15px;
     top: 70px;
-  }
-
-  .kawa-dealer-banner .banner-content {
-    padding-right: 20px;
+    width: 90vw;
   }
 
   .kawa-dealer-banner .banner-title {
@@ -77,6 +74,8 @@
   .kawa-dealer-banner .banner-content {
     font-size: 15px;
     margin-bottom: 20px;
+    padding-right: 20px;
+    width: 90vw;
   }
 
   .kawa-dealer-banner .join-btn {
