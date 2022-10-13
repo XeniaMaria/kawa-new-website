@@ -137,6 +137,44 @@
             data-height="24"
           ></span>
         </div>
+        {%- if product.has_only_default_variant -%}
+          <input
+            type="hidden"
+            name="id"
+            value="{{ product.selected_or_first_available_variant.id }}"
+            {% if product.selected_or_first_available_variant.availabel == false %}disabled {% endif %}
+            form="product-purchase-form"
+          >
+        {%- else -%}
+          <div class="product-variant border-bottom"></div>
+        {%- endif -%}
+
+        </div>
+        <div class="product-purchase-quantity border-bottom">
+          <label for="quantity">Qty</label>
+          <quantity-input class="quantity-box">
+            <button class="quantity__button no-js-hidden minus-btn" name="minus" type="button">
+              <span class="visually-hidden">
+                {{- 'products.product.quantity.decrease' | t: product: product.title | escape -}}
+              </span>
+              {% render 'icon-minus' %}
+            </button>
+            <input
+              class="quantity__input"
+              type="number"
+              name="quantity"
+              min="1"
+              value="1"
+              form="product-purchase-form"
+            >
+            <button class="quantity__button no-js-hidden plus-btn" name="plus" type="button">
+              <span class="visually-hidden">
+                {{- 'products.product.quantity.increase' | t: product: product.title | escape -}}
+              </span>
+              {% render 'icon-plus' %}
+            </button>
+          </quantity-input>
+        </div>
         <div class="product-store border-bottom">
           <div class="product-store-title">Kawa Store</div>
           <div class="product-store-list">

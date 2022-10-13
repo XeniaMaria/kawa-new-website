@@ -1,0 +1,13 @@
+{{ "kawa-product-buy.css" | asset_url | stylesheet_tag }}
+
+<div class="kawa-product-buy">
+    <div class="purchase-box">
+        <div class="product-price">
+            <span> {{ product.price | money }} </span>
+        </div>
+        {%- form 'product', product, id: "product-purchase-form", class: "product-buy-form" -%}
+            <input type="submit" class="add-to-cart__btn" value="Add to cart">
+            {{ form | payment_button }}
+        {%- endform -%}
+    </div>
+</div>

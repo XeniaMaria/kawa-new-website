@@ -266,6 +266,9 @@
         "img_2": "shopify://shop_images/carousel-item-one.webp",
         "img_3": "shopify://shop_images/carousel-item-two.webp"
       }
+    },
+    "product-buy": {
+      "type": "kawa-product-buy"
     }
   },
   "order": [
@@ -281,6 +284,7 @@
     "faq",
     "tabs",
     "video-text",
-    "phone-preview"
+    "phone-preview",
+    "product-buy"
   ]
 }

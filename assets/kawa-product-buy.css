@@ -1,0 +1,94 @@
+.kawa-product-buy {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  padding: 19px calc(100 / 1920 * 100vw);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  z-index: 48;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.kawa-product-buy .purchase-box {
+  display: flex;
+  width: 33%;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 500px;
+}
+
+.kawa-product-buy .product-price > span {
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 600;
+  color: #000;
+}
+
+.kawa-product-buy .purchase-buttons {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.kawa-product-buy .product-buy-form {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.kawa-product-buy .add-to-cart__btn {
+  background: #fff;
+  border: 1px solid #21d2c5;
+  color: #21d2c5;
+  width: 50%;
+  margin-left: 6px;
+  flex: auto;
+  min-height: 0;
+  height: 52px;
+  line-height: 52px;
+  border-radius: 26px;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 600;
+  overflow: hidden;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.kawa-product-buy .shopify-payment-button {
+  width: 50%;
+  margin-left: 6px;
+  flex: auto;
+}
+
+.kawa-product-buy .shopify-payment-button__button {
+  background: #21d2c5;
+  color: #fff;
+  border-radius: 26px;
+  opacity: 1;
+  box-shadow: none;
+  min-height: 0;
+  height: 52px;
+  line-height: 52px;
+  border-radius: 26px;
+  font-size: 18px;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 600;
+  overflow: hidden;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.kawa-product-buy .shopify-payment-button__button::before,
+.kawa-product-buy .shopify-payment-button__button::after {
+  display: none;
+}

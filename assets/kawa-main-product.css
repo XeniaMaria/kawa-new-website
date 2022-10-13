@@ -278,6 +278,53 @@
   margin-right: 5px;
 }
 
+.kawa-main-product .product-purchase-quantity {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0;
+  margin-right: 0;
+  flex-wrap: wrap;
+}
+.kawa-main-product .product-purchase-quantity > label {
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 10px;
+}
+.kawa-main-product .quantity-box {
+  width: 75%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+.kawa-main-product .minus-btn,
+.kawa-main-product .plus-btn,
+.kawa-main-product .quantity__input {
+  background-color: #fff !important;
+  border: solid 1px #f1f1f1;
+  height: 64px;
+  line-height: 64px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.kawa-main-product .minus-btn {
+  border-top-left-radius: 32px;
+  border-bottom-left-radius: 32px;
+  border-right: none;
+}
+.kawa-main-product .quantity__input {
+  border-left: none;
+  border-right: none;
+}
+.kawa-main-product .plus-btn {
+  border-top-right-radius: 32px;
+  border-bottom-right-radius: 32px;
+  border-left: none;
+}
+
 .kawa-main-product .product-store {
   display: flex;
   justify-content: space-between;
@@ -343,6 +390,10 @@
     margin: 0 6px;
     font-size: 14px;
     flex-shrink: 0;
+  }
+
+  .kawa-main-product .quantity-box {
+    width: 100%;
   }
 
   .kawa-main-product .product-page-main {
