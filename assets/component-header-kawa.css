@@ -85,6 +85,14 @@
   font-size: 22px;
 }
 
+#header .cart-count-bubble {
+  left: 15px;
+  display: none;
+}
+#header:hover .cart-count-bubble {
+  display: flex;
+}
+
 #header .nav-right > li svg {
   position: relative;
   top: 4px;
@@ -365,6 +373,14 @@
     display: flex;
     align-items: center;
     font-size: 8vw;
+  }
+
+  #header .cart-icon-container .cart-count-bubble {
+    display: flex;
+    top: 2.5vw;
+    left: 5vw;
+    width: 4.2vw;
+    height: 4.2vw;
   }
 
   #header .nav-left,

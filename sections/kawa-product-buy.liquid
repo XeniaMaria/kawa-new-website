@@ -1,13 +1,31 @@
 {{ "kawa-product-buy.css" | asset_url | stylesheet_tag }}
 
+<script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
+
 <div class="kawa-product-buy">
     <div class="purchase-box">
         <div class="product-price">
             <span> {{ product.price | money }} </span>
         </div>
-        {%- form 'product', product, id: "product-purchase-form", class: "product-buy-form" -%}
-            <input type="submit" class="add-to-cart__btn" value="Add to cart">
-            {{ form | payment_button }}
-        {%- endform -%}
+        <product-form>
+            {%- form 'product', product, id: "product-purchase-form", class: "product-buy-form" -%}
+                <button type="submit" class="add-to-cart__btn">
+                    <span>Add to cart</span>
+                    <div class="loading-overlay__spinner hidden">
+                        <svg
+                          aria-hidden="true"
+                          focusable="false"
+                          role="presentation"
+                          class="spinner"
+                          viewBox="0 0 66 66"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                        </svg>
+                      </div>
+                </button>
+                {{ form | payment_button }}
+            {%- endform -%}
+        </product-form>
     </div>
 </div>

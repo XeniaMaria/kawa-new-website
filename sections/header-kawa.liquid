@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="{{ 'component-cart-items.css' | asset_url }}" media="print" onload="this.media='all'">
 <link
   rel="stylesheet"
   href="{{ 'component-header-kawa.css' | asset_url }}"
@@ -5,6 +6,21 @@
   onload="this.media='all'"
 />
 <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+
+{%- if settings.cart_type == "drawer" -%}
+  {{ 'component-cart-drawer.css' | asset_url | stylesheet_tag }}
+  {{ 'component-cart.css' | asset_url | stylesheet_tag }}
+  {{ 'component-totals.css' | asset_url | stylesheet_tag }}
+  {{ 'component-price.css' | asset_url | stylesheet_tag }}
+  {{ 'component-discounts.css' | asset_url | stylesheet_tag }}
+  {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
+{%- endif -%}
+
+<noscript>{{ 'component-cart-items.css' | asset_url | stylesheet_tag }}</noscript>
+
+{%- if settings.cart_type == "drawer" -%}
+  <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
+{%- endif -%}
 
 <div id="header">
   <div class="header-wrapper-kawa d-flex mw-1200-c">
@@ -104,8 +120,18 @@
         <li class="nav-icon account-nav">
           <a><span class="iconify" data-icon="charm:person"></span></a>
         </li>
-        <li class="nav-icon manage-nav">
-          <a><span class="iconify" data-icon="bx:shopping-bag"></span></a>
+        <li class="nav-icon manage-nav cart-icon-bubble">
+          <a style="position: relative;">
+            <span class="iconify" data-icon="bx:shopping-bag"></span>
+            {%- if cart != empty -%}
+              <div class="cart-count-bubble">
+                  {%- if cart.item_count < 100 -%}
+                    <span aria-hidden="true">{{ cart.item_count }}</span>
+                  {%- endif -%}
+                  <span class="visually-hidden">{{ 'sections.header.cart_count' | t: count: cart.item_count }}</span>
+              </div>
+            {%- endif -%}
+          </a>
         </li>
         <li class="nav-icon lang-nav">
           <a>
@@ -118,12 +144,22 @@
         <span class="iconify nav-switch" data-icon="cil:hamburger-menu"></span>
       </div>
     </div>
-    <div class="cart-icon-container">
-      <span
-        class="iconify"
-        data-icon="ion:cart-outline"
-        style="color: #333"
-      ></span>
+    <div class="cart-icon-container cart-icon-bubble">
+      <a style="position: relative;">
+        <span
+          class="iconify"
+          data-icon="ion:cart-outline"
+          style="color: #333"
+        ></span>
+        {%- if cart != empty -%}
+          <div class="cart-count-bubble">
+              {%- if cart.item_count < 100 -%}
+                <span aria-hidden="true">{{ cart.item_count }}</span>
+              {%- endif -%}
+              <span class="visually-hidden">{{ 'sections.header.cart_count' | t: count: cart.item_count }}</span>
+          </div>
+        {%- endif -%}
+      </a>
     </div>
   </div>
 
