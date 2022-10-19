@@ -1,0 +1,70 @@
+.kawa-support-center-service {
+  margin-top: 100px;
+}
+
+.kawa-support-center-service .section-tittle {
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: 700;
+  max-width: 900px;
+  color: #333;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.kawa-support-center-service .service-blocks {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  list-style: none;
+  padding: 0;
+}
+
+.kawa-support-center-service .service-item {
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #333;
+  display: flex;
+  max-width: calc((100% - 40px) / 3);
+  text-align: center;
+  background-color: #f7f8f9;
+  margin: 0;
+  width: 100%;
+  padding: 38px 40px;
+  flex: none;
+}
+
+.kawa-support-center-service .service-title {
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.kawa-support-center-service .service-detail {
+  margin: 16px 0 0;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #555;
+  font-weight: 400;
+}
+
+.kawa-support-center-service .view-all-btn {
+  color: #00ade5;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 26px;
+  display: inline-block;
+}
+
+.kawa-support-center-service .view-all-btn > span {
+  margin-right: 10px;
+}
+.kawa-support-center-service .view-all-btn:hover > span {
+  text-decoration: underline;
+}

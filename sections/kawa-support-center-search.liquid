@@ -1,0 +1,45 @@
+{{ "kawa-support-center-search.css" | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .kawa-support-center-search {
+    background-image: url( {{ section.settings.bg_image | image_url }} );
+    background-position: right;
+    background-size: cover;
+  }
+{%- endstyle -%}
+
+<div class="kawa-support-center-search">
+    <div class="search-box">
+        <h2>
+            {{ section.settings.title }}
+        </h2>
+        <div class="search-input-wrap">
+            <input
+                class="search-input"
+                type="search"
+                name="query"
+                placeholder="Search..."
+                autocomplete="off"
+                aria-label="Search...">
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "support center search",
+    "tag": "section",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "bg_image",
+            "label": "背景图片"
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": "标题"
+        }
+    ]
+}
+{% endschema %}

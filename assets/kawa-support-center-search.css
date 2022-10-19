@@ -1,0 +1,29 @@
+.kawa-support-center-search {
+  height: max-content;
+  text-align: center;
+  width: 100%;
+}
+
+.kawa-support-center-search .search-box {
+  position: relative;
+  padding: 142px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.kawa-support-center-search .search-box h2 {
+  color: #fff;
+  font-size: 46px;
+  line-height: 1.2;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.kawa-support-center-search .search-input-wrap {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  border: none;
+  display: block;
+  position: relative;
+}

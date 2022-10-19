@@ -1,0 +1,53 @@
+{{ "kawa-support-center-service.css" | asset_url | stylesheet_tag }}
+
+<div class="kawa-support-center-service">
+    <h2 class="section-title">
+        {{ section.settings.title }}
+    </h2>
+    <ul class="service-blocks">
+        {%- for block in section.blocks -%}
+            <li class="service-item" {{ block.shopify_attributes }}>
+                <a href="{{ block.settings.service_page.url }}" class="service-link">
+                    <h4 class="service-title">
+                        {{ page.title }}
+                    </h4>
+                    <p class="service-detail">
+                        {{ page.content }}
+                    </p>
+                    <div class="view-all-btn">
+                        <span>View All</span>
+                        <span
+                            class="iconify icon-arrow-right"
+                            data-icon="dashicons:arrow-right-alt2"
+                        ></span>
+                    </div>
+                </a>
+            </li>
+        {%- endfor -%}
+    </ul>
+</div>
+
+{% schema %}
+{
+    "name": "support center service",
+    "tag": "section",
+    "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "标题"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "service",
+            "name": "support模块",
+            "settings": {
+                "type": "page",
+                "id": "service_page",
+                "label": "对应的页面"
+            }
+        }
+    ]
+}
+{% endschema %}
