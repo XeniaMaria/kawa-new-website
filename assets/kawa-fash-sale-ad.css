@@ -1,0 +1,47 @@
+.kawa-flash-sale-ad {
+  padding: 120px 0;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.kawa-flash-sale-ad .ad-title {
+  font-size: 46px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.kawa-flash-sale-ad .ad-desc {
+  max-width: 1000px;
+  margin: 0 auto 80px;
+  color: #000;
+  font-size: 18px;
+}
+
+.kawa-flash-sale-ad .ad-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.kawa-flash-sale-ad .ad-list > li {
+  list-style: none;
+  margin-bottom: 60px;
+  width: 49%;
+  display: inline-block;
+  vertical-align: text-top;
+}
+
+.kawa-flash-sale-ad .ad-item__title {
+  font-weight: 500;
+  font-size: 18px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.kawa-flash-sale-ad .ad-item__description {
+  margin-bottom: 0;
+  font-weight: 400;
+  color: #777;
+  font-size: 18px;
+}

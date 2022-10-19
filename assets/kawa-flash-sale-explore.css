@@ -1,0 +1,42 @@
+.kawa-flash-sale-explore {
+  padding: 120px 0;
+}
+
+.kawa-flash-sale-explore .explore-title {
+  font-size: 46px;
+  font-weight: 500;
+  color: #333;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.kawa-flash-sale-explore .explore-item-wrap {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.kawa-flash-sale-explore .explore-img-item {
+  display: inline-block;
+  transition: 0.5s;
+}
+
+.kawa-flash-sale-explore .explore-img-item:hover {
+  transition: 0.5s;
+  transform: scale(1.04);
+  z-index: 5;
+}
+
+.kawa-flash-sale-explore .explore-item__img {
+  max-width: 291px;
+}
+
+.kawa-flash-sale-explore .explore-item__name {
+  position: absolute;
+  bottom: 15px;
+  left: 30px;
+  color: #fff;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 1.2;
+}

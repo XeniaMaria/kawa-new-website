@@ -1,0 +1,67 @@
+{ "kawa-flash-sale-banner.css" | asset_url | stylesheet_tag }}
+
+{% style %}
+    .kawa-flash-sale-banner {
+        text-align: center;
+        position: relative;
+        background-size: initial;
+        background-position: top center;
+        background-image: url({{ section.settings.bg_image | image_url }});
+    }
+{% endstyle %}
+
+<div class="kawa-flash-sale-banner">
+    <div class="banner-inner">
+        <h3 class="banner-subtitle">
+            {{ section.settings.subtitle }}
+        </h3>
+        <h1 class="banner-title">
+            {{ section.settings.title }}
+        </h1>
+        <div class="bannber-des hide-more">
+            {{ section.settings.des }}
+        </div>
+        <p class="show-more-btn">
+        </p>
+    </div>
+</div>
+
+<script>
+    (function(){
+        const arrowBtn = document.querySelector(".kawa-flash-sale-banner .show-more-btn");
+        const desEl = document.querySelector(".kawa-flash-sale-banner .bannber-des");
+        arrowBtn.addEventListener("click",()=> {
+            arrowBtn.classList.toggle("active");
+            desEl.classList.toggle("hide-more");
+        })
+    })();
+</script>
+
+{% schema %}
+{
+    "name": "flash sale banner",
+    "tag": "section",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "bg_image",
+            "label": "背景图"
+        },
+        {
+            "type": "text",
+            "id": "subtitle",
+            "label": "子标题"
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": "标题"
+        },
+        {
+            "type": "html",
+            "id": "des",
+            "label": "描述"
+        }
+    ]
+}
+{% endschema %}

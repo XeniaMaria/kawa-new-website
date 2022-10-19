@@ -1,0 +1,44 @@
+.kawa-flash-sale-banner {
+  text-align: center;
+  position: relative;
+  padding: 140px 0;
+}
+
+.kawa-flash-sale-banner .banner-inner {
+  color: #fff;
+  font-family: quicksand;
+}
+
+.kawa-flash-sale-banner .banner-subtitle {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.kawa-flash-sale-banner .banner-title {
+  font-size: 46px;
+  font-weight: 700;
+  margin-bottom: 26px;
+  font-family: Montserrat;
+  white-space: nowrap;
+}
+
+.kawa-flash-sale-banner .banner-des {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+.kawa-flash-sale-banner .banner-des.hide-more {
+  height: 78px;
+  overflow: hidden;
+}
+
+.kawa-flash-sale-banner .show-more-button {
+  margin-top: 20px;
+  margin-bottom: 0;
+  height: 16px;
+  line-height: 16px;
+}
+.kawa-flash-sale-banner .show-more-button.active {
+  transform: rotate(180deg);
+}

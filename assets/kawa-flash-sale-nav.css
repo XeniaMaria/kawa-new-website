@@ -1,0 +1,58 @@
+.kawa-flash-sale-nav {
+  background: #fff;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  box-shadow: 0 4px 20px #e5e5e5;
+  font-size: 16px;
+  display: none;
+}
+
+.kawa-flash-sale-nav .nav-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.kawa-flash-sale-nav .nav-container ul {
+  display: flex;
+  justify-content: center;
+}
+
+.kawa-flash-sale-nav .nav-container ul li {
+  display: inline-block;
+  width: auto;
+  position: relative;
+  line-height: 1.6;
+  cursor: pointer;
+}
+.kawa-flash-sale-nav .nav-container ul li + li {
+  margin-left: 32px;
+}
+
+.kawa-flash-sale-nav .nav-container ul li a {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(102, 102, 102, 0.85);
+  padding: 10px 0;
+  display: inline-block;
+}
+.kawa-flash-sale-nav .nav-container ul li a.active {
+  color: #333;
+}
+
+.kawa-flash-sale-nav .nav-container ul li a::after {
+  content: ' ';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #00ade5;
+  transition: all 0.3s;
+  height: 3px;
+  width: 0;
+}
+.kawa-flash-sale-nav .nav-container ul li a.active::after,
+.kawa-flash-sale-nav .nav-container ul li a:hover::after {
+  width: 100%;
+}

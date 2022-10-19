@@ -1,0 +1,59 @@
+{{ "kawa-flash-sale-ad.css" | asset_url | stylesheet_tag }}
+
+<div class="kawa-flash-sale-ad">
+    <h2 class="ad-title">
+        {{ section.settings.title }}
+    </h2>
+    <div class="ad-des">
+        {{ section.settings.description }}
+    </div>
+    <ul class="ad-list">
+        {%- for block in section.blocks -%}
+            <li {{ block.shopify_attributes }}>
+                <h4 class="ad-item__title">
+                    {{ block.settings.ad-title }}
+                </h4>
+                <p class="ad-item__description">
+                    {{ block.settings.ad-description }}
+                </p>
+            </li>
+        {%- endfor -%}
+    </ul>
+</div>
+
+{% schema %}
+{
+    "name": "选择Kawa原因",
+    "tag": "section",
+    "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "标题"
+        },
+        {
+            "type": "textarea",
+            "id": "description",
+            "label": "描述"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "ad-block",
+            "name": "原因",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "ad-title",
+                    "label": "原因标题"
+                },
+                {
+                    "type": "textarea",
+                    "id": "ad-description",
+                    "label": "原因描述"
+                }
+            ]
+        }
+    ]
+}
+{% endschema %}

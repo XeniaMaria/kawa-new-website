@@ -1,0 +1,80 @@
+{{ "kawa-flash-sale.css" | asset_url | stylesheet_tag }}
+
+<div class="kawa-flash-sale">
+    {%- for block in section.blocks -%}
+    {%- assign product = block.settings.flash-sale-product -%}
+        <div class="shop-row" {{ block.shopify_attributes }}>
+            <div class="product-left__image">
+                <img
+                    src="{{ product.featured_media | image_url }}"
+                    class="product-image"
+                    width="100"
+                    height="100"
+                    loading="lazy"/>
+            </div>
+            <div class="product-right__info">
+                <ul class="product-tabs">
+                    {%- for inline_block in section.blocks -%}
+                        <li class="flash-sale-product__tab">
+                            {{ inline_block.settings.flash_sale_product.metafields.descriptors.subtitle }}
+                        </li>
+                    {%- endfor -%}
+                </ul>
+                <div class="product-details-wrapper">
+                    <h3 class="product-title">
+                        {{ product.title }}
+                        <a href="{{ product.url }}" class="product-link">
+                            <span>Learn More</span>
+                            <span
+                                class="iconify icon-arrow-right"
+                                data-icon="dashicons:arrow-right-alt2"
+                            ></span>
+                        </a>
+                    </h3>
+                    <ul class="product-tags">
+                        {%- assign tags = block.settings.product_tags | split: "," | escape -%}
+                        {%- for tag in tags -%}
+                            <li class="product-tag">
+                                {{ tag | escape }}
+                            </li>
+                        {%- endfor -%}
+                    </ul>
+                    <div class="shop-button">
+                        <button>
+                            <span>Shop</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {%- endfor -%}
+</div>
+
+<script>
+
+</script>
+
+{% schema %}
+{
+    "name": "热销产品section",
+    "tag": "section",
+    "blocks":[
+        {
+            "type": "flash-sale-product",
+            "name": "热销产品",
+            "settings":[
+                {
+                    "type": "product",
+                    "id": "product",
+                    "label": "产品"
+                },
+                {
+                    "type": "text",
+                    "id": "product_tags",
+                    "label": "产品标签"
+                }
+            ]
+        }
+    ]
+}
+{% endschema %}

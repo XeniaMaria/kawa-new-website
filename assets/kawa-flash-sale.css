@@ -1,0 +1,59 @@
+.kawa-flash-sale .shop-row {
+  padding: 0;
+  position: relative;
+  display: flex;
+}
+
+.kawa-flash-sale .product-left__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 51%;
+  vertical-align: top;
+  position: relative;
+}
+
+.kawa-flash-sale .product-right__info {
+  padding: 100px 0 100px 100px;
+  display: inline-block;
+  width: 51%;
+  vertical-align: top;
+  position: relative;
+}
+
+.kawa-flash-sale .product-image {
+  width: 400px;
+  height: 100%;
+}
+
+.kawa-flash-sale .product-tabs {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.kawa-flash-sale .product-details-wrapper {
+}
+
+.kawa-flash-sale .product-tags {
+  margin: 40px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.kawa-flash-sale .product-link {
+  color: #00ade5;
+  display: inline-block;
+  margin-left: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.kawa-flash-sale .product-link > span {
+  padding-bottom: 2px;
+  border-bottom: 1px solid transparent;
+}
+
+.kawa-flash-sale .product-link:hover > span {
+  border-bottom: 1px solid #00ade5;
+}

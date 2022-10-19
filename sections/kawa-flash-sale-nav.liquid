@@ -1,0 +1,34 @@
+{{ "kawa-flash-sale-nav.css" | asset_url | stylesheet_tag }}
+
+<div class="kawa-flash-sale-nav">
+    <div class="nav-container">
+        <ul>
+            <li>
+                <a class="active">
+
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<script>
+    (function(){
+        const navSection = document.querySelector(".kawa-flash-sale-nav");
+        window.addEventListener("scroll",()=> {
+            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            if(scrollTop > 88) {
+                navSection.style.display = "block";
+            } else {
+                navSection.style.display = "none";
+            }
+        })
+    })()
+</script>
+
+{% schema %}
+{
+    "name": "flash-sale 导航",
+    "tag": "section"
+}
+{% endschema %}

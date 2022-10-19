@@ -1,0 +1,42 @@
+{{ "kawa-flash-sale-explore.css" | asset_url | stylesheet_tag }}
+
+<div class="kawa-flash-sale-explore">
+    <h2 class="explore-title">
+        {{ section.settings.title }}
+    </h2>
+    <ul class="explore-item-wrap">
+        <li class="expore-item">
+            <a href="">
+                <img
+                    class="explore-item__img"
+                    height="100"
+                    width="100"
+                    loading="lazy"
+                />
+                <span class="explore-item__name">
+
+                </span>
+            </a>
+        </li>
+    </ul>
+</div>
+
+{% schema %}
+{
+    "name": "explore",
+    "tag": "section",
+    "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "标题"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "collection",
+            "name": "产品系列"
+        }
+    ]
+}
+{% endschema %}
