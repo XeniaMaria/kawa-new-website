@@ -8,47 +8,75 @@
 />
 <script src="{{ 'swiper.min.js' | asset_url }}" defer="defer"></script>
 
+<script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
+
 <div class="video-banner">
   <div class="swiper-container video-swiper-container w-100">
     <div class="swiper-wrapper">
-      <div class="swiper-slide">
-        <div class="item-wrapper">
-          <div class="banner-item-content acc mw-1200-c text-white">
-            <h1 class="banner-main-text text-white">
-              Kawa official
-              <br />
-              <span id="auto-text-1"></span>
-            </h1>
-            <label class="banner-item-name">CJ1013</label>
-            <p class="banner-item-desc">4G LTE Battery Security Camera Works on Its Own Without WiFi.</p>
-            <div>
-              <a href="/" class="item-shop-now-btn banner-btn"> Shop Now
-                <span class="iconify icon-arrow-right" data-icon="dashicons:arrow-right-alt2"></span>
-              </a>
-              <a href="/" class="item-learn-more-btn banner-btn"> Learn More
-                <span class="iconify icon-arrow-right" data-icon="dashicons:arrow-right-alt2"></span>
-              </a>
+      {%- for block in section.blocks -%}
+        {%- assign product = block.settings.banner_product -%}
+        <div class="swiper-slide">
+          <div class="item-wrapper">
+            <div class="banner-item-content acc mw-1200-c text-white">
+              <h1 class="banner-main-text text-white">
+                {{ block.settings.title }}
+                <br />
+                <span
+                  class="auto-text"
+                  data-text="{{ block.settings.dynamic_text }}"
+                ></span>
+              </h1>
+              <label class="banner-item-name">{{ product.metafields.descriptors.subtitle }}</label>
+              <p class="banner-item-desc">{{ block.settings.des }}</p>
+              <div>
+                <product-form>
+                  {%- form 'product', product, id: "product-purchase-form", class: "product-buy-form" -%}
+                      <input type="text" name="quantity" min="1" value="1" style="display: none;">
+                      {%- if product.has_only_default_variant -%}
+                        <input
+                          type="hidden"
+                          name="id"
+                          value="{{ product.selected_or_first_available_variant.id }}"
+                          {% if product.selected_or_first_available_variant.availabel == false %}disabled {% endif %}
+                        >
+                        {%- endif -%}
+                      <button type="submit" class="add-to-cart__btn item-shop-now-btn banner-btn">
+                          <span>Shop Now</span>
+                          <div class="loading-overlay__spinner hidden">
+                              <svg
+                                aria-hidden="true"
+                                focusable="false"
+                                role="presentation"
+                                class="spinner"
+                                viewBox="0 0 66 66"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                              </svg>
+                            </div>
+                      </button>
+                  {%- endform -%}
+                </product-form>
+                <a href="{{ product.url }}" class="item-learn-more-btn banner-btn"> Learn More
+                  <span class="iconify icon-arrow-right" data-icon="dashicons:arrow-right-alt2"></span>
+                </a>
+              </div>
             </div>
+              <video
+                autoplay
+                class="vc-video lazyloadVideo w-100 h-100"
+                type="video/mp4"
+                preload="none"
+                loop=""
+                muted="muted"
+                playsinline=""
+                data-canvas="7af2875d-f2bc-1be0-9992-6a94f3ef1f47"
+                src="{{ block.settings.video_link }}"
+                isload="true"
+              ></video>
           </div>
-            <video
-              autoplay
-              class="vc-video lazyloadVideo w-100 h-100"
-              poster="https://reolink.com/wp-content/assets/banner/rlk8-810b4-a-homepage-banner-pc.jpg?v=1661398539134"
-              type="video/mp4"
-              data-src="https://reolink.com/wp-content/assets/banner/rlk8-810b4-a-homepage-banner-pc.mp4"
-              preload="none"
-              loop=""
-              muted="muted"
-              playsinline=""
-              data-canvas="7af2875d-f2bc-1be0-9992-6a94f3ef1f47"
-              src="https://reolink.com/wp-content/assets/banner/rlk8-810b4-a-homepage-banner-pc.mp4"
-              isload="true"
-            ></video>
         </div>
-      </div>
-      <div class="swiper-slide">2</div>
-      <div class="swiper-slide">3</div>
-      <div class="swiper-slide">4</div>
+      {%- endfor -%}
     </div>
     <div class="swiper-pagination video-banner-pagination"></div>
     <div class="swiper-button-next swiper-button-white"></div>
@@ -57,16 +85,6 @@
 </div>
 
 <script text="text/javascript">
-  const textEl1 = document.getElementById("auto-text-1");
-  const SLIDE_COUNT = 4;
-  const autoTextMap = [
-    null,
-    {
-      text: "Welcome!",
-      el: textEl1,
-      index: 1,
-    },
-  ];
   const writeText = function (curObj) {
     curObj.el.innerHTML = curObj.text.slice(0, curObj.index);
     curObj.index++;
@@ -80,6 +98,7 @@
     }
   };
 
+  const autoTextMap = []
   window.addEventListener("load", () => {
     var swiper = new Swiper(".video-swiper-container", {
       loop: true,
@@ -89,27 +108,71 @@
       prevButton: ".swiper-button-prev",
 
       onSlideChangeEnd: function (swiper) {
-        const curIdx = swiper.activeIndex;
-        let curObj;
-        if (curIdx === SLIDE_COUNT) {
-          curObj = autoTextMap[curIdx];
-        } else {
-          curObj = autoTextMap[curIdx % SLIDE_COUNT];
-        }
-        if (!curObj) {
+        if(autoTextMap.length === 0){
           return;
         }
+        const curIdx = swiper.activeIndex;
+        let curObj = autoTextMap[curIdx];
         writeText(curObj);
         curObj.el.classList.add("text-blink");
       },
     });
+
+    const allTextEl = document.querySelectorAll(".auto-text");
+    const SLIDE_COUNT = allTextEl.length;
+    console.log(SLIDE_COUNT);
+    Array.from(allTextEl).forEach((textEl) => {
+      autoTextMap.push({
+        text: textEl.getAttribute("data-text"),
+        el: textEl,
+        index: 1
+      })
+    });
+    //第一个手动触发
+    writeText(autoTextMap[1]);
+    autoTextMap[1].el.classList.add("text-blink");
+
   });
 </script>
 
 {% schema %}
 {
-  "name": "t:sections.kawa-video-banner.name",
+  "name": "video banner",
   "tag": "section",
-  "class": "kawa-video-banner-section"
+  "class": "kawa-video-banner-section",
+  "blocks": [
+    {
+      "type": "banner_item",
+      "name": "banner项",
+      "settings": [
+        {
+          "type": "product",
+          "id": "banner_product",
+          "label": "产品"
+        },
+        {
+          "type": "url",
+          "id": "video_link",
+          "label": "视频链接",
+          "info": "将mp4文件上传后，复制链接。"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "标题"
+        },
+        {
+          "type": "text",
+          "id": "dynamic_text",
+          "label": "动态文本"
+        },
+        {
+          "type": "textarea",
+          "id": "des",
+          "label": "描述"
+        }
+      ]
+    }
+  ]
 }
 {% endschema %}

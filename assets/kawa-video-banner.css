@@ -42,7 +42,7 @@
 
 /*光标闪烁相关*/
 .text-blink::after {
-  content: "";
+  content: '';
   display: inline-block;
   width: 2px;
   height: 80px;
@@ -81,6 +81,10 @@
 }
 
 /*轮播图上面的按钮*/
+.video-banner product-form {
+  display: inline-block;
+}
+
 .video-banner .item-shop-now-btn {
   background: linear-gradient(150deg, #eb3349, #f45c43);
 }
@@ -104,6 +108,8 @@
   position: relative;
   top: 0;
   color: #fff;
+  outline: none;
+  border: none;
   transition: top 0.5s;
 }
 
