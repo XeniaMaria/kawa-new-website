@@ -108,15 +108,43 @@
   height: 88px;
 }
 
-#header:hover [class^="nav-"] > li > a {
+#header:hover [class^='nav-'] > li > a {
   color: #555;
 }
-#header [class^="nav-"] > li > a:hover {
+#header [class^='nav-'] > li > a:hover {
+  color: #00ade5;
+}
+
+/* 常规子菜单样式 */
+.normal-sub-menu {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  top: 88px;
+}
+.nav-item:hover .normal-sub-menu {
+  display: block;
+}
+
+.normal-sub-menu li a {
+  padding: 0 25px;
+  color: #555;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  line-height: 60px;
+  border-bottom: 0;
+  margin: 0;
+}
+.normal-sub-menu li a:hover {
+  background-color: #f7f8f9;
   color: #00ade5;
 }
 
 /*菜单项产品相关的样式*/
-.product-menu .product-sub-menu {
+.product-menu.product-sub-menu {
   position: absolute;
   left: 0;
   width: 100%;
@@ -125,7 +153,7 @@
   display: none;
 }
 
-.product-menu:hover .product-sub-menu {
+.nav-item:hover .product-sub-menu {
   display: block;
 }
 
@@ -324,10 +352,7 @@
 #header .sidebar-sub-menu .collection-menu-products {
   display: none;
 }
-#header
-  .sidebar-sub-menu.sidebar-sub-menu
-  .is-expand
-  .collection-menu-products {
+#header .sidebar-sub-menu.sidebar-sub-menu .is-expand .collection-menu-products {
   display: flex;
   flex-wrap: wrap;
   padding-top: 4vw;

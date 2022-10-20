@@ -39,13 +39,13 @@
     <div class="nav-container">
       <ul class="nav-left">
         {% for link in linklists.main-menu.links %}
-          <li class="nav-item {% if link.title == 'Shop' -%} product-menu {%- endif %}">
+          <li class="nav-item">
             <a href="{{ link.url }}" class="nav-text">
               {{ link.title }}
             </a>
 
-            {% if link.links.size > 0 %}
-              <div class="product-sub-menu">
+            {% if link.links.size > 0 and link.title == 'Shop' %}
+              <div class="product-sub-menu product-menu">
                 <div class="product-category-panel">
                   <ul class="product-category-tab">
                     {%- for sub_link in link.links -%}
@@ -108,6 +108,18 @@
                     {%- endfor -%}
                   </div>
                 </div>
+              </div>
+            {%- elsif link.links.size > 0 -%}
+              <div class="normal-sub-menu">
+                <ul>
+                  {%- for sub_link in link.links -%}
+                    <li>
+                      <a href="{{ sub_link.url }}" class="nav-text">
+                        {{ sub_link.title }}
+                      </a>
+                    </li>
+                  {%- endfor -%}
+                </ul>
               </div>
             {% endif %}
           </li>
