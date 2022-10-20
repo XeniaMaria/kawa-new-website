@@ -1,0 +1,57 @@
+{{ "kawa-faq-list.css" | asset_url | stylesheet_tag }}
+
+<div class="kawa-faq-list">
+    <nav class="nav">
+        <ol class="breadcrumbs">
+            <li>
+                <a>
+                    Kawa Support
+                </a>
+            </li>
+            <li>
+                FAQs
+            </li>
+        </ol>
+    </nav>
+    <div class="faq-category-container">
+        <div class="category-content">
+            <header class="content-header">
+                <h1>FAQs</h1>
+                <p>
+                    {{ section.settings.des }}
+                </p>
+            </header>
+            <div class="main-content">
+                <section>
+                    <ul class="article-list">
+                        <li>
+                            <a></a>
+                        </li>
+                    </ul>
+                    <a class="see-all-article">
+                        See all articles
+                    </a>
+                </section>
+                <section>
+                    <a class="see-all-article">
+                        See all articles
+                    </a>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "faq list",
+    "tag": "section",
+    "settings": [
+        {
+            "type": "textarea",
+            "id": "des",
+            "label": "描述"
+        }
+    ]
+}
+{% endschema %}

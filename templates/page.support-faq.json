@@ -1,0 +1,11 @@
+{
+  "sections": {
+    "faq-list": {
+      "type": "kawa-faq-list",
+      "settings": {
+        "des": "Quick answers to frequently asked questions about Reolink products."
+      }
+    }
+  },
+  "order": ["faq-list"]
+}
