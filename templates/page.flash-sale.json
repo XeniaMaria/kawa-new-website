@@ -4,9 +4,9 @@
       "type": "kawa-flash-sale"
     },
     "flash-sale-banner": {
-      "type": "kawa-flash-sale",
+      "type": "kawa-flash-sale-banner",
       "settings": {
-        "bg_image": "shopify://shop_images/carousel-item-two.webp",
+        "bg_image": "shopify://shop_images/carousel-item-one.webp",
         "subtitle": "Your Portable, Wire-Free and Hassle-Free Security Solution!",
         "title": "Battery-Powered Security Cameras",
         "des": "Battery operated security cameras are usually 100% wire-free cameras (from top to bottom). Require no other power, no cords, no wiring!So you easily move your Reolink 100% wireless battery security camera anywhere, and set it up in minutes. Keep an HD eye on your home from anywhere using your phone or computer.Wire-free outdoor security cameras from Reolink are also solar-powered ones. Connect your camera to a solar panel so it provides enough juice for day & night monitoring, with starlight or high-quality infrared night vision. Achieve peace of mind while saving your money."

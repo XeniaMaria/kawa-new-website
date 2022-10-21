@@ -10,12 +10,14 @@
 }
 
 .kawa-flash-sale-banner .banner-subtitle {
+  color: #fff;
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 15px;
 }
 
 .kawa-flash-sale-banner .banner-title {
+  color: #fff;
   font-size: 46px;
   font-weight: 700;
   margin-bottom: 26px;
@@ -29,16 +31,22 @@
   text-align: left;
 }
 .kawa-flash-sale-banner .banner-des.hide-more {
-  height: 78px;
+  height: 80px;
   overflow: hidden;
 }
 
-.kawa-flash-sale-banner .show-more-button {
+.kawa-flash-sale-banner .show-more-btn {
   margin-top: 20px;
   margin-bottom: 0;
   height: 16px;
   line-height: 16px;
 }
-.kawa-flash-sale-banner .show-more-button.active {
+.kawa-flash-sale-banner .show-more-btn.active {
   transform: rotate(180deg);
+}
+
+.kawa-flash-sale-banner .show-more-btn > svg {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
 }

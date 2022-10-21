@@ -32,12 +32,17 @@
 }
 
 .kawa-flash-sale .product-details-wrapper {
+  max-width: 520px;
 }
 
 .kawa-flash-sale .product-tags {
   margin: 40px 0;
   display: flex;
   flex-wrap: wrap;
+}
+
+.kawa-flash-sale .product-title {
+  font-size: 30px;
 }
 
 .kawa-flash-sale .product-link {
@@ -48,12 +53,23 @@
   font-size: 16px;
   cursor: pointer;
 }
+.kawa-flash-sale .product-link:hover {
+  text-decoration: none;
+}
 
 .kawa-flash-sale .product-link > span {
   padding-bottom: 2px;
   border-bottom: 1px solid transparent;
 }
-
 .kawa-flash-sale .product-link:hover > span {
   border-bottom: 1px solid #00ade5;
+}
+
+.kawa-flash-sale .product-link > svg {
+  position: relative;
+  right: 0px;
+  transition: right 0.3s;
+}
+.kawa-flash-sale .product-link:hover > svg {
+  right: -10px;
 }

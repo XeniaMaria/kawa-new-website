@@ -1,4 +1,4 @@
-{ "kawa-flash-sale-banner.css" | asset_url | stylesheet_tag }}
+{{ "kawa-flash-sale-banner.css" | asset_url | stylesheet_tag }}
 
 {% style %}
     .kawa-flash-sale-banner {
@@ -18,10 +18,11 @@
         <h1 class="banner-title">
             {{ section.settings.title }}
         </h1>
-        <div class="bannber-des hide-more">
+        <div class="banner-des hide-more">
             {{ section.settings.des }}
         </div>
         <p class="show-more-btn">
+            <span class="iconify" data-icon="ep:arrow-down"></span>
         </p>
     </div>
 </div>
@@ -29,7 +30,7 @@
 <script>
     (function(){
         const arrowBtn = document.querySelector(".kawa-flash-sale-banner .show-more-btn");
-        const desEl = document.querySelector(".kawa-flash-sale-banner .bannber-des");
+        const desEl = document.querySelector(".kawa-flash-sale-banner .banner-des");
         arrowBtn.addEventListener("click",()=> {
             arrowBtn.classList.toggle("active");
             desEl.classList.toggle("hide-more");

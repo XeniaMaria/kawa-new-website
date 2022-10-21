@@ -2,7 +2,7 @@
 
 <div class="kawa-flash-sale">
     {%- for block in section.blocks -%}
-    {%- assign product = block.settings.flash-sale-product -%}
+    {%- assign product = block.settings.product -%}
         <div class="shop-row" {{ block.shopify_attributes }}>
             <div class="product-left__image">
                 <img
@@ -32,7 +32,7 @@
                         </a>
                     </h3>
                     <ul class="product-tags">
-                        {%- assign tags = block.settings.product_tags | split: "," | escape -%}
+                        {%- assign tags = block.settings.product_tags| escape | split: "," -%}
                         {%- for tag in tags -%}
                             <li class="product-tag">
                                 {{ tag | escape }}

@@ -23,6 +23,13 @@
   background-color: #f7f8f9;
   border-radius: 6px;
 }
+.kawa-flash-sale-comment .comment-item + .comment-item {
+  margin-left: 36px;
+}
+
+.kawa-flash-sale-comment .comment-item > a:hover {
+  text-decoration: none;
+}
 
 .kawa-flash-sale-comment .comment-title {
   font-size: 20px;
@@ -60,6 +67,35 @@
   padding-bottom: 2px;
   border-bottom: 1px solid transparent;
 }
-.kawa-flash-sale-comment .read-more-link span:hover {
+.kawa-flash-sale-comment .read-more-link:hover span:first-child {
   border-bottom: 1px solid #00ade5;
+}
+
+.kawa-flash-sale-comment .read-more-link svg {
+  position: relative;
+  right: 0px;
+  transition: right 0.3s;
+}
+.kawa-flash-sale-comment .read-more-link:hover svg {
+  right: -10px;
+}
+
+@media screen and (max-width: 768px) {
+  .kawa-flash-sale-comment .section-title {
+    font-size: 4.4vw;
+  }
+
+  .kawa-flash-sale-comment .comments-container {
+    display: block;
+  }
+
+  .kawa-flash-sale-comment .comment-item + .comment-item {
+    margin-left: 0;
+  }
+
+  .kawa-flash-sale-comment .comment-item {
+    margin-top: 4vw;
+    padding: 5.6vw 3.9vw;
+    width: unset;
+  }
 }
