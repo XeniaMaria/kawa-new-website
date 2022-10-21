@@ -2,36 +2,33 @@
   "sections": {
     "main": {
       "type": "kawa-main-product",
-      "settings": {
-        "discount_code": "WS24S360"
-      },
       "blocks": {
         "store-info-item-1": {
           "type": "store_info_item",
           "settings": {
             "title": "Fast, Free Shipping",
-            "content": "<p>We offer free shipping straight to your door throughout the contiguous US*. It usually takes 3-7 business days* for your package to be delivered, so you can sit back and relax, worry-free.</p><p>*Please see our shipping policy for more details.</p><p>*Due to COVID-19 shipping times may vary.</p>"
+            "content": "<p>We offer free shipping straight to your door throughout the contiguous US*. It usually takes 3-7 business days* for your package to be delivered, so you can sit back and relax, worry-free.<\/p><p><\/p><p>*Please see our shipping policy for more details.<\/p><p>*Due to COVID-19 shipping times may be delayed.<\/p>"
           }
         },
         "store-info-item-2": {
           "type": "store_info_item",
           "settings": {
             "title": "30-Day Money-Back Guarantee",
-            "content": "<p> Get a full refund when you return your undamaged products within 30 days - for any reason. Once the item arrives back at the eufy warehouse for inspection, the refund process will begin.</p><p> See our refund policy for more details about what is needed for a smooth refund process..</p>"
+            "content": "<p> Get a full refund when you return your undamaged products within 30 days - for any reason. Once the item arrives back at the eufy warehouse for inspection, the refund process will begin.<\/p><p> See our refund policy for more details about what is needed for a smooth refund process..<\/p>"
           }
         },
         "store-info-item-3": {
           "type": "store_info_item",
           "settings": {
             "title": "Hassle-free Warranty",
-            "content": "<p> eufy provides a straightforward, hassle-free warranty to save you some headaches. All pre-owned and refurbished products come with their own unique warranty that you can find on the product listing or contact us at support@eufylife.com with your order receipt for confirmation.</p><p> This limited warranty provided by the manufacturer in no way affects a potential statutory warranty provided by law.</p>"
+            "content": "<p> eufy provides a straightforward, hassle-free warranty to save you some headaches. All pre-owned and refurbished products come with their own unique warranty that you can find on the product listing or contact us at support@eufylife.com with your order receipt for confirmation.<\/p><p> This limited warranty provided by the manufacturer in no way affects a potential statutory warranty provided by law.<\/p>"
           }
         },
         "store-info-item-4": {
           "type": "store_info_item",
           "settings": {
             "title": "Lifetime Customer Support",
-            "content": "<p> We'll Always be There for You.</p><p> If you have any questions or concerns, feel free to contact us at support@eufylife.com.</p>"
+            "content": "<p> We'll Always be There for You.<\/p><p> If you have any questions or concerns, feel free to contact us at support@eufylife.com.<\/p>"
           }
         }
       },
@@ -40,19 +37,20 @@
         "store-info-item-2",
         "store-info-item-3",
         "store-info-item-4"
-      ]
+      ],
+      "settings": {
+        "discount_code": "WS24S360"
+      }
     },
     "banner": {
       "type": "kawa-main-product-banner",
       "settings": {
-        "banner_image": "shopify://shop_images/product-banner.webp"
       }
     },
     "video": {
       "type": "kawa-preview-video",
       "settings": {
-        "video_link": "https://cdn.shopify.com/videos/c/o/v/fd5bb78358954e02a5d6013bae20fefc.mp4",
-        "cover_image": "shopify://shop_images/my-video-poster.webp",
+        "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/fd5bb78358954e02a5d6013bae20fefc.mp4",
         "max_width": "mw-1300-c",
         "has_border": false
       }
@@ -66,7 +64,7 @@
             "name": "Sleep Tracker",
             "title": "Know Your Baby is Sleeping Well",
             "content": "Smart sock tracks your baby's real-time sleep data, including heart rate, sleep status, and movements. Easily gain access to the data from your phone so that you can both get a well-deserved, good night's sleep.",
-            "image": "shopify://shop_images/carousel-item-one.webp"
+            "image": "shopify:\/\/shop_images\/3_2c04b953-bf28-49ec-923a-58535288db36.jpg"
           }
         },
         "carousel-item-2": {
@@ -75,11 +73,16 @@
             "name": "Sleep Analysis",
             "title": "Sleep Analysis and Reports",
             "content": "The eufy Baby app provides a daily report for you to better understand your baby's sleep patterns—no subscription fee needed.",
-            "image": "shopify://shop_images/carousel-item-two.webp"
+            "image": "shopify:\/\/shop_images\/5_24ca8456-695d-466f-ab36-d8fda3365d1f.jpg"
           }
         }
       },
-      "block_order": ["carousel-item-1", "carousel-item-2"]
+      "block_order": [
+        "carousel-item-1",
+        "carousel-item-2"
+      ],
+      "settings": {
+      }
     },
     "carousel-2": {
       "type": "kawa-main-product-carousel",
@@ -89,8 +92,7 @@
           "settings": {
             "name": "Sleep Tracker",
             "title": "Know Your Baby is Sleeping Well",
-            "content": "Smart sock tracks your baby's real-time sleep data, including heart rate, sleep status, and movements. Easily gain access to the data from your phone so that you can both get a well-deserved, good night's sleep.",
-            "image": "shopify://shop_images/carousel-item-one.webp"
+            "content": "Smart sock tracks your baby's real-time sleep data, including heart rate, sleep status, and movements. Easily gain access to the data from your phone so that you can both get a well-deserved, good night's sleep."
           }
         },
         "carousel-item-2": {
@@ -98,12 +100,16 @@
           "settings": {
             "name": "Sleep Analysis",
             "title": "Sleep Analysis and Reports",
-            "content": "The eufy Baby app provides a daily report for you to better understand your baby's sleep patterns—no subscription fee needed.",
-            "image": "shopify://shop_images/carousel-item-two.webp"
+            "content": "The eufy Baby app provides a daily report for you to better understand your baby's sleep patterns—no subscription fee needed."
           }
         }
       },
-      "block_order": ["carousel-item-1", "carousel-item-2"]
+      "block_order": [
+        "carousel-item-1",
+        "carousel-item-2"
+      ],
+      "settings": {
+      }
     },
     "image-text-1": {
       "type": "kawa-image-text",
@@ -111,7 +117,6 @@
         "image-text-item-1": {
           "type": "image_text",
           "settings": {
-            "image": "shopify://shop_images/carousel-item-one.webp",
             "title": "Get Notified Anywhere",
             "content": "Get instant notifications from your phone every time your baby is awake or fussy, or when the room temperature is out of the normal range."
           }
@@ -119,13 +124,17 @@
         "image-text-item-2": {
           "type": "image_text",
           "settings": {
-            "image": "shopify://shop_images/carousel-item-two.webp",
             "title": "Gain Peace of Mind at a Glance",
             "content": "The base glows green to indicate that your baby is doing fine. A sound and a red light from the base lets you know that you should check on your baby."
           }
         }
       },
-      "block_order": ["image-text-item-1", "image-text-item-2"]
+      "block_order": [
+        "image-text-item-1",
+        "image-text-item-2"
+      ],
+      "settings": {
+      }
     },
     "image-text-2": {
       "type": "kawa-image-text",
@@ -133,7 +142,6 @@
         "image-text-item-1": {
           "type": "image_text",
           "settings": {
-            "image": "shopify://shop_images/carousel-item-one.webp",
             "title": "Get Notified Anywhere",
             "content": "Get instant notifications from your phone every time your baby is awake or fussy, or when the room temperature is out of the normal range."
           }
@@ -141,7 +149,6 @@
         "image-text-item-2": {
           "type": "image_text",
           "settings": {
-            "image": "shopify://shop_images/carousel-item-two.webp",
             "title": "Gain Peace of Mind at a Glance",
             "content": "The base glows green to indicate that your baby is doing fine. A sound and a red light from the base lets you know that you should check on your baby."
           }
@@ -149,7 +156,6 @@
         "image-text-item-3": {
           "type": "image_text",
           "settings": {
-            "image": "shopify://shop_images/carousel-item-one.webp",
             "title": "Get Notified Anywhere",
             "content": "Get instant notifications from your phone every time your baby is awake or fussy, or when the room temperature is out of the normal range."
           }
@@ -157,7 +163,6 @@
         "image-text-item-4": {
           "type": "image_text",
           "settings": {
-            "image": "shopify://shop_images/carousel-item-two.webp",
             "title": "Gain Peace of Mind at a Glance",
             "content": "The base glows green to indicate that your baby is doing fine. A sound and a red light from the base lets you know that you should check on your baby."
           }
@@ -168,19 +173,25 @@
         "image-text-item-2",
         "image-text-item-3",
         "image-text-item-4"
-      ]
+      ],
+      "settings": {
+      }
     },
     "product-comparison": {
       "type": "kawa-product-comparison",
       "settings": {
+        "title": "Product Comparison",
         "product_1": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6",
         "product_2": "kawa-5-720p-hd-display-video-baby-monitor-with-night-vision-temperature-sensor-2-way-audio-pan-tilt-zoom-white-noise-lullaby-20-hours-battery-1000ft-range",
-        "product_desc_1": "<p>Sleep tracking and insights<br>(Sleep time, heart rate, movements, history analysis)</p><p>Prompts when uncomfortable sleep is detected</p><p>2K video and night vision</p><p>330° pan, 110° tilt</p><p>Room temperature and sound notifications</p><p>Two-way talk</p><p>5\" touchscreen</p><p>Livestream on display and app</p><p>Real-time sleep data on display and app</p><p>Smart alerts on display and app</p>",
-        "product_desc_2": "<p>Sleep tracking and insights<br>(Sleep time, heart rate, movements, history analysis)</p><p>Prompts when uncomfortable sleep is detected</p><p>2K video and night vision</p><p>330° pan, 110° tilt</p><p>Room temperature and sound notifications</p><p>Two-way talk</p><p>LED indicators on baby's status</p><p>Livestream on app</p><p>Real-time sleep data on app<br>&nbsp;</p><p>Smart alerts on app</p>"
+        "product_desc_1": "<p>Sleep tracking and insights<br>(Sleep time, heart rate, movements, history analysis)<\/p><p>Prompts when uncomfortable sleep is detected<\/p><p>2K video and night vision<\/p><p>330° pan, 110° tilt<\/p><p>Room temperature and sound notifications<\/p><p>Two-way talk<\/p><p>5\" touchscreen<\/p><p>Livestream on display and app<\/p><p>Real-time sleep data on display and app<\/p><p>Smart alerts on display and app<\/p>",
+        "product_desc_2": "<p>Sleep tracking and insights<br>(Sleep time, heart rate, movements, history analysis)<\/p><p>Prompts when uncomfortable sleep is detected<\/p><p>2K video and night vision<\/p><p>330° pan, 110° tilt<\/p><p>Room temperature and sound notifications<\/p><p>Two-way talk<\/p><p>LED indicators on baby's status<\/p><p>Livestream on app<\/p><p>Real-time sleep data on app<br> <\/p><p>Smart alerts on app<\/p>"
       }
     },
     "specifications": {
-      "type": "kawa-product-specifications"
+      "type": "kawa-product-specifications",
+      "settings": {
+        "title": "Specs"
+      }
     },
     "faq": {
       "type": "kawa-faq",
@@ -214,43 +225,55 @@
           }
         }
       },
-      "block_order": ["faq-1", "faq-2", "faq-3", "faq-4"]
+      "block_order": [
+        "faq-1",
+        "faq-2",
+        "faq-3",
+        "faq-4"
+      ],
+      "settings": {
+        "title": "FAQ"
+      }
     },
     "tabs": {
       "type": "kawa-product-tabs",
-      "settings": {
-        "title": "Clear & Color, Even at Night or from Afar",
-        "description": "With 5-megapixel resolution and built-in spotlights, this smart IP camera keeps recording in full color day and night. Even better, you can zoom in optically to find more details."
-      },
       "blocks": {
         "tab-1": {
           "type": "tab_item",
           "settings": {
             "name": "Color Night Vision",
-            "image": "shopify://shop_images/carousel-item-one.webp"
+            "video_link": ""
           }
         },
         "tab-2": {
           "type": "tab_item",
           "settings": {
             "name": "5MP Super HD",
-            "video_link": "https://cdn.shopify.com/videos/c/o/v/fd5bb78358954e02a5d6013bae20fefc.mp4"
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/fd5bb78358954e02a5d6013bae20fefc.mp4"
           }
         },
         "tab-3": {
           "type": "tab_item",
           "settings": {
             "name": "3X Optical Zoom",
-            "video_link": "https://cdn.shopify.com/videos/c/o/v/fd5bb78358954e02a5d6013bae20fefc.mp4"
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/fd5bb78358954e02a5d6013bae20fefc.mp4"
           }
         }
       },
-      "block_order": ["tab-1", "tab-2", "tab-3"]
+      "block_order": [
+        "tab-1",
+        "tab-2",
+        "tab-3"
+      ],
+      "settings": {
+        "title": "Clear & Color, Even at Night or from Afar",
+        "description": "With 5-megapixel resolution and built-in spotlights, this smart IP camera keeps recording in full color day and night. Even better, you can zoom in optically to find more details."
+      }
     },
     "video-text": {
       "type": "kawa-video-text",
       "settings": {
-        "video_link": "https://cdn.shopify.com/videos/c/o/v/fd5bb78358954e02a5d6013bae20fefc.mp4",
+        "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/fd5bb78358954e02a5d6013bae20fefc.mp4",
         "title": "Super Fun Time Lapse",
         "content": "E1 Outdoor with time lapse makes it quicker and easier to capture the dynamic of long-term events like sun rising and flower blooming. Have fun shooting movie-like videos!",
         "warning": "* This feature is incompatible when camera is connected to NVRs."
@@ -260,15 +283,13 @@
       "type": "kawa-phone-preview",
       "settings": {
         "img_width": 340,
-        "img_height": 616,
-        "phone_simulator": "shopify://shop_images/phone-simulator.webp",
-        "img_1": "shopify://shop_images/my-video-poster.webp",
-        "img_2": "shopify://shop_images/carousel-item-one.webp",
-        "img_3": "shopify://shop_images/carousel-item-two.webp"
+        "img_height": 616
       }
     },
     "product-buy": {
-      "type": "kawa-product-buy"
+      "type": "kawa-product-buy",
+      "settings": {
+      }
     }
   },
   "order": [
