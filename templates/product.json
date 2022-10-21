@@ -3,7 +3,10 @@
     "main": {
       "type": "kawa-main-product",
       "settings": {
-        "discount_code": "WS24S360"
+        "discount_code": "WS24S360",
+        "show_discount": true,
+        "discount_money": 70,
+        "discount_faq": "1234325667"
       },
       "blocks": {
         "store-info-item-1": {

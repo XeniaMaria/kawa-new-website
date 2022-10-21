@@ -60,66 +60,50 @@
           {{ product.description }}
         </div>
         <div class="product-rating border-bottom">5颗星</div>
-        <div class="product-discount-code border-bottom">
-          <p class="discount-title"  data-toggle="modal" data-target="#discount-modal">
-            <span class="iconify" data-icon="fa-solid:question-circle"></span>
-            <span>Hurry! Offer Ends Soon!</span>
+        {%- if section.settings.show_discount -%}
+          <div class="product-discount-code border-bottom">
+            <p class="discount-title"  data-toggle="modal" data-target="#discount-modal">
+              <span class="iconify" data-icon="fa-solid:question-circle"></span>
+              <span>Hurry! Offer Ends Soon!</span>
 
-            <div class="modal fade" id="discount-modal">
-              <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
+              <div class="modal fade" id="discount-modal">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
 
-                  <!-- 模态框头部 -->
-                  <div class="modal-header">
-                    <h4 class="modal-title">Discount Code FAQ</h4>
-                    <button type="button" class="close" data-dismiss="modal" style="font-size: 35px;">&times;</button>
-                  </div>
+                    <!-- 模态框头部 -->
+                    <div class="modal-header">
+                      <h4 class="modal-title">Discount Code FAQ</h4>
+                      <button type="button" class="close" data-dismiss="modal" style="font-size: 35px;">&times;</button>
+                    </div>
 
-                  <!-- 模态框主体 -->
-                  <div class="modal-body">
-                    <div style="margin-bottom: 1rem;">
-                      <h4>1. How do I use the discount code?</h4>
-                      <p>Copy the discount code from the product page, and then apply the discount code at check out.</p>
+                    <!-- 模态框主体 -->
+                    <div class="modal-body">
+                      {{ section.settings.discount_faq | escape }}
                     </div>
-                    <div style="margin-bottom: 1rem;">
-                      <h4>2. Can I redeem multiple discount codes?</h4>
-                      <p>No. Discount codes cannot be combined.Only one code can be applied per order.</p>
-                    </div>
-                    <div style="margin-bottom: 1rem;">
-                      <h4>3. Why is my discount code invalid?</h4>
-                      <p>1) The discount code is not applicable to the specific items you want to buy</p>
-                      <p>2) The discount code wasn't entered correctly</p><p>3) The discount code has expired</p>
-                      <p>4) The discount code is not from eufy's official website</p>
-                    </div>
-                    <p>If you have any questions, please feel free to reach out to our customer service team:
-                      <a href="mailto:kawa-in@kawa.com" style="display: inline-block;border: none;color: #00a7e1;">support@eufylife.com</a>
-                    </p>
                   </div>
                 </div>
               </div>
-            </div>
-
-
-          </p>
-          <div class="discount-code">
-            <div class="price-off">
-              <h3>$70</h3>
-              <span>OFF</span>
-            </div>
-            <div class="discount-code-wrapper">
-              <div class="code-text">
-                <h5>
-                  <span>Code: </span>
-                  <span class="code" id="discount-code">{{ section.settings.discount_code }}</span>
-                </h5>
+            </p>
+            <div class="discount-code">
+              <div class="price-off">
+                <h3>${{ section.settings.discount_money }}</h3>
+                <span>OFF</span>
               </div>
-              <div class="copy-box">
-                <p class="copy-text" onclick="onCopyTextClick()" data-clipboard-target="#discount-code">COPY</p>
-                <p class="copied-text" style="display: none;">COPIED</p>
+              <div class="discount-code-wrapper">
+                <div class="code-text">
+                  <h5>
+                    <span>Code: </span>
+                    <span class="code" id="discount-code">{{ section.settings.discount_code }}</span>
+                  </h5>
+                </div>
+                <div class="copy-box">
+                  <p class="copy-text" onclick="onCopyTextClick()" data-clipboard-target="#discount-code">COPY</p>
+                  <p class="copied-text" style="display: none;">COPIED</p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
+        {%- endif -%}
         <div class="product-share-friend border-bottom">
           <span>
             <span
@@ -332,6 +316,22 @@
      "type": "text",
      "id": "discount_code",
      "label": "折扣码"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_discount",
+      "label": "显示折扣码",
+      "default": true
+    },
+    {
+      "type": "number",
+      "id": "discount_money",
+      "label": "折扣金额"
+    },
+    {
+      "type": "richtext",
+      "id": "discount_faq",
+      "label": "折扣FAQ"
     }
   ],
   "blocks": [
