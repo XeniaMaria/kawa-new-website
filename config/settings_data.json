@@ -131,7 +131,7 @@
       "app_download_ios_tips": "Requires iOS11.0 or above.",
       "app_download_android": "https://play.google.com/store/apps/details?id=com.ecoflow",
       "app_download_android_tips": "Requires Android5.0or above.",
-      "app_download_code": "",
+      "app_download_code": "shopify:\/\/shop_images\/qr-code.webp",
       "app_download_code_tips": "Scan QR code to download",
       "app_download_apk_url": "",
       "app_download_apk_tips": "Download the Kawa App apk file",

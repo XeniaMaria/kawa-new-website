@@ -13,6 +13,7 @@
   background: #fff;
   text-align: left;
   border-radius: 12px;
+  overflow: hidden;
 }
 
 .download-bg {
