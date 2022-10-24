@@ -1523,6 +1523,11 @@
         "label": "描述"
       },
       {
+        "type": "image_picker",
+        "id": "app_download_logo",
+        "label": "app logo"
+      },
+      {
         "type": "url",
         "id": "app_download_learn_more",
         "label": "learn more url"

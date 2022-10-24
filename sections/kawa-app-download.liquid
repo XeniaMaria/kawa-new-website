@@ -3,7 +3,7 @@
 <div class="kawa-app-download">
     <div class="download-bg">
         <img
-            src="{{ settings.app_download_bg }}"
+            src="{{ settings.app_download_bg | image_url }}"
             width="100"
             height="100"
             loading="lazy"
@@ -11,6 +11,12 @@
     </div>
     <div class="download-content">
         <div class="download-title">
+            <img
+                src="{{ settings.app_download_logo | image_url }}"
+                width="48"
+                height="48"
+                loading="lazy"
+            />
             <h3>{{ settings.app_download_title }}</h3>
         </div>
         <p class="download-des">
@@ -72,7 +78,7 @@
     <div class="download-bg-mb">
         <img
             class="w-100-h-auto"
-            src="{{ settings.app_download_bg_mb }}"
+            src="{{ settings.app_download_bg_mb | image_url }}"
             width="100"
             height="100"
             loading="lazy"
