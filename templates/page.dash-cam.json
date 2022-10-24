@@ -2,7 +2,15 @@
   "sections": {
     "app-download": {
       "type": "kawa-app-download"
+    },
+    "support-manuals": {
+      "type": "kawa-support-manuals",
+      "settings": {
+        "title": "Manuals",
+        "show_category": false,
+        "product": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6"
+      }
     }
   },
-  "order": ["app-download"]
+  "order": ["app-download", "support-manuals"]
 }
