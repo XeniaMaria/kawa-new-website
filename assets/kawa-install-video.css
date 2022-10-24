@@ -1,0 +1,85 @@
+.kawa-install-video {
+  max-width: 1120px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 57px 42px 0;
+  background-color: #fff;
+  border-radius: 12px;
+  margin-bottom: 100px;
+}
+
+.kawa-install-video .install-video-header {
+  display: flex;
+  align-items: center;
+  padding-bottom: 27px;
+  border-bottom: 1px solid #ebe9e9;
+  color: #03060b;
+}
+
+.kawa-install-video .play-icon {
+  width: 34px;
+  height: 34px;
+}
+
+.kawa-install-video .title-text {
+  padding-left: 12px;
+  font-weight: 500;
+  font-size: 32px;
+  font-family: Manrope-Medium;
+}
+
+.kawa-install-video .install-video-wrap {
+  position: relative;
+  margin-top: 20px;
+}
+
+.kawa-install-video .install-video {
+  width: 100%;
+}
+
+.kawa-install-video .instal-video-tips {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 18px;
+  text-align: left;
+  color: #757575;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.kawa-install-video .mask {
+  width: 100%;
+  height: 100%;
+}
+
+.kawa-install-video .video-player-icon {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .kawa-install-video {
+    margin-top: 3.2vw;
+    padding: 10.9vw 0 23vw;
+    border-radius: 0;
+    margin-bottom: 0;
+    text-align: left;
+  }
+
+  .kawa-install-video .install-video-header {
+    padding: 0 6.6vw 5.6vw;
+    border-bottom: 0.25vw solid #ebe9e9;
+  }
+
+  .kawa-install-video .title-text {
+    padding-left: 2.13vw;
+    font-size: 6.4vw;
+    line-height: 8.8vw;
+    font-family: Manrope-Bold, Ef-Font-Bold;
+  }
+
+  .kawa-install-video .instal-video-tips {
+    padding: 0 5vw;
+  }
+}

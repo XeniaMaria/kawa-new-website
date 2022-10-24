@@ -1,0 +1,83 @@
+{{ "kawa-install-video.css" | asset_url | stylesheet_tag }}
+
+<div class="kawa-install-video">
+    <h3 class="install-video-header">
+        <span class="iconify play-icon" data-icon="fluent:play-12-regular"></span>
+        <span class="title-text">
+            {{ section.settings.title }}
+        </span>
+    </h3>
+    <div class="install-video-wrap">
+        <div class="mask acc">
+        </div>
+        <img
+            class="video-player-icon acc"
+            src="//cdn.shopifycdn.net/s/files/1/0552/2774/4279/t/30/assets/paly.png?v=179953367799169005241663830225"
+            alt=""
+            width="48"
+            height="48"
+            loading="lazy">
+        <video
+            class="install-video"
+            style="display:block"
+            controls=""
+            preload="none"
+            playsinline=""
+            poster="{{ section.settings.video_poster | image_url }}">
+            <source src="{{ section.settings.video_url }}" type="video/mp4">
+        </video>
+    </div>
+    <p class="instal-video-tips">
+        {{ section.settings.video_tips }}
+    </p>
+</div>
+
+<script>
+    const videoPlayer = document.querySelector('.kawa-install-video video')
+    const videoMask = document.querySelector('.kawa-install-video .mask')
+    const playerIcon = document.querySelector('.kawa-install-video .video-player-icon')
+    playerIcon.onclick=function(){
+      videoPlayer.play()
+      videoMask.style.visibility = 'hidden'
+      playerIcon.style.visibility = 'hidden'
+    }
+    videoPlayer.onpause = function(){
+      videoMask.style.visibility = 'visible'
+      playerIcon.style.visibility = 'visible'
+    }
+    videoPlayer.ontimeupdate = function(){
+      videoMask.style.visibility = 'hidden'
+      playerIcon.style.visibility = 'hidden'
+    }
+
+
+</script>
+
+{% schema %}
+{
+    "name": "安装视频",
+    "tag": "section",
+    "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "标题"
+        },
+        {
+            "type": "image_picker",
+            "id": "video_poster",
+            "label": "视频封面"
+        },
+        {
+            "type": "url",
+            "id": "video_url",
+            "label": "视频链接"
+        },
+        {
+            "type": "textarea",
+            "id": "video_tips",
+            "label": "视频下方tips"
+        }
+    ]
+}
+{% endschema %}
