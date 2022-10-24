@@ -2,12 +2,6 @@
   "sections": {
     "main": {
       "type": "kawa-main-product",
-      "settings": {
-        "discount_code": "WS24S360",
-        "show_discount": true,
-        "discount_money": 70,
-        "discount_faq": "1234325667"
-      },
       "blocks": {
         "store-info-item-1": {
           "type": "store_info_item",
@@ -45,7 +39,9 @@
         "store-info-item-4"
       ],
       "settings": {
-        "discount_code": "WS24S360"
+        "discount_code": "WS24S360",
+        "show_discount": true,
+        "discount_faq": ""
       }
     },
     "banner": {
@@ -70,7 +66,7 @@
             "name": "Sleep Tracker",
             "title": "Know Your Baby is Sleeping Well",
             "content": "Smart sock tracks your baby's real-time sleep data, including heart rate, sleep status, and movements. Easily gain access to the data from your phone so that you can both get a well-deserved, good night's sleep.",
-            "image": "shopify:\/\/shop_images\/3_2c04b953-bf28-49ec-923a-58535288db36.jpg"
+            "image": "shopify:\/\/shop_images\/1_40bc1ffc-84e2-488c-adde-f18d7a809c21.jpg"
           }
         },
         "carousel-item-2": {

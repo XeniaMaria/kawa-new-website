@@ -1,7 +1,9 @@
 {
   "sections": {
     "app-download": {
-      "type": "kawa-app-download"
+      "type": "kawa-app-download",
+      "settings": {
+      }
     },
     "support-manuals": {
       "type": "kawa-support-manuals",
@@ -12,5 +14,8 @@
       }
     }
   },
-  "order": ["app-download", "support-manuals"]
+  "order": [
+    "app-download",
+    "support-manuals"
+  ]
 }
