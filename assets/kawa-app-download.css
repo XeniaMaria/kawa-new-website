@@ -1,0 +1,230 @@
+#MainContent {
+  background-color: rgb(248, 248, 248);
+}
+
+.kawa-app-download {
+  max-width: 1120px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  position: relative;
+  height: 500px;
+  background: #fff;
+  text-align: left;
+  border-radius: 12px;
+}
+
+.download-bg {
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  inset: 0px;
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.kawa-app-download .download-bg img {
+  width: 100%;
+  height: auto;
+}
+
+.kawa-app-download .download-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  box-sizing: border-box;
+  padding: 83px 0 0 80px;
+  background-clip: content-box;
+}
+
+.kawa-app-download .download-title > h3 {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #03060b;
+  margin-left: 20px;
+  margin: 0;
+  box-sizing: border-box;
+  font-style: normal;
+  appearance: none;
+  box-shadow: none;
+  line-height: inherit;
+  list-style: none;
+  outline: 0;
+  text-decoration: none;
+  word-spacing: -1px;
+  letter-spacing: 0.3px;
+}
+
+.kawa-app-download .download-des {
+  width: 434px;
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.47;
+  color: #757575;
+  margin-top: 15px;
+  font-weight: 300;
+}
+
+.kawa-app-download .download-learn-more {
+  font-size: 16px;
+  padding-top: 20px;
+  height: 40px;
+}
+
+.kawa-app-download .download-learn-more > a:hover {
+  text-decoration: none;
+}
+
+.kawa-app-download .download-play {
+  display: flex;
+  padding-top: 20px;
+  justify-content: left;
+}
+
+.kawa-app-download .play-item {
+  margin-right: 28px;
+  flex-grow: 0;
+  width: 148px;
+}
+
+.kawa-app-download .play-item > a {
+  display: block;
+  line-height: 0;
+}
+
+.kawa-app-download .play-item > a > img {
+  width: 100%;
+  height: auto;
+}
+
+.kawa-app-download .play-item > p {
+  max-width: 148px;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: left;
+  color: #757575;
+  margin-top: 15px;
+  font-size: 300;
+}
+
+.kawa-app-download .qr-content {
+  margin-right: 28px;
+  flex-grow: 0;
+  width: 99px;
+  margin-left: 40px;
+  padding-right: 0;
+  text-align: center;
+}
+
+.kawa-app-download .qr-content > img {
+  width: 100%;
+  height: auto;
+}
+
+.kawa-app-download .qr-content > p {
+  max-width: 148px;
+  font-size: 12px;
+  line-height: 18px;
+  width: 100%;
+  text-align: center;
+  margin-top: 8px;
+  color: #757575;
+  font-weight: 300;
+}
+
+.kawa-app-download .direct-download {
+  max-width: 355px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.kawa-app-download .direct-download > a {
+  font-size: 14px;
+  color: #2164ff;
+  line-height: 25px;
+}
+
+.kawa-app-download .direct-download svg {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.kawa-app-download .download-bg-mb {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .kawa-app-download {
+    margin-top: 3vw;
+    width: 100vw;
+    text-align: left;
+    position: relative;
+  }
+
+  .kawa-app-download .download-bg {
+    display: none;
+  }
+
+  .kawa-app-download .download-content {
+    background-color: #fff;
+    padding: 10.2vw 12vw 2.4vw 12vw;
+    position: relative;
+    z-index: 100;
+  }
+
+  .kawa-app-download .download-title > h3 {
+    padding-left: 10vw;
+    position: relative;
+    font-size: 7.5vw;
+    line-height: 9.5vw;
+    color: #03060b;
+  }
+
+  .kawa-app-download .download-des {
+    width: unset;
+    padding-top: 2vw;
+    font-size: 3.8vw;
+    line-height: 5.9vw;
+    color: #919191;
+    font-family: Manrope-Medium, Ef-Font-Medium;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .kawa-app-download .download-learn-more {
+    font-size: 4vw;
+    margin-top: 2.5vw;
+    height: 5vw;
+    padding-top: 0;
+  }
+
+  .kawa-app-download .download-play {
+    margin-top: 2.5vw;
+    position: relative;
+    z-index: 100;
+    padding-top: 0;
+  }
+
+  .kawa-app-download .play-item:first-child,
+  .kawa-app-download .qr-content {
+    display: none;
+  }
+
+  .kawa-app-download .play-item > p {
+    margin-bottom: 0;
+  }
+
+  .kawa-app-download .direct-download {
+    margin-top: 3.5vw;
+  }
+
+  .kawa-app-download .download-bg-mb {
+    display: block;
+  }
+}

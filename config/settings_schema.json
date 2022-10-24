@@ -1508,5 +1508,76 @@
         "info": "t:settings_schema.cart.settings.cart_drawer.collection.info"
       }
     ]
+  },
+  {
+    "name": "app下载相关",
+    "settings": [
+      {
+        "type": "text",
+        "id":"app_download_title",
+        "label": "标题"
+      },
+      {
+        "type": "textarea",
+        "id": "app_download_des",
+        "label": "描述"
+      },
+      {
+        "type": "url",
+        "id": "app_download_learn_more",
+        "label": "learn more url"
+      },
+      {
+        "type": "image_picker",
+        "id": "app_download_bg",
+        "label": "背景图片"
+      },
+      {
+        "type": "image_picker",
+        "id": "app_download_bg_mb",
+        "label": "背景图片(移动端)"
+      },
+      {
+        "type": "url",
+        "id": "app_download_ios",
+        "label": "App Store链接"
+      },
+      {
+        "type": "text",
+        "id":"app_download_ios_tips",
+        "label": "ios相关提示"
+      },
+      {
+        "type": "url",
+        "id": "app_download_android",
+        "label": "谷歌商店链接"
+      },
+      {
+        "type": "text",
+        "id":"app_download_android_tips",
+        "label": "安卓相关提示"
+      },
+      {
+        "type": "image_picker",
+        "id": "app_download_code",
+        "label": "下载二维码"
+      },
+      {
+        "type": "text",
+        "id": "app_download_code_tips",
+        "label": "二维码下方提示"
+      },
+      {
+        "type": "url",
+        "id": "app_download_apk_url",
+        "label": "apk文件URL",
+        "info": "允许在本网页直接下载"
+      },
+      {
+        "type": "text",
+        "id": "app_download_apk_tips",
+        "label": "apk下载链接的文本"
+      }
+    ]
   }
 ]

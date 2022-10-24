@@ -1,0 +1,8 @@
+{
+  "sections": {
+    "app-download": {
+      "type": "kawa-app-download"
+    }
+  },
+  "order": ["app-download"]
+}
