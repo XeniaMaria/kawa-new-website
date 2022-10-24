@@ -1,7 +1,9 @@
 {
   "sections": {
     "app-download": {
-      "type": "kawa-app-download"
+      "type": "kawa-app-download",
+      "settings": {
+      }
     },
     "install-video": {
       "type": "kawa-install-video",
