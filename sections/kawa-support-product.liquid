@@ -1,0 +1,49 @@
+{{ "kawa-support-product.css" | asset_url | stylesheet_tag }}
+
+<div class="kawa-support-product">
+    <h3 class="support-product-title">
+        <span class="iconify product-icon" data-icon="icon-park-outline:monitor-camera"></span>
+        <span class="title-text">
+            {{ section.settings.title }}
+        </span>
+    </h3>
+    <div class="support-product-panel">
+        <img
+            src="{{ section.settings.product_image | image_url }}"
+            class="support-product-img"
+            width="100"
+            height="100"
+            loading="lazy"
+        />
+        <a
+            class="support-product-link"
+            href="{{ section.settings.product.url }}"
+        >
+            Buy Now
+        </a>
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "support页的产品",
+    "tag": "section",
+    "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "标题"
+        },
+        {
+            "type": "image_picker",
+            "id": "product_image",
+            "label": "产品图片"
+        },
+        {
+            "type": "product",
+            "id": "product",
+            "label": "产品"
+        }
+    ]
+}
+{% endschema %}

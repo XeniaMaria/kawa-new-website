@@ -1,0 +1,88 @@
+.kawa-support-product {
+  max-width: 1120px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 57px 42px 0;
+  background-color: #fff;
+  border-radius: 12px;
+  margin-bottom: 100px;
+}
+
+.kawa-support-product .support-product-title {
+  display: flex;
+  align-items: center;
+  padding-bottom: 27px;
+  border-bottom: 1px solid #ebe9e9;
+  color: #03060b;
+}
+
+.kawa-support-product .product-icon {
+  width: 27px;
+  height: 27px;
+}
+
+.kawa-support-product .title-text {
+  padding-left: 12px;
+  font-weight: 500;
+  font-size: 32px;
+  font-family: Manrope-Medium;
+}
+
+.kawa-support-product .support-product-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.kawa-support-product .support-product-img {
+  width: 100%;
+  height: auto;
+}
+
+.kawa-support-product .support-product-link {
+  display: inline-block;
+  padding: 0 16px;
+  font-size: 14px;
+  line-height: 32px;
+  color: #ffffff;
+  text-align: center;
+  cursor: pointer;
+  background: none;
+  border: 1px solid;
+  border-radius: 3px;
+  background-color: #056de8;
+  border-color: #056de8;
+  margin-right: 16px;
+  margin-bottom: 10px;
+}
+.kawa-support-product .support-product-link:hover {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .kawa-support-product {
+    margin-top: 3.2vw;
+    padding: 10.9vw 0 23vw;
+    border-radius: 0;
+    margin-bottom: 0;
+    text-align: left;
+  }
+
+  .kawa-support-product .support-product-title {
+    padding: 0 6.6vw 5.6vw;
+    border-bottom: 0.25vw solid #ebe9e9;
+  }
+
+  .kawa-support-product .product-icon {
+    width: 7vw;
+    height: 7vw;
+  }
+
+  .kawa-support-product .title-text {
+    padding-left: 2.13vw;
+    font-size: 6.4vw;
+    line-height: 8.8vw;
+    font-family: Manrope-Bold, Ef-Font-Bold;
+  }
+}

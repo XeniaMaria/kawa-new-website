@@ -2,8 +2,7 @@
   "sections": {
     "app-download": {
       "type": "kawa-app-download",
-      "settings": {
-      }
+      "settings": {}
     },
     "install-video": {
       "type": "kawa-install-video",
@@ -21,7 +20,15 @@
         "show_category": false,
         "product": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6"
       }
+    },
+    "support-product": {
+      "type": "kawa-support-product",
+      "settings": {
+        "title": "Dash Cam",
+        "product_image": "shopify://shop_images/dealer-no-title.webp",
+        "product": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6"
+      }
     }
   },
-  "order": ["app-download", "install-video", "support-manuals"]
+  "order": ["app-download", "install-video", "support-manuals", "support-product"]
 }
