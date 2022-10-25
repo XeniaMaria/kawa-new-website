@@ -1514,7 +1514,12 @@
     "settings": [
       {
         "type": "text",
-        "id":"app_download_title",
+        "id": "app_download_name",
+        "label": "app名称"
+      },
+      {
+        "type": "text",
+        "id": "app_download_title",
         "label": "标题"
       },
       {
@@ -1549,7 +1554,7 @@
       },
       {
         "type": "text",
-        "id":"app_download_ios_tips",
+        "id": "app_download_ios_tips",
         "label": "ios相关提示"
       },
       {
@@ -1559,7 +1564,7 @@
       },
       {
         "type": "text",
-        "id":"app_download_android_tips",
+        "id": "app_download_android_tips",
         "label": "安卓相关提示"
       },
       {
@@ -1582,6 +1587,16 @@
         "type": "text",
         "id": "app_download_apk_tips",
         "label": "apk下载链接的文本"
+      }
+    ]
+  },
+  {
+    "name": "版权声明",
+    "settings": [
+      {
+        "type": "text",
+        "id": "copyright_text",
+        "label": "版权声明"
       }
     ]
   }

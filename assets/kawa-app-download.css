@@ -184,7 +184,7 @@
     background-color: #fff;
     padding: 10.2vw 12vw 2.4vw 6.66vw;
     position: relative;
-    z-index: 100;
+    z-index: 5;
   }
 
   .kawa-app-download .download-title > img {
