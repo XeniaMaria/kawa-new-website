@@ -1,6 +1,6 @@
 {{ "kawa-flash-sale.css" | asset_url | stylesheet_tag }}
 
-<div class="kawa-flash-sale">
+<div class="kawa-flash-sale {{ section.id }}">
     {%- for block in section.blocks -%}
     {%- assign product = block.settings.product -%}
         <div class="shop-row" {{ block.shopify_attributes }}>
@@ -15,8 +15,11 @@
             <div class="product-right__info">
                 <ul class="product-tabs">
                     {%- for inline_block in section.blocks -%}
-                        <li class="flash-sale-product__tab">
-                            {{ inline_block.settings.flash_sale_product.metafields.descriptors.subtitle }}
+                        <li class="flash-sale-product__tab  product-tab-{{ forloop.index }}
+                            {% if product.title == inline_block.settings.product.title %}
+                            active
+                            {% endif %}">
+                            {{ inline_block.settings.product.metafields.descriptors.subtitle }}
                         </li>
                     {%- endfor -%}
                 </ul>
@@ -32,26 +35,50 @@
                         </a>
                     </h3>
                     <ul class="product-tags">
-                        {%- assign tags = block.settings.product_tags| escape | split: "," -%}
+                        {%- assign tags = block.settings.product_tags | escape | split: "," -%}
                         {%- for tag in tags -%}
                             <li class="product-tag">
-                                {{ tag | escape }}
+                                <span>
+                                    {{ tag | escape }}
+                                </span>
                             </li>
                         {%- endfor -%}
                     </ul>
-                    <div class="shop-button">
-                        <button>
-                            <span>Shop</span>
+                    <div class="shop-button-wrap">
+                        <button class="shop-button">
+                            <span>Add To Cart</span>
                         </button>
                     </div>
                 </div>
             </div>
         </div>
-        {%- endfor -%}
+    {%- endfor -%}
 </div>
 
 <script>
+window.addEventListener("load",() => {
+    const sectionId = "{{ section.id }}";
+    const productPanels = document.querySelectorAll(`.${sectionId}.kawa-flash-sale .shop-row`)
+    const productTabs = document.querySelectorAll(`.${sectionId}.kawa-flash-sale .product-tabs`);
 
+    Array.from(productPanels).forEach((pp) => {
+        pp.style.display = "none";
+    })
+    console.log(productPanels[0].style.display);
+    productPanels[0].style.display = "flex";
+
+    for(let i = 1; i <= productTabs.length; i++) {
+        Array.from(productTabs).forEach((tabs) => {
+            const tabI = tabs.querySelector(`.product-tab-${i}`);
+            tabI.addEventListener("click",() => {
+                Array.from(productPanels).forEach((productPanel) => {
+                    productPanel.style.display = "none";
+                })
+                productPanels[i - 1].style.display = "flex";
+            })
+        })
+    }
+})
 </script>
 
 {% schema %}

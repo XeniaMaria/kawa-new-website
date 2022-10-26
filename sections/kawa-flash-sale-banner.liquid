@@ -26,6 +26,17 @@
         </p>
     </div>
 </div>
+<div class="kawa-flash-sale-banner--mb banner--mb">
+    <h3 class="banner-subtitle--mb">
+        {{ section.settings.subtitle }}
+    </h3>
+    <div class="banner-des--mb hide-more--mb">
+        {{ section.settings.des }}
+    </div>
+    <p class="show-more-btn--mb">
+        <span class="iconify" data-icon="ep:arrow-down"></span>
+    </p>
+</div>
 
 <script>
     (function(){
@@ -34,6 +45,14 @@
         arrowBtn.addEventListener("click",()=> {
             arrowBtn.classList.toggle("active");
             desEl.classList.toggle("hide-more");
+        })
+
+
+        const arrowBtnMb = document.querySelector(".kawa-flash-sale-banner--mb .show-more-btn--mb");
+        const desElMb = document.querySelector(".kawa-flash-sale-banner--mb .banner-des--mb");
+        arrowBtnMb.addEventListener("click",()=> {
+            arrowBtnMb.classList.toggle("active");
+            desElMb.classList.toggle("hide-more--mb");
         })
     })();
 </script>

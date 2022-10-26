@@ -50,3 +50,65 @@
   height: 20px;
   cursor: pointer;
 }
+
+kawa-flash-sale-banner--mb.banner--mb {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .kawa-flash-sale-banner .banner-subtitle {
+    display: none;
+  }
+
+  .kawa-flash-sale-banner .banner-title {
+    font-size: 5.9vw;
+    white-space: unset;
+  }
+
+  .kawa-flash-sale-banner .banner-des {
+    display: none;
+  }
+
+  .kawa-flash-sale-banner .show-more-btn {
+    display: none;
+  }
+
+  .kawa-flash-sale-banner--mb.banner--mb {
+    display: block;
+    padding-bottom: 7.8vw;
+    box-shadow: 0 1.3vw 6.66vw #ccc;
+  }
+
+  .kawa-flash-sale-banner--mb .banner-subtitle--mb {
+    font-weight: 500;
+    font-size: 3.91vw;
+    padding-top: 9.1vw;
+    margin: 0 auto 3.91vw;
+    width: 81.56vw;
+  }
+
+  .kawa-flash-sale-banner--mb .banner-des--mb {
+    width: 81.56vw;
+    margin: 0 auto;
+    font-size: 3.125vw;
+    font-weight: 400;
+    color: #555;
+  }
+  .kawa-flash-sale-banner--mb .banner-des--mb.hide-more--mb {
+    height: 40px;
+    overflow: hidden;
+  }
+
+  .kawa-flash-sale-banner--mb .show-more-btn--mb {
+    text-align: center;
+  }
+  .kawa-flash-sale-banner--mb .show-more-btn--mb.active {
+    transform: rotate(180deg);
+  }
+
+  .kawa-flash-sale-banner--mb .show-more-btn--mb > svg {
+    width: 5vw;
+    height: 5vw;
+    cursor: pointer;
+  }
+}

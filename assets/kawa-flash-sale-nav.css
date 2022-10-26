@@ -10,7 +10,8 @@
 }
 
 .kawa-flash-sale-nav .nav-container {
-  width: 1200px;
+  max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -55,4 +56,10 @@
 .kawa-flash-sale-nav .nav-container ul li a.active::after,
 .kawa-flash-sale-nav .nav-container ul li a:hover::after {
   width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .kawa-flash-sale-nav {
+    max-width: 750px;
+  }
 }

@@ -1,7 +1,7 @@
 {
   "sections": {
     "flash-sale-nav": {
-      "type": "kawa-flash-sale"
+      "type": "kawa-flash-sale-nav"
     },
     "flash-sale-banner": {
       "type": "kawa-flash-sale-banner",
@@ -21,9 +21,16 @@
             "product": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6",
             "product_tags": "Dual Lens,Person/Vehicle Detection,180° View (Horizontal),4K Ultra HD"
           }
+        },
+        "flash-sale-product-2": {
+          "type": "flash-sale-product",
+          "settings": {
+            "product": "kawa-5-720p-hd-display-video-baby-monitor-with-night-vision-temperature-sensor-2-way-audio-pan-tilt-zoom-white-noise-lullaby-20-hours-battery-1000ft-range",
+            "product_tags": "4G LTE,Person/Vehicle Detection,Battery/Solar Powered,IP66 Waterproof"
+          }
         }
       },
-      "block_order": ["flash-sale-product-1"]
+      "block_order": ["flash-sale-product-1", "flash-sale-product-2"]
     },
     "flash-sale-explore": {
       "type": "kawa-flash-sale-explore",
