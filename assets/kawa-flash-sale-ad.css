@@ -12,7 +12,7 @@
   color: #333;
 }
 
-.kawa-flash-sale-ad .ad-desc {
+.kawa-flash-sale-ad .ad-des {
   max-width: 1000px;
   margin: 0 auto 80px;
   color: #000;
@@ -22,14 +22,25 @@
 .kawa-flash-sale-ad .ad-list {
   display: flex;
   flex-wrap: wrap;
+  text-align: left;
+}
+.kawa-flash-sale-ad .ad-list.hide-more {
+  height: 440px;
+  overflow: hidden;
 }
 
 .kawa-flash-sale-ad .ad-list > li {
   list-style: none;
   margin-bottom: 60px;
+  padding-right: 20px;
   width: 49%;
   display: inline-block;
   vertical-align: text-top;
+}
+
+.kawa-flash-sale-ad .ad-list > li > svg {
+  width: 40px;
+  height: 40px;
 }
 
 .kawa-flash-sale-ad .ad-item__title {
@@ -44,4 +55,112 @@
   font-weight: 400;
   color: #777;
   font-size: 18px;
+}
+
+.kawa-flash-sale-ad .ad-tips {
+  margin-bottom: 30px;
+  font-weight: 400;
+  color: #777;
+  font-size: 18px;
+  text-align: center;
+  width: 100%;
+}
+
+.kawa-flash-sale-ad .ad-learn-more {
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
+  color: #333;
+  cursor: pointer;
+}
+.kawa-flash-sale-ad .ad-learn-more:hover {
+  color: #00ade5;
+}
+
+.kawa-flash-sale-ad .ad-learn-more.active > span {
+  display: none;
+}
+
+.kawa-flash-sale-ad .ad-learn-more > svg {
+  width: 13px;
+  height: 13px;
+  position: relative;
+  bottom: 2px;
+}
+.kawa-flash-sale-ad .ad-learn-more.active > svg {
+  transform: rotate(180deg);
+}
+
+@media screen and (max-width: 768px) {
+  .flash-sale-ad-section {
+    background: unset;
+  }
+
+  .kawa-flash-sale-ad {
+    padding: 7.54vw 15px 11.45vw;
+    text-align: left;
+  }
+
+  .kawa-flash-sale-ad .ad-title {
+    font-size: 4.66vw;
+  }
+
+  .kawa-flash-sale-ad .ad-des {
+    color: #777;
+    font-size: 3.125vw;
+    margin-top: 4.212vw;
+    margin-bottom: 5.733vw;
+    padding-bottom: 5.733vw;
+    border-bottom: 1px solid #cbcbcb;
+  }
+
+  .kawa-flash-sale-ad .ad-list.hide-more {
+    height: 120vw;
+    overflow: hidden;
+  }
+
+  .kawa-flash-sale-ad .ad-list > li {
+    width: 100%;
+    margin-bottom: 5.015vw;
+  }
+
+  .kawa-flash-sale-ad .ad-list > li > svg {
+    width: 6.5vw;
+    height: 6.5vw;
+    display: inline;
+  }
+
+  .kawa-flash-sale-ad .ad-item__title {
+    display: inline;
+    font-size: 3.83vw;
+    margin-left: 1.3vw;
+    vertical-align: center;
+  }
+
+  .kawa-flash-sale-ad .ad-item__description {
+    margin-bottom: 0;
+    font-weight: 400;
+    color: #777;
+    font-size: 3.3878vw;
+    margin-left: 9.121vw;
+  }
+
+  .kawa-flash-sale-ad .ad-tips {
+    font-size: 3.1272vw;
+    font-weight: 500;
+    color: #e84052;
+    margin-bottom: 3.909vw;
+  }
+
+  .kawa-flash-sale-ad .ad-learn-more {
+    font-size: 3.3878vw;
+    color: #00ade5;
+    margin-bottom: 0;
+    text-align: left;
+  }
+
+  .kawa-flash-sale-ad .ad-learn-more > svg {
+    width: 3.0vw;
+    height: 3.0vw;
+  }
 }

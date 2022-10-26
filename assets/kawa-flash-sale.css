@@ -160,4 +160,22 @@
   .kawa-flash-sale .product-link {
     display: none;
   }
+
+  .kawa-flash-sale .product-tags {
+    margin: 2.6vw auto 5.2vw;
+    text-align: center;
+    display: block;
+  }
+
+  .kawa-flash-sale .product-tag {
+    width: 100%;
+    font-size: 3.125vw;
+    font-weight: 400;
+    color: #333;
+    margin-top: 1.0425vw;
+  }
+
+  .kawa-flash-sale .shop-button-wrap {
+    text-align: center;
+  }
 }
