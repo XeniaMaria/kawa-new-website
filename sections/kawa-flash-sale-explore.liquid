@@ -4,20 +4,30 @@
     <h2 class="explore-title">
         {{ section.settings.title }}
     </h2>
-    <ul class="explore-item-wrap">
-        <li class="expore-item">
-            <a href="">
-                <img
-                    class="explore-item__img"
-                    height="100"
-                    width="100"
-                    loading="lazy"
-                />
-                <span class="explore-item__name">
-
-                </span>
-            </a>
-        </li>
+    <ul class="explore-items">
+        {%- for block in section.blocks -%}
+            <li class="explore-item" {{ block.shopify_attributes }}>
+                <a href="{{ block.settings.collection_page.url }}">
+                    <img
+                        src="{{ block.settings.collection_image | image_url }}"
+                        class="explore-item__img"
+                        height="504"
+                        width="291"
+                        loading="lazy"
+                    />
+                    <img
+                        src="{{ block.settings.collection_image_mb | image_url }}"
+                        class="explore-item__img--mb"
+                        height="504"
+                        width="291"
+                        loading="lazy"
+                    />
+                    <span class="explore-item__name">
+                        {{ block.settings.collection_name }}
+                    </span>
+                </a>
+            </li>
+        {%- endfor -%}
     </ul>
 </div>
 
@@ -34,8 +44,35 @@
     ],
     "blocks": [
         {
-            "type": "collection",
-            "name": "产品系列"
+            "type": "flash-sale-collection",
+            "name": "热销的产品系列块",
+            "settings": [
+                {
+                    "type": "collection",
+                    "id": "collection",
+                    "label": "热销的产品系列"
+                },
+                {
+                    "type": "text",
+                    "id": "collection_name",
+                    "label": "热销的产品系列名称"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "collection_image",
+                    "label": "热销的产品系列对应图片"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "collection_image_mb",
+                    "label": "热销的产品系列对应图片(移动端)"
+                },
+                {
+                    "type": "page",
+                    "id": "collection_page",
+                    "label": "对应的页面"
+                }
+            ]
         }
     ]
 }
