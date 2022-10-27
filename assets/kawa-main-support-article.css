@@ -1,0 +1,115 @@
+.kawa-main-support-article {
+  min-height: 65vh;
+  width: 100%;
+  max-width: 1160px;
+  margin: 40px auto 0;
+}
+
+.kawa-main-support-article a:hover {
+  text-decoration: none;
+}
+
+.kawa-main-support-article .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 55px;
+  min-height: 50px;
+  padding-bottom: 15px;
+}
+
+.kawa-main-support-article .article-container {
+  display: flex;
+}
+
+.kawa-main-support-article .article-list-wrap {
+  position: relative;
+}
+
+.kawa-main-support-article .article-list-wrap > h3 {
+  font-family: 'Segoe UI', Arial, 'Microsoft Yahei', sans-serif;
+  font-size: 18px;
+  color: rgb(95, 99, 104);
+  margin-bottom: 12px;
+}
+
+.kawa-main-support-article .side-item {
+  border-radius: 10px;
+  color: #333333;
+  display: block;
+  font-weight: 400;
+  margin-bottom: 10px;
+  padding: 14px;
+  font-size: 16px;
+  background-color: #f7f8f9;
+  border: 1px solid #f7f8f9;
+}
+.kawa-main-support-article .side-item:hover {
+  border-color: #00aed5;
+  color: #00aed5;
+  text-decoration: none;
+}
+
+.kawa-main-support-article .see-more {
+  color: #00aed5;
+  text-decoration: none;
+}
+.kawa-main-support-article .see-more:hover {
+  text-decoration: underline;
+}
+
+.kawa-main-support-article .article {
+  flex: 1 0 66%;
+  max-width: 66%;
+  min-width: 640px;
+  padding: 0 0 0 60px;
+}
+
+.kawa-main-support-article .article-header {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 56px;
+  margin-top: 0;
+}
+
+.kawa-main-support-article .article-header h1 {
+  margin-bottom: 40px;
+  font-weight: 500;
+  flex-basis: 100%;
+  font-size: 32px;
+  margin: 0 0 40px 0;
+}
+
+.kawa-main-support-article .article-author {
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.kawa-main-support-article .article-meta {
+  margin-left: 16px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.kawa-main-support-article .article-meta > span {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+
+.kawa-main-support-article .article-meta > ul {
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+
+.kawa-main-support-article .article-content {
+  line-height: 1.6;
+  margin: 40px 0;
+  word-wrap: break-word;
+}
