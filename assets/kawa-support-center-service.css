@@ -2,7 +2,7 @@
   margin-top: 100px;
 }
 
-.kawa-support-center-service .section-tittle {
+.kawa-support-center-service .section-title {
   font-size: 36px;
   line-height: 1.2;
   font-weight: 700;
@@ -14,7 +14,7 @@
 
 .kawa-support-center-service .service-blocks {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 60px auto 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -35,6 +35,19 @@
   width: 100%;
   padding: 38px 40px;
   flex: none;
+}
+.kawa-support-center-service .service-item + .service-item {
+  margin-left: 20px;
+}
+.kawa-support-center-service .service-item:nth-of-type(n + 4) {
+  margin-top: 20px;
+}
+.kawa-support-center-service .service-item:nth-of-type(3n + 1) {
+  margin-left: 0;
+}
+
+.kawa-support-center-service .service-link:hover {
+  text-decoration: none;
 }
 
 .kawa-support-center-service .service-title {
@@ -67,4 +80,36 @@
 }
 .kawa-support-center-service .view-all-btn:hover > span {
   text-decoration: underline;
+}
+
+.kawa-support-center-service .view-all-btn > svg {
+  height: 16px;
+  position: relative;
+  bottom: 2px;
+}
+
+@media screen and (max-width: 768px) {
+  .kawa-support-center-service {
+    margin-top: 50px;
+  }
+
+  .kawa-support-center-service .section-title {
+    font-size: 22px;
+  }
+
+  .kawa-support-center-service .service-blocks {
+    margin: 20px auto 0;
+    max-width: calc(100% - 40px);
+  }
+
+  .kawa-support-center-service .service-item {
+    max-width: 100%;
+    padding: 24px 30px;
+  }
+  .kawa-support-center-service .service-item + .service-item {
+    margin-left: 0;
+  }
+  .kawa-support-center-service .service-item:nth-of-type(n + 2) {
+    margin-top: 20px;
+  }
 }

@@ -9,10 +9,10 @@
             <li class="service-item" {{ block.shopify_attributes }}>
                 <a href="{{ block.settings.service_page.url }}" class="service-link">
                     <h4 class="service-title">
-                        {{ page.title }}
+                        {{ block.settings.service_title }}
                     </h4>
                     <p class="service-detail">
-                        {{ page.content }}
+                        {{ block.settings.service_des }}
                     </p>
                     <div class="view-all-btn">
                         <span>View All</span>
@@ -42,11 +42,23 @@
         {
             "type": "service",
             "name": "support模块",
-            "settings": {
-                "type": "page",
-                "id": "service_page",
-                "label": "对应的页面"
-            }
+            "settings": [
+                {
+                    "type": "page",
+                    "id": "service_page",
+                    "label": "对应的页面"
+                },
+                {
+                    "type": "text",
+                    "id": "service_title",
+                    "label": "标题"
+                },
+                {
+                    "type": "textarea",
+                    "id": "service_des",
+                    "label": "描述"
+                }
+            ]
         }
     ]
 }

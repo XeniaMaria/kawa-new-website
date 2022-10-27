@@ -14,16 +14,32 @@
       },
       "blocks": {
         "service-1": {
-          "type": "service"
+          "type": "service",
+          "settings": {
+            "service_title": "Orders & Payment",
+            "service_des": "Find information about ordering Reolink online, shipping, returns and more."
+          }
         },
         "service-2": {
-          "type": "service"
+          "type": "service",
+          "settings": {
+            "service_title": "Setup",
+            "service_des": "Handy tutorials to help you quickly set up and use your Reolink."
+          }
         },
         "service-3": {
-          "type": "service"
+          "type": "service",
+          "settings": {
+            "service_title": "Troubleshooting",
+            "service_des": "Having issues with your Reolink? Get quick answers to common device issues."
+          }
         },
         "service-4": {
-          "type": "service"
+          "type": "service",
+          "settings": {
+            "service_title": "FAQs",
+            "service_des": "Quick answers to frequently asked questions about Reolink products."
+          }
         }
       },
       "block_order": ["service-1", "service-2", "service-3", "service-4"]
