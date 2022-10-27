@@ -38,7 +38,8 @@
           "type": "service",
           "settings": {
             "service_title": "FAQs",
-            "service_des": "Quick answers to frequently asked questions about Reolink products."
+            "service_des": "Quick answers to frequently asked questions about Reolink products.",
+            "service_page": "FAQs"
           }
         }
       },

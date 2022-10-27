@@ -3,6 +3,10 @@
   margin: 0 auto;
 }
 
+.kawa-faq-list a:hover {
+  text-decoration: none;
+}
+
 .kawa-faq-list .nav {
   align-items: baseline;
   display: flex;
@@ -71,6 +75,10 @@
   flex-basis: 100%;
   margin: 0 0 30px;
   word-break: break-word;
+  color: #2f3941;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
 }
 
 .kawa-faq-list .main-content {
@@ -84,9 +92,22 @@
   flex: 0 0 45%;
 }
 
+.kawa-faq-list .faq-section-title {
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.kawa-faq-list .faq-section-title > a {
+  color: #2f3941;
+}
+
 .kawa-faq-list .see-all-article {
   display: block;
   padding: 15px 0;
+}
+.kawa-faq-list .see-all-article:visited {
+  color: #9358b0;
 }
 
 .kawa-faq-list .article-list {
@@ -97,12 +118,26 @@
 
 .kawa-faq-list .article-list li {
   font-size: 16px;
+  font-weight: 400;
   padding: 15px 0;
 }
 
 .kawa-faq-list .article-list li a {
   color: #2f3941;
 }
-.kawa-faq-list .article-list li a:visited {
-  color: #9358b0;
+
+@media screen and (max-width: 768px) {
+  .kawa-faq-list {
+    margin-top: 40px;
+    padding: 0 5%;
+  }
+
+  .kawa-faq-list .category-content {
+    flex: 1;
+  }
+
+  .kawa-faq-list .main-content > section {
+    flex: initial;
+    margin-bottom: 40px;
+  }
 }

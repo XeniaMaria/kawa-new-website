@@ -4,7 +4,7 @@
     <nav class="nav">
         <ol class="breadcrumbs">
             <li>
-                <a>
+                <a href="{{ pages['support-center'].url }}">
                     Kawa Support
                 </a>
             </li>
@@ -23,18 +23,41 @@
             </header>
             <div class="main-content">
                 <section>
+                    <h2 class="faq-section-title">
+                        <a href="{{ blogs['Q-A'].url }}">
+                            {{ blogs['Q-A'].title }}
+                        </a>
+                    </h2>
                     <ul class="article-list">
-                        <li>
-                            <a></a>
-                        </li>
+                        {%- for article in blogs['Q-A'].articles -%}
+                            <li class="article-item">
+                                <a href="{{ article.url }}">
+                                {{ article.title }}
+                                </a>
+                            </li>
+                        {%- endfor -%}
                     </ul>
-                    <a class="see-all-article">
-                        See all articles
+                    <a href="{{ blogs['Q-A'].url }}" class="see-all-article">
+                        See all {{ blogs['Q-A'].articles_count }} articles
                     </a>
                 </section>
                 <section>
-                    <a class="see-all-article">
-                        See all articles
+                    <h2 class="faq-section-title">
+                        <a href="{{ blogs['introduction'].url }}">
+                            {{ blogs['introduction'].title }}
+                        </a>
+                    </h2>
+                    <ul class="article-list">
+                        {%- for article in blogs.introduction.articles -%}
+                            <li class="article-item">
+                                <a>
+                                {{ article.title }}
+                                </a>
+                            </li>
+                        {%- endfor -%}
+                    </ul>
+                    <a href="{{ blogs['introduction'].url }}" class="see-all-article">
+                        See all {{ blogs['introduction'].articles_count }} articles
                     </a>
                 </section>
             </div>
