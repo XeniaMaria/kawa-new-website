@@ -1,0 +1,39 @@
+{{ "kawa-main-blog.css" | asset_url | stylesheet_tag }}
+
+<div class="kawa-main-blog">
+    <nav class="nav">
+        <ol class="kawa-breadcrumbs">
+            <li>
+                <a href="{{ pages['support-center'].url }}">
+                    Kawa Support
+                </a>
+            </li>
+            <li>
+                <a href="{{ pages['FAQs'].url }}">
+                    FAQs
+                </a>
+            </li>
+            <li>
+                {{ blog.title }}
+            </li>
+        </ol>
+    </nav>
+    <div class="blog-content">
+        <section>
+            <header class="blog-header">
+                <h1>
+                    {{ blog.title }}
+                </h1>
+            </header>
+            <ul class="article-list">
+                {%- for article in blog.articles -%}
+                    <li>
+                        <a href="{{ article.url }}">
+                            {{ article.title }}
+                        </a>
+                    </li>
+                {%- endfor -%}
+            </ul>
+        </section>
+    </div>
+</div>

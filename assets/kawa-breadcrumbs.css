@@ -1,0 +1,29 @@
+.kawa-breadcrumbs {
+  padding: 0;
+  margin: 0;
+}
+
+.kawa-breadcrumbs > li {
+  float: left;
+  display: inline;
+  list-style-type: none;
+  color: #00ade5;
+  font-weight: 500;
+  font-size: 13px;
+  max-width: 450px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.kawa-breadcrumbs > li:not(:last-child) {
+  margin-right: 12px;
+}
+
+.kawa-breadcrumbs > li::after {
+  content: '>';
+  color: #777;
+  margin-left: 10px;
+}
+
+.kawa-breadcrumbs > li > a {
+  font-weight: 500;
+}
