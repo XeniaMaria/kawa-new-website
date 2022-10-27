@@ -3,11 +3,45 @@
 <div class="kawa-flash-sale-nav">
     <div class="nav-container">
         <ul>
-            <li>
-                <a class="active">
-
-                </a>
-            </li>
+            {%- for block in section.blocks -%}
+                <li {{ block.shopify_attributes }}>
+                    <a href="{{ block.settings.collection_page.url }}" class="{%- if block.settings.collection_page.url == request.path -%}
+                        active
+                    {%- endif -%}">
+                        {{ block.settings.collection_name }}
+                    </a>
+                </li>
+            {%- endfor -%}
+        </ul>
+    </div>
+    <div class="nav-container--mb">
+        <div class="nav-bar">
+            {%- for block in section.blocks -%}
+                {%- if block.settings.collection_page.url == request.path -%}
+                    <h3>{{ block.settings.collection_name }} </h3>
+                {%- endif -%}
+            {%- endfor -%}
+            <a href="javascript:void(0);" class="all-categories-btn">
+                <span>All Categories</span>
+                <span class="iconify" data-icon="ep:arrow-down-bold"></span>
+            </a>
+        </div>
+        <ul class="category-list">
+            {%- for block in section.blocks -%}
+                <li>
+                    <a href="{{ block.settings.collection_page.url }}" class="{%- if block.settings.collection_page.url == request.path -%}
+                        active
+                    {%- endif -%}">
+                        <span>
+                            {{ block.settings.collection_name }}
+                        </span>
+                        <span
+                            class="iconify icon-arrow-right"
+                            data-icon="dashicons:arrow-right-alt2"
+                        ></span>
+                    </a>
+                </li>
+            {%- endfor -%}
         </ul>
     </div>
 </div>
@@ -23,12 +57,42 @@
                 navSection.style.display = "none";
             }
         })
+
+        const allCategoriesBtn = document.querySelector(".kawa-flash-sale-nav .nav-container--mb .all-categories-btn")
+        const categoryListMb = document.querySelector(".kawa-flash-sale-nav .nav-container--mb .category-list")
+        allCategoriesBtn.addEventListener("click",() => {
+            allCategoriesBtn.classList.toggle("active");
+            categoryListMb.classList.toggle("active");
+        })
     })()
 </script>
 
 {% schema %}
 {
     "name": "flash-sale 导航",
-    "tag": "section"
+    "tag": "section",
+    "blocks": [
+        {
+            "type": "flash-sale-collection",
+            "name": "热销的产品系列块",
+            "settings": [
+                {
+                    "type": "collection",
+                    "id": "collection",
+                    "label": "热销的产品系列"
+                },
+                {
+                    "type": "text",
+                    "id": "collection_name",
+                    "label": "热销的产品系列名称"
+                },
+                {
+                    "type": "page",
+                    "id": "collection_page",
+                    "label": "对应的页面"
+                }
+            ]
+        }
+    ]
 }
 {% endschema %}

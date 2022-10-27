@@ -1,7 +1,32 @@
 {
   "sections": {
     "flash-sale-nav": {
-      "type": "kawa-flash-sale-nav"
+      "type": "kawa-flash-sale-nav",
+      "blocks": {
+        "flash-sale-collection-1": {
+          "type": "flash-sale-collection",
+          "settings": {
+            "collection": "ipc",
+            "collection_name": "IPC",
+            "collection_page": "flash-sale"
+          }
+        },
+        "flash-sale-collection-2": {
+          "type": "flash-sale-collection",
+          "settings": {
+            "collection": "baby-monitor",
+            "collection_name": "Baby Monitor"
+          }
+        },
+        "flash-sale-collection-3": {
+          "type": "flash-sale-collection",
+          "settings": {
+            "collection": "ipc",
+            "collection_name": "IPC2"
+          }
+        }
+      },
+      "block_order": ["flash-sale-collection-1", "flash-sale-collection-2", "flash-sale-collection-3"]
     },
     "flash-sale-banner": {
       "type": "kawa-flash-sale-banner",
@@ -156,7 +181,8 @@
             "collection": "ipc",
             "collection_name": "IPC",
             "collection_image": "shopify://shop_images/collection-one.webp",
-            "collection_image_mb": "shopify://shop_images/carousel-item-one.webp"
+            "collection_image_mb": "shopify://shop_images/carousel-item-one.webp",
+            "collection_page": "flash-sale"
           }
         },
         "flash-sale-collection-2": {
