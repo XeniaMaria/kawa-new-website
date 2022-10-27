@@ -1,0 +1,65 @@
+.kawa-blog-header {
+  display: flex;
+  width: 100%;
+  background-color: #f7f8f9;
+  box-shadow: 0px 3px 6px rgb(0 0 0 / 14%);
+  height: 64px;
+  display: flex;
+  justify-content: center;
+}
+
+.kawa-blog-header a:hover {
+  text-decoration: none;
+}
+
+.kawa-blog-header .blog-nav-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+.kawa-blog-header .blog-main {
+  color: #333;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  margin-right: 64px;
+  text-decoration: none;
+  cursor: pointer;
+  width: max-content;
+  display: inline-flex;
+  align-items: baseline;
+}
+
+.kawa-blog-header .all-display-blog {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  padding: 0 24px;
+}
+
+.kawa-blog-header .blog-nav-item {
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #333;
+  padding: 0 16px;
+  cursor: pointer;
+  text-decoration: none;
+  white-space: nowrap;
+  margin: 0;
+}
+.kawa-blog-header .blog-nav-item:hover {
+  color: #00ade5;
+}
+
+@media screen and (max-width: 768px) {
+  .kawa-blog-header {
+    display: none;
+  }
+}

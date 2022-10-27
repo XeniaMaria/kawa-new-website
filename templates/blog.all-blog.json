@@ -1,0 +1,32 @@
+{
+  "sections": {
+    "header": {
+      "type": "kawa-blog-header",
+      "blocks": {
+        "blog-1": {
+          "type": "blog-block",
+          "settings": {
+            "display_blog": "how-to-guide"
+          }
+        },
+        "blog-2": {
+          "type": "blog-block",
+          "settings": {
+            "display_blog": "buyers-guide-1"
+          }
+        },
+        "blog-3": {
+          "type": "blog-block",
+          "settings": {
+            "display_blog": "buyers-guide"
+          }
+        }
+      },
+      "block_order": ["blog-1", "blog-2", "blog-3"]
+    },
+    "main": {
+      "type": "kawa-all-blog-main"
+    }
+  },
+  "order": ["header", "main"]
+}

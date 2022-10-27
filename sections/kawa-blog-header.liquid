@@ -1,0 +1,35 @@
+{{ "kawa-blog-header.css" | asset_url | stylesheet_tag }}
+
+<div class="kawa-blog-header">
+    <div class="blog-nav-wrap">
+        <a class="blog-main">
+            Blog
+        </a>
+        <div class="all-display-blog">
+            {%- for block in section.blocks -%}
+                <a href="{{ block.settings.display_blog.url }}" class="blog-nav-item">
+                    {{ block.settings.display_blog.title }}
+                </a>
+            {%- endfor -%}
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "blog页面的header",
+    "blocks": [
+        {
+            "type": "blog-block",
+            "name": "header项",
+            "settings": [
+                {
+                    "type": "blog",
+                    "id": "display_blog",
+                    "label": "选择要展示的blog"
+                }
+            ]
+        }
+    ]
+}
+{% endschema %}
