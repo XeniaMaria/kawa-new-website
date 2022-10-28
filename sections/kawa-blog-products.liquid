@@ -1,0 +1,76 @@
+{{ "kawa-blog-products.css" | asset_url | stylesheet_tag }}
+
+<div class="kawa-blog-products">
+    <h2 class="section-title">
+        {{ section.settings.title }}
+    </h2>
+    <div class="recommend-products-container">
+        {% for block in section.blocks %}
+        {%- assign product = block.settings.product_obj -%}
+            <div class="product-wrap">
+                <div
+                    class="product-img"
+                    style="background-image: url({{ product.featured_image | image_url }});"
+                >
+                </div>
+                <p class="product-name">
+                    {{ product.metafields.descriptors.subtitle }}
+                </p>
+                <a href="{{ product.url }}" class="product-name--mb">
+                    <span>{{ product.metafields.descriptors.subtitle }}</span>
+                    <span
+                        class="iconify icon-arrow-right"
+                        data-icon="dashicons:arrow-right-alt2"
+                    ></span>
+                </a>
+                <div class="product-info">
+                    <p class="info-product-name">
+                        {{ product.metafields.descriptors.subtitle }}
+                    </p>
+                    <p class="info-des">
+                        {{ block.settings.des }}
+                    </p>
+                    <a href="{{ product.url }}">
+                        <span class="learn-more">Learn More</span>
+                        <span
+                            class="iconify icon-arrow-right"
+                            data-icon="dashicons:arrow-right-alt2"
+                        ></span>
+                    </a>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+
+
+{% schema %}
+{
+    "name": "博客页面的商品推荐",
+    "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "标题"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "recommend-product",
+            "name": "推荐的商品",
+            "settings": [
+                {
+                    "type": "product",
+                    "id": "product_obj",
+                    "label": "商品"
+                },
+                {
+                    "type": "textarea",
+                    "id": "des",
+                    "label": "简短描述"
+                }
+            ]
+        }
+    ]
+}
+{% endschema %}

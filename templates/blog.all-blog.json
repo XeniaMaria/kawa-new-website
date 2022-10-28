@@ -33,7 +33,44 @@
         "title": "The latest",
         "page_size": 5
       }
+    },
+    "products": {
+      "type": "kawa-blog-products",
+      "settings": {
+        "title": "See Our Top Picks"
+      },
+      "blocks": {
+        "recommend-product-1": {
+          "type": "recommend-product",
+          "settings": {
+            "product_obj": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6",
+            "des": "2K 4MP Spotlight Battery Camera with Person/Vehicle Detection & Color Night Vision"
+          }
+        },
+        "recommend-product-2": {
+          "type": "recommend-product",
+          "settings": {
+            "product_obj": "kawa-5-720p-hd-display-video-baby-monitor-with-night-vision-temperature-sensor-2-way-audio-pan-tilt-zoom-white-noise-lullaby-20-hours-battery-1000ft-range",
+            "des": "100% Wireless 4G Mobile Camera with 355° Pan & 140° Tilt, Smart Detection & Night Vision"
+          }
+        },
+        "recommend-product-3": {
+          "type": "recommend-product",
+          "settings": {
+            "product_obj": "baby-monitor-with-camera-and-audio-kawa-video-baby-monitor-no-wifi-5-720p-hd-display-110-wide-angle-night-vision-temperature-sensor-2-way-audio-ptz-white-noise-20hrs-battery-1000ft-range",
+            "des": "Smart 4K 8MP & 5X Zoom Waterproof Camera with Person/Vehicle Detection"
+          }
+        },
+        "recommend-product-4": {
+          "type": "recommend-product",
+          "settings": {
+            "product_obj": "baby-monitor-with-camera-and-audio-kawa-video-baby-monitor-no-wifi-5-720p-hd-display-110-wide-angle-night-vision-temperature-sensor-2-way-audio-ptz-white-noise-20hrs-battery-1000ft-range",
+            "des": "4K Person/Vehicle Detection Security Camera System; 2TB HDD 8-Ch NVR for 24/7 Recording"
+          }
+        }
+      },
+      "block_order": ["recommend-product-1", "recommend-product-2", "recommend-product-3", "recommend-product-4"]
     }
   },
-  "order": ["header", "main", "latest"]
+  "order": ["header", "main", "latest", "products"]
 }
