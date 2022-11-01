@@ -1,0 +1,38 @@
+{
+  "sections": {
+    "header": {
+      "type": "kawa-blog-header",
+      "blocks": {
+        "blog-1": {
+          "type": "blog-block",
+          "settings": {
+            "display_blog": "how-to-guide"
+          }
+        },
+        "blog-2": {
+          "type": "blog-block",
+          "settings": {
+            "display_blog": "buyers-guide-1"
+          }
+        },
+        "blog-3": {
+          "type": "blog-block",
+          "settings": {
+            "display_blog": "buyers-guide"
+          }
+        }
+      },
+      "block_order": ["blog-1", "blog-2", "blog-3"]
+    },
+    "article": {
+      "type": "kawa-article-main",
+      "settings": {
+        "promotion_product": "kawa-5-720p-hd-display-video-baby-monitor-with-night-vision-temperature-sensor-2-way-audio-pan-tilt-zoom-white-noise-lullaby-20-hours-battery-1000ft-range",
+        "promotion_title": "Limited-time",
+        "promotion_des": "Up to 30% OFF Kawa smart security cameras"
+      }
+
+    }
+  },
+  "order": ["header", "article"]
+}

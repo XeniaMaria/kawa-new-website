@@ -1,0 +1,376 @@
+#MainContent {
+  background-color: #f7f8f9;
+}
+
+.kawa-article-main {
+  max-width: 820px;
+  margin: 40px auto 32px;
+  padding: 24px 40px 64px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 12%);
+  background: #fff;
+}
+
+.kawa-article-main a:hover {
+  text-decoration: none;
+}
+
+.kawa-article-main ul {
+  margin-bottom: 0;
+}
+
+.kawa-article-main .bread-txt {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.2;
+  cursor: pointer;
+}
+.kawa-article-main .bread-txt > a {
+  color: #777;
+}
+
+.kawa-article-main .bread-divider {
+  color: #333;
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0 6px;
+}
+
+.kawa-article-main .article-title {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  padding: 0 5%;
+}
+
+.kawa-article-main .article-content {
+  margin-top: 20px;
+  border-top: 1px solid #bbb;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.8;
+}
+
+.kawa-article-main .author {
+  word-break: break-word;
+  font-size: 14px;
+  line-height: 1.2;
+  min-width: 51%;
+  margin-top: 12px;
+  display: inline-block;
+}
+
+.kawa-article-main .author-name {
+  color: #333;
+  font-weight: 700;
+}
+
+.kawa-article-main .publish-time {
+  margin-left: 8px;
+  color: #777;
+  font-weight: 500;
+}
+
+.kawa-article-main .article-img {
+  position: relative;
+  width: 650px;
+  max-width: 100%;
+  height: 400px;
+  overflow: hidden;
+  margin: 24px auto 12px;
+}
+
+.kawa-article-main .article-img img {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+}
+
+.kawa-article-main .content {
+  position: relative;
+}
+
+.kawa-article-main .footer {
+  width: 100%;
+  margin-top: 56px;
+  box-shadow: 0 1px 14px rgb(0 0 0 / 16%);
+  padding: 36px 30px;
+  margin-bottom: 40px;
+}
+
+.kawa-article-main .footer-header {
+  display: block;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #ddd;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.kawa-article-main .other-article-list {
+  padding-left: 6px;
+}
+
+.kawa-article-main .other-article-list li {
+  position: relative;
+  padding-left: 10px;
+  text-indent: 0;
+  margin-top: 16px;
+}
+
+.kawa-article-main .other-article-list li::before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  background-color: #333;
+  border-radius: 50%;
+  position: absolute;
+  left: -6px;
+  top: 10px;
+}
+
+.kawa-article-main .other-article-list li a {
+  color: #00ade5;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+.kawa-article-main .other-article-list li a:hover {
+  text-decoration: underline;
+}
+
+.kawa-article-main .tags-wrap {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  margin-top: 24px;
+}
+
+.kawa-article-main .tags-wrap > span {
+  line-height: 36px;
+  margin-right: 10px;
+  font-weight: 500;
+}
+
+.kawa-article-main .tags-wrap > ul {
+  display: inline-block;
+}
+
+.kawa-article-main .tags-wrap > ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 6px 8px;
+  cursor: pointer;
+  background: rgba(204, 204, 204, 0.26);
+  padding: 4px 12px;
+  word-break: break-word;
+}
+.kawa-article-main .tags-wrap > ul li:hover {
+  background: #ddf5fb;
+}
+
+.kawa-article-main .tags-wrap > ul li a {
+  color: #777;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 500;
+  text-decoration: none;
+  border: none;
+}
+.kawa-article-main .tags-wrap > ul li:hover a {
+  color: #00ade5;
+}
+
+/* 文章页面的推荐产品 */
+.article-promotion {
+  position: absolute;
+  top: 384px;
+  left: 104px;
+  width: 304px;
+}
+
+.article-promotion a:hover {
+  text-decoration: none;
+}
+
+.article-promotion .promotion-product-wrap {
+  display: inline-block;
+  width: 304px;
+  padding: 24px 20px;
+  text-align: center;
+  background-color: #fff;
+  margin-top: 30px;
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 8px;
+}
+
+.article-promotion .close-icon {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  color: #999999;
+  cursor: pointer;
+}
+
+.article-promotion .promotion-img {
+  color: #00ade5;
+  display: inline-block;
+}
+.article-promotion .promotion-img:hover {
+  text-decoration: none;
+}
+
+.article-promotion .promotion-img img {
+  max-width: 100%;
+  width: 160px;
+  height: 100%;
+  margin: 0;
+  background-color: #eee;
+  display: block;
+}
+
+.article-promotion .promotion-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #e74300;
+  padding: 0;
+  margin: 0;
+  margin-top: 14px;
+  word-break: break-word;
+}
+
+.article-promotion .promotion-detail {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19.6px;
+  color: #333333;
+  padding: 0;
+  margin: 0;
+  margin-top: 8px;
+  word-break: break-word;
+}
+
+.article-promotion .promotion-shop {
+  display: inline-block;
+  margin-top: 14px;
+}
+
+.article-promotion .promotion-shop button {
+  color: #e74300;
+  background: transparent;
+  border: 1px solid #e74300;
+  transition: all 0.2s;
+  height: 36px;
+  padding: 10px 20px;
+  font-size: 14px;
+  line-height: 1;
+  cursor: pointer;
+  font-weight: 500;
+  position: relative;
+  border-radius: 24px;
+}
+.article-promotion .promotion-shop button:hover {
+  color: #e74300;
+  background: rgba(231, 67, 0, 0.08);
+  border: 1px solid #e74300;
+  transition: all 0.2s;
+}
+
+.article-promotion .btn-txt {
+  width: 100%;
+  overflow: hidden;
+  display: inline-flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.article-promotion .btn-txt span {
+  margin-right: 8px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.article-promotion .btn-txt svg {
+  width: 10px;
+  height: 10px;
+  color: #eb3349;
+}
+
+@media screen and (max-width: 768px) {
+  .kawa-article-main {
+    margin-top: 0;
+    padding: 24px 16px 40px;
+  }
+
+  .kawa-article-main .article-title {
+    font-size: 24px;
+    margin-top: 32px;
+    padding: 0;
+  }
+
+  .kawa-article-main .article-img {
+    height: calc(0.6154 * (100vw - 32px));
+  }
+
+  .kawa-article-main .footer {
+    padding: 30px 20px;
+  }
+
+  /* 文章页面的推荐产品 */
+  .article-promotion {
+    display: inline-block;
+    margin: 0;
+    width: 100%;
+    border-radius: 0;
+    box-shadow: 0px -4px 20px #e5e5e5;
+    text-align: left;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    top: unset;
+    z-index: 21;
+  }
+
+  .article-promotion .promotion-product-wrap {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    padding: 20px 16px;
+    border-radius: 0;
+  }
+
+  .article-promotion .promotion-img img {
+    width: 120px;
+  }
+
+  .article-promotion .promotion-info {
+    text-align: left;
+    margin-left: 16px;
+  }
+
+  .kawa-article-main .tags-wrap {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .kawa-article-main .tags-wrap > ul {
+    margin-top: 10px;
+  }
+
+  .kawa-article-main .tags-wrap > ul li {
+    display: block;
+  }
+}
