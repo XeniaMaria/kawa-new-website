@@ -8,6 +8,10 @@
   background: rgba(0, 0, 0, 0);
 }
 
+#header ul {
+  margin-bottom: 0;
+}
+
 #header:hover {
   background-color: #fff;
 }
@@ -57,6 +61,10 @@
   padding-left: 38px;
   list-style-type: none;
   margin-bottom: 0;
+}
+
+#header .nav-right {
+  height: 88px;
 }
 
 #header .nav-left > li,
@@ -113,6 +121,46 @@
 }
 #header [class^='nav-'] > li > a:hover {
   color: #00ade5;
+}
+
+/* 用户菜单 */
+#header .account-nav {
+  position: relative;
+}
+#header .account-nav .account-menu {
+  display: none;
+}
+#header .account-nav:hover .account-menu {
+  display: block;
+  position: absolute;
+  padding: 0 10px;
+  width: 150px;
+  height: 132px;
+  background-color: #fff;
+}
+
+#header .account-menu li {
+  height: 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid #f4f4f4;
+}
+
+#header .account-menu li > * {
+  color: #6f6f6f;
+  font-size: 14px;
+  line-height: 20px;
+}
+#header .account-menu li > span {
+  margin: 0 5px;
+}
+#header .account-menu li .login-link {
+  color: #000;
+}
+#header .account-menu li > a:hover {
+  text-decoration: none;
+  color: #21d2c5;
 }
 
 /* 常规子菜单样式 */
@@ -376,10 +424,12 @@
   #header .header-wrapper-kawa {
     justify-content: space-between;
     padding: 2.3vw 2.3vw 1.3vw;
+    align-items: center;
   }
 
   #header .logo-container {
     order: 2;
+    height: max-content;
   }
 
   #header .nav-container {
@@ -420,5 +470,24 @@
     max-width: 128px;
     max-height: 30px;
     margin-top: 0;
+  }
+
+  /* 移动端登录注册菜单 */
+  #header .sidebar-login-register {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #d6d8d8;
+    margin-left: 4.2vw;
+  }
+
+  #header .sidebar-menu .sidebar-login-register > a {
+    border-bottom: none;
+  }
+  #header .sidebar-menu .sidebar-login-register > a:first-child {
+    margin-left: 0;
+  }
+
+  #header .sidebar-menu .sidebar-login-register > span {
+    height: max-content;
   }
 }

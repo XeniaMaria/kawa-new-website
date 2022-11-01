@@ -131,6 +131,21 @@
         </li>
         <li class="nav-icon account-nav">
           <a><span class="iconify" data-icon="charm:person"></span></a>
+          <ul class="account-menu">
+            {% if shop.customer_accounts_enabled %}
+              <li>
+                {%- if customer -%}
+                  <a href="{{ routes.account_url }}">Account</a>
+                {%- else -%}
+                  <a href="{{ routes.account_login_url }}" class="login-link">Sign in</a>
+                  {%- if shop.customer_accounts_optional -%}
+                    <span>/</span>
+                    <a href="{{ routes.account_register_url }}">Sign up</a>
+                  {%- endif -%}
+                {%- endif -%}
+              </li>
+            {% endif %}
+          </ul>
         </li>
         <li class="nav-icon manage-nav cart-icon-bubble">
           <a style="position: relative;">
@@ -230,6 +245,19 @@
         {%- endif -%}
       </li>
       {%- endfor -%}
+      {% if shop.customer_accounts_enabled %}
+        <li class="sidebar-login-register">
+          {%- if customer -%}
+            <a href="{{ routes.account_url }}">Account</a>
+          {%- else -%}
+            <a href="{{ routes.account_login_url }}" class="login-link">Sign in</a>
+            {%- if shop.customer_accounts_optional -%}
+              <span>/</span>
+              <a href="{{ routes.account_register_url }}">Sign up</a>
+            {%- endif -%}
+          {%- endif -%}
+        </li>
+      {% endif %}
     </ul>
   </div>
 </div>
