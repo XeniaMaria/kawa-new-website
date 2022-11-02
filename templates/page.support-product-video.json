@@ -10,7 +10,8 @@
           "type": "product-block",
           "settings": {
             "block_title": "Battery-Powered Security Cameras",
-            "block_img": "shopify://shop_images/battery.png"
+            "block_img": "shopify://shop_images/battery.png",
+            "block_page": "baby-monitor"
           }
         },
         "product-block-2": {

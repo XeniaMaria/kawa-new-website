@@ -19,7 +19,7 @@
   <div class="blocks-wrap">
     {%- for block in section.blocks -%}
       <li {{ block.shopify_attributes }}>
-        <a href="#">
+        <a href="{{ block.settings.block_page.url }}">
           <img src="{{ block.settings.block_img | image_url }}" width="100" height="100" loading="lazy"/>
           <p>
             {{ block.settings.block_title }}

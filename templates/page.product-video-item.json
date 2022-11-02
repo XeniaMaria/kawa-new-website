@@ -1,0 +1,8 @@
+{
+  "sections": {
+    "support-blogs": {
+      "type": "kawa-support-blogs"
+    }
+  },
+  "order": ["support-blogs"]
+}
