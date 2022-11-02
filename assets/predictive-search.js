@@ -180,7 +180,7 @@ class PredictiveSearch extends HTMLElement {
   }
 
   getResultsMaxHeight() {
-    this.resultsMaxHeight = window.innerHeight - document.getElementById('shopify-section-header').getBoundingClientRect().bottom;
+    this.resultsMaxHeight = window.innerHeight - document.getElementById('header').getBoundingClientRect().bottom;
     return this.resultsMaxHeight;
   }
 

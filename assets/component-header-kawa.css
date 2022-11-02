@@ -7,6 +7,7 @@
   font-weight: 400;
   background: rgba(0, 0, 0, 0);
   font-family: 'Assistant';
+  position: relative;
 }
 
 #header ul {
@@ -416,6 +417,36 @@
   text-align: center;
   font-size: 3.3vw;
   color: #777;
+}
+
+/* 搜索图标 */
+#header .search-down {
+  box-shadow: 0 0 5px #d3d3d3;
+  background-color: #fff;
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 88px;
+  display: none;
+}
+#header .search-down.active {
+  display: block;
+}
+
+#header .search-wrap {
+  height: 70px;
+  line-height: 70px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#header .search-wrap predictive-search {
+  position: relative;
+  display: inline-block;
 }
 
 @media screen and (max-width: 768px) {
