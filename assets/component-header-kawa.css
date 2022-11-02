@@ -6,6 +6,7 @@
 #header {
   font-weight: 400;
   background: rgba(0, 0, 0, 0);
+  font-family: 'Assistant';
 }
 
 #header ul {
@@ -395,6 +396,7 @@
 }
 #header .sidebar-sub-menu > li:first-child > a {
   padding-top: 2vw;
+  color: #212529;
 }
 /* 产品列表 */
 #header .sidebar-sub-menu .collection-menu-products {
