@@ -1,0 +1,63 @@
+{
+  "sections": {
+    "product-video-blocks": {
+      "type": "kawa-product-video-blocks",
+      "settings": {
+        "title": "Get help for your product"
+      },
+      "blocks": {
+        "product-block-1": {
+          "type": "product-block",
+          "settings": {
+            "block_title": "Battery-Powered Security Cameras",
+            "block_img": "shopify://shop_images/battery.png"
+          }
+        },
+        "product-block-2": {
+          "type": "product-block",
+          "settings": {
+            "block_title": "Dual-Lens Security Cameras",
+            "block_img": "shopify://shop_images/battery.png"
+          }
+        },
+        "product-block-3": {
+          "type": "product-block",
+          "settings": {
+            "block_title": "PoE IP Cameras & NVRs",
+            "block_img": "shopify://shop_images/battery.png"
+          }
+        },
+        "product-block-4": {
+          "type": "product-block",
+          "settings": {
+            "block_title": "WiFi Security Cameras",
+            "block_img": "shopify://shop_images/battery.png"
+          }
+        },
+        "product-block-5": {
+          "type": "product-block",
+          "settings": {
+            "block_title": "Video Doorbells",
+            "block_img": "shopify://shop_images/battery.png"
+          }
+        },
+        "product-block-6": {
+          "type": "product-block",
+          "settings": {
+            "block_title": "Accessories",
+            "block_img": "shopify://shop_images/battery.png"
+          }
+        }
+      },
+      "block_order": [
+        "product-block-1",
+        "product-block-2",
+        "product-block-3",
+        "product-block-4",
+        "product-block-5",
+        "product-block-6"
+      ]
+    }
+  },
+  "order": ["product-video-blocks"]
+}

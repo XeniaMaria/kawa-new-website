@@ -16,8 +16,9 @@
         "service-1": {
           "type": "service",
           "settings": {
-            "service_title": "Orders & Payment",
-            "service_des": "Find information about ordering Reolink online, shipping, returns and more."
+            "service_title": "Product videos",
+            "service_des": "Find information about ordering Reolink online, shipping, returns and more.",
+            "service_page": "product-video"
           }
         },
         "service-2": {
