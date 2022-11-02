@@ -1,0 +1,72 @@
+{% comment %}
+  Renders a support nav breadcrumbs   support页中的面包屑
+
+  Accepts:
+  - type: {String} 当前的页面层级字符串  类型为以下参数名的字符串表示
+  - normal_page: {Object} 二级页面， 不需要传入参数
+  - sub_page: {Object} 三级页面，   需要传入二级页面对象
+  - blog: {} 四级页面， 需要传入二级页面和三级页面
+  - article: {} 五级页面， 需要传入二级页面和三级页面
+
+  Usage:
+  {% render 'kawa-support-breadcrumbs' %}
+{% endcomment %}
+
+<nav class="kawa-breadcrumbs-nav">
+  <ol class="kawa-breadcrumbs">
+    <li>
+      <a href="{{ pages['support-center'].url }}">
+        Kawa Support
+      </a>
+    </li>
+    {%- case type -%}
+      {%- when 'normal_page' -%}
+        <li>
+          {{ page.title }}
+        </li>
+      {%- when 'sub_page' -%}
+        <li>
+          <a href="{{ normal_page.url }}">
+            {{ normal_page.title }}
+          </a>
+        </li>
+        <li>
+          {{ page.title }}
+        </li>
+      {%- when 'blog' -%}
+        <li>
+          <a href="{{ normal_page.url }}">
+            {{ normal_page.title }}
+          </a>
+        </li>
+        <li>
+          <a href="{{ sub_page.url }}">
+            {{ sub_page.title }}
+          </a>
+        </li>
+        <li>
+          {{ blog.title }}
+        </li>
+      {%- when 'article' -%}
+        <li>
+          <a href="{{ normal_page.url }}">
+            {{ normal_page.title }}
+          </a>
+        </li>
+        <li>
+          <a href="{{ sub_page.url }}">
+            {{ sub_page.title }}
+          </a>
+        </li>
+        <li>
+          <a href="{{ blog.url }}">
+            {{ blog.title }}
+          </a>
+        </li>
+        <li>
+          {{ article.title }}
+        </li>
+      {%- else -%}
+    {%- endcase -%}
+  </ol>
+</nav>

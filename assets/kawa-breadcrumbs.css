@@ -1,10 +1,17 @@
+.kawa-breadcrumbs-nav {
+  margin-bottom: 50px;
+}
+
 .kawa-breadcrumbs {
   padding: 0;
   margin: 0;
 }
 
+.kawa-breadcrumbs a:hover {
+  text-decoration: none;
+}
+
 .kawa-breadcrumbs > li {
-  float: left;
   display: inline;
   list-style-type: none;
   color: #00ade5;
