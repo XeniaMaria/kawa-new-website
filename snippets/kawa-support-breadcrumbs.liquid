@@ -34,11 +34,13 @@
           {{ page.title }}
         </li>
       {%- when 'blog' -%}
-        <li>
-          <a href="{{ normal_page.url }}">
-            {{ normal_page.title }}
-          </a>
-        </li>
+        {%- if normal_page != blank -%}
+          <li>
+            <a href="{{ normal_page.url }}">
+              {{ normal_page.title }}
+            </a>
+          </li>
+        {%- endif -%}
         <li>
           <a href="{{ sub_page.url }}">
             {{ sub_page.title }}
@@ -48,11 +50,13 @@
           {{ blog.title }}
         </li>
       {%- when 'article' -%}
-        <li>
-          <a href="{{ normal_page.url }}">
-            {{ normal_page.title }}
-          </a>
-        </li>
+        {%- if normal_page != blank -%}
+          <li>
+            <a href="{{ normal_page.url }}">
+              {{ normal_page.title }}
+            </a>
+          </li>
+        {%- endif -%}
         <li>
           <a href="{{ sub_page.url }}">
             {{ sub_page.title }}

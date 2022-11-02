@@ -1,69 +1,54 @@
 {%- comment -%}
-support center 中的文章模板用的main section
+  support center 中的文章模板用的main section
 {%- endcomment -%}
 {{ "kawa-main-support-article.css" | asset_url | stylesheet_tag }}
 
 <div class="kawa-main-support-article">
-    <nav class="nav">
-        <ol class="kawa-breadcrumbs">
+  {%- render 'kawa-support-breadcrumbs', type: 'article'
+    , sub_page: blog.metafields.custom.parent_page.value -%}
+  <div class="article-container">
+    <section class="article-sidebar">
+      <section class="article-list-wrap">
+        <h3>
+          Articles in this section
+        </h3>
+        <ul>
+          {%- for article_item in blog.articles -%}
             <li>
-                <a href="{{ pages['support-center'].url }}">
-                    Kawa Support
-                </a>
+              <a href="{{ article_item.url }}" class="side-item {% if article.title == article_item.title %}
+                                                                                                                                active
+                                                                                                                            {% endif %}">
+                {{ article_item.title }}
+              </a>
             </li>
-            <li>
-                <a href="{{ pages['FAQs'].url }}">
-                    FAQs
-                </a>
-            </li>
-            <li>
-                <a href="{{ blog.url }}">
-                    {{ blog.title }}
-                </a>
-            </li>
-        </ol>
-    </nav>
-    <div class="article-container">
-        <section class="article-sidebar">
-            <section class="article-list-wrap">
-                <h3>
-                    Articles in this section
-                </h3>
-                <ul>
-                    {%- for article_item in blog.articles -%}
-                        <li>
-                            <a class="side-item" href="{{ article_item.url }}">
-                                {{ article_item.title }}
-                            </a>
-                        </li>
-                    {%- endfor -%}
-                </ul>
-                <a href="{{ blog.url }}" class="see-more">
-                    See more
-                </a>
-            </section>
-        </section>
-        <article class="article">
-            <header class="article-header">
-                <h1>
-                    {{ article.title }}
-                </h1>
-                <div class="article-author">
-                    <div class="article-meta">
-                        <span>
-                            {{ article.author }}
-                        </span>
-                        <ul>
-                            {{ article.updated_at | date: format: 'abbreviated_date' }}
-                        </ul>
-                    </div>
-                </div>
-            </header>
-            <section class="article-content">
-                <div>
-                    {{ article.content }}
-                </div>
-            </section>
-        </article>
-    </div>
+          {%- endfor -%}
+        </ul>
+        <a href="{{ blog.url }}" class="see-more">
+          See more
+        </a>
+      </section>
+    </section>
+    <article class="article">
+      <header class="article-header">
+        <h1>
+          {{ article.title }}
+        </h1>
+        <div class="article-author">
+          <div class="article-meta">
+            <span>
+              {{ article.author }}
+            </span>
+            <ul>
+              {{ article.updated_at | date: format: 'abbreviated_date' }}
+            </ul>
+          </div>
+        </div>
+      </header>
+      <section class="article-content">
+        <div>
+          {{ article.content }}
+        </div>
+      </section>
+    </article>
+  </div>
 </div>
