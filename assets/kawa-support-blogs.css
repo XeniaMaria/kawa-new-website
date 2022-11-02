@@ -2,3 +2,79 @@
   max-width: 1160px;
   margin: 0 auto;
 }
+
+.kawa-support-blogs a:hover {
+  text-decoration: none;
+}
+.kawa-support-blogs ul {
+  margin-bottom: none;
+}
+
+.kawa-support-blogs .blogs-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.kawa-support-blogs .blog-container-content {
+  flex: 0 0 80%;
+}
+
+.kawa-support-blogs .section-header {
+  display: flex;
+  align-items: baseline;
+  flex-direction: row;
+  margin: 0;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.kawa-support-blogs .section-header p {
+  flex-grow: 1;
+  margin-bottom: 10px;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.kawa-support-blogs .main-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.kawa-support-blogs .main-content section {
+  flex: 0 0 45%;
+  margin-bottom: 60px;
+}
+
+.kawa-support-blogs .blog-section-title {
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.kawa-support-blogs .blog-section-title > a {
+  color: #2f3941;
+}
+
+.kawa-support-blogs .article-item {
+  font-size: 16px;
+  padding: 15px 0;
+}
+
+.kawa-support-blogs .article-item > a {
+  color: #2f3941;
+}
+
+@media screen and (max-width: 768px) {
+  .kawa-support-blogs {
+    padding: 0 5%;
+  }
+
+  .kawa-support-blogs .blog-container-content {
+    flex: 1;
+  }
+
+  .kawa-support-blogs .main-content section {
+    flex: initial;
+  }
+}

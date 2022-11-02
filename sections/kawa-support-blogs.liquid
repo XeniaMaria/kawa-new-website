@@ -1,5 +1,83 @@
 {{ "kawa-support-blogs.css" | asset_url | stylesheet_tag }}
 
 <div class="kawa-support-blogs">
-  1232
+  {%- render 'kawa-support-breadcrumbs', type: 'sub_page', normal_page: section.settings.parent_page -%}
+  <div class="blogs-container">
+    <div class="blog-container-content">
+      <header class="section-header">
+        <p>
+          {%- if section.settings.title != blank -%}
+            {{ section.settings.title }}
+          {%- else -%}
+            {{ page.title }}
+          {%- endif -%}
+        </p>
+      </header>
+      <div class="main-content">
+        {%- for block in section.blocks -%}
+          {%- assign blog = block.settings.blog -%}
+          <section {{ block.shopify_attributes }}>
+            <h2 class="blog-section-title">
+              <a href="{{ blog.url }}">
+                {%- if block.settings.title != blank -%}
+                  {{ block.settings.title }}
+                {%- else -%}
+                  {{ blog.title }}
+                {%- endif -%}
+              </a>
+            </h2>
+            <ul class="article-list">
+              {%- for article in blog.articles limit: 5 -%}
+                <li class="article-item">
+                  <a href="{{ article.url }}">
+                    {{ article.title }}
+                  </a>
+                </li>
+              {%- endfor -%}
+            </ul>
+            <a href="{{ blog.url }}" class="see-all-article">
+              See all {{ blog.articles_count }} articles
+            </a>
+          </section>
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
 </div>
+
+{% schema %}
+  {
+    "name": "列出选择的博客",
+    "settings": [
+      {
+        "type": "page",
+        "id": "parent_page",
+        "label": "父级页面",
+        "info": "用于面包屑导航"
+      }, {
+        "type": "text",
+        "id": "title",
+        "label": "标题",
+        "info": "可选，为空使用后台设置的页面的title"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "support-block",
+        "name": "需要展示的博客",
+        "settings": [
+          {
+            "type": "blog",
+            "id": "blog",
+            "label": "博客"
+          }, {
+            "type": "text",
+            "id": "title",
+            "label": "博客的展示名称",
+            "info": "可选，为空选择博客后台设置的名称"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
