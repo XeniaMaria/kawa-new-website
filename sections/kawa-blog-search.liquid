@@ -1,0 +1,20 @@
+{{ "kawa-blog-search.css" | asset_url | stylesheet_tag }}
+
+<div class="kawa-blog-search">
+  <div class="subscribe-box">
+    <div>
+      <p class="des">Be in the Konw</p>
+    </div>
+    <div class="search-wrap">
+      {%- render 'kawa-common-subscribe' -%}
+    </div>
+  </div>
+  <div class="search-box">
+    <div>
+      <p class="des">Search</p>
+    </div>
+    <div class="search-wrap">
+      {%- render 'kawa-common-search', type: article -%}
+    </div>
+  </div>
+</div>

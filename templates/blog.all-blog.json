@@ -27,6 +27,9 @@
     "main": {
       "type": "kawa-all-blog-main"
     },
+    "search": {
+      "type": "kawa-blog-search"
+    },
     "latest": {
       "type": "kawa-latest-articles",
       "settings": {
@@ -72,5 +75,5 @@
       "block_order": ["recommend-product-1", "recommend-product-2", "recommend-product-3", "recommend-product-4"]
     }
   },
-  "order": ["header", "main", "latest", "products"]
+  "order": ["header", "main", "search", "latest", "products"]
 }

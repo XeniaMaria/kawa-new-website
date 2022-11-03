@@ -1,0 +1,78 @@
+{%- comment -%}
+  公共邮件订阅框
+{%- endcomment -%}
+
+<style>
+  .kawa-common-subscribe {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    border: none;
+    display: block;
+    position: relative;
+  }
+
+  .kawa-common-subscribe .email-subscribe-form {
+    position: relative;
+    border-radius: 30px;
+    border: 1px solid #ddd;
+    transition: border 0.12s ease-in-out;
+  }
+  .kawa-common-subscribe .email-subscribe-form:focus-within {
+    border-color: #00ade5;
+  }
+
+  .kawa-common-subscribe .subscribe-email-input {
+    width: 100%;
+    padding-left: 20px;
+    border-radius: 23.5px;
+    padding-right: 60px;
+    height: 47px;
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    color: #666;
+    flex: 1 1 auto;
+    background-color: #fff;
+    border: none;
+    outline: none;
+  }
+  .kawa-common-subscribe .subscribe-email-input:focus-visible {
+    box-shadow: none;
+  }
+
+  .kawa-common-subscribe .email-subscribe-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 47px;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    border-radius: 23.5px;
+  }
+
+  .kawa-common-subscribe .email-subscribe-btn svg {
+    width: 20px;
+    height: 20px;
+    color: #00ade5;
+  }
+
+  @media screen and (max-width: 768px) {
+    .kawa-common-subscribe {
+      padding: 0 10%;
+    }
+  }
+</style>
+
+<div class="kawa-common-subscribe">
+  {%- form 'customer', class: 'email-subscribe-form' -%}
+    <input class="subscribe-email-input" type="email" placeholder="Enter Email Address" name="contact[email]" value="">
+    <button type="submit" class="email-subscribe-btn">
+      {%- render 'icon-arrow' -%}
+    </button>
+  {%- endform -%}
+</div>
