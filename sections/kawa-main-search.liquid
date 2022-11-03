@@ -1,0 +1,44 @@
+{{ "kawa-main-search.css" | asset_url | stylesheet_tag }}
+
+<div class="kawa-main-search">
+  <div class="search-header">
+    {{ search.results_count }} RESULTS FOR
+    <strong class="highlight">
+      "{{ search.terms }}"
+    </strong>
+  </div>
+
+  {%- assign search_type = search.types | first -%}
+  {%- case search_type -%}
+    {%- when 'product' -%}
+      <ul>
+        {%- for product in search.results -%}
+          <li class="product-item">
+            <div class="product-card">
+              <div class="product-img__wrap">
+                <a href="{{ product.url }}">
+                  <img src="{{ product.featured_image | image_url }}" width="100" height="100" loading="lazy"/>
+                </a>
+              </div>
+              <div class="product-info__wrap">
+                <h3 class="product-title">
+                  <a href="{{ product.url }}">
+                    {{ product.title | highlight: search.terms }}
+                  </a>
+                </h3>
+                <div class="product-price">
+                  ${{ product.price | money_without_currency }}
+                </div>
+                <div class="learn-more-btn">
+                  <a href="{{ product.url }}">
+                    Learn More
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+        {%- endfor -%}
+      </ul>
+    {%- else -%}
+  {%- endcase -%}
+</div>

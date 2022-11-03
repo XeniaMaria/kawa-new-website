@@ -1,0 +1,135 @@
+.kawa-main-search {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 55px;
+  padding-right: 55px;
+  font-family: Open Sans, sans-serif;
+}
+
+.kawa-main-search .highlight {
+  color: red;
+}
+
+.kawa-main-search ul {
+  margin-bottom: 0;
+}
+.kawa-main-search a:hover {
+  text-decoration: none;
+}
+
+.kawa-main-search .search-header {
+  padding-top: 35px;
+  padding-bottom: 42px;
+  margin: 0 0 22px;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.2;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  font-size: 19px;
+  text-transform: uppercase;
+  letter-spacing: 1.9px;
+  text-align: center;
+  color: #3a3a3a;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.kawa-main-search .product-item {
+  border-bottom: 1px solid #ebebeb;
+  padding-bottom: 22px;
+  margin-bottom: 22px;
+}
+
+.kawa-main-search .product-card {
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.kawa-main-search .product-img__wrap {
+  margin: 0 10px;
+  width: calc(25% - 20px);
+  min-width: calc(25% - 20px);
+}
+
+.kawa-main-search .product-img__wrap img {
+  height: auto;
+  width: 100%;
+}
+
+.kawa-main-search .product-info__wrap {
+  margin: 0 10px;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.kawa-main-search .product-title {
+  font-family: Open Sans, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+  text-transform: none;
+  line-height: 1.5;
+  display: block;
+  letter-spacing: 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+.kawa-main-search .product-title a {
+  color: #323232;
+}
+.kawa-main-search .product-title a:hover {
+  color: #00ade5;
+}
+
+.kawa-main-search .product-price {
+  padding-top: 20px;
+}
+
+.kawa-main-search .product-des {
+  padding-top: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.kawa-main-search .learn-more-btn {
+  margin-top: 20px;
+}
+
+.kawa-main-search .learn-more-btn a {
+  padding: 5px 10px;
+  background-color: #00ade5;
+  color: #fff;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .kawa-main-search {
+    width: 95%;
+    padding: 0;
+  }
+
+  .kawa-main-search .search-header {
+    font-size: 4.25vw;
+    padding-top: 22px;
+    padding-bottom: 22px;
+  }
+
+  .kawa-main-search .product-img__wrap {
+    width: calc(100% - 20px);
+    min-width: calc(100% - 20px);
+  }
+
+  .kawa-main-search .product-info__wrap {
+    width: calc(100% - 20px);
+  }
+}
