@@ -51,7 +51,6 @@
   text-decoration: none;
 }
 
-
 .kawa-main-support-article .see-more {
   color: #00aed5;
   text-decoration: none;
@@ -114,4 +113,72 @@
   line-height: 1.6;
   margin: 40px 0;
   word-wrap: break-word;
+}
+
+@media screen and (max-width: 768px) {
+  .kawa-main-support-article {
+    padding: 0 5%;
+  }
+
+  .kawa-main-support-article .article-container {
+    flex-direction: column;
+  }
+
+  .kawa-main-support-article .article-sidebar {
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    flex: 1 0 auto;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+
+  .kawa-main-support-article .article-list-wrap {
+    flex: 1;
+    overflow: hidden;
+    padding: 10px 0;
+    position: relative;
+  }
+
+  .kawa-main-support-article .article-list-wrap > h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    position: relative;
+  }
+  .kawa-main-support-article .article-list-wrap.expand > h3 {
+    margin-bottom: 12px;
+  }
+
+  .kawa-main-support-article .article-list-wrap > h3::after {
+    top: 50%;
+    transform: translateY(-50%);
+    content: '\25BE';
+    position: absolute;
+    right: 10px;
+  }
+  .kawa-main-support-article .article-list-wrap.expand > h3::after {
+    content: '\2715';
+  }
+
+  .kawa-main-support-article .article-list-wrap > ul,
+  .kawa-main-support-article .article-list-wrap .see-more {
+    display: none;
+  }
+
+  .kawa-main-support-article .article-list-wrap.expand > ul,
+  .kawa-main-support-article .article-list-wrap.expand > .see-more {
+    display: block;
+  }
+
+  .kawa-main-support-article .article {
+    flex: 1 0 auto;
+    min-width: unset;
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .kawa-main-support-article .article-content iframe {
+    width: 100%;
+    min-height: 400px;
+    height: auto;
+  }
 }

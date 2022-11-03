@@ -60,6 +60,10 @@
     margin-left: 5px;
   }
 
+  .kawa-breadcrumbs-nav .search-container {
+    flex: unset;
+  }
+
   .kawa-breadcrumbs-nav .kawa-common-search {
     padding: 0 20% 0 0;
   }

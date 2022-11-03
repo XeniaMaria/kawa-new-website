@@ -16,8 +16,8 @@
           {%- for article_item in blog.articles -%}
             <li>
               <a href="{{ article_item.url }}" class="side-item {% if article.title == article_item.title %}
-                                                                                                                                active
-                                                                                                                            {% endif %}">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              active
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          {% endif %}">
                 {{ article_item.title }}
               </a>
             </li>
@@ -52,3 +52,16 @@
     </article>
   </div>
 </div>
+
+<script>
+  (function() {
+    const screenW = window.screen.width;
+    if (screenW < 768) {
+      const trigger = document.querySelector(".kawa-main-support-article .article-list-wrap > h3");
+      const parentNode = document.querySelector(".kawa-main-support-article .article-list-wrap");
+      trigger.addEventListener("click", () => {
+        parentNode.classList.toggle("expand");
+      })
+    }
+  })()
+</script>
