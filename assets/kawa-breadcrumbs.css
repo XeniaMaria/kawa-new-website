@@ -1,4 +1,10 @@
 .kawa-breadcrumbs-nav {
+  align-items: baseline;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px 30px;
+  justify-content: space-between;
   margin-bottom: 50px;
 }
 
@@ -33,4 +39,28 @@
 
 .kawa-breadcrumbs > li > a {
   font-weight: 500;
+}
+
+/* 搜索框样式 */
+.kawa-breadcrumbs-nav .search-container {
+  flex: 0 1 300px;
+  max-width: 300px;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .kawa-breadcrumbs-nav {
+    flex-direction: column;
+  }
+
+  .kawa-breadcrumbs > li:not(:last-child) {
+    margin-right: 6px;
+  }
+  .kawa-breadcrumbs > li:after {
+    margin-left: 5px;
+  }
+
+  .kawa-breadcrumbs-nav .kawa-common-search {
+    padding: 0 20% 0 0;
+  }
 }
