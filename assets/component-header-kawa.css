@@ -523,4 +523,47 @@
   #header .sidebar-menu .sidebar-login-register > span {
     height: max-content;
   }
+
+  /* 移动端搜索框 */
+  #header .sidebar-search-menu {
+    margin-bottom: 11vw;
+  }
+
+  #header .sidebar-search-wrap {
+    margin: 0 4.2vw;
+  }
+
+  #header .search-input__wrap {
+    position: relative;
+    width: 100%;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 1.295vw;
+    overflow: hidden;
+  }
+  #header .search-input__wrap.active {
+    border-color: #00ade5;
+  }
+
+  #header #search-input {
+    height: 8.82vw;
+    line-height: 8.82vw;
+    padding: 0 0 0 3.367vw;
+  }
+  #header #search-input:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+  }
+
+  #header .search__button {
+    height: 100%;
+    background-image: linear-gradient(to right, #1e7ff2, #1dc4e4);
+  }
+
+  #header .search__button svg {
+    width: 4.5vw;
+    height: 4.5vw;
+    color: #fff !important;
+  }
 }
