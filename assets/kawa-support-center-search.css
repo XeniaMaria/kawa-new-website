@@ -19,70 +19,8 @@
   margin-bottom: 40px;
 }
 
-.kawa-support-center-search .search-input-wrap {
-  max-width: 600px;
-  width: 100%;
-  margin: 0 auto;
-  border: none;
-  display: block;
-  position: relative;
-}
-
-.kawa-support-center-search .support-search-form {
-  position: relative;
-  border-radius: 30px;
-  border: 1px solid #ddd;
-  transition: border 0.12s ease-in-out;
-}
-.kawa-support-center-search .support-search-form:focus-within {
-  border-color: #00ade5;
-}
-
-.kawa-support-center-search .support-search-input {
-  width: 100%;
-  padding-left: 20px;
-  border-radius: 23.5px;
-  padding-right: 60px;
-  height: 47px;
-  -webkit-appearance: none;
-  box-sizing: border-box;
-  color: #666;
-  flex: 1 1 auto;
-  background-color: #fff;
-  border: none;
-  outline: none;
-}
-.kawa-support-center-search .support-search-input:focus-visible {
-  box-shadow: none;
-}
-
-.kawa-support-center-search .support-search-btn {
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 47px;
-  height: 47px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  outline: none;
-  border: none;
-  background-color: #fff;
-  border-radius: 23.5px;
-}
-
-.kawa-support-center-search .support-search-btn svg {
-  width: 20px;
-  height: 20px;
-  color: #00ade5;
-}
-
 @media screen and (max-width: 768px) {
   .kawa-support-center-search .search-box h2 {
     font-size: 30px;
-  }
-
-  .kawa-support-center-search .search-input-wrap {
-    padding: 0 10%;
   }
 }

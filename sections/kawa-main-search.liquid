@@ -2,10 +2,10 @@
 
 <div class="kawa-main-search">
   <div class="search-header">
-    {{ search.results_count }} RESULTS FOR
-    <strong class="highlight">
-      "{{ search.terms }}"
-    </strong>
+    <div class="search-title">
+      {{ search.results_count }} RESULTS FOR "<strong class="highlight">{{ search.terms }}</strong>"
+    </div>
+    {%- render 'kawa-common-search' -%}
   </div>
 
   {%- assign search_type = search.types | first -%}
@@ -36,6 +36,31 @@
                 </div>
               </div>
             </div>
+          </li>
+        {%- endfor -%}
+      </ul>
+
+    {%- when 'article' -%}
+      <ul class="search-article-list">
+        {%- for article in search.results -%}
+          <li class="article-item">
+            <h2>
+              <a href="{{ article.url }}">
+                {{ article.title | highlight: search.terms }}
+              </a>
+            </h2>
+            <article>
+              <ul class="meta-group">
+                <li class="article-breadcrumbs">&nbsp;</li>
+                <li class="article-author">{{ article.author }}</li>
+                <li class="article-time">
+                  {{ article.published_at | date: format: 'date_at_time' }}
+                </li>
+              </ul>
+              <div class="article-excerpt">
+                {{ article.excerpt_or_content }}
+              </div>
+            </article>
           </li>
         {%- endfor -%}
       </ul>

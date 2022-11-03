@@ -13,17 +13,7 @@
     <h2>
       {{ section.settings.title }}
     </h2>
-    <div class="search-input-wrap">
-      <form action="{{ routes.search_url }}" role="search" class="support-search-form">
-        <input class="support-search-input" type="text" placeholder="Search" name="q" value="">
-        <input type="hidden" name="type" value="article">
-        <button type="submit" class="support-search-btn">
-            <svg class="icon icon-search" aria-hidden="true" focusable="false" role="presentation">
-                <use href="#icon-search">
-            </svg>
-        </button>
-      </form>
-    </div>
+    {%- render 'kawa-common-search', type: 'article' -%}
   </div>
 </div>
 
