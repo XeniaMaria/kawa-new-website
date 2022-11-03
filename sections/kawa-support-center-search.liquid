@@ -2,44 +2,45 @@
 
 {%- style -%}
   .kawa-support-center-search {
-    background-image: url( {{ section.settings.bg_image | image_url }} );
+    background-image: url('{{ section.settings.bg_image | image_url }}');
     background-position: right;
     background-size: cover;
   }
 {%- endstyle -%}
 
 <div class="kawa-support-center-search">
-    <div class="search-box">
-        <h2>
-            {{ section.settings.title }}
-        </h2>
-        <div class="search-input-wrap">
-            <input
-                class="search-input"
-                type="search"
-                name="query"
-                placeholder="Search..."
-                autocomplete="off"
-                aria-label="Search...">
-        </div>
+  <div class="search-box">
+    <h2>
+      {{ section.settings.title }}
+    </h2>
+    <div class="search-input-wrap">
+      <form action="{{ routes.search_url }}" role="search" class="support-search-form">
+        <input class="support-search-input" type="text" placeholder="Search" name="q" value="">
+        <input type="hidden" name="type" value="article">
+        <button type="submit" class="support-search-btn">
+            <svg class="icon icon-search" aria-hidden="true" focusable="false" role="presentation">
+                <use href="#icon-search">
+            </svg>
+        </button>
+      </form>
     </div>
+  </div>
 </div>
 
 {% schema %}
-{
+  {
     "name": "support center search",
     "tag": "section",
     "settings": [
-        {
-            "type": "image_picker",
-            "id": "bg_image",
-            "label": "背景图片"
-        },
-        {
-            "type": "text",
-            "id": "title",
-            "label": "标题"
-        }
+      {
+        "type": "image_picker",
+        "id": "bg_image",
+        "label": "背景图片"
+      }, {
+        "type": "text",
+        "id": "title",
+        "label": "标题"
+      }
     ]
-}
+  }
 {% endschema %}
