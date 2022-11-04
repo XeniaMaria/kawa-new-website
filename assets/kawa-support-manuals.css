@@ -13,6 +13,7 @@
   display: flex;
   align-items: center;
   padding-bottom: 27px;
+  margin-bottom: 0;
   border-bottom: 1px solid #ebe9e9;
   color: #03060b;
 }
@@ -29,6 +30,54 @@
   font-family: Manrope-Medium;
 }
 
+/* 侧栏搜索框 */
+.kawa-support-manuals .manual-search-box {
+  margin: 48px 0 32px;
+  width: 294px;
+  height: 48px;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+  border: none !important;
+  box-shadow: none !important;
+  position: relative;
+  min-width: 0;
+  padding: 4px 11px;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  line-height: 1.5715;
+  background-image: none;
+  transition: all 0.3s;
+  display: inline-flex;
+}
+
+.kawa-support-manuals .manual-search-icon__wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 15%;
+  margin-right: 14px;
+}
+.kawa-support-manuals .manual-search-icon__wrap svg {
+  width: 25px;
+  height: 25px;
+}
+
+.kawa-support-manuals .manual-search-input {
+  width: 100%;
+  height: 100%;
+  background-color: #f8f8f8;
+  font-size: inherit;
+  border: none;
+  outline: none;
+  text-overflow: ellipsis;
+  padding: 0;
+}
+.kawa-support-manuals .manual-search-input:focus-visible {
+  box-shadow: none;
+}
+
+/* 侧栏筛选菜单 */
 .kawa-support-manuals .category-manual-list {
   display: flex;
 }
@@ -38,18 +87,131 @@
   flex-shrink: 0;
   margin-right: 40px;
   padding-bottom: 174px;
+}
+.kawa-support-manuals .category-list .has-border {
   border-right: 1px solid #ededed;
 }
 
+.kawa-support-manuals .category-menu {
+  width: 294px;
+  border: none;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.47;
+  color: #03060b;
+  background-color: #fff;
+}
+
+.kawa-support-manuals .category-menu-item {
+  font-family: Manrope-Medium, Ef-Font-Medium;
+  font-weight: 500;
+  font-size: 17px;
+  transition: border-color 0.3s cubic-bezier(0.645, 0.045, 0.355, 1),
+    background 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), padding 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.kawa-support-manuals .collection-name {
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 0;
+  height: 70px;
+  margin: 4px 0 0;
+  line-height: 40px;
+  white-space: nowrap;
+  cursor: pointer;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.kawa-support-manuals .collection-name:hover {
+  color: #2673ff;
+}
+
+.kawa-support-manuals .collection-name > span {
+  transition: color 0.3s;
+  flex: auto;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.kawa-support-manuals .category-menu-item .switch-icon {
+  transition: all 0.3s;
+  line-height: 0;
+  transform: rotate(0deg);
+}
+.kawa-support-manuals .category-menu-item.active .switch-icon {
+  transform: rotate(90deg);
+}
+
+/* 产品子目录 */
+.kawa-support-manuals .category-menu-item .product-menu {
+  display: none;
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
+  cursor: auto;
+  transition: background 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), padding 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.kawa-support-manuals .category-menu-item.active .product-menu {
+  display: block;
+}
+
+.kawa-support-manuals .product-menu-item {
+  height: 56px;
+  font-family: Manrope-Regular, Ef-Font-Regular;
+  font-weight: 400;
+  background-color: #fff;
+  color: #666;
+  margin: 4px 0 0;
+  line-height: 40px;
+  list-style-position: inside;
+  list-style-type: disc;
+  display: flex;
+  align-items: center;
+  transition: border-color 0.3s, background 0.3s, padding 0.1s cubic-bezier(0.215, 0.61, 0.355, 1);
+  padding: 0 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-left: 45px;
+  cursor: pointer;
+  font-size: 14px;
+  border-left: 3px solid #fff;
+}
+.kawa-support-manuals .product-menu-item.active {
+  color: #2673ff;
+  background-color: #f8f8f8;
+  border-left: 3px solid #1890ff;
+}
+.kawa-support-manuals .product-menu-item:hover {
+  color: #2673ff;
+}
+
+.kawa-support-manuals .product-menu-item > span {
+  flex: auto;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: color 0.3s;
+}
+
+.kawa-support-manuals .collection-hidden-manuals,
+.kawa-support-manuals .product-hidden-manuals {
+  display: none;
+}
+
+/* 说明书列表 */
 .kawa-support-manuals .manual-list {
   position: relative;
   box-sizing: border-box;
   padding: 14px 0 204px 40px;
   flex-grow: 1;
+  border-left: 1px solid #ededed;
 }
 
 .kawa-support-manuals .manual-list.no-padding-left {
   padding-left: 0;
+  border-left: none;
 }
 
 .kawa-support-manuals .manual-item {
@@ -128,6 +290,14 @@
   height: 17px;
   flex-shrink: 0;
   margin-right: 1px;
+}
+
+/* loading */
+.kawa-support-manuals .loading-overlay__spinner {
+  display: none;
+  position: relative;
+  left: 10px;
+  top: 10px;
 }
 
 @media screen and (max-width: 768px) {

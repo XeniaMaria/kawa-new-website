@@ -1,73 +1,204 @@
 {{ "kawa-support-manuals.css" | asset_url | stylesheet_tag }}
 
 <div class="kawa-support-manuals">
-    <h3 class="manuals-header">
-        <span class="iconify manual-icon" data-icon="bx:book-open"></span>
-        <span class="title-text">
-            {{ section.settings.title }}
+  <h3 class="manuals-header">
+    <span class="iconify manual-icon" data-icon="bx:book-open"></span>
+    <span class="title-text">
+      {{ section.settings.title }}
+    </span>
+  </h3>
+  <div class="category-manual-list">
+    {% if section.settings.show_category %}
+      <div class="category-list {% unless section.settings.show_category %} has-border {% endunless %}">
+        <span class="manual-search-box">
+          <span class="manual-search-icon__wrap">
+            <svg class="icon icon-search" aria-hidden="true" focusable="false" role="presentation">
+              <use href="#icon-search">
+            </svg>
+          </span>
+          <input placeholder="Search" aria-label="Search" class="manual-search-input" type="text" value="">
         </span>
-    </h3>
-    <div class="category-manual-list">
-        {% if section.settings.show_category %}
-            <div class="category-list">
-            </div>
-        {% endif %}
-        <ul class="manual-list {% unless block.settings.show_category %} no-padding-left {% endunless %}">
-            {%- assign manuals = section.settings.product.metafields.custom.manuals.value -%}
-            {%- for manual in manuals -%}
-                <li class="manual-item">
-                    <div class="file-icon-wrap">
-                        <span class="iconify file-icon" data-icon="bi:file-text"></span>
+        <ul class="category-menu">
+          {%- for collection in collections -%}
+            <li class="category-menu-item">
+              <div class="collection-name">
+                <span>
+                  {{ collection.title }}
+                </span>
+                <div class="switch-icon">
+                  <span class="iconify icon-arrow-right" data-icon="dashicons:arrow-right-alt2"></span>
+                </div>
+              </div>
+              <ul class="product-menu">
+                {%- for product in collection.products -%}
+                  <li class="product-menu-item">
+                    <span>
+                      {{ product.metafields.descriptors.subtitle }}
+                    </span>
+                    <div class="product-hidden-manuals">
+                      <ul>
+                        {%- assign manuals = product.metafields.custom.manuals.value -%}
+                        {%- for manual in manuals -%}
+                          {%- render 'kawa-manual', manual: manual -%}
+                        {%- endfor -%}
+                      </ul>
                     </div>
-                    <div class="manual-content">
-                        <p class="manual-name">
-                            {{ manual.name }}
-                        </p>
-                        <p class="manual-time">
-                            {{ manual.time }}
-                        </p>
-                    </div>
-                    <a href="{{ manual.url }}" class="manual-url" target="_blank">
-                        <span class="manual-btn">
-                            {%- assign text = manual.type | downcase -%}
-                            {%- if text == 'pdf' -%}
-                                <span class="iconify pdf-download-icon" data-icon="akar-icons:download"></span>
-                                {{ manual.type | upcase }}
-                                {%- else -%}
-                                <span class="iconify video-download-icon" data-icon="fluent:play-12-regular"></span>
-                                {{ manual.type | capitalize }}
-                            {%- endif -%}
-                        </span>
-                    </a>
-                </li>
-            {%- endfor -%}
+                  </li>
+                {%- endfor -%}
+              </ul>
+              <div class="collection-hidden-manuals">
+                <ul>
+                  {%- for product in collection.products -%}
+                    {%- liquid
+                      assign manuals = product.metafields.custom.manuals.value
+                    -%}
+                    {%- for manual in manuals -%}
+                      {%- render 'kawa-manual', manual: manual -%}
+                    {%- endfor -%}
+                  {%- endfor -%}
+                </ul>
+              </div>
+            </li>
+          {%- endfor -%}
         </ul>
-    </div>
+      </div>
+    {% endif %}
+    <ul class="manual-list {% unless section.settings.show_category %} no-padding-left {% endunless %}">
+      {%- if section.settings.show_category -%}
+        {%- for collection in collections -%}
+          {%- for product in collection.products -%}
+            {%- liquid
+              assign manuals = manuals | concat: product.metafields.custom.manuals.value
+            -%}
+          {%- endfor -%}
+        {%- endfor -%}
+      {%- else -%}
+        {%- assign manuals = section.settings.product.metafields.custom.manuals.value -%}
+      {%- endif -%}
+      {%- for manual in manuals limit: 7 -%}
+        <li class="manual-item">
+          <div class="file-icon-wrap">
+            <span class="iconify file-icon" data-icon="bi:file-text"></span>
+          </div>
+          <div class="manual-content">
+            <p class="manual-name">
+              {{ manual.name }}
+            </p>
+            <p class="manual-time">
+              {{ manual.time }}
+            </p>
+          </div>
+          <a href="{{ manual.url }}" class="manual-url" target="_blank">
+            <span class="manual-btn">
+              {%- assign text = manual.type | downcase -%}
+              {%- if text == 'pdf' -%}
+                <span class="iconify pdf-download-icon" data-icon="akar-icons:download"></span>
+                {{ manual.type | upcase }}
+              {%- else -%}
+                <span class="iconify video-download-icon" data-icon="fluent:play-12-regular"></span>
+                {{ manual.type | capitalize }}
+              {%- endif -%}
+            </span>
+          </a>
+        </li>
+      {%- endfor -%}
+    </ul>
+    {%- if section.settings.show_category -%}
+      <div class="loading-overlay__spinner">
+        <svg aria-hidden="true" focusable="false" role="presentation" class="spinner" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+          <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+      </svg>
+    {%- endif -%}
+  </div>
 </div>
 
+<script>
+  //展示说明书列表框
+  const manualsDisplay = document.querySelector(".kawa-support-manuals .manual-list");
+   //loading
+   const loadingEl = document.querySelector(".kawa-support-manuals .loading-overlay__spinner");
+
+  let timeId;
+
+  //替换要展示的说明书列表
+  function replaceNewManuals(oldParent) {
+    manualsDisplay.innerHTML = "";
+    loadingEl.style.display = "block";
+    if(timeId) {
+      clearTimeout(timeId);
+    }
+    const seconds = 300*Math.random() + 200;
+    timeId = setTimeout(() => {
+      loadingEl.style.display = "none";
+      oldParent.childNodes.forEach((node) => {
+        manualsDisplay.append(node.cloneNode(true));
+      });
+    },seconds);
+  }
+
+  const collectionNameEls = document.querySelectorAll(".kawa-support-manuals .category-menu-item");
+  Array.from(collectionNameEls).forEach((el) => {
+    el.addEventListener("click", () => {
+      el.classList.toggle("active");
+      const manualsNode = el.querySelector(".collection-hidden-manuals ul");
+      replaceNewManuals(manualsNode);
+    })
+  });
+  const productNameEls = Array.from(collectionNameEls).map((el) => {
+    return Array.from(el.querySelectorAll(".product-menu-item"));
+  }).flat();
+  productNameEls.forEach((el) => {
+    el.addEventListener("click", (event) => {
+      if (el.classList.contains("active")) {
+        el.classList.remove("active");
+      } else {
+        productNameEls.forEach((eel) => {
+          eel.classList.remove("active");
+        })
+        el.classList.add("active");
+      }
+
+      const manualsNode = el.querySelector(".product-hidden-manuals ul");
+      replaceNewManuals(manualsNode)
+      event.stopPropagation();
+    });
+  });
+
+  //搜索
+  const allManuals = document.querySelectorAll(".kawa-support-manuals .collection-hidden-manuals li");
+  function filterManual(text){
+    const ul = document.createElement("ul");
+    Array.from(allManuals).forEach((manual) => {
+      if(manual.innerText.toLowerCase().includes(text.toLowerCase())){
+        ul.append(manual.cloneNode(true));
+      }
+    });
+    replaceNewManuals(ul);
+  }
+  const manualSearchInput = document.querySelector(".kawa-support-manuals .manual-search-input");
+  manualSearchInput.addEventListener("input",(e) => filterManual(e.target.value));
+</script>
 
 {% schema %}
-{
+  {
     "name": "mannual section",
     "tag": "section",
     "settings": [
-        {
-            "type": "text",
-            "id": "title",
-            "label": "标题"
-        },
-        {
-            "type": "checkbox",
-            "id": "show_category",
-            "label": "是否展示左边的菜单",
-            "info": "当选择不展示左边菜单的时候，需要选择一个产品来展示其manuals",
-            "default": false
-        },
-        {
-            "type": "product",
-            "id": "product",
-            "label": "要展示其mannuals的产品"
-        }
+      {
+        "type": "text",
+        "id": "title",
+        "label": "标题"
+      }, {
+        "type": "checkbox",
+        "id": "show_category",
+        "label": "是否展示左边的菜单",
+        "info": "当选择不展示左边菜单的时候，需要选择一个产品来展示其manuals",
+        "default": false
+      }, {
+        "type": "product",
+        "id": "product",
+        "label": "要展示其mannuals的产品"
+      }
     ]
-}
+  }
 {% endschema %}

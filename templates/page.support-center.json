@@ -25,7 +25,8 @@
           "type": "service",
           "settings": {
             "service_title": "Manual & Download",
-            "service_des": "Handy tutorials to help you quickly set up and use your Reolink."
+            "service_des": "Handy tutorials to help you quickly set up and use your Reolink.",
+            "service_page": "manual-download"
           }
         },
         "service-3": {

@@ -1,0 +1,35 @@
+{% comment %}
+  渲染一个manual对象
+
+  Accepts:
+  - manual: {Object}  manual对象
+
+  Usage:
+  {% render 'kawa-product-comment' %}
+{% endcomment %}
+
+<li class="manual-item">
+  <div class="file-icon-wrap">
+    <span class="iconify file-icon" data-icon="bi:file-text"></span>
+  </div>
+  <div class="manual-content">
+    <p class="manual-name">
+      {{ manual.name }}
+    </p>
+    <p class="manual-time">
+      {{ manual.time }}
+    </p>
+  </div>
+  <a href="{{ manual.url }}" class="manual-url" target="_blank">
+    <span class="manual-btn">
+      {%- assign text = manual.type | downcase -%}
+      {%- if text == 'pdf' -%}
+        <span class="iconify pdf-download-icon" data-icon="akar-icons:download"></span>
+        {{ manual.type | upcase }}
+      {%- else -%}
+        <span class="iconify video-download-icon" data-icon="fluent:play-12-regular"></span>
+        {{ manual.type | capitalize }}
+      {%- endif -%}
+    </span>
+  </a>
+</li>
