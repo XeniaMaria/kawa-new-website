@@ -1,0 +1,11 @@
+{
+  "sections": {
+    "order-track": {
+      "type": "kawa-order-track",
+      "settings": {
+        "title": "Track Order Status"
+      }
+    }
+  },
+  "order": ["order-track"]
+}

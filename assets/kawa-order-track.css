@@ -1,0 +1,71 @@
+.kawa-order-track {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.kawa-order-track .section-title {
+  font-size: 30px;
+  line-height: 1.15;
+  text-align: center;
+  color: rgb(17, 17, 17);
+  font-family: 'Avenir Next';
+  font-weight: bold;
+  margin-bottom: 70px;
+  max-width: 400px;
+  padding: 30px 0px;
+  margin: 0px auto;
+}
+
+.kawa-order-track #order-input {
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid rgb(198, 205, 212);
+  border-radius: 4px;
+  padding: 8px 16px;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: inherit;
+  line-height: 34px;
+  outline: none;
+  display: block;
+  margin: 0 auto;
+}
+.kawa-order-track #order-input:focus-visible {
+  box-shadow: none;
+}
+
+.kawa-order-track #start-track-btn {
+  font-weight: 600;
+  line-height: 38px;
+  border-radius: 4px;
+  font-size: 18px;
+  font-family: 'Avenir Next';
+  background-color: #00aed5;
+  padding: 8px 16px;
+  color: rgb(255, 255, 255);
+  border: 1px solid #00aed5;
+  width: 100%;
+  max-width: 400px;
+  cursor: pointer;
+  position: relative;
+  display: block;
+  margin: 15px auto 0;
+}
+
+.kawa-order-track #track-result {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto 0;
+}
+
+@media screen and (max-width: 768px) {
+  .kawa-order-track {
+    padding: 0 15px;
+    margin-bottom: 40px;
+  }
+
+  .kawa-order-track .section-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+}

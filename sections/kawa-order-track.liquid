@@ -1,0 +1,38 @@
+{{ "kawa-order-track.css" | asset_url | stylesheet_tag }}
+
+<div class="kawa-order-track">
+  <h2 class="section-title">
+    {{ section.settings.title }}
+  </h2>
+  <input id="order-input" type="text" autocomplete="on" aria-invalid="false" required="" placeholder="Tracking Number" value="">
+  <button id="start-track-btn" onclick="doTrack()">
+    Track
+  </button>
+  <div id="track-result"></div>
+</div>
+
+<script type="text/javascript" src="//www.17track.net/externalcall.js"></script>
+<script>
+  function doTrack() {
+    const orderNumber = document.getElementById("order-input").value;
+    if (orderNumber === "") {
+      alert("Enter your number.");
+      return;
+    }
+    YQV5.trackSingle({YQ_ContainerId: "track-result", YQ_Num: orderNumber});
+  }
+</script>
+
+
+{% schema %}
+  {
+    "name": "order track",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "标题"
+      }
+    ]
+  }
+{% endschema %}
