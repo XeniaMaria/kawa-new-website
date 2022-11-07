@@ -322,6 +322,39 @@
     font-family: Manrope-Bold, Ef-Font-Bold;
   }
 
+  .kawa-support-manuals .category-manual-list {
+    flex-direction: column;
+  }
+
+  .kawa-support-manuals .category-list {
+    width: 100%;
+    margin-right: 0;
+    padding-bottom: 0;
+    border-bottom: 0.25vw solid #ebe9e9;
+  }
+
+  .kawa-support-manuals .manual-search-box {
+    display: none;
+  }
+
+  .kawa-support-manuals .category-menu {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+  .kawa-support-manuals .manual-list {
+    padding: 0;
+  }
+
+  .kawa-support-manuals .category-menu-item {
+    padding: 0 6.6vw;
+  }
+
+  .kawa-support-manuals .collection-name {
+    padding-left: 0;
+  }
+
   .kawa-support-manuals .manual-item {
     padding: 5.3vw 6.66vw;
     margin-top: 0;
