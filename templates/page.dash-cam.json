@@ -7,11 +7,27 @@
     "install-video": {
       "type": "kawa-install-video",
       "settings": {
-        "title": "Install Video",
-        "video_poster": "shopify://shop_images/my-video-poster.webp",
-        "video_url": "https://cdn.shopify.com/videos/c/o/v/fd5bb78358954e02a5d6013bae20fefc.mp4",
-        "video_tips": "install video can help you to install."
-      }
+        "title": "Install Video"
+      },
+      "blocks": {
+        "video-1": {
+          "type": "install-video",
+          "settings": {
+            "video_poster": "shopify://shop_images/cj1005_app_.00_00_00_00.Still001.jpg",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/ff34a54cf7984ae2b7c643923dee7d66.mp4",
+            "video_tips": "Install Video can help you to install."
+          }
+        },
+        "video-2": {
+          "type": "install-video",
+          "settings": {
+            "video_poster": "shopify://shop_images/cj1005_app_.00_00_00_00.Still001.jpg",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/ff34a54cf7984ae2b7c643923dee7d66.mp4",
+            "video_tips": "Install Video can help you to install."
+          }
+        }
+      },
+      "block_order": ["video-1", "video-2"]
     },
     "support-manuals": {
       "type": "kawa-support-manuals",
@@ -24,9 +40,9 @@
     "support-product": {
       "type": "kawa-support-product",
       "settings": {
-        "title": "Dash Cam",
-        "product_image": "shopify://shop_images/dealer-no-title.webp",
-        "product": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6"
+        "title": "Try to Purchase the KAWA Hardwire Kit PT01",
+        "product_image": "shopify://shop_images/1_34f3f4db-67d2-4490-9e84-71f29eb1dee8.jpg",
+        "product": "kawa-hardwire-kit-pt01-compatible-with-kawa-dash-cam-d6-parking-surveillance-cable-car-dvr-24h-parking-monitor"
       }
     }
   },
