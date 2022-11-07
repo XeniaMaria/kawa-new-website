@@ -2,32 +2,36 @@
   "sections": {
     "app-download": {
       "type": "kawa-app-download",
-      "settings": {}
+      "settings": {
+      }
     },
     "install-video": {
       "type": "kawa-install-video",
-      "settings": {
-        "title": "Install Video"
-      },
       "blocks": {
         "video-1": {
           "type": "install-video",
           "settings": {
-            "video_poster": "shopify://shop_images/cj1005_app_.00_00_00_00.Still001.jpg",
-            "video_url": "https://cdn.shopify.com/videos/c/o/v/ff34a54cf7984ae2b7c643923dee7d66.mp4",
-            "video_tips": "Install Video can help you to install."
+            "video_poster": "shopify:\/\/shop_images\/cj1005_app_.00_00_00_00.Still001.jpg",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ff34a54cf7984ae2b7c643923dee7d66.mp4",
+            "video_tips": "The Connection Guidance Video(iOS) will help you to connect your Dash Cam D6."
           }
         },
         "video-2": {
           "type": "install-video",
           "settings": {
-            "video_poster": "shopify://shop_images/cj1005_app_.00_00_00_00.Still001.jpg",
-            "video_url": "https://cdn.shopify.com/videos/c/o/v/ff34a54cf7984ae2b7c643923dee7d66.mp4",
-            "video_tips": "Install Video can help you to install."
+            "video_poster": "shopify:\/\/shop_images\/cj1005_app_.00_00_00_00.Still001_56723673-4808-4376-aa68-65cd0a13eaf9.jpg",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/08fd48b8502a40568428f1f46e2b9731.mp4",
+            "video_tips": "The Connection Guidance Video(Android) will help you to connect your Dash Cam D6."
           }
         }
       },
-      "block_order": ["video-1", "video-2"]
+      "block_order": [
+        "video-1",
+        "video-2"
+      ],
+      "settings": {
+        "title": "Connection Videos"
+      }
     },
     "support-manuals": {
       "type": "kawa-support-manuals",
@@ -41,10 +45,15 @@
       "type": "kawa-support-product",
       "settings": {
         "title": "Try to Purchase the KAWA Hardwire Kit PT01",
-        "product_image": "shopify://shop_images/1_34f3f4db-67d2-4490-9e84-71f29eb1dee8.jpg",
+        "product_image": "shopify:\/\/shop_images\/1_34f3f4db-67d2-4490-9e84-71f29eb1dee8.jpg",
         "product": "kawa-hardwire-kit-pt01-compatible-with-kawa-dash-cam-d6-parking-surveillance-cable-car-dvr-24h-parking-monitor"
       }
     }
   },
-  "order": ["app-download", "install-video", "support-manuals", "support-product"]
+  "order": [
+    "app-download",
+    "install-video",
+    "support-manuals",
+    "support-product"
+  ]
 }
