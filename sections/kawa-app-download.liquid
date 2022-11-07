@@ -1,94 +1,78 @@
 {{ "kawa-app-download.css" | asset_url | stylesheet_tag }}
 
 <div class="kawa-app-download">
-    <div class="download-bg">
-        <img
-            src="{{ settings.app_download_bg | image_url }}"
-            width="100"
-            height="100"
-            loading="lazy"
-        />
+  <div class="download-bg">
+    <img src="{{ settings.app_download_bg | image_url }}" width="100" height="100" loading="lazy"/>
+  </div>
+  <div class="download-content">
+    <div class="download-title">
+      <img src="{{ settings.app_download_logo | image_url }}" width="48" height="48" loading="lazy"/>
+      <h3>{{ settings.app_download_title }}</h3>
     </div>
-    <div class="download-content">
-        <div class="download-title">
-            <img
-                src="{{ settings.app_download_logo | image_url }}"
-                width="48"
-                height="48"
-                loading="lazy"
-            />
-            <h3>{{ settings.app_download_title }}</h3>
+    <p class="download-des">
+      {{ settings.app_download_des }}
+    </p>
+    {%- if settings.app_download_learn_more != nil -%}
+      <div class="download-learn-more">
+        <a href=" {{ settings.app_download_learn_more }} ">
+          Learn More >
+        </a>
+      </div>
+    {%- endif -%}
+    <div class="download-qr-content">
+      <div class="download-play">
+        <div class="play-item">
+          <a href=" {{ settings.app_download_ios }} ">
+            <img src="{{ settings.app_sotre_img | image_url }}" width="100" height="100" loading="lazy"/>
+          </a>
+          <p>
+            {{ settings.app_download_ios_tips }}
+          </p>
         </div>
-        <p class="download-des">
-            {{ settings.app_download_des }}
-        </p>
-        <div class="download-learn-more">
-            <a href=" {{ settings.app_download_learn_more }} ">
-                Learn More >
-            </a>
+        <div class="play-item">
+          <a href=" {{ settings.app_download_android }} ">
+            <img src="{{ settings.google_play_img | image_url }}" width="100" height="100" loading="lazy"/>
+          </a>
+          <p>
+            {{ settings.app_download_android_tips }}
+          </p>
         </div>
-        <div class="download-play">
-            <div class="play-item">
-                <a href=" {{ settings.app_download_ios }} ">
-                    <img
-                        src="https://cdn.shopifycdn.net/s/files/1/0608/5528/7860/files/app-store.png?v=1666576881"
-                        width="100"
-                        height="100"
-                        loading="lazy"
-                    />
-                </a>
-                <p>
-                    {{ settings.app_download_ios_tips }}
-                </p>
-            </div>
-            <div class="play-item">
-                <a href=" {{ settings.app_download_android }} ">
-                    <img
-                        src="https://cdn.shopifycdn.net/s/files/1/0608/5528/7860/files/google-play.png?v=1666576886"
-                        width="100"
-                        height="100"
-                        loading="lazy"
-                    />
-                </a>
-                <p>
-                    {{ settings.app_download_android_tips }}
-                </p>
-            </div>
-            <div class="qr-content">
-                <img
-                    src="{{ settings.app_download_code | image_url }}"
-                    width="100"
-                    height="100"
-                    loading="lazy"
-                />
-                <p>
-                    {{ settings.app_download_code_tips }}
-                </p>
-            </div>
+      </div>
+
+      <div class="qr-box">
+        <div class="qr-content qr-ios">
+          <img src="{{ settings.app_download_code_ios | image_url }}" width="100" height="100" loading="lazy"/>
+          <p>
+            {{ settings.app_download_code_tips_ios }}
+          </p>
         </div>
-        <div class="direct-download">
-            <a href="/app">
-                <span class="iconify" data-icon="akar-icons:download"></span>
-                <span>
-                    {{ settings.app_download_apk_tips }}
-                </span>
-            </a>
+        <div class="qr-content qr-android">
+          <img src="{{ settings.app_download_code_android | image_url }}" width="100" height="100" loading="lazy"/>
+          <p>
+            {{ settings.app_download_code_tips_android }}
+          </p>
         </div>
+      </div>
     </div>
-    <div class="download-bg-mb">
-        <img
-            class="w-100-h-auto"
-            src="{{ settings.app_download_bg_mb | image_url }}"
-            width="100"
-            height="100"
-            loading="lazy"
-        />
-    </div>
+    {%- if settings.app_download_apk_url != nil -%}
+      <div class="direct-download">
+        <a href="{{ settings.app_download_apk_url }}">
+          <span class="iconify" data-icon="akar-icons:download"></span>
+          <span>
+            {{ settings.app_download_apk_tips }}
+          </span>
+        </a>
+      </div>
+    {%- endif -%}
+  </div>
+  <div class="download-bg-mb">
+    <img class="w-100-h-auto" src="{{ settings.app_download_bg_mb | image_url }}" width="100" height="100" loading="lazy"/>
+  </div>
 </div>
 
 {% schema %}
-{
+  {
     "name": "app下载模块",
     "tag": "section"
-}
+  }
 {% endschema %}
