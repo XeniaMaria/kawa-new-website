@@ -122,20 +122,24 @@
       "currency_code_enabled": true,
       "cart_type": "drawer",
       "app_download_name": "kawa iot",
-      "app_download_title": "Kawa App",
-      "app_download_des": "Control and monitor your EcoFlow portable power station and access real-time energy usage from one convenient location.",
-      "app_download_logo": "shopify:\/\/shop_images\/app-logo.png",
-      "app_download_learn_more": "/app",
-      "app_download_bg":"shopify:\/\/shop_images\/download-bg.jpg",
-      "app_download_bg_mb": "shopify:\/\/shop_images\/download-bg-mb.png",
-      "app_download_ios": "https://apps.apple.com/us/app/ecoflow-power-a-new-world/id1506693140#?platform=iphone",
-      "app_download_ios_tips": "Requires iOS11.0 or above.",
-      "app_download_android": "https://play.google.com/store/apps/details?id=com.ecoflow",
+      "app_download_title": "KAWA DVR APP",
+      "app_download_des": "Control and monitor your Dash Cam D6 and real-time road conditions.",
+      "app_download_logo": "shopify://shop_images/kawa_dvr_icon_f44e5dc9-e06a-435d-b386-e8de21c6829a.png",
+      "app_download_learn_more": "",
+      "app_download_bg": "shopify://shop_images/2d492b34be543819e883f2ee621ced45.jpg",
+      "app_download_bg_mb": "shopify://shop_images/download-bg-mb.png",
+      "app_store_img": "",
+      "app_download_ios": "https://apps.apple.com/cn/app/kawa-dvr/id1601762531",
+      "app_download_ios_tips": "Requires iOS9.0 or above.",
+      "google_play_img": "",
+      "app_download_android": "https://play.google.com/store/apps/details?id=com.apical.cj1005",
       "app_download_android_tips": "Requires Android5.0or above.",
-      "app_download_code": "shopify:\/\/shop_images\/qr-code.webp",
-      "app_download_code_tips": "Scan QR code to download",
+      "app_download_code_ios": "shopify://shop_images/KAWA_DVR.png",
+      "app_download_code_tips_ios": "Scan QR code to download",
+      "app_download_code_android": "shopify://shop_images/KAWA_DVR.png",
+      "app_download_code_tips_android": "Scan QR code to download",
       "app_download_apk_url": "",
-      "app_download_apk_tips": "Download the Kawa App apk file",
+      "app_download_apk_tips": "",
       "copyright_text": "Copyright © 2022 Kawa all rights reserved.",
       "sections": {
         "announcement-bar": {
@@ -150,9 +154,7 @@
               }
             }
           },
-          "block_order": [
-            "announcement-bar-0"
-          ]
+          "block_order": ["announcement-bar-0"]
         },
         "header": {
           "type": "header",
@@ -169,9 +171,7 @@
         "header-kawa": {
           "type": "header-kawa",
           "settings": {
-            "collection_list": [
-              "baby-monitor"
-            ]
+            "collection_list": ["baby-monitor"]
           }
         },
         "footer": {
@@ -195,15 +195,11 @@
               "type": "text",
               "settings": {
                 "heading": "Our mission",
-                "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+                "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>"
               }
             }
           },
-          "block_order": [
-            "footer-0",
-            "footer-1",
-            "footer-2"
-          ],
+          "block_order": ["footer-0", "footer-1", "footer-2"],
           "settings": {
             "color_scheme": "background-1",
             "newsletter_enable": true,

@@ -1548,6 +1548,11 @@
         "label": "背景图片(移动端)"
       },
       {
+        "type": "image_picker",
+        "id": "app_store_img",
+        "label": "app Store图片"
+      },
+      {
         "type": "url",
         "id": "app_download_ios",
         "label": "App Store链接"
@@ -1556,6 +1561,11 @@
         "type": "text",
         "id": "app_download_ios_tips",
         "label": "ios相关提示"
+      },
+      {
+        "type": "image_picker",
+        "id": "google_play_img",
+        "label": "谷歌play图片"
       },
       {
         "type": "url",
@@ -1569,13 +1579,23 @@
       },
       {
         "type": "image_picker",
-        "id": "app_download_code",
-        "label": "下载二维码"
+        "id": "app_download_code_ios",
+        "label": "苹果下载二维码"
       },
       {
         "type": "text",
-        "id": "app_download_code_tips",
-        "label": "二维码下方提示"
+        "id": "app_download_code_tips_ios",
+        "label": "苹果二维码下方提示"
+      },
+      {
+        "type": "image_picker",
+        "id": "app_download_code_android",
+        "label": "安卓下载二维码"
+      },
+      {
+        "type": "text",
+        "id": "app_download_code_tips_android",
+        "label": "安卓二维码下方提示"
       },
       {
         "type": "url",
