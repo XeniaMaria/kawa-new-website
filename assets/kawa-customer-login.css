@@ -1,0 +1,45 @@
+/* 覆盖默认登录页面的样式 */
+#MainContent {
+  background-color: #f6f6f7;
+  min-height: calc(100vh - 88px);
+}
+
+#kawa-customer-login {
+  margin-top: calc((100vh - 88px - 410px) / 3);
+  padding-left: 80px;
+  padding-right: 80px;
+  background-color: #fff;
+  max-width: 50.8rem;
+  border-radius: 12px;
+}
+
+#kawa-customer-login.customer button {
+  min-width: 100%;
+  background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5 51%, #00d2ff 100%);
+  background-size: 200% auto;
+  transition: 0.5s;
+  box-shadow: 0 0 20px #eee;
+  border: none;
+  outline: none;
+}
+#kawa-customer-login.customer button::before,
+#kawa-customer-login.customer button::after {
+  display: none;
+}
+#kawa-customer-login.customer button:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  #MainContent {
+    background-color: #fff;
+  }
+
+  #kawa-customer-login {
+    margin-top: 0;
+    padding-left: 4.25vw;
+    padding-right: 4.25vw;
+  }
+}

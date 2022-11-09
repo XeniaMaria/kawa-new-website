@@ -1,4 +1,5 @@
 {{ 'customer.css' | asset_url | stylesheet_tag }}
+{{ 'kawa-customer-login.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
   .section-{{ section.id }}-padding {
@@ -14,7 +15,7 @@
   }
 {%- endstyle -%}
 
-<div class="customer login section-{{ section.id }}-padding">
+<div id="kawa-customer-login" class="customer login section-{{ section.id }}-padding">
   <h1 id="recover" tabindex="-1">
     {{ 'customer.recover_password.title' | t }}
   </h1>
@@ -26,20 +27,8 @@
     {%- form 'recover_customer_password' -%}
       {% assign recover_success = form.posted_successfully? %}
       <div class="field">
-        <input type="email"
-          value=""
-          name="email"
-          id="RecoverEmail"
-          autocorrect="off"
-          autocapitalize="off"
-          autocomplete="email"
-          {% if form.errors %}
-            aria-invalid="true"
-            aria-describedby="RecoverEmail-email-error"
-            autofocus
-          {% endif %}
-          placeholder="{{ 'customer.login_page.email' | t }}"
-        >
+        <input type="email" value="" name="email" id="RecoverEmail" autocorrect="off" autocapitalize="off" autocomplete="email" {% if form.errors %}aria-invalid="true"aria-describedby="RecoverEmail-email-error"autofocus
+          {% endif %}placeholder="{{ 'customer.login_page.email' | t }}">
         <label for="RecoverEmail">
           {{ 'customer.login_page.email' | t }}
         </label>
@@ -83,7 +72,8 @@
     {%- form 'customer_login', novalidate: 'novalidate' -%}
       {%- if form.errors -%}
         <h2 class="form__message" tabindex="-1" autofocus>
-          <span class="visually-hidden">{{ 'accessibility.error' | t }} </span>
+          <span class="visually-hidden">{{ 'accessibility.error' | t }}
+          </span>
           <svg aria-hidden="true" focusable="false" role="presentation" viewBox="0 0 13 13">
             <circle cx="6.5" cy="6.50049" r="5.5" stroke="white" stroke-width="2"/>
             <circle cx="6.5" cy="6.5" r="5.5" fill="#EB001B" stroke="#EB001B" stroke-width="0.7"/>
@@ -95,37 +85,16 @@
         {{ form.errors | default_errors }}
       {%- endif -%}
 
-      <div class="field">        
-        <input
-          type="email"
-          name="customer[email]"
-          id="CustomerEmail"
-          autocomplete="email"
-          autocorrect="off"
-          autocapitalize="off"
-          {% if form.errors contains 'form' %}
-            aria-invalid="true"
-          {% endif %}
-          placeholder="{{ 'customer.login_page.email' | t }}"
-        >
+      <div class="field">
+        <input type="email" name="customer[email]" id="CustomerEmail" autocomplete="email" autocorrect="off" autocapitalize="off" {% if form.errors contains 'form' %}aria-invalid="true"{% endif %}placeholder="{{ 'customer.login_page.email' | t }}">
         <label for="CustomerEmail">
           {{ 'customer.login_page.email' | t }}
         </label>
       </div>
 
       {%- if form.password_needed -%}
-        <div class="field">          
-          <input
-            type="password"
-            value=""
-            name="customer[password]"
-            id="CustomerPassword"
-            autocomplete="current-password"
-            {% if form.errors contains 'form' %}
-              aria-invalid="true"
-            {% endif %}
-            placeholder="{{ 'customer.login_page.password' | t }}"
-          >
+        <div class="field">
+          <input type="password" value="" name="customer[password]" id="CustomerPassword" autocomplete="current-password" {% if form.errors contains 'form' %}aria-invalid="true"{% endif %}placeholder="{{ 'customer.login_page.password' | t }}">
           <label for="CustomerPassword">
             {{ 'customer.login_page.password' | t }}
           </label>
@@ -143,10 +112,10 @@
       <a href="{{ routes.account_register_url }}">
         {{ 'customer.login_page.create_account' | t }}
       </a>
-      
+
     {%- endform -%}
   </div>
-  
+
   {%- if shop.checkout.guest_login -%}
     <div>
       <hr>
@@ -162,33 +131,31 @@
 </div>
 
 {% schema %}
-{
-  "name": "t:sections.main-login.name",
-  "settings": [
-    {
-      "type": "header",
-      "content": "t:sections.all.padding.section_padding_heading"
-    },
-    {
-      "type": "range",
-      "id": "padding_top",
-      "min": 0,
-      "max": 100,
-      "step": 4,
-      "unit": "px",
-      "label": "t:sections.all.padding.padding_top",
-      "default": 36
-    },
-    {
-      "type": "range",
-      "id": "padding_bottom",
-      "min": 0,
-      "max": 100,
-      "step": 4,
-      "unit": "px",
-      "label": "t:sections.all.padding.padding_bottom",
-      "default": 36
-    }
-  ]
-}
+  {
+    "name": "t:sections.main-login.name",
+    "settings": [
+      {
+        "type": "header",
+        "content": "t:sections.all.padding.section_padding_heading"
+      }, {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_top",
+        "default": 36
+      }, {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_bottom",
+        "default": 36
+      }
+    ]
+  }
 {% endschema %}
