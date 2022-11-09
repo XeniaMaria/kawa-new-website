@@ -4,6 +4,10 @@
   min-height: calc(100vh - 88px);
 }
 
+#MainContent + * .kawa-footer {
+  margin-top: 0;
+}
+
 #kawa-customer-login {
   margin-top: calc((100vh - 88px - 410px) / 3);
   padding-left: 80px;
