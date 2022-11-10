@@ -17,3 +17,9 @@
   color: rgb(14, 207, 226);
   text-decoration: none;
 }
+
+@media screen and (max-width: 768px) {
+  .kawa-dealer-footer .contact-information {
+    margin-bottom: 30px;
+  }
+}
