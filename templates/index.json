@@ -39,22 +39,36 @@
     },
     "kawa-new-products": {
       "type": "kawa-new-products",
+      "settings": {
+        "title": "New on Kawa Store"
+      },
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "product-slide-1": {
+          "type": "product-slide",
           "settings": {
-            "heading": "New on Kawa Store"
+            "product_item": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6",
+            "product_image": "shopify://shop_images/new-product.webp",
+            "tag": "2K"
+          }
+        },
+        "product-slide-2": {
+          "type": "product-slide",
+          "settings": {
+            "product_item": "kawa-5-720p-hd-display-video-baby-monitor-with-night-vision-temperature-sensor-2-way-audio-pan-tilt-zoom-white-noise-lullaby-20-hours-battery-1000ft-range",
+            "product_image": "shopify://shop_images/new-product.webp",
+            "tag": "4K"
+          }
+        },
+        "product-slide-3": {
+          "type": "product-slide",
+          "settings": {
+            "product_item": "baby-monitor-with-camera-and-audio-kawa-video-baby-monitor-no-wifi-5-720p-hd-display-110-wide-angle-night-vision-temperature-sensor-2-way-audio-ptz-white-noise-20hrs-battery-1000ft-range",
+            "product_image": "shopify://shop_images/new-product.webp",
+            "tag": "2K"
           }
         }
       },
-      "block_order": ["heading"],
-      "settings": {
-        "product_list": [
-          "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6",
-          "kawa-5-720p-hd-display-video-baby-monitor-with-night-vision-temperature-sensor-2-way-audio-pan-tilt-zoom-white-noise-lullaby-20-hours-battery-1000ft-range",
-          "baby-monitor-with-camera-and-audio-kawa-video-baby-monitor-no-wifi-5-720p-hd-display-110-wide-angle-night-vision-temperature-sensor-2-way-audio-ptz-white-noise-20hrs-battery-1000ft-range"
-        ]
-      }
+      "block_order": ["product-slide-1", "product-slide-2", "product-slide-3"]
     },
     "kawa-preview-video": {
       "type": "kawa-preview-video",

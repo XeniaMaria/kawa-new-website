@@ -1,3 +1,7 @@
+.kawa-new-products a:hover {
+  text-decoration: none;
+}
+
 .product-carousel {
   display: flex;
   flex: nowrap;
@@ -66,6 +70,7 @@
 .kawa-new-products .swiper-prev,
 .kawa-new-products .swiper-next {
   width: 20px;
+  height: 34px;
   cursor: pointer;
 }
 

@@ -1,124 +1,90 @@
-<link
-  rel="stylesheet"
-  href="{{ 'kawa-new-products.css' | asset_url }}"
-  media="print"
-  onload="this.media='all'"
-/>
+{{ "kawa-new-products.css" | asset_url | stylesheet_tag }}
 
-<link
-  rel="stylesheet"
-  href="{{ 'swiper.min.css' | asset_url }}"
-  media="print"
-  onload="this.media='all'"
-/>
+<link rel="stylesheet" href="{{ 'swiper.min.css' | asset_url }}" media="print" onload="this.media='all'"/>
 <script src="{{ 'swiper.min.js' | asset_url }}"></script>
 
 <div class="kawa-new-products mw-1200-c flex-vc">
-  {%- for block in section.blocks -%} {%- case block.type -%} {%- when 'heading'
-  -%}
-  <div class="new-products-title text-center" {{ block.shopify_attributes }}>
-    {{ block.settings.heading | escape }}
+  <div class="new-products-title text-center">
+    {{ section.settings.title | escape }}
   </div>
-  {%- endcase -%} {%- endfor -%}
-
   <div class="product-carousel w-100">
-    <img
-      src="https://cdn.shopify.com/s/files/1/0552/2774/4279/t/21/assets/swiper_prev.png?v=69566787568211713521660208662"
-      class="swiper-prev"
-      loading="lazy"
-      width="100"
-      height="100"
-    />
+    <img src="https://cdn.shopify.com/s/files/1/0552/2774/4279/t/21/assets/swiper_prev.png?v=69566787568211713521660208662" class="swiper-prev" loading="lazy" width="100" height="100"/>
     <div class="swiper-container product-swiper-container">
       <div class="swiper-wrapper">
-        {% for product in section.settings.product_list %}
-          <div class="swiper-slide swiper-slide-product">
+        {% for block in section.blocks %}
+          {%- assign product = block.settings.product_item -%}
+          <div class="swiper-slide swiper-slide-product" {{ block.shopify_attributes }}>
             <div class="slide-item-content acc h-100">
-              <h1 class="slide-item-title"> {{ product.metafields.descriptors.subtitle }} </h1>
-              <h1 class="slide-item-sub-title">(2K)</h1>
+              <h1 class="slide-item-title">
+                {{ product.metafields.descriptors.subtitle }}
+              </h1>
+              <h1 class="slide-item-sub-title">({{ block.settings.tag }})</h1>
               <div class="slide-item-button">
                 <a href="{{ product.url }}" class="text-white">Learn more</a>
               </div>
             </div>
-              <img
-                src="{{ product.featured_media | image_url }}"
-                class="product-image"
-                loading="lazy"
-                width="100"
-                height="100"
-              />
+            <img src="{{ block.settings.product_image | image_url }}" class="product-image" loading="lazy" width="100" height="100"/>
           </div>
         {% endfor %}
       </div>
     </div>
-    <img
-      src="https://cdn.shopify.com/s/files/1/0552/2774/4279/t/21/assets/swiper_next.png?v=166447657013783674001660208663"
-      class="swiper-next"
-      loading="lazy"
-      width="100"
-      height="100"
-    />
+    <img src="https://cdn.shopify.com/s/files/1/0552/2774/4279/t/21/assets/swiper_next.png?v=166447657013783674001660208663" class="swiper-next" loading="lazy" width="100" height="100"/>
   </div>
 </div>
 
 <script type="text/javascript">
-    var mySwipe = new Swiper(".product-swiper-container", {
-      autoplay: 5000,
-      paginationClickable: true,
-      loop: true,
-      slidesPerView: 3,
-      spaceBetween: 24,
-      nextButton: ".swiper-next",
-      prevButton: ".swiper-prev",
-      breakpoints: {
-            640: {
-                slidesPerView: 2,
-                spaceBetween: 20
-            },
-            428: {
-                slidesPerView: 1,
-                spaceBetween: 10
-            }
-        }
-    });
+  var mySwipe = new Swiper(".product-swiper-container", {
+    autoplay: 5000,
+    paginationClickable: true,
+    loop: true,
+    slidesPerView: 3,
+    spaceBetween: 24,
+    nextButton: ".swiper-next",
+    prevButton: ".swiper-prev",
+    breakpoints: {
+      640: {
+        slidesPerView: 2,
+        spaceBetween: 20
+      },
+      428: {
+        slidesPerView: 1,
+        spaceBetween: 10
+      }
+    }
+  });
 </script>
 
 {% schema %}
-{
-  "name": "t:sections.kawa-product-carousel.name",
-  "tag": "section",
-  "settings":[
-    {
-      "type": "product_list",
-      "id": "product_list",
-      "label": "轮播产品列表",
-      "limit": 3
-    }
-  ],
-  "blocks": [
-    {
-      "type": "heading",
-      "name": "t:sections.kawa-new-products.blocks.hading.name",
-      "limit": 1,
-      "settings": [
-        {
-          "type": "text",
-          "id": "heading",
-          "default": "New on Kawa Store",
-          "label": "t:sections.kawa-new-products.blocks.heading.settings.heading.label"
-        }
-      ]
-    }
-  ],
-  "presets": [
-    {
-      "name": "t:sections.kawa-product-carousel.name",
-      "blocks": [
-        {
-          "type": "heading"
-        }
-      ]
-    }
-  ]
-}
+  {
+    "name": "t:sections.kawa-product-carousel.name",
+    "tag": "section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "标题"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "product-slide",
+        "name": "产品项",
+        "settings": [
+          {
+            "type": "product",
+            "id": "product_item",
+            "label": "产品"
+          }, {
+            "type": "image_picker",
+            "id": "product_image",
+            "label": "图片"
+          }, {
+            "type": "text",
+            "id": "tag",
+            "label": "标签文本"
+          }
+        ]
+      }
+    ]
+  }
 {% endschema %}
