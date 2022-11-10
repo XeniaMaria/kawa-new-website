@@ -7,7 +7,7 @@
           "type": "banner_item",
           "settings": {
             "banner_product": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6",
-            "video_link": "https:\/\/reolink.com\/wp-content\/assets\/banner\/rlk8-810b4-a-homepage-banner-pc.mp4",
+            "video_link": "https://reolink.com/wp-content/assets/banner/rlk8-810b4-a-homepage-banner-pc.mp4",
             "title": "Welcome to Kawa",
             "dynamic_text": "",
             "des": "KAWA-A6 2K 360 Indoor Security Camera"
@@ -17,7 +17,7 @@
           "type": "banner_item",
           "settings": {
             "banner_product": "kawa-5-720p-hd-display-video-baby-monitor-with-night-vision-temperature-sensor-2-way-audio-pan-tilt-zoom-white-noise-lullaby-20-hours-battery-1000ft-range",
-            "video_link": "https:\/\/reolink.com\/wp-content\/assets\/banner\/reolink-go-pt-homepage-banner-pc.mp4",
+            "video_link": "https://reolink.com/wp-content/assets/banner/reolink-go-pt-homepage-banner-pc.mp4",
             "title": "Make Security",
             "dynamic_text": "Wire-Free",
             "des": "4G LTE Battery Security Camera Works on Its Own Without WiFi."
@@ -27,20 +27,15 @@
           "type": "banner_item",
           "settings": {
             "banner_product": "baby-monitor-with-camera-and-audio-kawa-video-baby-monitor-no-wifi-5-720p-hd-display-110-wide-angle-night-vision-temperature-sensor-2-way-audio-ptz-white-noise-20hrs-battery-1000ft-range",
-            "video_link": "https:\/\/reolink.com\/wp-content\/assets\/banner\/duo-poe-homepage-banner-pc.mp4",
+            "video_link": "https://reolink.com/wp-content/assets/banner/duo-poe-homepage-banner-pc.mp4",
             "title": "Make Security",
             "dynamic_text": "Double",
             "des": "Solar-Powered, or Rechargeable Battery-Powered; Your Wire-Free Security Camera Pro."
           }
         }
       },
-      "block_order": [
-        "banner-item-1",
-        "banner-item-2",
-        "banner-item-3"
-      ],
-      "settings": {
-      }
+      "block_order": ["banner-item-1", "banner-item-2", "banner-item-3"],
+      "settings": {}
     },
     "kawa-new-products": {
       "type": "kawa-new-products",
@@ -52,9 +47,7 @@
           }
         }
       },
-      "block_order": [
-        "heading"
-      ],
+      "block_order": ["heading"],
       "settings": {
         "product_list": [
           "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6",
@@ -66,7 +59,7 @@
     "kawa-preview-video": {
       "type": "kawa-preview-video",
       "settings": {
-        "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/fd5bb78358954e02a5d6013bae20fefc.mp4",
+        "video_link": "https://cdn.shopify.com/videos/c/o/v/fd5bb78358954e02a5d6013bae20fefc.mp4",
         "max_width": "mw-1200-c",
         "has_border": true
       }
@@ -81,16 +74,49 @@
           }
         }
       },
-      "block_order": [
-        "heading"
-      ],
-      "settings": {
-      }
+      "block_order": ["heading"],
+      "settings": {}
     },
     "kawa-video-display": {
       "type": "kawa-video-display",
       "settings": {
-      }
+        "title": "See the Best #KawaCaptures",
+        "link_one_text": "See All",
+        "link_one_url": "#",
+        "link_two_text": "Share Your Clips to Win Gifts",
+        "link_two_url": "#"
+      },
+      "blocks": {
+        "video-block-1": {
+          "type": "video-block",
+          "settings": {
+            "video_poster": "shopify://shop_images/home-video-1.jpg",
+            "video_html": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/UlpMqDu83G0\" title=\"How to Share the Camera to Others | KAWA Pan  Tilt Camera\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+          }
+        },
+        "video-block-2": {
+          "type": "video-block",
+          "settings": {
+            "video_poster": "shopify://shop_images/home-video-1.jpg",
+            "video_html": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/UlpMqDu83G0\" title=\"How to Share the Camera to Others | KAWA Pan  Tilt Camera\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+          }
+        },
+        "video-block-3": {
+          "type": "video-block",
+          "settings": {
+            "video_poster": "shopify://shop_images/home-video-1.jpg",
+            "video_html": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/UlpMqDu83G0\" title=\"How to Share the Camera to Others | KAWA Pan  Tilt Camera\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+          }
+        },
+        "video-block-4": {
+          "type": "video-block",
+          "settings": {
+            "video_poster": "shopify://shop_images/home-video-1.jpg",
+            "video_html": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/UlpMqDu83G0\" title=\"How to Share the Camera to Others | KAWA Pan  Tilt Camera\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+          }
+        }
+      },
+      "block_order": ["video-block-1", "video-block-2", "video-block-3", "video-block-4"]
     },
     "kawa-choose-reason": {
       "type": "kawa-choose-reason",
@@ -99,7 +125,7 @@
           "type": "reason_card",
           "settings": {
             "card_title": "Fast, Free Shipping",
-            "card_content": "<p>We offer free shipping straight to your door throughout the contiguousUS*.<\/p><p><\/p><p>It usually takes 3-7 business days* for your package to be delivered,so you can sit back and relax, worry-free.<\/p><p>*Please see our shipping policy for more details.<\/p><p>*Due to COVID-19 shipping times may vary.<\/p>",
+            "card_content": "<p>We offer free shipping straight to your door throughout the contiguousUS*.</p><p></p><p>It usually takes 3-7 business days* for your package to be delivered,so you can sit back and relax, worry-free.</p><p>*Please see our shipping policy for more details.</p><p>*Due to COVID-19 shipping times may vary.</p>",
             "card_icon": "icon-truck"
           }
         },
@@ -107,7 +133,7 @@
           "type": "reason_card",
           "settings": {
             "card_title": "30-Day Money-Back Guarantee",
-            "card_content": "<p>Get a full refund when you return your undamaged products within 30days - for any reason. Once the item arrives back at the eufywarehouse for inspection, the refund process will begin.<\/p><p>See our refund policy for more details about what is needed for asmooth refund process..<\/p>",
+            "card_content": "<p>Get a full refund when you return your undamaged products within 30days - for any reason. Once the item arrives back at the eufywarehouse for inspection, the refund process will begin.</p><p>See our refund policy for more details about what is needed for asmooth refund process..</p>",
             "card_icon": "icon-return"
           }
         },
@@ -115,29 +141,23 @@
           "type": "reason_card",
           "settings": {
             "card_title": "Hassle-Free Warranty",
-            "card_content": "<p>eufy provides a straightforward, hassle-free warranty to save you someheadaches. All pre-owned and refurbished products come with their ownunique warranty that you can find on the product listing or contact usat support@eufylife.com with your order receipt for confirmation.<\/p>",
+            "card_content": "<p>eufy provides a straightforward, hassle-free warranty to save you someheadaches. All pre-owned and refurbished products come with their ownunique warranty that you can find on the product listing or contact usat support@eufylife.com with your order receipt for confirmation.</p>",
             "card_icon": "icon-warranty"
           }
         }
       },
-      "block_order": [
-        "card-truck",
-        "card-return",
-        "card-warranty"
-      ],
+      "block_order": ["card-truck", "card-return", "card-warranty"],
       "settings": {
         "title": "Why Choose Kawa?"
       }
     },
     "kawa-smart-home": {
       "type": "kawa-smart-home",
-      "settings": {
-      }
+      "settings": {}
     },
     "kawa-news": {
       "type": "kawa-news",
-      "settings": {
-      }
+      "settings": {}
     },
     "kawa-email-subscribe": {
       "type": "kawa-email-subscribe",
