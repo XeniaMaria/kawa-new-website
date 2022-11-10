@@ -247,13 +247,13 @@
         "news-block-1": {
           "type": "news-block",
           "settings": {
-            "news-article": "buyers-guide/something-special-for-mother-s-day"
+            "news_article": "buyers-guide/something-special-for-mother-s-day"
           }
         },
         "news-block-2": {
           "type": "news-block",
           "settings": {
-            "news-article": "buyers-guide/check-out-kawas-newest-tech"
+            "news_article": "buyers-guide/check-out-kawas-newest-tech"
           }
         },
         "news-block-3": {
