@@ -12,6 +12,7 @@
   margin-bottom: 5px;
   font-family: Montserrat, sans-serif;
   margin-top: 0;
+  padding-top: 20px;
   font-weight: 700;
   letter-spacing: 0;
   line-height: 50px;
@@ -34,7 +35,7 @@
   cursor: pointer;
 }
 
-.kawa-smart-home .tabs-menu-item[data-of-tab-active="true"] {
+.kawa-smart-home .tabs-menu-item[data-of-tab-active='true'] {
   color: #4a90e2;
 }
 

@@ -190,7 +190,52 @@
     },
     "kawa-smart-home": {
       "type": "kawa-smart-home",
-      "settings": {}
+      "settings": {
+        "title": "Build Your Smart Home"
+      },
+      "blocks": {
+        "poster-1": {
+          "type": "poster",
+          "settings": {
+            "title": "CJ1001",
+            "image": "shopify://shop_images/card-image-1.webp",
+            "link": "#"
+          }
+        },
+        "poster-2": {
+          "type": "poster",
+          "settings": {
+            "title": "CJ1002",
+            "image": "shopify://shop_images/card-image-2.jpg",
+            "link": "#"
+          }
+        },
+        "poster-3": {
+          "type": "poster",
+          "settings": {
+            "title": "CJ1003",
+            "image": "shopify://shop_images/card-image-3.webp",
+            "link": "#"
+          }
+        },
+        "poster-4": {
+          "type": "poster",
+          "settings": {
+            "title": "CJ1004",
+            "image": "shopify://shop_images/card-image-2.jpg",
+            "link": "#"
+          }
+        },
+        "poster-5": {
+          "type": "poster",
+          "settings": {
+            "title": "CJ1005",
+            "image": "shopify://shop_images/card-image-1.webp",
+            "link": "#"
+          }
+        }
+      },
+      "block_order": ["poster-1", "poster-2", "poster-3", "poster-4", "poster-5"]
     },
     "kawa-news": {
       "type": "kawa-news",
