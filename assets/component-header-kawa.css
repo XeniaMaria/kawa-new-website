@@ -381,6 +381,7 @@
   background-color: #fff;
 }
 #header .sidebar-menu > li.is-open a {
+  color: #212529;
   background-color: #fff;
   border: none;
   display: block;
