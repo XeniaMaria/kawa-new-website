@@ -349,103 +349,112 @@
 </div>
 
 <script type="text/javascript">
-  const productCategoryTabList = [];
-  const addTabMenuMouseenter = (tab) => {
-    tab.tabMenu.addEventListener("mouseenter", (e) => {
-      productCategoryTabList.forEach((t) => {
-        t.tabMenu.classList.remove("active");
-        t.tabContent.classList.remove("active");
-      });
-      tab.tabMenu.classList.add("active");
-      tab.tabContent.classList.add("active");
-    });
-  };
-
-  const allTabs = document.getElementsByClassName("category-content");
-  for (let i = 1; i <= allTabs.length; i++) {
-    const temp = {
-      tabMenu: document.querySelector(`.category-tab-${i}`),
-      tabContent: document.querySelector(`.category-content-${i}`),
-    };
-    productCategoryTabList.push(temp);
-    addTabMenuMouseenter(temp);
-  }
-
-  //drawer
-  window.addEventListener("load", () => {
-    const drawerEle = document.querySelector(".kawa-drawer");
-    const drawerTrigger = document.querySelector(".nav-hamburger .nav-switch");
-    const menu = document.querySelector(".sidebar-menu");
-    const mainContent = document.querySelector("#MainContent");
-    drawerEle.style.transition = "all 0.3s ease-in";
-    drawerTrigger.onclick = () => {
-      drawerEle.classList.add("drawer-display");
-      mainContent.style.display = "none";
-    };
-    drawerEle.onclick = () => {
-      drawerEle.classList.remove("drawer-display");
-      mainContent.style.display = "block";
-    };
-    menu.onclick = (e) => {
-      e.stopPropagation();
-    };
-  });
-
-  //拥有子元素的菜单
-  const hasChildMenus = document.querySelectorAll(".sidebar-menu .has-child");
-  Array.from(hasChildMenus).forEach((hasChildMenu) => {
-    hasChildMenu.onclick = () => {
-      hasChildMenu.classList.toggle("is-open");
-    };
-  });
-  //产品系列菜单
-  const collectionMenus = document.querySelectorAll(
-    ".sidebar-menu .sidebar-sub-menu .collection-menu"
-  );
-  Array.from(collectionMenus).forEach((collectionMenu) => {
-    collectionMenu.onclick = (e) => {
-      if (!collectionMenu.classList.contains("is-expand")) {
-        Array.from(collectionMenus).forEach((cm) => {
-          cm.classList.remove("is-expand");
+  (function(){
+    const productCategoryTabList = [];
+    const addTabMenuMouseenter = (tab) => {
+      tab.tabMenu.addEventListener("mouseenter", (e) => {
+        productCategoryTabList.forEach((t) => {
+          t.tabMenu.classList.remove("active");
+          t.tabContent.classList.remove("active");
         });
-      }
-      collectionMenu.classList.toggle("is-expand");
-      e.stopPropagation();
+        tab.tabMenu.classList.add("active");
+        tab.tabContent.classList.add("active");
+      });
     };
-  });
-  //阻止事件冒泡
-  const collectionMenuProducts = document.querySelectorAll(
-    ".sidebar-menu .sidebar-sub-menu .collection-menu .collection-menu-products"
-  );
-  Array.from(collectionMenuProducts).forEach((el) => {
-    el.onclick = (e) => {
-      e.stopPropagation();
-    };
-  });
 
-  //PC端搜索框
-  const header = document.getElementById("header")
-  const headerSearchIcon = document.querySelector("#header .search-nav a");
-  const headerSearchModal = document.querySelector("#header .search-down");
-  headerSearchIcon.addEventListener("click",() => {
-    headerSearchModal.classList.add("active");
-  })
-  header.addEventListener("mouseleave",() => {
-    headerSearchModal.classList.remove("active")
-  })
+    const allTabs = document.getElementsByClassName("category-content");
+    for (let i = 1; i <= allTabs.length; i++) {
+      const temp = {
+        tabMenu: document.querySelector(`.category-tab-${i}`),
+        tabContent: document.querySelector(`.category-content-${i}`),
+      };
+      productCategoryTabList.push(temp);
+      addTabMenuMouseenter(temp);
+    }
 
-  //移动端搜索框
-  const searchInputMb = document.getElementById("search-input");
-  const searchInputWrapMb = document.querySelector("#header .search-input__wrap");
-  searchInputMb.addEventListener("focus",() => {
-    searchInputWrapMb.classList.add("active");
-  })
-  searchInputMb.addEventListener("blur",() => {
-    searchInputWrapMb.classList.remove("active");
-  })
+    //drawer
+    window.addEventListener("load", () => {
+      const drawerEle = document.querySelector(".kawa-drawer");
+      const drawerTrigger = document.querySelector(".nav-hamburger .nav-switch");
+      const menu = document.querySelector(".sidebar-menu");
+      const mainContent = document.querySelector("#MainContent");
+      drawerEle.style.transition = "all 0.3s ease-in";
+      drawerTrigger.onclick = () => {
+        drawerEle.classList.add("drawer-display");
+        mainContent.style.display = "none";
+      };
+      drawerEle.onclick = () => {
+        drawerEle.classList.remove("drawer-display");
+        mainContent.style.display = "block";
+      };
+      menu.onclick = (e) => {
+        e.stopPropagation();
+      };
+    });
 
+    //拥有子元素的菜单
+    const hasChildMenus = document.querySelectorAll(".sidebar-menu .has-child");
+    Array.from(hasChildMenus).forEach((hasChildMenu) => {
+      hasChildMenu.onclick = () => {
+        hasChildMenu.classList.toggle("is-open");
+      };
+    });
+    //产品系列菜单
+    const collectionMenus = document.querySelectorAll(
+      ".sidebar-menu .sidebar-sub-menu .collection-menu"
+    );
+    Array.from(collectionMenus).forEach((collectionMenu) => {
+      collectionMenu.onclick = (e) => {
+        if (!collectionMenu.classList.contains("is-expand")) {
+          Array.from(collectionMenus).forEach((cm) => {
+            cm.classList.remove("is-expand");
+          });
+        }
+        collectionMenu.classList.toggle("is-expand");
+        e.stopPropagation();
+      };
+    });
+    //阻止事件冒泡
+    const collectionMenuProducts = document.querySelectorAll(
+      ".sidebar-menu .sidebar-sub-menu .collection-menu .collection-menu-products"
+    );
+    Array.from(collectionMenuProducts).forEach((el) => {
+      el.onclick = (e) => {
+        e.stopPropagation();
+      };
+    });
+
+    //PC端搜索框
+    const header = document.getElementById("header")
+    const headerSearchIcon = document.querySelector("#header .search-nav a");
+    const headerSearchModal = document.querySelector("#header .search-down");
+    headerSearchIcon.addEventListener("click",() => {
+      headerSearchModal.classList.add("active");
+    })
+    header.addEventListener("mouseleave",() => {
+      headerSearchModal.classList.remove("active")
+    })
+
+    //移动端搜索框
+    const searchInputMb = document.getElementById("search-input");
+    const searchInputWrapMb = document.querySelector("#header .search-input__wrap");
+    searchInputMb.addEventListener("focus",() => {
+      searchInputWrapMb.classList.add("active");
+    })
+    searchInputMb.addEventListener("blur",() => {
+      searchInputWrapMb.classList.remove("active");
+    })
+
+    //除了主页面，其他页面均显示header。
+    const path = window.location.pathname;
+    if(path !== "/"){
+      header.classList.add("persistent-show")
+    }
+  })();
 </script>
 
-{% schema %} { "name": "t:sections.kawa-header.name", "settings": [ { "type":
-"collection_list", "id": "collection_list", "label": "产品系列列表" } ] } {%
-endschema %}
+{% schema %}
+{
+  "name": "t:sections.kawa-header.name"
+}
+{% endschema %}
