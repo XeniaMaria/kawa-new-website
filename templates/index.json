@@ -157,7 +157,30 @@
     },
     "kawa-news": {
       "type": "kawa-news",
-      "settings": {}
+      "settings": {
+        "title": "News"
+      },
+      "blocks": {
+        "news-block-1": {
+          "type": "news-block",
+          "settings": {
+            "news-article": "buyers-guide\/something-special-for-mother-s-day"
+          }
+        },
+        "news-block-2": {
+          "type": "news-block",
+          "settings": {
+            "news-article": "buyers-guide\/check-out-kawas-newest-tech"
+          }
+        },
+        "news-block-3": {
+          "type": "news-block",
+          "settings": {
+            "news_article": "buyers-guide\/winner-of-a-design-award"
+          }
+        }
+      },
+      "block_order": ["news-block-1", "news-block-2", "news-block-3"]
     },
     "kawa-email-subscribe": {
       "type": "kawa-email-subscribe",
