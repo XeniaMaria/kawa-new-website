@@ -66,16 +66,39 @@
     },
     "kawa-products-card": {
       "type": "kawa-products-card",
+      "settings": {
+        "title": "Kawa Fans Love These Products"
+      },
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "product-card-1": {
+          "type": "product-card",
           "settings": {
-            "heading": "Kawa Fans Love These Products"
+            "card_product": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6",
+            "card_image": "shopify://shop_images/card-image-1.webp",
+            "title": "Video Doorbell Dual",
+            "des": "Dual Cam Technology"
+          }
+        },
+        "product-card-2": {
+          "type": "product-card",
+          "settings": {
+            "card_product": "kawa-5-720p-hd-display-video-baby-monitor-with-night-vision-temperature-sensor-2-way-audio-pan-tilt-zoom-white-noise-lullaby-20-hours-battery-1000ft-range",
+            "card_image": "shopify://shop_images/card-image-2.jpg",
+            "title": "Video Doorbell Dual",
+            "des": "Dual Cam Technology"
+          }
+        },
+        "product-card-3": {
+          "type": "product-card",
+          "settings": {
+            "card_product": "baby-monitor-with-camera-and-audio-kawa-video-baby-monitor-no-wifi-5-720p-hd-display-110-wide-angle-night-vision-temperature-sensor-2-way-audio-ptz-white-noise-20hrs-battery-1000ft-range",
+            "card_image": "shopify://shop_images/card-image-3.webp",
+            "title": "Video Doorbell Dual",
+            "des": "Dual Cam Technology"
           }
         }
       },
-      "block_order": ["heading"],
-      "settings": {}
+      "block_order": ["product-card-1", "product-card-2", "product-card-3"]
     },
     "kawa-video-display": {
       "type": "kawa-video-display",
@@ -164,19 +187,19 @@
         "news-block-1": {
           "type": "news-block",
           "settings": {
-            "news-article": "buyers-guide\/something-special-for-mother-s-day"
+            "news-article": "buyers-guide/something-special-for-mother-s-day"
           }
         },
         "news-block-2": {
           "type": "news-block",
           "settings": {
-            "news-article": "buyers-guide\/check-out-kawas-newest-tech"
+            "news-article": "buyers-guide/check-out-kawas-newest-tech"
           }
         },
         "news-block-3": {
           "type": "news-block",
           "settings": {
-            "news_article": "buyers-guide\/winner-of-a-design-award"
+            "news_article": "buyers-guide/winner-of-a-design-award"
           }
         }
       },

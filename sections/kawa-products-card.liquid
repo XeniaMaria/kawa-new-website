@@ -1,90 +1,60 @@
-<link
-  rel="stylesheet"
-  href="{{ 'kawa-products-card.css' | asset_url }}"
-  media="print"
-  onload="this.media='all'"
-/>
+{{ "kawa-products-card.css" | asset_url | stylesheet_tag }}
 
 <div class="products-card-container mw-1200-c {{ section.id }}">
-  {%- for block in section.blocks -%}
-    {%- case block.type -%}
-      {%- when 'heading' -%}
-      <div class="container-title" {{ block.shopify_attributes }}>{{ block.settings.heading | escape }}</div>
-    {%- endcase -%}
-  {%- endfor -%}
+  <div class="container-title">{{ section.settings.title | escape }}</div>
   <div class="container-all-card flex-b flex-wrap w-100">
-    <div class="product-card product-card-first w-100">
-      <figure class="w-100">
-        <img
-          src="https://cdn.shopify.com/s/files/1/0504/7094/4954/files/20220705-192730.jpg?v=1657165356"
-          class="mw-100 h-auto"
-        />
-      </figure>
-      <div class="card-description-box flex-vc wh-100">
-        <p class="description-title">Video Doorbell Dual</p>
-        <p class="description-desc">Dual Cam Technology</p>
-        <button class="learn-more-btn">Shop Now</button>
-      </div>
-    </div>
-    <div class="product-card product-card-second">
-      <figure class="w-100">
-        <img
-          src="https://cdn.shopify.com/s/files/1/0504/7094/4954/files/x8-hybrid.jpg?v=1657165357"
-          class="mw-100 h-auto"
-        />
-      </figure>
-      <div class="card-description-box flex-vc wh-100">
-        <p class="description-title">Video Doorbell Dual</p>
-        <p class="description-desc">Dual Cam Technology</p>
-        <button class="learn-more-btn">Shop Now</button>
-      </div>
-    </div>
-    <div class="product-card product-card-third">
-      <figure class="w-100">
-        <img
-          src="https://cdn.shopify.com/s/files/1/0504/7094/4954/files/1180_664-2.jpg?v=1661410378"
-          class="mw-100 h-auto"
-        />
-      </figure>
-      <div class="card-description-box flex-vc wh-100">
-        <p class="description-title">Video Doorbell Dual</p>
-        <p class="description-desc">Dual Cam Technology</p>
-        <button class="learn-more-btn">Shop Now</button>
-      </div>
-    </div>
+    {%- for block in section.blocks -%}
+      <a href="{{ block.settings.card_product.url }}">
+        <div class="product-card product-card-{{ forloop.index }}">
+          <figure class="w-100">
+            <img src="{{ block.settings.card_image | image_url }}" class="w-100-h-auto" width="100" height="100" loading="lazy"/>
+          </figure>
+          <div class="card-description-box flex-vc wh-100">
+            <p class="description-title">{{ block.settings.title }}</p>
+            <p class="description-desc">{{ block.settings.des }}</p>
+            <a href="{{ block.settings.card_product.url }}" class="learn-more-btn">Shop Now</a>
+          </div>
+        </div>
+      </a>
+    {%- endfor -%}
   </div>
 </div>
 
 {% schema %}
-{
-  "name": "t:sections.kawa-products-card.name",
-  "tag": "section",
-  "class": "section",
- "class": "kawa-products-card__section",
-  "blocks": [
-    {
-      "type": "heading",
-      "name": "t:sections.kawa-products-card.blocks.heading.name",
-      "limit": 1,
-      "settings": [
-        {
-          "type": "text",
-          "id": "heading",
-          "default": "Kawa Fans Love These Products",
-          "label": "t:sections.kawa-products-card.blocks.heading.settings.heading.label"
-        }
-      ]
-    }
-  ],
-  "presets": [
-    {
-      "name": "t:sections.kawa-products-card.name",
-      "blocks": [
-        {
-          "type": "heading"
-        }
-      ]
-    }
-  ]
-}
+  {
+    "name": "产品卡片",
+    "class": "kawa-products-card__section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "标题"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "product-card",
+        "name": "产品卡",
+        "settings": [
+          {
+            "type": "product",
+            "id": "card_product",
+            "label": "卡片对应的产品"
+          }, {
+            "type": "image_picker",
+            "id": "card_image",
+            "label": "卡片对应的图片"
+          }, {
+            "type": "text",
+            "id": "title",
+            "label": "卡片标题"
+          }, {
+            "type": "text",
+            "id": "des",
+            "label": "描述"
+          }
+        ]
+      }
+    ]
+  }
 {% endschema %}

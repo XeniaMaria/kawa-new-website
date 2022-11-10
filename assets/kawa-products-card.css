@@ -1,3 +1,7 @@
+.products-card-container a:hover {
+  text-decoration: none;
+}
+
 .products-card-container .container-title {
   font-size: 36px;
   margin-top: calc(90 / 2580 * 100vw);
@@ -14,13 +18,17 @@
   margin-bottom: 20px;
   position: relative;
 }
+.products-card-container .product-card.product-card-1 {
+  width: 100%;
+}
 
 .products-card-container .container-all-card .product-card img {
   display: block;
+  border-radius: 24px;
 }
 
-.products-card-container .container-all-card .product-card.product-card-second,
-.products-card-container .container-all-card .product-card.product-card-third {
+.products-card-container .container-all-card .product-card.product-card-2,
+.products-card-container .container-all-card .product-card.product-card-3 {
   width: calc(50% - 10px);
 }
 
@@ -31,7 +39,7 @@
   padding-left: 48px;
 }
 
-.products-card-container .product-card-first .description-title {
+.products-card-container .product-card-1 .description-title {
   color: #000;
   margin-bottom: 12px;
   font-size: 32px;
@@ -40,6 +48,7 @@
 }
 
 .products-card-container .description-title {
+  color: #000;
   margin-bottom: 12px;
   font-size: 24px;
   line-height: 1.35;
@@ -60,6 +69,7 @@
   color: #000;
   width: 180px;
   height: 60px;
+  line-height: 60px;
   border-radius: 30px;
   font-size: 18px;
   border: 1px solid #000;
@@ -71,9 +81,10 @@
   margin-top: 40px;
 }
 
-.products-card-container .product-card-second .learn-more-btn,
-.products-card-container .product-card-third .learn-more-btn {
+.products-card-container .product-card-2 .learn-more-btn,
+.products-card-container .product-card-3 .learn-more-btn {
   height: 48px;
+  line-height: 48px;
   width: 140px;
   border-radius: 24px;
   font-size: 14px;
@@ -103,14 +114,13 @@
     width: 100%;
     background: #ffffff;
   }
-
-  .products-card-container
-    .container-all-card
-    .product-card.product-card-second,
-  .products-card-container
-    .container-all-card
-    .product-card.product-card-third {
+  .products-card-container .container-all-card .product-card.product-card-2,
+  .products-card-container .container-all-card .product-card.product-card-3 {
     width: 100%;
+  }
+
+  .products-card-container .container-all-card .product-card img {
+    border-radius: 0;
   }
 
   .products-card-container .card-description-box {
@@ -119,13 +129,14 @@
     height: auto;
   }
 
-  .products-card-container .product-card-first .description-title {
+  .products-card-container .product-card-1 .description-title {
     margin-bottom: 6px;
     font-size: 16px;
   }
   .products-card-container .description-title {
     margin-bottom: 6px;
     font-size: 16px;
+    color: #000;
   }
 
   .products-card-container .product-card .learn-more-btn {
