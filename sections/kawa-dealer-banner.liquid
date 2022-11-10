@@ -1,66 +1,55 @@
 {{ "kawa-dealer-banner.css" | asset_url | stylesheet_tag }}
 
 <div class="kawa-dealer-banner">
-    <div class="banner-wrapper">
-        <img
-            src="{{ section.settings.image | image_url }}"
-            width="100"
-            height="100"
-            loading="lazy"
-            class="w-100-h-auto"
-        />
-        <div class="banner-text-box">
-            <div class="banner-title">
-                {{ section.settings.title }}
-            </div>
-            <p class="banner-content">
-                <span>
-                    {{ section.settings.content }}
-                </span>
-            </p>
-            <div class="join-btn-wrapper">
-                <a class="join-btn">
-                    <span>Join Now</span>
-                </a>
-            </div>
-        </div>
+  <div class="banner-wrapper">
+    <img src="{{ section.settings.image | image_url }}" width="100" height="100" loading="lazy" class="w-100-h-auto"/>
+    <div class="banner-text-box">
+      <div class="banner-title">
+        {{ section.settings.title }}
+      </div>
+      <p class="banner-content">
+        <span>
+          {{ section.settings.content }}
+        </span>
+      </p>
+      <div class="join-btn-wrapper">
+        <a class="join-btn">
+          <span>Join Now</span>
+        </a>
+      </div>
     </div>
+  </div>
 </div>
 
 <script>
-    window.addEventListener("load",() => {
-        const footerEl = document.querySelector(".kawa-dealer-footer");
-        const btn = document.querySelector(".join-btn");
+  window.addEventListener("load", () => {
+    const formEl = document.querySelector(".kawa-dealer-form");
+    const btn = document.querySelector(".join-btn");
 
-        btn.onclick = () => {
-            window.scrollTo({
-                top: footerEl.offsetTop,
-                behavior: "smooth"
-            });
-        }
-    })
+    btn.onclick = () => {
+      window.scrollTo({top: formEl.offsetTop, behavior: "smooth"});
+    }
+  })
 </script>
 
 {% schema %}
-{
+  {
     "name": "delaer banner",
     "tag": "section",
     "settings": [
-        {
-            "type": "text",
-            "id": "title",
-            "label": "标题"
-        },
-        {
-            "type": "textarea",
-            "id": "content",
-            "label": "内容"
-        },
-        {
-            "type": "image_picker",
-            "id": "image",
-            "label": "图片"
-        }
+      {
+        "type": "text",
+        "id": "title",
+        "label": "标题"
+      }, {
+        "type": "textarea",
+        "id": "content",
+        "label": "内容"
+      }, {
+        "type": "image_picker",
+        "id": "image",
+        "label": "图片"
+      }
     ]
-}
+  }
 {% endschema %}
