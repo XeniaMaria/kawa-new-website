@@ -383,10 +383,12 @@
       drawerTrigger.onclick = () => {
         drawerEle.classList.add("drawer-display");
         mainContent.style.display = "none";
+        document.body.style.overflow = "hidden";
       };
       drawerEle.onclick = () => {
         drawerEle.classList.remove("drawer-display");
         mainContent.style.display = "block";
+        document.body.style.overflow = null;
       };
       menu.onclick = (e) => {
         e.stopPropagation();
