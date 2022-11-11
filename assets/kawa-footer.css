@@ -393,4 +393,8 @@
     margin-left: 0;
     margin-bottom: 15px;
   }
+
+  .kawa-footer .social-media-wrap > li {
+    margin-bottom: 10px;
+  }
 }
