@@ -383,6 +383,7 @@
       drawerTrigger.onclick = () => {
         drawerEle.classList.add("drawer-display");
         mainContent.style.display = "none";
+        //移动端滚动穿透解决。
         document.body.style.overflow = "hidden";
       };
       drawerEle.onclick = () => {
