@@ -168,7 +168,7 @@
 }
 #header .account-menu li > a:hover {
   text-decoration: none;
-  color: #21d2c5;
+  color: #00ade5;
 }
 
 /* 常规子菜单样式 */
@@ -242,7 +242,7 @@
 }
 
 .product-sub-menu .product-category-tab li.active {
-  color: #21d2c5;
+  color: #00ade5;
 }
 
 .product-sub-menu .product-category-content {

@@ -45,8 +45,8 @@
 
 .kawa-product-buy .add-to-cart__btn {
   background: #fff;
-  border: 1px solid #21d2c5;
-  color: #21d2c5;
+  border: 1px solid #00ade5;
+  color: #00ade5;
   width: 50%;
   margin-left: 6px;
   flex: auto;
@@ -72,7 +72,7 @@
 }
 
 .kawa-product-buy .shopify-payment-button__button {
-  background: #21d2c5;
+  background: #00ade5;
   color: #fff;
   border-radius: 26px;
   opacity: 1;
