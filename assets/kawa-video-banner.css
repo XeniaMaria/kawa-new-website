@@ -162,6 +162,11 @@
     margin-bottom: auto;
   }
 
+  .text-blink::after {
+    width: 2px;
+    height: 9vw;
+  }
+
   .video-banner .banner-item-name,
   .video-banner .banner-item-desc {
     font-weight: 500;

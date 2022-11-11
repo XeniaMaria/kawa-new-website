@@ -86,6 +86,10 @@
 
 <script text="text/javascript">
   const writeText = function (curObj) {
+    if(curObj.text == '' || curObj.text == undefined) {
+      curObj.el.classList.remove("text-blink");
+      return;
+    }
     curObj.el.innerHTML = curObj.text.slice(0, curObj.index);
     curObj.index++;
     if (curObj.index <= curObj.text.length) {
@@ -113,14 +117,13 @@
         }
         const curIdx = swiper.activeIndex;
         let curObj = autoTextMap[curIdx];
-        writeText(curObj);
         curObj.el.classList.add("text-blink");
+        writeText(curObj);
       },
     });
 
     const allTextEl = document.querySelectorAll(".auto-text");
     const SLIDE_COUNT = allTextEl.length;
-    console.log(SLIDE_COUNT);
     Array.from(allTextEl).forEach((textEl) => {
       autoTextMap.push({
         text: textEl.getAttribute("data-text"),
@@ -129,9 +132,8 @@
       })
     });
     //第一个手动触发
-    writeText(autoTextMap[1]);
     autoTextMap[1].el.classList.add("text-blink");
-
+    writeText(autoTextMap[1]);
   });
 </script>
 
