@@ -83,6 +83,7 @@
 @media screen and (max-width: 768px) {
   .kawa-flash-sale-comment .section-title {
     font-size: 4.4vw;
+    padding: 0 3.9vw;
   }
 
   .kawa-flash-sale-comment .comments-container {

@@ -66,9 +66,16 @@
             "product": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6",
             "product_tags": "Dual Lens,Person/Vehicle Detection,180° View (Horizontal),4K Ultra HD"
           }
+        },
+        "flash-sale-product-2": {
+          "type": "flash-sale-product",
+          "settings": {
+            "product": "kawa-3mp-ip-camera-video-wifi-surveillance-cameras-indoor-security-cam-smart-home-baby-monitor-tracking-audio-alexa",
+            "product_tags": "Dual Lens,Person/Vehicle Detection,180° View (Horizontal),4K Ultra HD"
+          }
         }
       },
-      "block_order": ["flash-sale-product-1"]
+      "block_order": ["flash-sale-product-1", "flash-sale-product-2"]
     },
     "flash-sale-ad": {
       "type": "kawa-flash-sale-ad",

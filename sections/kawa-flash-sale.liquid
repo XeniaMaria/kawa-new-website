@@ -1,5 +1,7 @@
 {{ "kawa-flash-sale.css" | asset_url | stylesheet_tag }}
 
+<script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
+
 <div class="kawa-flash-sale {{ section.id }}">
   {%- for block in section.blocks -%}
     {%- assign product = block.settings.product -%}
@@ -13,9 +15,9 @@
         <ul class="product-tabs">
           {%- for inline_block in section.blocks -%}
             <li class="flash-sale-product__tab  product-tab-{{ forloop.index }}
-                                                                            {% if product.title == inline_block.settings.product.title %}
-                                                                            active
-                                                                            {% endif %}">
+                                                                                                                                                                                                                                                                                                                                            {% if product.title == inline_block.settings.product.title %}
+                                                                                                                                                                                                                                                                                                                                            active
+                                                                                                                                                                                                                                                                                                                                            {% endif %}">
               {{ inline_block.settings.product.metafields.descriptors.subtitle }}
             </li>
           {%- endfor -%}
@@ -39,9 +41,41 @@
             {%- endfor -%}
           </ul>
           <div class="shop-button-wrap">
-            <button class="shop-button">
-              <span>Add To Cart</span>
-            </button>
+            {%- if product.available == false -%}
+              <button class="sold-out-button">
+                <span>Sold Out</span>
+              </button>
+            {%- else -%}
+              <product-form>
+                {%- form 'product', product, class: "product-buy-form" -%}
+                    <input type="text" name="quantity" min="1" value="1" style="display: none;">
+                    {%- if product.has_only_default_variant -%}
+                      <input
+                        type="hidden"
+                        name="id"
+                        value="{{ product.selected_or_first_available_variant.id }}"
+                        {% if product.selected_or_first_available_variant.availabel == false %}disabled {% endif %}
+                      >
+                      {%- endif -%}
+                    <button type="submit" class="shop-button">
+                      <span>Add To Cart</span>
+                        <div class="loading-overlay__spinner hidden">
+                            <svg
+                              aria-hidden="true"
+                              focusable="false"
+                              role="presentation"
+                              class="spinner"
+                              viewBox="0 0 66 66"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                            </svg>
+                          </div>
+                    </button>
+                {%- endform -%}
+              </product-form>
+            {%- endif -%}
+
           </div>
         </div>
       </div>
@@ -95,7 +129,8 @@
           }, {
             "type": "text",
             "id": "product_tags",
-            "label": "产品标签"
+            "label": "产品标签",
+            "info": "最多填四项，每项用逗号（英文逗号，如：,）隔开。"
           }
         ]
       }
