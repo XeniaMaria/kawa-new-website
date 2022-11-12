@@ -422,7 +422,8 @@
     const collectionMenuProducts = document.querySelectorAll(
       ".sidebar-menu .sidebar-sub-menu .collection-menu .collection-menu-products"
     );
-    Array.from(collectionMenuProducts).forEach((el) => {
+    const allSubMenu = document.querySelectorAll(".sidebar-menu .sidebar-sub-menu > li");
+    Array.from([...collectionMenuProducts,...allSubMenu]).forEach((el) => {
       el.onclick = (e) => {
         e.stopPropagation();
       };
