@@ -403,7 +403,17 @@
         hasChildMenu.classList.toggle("is-open");
       };
     });
-    //产品系列菜单
+    //阻止事件冒泡
+    const collectionMenuProducts = document.querySelectorAll(
+      ".sidebar-menu .sidebar-sub-menu .collection-menu .collection-menu-products"
+    );
+    const allSubMenu = document.querySelectorAll(".sidebar-menu .sidebar-sub-menu > li");
+    Array.from([...collectionMenuProducts,...allSubMenu]).forEach((el) => {
+      el.onclick = (e) => {
+        e.stopPropagation();
+      };
+    });
+    //产品系列菜单,需放在阻止事件冒泡后面，不然会被覆盖。
     const collectionMenus = document.querySelectorAll(
       ".sidebar-menu .sidebar-sub-menu .collection-menu"
     );
@@ -415,16 +425,6 @@
           });
         }
         collectionMenu.classList.toggle("is-expand");
-        e.stopPropagation();
-      };
-    });
-    //阻止事件冒泡
-    const collectionMenuProducts = document.querySelectorAll(
-      ".sidebar-menu .sidebar-sub-menu .collection-menu .collection-menu-products"
-    );
-    const allSubMenu = document.querySelectorAll(".sidebar-menu .sidebar-sub-menu > li");
-    Array.from([...collectionMenuProducts,...allSubMenu]).forEach((el) => {
-      el.onclick = (e) => {
         e.stopPropagation();
       };
     });
