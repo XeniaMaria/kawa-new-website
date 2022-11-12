@@ -9,8 +9,16 @@
         </div>
         <product-form>
             {%- form 'product', product, id: "product-purchase-form", class: "product-buy-form" -%}
-                <button type="submit" class="add-to-cart__btn">
-                    <span>Add to cart</span>
+                <button type="submit" class="add-to-cart__btn" {% if product.selected_or_first_available_variant.available == false %}
+                    disabled
+                  {% endif %}>
+                    <span>
+                        {%- if product.selected_or_first_available_variant.available -%}
+                            Add To Cart
+                        {%- else -%}
+                            Sold Out
+                        {%- endif -%}
+                    </span>
                     <div class="loading-overlay__spinner hidden">
                         <svg
                           aria-hidden="true"

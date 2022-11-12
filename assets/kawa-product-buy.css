@@ -64,6 +64,12 @@
   align-items: center;
   justify-content: center;
 }
+.kawa-product-buy .add-to-cart__btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  color: rgb(18, 18, 18);
+  border-color: rgb(18, 18, 18);
+}
 
 .kawa-product-buy .shopify-payment-button {
   width: 50%;
@@ -88,6 +94,11 @@
   overflow: hidden;
   cursor: pointer;
   font-size: 16px;
+}
+.kawa-product-buy .shopify-payment-button__button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  background-color: rgb(18, 18, 18);
 }
 
 .kawa-product-buy .shopify-payment-button__button::before,
