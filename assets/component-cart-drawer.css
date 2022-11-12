@@ -344,14 +344,15 @@ cart-drawer-items {
   border-style: solid;
   border-width: 1px;
   color: #fff;
-  border-color: #21ccbf;
-  background: linear-gradient(90deg, #5891de, #65d3c7);
+  transition: 0.5s;
+  background-image: linear-gradient(to right, #B2FEFA 0%, #0ED2F7  51%, #B2FEFA  100%);
+  background-size: 200% auto;
 }
 
 .cart-drawer .cart__checkout-button:hover {
-  color: #21ccbf;
-  border-color: #21ccbf !important;
-  background: #fff;
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
 }
 
 .cart-drawer .cart__checkout-button::before,
