@@ -325,12 +325,14 @@
   border-left: none;
 }
 
-.kawa-main-product .product-store {
+.kawa-main-product .product-store,
+.kawa-main-product .payment-method {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.kawa-main-product .product-store-title {
+.kawa-main-product .product-store-title,
+.kawa-main-product .payment-method-title {
   font-weight: 700;
   font-size: 16px;
   min-width: 95px;
