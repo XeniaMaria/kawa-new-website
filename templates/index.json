@@ -49,6 +49,7 @@
           "type": "product-slide",
           "settings": {
             "product_item": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6",
+            "product_image": "shopify:\/\/shop_images\/01.jpg",
             "tag": "2K"
           }
         },
@@ -56,6 +57,7 @@
           "type": "product-slide",
           "settings": {
             "product_item": "kawa-5-720p-hd-display-video-baby-monitor-with-night-vision-temperature-sensor-2-way-audio-pan-tilt-zoom-white-noise-lullaby-20-hours-battery-1000ft-range",
+            "product_image": "shopify:\/\/shop_images\/02_8f5882a5-24d1-4781-baed-0cb8e882eee9.jpg",
             "tag": "4K"
           }
         },
@@ -63,25 +65,27 @@
           "type": "product-slide",
           "settings": {
             "product_item": "baby-monitor-with-camera-and-audio-kawa-video-baby-monitor-no-wifi-5-720p-hd-display-110-wide-angle-night-vision-temperature-sensor-2-way-audio-ptz-white-noise-20hrs-battery-1000ft-range",
+            "product_image": "shopify:\/\/shop_images\/13_b2864710-8b7c-4bcf-afa2-9d46cf30f3be.jpg",
             "tag": "2K"
+          }
+        },
+        "50f5f7fa-a213-4103-960b-cd2bef194fc2": {
+          "type": "product-slide",
+          "settings": {
+            "product_item": "",
+            "product_image": "shopify:\/\/shop_images\/05.jpg",
+            "tag": ""
           }
         }
       },
       "block_order": [
         "product-slide-1",
         "product-slide-2",
-        "product-slide-3"
+        "product-slide-3",
+        "50f5f7fa-a213-4103-960b-cd2bef194fc2"
       ],
       "settings": {
         "title": "New on Kawa Store"
-      }
-    },
-    "kawa-preview-video": {
-      "type": "kawa-preview-video",
-      "settings": {
-        "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/fd5bb78358954e02a5d6013bae20fefc.mp4",
-        "max_width": "mw-1200-c",
-        "has_border": true
       }
     },
     "kawa-products-card": {
@@ -91,7 +95,7 @@
           "type": "product-card",
           "settings": {
             "card_product": "kawa-3mp-ip-camera-video-wifi-surveillance-cameras-indoor-security-cam-smart-home-baby-monitor-tracking-audio-alexa",
-            "card_image": "shopify:\/\/shop_images\/13.jpg",
+            "card_image": "shopify:\/\/shop_images\/13_9b43e19e-3da3-44c7-861c-c40f692fd00c.jpg",
             "title": "Video Doorbell Dual",
             "des": "Dual Cam Technology"
           }
@@ -100,7 +104,7 @@
           "type": "product-card",
           "settings": {
             "card_product": "baby-monitor-kawa-2k-qhd-5-video-baby-monitor-with-camera-and-audio-no-wifi-night-vision-recording-playback-2-way-talk-temp-sensor-4000mah-4x-zoom-flip-180-lullabies-1000ft-range-s7",
-            "card_image": "shopify:\/\/shop_images\/02.jpg",
+            "card_image": "shopify:\/\/shop_images\/02_d651f02b-71fe-44ff-806f-192600220f41.jpg",
             "title": "Video Doorbell Dual",
             "des": "Dual Cam Technology"
           }
@@ -109,7 +113,7 @@
           "type": "product-card",
           "settings": {
             "card_product": "baby-monitor-with-camera-and-audio-kawa-video-baby-monitor-no-wifi-5-720p-hd-display-110-wide-angle-night-vision-temperature-sensor-2-way-audio-ptz-white-noise-20hrs-battery-1000ft-range",
-            "card_image": "shopify:\/\/shop_images\/1005.jpg",
+            "card_image": "shopify:\/\/shop_images\/1005_fa2dddad-840e-489b-b247-45efa1233caa.jpg",
             "title": "Video Doorbell Dual",
             "des": "Dual Cam Technology"
           }
@@ -122,6 +126,14 @@
       ],
       "settings": {
         "title": "Kawa Fans Love These Products"
+      }
+    },
+    "kawa-preview-video": {
+      "type": "kawa-preview-video",
+      "settings": {
+        "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/fd5bb78358954e02a5d6013bae20fefc.mp4",
+        "max_width": "mw-1200-c",
+        "has_border": true
       }
     },
     "kawa-video-display": {
@@ -210,7 +222,7 @@
           "type": "poster",
           "settings": {
             "title": "Category",
-            "image": "shopify:\/\/shop_images\/1..jpg",
+            "image": "shopify:\/\/shop_images\/6feabd6e53c83c501b1dd1e153fba7d8_bd6651bf-02d6-40fb-b8d9-f2726a071d05.jpg",
             "link": "#"
           }
         },
@@ -298,8 +310,8 @@
   "order": [
     "kawa_video_banner",
     "kawa-new-products",
-    "kawa-preview-video",
     "kawa-products-card",
+    "kawa-preview-video",
     "kawa-video-display",
     "kawa-choose-reason",
     "kawa-smart-home",
