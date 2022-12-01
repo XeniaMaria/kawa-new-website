@@ -157,13 +157,14 @@
           "type": "video-block",
           "settings": {
             "video_poster": "shopify:\/\/shop_images\/1002_774bb933-6a5f-4be7-8ceb-3574b29dd41d.jpg",
-            "video_html": ""
+            "video_html": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/31521bbae30f405a85e6719e7d15d16d.mp4"
           }
         },
         "video-block-4": {
           "type": "video-block",
           "settings": {
-            "video_html": "<iframe width=\"1280\" height=\"720\" src=\"https:\/\/www.youtube.com\/embed\/UlpMqDu83G0\" title=\"How to Share the Camera to Others | KAWA Pan  Tilt Camera\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>"
+            "video_poster": "shopify:\/\/shop_images\/1005_602b5e7e-457d-465c-a111-f07196fa540e.jpg",
+            "video_html": ""
           }
         }
       },
