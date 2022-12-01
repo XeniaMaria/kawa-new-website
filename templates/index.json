@@ -156,7 +156,7 @@
         "video-block-3": {
           "type": "video-block",
           "settings": {
-            "video_poster": "shopify:\/\/shop_images\/1002.jpg",
+            "video_poster": "shopify:\/\/shop_images\/1002_774bb933-6a5f-4be7-8ceb-3574b29dd41d.jpg",
             "video_html": "<iframe width=\"1280\" height=\"720\" src=\"https:\/\/www.youtube.com\/embed\/UlpMqDu83G0\" title=\"How to Share the Camera to Others | KAWA Pan  Tilt Camera\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>"
           }
         },
