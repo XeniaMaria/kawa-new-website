@@ -253,7 +253,7 @@
           "settings": {
             "name": "4X Zoom",
             "image": "shopify:\/\/shop_images\/111.jpg",
-            "video_link": ""
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/46cee3c503ba4961a90e71744778d3e2.mp4"
           }
         },
         "tab-2": {
@@ -269,7 +269,7 @@
           "settings": {
             "name": "Enhance Night Vision",
             "image": "shopify:\/\/shop_images\/114_d853b32c-c43e-43f1-8285-ab59427b0dd6.jpg",
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/fd5bb78358954e02a5d6013bae20fefc.mp4"
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/474dba233f0d4ee7b98079840ce67f13.mp4"
           }
         }
       },
@@ -286,7 +286,7 @@
     "video-text": {
       "type": "kawa-video-text",
       "settings": {
-        "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/fd5bb78358954e02a5d6013bae20fefc.mp4",
+        "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/d74c0ff0b4ac499ab5608e27669ad140.mp4",
         "title": "Instant Sound Alert",
         "content": "Built-in microphone can pick up low sound up to 20ft away from your baby’s room for louder volume and crisper audio. Get alerted immediately when your baby needs you via the advanced sound detection technology.",
         "warning": ""
