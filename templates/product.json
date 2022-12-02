@@ -148,6 +148,7 @@
         "image-text-item-1": {
           "type": "image_text",
           "settings": {
+            "image": "shopify:\/\/shop_images\/P1_429a41fd-6fe5-42f2-8b26-4c6f49be1172.jpg",
             "title": "Get Notified Anywhere",
             "content": "Get instant notifications from your phone every time your baby is awake or fussy, or when the room temperature is out of the normal range."
           }
@@ -155,13 +156,15 @@
         "image-text-item-2": {
           "type": "image_text",
           "settings": {
-            "title": "Gain Peace of Mind at a Glance",
-            "content": "The base glows green to indicate that your baby is doing fine. A sound and a red light from the base lets you know that you should check on your baby."
+            "image": "shopify:\/\/shop_images\/A9-300-2_cd7b645a-dc3e-45bf-9843-26e965c59b74.jpg",
+            "title": "Gain Peace of Mind at",
+            "content": "The base glows green to indicate that     your baby is doing fine. A sound and a red light from the base lets you know tha        on your baby."
           }
         },
         "image-text-item-3": {
           "type": "image_text",
           "settings": {
+            "image": "shopify:\/\/shop_images\/7-1.jpg",
             "title": "Get Notified Anywhere",
             "content": "Get instant notifications from your phone every time your baby is awake or fussy, or when the room temperature is out of the normal range."
           }
@@ -169,7 +172,8 @@
         "image-text-item-4": {
           "type": "image_text",
           "settings": {
-            "title": "Gain Peace of Mind at a Glance",
+            "image": "shopify:\/\/shop_images\/5_0c177200-5d73-4bd2-a65c-e1b504825a46.jpg",
+            "title": "Gain Peace of Mind at a",
             "content": "The base glows green to indicate that your baby is doing fine. A sound and a red light from the base lets you know that you should check on your baby."
           }
         }
