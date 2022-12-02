@@ -58,6 +58,34 @@
         "has_border": false
       }
     },
+    "carousel-2": {
+      "type": "kawa-main-product-carousel",
+      "blocks": {
+        "carousel-item-1": {
+          "type": "carousel_item",
+          "settings": {
+            "name": "",
+            "title": "",
+            "content": "",
+            "image": "shopify:\/\/shop_images\/af0471597e10c84743607ce5f08d0cc6_04fe2ef7-a940-40aa-a571-9bdb9bfa8495.jpg"
+          }
+        },
+        "carousel-item-2": {
+          "type": "carousel_item",
+          "settings": {
+            "name": "",
+            "title": "",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "carousel-item-1",
+        "carousel-item-2"
+      ],
+      "settings": {
+      }
+    },
     "carousel-1": {
       "type": "kawa-main-product-carousel",
       "blocks": {
@@ -87,40 +115,13 @@
       "settings": {
       }
     },
-    "carousel-2": {
-      "type": "kawa-main-product-carousel",
-      "disabled": true,
-      "blocks": {
-        "carousel-item-1": {
-          "type": "carousel_item",
-          "settings": {
-            "name": "Sleep Tracker",
-            "title": "Know Your Baby is Sleeping Well",
-            "content": "Smart sock tracks your baby's real-time sleep data, including heart rate, sleep status, and movements. Easily gain access to the data from your phone so that you can both get a well-deserved, good night's sleep."
-          }
-        },
-        "carousel-item-2": {
-          "type": "carousel_item",
-          "settings": {
-            "name": "Sleep Analysis",
-            "title": "Sleep Analysis and Reports",
-            "content": "The eufy Baby app provides a daily report for you to better understand your baby's sleep patterns—no subscription fee needed."
-          }
-        }
-      },
-      "block_order": [
-        "carousel-item-1",
-        "carousel-item-2"
-      ],
-      "settings": {
-      }
-    },
     "image-text-1": {
       "type": "kawa-image-text",
       "blocks": {
         "image-text-item-1": {
           "type": "image_text",
           "settings": {
+            "image": "shopify:\/\/shop_images\/4_0f6e7453-5743-4caa-8d5f-89649106d12c.jpg",
             "title": "Get Notified Anywhere",
             "content": "Get instant notifications from your phone every time your baby is awake or fussy, or when the room temperature is out of the normal range."
           }
@@ -128,6 +129,7 @@
         "image-text-item-2": {
           "type": "image_text",
           "settings": {
+            "image": "shopify:\/\/shop_images\/4_0f6e7453-5743-4caa-8d5f-89649106d12c.jpg",
             "title": "Gain Peace of Mind at a Glance",
             "content": "The base glows green to indicate that your baby is doing fine. A sound and a red light from the base lets you know that you should check on your baby."
           }
@@ -300,8 +302,8 @@
     "main",
     "banner",
     "video",
-    "carousel-1",
     "carousel-2",
+    "carousel-1",
     "image-text-1",
     "image-text-2",
     "product-comparison",
