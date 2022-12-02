@@ -41,7 +41,8 @@
       "settings": {
         "discount_code": "WS24S360",
         "show_discount": true,
-        "discount_faq": ""
+        "discount_faq": "",
+        "show_payment_flags": true
       }
     },
     "banner": {
@@ -63,19 +64,19 @@
         "carousel-item-1": {
           "type": "carousel_item",
           "settings": {
-            "name": "Sleep Tracker",
-            "title": "Know Your Baby is Sleeping Well",
-            "content": "Smart sock tracks your baby's real-time sleep data, including heart rate, sleep status, and movements. Easily gain access to the data from your phone so that you can both get a well-deserved, good night's sleep.",
-            "image": "shopify:\/\/shop_images\/1_40bc1ffc-84e2-488c-adde-f18d7a809c21.jpg"
+            "name": "Recording & Playback",
+            "title": "Support local recording with TF \/ micro SD card.",
+            "content": "KAWA baby monitor with camera support TF\/micro SD card(not included) up to 256GB to record and playback every precious moment of your baby's growth.",
+            "image": "shopify:\/\/shop_images\/1_2b8513a9-9d7c-4a5e-bf49-7c6d250fcef2.jpg"
           }
         },
         "carousel-item-2": {
           "type": "carousel_item",
           "settings": {
-            "name": "Sleep Analysis",
-            "title": "Sleep Analysis and Reports",
-            "content": "The eufy Baby app provides a daily report for you to better understand your baby's sleep patterns—no subscription fee needed.",
-            "image": "shopify:\/\/shop_images\/5_24ca8456-695d-466f-ab36-d8fda3365d1f.jpg"
+            "name": "2K & 3MP Baby Monitor",
+            "title": "Large 5'' IPS display coupled with 2k resolution and crisp night vision.",
+            "content": "Capture every detail in your baby’s room with crystal-clear 2K baby camera real-time image and 5’’ large color screen KAWA baby monitor. Superior night vision offers you the real scenes even in dim conditions. It is 4x clearer than the ordinary 720p resolution.",
+            "image": "shopify:\/\/shop_images\/2_c1494d7d-e287-4f32-a75e-9e5fd37943a3.jpg"
           }
         }
       },
@@ -88,6 +89,7 @@
     },
     "carousel-2": {
       "type": "kawa-main-product-carousel",
+      "disabled": true,
       "blocks": {
         "carousel-item-1": {
           "type": "carousel_item",
