@@ -34,10 +34,7 @@
       <div class="modal fade" id="{{ section.id }}-video-modal-{{ forloop.index }}">
         <div class="modal-dialog modal-xl modal-dialog-centered">
           <div class="modal-content">
-            <!-- 模态框主体 -->
-            {%- comment -%}
-              {{ block.settings.video_html }}
-            {%- endcomment -%}
+            {{ block.settings.video_html }}
           </div>
         </div>
       </div>
