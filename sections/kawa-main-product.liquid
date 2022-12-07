@@ -52,6 +52,12 @@
             {{ product.metafields.descriptors.subtitle }}
           </h1>
           <div class="product-information-price">
+            {%- unless product.price_varies == false and product.compare_at_price_varies %}
+              <span class="orig-price">
+                {{ product.compare_at_price | money }}
+              </span>
+              &nbsp;
+            {%- endunless -%}
             {{ product.price | money }}
           </div>
         </div>

@@ -132,6 +132,12 @@
   color: #000;
 }
 
+.kawa-main-product .orig-price {
+  text-decoration: line-through;
+  color: rgba(18, 18, 18, 0.75);
+  font-size: 16px;
+}
+
 .kawa-main-product .discount-title {
   color: #000;
   font-size: 16px;
