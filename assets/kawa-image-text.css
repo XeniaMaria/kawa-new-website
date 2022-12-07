@@ -8,6 +8,7 @@
 
 .kawa-image-text .image-text-item {
   padding: 0;
+  flex-basis: 100%;
 }
 
 .kawa-image-text .image-text-item .item-text {
