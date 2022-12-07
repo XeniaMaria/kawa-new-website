@@ -58,7 +58,9 @@
         <div class="product-description border-bottom">
           {{ product.description }}
         </div>
-        <div class="product-rating border-bottom">5颗星</div>
+        {% if section.settings.show_comment %}
+          <div class="product-rating border-bottom">5颗星</div>
+        {% endif %}
         {%- if section.settings.show_discount -%}
           <div class="product-discount-code border-bottom">
             <p class="discount-title"  data-toggle="modal" data-target="#discount-modal">
@@ -103,23 +105,25 @@
             </div>
           </div>
         {%- endif -%}
-        <div class="product-share-friend border-bottom">
-          <span>
+        {%- if section.settings.show_share -%}
+          <div class="product-share-friend border-bottom">
+            <span>
+              <span
+                class="iconify"
+                data-icon="humbleicons:tag"
+                data-width="24"
+                data-height="24"
+              ></span>
+              Get $40 for every friend you refer
+            </span>
             <span
-              class="iconify"
-              data-icon="humbleicons:tag"
+              class="iconify chevron-right"
+              data-icon="fluent:chevron-right-20-regular"
               data-width="24"
               data-height="24"
             ></span>
-            Get $40 for every friend you refer
-          </span>
-          <span
-            class="iconify chevron-right"
-            data-icon="fluent:chevron-right-20-regular"
-            data-width="24"
-            data-height="24"
-          ></span>
-        </div>
+          </div>
+        {%- endif -%}
         {%- if product.has_only_default_variant -%}
           <input
             type="hidden"
@@ -328,8 +332,20 @@
     },
     {
       "type": "checkbox",
+      "id": "show_comment",
+      "label": "显示评价",
+      "default": true
+    },
+    {
+      "type": "checkbox",
       "id": "show_discount",
       "label": "显示折扣码",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_share",
+      "label": "显示分享",
       "default": true
     },
     {
