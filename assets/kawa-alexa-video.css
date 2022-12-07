@@ -1,0 +1,65 @@
+.kawa-alexa-video {
+  max-width: 1200px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 68px 0 86px;
+}
+
+.kawa-alexa-video .section-title {
+  color: #000;
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 35px;
+}
+
+.kawa-alexa-video .jump-url {
+  color: #00ade5;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.kawa-alexa-video .jump-url:hover {
+  text-decoration: none;
+}
+.kawa-alexa-video .jump-url:hover .text {
+  border-bottom: 1px solid #00ade5;
+}
+
+.kawa-alexa-video .icon-arrow-right {
+  margin-left: 10px;
+  position: relative;
+  transition: margin-left 0.3s ease;
+}
+.kawa-alexa-video .jump-url:hover .icon-arrow-right {
+  margin-left: 20px;
+}
+
+.kawa-alexa-video .video-panel {
+  margin-top: 50px;
+  overflow: hidden;
+  position: relative;
+}
+
+.kawa-alexa-video .video-mask {
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .kawa-alexa-video {
+    padding: 24px 16px;
+  }
+
+  .kawa-alexa-video .section-title {
+    font-size: 8vw;
+    margin-bottom: 3vw;
+  }
+
+  .kawa-alexa-video .jump-url {
+    font-size: 4vw;
+  }
+
+  .kawa-alexa-video .video-panel {
+    margin-top: 7vw;
+  }
+}

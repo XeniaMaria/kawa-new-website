@@ -1,0 +1,72 @@
+{{ "kawa-alexa-video.css" | asset_url | stylesheet_tag }}
+
+<div class="kawa-alexa-video">
+  <h3 class="section-title">
+    {{ section.settings.title }}
+  </h3>
+  <a href="{{ section.settings.jump_link }}" class="jump-url">
+    <span class="text">{{ section.settings.jump_text }}</span>
+    <span class="iconify icon-arrow-right" data-icon="dashicons:arrow-right-alt2"></span>
+  </a>
+  <div class="video-panel">
+    <div class="video-mask acc wh-100"></div>
+    <img class="pointer acc video-play-icon" src="https://cdn.shopify.com/s/files/1/0552/2774/4279/t/21/assets/paly.png?v=179953367799169005241660268975" alt="" width="48" height="48" loading="lazy"/>
+    <video class="video-el w-100-h-auto" controls="" preload="none" poster="{{ section.settings.cover_image | image_url }}">
+      <source type="video/mp4" src="{{ section.settings.video_link }}"/>
+    </video>
+  </div>
+</div>
+
+<script type="text/javascript">
+  (function() {
+    const video = document.querySelector(".kawa-alexa-video .video-el");
+    const mask = document.querySelector(".kawa-alexa-video .video-mask");
+    const icon = document.querySelector(".kawa-alexa-video .video-play-icon");
+    icon.onclick = function() {
+      video.play()
+      mask.style.visibility = "hidden"
+      icon.style.visibility = "hidden"
+    }
+    video.onpause = function() {
+      mask.style.visibility = "visible"
+      icon.style.visibility = "visible"
+    }
+    video.ontimeupdate = function() {
+      mask.style.visibility = "hidden"
+      icon.style.visibility = "hidden"
+    }
+  })();
+</script>
+
+{% schema %}
+  {
+    "name": "alexa教程",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "标题"
+      },
+      {
+        "type": "url",
+        "id": "jump_link",
+        "label": "跳转链接url"
+      },
+      {
+        "type": "text",
+        "id": "jump_text",
+        "label": "跳转链接文本"
+
+      },
+      {
+        "type": "image_picker",
+        "id": "cover_image",
+        "label": "视频封面"
+      }, {
+        "type": "url",
+        "id": "video_link",
+        "label": "视频链接"
+      }
+    ]
+  }
+{% endschema %}
