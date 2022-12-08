@@ -39,7 +39,12 @@
         "store-info-item-4"
       ],
       "settings": {
-        "discount_code": "WS24S360"
+        "discount_code": "WS24S360",
+        "show_comment": true,
+        "show_discount": true,
+        "show_share": true,
+        "discount_faq": "<p><\/p>",
+        "show_payment_flags": true
       }
     },
     "banner": {
@@ -58,28 +63,28 @@
     "carousel-1": {
       "type": "kawa-main-product-carousel",
       "blocks": {
+        "carousel-item-2": {
+          "type": "carousel_item",
+          "settings": {
+            "name": "360°Panoramic View",
+            "title": "360°Panoramic View",
+            "content": "Each corner covered with pan 350° and tilt 67° easily with KAWA IOT App control remotely, our indoor security camera is very suitable for monitoring the elderly, kids and pet.",
+            "image": "shopify:\/\/shop_images\/8_05754f64-360e-47d7-9761-a26aebf5652d.jpg"
+          }
+        },
         "carousel-item-1": {
           "type": "carousel_item",
           "settings": {
             "name": "Sleep Tracker",
             "title": "Know Your Baby is Sleeping Well",
             "content": "Smart sock tracks your baby's real-time sleep data, including heart rate, sleep status, and movements. Easily gain access to the data from your phone so that you can both get a well-deserved, good night's sleep.",
-            "image": "shopify:\/\/shop_images\/3_2c04b953-bf28-49ec-923a-58535288db36.jpg"
-          }
-        },
-        "carousel-item-2": {
-          "type": "carousel_item",
-          "settings": {
-            "name": "Sleep Analysis",
-            "title": "Sleep Analysis and Reports",
-            "content": "The eufy Baby app provides a daily report for you to better understand your baby's sleep patterns—no subscription fee needed.",
-            "image": "shopify:\/\/shop_images\/5_24ca8456-695d-466f-ab36-d8fda3365d1f.jpg"
+            "image": "shopify:\/\/shop_images\/9_99215f4a-66e6-4360-b99a-45e93cc2fda5.jpg"
           }
         }
       },
       "block_order": [
-        "carousel-item-1",
-        "carousel-item-2"
+        "carousel-item-2",
+        "carousel-item-1"
       ],
       "settings": {
       }
