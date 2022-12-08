@@ -93,27 +93,28 @@
     "carousel-2": {
       "type": "kawa-main-product-carousel",
       "blocks": {
-        "carousel-item-1": {
-          "type": "carousel_item",
-          "settings": {
-            "name": "AI Human Detection",
-            "title": "AI Human Detection",
-            "content": "AI human detection of intruders ensures accurate and effective alarms. This indoor camera automatically follows the actions and saves video in real time to record their movement and retain key evidence.",
-            "image": "shopify:\/\/shop_images\/b973a8bc988d2c8a0119eff3865a58cf.jpg"
-          }
-        },
         "carousel-item-2": {
           "type": "carousel_item",
           "settings": {
             "name": "Auto Motion Tracking",
             "title": "Auto Motion Tracking",
-            "content": "KAWA indoor camera automatically tracks the motion and record the video if detect people or pet moves front it."
+            "content": "KAWA indoor camera automatically automatically follows the actions and saves video in real time to record their movement and retain key evidence. And ttracks the motion and record the video if detect people or pet moves front it.",
+            "image": "shopify:\/\/shop_images\/a5_27d7c731-cf04-4459-a5d7-2fc761254e30.jpg"
+          }
+        },
+        "carousel-item-1": {
+          "type": "carousel_item",
+          "settings": {
+            "name": "AI Human Detection",
+            "title": "AI Human Detection",
+            "content": "Receive instant notification on your phone if human, motion or abnormal sound detected in your house. Automatically record a 30 seconds motion-triggered and noise-triggered video to the cloud(30 days free trial).",
+            "image": "shopify:\/\/shop_images\/b973a8bc988d2c8a0119eff3865a58cf_09a1f654-e6a4-4a47-aba9-c523e33d660a.jpg"
           }
         }
       },
       "block_order": [
-        "carousel-item-1",
-        "carousel-item-2"
+        "carousel-item-2",
+        "carousel-item-1"
       ],
       "settings": {
       }
