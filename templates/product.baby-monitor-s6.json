@@ -2,7 +2,6 @@
   "sections": {
     "main": {
       "type": "kawa-main-product",
-      "disabled": true,
       "blocks": {
         "store-info-item-1": {
           "type": "store_info_item",
@@ -41,20 +40,21 @@
       ],
       "settings": {
         "discount_code": "WS24S360",
+        "show_comment": true,
         "show_discount": true,
+        "show_share": true,
         "discount_faq": "",
         "show_payment_flags": true
       }
     },
     "banner": {
       "type": "kawa-main-product-banner",
-      "disabled": true,
       "settings": {
+        "banner_image": "shopify:\/\/shop_images\/A1-1_f4bc7c82-8e69-4112-b51c-8109744cf242.jpg"
       }
     },
     "video": {
       "type": "kawa-preview-video",
-      "disabled": true,
       "settings": {
         "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/fd5bb78358954e02a5d6013bae20fefc.mp4",
         "max_width": "mw-1300-c",
@@ -63,24 +63,23 @@
     },
     "carousel-1": {
       "type": "kawa-main-product-carousel",
-      "disabled": true,
       "blocks": {
         "carousel-item-1": {
           "type": "carousel_item",
           "settings": {
-            "name": "Sleep Tracker",
-            "title": "Know Your Baby is Sleeping Well",
-            "content": "Smart sock tracks your baby's real-time sleep data, including heart rate, sleep status, and movements. Easily gain access to the data from your phone so that you can both get a well-deserved, good night's sleep.",
-            "image": "shopify:\/\/shop_images\/3_2c04b953-bf28-49ec-923a-58535288db36.jpg"
+            "name": "Automatical Night Vision",
+            "title": "Free Up Your Stress, From Dawn to Dusk",
+            "content": "Automatic night vision allows you to see from top to toe clearly in the dark of the night, without visible IR LEDS to disturb your baby's sleep.",
+            "image": "shopify:\/\/shop_images\/A4.jpg"
           }
         },
         "carousel-item-2": {
           "type": "carousel_item",
           "settings": {
-            "name": "Sleep Analysis",
-            "title": "Sleep Analysis and Reports",
-            "content": "The eufy Baby app provides a daily report for you to better understand your baby's sleep patterns—no subscription fee needed.",
-            "image": "shopify:\/\/shop_images\/5_24ca8456-695d-466f-ab36-d8fda3365d1f.jpg"
+            "name": "360° Monitoring",
+            "title": "No More Blind Spots",
+            "content": "Pan , tilt , zoom - you name it . Check in on your baby\nin full view and magnify details whenever you need it.",
+            "image": "shopify:\/\/shop_images\/A7.jpg"
           }
         }
       },
@@ -93,7 +92,6 @@
     },
     "carousel-2": {
       "type": "kawa-main-product-carousel",
-      "disabled": true,
       "blocks": {
         "carousel-item-1": {
           "type": "carousel_item",
@@ -289,6 +287,7 @@
     },
     "phone-preview": {
       "type": "kawa-phone-preview",
+      "disabled": true,
       "settings": {
         "img_width": 340,
         "img_height": 616
