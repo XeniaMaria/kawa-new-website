@@ -125,21 +125,32 @@
         "image-text-item-1": {
           "type": "image_text",
           "settings": {
-            "title": "Get Notified Anywhere",
-            "content": "Get instant notifications from your phone every time your baby is awake or fussy, or when the room temperature is out of the normal range."
+            "image": "shopify:\/\/shop_images\/StockSnap_WQQUEGXCIM.jpg",
+            "title": "Get a KAWA baby monitor, get a balanced work-life.",
+            "content": "You will have the freedom to attend to other tasks in your life, such as cooking, cleaning the baby bottles, doing yoga, reading, working, and sleeping. Enjoy time for yourself while keeping an eye on your baby."
           }
         },
         "image-text-item-2": {
           "type": "image_text",
           "settings": {
-            "title": "Gain Peace of Mind at a Glance",
-            "content": "The base glows green to indicate that your baby is doing fine. A sound and a red light from the base lets you know that you should check on your baby."
+            "image": "shopify:\/\/shop_images\/970x600.jpg",
+            "title": "Large 5'' LCD display coupled with 720p resolution.",
+            "content": "KAWA baby monitor has large 5'' 720P HD display offers you a crisper picture, it brings you the real scenes of what your baby does and whether your baby is safe."
+          }
+        },
+        "5a15b530-6497-4b8c-98ae-3f86a6eec093": {
+          "type": "image_text",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "content": ""
           }
         }
       },
       "block_order": [
         "image-text-item-1",
-        "image-text-item-2"
+        "image-text-item-2",
+        "5a15b530-6497-4b8c-98ae-3f86a6eec093"
       ],
       "settings": {
       }
@@ -147,39 +158,43 @@
     "image-text-2": {
       "type": "kawa-image-text",
       "blocks": {
+        "image-text-item-3": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/A2-1600-1-1.jpg",
+            "title": "20-hour monitoring",
+            "content": ""
+          }
+        },
         "image-text-item-1": {
           "type": "image_text",
           "settings": {
-            "title": "Get Notified Anywhere",
-            "content": "Get instant notifications from your phone every time your baby is awake or fussy, or when the room temperature is out of the normal range."
+            "image": "shopify:\/\/shop_images\/5_fddfbaf2-1f74-4f3e-9dca-6d94e8f28eb4.jpg",
+            "title": "No WIFI No App",
+            "content": ""
           }
         },
         "image-text-item-2": {
           "type": "image_text",
           "settings": {
-            "title": "Gain Peace of Mind at a Glance",
-            "content": "The base glows green to indicate that your baby is doing fine. A sound and a red light from the base lets you know that you should check on your baby."
-          }
-        },
-        "image-text-item-3": {
-          "type": "image_text",
-          "settings": {
-            "title": "Get Notified Anywhere",
-            "content": "Get instant notifications from your phone every time your baby is awake or fussy, or when the room temperature is out of the normal range."
+            "image": "shopify:\/\/shop_images\/A9-300-3_2.jpg",
+            "title": "Instant Sound Alert",
+            "content": ""
           }
         },
         "image-text-item-4": {
           "type": "image_text",
           "settings": {
-            "title": "Gain Peace of Mind at a Glance",
-            "content": "The base glows green to indicate that your baby is doing fine. A sound and a red light from the base lets you know that you should check on your baby."
+            "image": "shopify:\/\/shop_images\/A9-300-2_c439876d-db98-4aa7-8082-03d34cecc5e1.jpg",
+            "title": "Room Temperature Sensor",
+            "content": ""
           }
         }
       },
       "block_order": [
+        "image-text-item-3",
         "image-text-item-1",
         "image-text-item-2",
-        "image-text-item-3",
         "image-text-item-4"
       ],
       "settings": {
@@ -245,6 +260,7 @@
     },
     "tabs": {
       "type": "kawa-product-tabs",
+      "disabled": true,
       "blocks": {
         "tab-1": {
           "type": "tab_item",
@@ -266,12 +282,20 @@
             "name": "3X Optical Zoom",
             "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/fd5bb78358954e02a5d6013bae20fefc.mp4"
           }
+        },
+        "3f2fe361-2f25-4067-b4c5-38056f64eefc": {
+          "type": "tab_item",
+          "settings": {
+            "name": "",
+            "video_link": ""
+          }
         }
       },
       "block_order": [
         "tab-1",
         "tab-2",
-        "tab-3"
+        "tab-3",
+        "3f2fe361-2f25-4067-b4c5-38056f64eefc"
       ],
       "settings": {
         "title": "Clear & Color, Even at Night or from Afar",
