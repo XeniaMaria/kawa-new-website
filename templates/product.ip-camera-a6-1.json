@@ -67,18 +67,18 @@
         "carousel-item-1": {
           "type": "carousel_item",
           "settings": {
-            "name": "Recording & Playback",
-            "title": "Support local recording with TF \/ micro SD card.",
-            "content": "KAWA baby monitor with camera support TF\/micro SD card(not included) up to 256GB to record and playback every precious moment of your baby's growth.",
+            "name": "360°Panoramic View",
+            "title": "360°Panoramic View",
+            "content": "Each corner covered with pan 350° and tilt 67° easily with KAWA IOT App control remotely, our indoor security camera is very suitable for monitoring the elderly, kids and pet.",
             "image": "shopify:\/\/shop_images\/8_c20fd379-94a8-4e7f-9c00-513ca2304565.jpg"
           }
         },
         "carousel-item-2": {
           "type": "carousel_item",
           "settings": {
-            "name": "2K & 3MP Baby Monitor",
-            "title": "Large 5'' IPS display coupled with 2k resolution and crisp night vision.",
-            "content": "Capture every detail in your baby’s room with crystal-clear 2K baby camera real-time image and 5’’ large color screen KAWA baby monitor. Superior night vision offers you the real scenes even in dim conditions. It is 4x clearer than the ordinary 720p resolution.",
+            "name": "Superior Night Vision",
+            "title": "Superior Night Vision",
+            "content": "Smart baby camera has a built-in 940nm infrared fill light, and the image is vivid and clear even in a dim environment. No red light spot, your loved one's sleep is not disturbed.",
             "image": "shopify:\/\/shop_images\/9_d5b150f6-431f-4302-b87d-18aa75dc7244.jpg"
           }
         }
@@ -96,18 +96,18 @@
         "carousel-item-1": {
           "type": "carousel_item",
           "settings": {
-            "name": "",
+            "name": "Auto Motion Tracking",
             "title": "",
-            "content": "",
+            "content": "KAWA indoor camera automatically automatically follows the actions and saves video in real time to record their movement and retain key evidence. And ttracks the motion and record the video if detect people or pet moves front it.",
             "image": "shopify:\/\/shop_images\/a5_70ccf03e-bbd7-4519-98e1-0d37177b6364.jpg"
           }
         },
         "carousel-item-2": {
           "type": "carousel_item",
           "settings": {
-            "name": "",
-            "title": "",
-            "content": "",
+            "name": "AI Human Detection",
+            "title": "AI Human Detection",
+            "content": "Receive instant notification on your phone if human, motion or abnormal sound detected in your house. Automatically record a 30 seconds motion-triggered and noise-triggered video to the cloud(30 days free trial).",
             "image": "shopify:\/\/shop_images\/b973a8bc988d2c8a0119eff3865a58cf_09a1f654-e6a4-4a47-aba9-c523e33d660a.jpg"
           }
         }
