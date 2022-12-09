@@ -147,6 +147,53 @@
       "settings": {
       }
     },
+    "video-text": {
+      "type": "kawa-video-text",
+      "settings": {
+        "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/d74c0ff0b4ac499ab5608e27669ad140.mp4",
+        "title": "Instant Sound Alert",
+        "content": "Built-in microphone can pick up low sound up to 20ft away from your baby’s room for louder volume and crisper audio. Get alerted immediately when your baby needs you via the advanced sound detection technology.",
+        "warning": ""
+      }
+    },
+    "tabs": {
+      "type": "kawa-product-tabs",
+      "blocks": {
+        "tab-1": {
+          "type": "tab_item",
+          "settings": {
+            "name": "4X Zoom",
+            "image": "shopify:\/\/shop_images\/111.jpg",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/57d135e474854c3b8973a129d0e52f70.mp4"
+          }
+        },
+        "tab-2": {
+          "type": "tab_item",
+          "settings": {
+            "name": "2-Way Audio Intercom",
+            "image": "shopify:\/\/shop_images\/112.jpg",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0e9abb267dc24bacaa06c810731a86cf.mp4"
+          }
+        },
+        "tab-3": {
+          "type": "tab_item",
+          "settings": {
+            "name": "Enhance Night Vision",
+            "image": "shopify:\/\/shop_images\/114_d853b32c-c43e-43f1-8285-ab59427b0dd6.jpg",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/474dba233f0d4ee7b98079840ce67f13.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "tab-1",
+        "tab-2",
+        "tab-3"
+      ],
+      "settings": {
+        "title": "Clear & Color, Even at Night or from Afar",
+        "description": "With 5-megapixel resolution and built-in spotlights, this smart IP camera keeps recording in full color day and night. Even better, you can zoom in optically to find more details."
+      }
+    },
     "image-text-2": {
       "type": "kawa-image-text",
       "blocks": {
@@ -250,53 +297,6 @@
         "title": "FAQ"
       }
     },
-    "tabs": {
-      "type": "kawa-product-tabs",
-      "blocks": {
-        "tab-1": {
-          "type": "tab_item",
-          "settings": {
-            "name": "4X Zoom",
-            "image": "shopify:\/\/shop_images\/111.jpg",
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/57d135e474854c3b8973a129d0e52f70.mp4"
-          }
-        },
-        "tab-2": {
-          "type": "tab_item",
-          "settings": {
-            "name": "2-Way Audio Intercom",
-            "image": "shopify:\/\/shop_images\/112.jpg",
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0e9abb267dc24bacaa06c810731a86cf.mp4"
-          }
-        },
-        "tab-3": {
-          "type": "tab_item",
-          "settings": {
-            "name": "Enhance Night Vision",
-            "image": "shopify:\/\/shop_images\/114_d853b32c-c43e-43f1-8285-ab59427b0dd6.jpg",
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/474dba233f0d4ee7b98079840ce67f13.mp4"
-          }
-        }
-      },
-      "block_order": [
-        "tab-1",
-        "tab-2",
-        "tab-3"
-      ],
-      "settings": {
-        "title": "Clear & Color, Even at Night or from Afar",
-        "description": "With 5-megapixel resolution and built-in spotlights, this smart IP camera keeps recording in full color day and night. Even better, you can zoom in optically to find more details."
-      }
-    },
-    "video-text": {
-      "type": "kawa-video-text",
-      "settings": {
-        "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/d74c0ff0b4ac499ab5608e27669ad140.mp4",
-        "title": "Instant Sound Alert",
-        "content": "Built-in microphone can pick up low sound up to 20ft away from your baby’s room for louder volume and crisper audio. Get alerted immediately when your baby needs you via the advanced sound detection technology.",
-        "warning": ""
-      }
-    },
     "phone-preview": {
       "type": "kawa-phone-preview",
       "disabled": true,
@@ -328,12 +328,12 @@
     "carousel-2",
     "carousel-1",
     "image-text-1",
+    "video-text",
+    "tabs",
     "image-text-2",
     "product-comparison",
     "specifications",
     "faq",
-    "tabs",
-    "video-text",
     "phone-preview",
     "product-buy",
     "alexa-video"
