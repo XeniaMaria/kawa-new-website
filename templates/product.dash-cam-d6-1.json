@@ -99,7 +99,7 @@
         "image-text-item-1": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ebbe479b95396f8727b5d81e65f95398_aef25839-c2c4-4c3f-a6fe-a42bd24b043e.jpg",
+            "image": "shopify:\/\/shop_images\/ebbe479b95396f8727b5d81e65f95398_7b744cd9-212b-43f1-bd07-be28f617b6ac.jpg",
             "title": "Get Notified Anywhere",
             "content": "Get instant notifications from your phone every time your baby is awake or fussy, or when the room temperature is out of the normal range."
           }
@@ -120,32 +120,88 @@
       "settings": {
       }
     },
-    "carousel-2": {
-      "type": "kawa-main-product-carousel",
-      "disabled": true,
+    "image-text-2": {
+      "type": "kawa-image-text",
       "blocks": {
-        "carousel-item-1": {
-          "type": "carousel_item",
+        "image-text-item-1": {
+          "type": "image_text",
           "settings": {
-            "name": "",
-            "title": "",
-            "content": "",
-            "image": "shopify:\/\/shop_images\/a5_70ccf03e-bbd7-4519-98e1-0d37177b6364.jpg"
+            "image": "shopify:\/\/shop_images\/1013-300_1_d7a211be-562b-4e58-97c1-967b3010c060.jpg",
+            "title": "Get Notified Anywhere",
+            "content": "Get instant notifications from your phone every time your baby is awake or fussy, or when the room temperature is out of the normal range."
           }
         },
-        "carousel-item-2": {
-          "type": "carousel_item",
+        "image-text-item-2": {
+          "type": "image_text",
           "settings": {
-            "name": "",
-            "title": "",
-            "content": "",
-            "image": "shopify:\/\/shop_images\/b973a8bc988d2c8a0119eff3865a58cf_09a1f654-e6a4-4a47-aba9-c523e33d660a.jpg"
+            "image": "shopify:\/\/shop_images\/2_c694b4b5-d280-4187-9485-5f1223fc3859.jpg",
+            "title": "Gain Peace of Mind at",
+            "content": "The base glows green to indicate that     your baby is doing fine. A sound and a red light from the base lets you know tha        on your baby."
+          }
+        },
+        "image-text-item-3": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_6b2dc2ba-aac8-4e19-aca4-12c41e2a8a3c.jpg",
+            "title": "Get Notified Anywhere",
+            "content": "Get instant notifications from your phone every time your baby is awake or fussy, or when the room temperature is out of the normal range."
+          }
+        },
+        "image-text-item-4": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_ffa151fe-8a52-4d04-92bf-3a4850627f95.jpg",
+            "title": "Gain Peace of Mind at a",
+            "content": "The base glows green to indicate that your baby is doing fine. A sound and a red light from the base lets you know that you should check on your baby."
           }
         }
       },
       "block_order": [
-        "carousel-item-1",
-        "carousel-item-2"
+        "image-text-item-1",
+        "image-text-item-2",
+        "image-text-item-3",
+        "image-text-item-4"
+      ],
+      "settings": {
+      }
+    },
+    "351b63f1-e016-469c-a58b-b3e8b2c342a5": {
+      "type": "kawa-image-text",
+      "blocks": {
+        "template--15917345144992__351b63f1-e016-469c-a58b-b3e8b2c342a5-1670556217e8b1e688-0": {
+          "type": "image_text",
+          "settings": {
+            "title": "",
+            "content": ""
+          }
+        },
+        "template--15917345144992__351b63f1-e016-469c-a58b-b3e8b2c342a5-1670556217e8b1e688-1": {
+          "type": "image_text",
+          "settings": {
+            "title": "",
+            "content": ""
+          }
+        },
+        "template--15917345144992__351b63f1-e016-469c-a58b-b3e8b2c342a5-1670556217e8b1e688-2": {
+          "type": "image_text",
+          "settings": {
+            "title": "",
+            "content": ""
+          }
+        },
+        "template--15917345144992__351b63f1-e016-469c-a58b-b3e8b2c342a5-1670556217e8b1e688-3": {
+          "type": "image_text",
+          "settings": {
+            "title": "",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15917345144992__351b63f1-e016-469c-a58b-b3e8b2c342a5-1670556217e8b1e688-0",
+        "template--15917345144992__351b63f1-e016-469c-a58b-b3e8b2c342a5-1670556217e8b1e688-1",
+        "template--15917345144992__351b63f1-e016-469c-a58b-b3e8b2c342a5-1670556217e8b1e688-2",
+        "template--15917345144992__351b63f1-e016-469c-a58b-b3e8b2c342a5-1670556217e8b1e688-3"
       ],
       "settings": {
       }
@@ -203,51 +259,6 @@
         "title": "Instant Sound Alert",
         "content": "Built-in microphone can pick up low sound up to 20ft away from your baby’s room for louder volume and crisper audio. Get alerted immediately when your baby needs you via the advanced sound detection technology.",
         "warning": ""
-      }
-    },
-    "image-text-2": {
-      "type": "kawa-image-text",
-      "blocks": {
-        "image-text-item-1": {
-          "type": "image_text",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1013-300_1_d7a211be-562b-4e58-97c1-967b3010c060.jpg",
-            "title": "Get Notified Anywhere",
-            "content": "Get instant notifications from your phone every time your baby is awake or fussy, or when the room temperature is out of the normal range."
-          }
-        },
-        "image-text-item-2": {
-          "type": "image_text",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2_c694b4b5-d280-4187-9485-5f1223fc3859.jpg",
-            "title": "Gain Peace of Mind at",
-            "content": "The base glows green to indicate that     your baby is doing fine. A sound and a red light from the base lets you know tha        on your baby."
-          }
-        },
-        "image-text-item-3": {
-          "type": "image_text",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/4_6b2dc2ba-aac8-4e19-aca4-12c41e2a8a3c.jpg",
-            "title": "Get Notified Anywhere",
-            "content": "Get instant notifications from your phone every time your baby is awake or fussy, or when the room temperature is out of the normal range."
-          }
-        },
-        "image-text-item-4": {
-          "type": "image_text",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1_ffa151fe-8a52-4d04-92bf-3a4850627f95.jpg",
-            "title": "Gain Peace of Mind at a",
-            "content": "The base glows green to indicate that your baby is doing fine. A sound and a red light from the base lets you know that you should check on your baby."
-          }
-        }
-      },
-      "block_order": [
-        "image-text-item-1",
-        "image-text-item-2",
-        "image-text-item-3",
-        "image-text-item-4"
-      ],
-      "settings": {
       }
     },
     "product-comparison": {
@@ -322,6 +333,12 @@
       "type": "kawa-product-buy",
       "settings": {
       }
+    },
+    "carousel-2": {
+      "type": "kawa-main-product-carousel",
+      "disabled": true,
+      "settings": {
+      }
     }
   },
   "order": [
@@ -330,15 +347,16 @@
     "video",
     "carousel-1",
     "image-text-1",
-    "carousel-2",
+    "image-text-2",
+    "351b63f1-e016-469c-a58b-b3e8b2c342a5",
     "tabs",
     "phone-preview",
     "video-text",
-    "image-text-2",
     "product-comparison",
     "specifications",
     "faq",
     "alexa-video",
-    "product-buy"
+    "product-buy",
+    "carousel-2"
   ]
 }
