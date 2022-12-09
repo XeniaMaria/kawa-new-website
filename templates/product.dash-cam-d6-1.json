@@ -65,6 +65,7 @@
     },
     "carousel-1": {
       "type": "kawa-main-product-carousel",
+      "disabled": true,
       "blocks": {
         "carousel-item-1": {
           "type": "carousel_item",
@@ -98,7 +99,7 @@
         "image-text-item-1": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ecf8ff4caea48d73bbdd49f680da30c4.jpg",
+            "image": "shopify:\/\/shop_images\/ebbe479b95396f8727b5d81e65f95398_aef25839-c2c4-4c3f-a6fe-a42bd24b043e.jpg",
             "title": "Get Notified Anywhere",
             "content": "Get instant notifications from your phone every time your baby is awake or fussy, or when the room temperature is out of the normal range."
           }
@@ -106,7 +107,7 @@
         "image-text-item-2": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/5_1882d80a-4f15-43a6-91ac-5c59946f1167.jpg",
+            "image": "shopify:\/\/shop_images\/2k.jpg",
             "title": "Gain Peace of Mind at a Glance",
             "content": "The base glows green to indicate that your baby is doing fine. A sound and a red light from the base lets you know that you should check on your baby."
           }
