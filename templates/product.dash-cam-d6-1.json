@@ -50,11 +50,12 @@
     "banner": {
       "type": "kawa-main-product-banner",
       "settings": {
-        "banner_image": "shopify:\/\/shop_images\/yi_6e68619f-1c09-424a-b8c2-3d84a14880f7.jpg"
+        "banner_image": "shopify:\/\/shop_images\/1005_98ef0c03-b7e1-4d48-b25f-255025aa819c.jpg"
       }
     },
     "video": {
       "type": "kawa-preview-video",
+      "disabled": true,
       "settings": {
         "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/57d135e474854c3b8973a129d0e52f70.mp4",
         "cover_image": "shopify:\/\/shop_images\/1002_a0aef2da-05ac-47b5-aeea-f11bc985ba2b.jpg",
@@ -120,6 +121,44 @@
       "settings": {
       }
     },
+    "tabs": {
+      "type": "kawa-product-tabs",
+      "blocks": {
+        "tab-1": {
+          "type": "tab_item",
+          "settings": {
+            "name": "4X Zoom",
+            "image": "shopify:\/\/shop_images\/1005_1e26c7b5-93e7-46b8-9e75-1a8c795a2da8.jpg",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2b735d4eac8c4381a4bc20aa4ce9903e.mp4"
+          }
+        },
+        "tab-2": {
+          "type": "tab_item",
+          "settings": {
+            "name": "2-Way Audio Intercom",
+            "image": "shopify:\/\/shop_images\/1005_881c78a0-fcab-47cf-9a54-1d0786522060.jpg",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4fd0bd0eaece4443882eb7ecc46f71c1.mp4"
+          }
+        },
+        "tab-3": {
+          "type": "tab_item",
+          "settings": {
+            "name": "Enhance Night Vision",
+            "image": "shopify:\/\/shop_images\/1005_68b9de81-0633-4fc2-b9c6-d8f8d1a001dd.jpg",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/aba06c5ec87a4a819349b2639883c73f.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "tab-1",
+        "tab-2",
+        "tab-3"
+      ],
+      "settings": {
+        "title": "Clear & Color, Even at Night or from Afar",
+        "description": "With 5-megapixel resolution and built-in spotlights, this smart IP camera keeps recording in full color day and night. Even better, you can zoom in optically to find more details."
+      }
+    },
     "phone-preview": {
       "type": "kawa-phone-preview",
       "settings": {
@@ -162,47 +201,6 @@
         "title": "Instant Sound Alert",
         "content": "Built-in microphone can pick up low sound up to 20ft away from your baby’s room for louder volume and crisper audio. Get alerted immediately when your baby needs you via the advanced sound detection technology.",
         "warning": ""
-      }
-    },
-    "tabs": {
-      "type": "kawa-product-tabs",
-      "blocks": {
-        "tab-1": {
-          "type": "tab_item",
-          "settings": {
-            "name": "4X Zoom",
-            "image": "shopify:\/\/shop_images\/p-1.jpg",
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2b735d4eac8c4381a4bc20aa4ce9903e.mp4",
-            "cover_image": "shopify:\/\/shop_images\/p-1.jpg"
-          }
-        },
-        "tab-2": {
-          "type": "tab_item",
-          "settings": {
-            "name": "2-Way Audio Intercom",
-            "image": "shopify:\/\/shop_images\/p-3.jpg",
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4fd0bd0eaece4443882eb7ecc46f71c1.mp4",
-            "cover_image": "shopify:\/\/shop_images\/p-3.jpg"
-          }
-        },
-        "tab-3": {
-          "type": "tab_item",
-          "settings": {
-            "name": "Enhance Night Vision",
-            "image": "shopify:\/\/shop_images\/p-2.jpg",
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/aba06c5ec87a4a819349b2639883c73f.mp4",
-            "cover_image": "shopify:\/\/shop_images\/p-2.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "tab-1",
-        "tab-2",
-        "tab-3"
-      ],
-      "settings": {
-        "title": "Clear & Color, Even at Night or from Afar",
-        "description": "With 5-megapixel resolution and built-in spotlights, this smart IP camera keeps recording in full color day and night. Even better, you can zoom in optically to find more details."
       }
     },
     "image-text-2": {
@@ -329,10 +327,10 @@
     "video",
     "carousel-1",
     "carousel-2",
+    "tabs",
     "phone-preview",
     "image-text-1",
     "video-text",
-    "tabs",
     "image-text-2",
     "product-comparison",
     "specifications",
