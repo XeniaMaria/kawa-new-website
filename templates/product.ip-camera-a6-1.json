@@ -1,0 +1,341 @@
+{
+  "sections": {
+    "main": {
+      "type": "kawa-main-product",
+      "blocks": {
+        "store-info-item-1": {
+          "type": "store_info_item",
+          "settings": {
+            "title": "Fast, Free Shipping",
+            "content": "<p>We offer free shipping straight to your door throughout the contiguous US*. It usually takes 3-7 business days* for your package to be delivered, so you can sit back and relax, worry-free.<\/p><p><\/p><p>*Please see our shipping policy for more details.<\/p><p>*Due to COVID-19 shipping times may be delayed.<\/p>"
+          }
+        },
+        "store-info-item-2": {
+          "type": "store_info_item",
+          "settings": {
+            "title": "30-Day Money-Back Guarantee",
+            "content": "<p> Get a full refund when you return your undamaged products within 30 days - for any reason. Once the item arrives back at the eufy warehouse for inspection, the refund process will begin.<\/p><p> See our refund policy for more details about what is needed for a smooth refund process..<\/p>"
+          }
+        },
+        "store-info-item-3": {
+          "type": "store_info_item",
+          "settings": {
+            "title": "Hassle-free Warranty",
+            "content": "<p> eufy provides a straightforward, hassle-free warranty to save you some headaches. All pre-owned and refurbished products come with their own unique warranty that you can find on the product listing or contact us at support@eufylife.com with your order receipt for confirmation.<\/p><p> This limited warranty provided by the manufacturer in no way affects a potential statutory warranty provided by law.<\/p>"
+          }
+        },
+        "store-info-item-4": {
+          "type": "store_info_item",
+          "settings": {
+            "title": "Lifetime Customer Support",
+            "content": "<p> We'll Always be There for You.<\/p><p> If you have any questions or concerns, feel free to contact us at support@eufylife.com.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "store-info-item-1",
+        "store-info-item-2",
+        "store-info-item-3",
+        "store-info-item-4"
+      ],
+      "settings": {
+        "discount_code": "WS24S360",
+        "show_comment": true,
+        "show_discount": true,
+        "show_share": true,
+        "discount_faq": "<p><\/p>",
+        "show_payment_flags": true
+      }
+    },
+    "banner": {
+      "type": "kawa-main-product-banner",
+      "settings": {
+        "banner_image": "shopify:\/\/shop_images\/af0471597e10c84743607ce5f08d0cc6_04fe2ef7-a940-40aa-a571-9bdb9bfa8495.jpg"
+      }
+    },
+    "video": {
+      "type": "kawa-preview-video",
+      "settings": {
+        "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/57d135e474854c3b8973a129d0e52f70.mp4",
+        "cover_image": "shopify:\/\/shop_images\/1002_a0aef2da-05ac-47b5-aeea-f11bc985ba2b.jpg",
+        "max_width": "mw-1300-c",
+        "has_border": false
+      }
+    },
+    "carousel-2": {
+      "type": "kawa-main-product-carousel",
+      "disabled": true,
+      "blocks": {
+        "carousel-item-1": {
+          "type": "carousel_item",
+          "settings": {
+            "name": "",
+            "title": "",
+            "content": "",
+            "image": "shopify:\/\/shop_images\/af0471597e10c84743607ce5f08d0cc6_04fe2ef7-a940-40aa-a571-9bdb9bfa8495.jpg"
+          }
+        },
+        "carousel-item-2": {
+          "type": "carousel_item",
+          "settings": {
+            "name": "",
+            "title": "",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "carousel-item-1",
+        "carousel-item-2"
+      ],
+      "settings": {
+      }
+    },
+    "carousel-1": {
+      "type": "kawa-main-product-carousel",
+      "blocks": {
+        "carousel-item-1": {
+          "type": "carousel_item",
+          "settings": {
+            "name": "Recording & Playback",
+            "title": "Support local recording with TF \/ micro SD card.",
+            "content": "KAWA baby monitor with camera support TF\/micro SD card(not included) up to 256GB to record and playback every precious moment of your baby's growth.",
+            "image": "shopify:\/\/shop_images\/3_c4227125-4ec9-4911-b938-937f8fbf4f0a.jpg"
+          }
+        },
+        "carousel-item-2": {
+          "type": "carousel_item",
+          "settings": {
+            "name": "2K & 3MP Baby Monitor",
+            "title": "Large 5'' IPS display coupled with 2k resolution and crisp night vision.",
+            "content": "Capture every detail in your baby’s room with crystal-clear 2K baby camera real-time image and 5’’ large color screen KAWA baby monitor. Superior night vision offers you the real scenes even in dim conditions. It is 4x clearer than the ordinary 720p resolution.",
+            "image": "shopify:\/\/shop_images\/2_994e82ed-109e-47ca-b189-f0675324fe04.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "carousel-item-1",
+        "carousel-item-2"
+      ],
+      "settings": {
+      }
+    },
+    "image-text-1": {
+      "type": "kawa-image-text",
+      "blocks": {
+        "image-text-item-1": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_0f6e7453-5743-4caa-8d5f-89649106d12c.jpg",
+            "title": "Get Notified Anywhere",
+            "content": "Get instant notifications from your phone every time your baby is awake or fussy, or when the room temperature is out of the normal range."
+          }
+        },
+        "image-text-item-2": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_98c2b9c0-3585-46da-ba96-68dfc6855703.jpg",
+            "title": "Gain Peace of Mind at a Glance",
+            "content": "The base glows green to indicate that your baby is doing fine. A sound and a red light from the base lets you know that you should check on your baby."
+          }
+        }
+      },
+      "block_order": [
+        "image-text-item-1",
+        "image-text-item-2"
+      ],
+      "settings": {
+      }
+    },
+    "video-text": {
+      "type": "kawa-video-text",
+      "settings": {
+        "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/d74c0ff0b4ac499ab5608e27669ad140.mp4",
+        "title": "Instant Sound Alert",
+        "content": "Built-in microphone can pick up low sound up to 20ft away from your baby’s room for louder volume and crisper audio. Get alerted immediately when your baby needs you via the advanced sound detection technology.",
+        "warning": ""
+      }
+    },
+    "tabs": {
+      "type": "kawa-product-tabs",
+      "blocks": {
+        "tab-1": {
+          "type": "tab_item",
+          "settings": {
+            "name": "4X Zoom",
+            "image": "shopify:\/\/shop_images\/111.jpg",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/57d135e474854c3b8973a129d0e52f70.mp4"
+          }
+        },
+        "tab-2": {
+          "type": "tab_item",
+          "settings": {
+            "name": "2-Way Audio Intercom",
+            "image": "shopify:\/\/shop_images\/112.jpg",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0e9abb267dc24bacaa06c810731a86cf.mp4"
+          }
+        },
+        "tab-3": {
+          "type": "tab_item",
+          "settings": {
+            "name": "Enhance Night Vision",
+            "image": "shopify:\/\/shop_images\/114_d853b32c-c43e-43f1-8285-ab59427b0dd6.jpg",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/474dba233f0d4ee7b98079840ce67f13.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "tab-1",
+        "tab-2",
+        "tab-3"
+      ],
+      "settings": {
+        "title": "Clear & Color, Even at Night or from Afar",
+        "description": "With 5-megapixel resolution and built-in spotlights, this smart IP camera keeps recording in full color day and night. Even better, you can zoom in optically to find more details."
+      }
+    },
+    "image-text-2": {
+      "type": "kawa-image-text",
+      "blocks": {
+        "image-text-item-1": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/P1_429a41fd-6fe5-42f2-8b26-4c6f49be1172.jpg",
+            "title": "Get Notified Anywhere",
+            "content": "Get instant notifications from your phone every time your baby is awake or fussy, or when the room temperature is out of the normal range."
+          }
+        },
+        "image-text-item-2": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/A9-300-2_cd7b645a-dc3e-45bf-9843-26e965c59b74.jpg",
+            "title": "Gain Peace of Mind at",
+            "content": "The base glows green to indicate that     your baby is doing fine. A sound and a red light from the base lets you know tha        on your baby."
+          }
+        },
+        "image-text-item-3": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7-1.jpg",
+            "title": "Get Notified Anywhere",
+            "content": "Get instant notifications from your phone every time your baby is awake or fussy, or when the room temperature is out of the normal range."
+          }
+        },
+        "image-text-item-4": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_0c177200-5d73-4bd2-a65c-e1b504825a46.jpg",
+            "title": "Gain Peace of Mind at a",
+            "content": "The base glows green to indicate that your baby is doing fine. A sound and a red light from the base lets you know that you should check on your baby."
+          }
+        }
+      },
+      "block_order": [
+        "image-text-item-1",
+        "image-text-item-2",
+        "image-text-item-3",
+        "image-text-item-4"
+      ],
+      "settings": {
+      }
+    },
+    "product-comparison": {
+      "type": "kawa-product-comparison",
+      "settings": {
+        "title": "Product Comparison",
+        "product_1": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6",
+        "product_2": "kawa-5-720p-hd-display-video-baby-monitor-with-night-vision-temperature-sensor-2-way-audio-pan-tilt-zoom-white-noise-lullaby-20-hours-battery-1000ft-range",
+        "product_desc_1": "<p>Sleep tracking and insights<br>(Sleep time, heart rate, movements, history analysis)<\/p><p>Prompts when uncomfortable sleep is detected<\/p><p>2K video and night vision<\/p><p>330° pan, 110° tilt<\/p><p>Room temperature and sound notifications<\/p><p>Two-way talk<\/p><p>5\" touchscreen<\/p><p>Livestream on display and app<\/p><p>Real-time sleep data on display and app<\/p><p>Smart alerts on display and app<\/p>",
+        "product_desc_2": "<p>Sleep tracking and insights<br>(Sleep time, heart rate, movements, history analysis)<\/p><p>Prompts when uncomfortable sleep is detected<\/p><p>2K video and night vision<\/p><p>330° pan, 110° tilt<\/p><p>Room temperature and sound notifications<\/p><p>Two-way talk<\/p><p>LED indicators on baby's status<\/p><p>Livestream on app<\/p><p>Real-time sleep data on app<br> <\/p><p>Smart alerts on app<\/p>"
+      }
+    },
+    "specifications": {
+      "type": "kawa-product-specifications",
+      "settings": {
+        "title": "Specs"
+      }
+    },
+    "faq": {
+      "type": "kawa-faq",
+      "blocks": {
+        "faq-1": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Is eufy Baby Smart Sock safe for my baby?",
+            "solution": "Yes, eufy Baby Smart Sock is safe for daily use with your baby when used as instructed. The sensor tracks your baby's sleep via light reflections (PPG technology) and baby's movements. The sock uses high-quality fabric that wraps comfortably on your baby's feet. All components of the smart sock are carefully selected and manufactured with quality in mind. We have collaborated with parents like you and engaged in rigorous tests to make sure the sock is safe for all."
+          }
+        },
+        "faq-2": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Does the device generate any radio emmisions that would harm my baby?",
+            "solution": "Smart Sock is not harmful to the baby as it has been tested and meets the applicable limits for radio frequency (RF) exposure. The sock connects with the base periodically via Bluetooth Low Energy 5.0 (2.4GHz) that has low power output. The base and camera connect to your phone via Wi-Fi like any other Wi-Fi-connected devices in your room."
+          }
+        },
+        "faq-3": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Will Smart Sock cause a choking hazard to my baby?",
+            "solution": "Smart Sock is safe for your baby and meets the safety standards. As a precaution, keep the sock sensor away from your baby's mouth."
+          }
+        },
+        "faq-4": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How many sock sizes are included in the box?",
+            "solution": "Smart Sock comes in 3 sizes that fit most children up to 18 months old or weigh up to 30 lb. All sizes are symmetrical and can be worn on either foot.."
+          }
+        }
+      },
+      "block_order": [
+        "faq-1",
+        "faq-2",
+        "faq-3",
+        "faq-4"
+      ],
+      "settings": {
+        "title": "FAQ"
+      }
+    },
+    "phone-preview": {
+      "type": "kawa-phone-preview",
+      "disabled": true,
+      "settings": {
+        "img_width": 340,
+        "img_height": 616
+      }
+    },
+    "product-buy": {
+      "type": "kawa-product-buy",
+      "settings": {
+      }
+    },
+    "alexa-video": {
+      "type": "kawa-alexa-video",
+      "disabled": true,
+      "settings": {
+        "title": "use alexa",
+        "jump_link": "#",
+        "jump_text": "how to connect alexa",
+        "video_link": "https:\/\/reolink.com\/wp-content\/assets\/banner\/reolink-go-pt-homepage-banner-pc.mp4"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "banner",
+    "video",
+    "carousel-2",
+    "carousel-1",
+    "image-text-1",
+    "video-text",
+    "tabs",
+    "image-text-2",
+    "product-comparison",
+    "specifications",
+    "faq",
+    "phone-preview",
+    "product-buy",
+    "alexa-video"
+  ]
+}
