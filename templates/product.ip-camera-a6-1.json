@@ -57,6 +57,7 @@
       "type": "kawa-preview-video",
       "settings": {
         "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3ea6efc96c5745a79e2f086c33383b12.mp4",
+        "cover_image": "shopify:\/\/shop_images\/cj1013.00_00_02_20.Still001.jpg",
         "max_width": "mw-1300-c",
         "has_border": false
       }
@@ -313,7 +314,8 @@
         "title": "use alexa",
         "jump_link": "#",
         "jump_text": "how to connect alexa",
-        "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/474dba233f0d4ee7b98079840ce67f13.mp4"
+        "cover_image": "shopify:\/\/shop_images\/1013.jpg",
+        "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/d5cfd41bb70f4adb945d711f048c8891.mp4"
       }
     },
     "product-buy": {
