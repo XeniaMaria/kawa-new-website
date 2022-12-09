@@ -123,8 +123,8 @@
     "phone-preview": {
       "type": "kawa-phone-preview",
       "settings": {
-        "img_width": 828,
-        "img_height": 1792,
+        "img_width": 500,
+        "img_height": 1000,
         "phone_simulator": "shopify:\/\/shop_images\/IMG_5215.png",
         "img_1": "shopify:\/\/shop_images\/IMG_5215_289b42de-904d-4955-aba9-f18a1cd73888.png",
         "img_2": "shopify:\/\/shop_images\/IMG_5215_289b42de-904d-4955-aba9-f18a1cd73888.png",
