@@ -11,30 +11,48 @@
             "collection_page": "flash-sale"
           }
         },
+        "df737849-a28d-4beb-9b91-0bca5d691161": {
+          "type": "flash-sale-collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "collection_name": "",
+            "collection_page": ""
+          }
+        },
         "flash-sale-collection-2": {
           "type": "flash-sale-collection",
           "settings": {
             "collection": "baby-monitor",
-            "collection_name": "Baby Monitor"
+            "collection_name": "Baby Monitor",
+            "collection_page": ""
           }
         },
         "flash-sale-collection-3": {
           "type": "flash-sale-collection",
           "settings": {
             "collection": "ipc",
-            "collection_name": "IPC2"
+            "collection_name": "IPC2",
+            "collection_page": ""
           }
         }
       },
-      "block_order": ["flash-sale-collection-1", "flash-sale-collection-2", "flash-sale-collection-3"]
+      "block_order": [
+        "flash-sale-collection-1",
+        "df737849-a28d-4beb-9b91-0bca5d691161",
+        "flash-sale-collection-2",
+        "flash-sale-collection-3"
+      ],
+      "settings": {
+      }
     },
     "flash-sale-banner": {
       "type": "kawa-flash-sale-banner",
       "settings": {
-        "bg_image": "shopify://shop_images/carousel-item-one.webp",
+        "bg_image": "shopify:\/\/shop_images\/carousel-item-one.webp",
         "subtitle": "Your Portable, Wire-Free and Hassle-Free Security Solution!",
         "title": "Battery-Powered Security Cameras",
-        "des": "Battery operated security cameras are usually 100% wire-free cameras (from top to bottom). Require no other power, no cords, no wiring!So you easily move your Reolink 100% wireless battery security camera anywhere, and set it up in minutes. Keep an HD eye on your home from anywhere using your phone or computer.Wire-free outdoor security cameras from Reolink are also solar-powered ones. Connect your camera to a solar panel so it provides enough juice for day & night monitoring, with starlight or high-quality infrared night vision. Achieve peace of mind while saving your money."
+        "des": "Battery operated security cameras are usually 100% wire-free cameras (from top to bottom). Require no other power, no cords, no wiring!So you easily move your Reolink 100% wireless battery security camera anywhere, and set it up in minutes. Keep an HD eye on your home from anywhere using your phone or computer.Wire-free outdoor security cameras from Reolink are also solar-powered ones. Connect your camera to a solar panel so it provides enough juice for day &amp; night monitoring, with starlight or high-quality infrared night vision. Achieve peace of mind while saving your money."
       }
     },
     "flash-sale-1": {
@@ -44,18 +62,24 @@
           "type": "flash-sale-product",
           "settings": {
             "product": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6",
-            "product_tags": "Dual Lens,Person/Vehicle Detection,180° View (Horizontal),4K Ultra HD"
+            "product_tags": "Dual Lens,Person\/Vehicle Detection,180° View (Horizontal),4K Ultra HD"
           }
         },
         "flash-sale-product-2": {
           "type": "flash-sale-product",
+          "disabled": true,
           "settings": {
             "product": "kawa-5-720p-hd-display-video-baby-monitor-with-night-vision-temperature-sensor-2-way-audio-pan-tilt-zoom-white-noise-lullaby-20-hours-battery-1000ft-range",
-            "product_tags": "4G LTE,Person/Vehicle Detection,Battery/Solar Powered,IP66 Waterproof"
+            "product_tags": "4G LTE,Person\/Vehicle Detection,Battery\/Solar Powered,IP66 Waterproof"
           }
         }
       },
-      "block_order": ["flash-sale-product-1", "flash-sale-product-2"]
+      "block_order": [
+        "flash-sale-product-1",
+        "flash-sale-product-2"
+      ],
+      "settings": {
+      }
     },
     "flash-sale-2": {
       "type": "kawa-flash-sale",
@@ -64,32 +88,31 @@
           "type": "flash-sale-product",
           "settings": {
             "product": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6",
-            "product_tags": "Dual Lens,Person/Vehicle Detection,180° View (Horizontal),4K Ultra HD"
+            "product_tags": "Dual Lens,Person\/Vehicle Detection,180° View (Horizontal),4K Ultra HD"
           }
         },
         "flash-sale-product-2": {
           "type": "flash-sale-product",
           "settings": {
             "product": "kawa-3mp-ip-camera-video-wifi-surveillance-cameras-indoor-security-cam-smart-home-baby-monitor-tracking-audio-alexa",
-            "product_tags": "Dual Lens,Person/Vehicle Detection,180° View (Horizontal),4K Ultra HD"
+            "product_tags": "Dual Lens,Person\/Vehicle Detection,180° View (Horizontal),4K Ultra HD"
           }
         }
       },
-      "block_order": ["flash-sale-product-1", "flash-sale-product-2"]
+      "block_order": [
+        "flash-sale-product-1",
+        "flash-sale-product-2"
+      ],
+      "settings": {
+      }
     },
     "flash-sale-ad": {
       "type": "kawa-flash-sale-ad",
-      "settings": {
-        "bg_image": "shopify://shop_images/shop-ad-bg.png",
-        "title": "Why Pick Dual-Lens Security Cameras?",
-        "description": "Kawa Duo Series security cameras equipped with two lenses allow you to see a much broader world with less distortion. Reolink TrackMix Series cameras are equipped with a telephoto lens and a wide-angle lens, providing wide-angle view and close-up view synchronously on the screen. It can also automatically track and zoom in on the detected objects.",
-        "tips": "* Please go to the specific product page for details."
-      },
       "blocks": {
         "ad-block-1": {
           "type": "ad-block",
           "settings": {
-            "ad-icon": "<span class=\"iconify\" data-icon=\"icon-park-outline:camera-two\"></span>",
+            "ad-icon": "<span class=\"iconify\" data-icon=\"icon-park-outline:camera-two\"><\/span>",
             "ad-title": "Dual-Lens",
             "ad-description": "Dual-Lens With one more high-tech lens, these dual cameras either cover larger surveillance areas or offer more advanced tracking modes. Keep everything under your control."
           }
@@ -97,7 +120,7 @@
         "ad-block-2": {
           "type": "ad-block",
           "settings": {
-            "ad-icon": "<span class=\"iconify\" data-icon=\"humbleicons:eye-close\"></span>",
+            "ad-icon": "<span class=\"iconify\" data-icon=\"humbleicons:eye-close\"><\/span>",
             "ad-title": "Wide Viewing Angle",
             "ad-description": "Equipped with two lenses, these cameras provide you with a wide field of view. You can cover more areas and explore more details."
           }
@@ -105,7 +128,7 @@
         "ad-block-3": {
           "type": "ad-block",
           "settings": {
-            "ad-icon": "<span class=\"iconify\" data-icon=\"bi:badge-4k-fill\"></span>",
+            "ad-icon": "<span class=\"iconify\" data-icon=\"bi:badge-4k-fill\"><\/span>",
             "ad-title": "Super HD",
             "ad-description": "These wide angle IP cameras feature up to 8MP resolution and show you clear, crisp images and videos. You can view everything with more colors, more sharpness and more fun."
           }
@@ -113,15 +136,15 @@
         "ad-block-4": {
           "type": "ad-block",
           "settings": {
-            "ad-icon": "<span class=\"iconify\" data-icon=\"akar-icons:moon\"></span>",
+            "ad-icon": "<span class=\"iconify\" data-icon=\"akar-icons:moon\"><\/span>",
             "ad-title": "Color Night Vision",
-            "ad-description": "With infrared lights and powerful spotlights, these cameras show you everything in full color and keep your home and business 24/7 guarded."
+            "ad-description": "With infrared lights and powerful spotlights, these cameras show you everything in full color and keep your home and business 24\/7 guarded."
           }
         },
         "ad-block-5": {
           "type": "ad-block",
           "settings": {
-            "ad-icon": "<span class=\"iconify\" data-icon=\"bi:badge-4k-fill\"></span>",
+            "ad-icon": "<span class=\"iconify\" data-icon=\"bi:badge-4k-fill\"><\/span>",
             "ad-title": "Super HD",
             "ad-description": "These wide angle IP cameras feature up to 8MP resolution and show you clear, crisp images and videos. You can view everything with more colors, more sharpness and more fun."
           }
@@ -129,19 +152,29 @@
         "ad-block-6": {
           "type": "ad-block",
           "settings": {
-            "ad-icon": "<span class=\"iconify\" data-icon=\"akar-icons:moon\"></span>",
+            "ad-icon": "<span class=\"iconify\" data-icon=\"akar-icons:moon\"><\/span>",
             "ad-title": "Color Night Vision",
-            "ad-description": "With infrared lights and powerful spotlights, these cameras show you everything in full color and keep your home and business 24/7 guarded."
+            "ad-description": "With infrared lights and powerful spotlights, these cameras show you everything in full color and keep your home and business 24\/7 guarded."
           }
         }
       },
-      "block_order": ["ad-block-1", "ad-block-2", "ad-block-3", "ad-block-4", "ad-block-5", "ad-block-6"]
+      "block_order": [
+        "ad-block-1",
+        "ad-block-2",
+        "ad-block-3",
+        "ad-block-4",
+        "ad-block-5",
+        "ad-block-6"
+      ],
+      "settings": {
+        "bg_image": "shopify:\/\/shop_images\/shop-ad-bg.png",
+        "title": "Why Pick Dual-Lens Security Cameras?",
+        "description": "Kawa Duo Series security cameras equipped with two lenses allow you to see a much broader world with less distortion. Reolink TrackMix Series cameras are equipped with a telephoto lens and a wide-angle lens, providing wide-angle view and close-up view synchronously on the screen. It can also automatically track and zoom in on the detected objects.",
+        "tips": "* Please go to the specific product page for details."
+      }
     },
     "flash-sale-comment": {
       "type": "kawa-flash-sale-comment",
-      "settings": {
-        "title": "Trusted by Hundreds of Thousands of Users"
-      },
       "blocks": {
         "comment-1": {
           "type": "comment",
@@ -174,21 +207,25 @@
           }
         }
       },
-      "block_order": ["comment-1", "comment-2", "comment-3"]
+      "block_order": [
+        "comment-1",
+        "comment-2",
+        "comment-3"
+      ],
+      "settings": {
+        "title": "Trusted by Hundreds of Thousands of Users"
+      }
     },
     "flash-sale-explore": {
       "type": "kawa-flash-sale-explore",
-      "settings": {
-        "title": "Explore Other Categories"
-      },
       "blocks": {
         "flash-sale-collection-1": {
           "type": "flash-sale-collection",
           "settings": {
             "collection": "ipc",
             "collection_name": "IPC",
-            "collection_image": "shopify://shop_images/collection-one.webp",
-            "collection_image_mb": "shopify://shop_images/carousel-item-one.webp",
+            "collection_image": "shopify:\/\/shop_images\/collection-one.webp",
+            "collection_image_mb": "shopify:\/\/shop_images\/carousel-item-one.webp",
             "collection_page": "flash-sale"
           }
         },
@@ -197,8 +234,9 @@
           "settings": {
             "collection": "baby-monitor",
             "collection_name": "Baby Monitor",
-            "collection_image": "shopify://shop_images/collection-2.webp",
-            "collection_image_mb": "shopify://shop_images/carousel-item-two.webp"
+            "collection_image": "shopify:\/\/shop_images\/collection-2.webp",
+            "collection_image_mb": "shopify:\/\/shop_images\/carousel-item-two.webp",
+            "collection_page": ""
           }
         },
         "flash-sale-collection-3": {
@@ -206,12 +244,20 @@
           "settings": {
             "collection": "ipc",
             "collection_name": "IPC2",
-            "collection_image": "shopify://shop_images/collection-three.webp",
-            "collection_image_mb": "shopify://shop_images/carousel-item-one.webp"
+            "collection_image": "shopify:\/\/shop_images\/collection-three.webp",
+            "collection_image_mb": "shopify:\/\/shop_images\/carousel-item-one.webp",
+            "collection_page": ""
           }
         }
       },
-      "block_order": ["flash-sale-collection-1", "flash-sale-collection-2", "flash-sale-collection-3"]
+      "block_order": [
+        "flash-sale-collection-1",
+        "flash-sale-collection-2",
+        "flash-sale-collection-3"
+      ],
+      "settings": {
+        "title": "Explore Other Categories"
+      }
     }
   },
   "order": [

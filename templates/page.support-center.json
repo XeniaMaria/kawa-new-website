@@ -3,35 +3,33 @@
     "search": {
       "type": "kawa-support-center-search",
       "settings": {
-        "bg_image": "shopify://shop_images/carousel-item-two.webp",
+        "bg_image": "shopify:\/\/shop_images\/54dd5e6c4120c0d1e3659735609d1a86.jpg",
         "title": "Support Center"
       }
     },
     "service": {
       "type": "kawa-support-center-service",
-      "settings": {
-        "title": "Popular service"
-      },
       "blocks": {
         "service-1": {
           "type": "service",
           "settings": {
+            "service_page": "product-video",
             "service_title": "Product videos",
-            "service_des": "Find information about ordering Reolink online, shipping, returns and more.",
-            "service_page": "product-video"
+            "service_des": "Find information about ordering Reolink online, shipping, returns and more."
           }
         },
         "service-2": {
           "type": "service",
           "settings": {
+            "service_page": "manual-download",
             "service_title": "Manual & Download",
-            "service_des": "Handy tutorials to help you quickly set up and use your Reolink.",
-            "service_page": "manual-download"
+            "service_des": "Handy tutorials to help you quickly set up and use your Reolink."
           }
         },
         "service-3": {
           "type": "service",
           "settings": {
+            "service_page": "",
             "service_title": "Troubleshooting",
             "service_des": "Having issues with your Reolink? Get quick answers to common device issues."
           }
@@ -39,14 +37,65 @@
         "service-4": {
           "type": "service",
           "settings": {
+            "service_page": "faqs",
             "service_title": "FAQs",
-            "service_des": "Quick answers to frequently asked questions about Reolink products.",
-            "service_page": "FAQs"
+            "service_des": "Quick answers to frequently asked questions about Reolink products."
+          }
+        },
+        "9059afbc-2f3c-4214-a1e1-ab9f3e5800a9": {
+          "type": "service",
+          "disabled": true,
+          "settings": {
+            "service_page": "",
+            "service_title": "",
+            "service_des": ""
+          }
+        },
+        "c381a2e2-1ef4-434b-be60-775e32480139": {
+          "type": "service",
+          "disabled": true,
+          "settings": {
+            "service_page": "",
+            "service_title": "",
+            "service_des": ""
+          }
+        },
+        "6b23e498-e668-4fdc-9485-667352a2aee6": {
+          "type": "service",
+          "disabled": true,
+          "settings": {
+            "service_page": "",
+            "service_title": "",
+            "service_des": ""
+          }
+        },
+        "2a1f6e59-0c73-4124-b993-8ba3f0a7eebb": {
+          "type": "service",
+          "disabled": true,
+          "settings": {
+            "service_page": "",
+            "service_title": "",
+            "service_des": ""
           }
         }
       },
-      "block_order": ["service-1", "service-2", "service-3", "service-4"]
+      "block_order": [
+        "service-1",
+        "service-2",
+        "service-3",
+        "service-4",
+        "9059afbc-2f3c-4214-a1e1-ab9f3e5800a9",
+        "c381a2e2-1ef4-434b-be60-775e32480139",
+        "6b23e498-e668-4fdc-9485-667352a2aee6",
+        "2a1f6e59-0c73-4124-b993-8ba3f0a7eebb"
+      ],
+      "settings": {
+        "title": "Popular service"
+      }
     }
   },
-  "order": ["search", "service"]
+  "order": [
+    "search",
+    "service"
+  ]
 }
