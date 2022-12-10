@@ -2,51 +2,61 @@
   "sections": {
     "product-video-blocks": {
       "type": "kawa-product-video-blocks",
-      "settings": {
-        "title": "Get help for your product"
-      },
       "blocks": {
         "product-block-1": {
           "type": "product-block",
           "settings": {
-            "block_title": "Battery-Powered Security Cameras",
-            "block_img": "shopify://shop_images/battery.png",
+            "block_title": "IP Camera A6",
+            "block_img": "shopify:\/\/shop_images\/1.jpg",
             "block_page": "baby-monitor"
           }
         },
         "product-block-2": {
           "type": "product-block",
           "settings": {
-            "block_title": "Dual-Lens Security Cameras",
-            "block_img": "shopify://shop_images/battery.png"
+            "block_title": "Dash Cam D6",
+            "block_img": "shopify:\/\/shop_images\/1_3.jpg",
+            "block_page": ""
           }
         },
         "product-block-3": {
           "type": "product-block",
           "settings": {
-            "block_title": "PoE IP Cameras & NVRs",
-            "block_img": "shopify://shop_images/battery.png"
+            "block_title": "Baby Monitor S7",
+            "block_img": "shopify:\/\/shop_images\/1002.jpg",
+            "block_page": ""
           }
         },
         "product-block-4": {
           "type": "product-block",
           "settings": {
-            "block_title": "WiFi Security Cameras",
-            "block_img": "shopify://shop_images/battery.png"
-          }
-        },
-        "product-block-5": {
-          "type": "product-block",
-          "settings": {
-            "block_title": "Video Doorbells",
-            "block_img": "shopify://shop_images/battery.png"
+            "block_title": "Baby Monitor S6",
+            "block_img": "shopify:\/\/shop_images\/1_f90c05a5-f3fd-406b-8143-6d70dd59828e.jpg",
+            "block_page": ""
           }
         },
         "product-block-6": {
           "type": "product-block",
           "settings": {
-            "block_title": "Accessories",
-            "block_img": "shopify://shop_images/battery.png"
+            "block_title": "Crib Support",
+            "block_img": "shopify:\/\/shop_images\/22.jpg",
+            "block_page": ""
+          }
+        },
+        "product-block-5": {
+          "type": "product-block",
+          "settings": {
+            "block_title": "Micro SD Card 64GB",
+            "block_img": "shopify:\/\/shop_images\/1_4.jpg",
+            "block_page": ""
+          }
+        },
+        "32aae11f-2734-4f84-ad55-7bfa23103394": {
+          "type": "product-block",
+          "settings": {
+            "block_title": "Hardwire Kit",
+            "block_img": "shopify:\/\/shop_images\/2_2.jpg",
+            "block_page": ""
           }
         }
       },
@@ -55,10 +65,16 @@
         "product-block-2",
         "product-block-3",
         "product-block-4",
+        "product-block-6",
         "product-block-5",
-        "product-block-6"
-      ]
+        "32aae11f-2734-4f84-ad55-7bfa23103394"
+      ],
+      "settings": {
+        "title": "Get help for your product"
+      }
     }
   },
-  "order": ["product-video-blocks"]
+  "order": [
+    "product-video-blocks"
+  ]
 }
