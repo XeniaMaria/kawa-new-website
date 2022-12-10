@@ -225,7 +225,7 @@
         "tab-1": {
           "type": "tab_item",
           "settings": {
-            "name": "4X Zoom",
+            "name": "Day",
             "image": "shopify:\/\/shop_images\/1005_1e26c7b5-93e7-46b8-9e75-1a8c795a2da8.jpg",
             "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2b735d4eac8c4381a4bc20aa4ce9903e.mp4"
           }
@@ -233,7 +233,7 @@
         "tab-2": {
           "type": "tab_item",
           "settings": {
-            "name": "2-Way Audio Intercom",
+            "name": "Night",
             "image": "shopify:\/\/shop_images\/1005_881c78a0-fcab-47cf-9a54-1d0786522060.jpg",
             "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4fd0bd0eaece4443882eb7ecc46f71c1.mp4"
           }
@@ -241,7 +241,7 @@
         "tab-3": {
           "type": "tab_item",
           "settings": {
-            "name": "Enhance Night Vision",
+            "name": "Voice Control",
             "image": "shopify:\/\/shop_images\/1005_68b9de81-0633-4fc2-b9c6-d8f8d1a001dd.jpg",
             "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/aba06c5ec87a4a819349b2639883c73f.mp4"
           }
@@ -343,7 +343,7 @@
         "jump_link": "#",
         "jump_text": "how to connect alexa",
         "cover_image": "shopify:\/\/shop_images\/317F357E-7C16-44ae-89EB-59D87FEE2951.png",
-        "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/474dba233f0d4ee7b98079840ce67f13.mp4"
+        "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e37d71a3a79a45459c45965d719f565a.mp4"
       }
     },
     "product-buy": {
