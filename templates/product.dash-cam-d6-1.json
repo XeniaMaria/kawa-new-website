@@ -120,71 +120,13 @@
       "settings": {
       }
     },
-    "image-text-2": {
-      "type": "kawa-image-text",
-      "blocks": {
-        "image-text-item-1": {
-          "type": "image_text",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1013-300_1_d7a211be-562b-4e58-97c1-967b3010c060.jpg",
-            "title": "Get Notified Anywhere",
-            "content": "Get instant notifications from your phone every time your baby is awake or fussy, or when the room temperature is out of the normal range."
-          }
-        },
-        "image-text-item-2": {
-          "type": "image_text",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2_c694b4b5-d280-4187-9485-5f1223fc3859.jpg",
-            "title": "Gain Peace of Mind at",
-            "content": "The base glows green to indicate that     your baby is doing fine. A sound and a red light from the base lets you know tha        on your baby."
-          }
-        },
-        "image-text-item-3": {
-          "type": "image_text",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/4_6b2dc2ba-aac8-4e19-aca4-12c41e2a8a3c.jpg",
-            "title": "Get Notified Anywhere",
-            "content": "Get instant notifications from your phone every time your baby is awake or fussy, or when the room temperature is out of the normal range."
-          }
-        },
-        "image-text-item-4": {
-          "type": "image_text",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1_ffa151fe-8a52-4d04-92bf-3a4850627f95.jpg",
-            "title": "Gain Peace of Mind at a",
-            "content": "The base glows green to indicate that your baby is doing fine. A sound and a red light from the base lets you know that you should check on your baby."
-          }
-        }
-      },
-      "block_order": [
-        "image-text-item-1",
-        "image-text-item-2",
-        "image-text-item-3",
-        "image-text-item-4"
-      ],
-      "settings": {
-      }
-    },
     "351b63f1-e016-469c-a58b-b3e8b2c342a5": {
       "type": "kawa-image-text",
       "blocks": {
         "template--15917345144992__351b63f1-e016-469c-a58b-b3e8b2c342a5-1670556217e8b1e688-0": {
           "type": "image_text",
           "settings": {
-            "title": "",
-            "content": ""
-          }
-        },
-        "template--15917345144992__351b63f1-e016-469c-a58b-b3e8b2c342a5-1670556217e8b1e688-1": {
-          "type": "image_text",
-          "settings": {
-            "title": "",
-            "content": ""
-          }
-        },
-        "template--15917345144992__351b63f1-e016-469c-a58b-b3e8b2c342a5-1670556217e8b1e688-2": {
-          "type": "image_text",
-          "settings": {
+            "image": "shopify:\/\/shop_images\/aaa.jpg",
             "title": "",
             "content": ""
           }
@@ -192,6 +134,7 @@
         "template--15917345144992__351b63f1-e016-469c-a58b-b3e8b2c342a5-1670556217e8b1e688-3": {
           "type": "image_text",
           "settings": {
+            "image": "shopify:\/\/shop_images\/aaa2.jpg",
             "title": "",
             "content": ""
           }
@@ -199,9 +142,79 @@
       },
       "block_order": [
         "template--15917345144992__351b63f1-e016-469c-a58b-b3e8b2c342a5-1670556217e8b1e688-0",
-        "template--15917345144992__351b63f1-e016-469c-a58b-b3e8b2c342a5-1670556217e8b1e688-1",
-        "template--15917345144992__351b63f1-e016-469c-a58b-b3e8b2c342a5-1670556217e8b1e688-2",
         "template--15917345144992__351b63f1-e016-469c-a58b-b3e8b2c342a5-1670556217e8b1e688-3"
+      ],
+      "settings": {
+      }
+    },
+    "image-text-2": {
+      "type": "kawa-image-text",
+      "blocks": {
+        "image-text-item-1": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/a_4ebf2d16-b3b8-4a30-8d51-50be4737cc42.jpg",
+            "title": "Get Notified Anywhere",
+            "content": "Get instant notifications from your phone every time your baby is awake or fussy, or when the room temperature is out of the normal range."
+          }
+        },
+        "image-text-item-2": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/b.jpg",
+            "title": "Gain Peace of Mind at",
+            "content": "The base glows green to indicate that     your baby is doing fine. A sound and a red light from the base lets you know tha        on your baby."
+          }
+        },
+        "image-text-item-3": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/c.jpg",
+            "title": "Get Notified Anywhere",
+            "content": "Get instant notifications from your phone every time your baby is awake or fussy, or when the room temperature is out of the normal range."
+          }
+        }
+      },
+      "block_order": [
+        "image-text-item-1",
+        "image-text-item-2",
+        "image-text-item-3"
+      ],
+      "settings": {
+      }
+    },
+    "b5574955-4e4a-4d4c-8849-d1adf0874599": {
+      "type": "kawa-image-text",
+      "blocks": {
+        "template--15917345144992__b5574955-4e4a-4d4c-8849-d1adf0874599-167064044697626061-0": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/d.jpg",
+            "title": "",
+            "content": ""
+          }
+        },
+        "template--15917345144992__b5574955-4e4a-4d4c-8849-d1adf0874599-167064044697626061-1": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/e.jpg",
+            "title": "",
+            "content": ""
+          }
+        },
+        "template--15917345144992__b5574955-4e4a-4d4c-8849-d1adf0874599-167064044697626061-2": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/f.jpg",
+            "title": "",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15917345144992__b5574955-4e4a-4d4c-8849-d1adf0874599-167064044697626061-0",
+        "template--15917345144992__b5574955-4e4a-4d4c-8849-d1adf0874599-167064044697626061-1",
+        "template--15917345144992__b5574955-4e4a-4d4c-8849-d1adf0874599-167064044697626061-2"
       ],
       "settings": {
       }
@@ -347,8 +360,9 @@
     "video",
     "carousel-1",
     "image-text-1",
-    "image-text-2",
     "351b63f1-e016-469c-a58b-b3e8b2c342a5",
+    "image-text-2",
+    "b5574955-4e4a-4d4c-8849-d1adf0874599",
     "tabs",
     "phone-preview",
     "video-text",
