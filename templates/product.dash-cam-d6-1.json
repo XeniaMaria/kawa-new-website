@@ -260,8 +260,8 @@
     "phone-preview": {
       "type": "kawa-phone-preview",
       "settings": {
-        "img_width": 340,
-        "img_height": 616,
+        "img_width": 310,
+        "img_height": 700,
         "img_1": "shopify:\/\/shop_images\/05_2.jpg",
         "img_2": "shopify:\/\/shop_images\/05_1.jpg",
         "img_3": "shopify:\/\/shop_images\/05_3.jpg"
