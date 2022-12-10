@@ -131,7 +131,8 @@
     "kawa-preview-video": {
       "type": "kawa-preview-video",
       "settings": {
-        "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/fd5bb78358954e02a5d6013bae20fefc.mp4",
+        "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3ea6efc96c5745a79e2f086c33383b12.mp4",
+        "cover_image": "shopify:\/\/shop_images\/cj1013.00_00_02_20.Still001.jpg",
         "max_width": "mw-1200-c",
         "has_border": true
       }
@@ -275,6 +276,7 @@
     },
     "kawa-news": {
       "type": "kawa-news",
+      "disabled": true,
       "blocks": {
         "news-block-1": {
           "type": "news-block",
@@ -309,6 +311,20 @@
       "settings": {
         "title": "Subscribe to our emails"
       }
+    },
+    "0acc6788-02de-42b8-9377-72379f169d96": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "heading": "Video",
+        "heading_size": "h1",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -320,6 +336,7 @@
     "kawa-choose-reason",
     "kawa-smart-home",
     "kawa-news",
-    "kawa-email-subscribe"
+    "kawa-email-subscribe",
+    "0acc6788-02de-42b8-9377-72379f169d96"
   ]
 }
