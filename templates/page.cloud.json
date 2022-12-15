@@ -3,10 +3,10 @@
     "single-img-text-1": {
       "type": "kawa-single-img-text",
       "settings": {
-        "pc_img": "shopify://shop_images/carousel-item-one.webp",
-        "mobile_img": "shopify://shop_images/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg",
-        "title": "Kawa Cloud",
-        "content": "Save Your Moments Easily and Safely",
+        "pc_img": "shopify:\/\/shop_images\/fash_a14109fe-9504-4ad0-a090-8afb0b09ffbf.jpg",
+        "mobile_img": "shopify:\/\/shop_images\/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg",
+        "title": "",
+        "content": "",
         "text_pos": "center",
         "text_color": "white"
       }
@@ -14,8 +14,8 @@
     "single-img-text-2": {
       "type": "kawa-single-img-text",
       "settings": {
-        "pc_img": "shopify://shop_images/carousel-item-one.webp",
-        "mobile_img": "shopify://shop_images/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg",
+        "pc_img": "shopify:\/\/shop_images\/carousel-item-one.webp",
+        "mobile_img": "shopify:\/\/shop_images\/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg",
         "title": "Kawa Cloud",
         "content": "Noorio Cloud uses 128-bit AES Encryption and TLS to encrypt transmission channels. Store your essential information on Amazon servers in North America, with the highest standards of security and reliability. Whether uploading or replaying, it is always confidential.",
         "text_pos": "top",
@@ -25,8 +25,8 @@
     "single-img-text-3": {
       "type": "kawa-single-img-text",
       "settings": {
-        "pc_img": "shopify://shop_images/carousel-item-one.webp",
-        "mobile_img": "shopify://shop_images/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg",
+        "pc_img": "shopify:\/\/shop_images\/carousel-item-one.webp",
+        "mobile_img": "shopify:\/\/shop_images\/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg",
         "title": "Your Privacy Will Be Well Protected",
         "content": "Noorio Cloud uses 128-bit AES Encryption and TLS to encrypt transmission channels. Store your essential information on Amazon servers in North America, with the highest standards of security and reliability. Whether uploading or replaying, it is always confidential.",
         "text_pos": "top",
@@ -35,20 +35,17 @@
     },
     "cloud-commodity": {
       "type": "kawa-cloud-commodity",
-      "settings": {
-        "title": "Subscribe to the Plan that Suits You"
-      },
       "blocks": {
         "commodity-item-1": {
           "type": "commodity_item",
           "settings": {
             "title": "Free",
             "desc": "Free for a new device",
-            "orig_price": 4.99,
-            "price": 0.00,
-            "price_color": "#479DEA",
+            "orig_price": 5.0,
+            "price": 0,
+            "price_color": "#479dea",
             "duration": "month",
-            "detail": "<div>Sign up for free</div><div>Free for 30 days</div><div>Cannot switch devices</div>"
+            "detail": "<div>Sign up for free<\/div><div>Free for 30 days<\/div><div>Cannot switch devices<\/div>"
           }
         },
         "commodity-item-2": {
@@ -56,11 +53,11 @@
           "settings": {
             "title": "Monthly",
             "desc": "Service Content",
-            "orig_price": 4.99,
-            "price": 2.99,
-            "price_color": "#56B85D",
+            "orig_price": 5.0,
+            "price": 3.0,
+            "price_color": "#56b85d",
             "duration": "month",
-            "detail": "<div>2K Maximum Video Resolution</div><div>30-Day Video History</div><div>1 Camera Supported</div><div>Support Device Switching</div>"
+            "detail": "<div>2K Maximum Video Resolution<\/div><div>30-Day Video History<\/div><div>1 Camera Supported<\/div><div>Support Device Switching<\/div>"
           }
         },
         "commodity-item-3": {
@@ -68,11 +65,11 @@
           "settings": {
             "title": "Annually",
             "desc": "Service Content",
-            "orig_price": 4.99,
-            "price": 29.99,
-            "price_color": "#E68B49",
+            "orig_price": 5.0,
+            "price": 30.0,
+            "price_color": "#e68b49",
             "duration": "annual",
-            "detail": "<div>2K Maximum Video Resolution</div><div>30-Day Video History</div><div>1 Camera Supported</div><div>Support Device Switching</div>"
+            "detail": "<div>2K Maximum Video Resolution<\/div><div>30-Day Video History<\/div><div>1 Camera Supported<\/div><div>Support Device Switching<\/div>"
           }
         }
       },
@@ -80,7 +77,10 @@
         "commodity-item-1",
         "commodity-item-2",
         "commodity-item-3"
-      ]
+      ],
+      "settings": {
+        "title": "Subscribe to the Plan that Suits You"
+      }
     }
   },
   "order": [

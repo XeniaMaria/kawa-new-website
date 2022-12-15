@@ -5,63 +5,66 @@
       "settings": {
         "title": "Become an Kawa Dealer",
         "content": "Empower your customers with industry-leading portable power stations and clean, reliable energy.",
-        "image": "shopify://shop_images/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg"
+        "image": "shopify:\/\/shop_images\/1_d4c4a94f-a94d-41e6-90a5-05d7b9a193bf.jpg"
       }
     },
     "dealer-carousel": {
       "type": "kawa-dealer-carousel",
-      "settings": {
-        "title": "Explore the Market"
-      },
       "blocks": {
         "carousel-1": {
           "type": "carousel_item",
           "settings": {
             "title": "Marine",
-            "image": "shopify://shop_images/carousel-item-two.webp"
+            "image": "shopify:\/\/shop_images\/carousel-item-two.webp"
           }
         },
         "carousel-2": {
           "type": "carousel_item",
           "settings": {
             "title": "Construction",
-            "image": "shopify://shop_images/carousel-item-two.webp"
+            "image": "shopify:\/\/shop_images\/carousel-item-two.webp"
           }
         },
         "carousel-3": {
           "type": "carousel_item",
           "settings": {
             "title": "Green Energy",
-            "image": "shopify://shop_images/carousel-item-two.webp"
+            "image": "shopify:\/\/shop_images\/carousel-item-two.webp"
           }
         }
       },
-      "block_order": ["carousel-1", "carousel-2", "carousel-3"]
+      "block_order": [
+        "carousel-1",
+        "carousel-2",
+        "carousel-3"
+      ],
+      "settings": {
+        "title": "Explore the Market"
+      }
     },
     "common-image-1": {
       "type": "kawa-common-image",
       "settings": {
         "show_title": false,
-        "image": "shopify://shop_images/dealer-no-title.webp"
+        "title": "",
+        "image": "shopify:\/\/shop_images\/fash.jpg"
       }
     },
     "common-image-2": {
       "type": "kawa-common-image",
       "settings": {
+        "show_title": true,
         "title": "What Do We Offer?",
-        "image": "shopify://shop_images/dealer-offer.webp"
+        "image": "shopify:\/\/shop_images\/dealer-offer.webp"
       }
     },
     "dealer-process": {
       "type": "kawa-dealer-process",
-      "settings": {
-        "title": "How Does the Process Work?"
-      },
       "blocks": {
         "process-step-1": {
           "type": "process_step",
           "settings": {
-            "image": "shopify://shop_images/carousel-item-one.webp",
+            "image": "shopify:\/\/shop_images\/carousel-item-one.webp",
             "title": "Register",
             "sub_title": "Submit Application"
           }
@@ -69,7 +72,6 @@
         "process-step-2": {
           "type": "process_step",
           "settings": {
-            "image": "shopify://shop_images/carousel-item-one.webp",
             "title": "Internal",
             "sub_title": "Verifying Details"
           }
@@ -77,7 +79,7 @@
         "process-step-3": {
           "type": "process_step",
           "settings": {
-            "image": "shopify://shop_images/carousel-item-one.webp",
+            "image": "shopify:\/\/shop_images\/carousel-item-one.webp",
             "title": "We Reach Out",
             "sub_title": "Phone or Email"
           }
@@ -85,7 +87,7 @@
         "process-step-4": {
           "type": "process_step",
           "settings": {
-            "image": "shopify://shop_images/carousel-item-one.webp",
+            "image": "shopify:\/\/shop_images\/carousel-item-one.webp",
             "title": "Agreement",
             "sub_title": "Review Terms"
           }
@@ -93,7 +95,7 @@
         "process-step-5": {
           "type": "process_step",
           "settings": {
-            "image": "shopify://shop_images/carousel-item-one.webp",
+            "image": "shopify:\/\/shop_images\/carousel-item-one.webp",
             "title": "Success!",
             "sub_title": "We Contact You"
           }
@@ -105,7 +107,10 @@
         "process-step-3",
         "process-step-4",
         "process-step-5"
-      ]
+      ],
+      "settings": {
+        "title": "How Does the Process Work?"
+      }
     },
     "dealer-products": {
       "type": "kawa-dealer-products",
@@ -123,7 +128,12 @@
           }
         }
       },
-      "block_order": ["preview-product-1", "preview-product-2"]
+      "block_order": [
+        "preview-product-1",
+        "preview-product-2"
+      ],
+      "settings": {
+      }
     },
     "dealer-form": {
       "type": "kawa-dealer-form",
@@ -133,7 +143,9 @@
       }
     },
     "dealer-footer": {
-      "type": "kawa-dealer-footer"
+      "type": "kawa-dealer-footer",
+      "settings": {
+      }
     }
   },
   "order": [
