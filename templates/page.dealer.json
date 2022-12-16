@@ -102,12 +102,20 @@
             "title": "Baby Monitor",
             "image": "shopify:\/\/shop_images\/01..jpg"
           }
+        },
+        "2a3aec5e-58f1-4a6d-8729-29ce2d88965b": {
+          "type": "carousel_item",
+          "settings": {
+            "title": "2K Dash Cam",
+            "image": "shopify:\/\/shop_images\/05.jpg"
+          }
         }
       },
       "block_order": [
         "carousel-1",
         "carousel-2",
-        "carousel-3"
+        "carousel-3",
+        "2a3aec5e-58f1-4a6d-8729-29ce2d88965b"
       ],
       "settings": {
         "title": "Explore the Market"
