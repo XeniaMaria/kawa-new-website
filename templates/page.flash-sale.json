@@ -1,5 +1,56 @@
 {
   "sections": {
+    "c0ff6eee-df5b-45a5-bc60-4dd3043745be": {
+      "type": "image-banner",
+      "blocks": {
+        "template--15545510002740__c0ff6eee-df5b-45a5-bc60-4dd3043745be-16711703135d4a758b-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--15545510002740__c0ff6eee-df5b-45a5-bc60-4dd3043745be-16711703135d4a758b-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--15545510002740__c0ff6eee-df5b-45a5-bc60-4dd3043745be-16711703135d4a758b-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15545510002740__c0ff6eee-df5b-45a5-bc60-4dd3043745be-16711703135d4a758b-0",
+        "template--15545510002740__c0ff6eee-df5b-45a5-bc60-4dd3043745be-16711703135d4a758b-1",
+        "template--15545510002740__c0ff6eee-df5b-45a5-bc60-4dd3043745be-16711703135d4a758b-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/3000x1500.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "flash-sale-nav": {
       "type": "kawa-flash-sale-nav",
       "blocks": {
@@ -48,8 +99,9 @@
     },
     "flash-sale-banner": {
       "type": "kawa-flash-sale-banner",
+      "disabled": true,
       "settings": {
-        "bg_image": "shopify:\/\/shop_images\/2_7279a7b5-c155-4279-a8b7-e8a1e672a803.jpg",
+        "bg_image": "shopify:\/\/shop_images\/2_4ebae394-364f-4471-b5d0-647a5aada5c3.jpg",
         "subtitle": "",
         "title": "",
         "des": ""
@@ -262,6 +314,7 @@
     }
   },
   "order": [
+    "c0ff6eee-df5b-45a5-bc60-4dd3043745be",
     "flash-sale-nav",
     "flash-sale-banner",
     "flash-sale-1",
