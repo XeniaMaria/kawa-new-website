@@ -8,38 +8,6 @@
         "image": "shopify:\/\/shop_images\/1_d4c4a94f-a94d-41e6-90a5-05d7b9a193bf.jpg"
       }
     },
-    "dealer-carousel": {
-      "type": "kawa-dealer-carousel",
-      "blocks": {
-        "carousel-1": {
-          "type": "carousel_item",
-          "settings": {
-            "title": "Home Security Camera"
-          }
-        },
-        "carousel-2": {
-          "type": "carousel_item",
-          "settings": {
-            "title": "2K Smart Baby Monitor"
-          }
-        },
-        "carousel-3": {
-          "type": "carousel_item",
-          "settings": {
-            "title": "Baby Monitor",
-            "image": "shopify:\/\/shop_images\/carousel-item-two.webp"
-          }
-        }
-      },
-      "block_order": [
-        "carousel-1",
-        "carousel-2",
-        "carousel-3"
-      ],
-      "settings": {
-        "title": "Explore the Market"
-      }
-    },
     "common-image-2": {
       "type": "kawa-common-image",
       "settings": {
@@ -111,6 +79,40 @@
         "title": "How Does the Process Work?"
       }
     },
+    "dealer-carousel": {
+      "type": "kawa-dealer-carousel",
+      "blocks": {
+        "carousel-1": {
+          "type": "carousel_item",
+          "settings": {
+            "title": "Home Security Camera",
+            "image": "shopify:\/\/shop_images\/01..jpg"
+          }
+        },
+        "carousel-2": {
+          "type": "carousel_item",
+          "settings": {
+            "title": "2K Smart Baby Monitor",
+            "image": "shopify:\/\/shop_images\/01..jpg"
+          }
+        },
+        "carousel-3": {
+          "type": "carousel_item",
+          "settings": {
+            "title": "Baby Monitor",
+            "image": "shopify:\/\/shop_images\/01..jpg"
+          }
+        }
+      },
+      "block_order": [
+        "carousel-1",
+        "carousel-2",
+        "carousel-3"
+      ],
+      "settings": {
+        "title": "Explore the Market"
+      }
+    },
     "dealer-products": {
       "type": "kawa-dealer-products",
       "disabled": true,
@@ -164,10 +166,10 @@
   },
   "order": [
     "dealer-banner",
-    "dealer-carousel",
     "common-image-2",
     "common-image-1",
     "dealer-process",
+    "dealer-carousel",
     "dealer-products",
     "dealer-form",
     "dealer-footer"
