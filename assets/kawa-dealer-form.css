@@ -4,6 +4,10 @@
   margin: 0 auto;
 }
 
+.kawa-dealer-form div:empty {
+  display: block;
+}
+
 .kawa-dealer-form .form-wrapper {
   max-width: 838px;
   margin: 0 auto;
@@ -59,7 +63,8 @@
   width: 100%;
 }
 
-.kawa-dealer-form .form-item > input {
+.kawa-dealer-form .form-item > input,
+.kawa-dealer-form .form-item > .iti input {
   width: 100%;
   max-width: 100%;
   border: 1px solid #bec6ca;
@@ -73,8 +78,13 @@
   border-radius: 3px;
   height: 32px;
 }
+.kawa-dealer-form .form-item > .iti input {
+  padding-left: 52px;
+}
 
-.kawa-dealer-form .form-item > input:focus {
+.kawa-dealer-form .form-item > input:focus,
+.kawa-dealer-form .form-item > .iti input:focus-visible,
+.kawa-dealer-form .form-item > .iti input:focus {
   border: 1px solid rgba(59, 140, 255, 0.7);
   outline: none;
 }
@@ -89,7 +99,7 @@
 }
 
 .kawa-dealer-form .company-address-header::before {
-  content: "*";
+  content: '*';
   color: #eb8281;
 }
 
@@ -115,5 +125,9 @@
 @media screen and (max-width: 768px) {
   .kawa-dealer-form .form-item {
     width: 100%;
+  }
+
+  .iti-mobile .iti__country div:empty {
+    display: block;
   }
 }

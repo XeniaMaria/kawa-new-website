@@ -1,5 +1,23 @@
 {{ "kawa-dealer-form.css" | asset_url | stylesheet_tag }}
 
+{{ "intlTelInput.css" | asset_url | stylesheet_tag }}
+
+{% style %}
+  .iti {
+    width: 100%;
+  }
+  .iti__flag {
+    background-image: url('{{ "flags.png" | asset_url }}');
+  }
+
+  @media(-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi) {
+    .iti__flag {
+      background-image: url('{{ "flags@2x.png" | asset_url }}');
+    }
+  }
+{% endstyle %}
+
 <div class="kawa-dealer-form w-1200">
   <div class="form-wrapper">
     <div class="form-header">
@@ -35,7 +53,8 @@
           </div>
           <div class="form-item">
             <input
-              type="text"
+              id="phone"
+              type="tel"
               name="contact[phone]"
               placeholder="*Phone"
               required>
@@ -113,7 +132,15 @@
   </div>
 </div>
 
-<script></script>
+<script src="{{ 'intlTelInput.js' | asset_url }}" defer="defer"></script>
+<script>
+  window.addEventListener("load", () => {
+    const input = document.querySelector(".kawa-dealer-form #phone");
+    console.log("input")
+    console.log(input)
+    window.intlTelInput(input, {});
+  })
+</script>
 
 {% schema %}
   {
