@@ -218,6 +218,7 @@
     },
     "flash-sale-explore": {
       "type": "kawa-flash-sale-explore",
+      "disabled": true,
       "blocks": {
         "flash-sale-collection-1": {
           "type": "flash-sale-collection",
@@ -258,53 +259,6 @@
       "settings": {
         "title": "Explore Other Categories"
       }
-    },
-    "680a1993-f2c5-4533-9a29-44b625df3f21": {
-      "type": "image-banner",
-      "blocks": {
-        "template--15545510002740__680a1993-f2c5-4533-9a29-44b625df3f21-16711557763459f17c-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "template--15545510002740__680a1993-f2c5-4533-9a29-44b625df3f21-16711557763459f17c-1": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "template--15545510002740__680a1993-f2c5-4533-9a29-44b625df3f21-16711557763459f17c-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--15545510002740__680a1993-f2c5-4533-9a29-44b625df3f21-16711557763459f17c-0",
-        "template--15545510002740__680a1993-f2c5-4533-9a29-44b625df3f21-16711557763459f17c-1",
-        "template--15545510002740__680a1993-f2c5-4533-9a29-44b625df3f21-16711557763459f17c-2"
-      ],
-      "settings": {
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
     }
   },
   "order": [
@@ -314,7 +268,6 @@
     "flash-sale-2",
     "flash-sale-ad",
     "flash-sale-comment",
-    "flash-sale-explore",
-    "680a1993-f2c5-4533-9a29-44b625df3f21"
+    "flash-sale-explore"
   ]
 }
