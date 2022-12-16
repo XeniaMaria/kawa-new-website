@@ -39,7 +39,7 @@
         "process-step-2": {
           "type": "process_step",
           "settings": {
-            "image": "shopify:\/\/shop_images\/6c09258e0af82bf1510f1a6f46919e97.png",
+            "image": "shopify:\/\/shop_images\/6c09258e0af82bf1510f1a6f46919e97_552d2470-008d-4fbe-8165-59439af528c6.png",
             "title": "Internal",
             "sub_title": "Verifying Details"
           }
@@ -47,7 +47,7 @@
         "process-step-3": {
           "type": "process_step",
           "settings": {
-            "image": "shopify:\/\/shop_images\/carousel-item-one.webp",
+            "image": "shopify:\/\/shop_images\/08eb545fd08c4b82cdde655ddca5ac97.png",
             "title": "We Reach Out",
             "sub_title": "Phone or Email"
           }
@@ -55,7 +55,7 @@
         "process-step-4": {
           "type": "process_step",
           "settings": {
-            "image": "shopify:\/\/shop_images\/carousel-item-one.webp",
+            "image": "shopify:\/\/shop_images\/3ef6397be6fa0f91dd5023397ecef33f.png",
             "title": "Agreement",
             "sub_title": "Review Terms"
           }
@@ -63,7 +63,7 @@
         "process-step-5": {
           "type": "process_step",
           "settings": {
-            "image": "shopify:\/\/shop_images\/carousel-item-one.webp",
+            "image": "shopify:\/\/shop_images\/36.png",
             "title": "Success!",
             "sub_title": "We Contact You"
           }
