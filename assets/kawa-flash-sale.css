@@ -133,6 +133,10 @@
 }
 
 @media screen and (max-width: 768px) {
+  .flash-sale-section:nth-of-type(2n) {
+    background-color: #fff;
+  }
+
   .kawa-flash-sale .shop-row {
     flex-direction: column;
     margin: 3.91vw 15px;
