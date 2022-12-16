@@ -40,7 +40,9 @@
       ],
       "settings": {
         "discount_code": "WS24S360",
+        "show_comment": true,
         "show_discount": true,
+        "show_share": true,
         "discount_faq": "",
         "show_payment_flags": true
       }
@@ -59,8 +61,54 @@
         "has_border": false
       }
     },
+    "b1235f69-f0df-4e15-9581-e92175bad203": {
+      "type": "kawa-image-text",
+      "blocks": {
+        "template--15914115825824__b1235f69-f0df-4e15-9581-e92175bad203-167117957750bc4710-0": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/af0471597e10c84743607ce5f08d0cc6_04fe2ef7-a940-40aa-a571-9bdb9bfa8495.jpg",
+            "title": "",
+            "content": ""
+          }
+        },
+        "template--15914115825824__b1235f69-f0df-4e15-9581-e92175bad203-167117957750bc4710-1": {
+          "type": "image_text",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "content": ""
+          }
+        },
+        "template--15914115825824__b1235f69-f0df-4e15-9581-e92175bad203-167117957750bc4710-2": {
+          "type": "image_text",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "content": ""
+          }
+        },
+        "template--15914115825824__b1235f69-f0df-4e15-9581-e92175bad203-167117957750bc4710-3": {
+          "type": "image_text",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15914115825824__b1235f69-f0df-4e15-9581-e92175bad203-167117957750bc4710-0",
+        "template--15914115825824__b1235f69-f0df-4e15-9581-e92175bad203-167117957750bc4710-1",
+        "template--15914115825824__b1235f69-f0df-4e15-9581-e92175bad203-167117957750bc4710-2",
+        "template--15914115825824__b1235f69-f0df-4e15-9581-e92175bad203-167117957750bc4710-3"
+      ],
+      "settings": {
+      }
+    },
     "carousel-2": {
       "type": "kawa-main-product-carousel",
+      "disabled": true,
       "blocks": {
         "carousel-item-1": {
           "type": "carousel_item",
@@ -305,12 +353,56 @@
       "type": "kawa-product-buy",
       "settings": {
       }
+    },
+    "0980a0d0-bd15-4ce2-bdf7-480057cb01e6": {
+      "type": "kawa-image-text",
+      "blocks": {
+        "template--15914115825824__0980a0d0-bd15-4ce2-bdf7-480057cb01e6-167117957750bc4710-0": {
+          "type": "image_text",
+          "settings": {
+            "title": "",
+            "content": ""
+          }
+        },
+        "template--15914115825824__0980a0d0-bd15-4ce2-bdf7-480057cb01e6-167117957750bc4710-1": {
+          "type": "image_text",
+          "settings": {
+            "title": "",
+            "content": ""
+          }
+        },
+        "template--15914115825824__0980a0d0-bd15-4ce2-bdf7-480057cb01e6-167117957750bc4710-2": {
+          "type": "image_text",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "content": ""
+          }
+        },
+        "template--15914115825824__0980a0d0-bd15-4ce2-bdf7-480057cb01e6-167117957750bc4710-3": {
+          "type": "image_text",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15914115825824__0980a0d0-bd15-4ce2-bdf7-480057cb01e6-167117957750bc4710-0",
+        "template--15914115825824__0980a0d0-bd15-4ce2-bdf7-480057cb01e6-167117957750bc4710-1",
+        "template--15914115825824__0980a0d0-bd15-4ce2-bdf7-480057cb01e6-167117957750bc4710-2",
+        "template--15914115825824__0980a0d0-bd15-4ce2-bdf7-480057cb01e6-167117957750bc4710-3"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
     "banner",
     "video",
+    "b1235f69-f0df-4e15-9581-e92175bad203",
     "carousel-2",
     "carousel-1",
     "image-text-1",
@@ -321,6 +413,7 @@
     "tabs",
     "video-text",
     "phone-preview",
-    "product-buy"
+    "product-buy",
+    "0980a0d0-bd15-4ce2-bdf7-480057cb01e6"
   ]
 }
