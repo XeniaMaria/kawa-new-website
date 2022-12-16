@@ -50,7 +50,7 @@
     "banner": {
       "type": "kawa-main-product-banner",
       "settings": {
-        "banner_image": "shopify:\/\/shop_images\/A1-1_f4bc7c82-8e69-4112-b51c-8109744cf242.jpg"
+        "banner_image": "shopify:\/\/shop_images\/A1-1_3900101d-9cdc-405d-808b-4ab53fdcaffa.jpg"
       }
     },
     "video": {
@@ -200,6 +200,51 @@
       "settings": {
       }
     },
+    "6dccfd68-cad9-4e99-aec2-9acac6e4deb5": {
+      "type": "kawa-image-text",
+      "blocks": {
+        "template--15873217364128__6dccfd68-cad9-4e99-aec2-9acac6e4deb5-167117957750bc4710-0": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gift_0dce3097-02ea-4a55-b59a-c0bda0b4b936.jpg",
+            "title": "",
+            "content": ""
+          }
+        },
+        "template--15873217364128__6dccfd68-cad9-4e99-aec2-9acac6e4deb5-167117957750bc4710-1": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_79cc2d2a-f398-4dcb-b9e3-0ea5eef0b95b.jpg",
+            "title": "",
+            "content": ""
+          }
+        },
+        "template--15873217364128__6dccfd68-cad9-4e99-aec2-9acac6e4deb5-167117957750bc4710-2": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_554813e0-a176-4cf4-bd88-6993201a6941.jpg",
+            "title": "",
+            "content": ""
+          }
+        },
+        "template--15873217364128__6dccfd68-cad9-4e99-aec2-9acac6e4deb5-167117957750bc4710-3": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7_4e29189d-4fa2-494b-aace-f4ec9de17120.jpg",
+            "title": "",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15873217364128__6dccfd68-cad9-4e99-aec2-9acac6e4deb5-167117957750bc4710-0",
+        "template--15873217364128__6dccfd68-cad9-4e99-aec2-9acac6e4deb5-167117957750bc4710-1",
+        "template--15873217364128__6dccfd68-cad9-4e99-aec2-9acac6e4deb5-167117957750bc4710-2",
+        "template--15873217364128__6dccfd68-cad9-4e99-aec2-9acac6e4deb5-167117957750bc4710-3"
+      ],
+      "settings": {
+      }
+    },
     "product-comparison": {
       "type": "kawa-product-comparison",
       "settings": {
@@ -304,6 +349,7 @@
     },
     "video-text": {
       "type": "kawa-video-text",
+      "disabled": true,
       "settings": {
         "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/fd5bb78358954e02a5d6013bae20fefc.mp4",
         "title": "Pet Monitor",
@@ -333,6 +379,7 @@
     "carousel-2",
     "image-text-1",
     "image-text-2",
+    "6dccfd68-cad9-4e99-aec2-9acac6e4deb5",
     "product-comparison",
     "specifications",
     "faq",

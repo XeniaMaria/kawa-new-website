@@ -49,6 +49,7 @@
     },
     "banner": {
       "type": "kawa-main-product-banner",
+      "disabled": true,
       "settings": {
       }
     },
