@@ -49,10 +49,10 @@
     "flash-sale-banner": {
       "type": "kawa-flash-sale-banner",
       "settings": {
-        "bg_image": "shopify:\/\/shop_images\/carousel-item-one.webp",
-        "subtitle": "Your Portable, Wire-Free and Hassle-Free Security Solution!",
-        "title": "Battery-Powered Security Cameras",
-        "des": "Battery operated security cameras are usually 100% wire-free cameras (from top to bottom). Require no other power, no cords, no wiring!So you easily move your Reolink 100% wireless battery security camera anywhere, and set it up in minutes. Keep an HD eye on your home from anywhere using your phone or computer.Wire-free outdoor security cameras from Reolink are also solar-powered ones. Connect your camera to a solar panel so it provides enough juice for day &amp; night monitoring, with starlight or high-quality infrared night vision. Achieve peace of mind while saving your money."
+        "bg_image": "shopify:\/\/shop_images\/2.jpg",
+        "subtitle": "",
+        "title": "",
+        "des": ""
       }
     },
     "flash-sale-1": {
@@ -258,6 +258,53 @@
       "settings": {
         "title": "Explore Other Categories"
       }
+    },
+    "680a1993-f2c5-4533-9a29-44b625df3f21": {
+      "type": "image-banner",
+      "blocks": {
+        "template--15545510002740__680a1993-f2c5-4533-9a29-44b625df3f21-16711557763459f17c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--15545510002740__680a1993-f2c5-4533-9a29-44b625df3f21-16711557763459f17c-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--15545510002740__680a1993-f2c5-4533-9a29-44b625df3f21-16711557763459f17c-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15545510002740__680a1993-f2c5-4533-9a29-44b625df3f21-16711557763459f17c-0",
+        "template--15545510002740__680a1993-f2c5-4533-9a29-44b625df3f21-16711557763459f17c-1",
+        "template--15545510002740__680a1993-f2c5-4533-9a29-44b625df3f21-16711557763459f17c-2"
+      ],
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -267,6 +314,7 @@
     "flash-sale-2",
     "flash-sale-ad",
     "flash-sale-comment",
-    "flash-sale-explore"
+    "flash-sale-explore",
+    "680a1993-f2c5-4533-9a29-44b625df3f21"
   ]
 }
