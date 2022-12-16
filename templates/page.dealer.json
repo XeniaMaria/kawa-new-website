@@ -114,6 +114,7 @@
     },
     "dealer-products": {
       "type": "kawa-dealer-products",
+      "disabled": true,
       "blocks": {
         "preview-product-1": {
           "type": "preview_product",
@@ -126,11 +127,25 @@
           "settings": {
             "product": "kawa-5-720p-hd-display-video-baby-monitor-with-night-vision-temperature-sensor-2-way-audio-pan-tilt-zoom-white-noise-lullaby-20-hours-battery-1000ft-range"
           }
+        },
+        "dfd81343-4462-4b14-8982-0ab27a15fe86": {
+          "type": "preview_product",
+          "settings": {
+            "product": "kawa-3mp-ip-camera-video-wifi-surveillance-cameras-indoor-security-cam-smart-home-baby-monitor-tracking-audio-alexa"
+          }
+        },
+        "bb0f3f5d-f4e8-4546-9bee-2e31995d80a2": {
+          "type": "preview_product",
+          "settings": {
+            "product": ""
+          }
         }
       },
       "block_order": [
         "preview-product-1",
-        "preview-product-2"
+        "preview-product-2",
+        "dfd81343-4462-4b14-8982-0ab27a15fe86",
+        "bb0f3f5d-f4e8-4546-9bee-2e31995d80a2"
       ],
       "settings": {
       }
