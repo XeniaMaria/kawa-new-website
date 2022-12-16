@@ -10,26 +10,23 @@
     },
     "dealer-carousel": {
       "type": "kawa-dealer-carousel",
-      "disabled": true,
       "blocks": {
         "carousel-1": {
           "type": "carousel_item",
           "settings": {
-            "title": "Marine",
-            "image": "shopify:\/\/shop_images\/x.jpg"
+            "title": "Home Security Camera"
           }
         },
         "carousel-2": {
           "type": "carousel_item",
           "settings": {
-            "title": "Construction",
-            "image": "shopify:\/\/shop_images\/carousel-item-two.webp"
+            "title": "2K Smart Baby Monitor"
           }
         },
         "carousel-3": {
           "type": "carousel_item",
           "settings": {
-            "title": "Green Energy",
+            "title": "Baby Monitor",
             "image": "shopify:\/\/shop_images\/carousel-item-two.webp"
           }
         }
@@ -48,11 +45,12 @@
       "settings": {
         "show_title": true,
         "title": "What Do We Offer?",
-        "image": "shopify:\/\/shop_images\/dealer-offer.webp"
+        "image": "shopify:\/\/shop_images\/dvr2_1.jpg"
       }
     },
     "common-image-1": {
       "type": "kawa-common-image",
+      "disabled": true,
       "settings": {
         "show_title": false,
         "title": "",
