@@ -360,6 +360,7 @@
         "template--15914115825824__0980a0d0-bd15-4ce2-bdf7-480057cb01e6-167117957750bc4710-0": {
           "type": "image_text",
           "settings": {
+            "image": "shopify:\/\/shop_images\/02_1.jpg",
             "title": "",
             "content": ""
           }
@@ -367,6 +368,7 @@
         "template--15914115825824__0980a0d0-bd15-4ce2-bdf7-480057cb01e6-167117957750bc4710-1": {
           "type": "image_text",
           "settings": {
+            "image": "shopify:\/\/shop_images\/02_2.jpg",
             "title": "",
             "content": ""
           }
