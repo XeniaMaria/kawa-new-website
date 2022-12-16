@@ -99,9 +99,8 @@
     },
     "flash-sale-banner": {
       "type": "kawa-flash-sale-banner",
-      "disabled": true,
       "settings": {
-        "bg_image": "shopify:\/\/shop_images\/2_4ebae394-364f-4471-b5d0-647a5aada5c3.jpg",
+        "bg_image": "shopify:\/\/shop_images\/2_d36cf4e6-7195-4f31-93fb-b5061299032f.jpg",
         "subtitle": "",
         "title": "",
         "des": ""
