@@ -10,12 +10,13 @@
     },
     "dealer-carousel": {
       "type": "kawa-dealer-carousel",
+      "disabled": true,
       "blocks": {
         "carousel-1": {
           "type": "carousel_item",
           "settings": {
             "title": "Marine",
-            "image": "shopify:\/\/shop_images\/carousel-item-two.webp"
+            "image": "shopify:\/\/shop_images\/x.jpg"
           }
         },
         "carousel-2": {
@@ -42,20 +43,20 @@
         "title": "Explore the Market"
       }
     },
-    "common-image-1": {
-      "type": "kawa-common-image",
-      "settings": {
-        "show_title": false,
-        "title": "",
-        "image": "shopify:\/\/shop_images\/fash.jpg"
-      }
-    },
     "common-image-2": {
       "type": "kawa-common-image",
       "settings": {
         "show_title": true,
         "title": "What Do We Offer?",
         "image": "shopify:\/\/shop_images\/dealer-offer.webp"
+      }
+    },
+    "common-image-1": {
+      "type": "kawa-common-image",
+      "settings": {
+        "show_title": false,
+        "title": "",
+        "image": "shopify:\/\/shop_images\/x.jpg"
       }
     },
     "dealer-process": {
@@ -166,8 +167,8 @@
   "order": [
     "dealer-banner",
     "dealer-carousel",
-    "common-image-1",
     "common-image-2",
+    "common-image-1",
     "dealer-process",
     "dealer-products",
     "dealer-form",
