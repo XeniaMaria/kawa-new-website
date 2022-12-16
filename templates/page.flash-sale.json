@@ -2,6 +2,7 @@
   "sections": {
     "c0ff6eee-df5b-45a5-bc60-4dd3043745be": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "template--15545510002740__c0ff6eee-df5b-45a5-bc60-4dd3043745be-16711703135d4a758b-0": {
           "type": "heading",
@@ -100,7 +101,7 @@
     "flash-sale-banner": {
       "type": "kawa-flash-sale-banner",
       "settings": {
-        "bg_image": "shopify:\/\/shop_images\/2_d36cf4e6-7195-4f31-93fb-b5061299032f.jpg",
+        "bg_image": "shopify:\/\/shop_images\/2_85997cb0-6765-4406-9dcc-832926485fac.jpg",
         "subtitle": "",
         "title": "",
         "des": ""
