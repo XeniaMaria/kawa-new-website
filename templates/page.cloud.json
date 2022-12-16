@@ -44,23 +44,58 @@
     "single-img-text-1": {
       "type": "kawa-single-img-text",
       "settings": {
-        "pc_img": "shopify:\/\/shop_images\/fash_a14109fe-9504-4ad0-a090-8afb0b09ffbf.jpg",
+        "pc_img": "shopify:\/\/shop_images\/c8577a1df210126991a8c79837c61c3f.jpg",
         "mobile_img": "shopify:\/\/shop_images\/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg",
-        "title": "sfdg",
-        "content": "e3rgfdcxvfcd",
-        "text_pos": "center",
+        "title": "",
+        "content": "",
+        "text_pos": "top",
         "text_color": "white"
+      }
+    },
+    "2f04cd79-41d0-4786-8219-3f66e9930afd": {
+      "type": "collage",
+      "disabled": true,
+      "blocks": {
+        "template--15545509511220__2f04cd79-41d0-4786-8219-3f66e9930afd-16711560861dbd49e0-0": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": "Describe the video",
+            "image_padding": false
+          }
+        },
+        "template--15545509511220__2f04cd79-41d0-4786-8219-3f66e9930afd-16711560861dbd49e0-1": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "second_image": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15545509511220__2f04cd79-41d0-4786-8219-3f66e9930afd-16711560861dbd49e0-0",
+        "template--15545509511220__2f04cd79-41d0-4786-8219-3f66e9930afd-16711560861dbd49e0-1"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "single-img-text-3": {
       "type": "kawa-single-img-text",
       "settings": {
-        "pc_img": "shopify:\/\/shop_images\/carousel-item-one.webp",
+        "pc_img": "shopify:\/\/shop_images\/fash3.jpg",
         "mobile_img": "shopify:\/\/shop_images\/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg",
         "title": "Your Privacy Will Be Well Protected",
         "content": "Noorio Cloud uses 128-bit AES Encryption and TLS to encrypt transmission channels. Store your essential information on Amazon servers in North America, with the highest standards of security and reliability. Whether uploading or replaying, it is always confidential.",
         "text_pos": "top",
-        "text_color": "white"
+        "text_color": "gray"
       }
     },
     "cloud-commodity": {
@@ -116,49 +151,15 @@
       "type": "kawa-image-text",
       "settings": {
       }
-    },
-    "2f04cd79-41d0-4786-8219-3f66e9930afd": {
-      "type": "collage",
-      "blocks": {
-        "template--15545509511220__2f04cd79-41d0-4786-8219-3f66e9930afd-16711560861dbd49e0-0": {
-          "type": "video",
-          "settings": {
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "description": "Describe the video",
-            "image_padding": false
-          }
-        },
-        "template--15545509511220__2f04cd79-41d0-4786-8219-3f66e9930afd-16711560861dbd49e0-1": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        }
-      },
-      "block_order": [
-        "template--15545509511220__2f04cd79-41d0-4786-8219-3f66e9930afd-16711560861dbd49e0-0",
-        "template--15545509511220__2f04cd79-41d0-4786-8219-3f66e9930afd-16711560861dbd49e0-1"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "single-img-text-2",
     "099e9763-f6a3-4152-9074-ab9d0d9d3605",
     "single-img-text-1",
+    "2f04cd79-41d0-4786-8219-3f66e9930afd",
     "single-img-text-3",
     "cloud-commodity",
-    "7c4ea1bc-73f4-4bd3-8620-7f43214a17af",
-    "2f04cd79-41d0-4786-8219-3f66e9930afd"
+    "7c4ea1bc-73f4-4bd3-8620-7f43214a17af"
   ]
 }
