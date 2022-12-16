@@ -1,25 +1,55 @@
 {
   "sections": {
-    "single-img-text-1": {
-      "type": "kawa-single-img-text",
-      "settings": {
-        "pc_img": "shopify:\/\/shop_images\/fash_a14109fe-9504-4ad0-a090-8afb0b09ffbf.jpg",
-        "mobile_img": "shopify:\/\/shop_images\/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg",
-        "title": "",
-        "content": "",
-        "text_pos": "center",
-        "text_color": "white"
-      }
-    },
     "single-img-text-2": {
       "type": "kawa-single-img-text",
       "settings": {
-        "pc_img": "shopify:\/\/shop_images\/carousel-item-one.webp",
+        "pc_img": "shopify:\/\/shop_images\/fash_2.jpg",
         "mobile_img": "shopify:\/\/shop_images\/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg",
         "title": "Kawa Cloud",
         "content": "Noorio Cloud uses 128-bit AES Encryption and TLS to encrypt transmission channels. Store your essential information on Amazon servers in North America, with the highest standards of security and reliability. Whether uploading or replaying, it is always confidential.",
         "text_pos": "top",
         "text_color": "gray"
+      }
+    },
+    "099e9763-f6a3-4152-9074-ab9d0d9d3605": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15545509511220__099e9763-f6a3-4152-9074-ab9d0d9d3605-1671155776a0f361ea-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15545509511220__099e9763-f6a3-4152-9074-ab9d0d9d3605-1671155776a0f361ea-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15545509511220__099e9763-f6a3-4152-9074-ab9d0d9d3605-1671155776a0f361ea-0",
+        "template--15545509511220__099e9763-f6a3-4152-9074-ab9d0d9d3605-1671155776a0f361ea-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "single-img-text-1": {
+      "type": "kawa-single-img-text",
+      "settings": {
+        "pc_img": "shopify:\/\/shop_images\/fash_a14109fe-9504-4ad0-a090-8afb0b09ffbf.jpg",
+        "mobile_img": "shopify:\/\/shop_images\/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg",
+        "title": "sfdg",
+        "content": "e3rgfdcxvfcd",
+        "text_pos": "center",
+        "text_color": "white"
       }
     },
     "single-img-text-3": {
@@ -41,7 +71,7 @@
           "settings": {
             "title": "Free",
             "desc": "Free for a new device",
-            "orig_price": 5.0,
+            "orig_price": 5,
             "price": 0,
             "price_color": "#479dea",
             "duration": "month",
@@ -53,8 +83,8 @@
           "settings": {
             "title": "Monthly",
             "desc": "Service Content",
-            "orig_price": 5.0,
-            "price": 3.0,
+            "orig_price": 5,
+            "price": 3,
             "price_color": "#56b85d",
             "duration": "month",
             "detail": "<div>2K Maximum Video Resolution<\/div><div>30-Day Video History<\/div><div>1 Camera Supported<\/div><div>Support Device Switching<\/div>"
@@ -65,8 +95,8 @@
           "settings": {
             "title": "Annually",
             "desc": "Service Content",
-            "orig_price": 5.0,
-            "price": 30.0,
+            "orig_price": 5,
+            "price": 30,
             "price_color": "#e68b49",
             "duration": "annual",
             "detail": "<div>2K Maximum Video Resolution<\/div><div>30-Day Video History<\/div><div>1 Camera Supported<\/div><div>Support Device Switching<\/div>"
@@ -81,12 +111,54 @@
       "settings": {
         "title": "Subscribe to the Plan that Suits You"
       }
+    },
+    "7c4ea1bc-73f4-4bd3-8620-7f43214a17af": {
+      "type": "kawa-image-text",
+      "settings": {
+      }
+    },
+    "2f04cd79-41d0-4786-8219-3f66e9930afd": {
+      "type": "collage",
+      "blocks": {
+        "template--15545509511220__2f04cd79-41d0-4786-8219-3f66e9930afd-16711560861dbd49e0-0": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": "Describe the video",
+            "image_padding": false
+          }
+        },
+        "template--15545509511220__2f04cd79-41d0-4786-8219-3f66e9930afd-16711560861dbd49e0-1": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "second_image": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15545509511220__2f04cd79-41d0-4786-8219-3f66e9930afd-16711560861dbd49e0-0",
+        "template--15545509511220__2f04cd79-41d0-4786-8219-3f66e9930afd-16711560861dbd49e0-1"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "single-img-text-1",
     "single-img-text-2",
+    "099e9763-f6a3-4152-9074-ab9d0d9d3605",
+    "single-img-text-1",
     "single-img-text-3",
-    "cloud-commodity"
+    "cloud-commodity",
+    "7c4ea1bc-73f4-4bd3-8620-7f43214a17af",
+    "2f04cd79-41d0-4786-8219-3f66e9930afd"
   ]
 }
