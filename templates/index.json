@@ -206,8 +206,8 @@
         "card-warranty": {
           "type": "reason_card",
           "settings": {
-            "card_title": "Hassle-Free Warranty",
-            "card_content": "<p>KAWA provides a straightforward, hassle-free warranty to save you someheadaches. All pre-owned and refurbished products come with their ownunique warranty that you can find on the product listing or contact usat support@kawa-in.com with your order receipt for confirmation.<\/p>",
+            "card_title": "365 Days Warranty",
+            "card_content": "<p>KAWA provides warranty service and official customer support for 1 year. If you’re not totally satisfied with the products or request a repair, please feel free to find on the product listing or contact us at support@kawa-in.com with your order receipt for confirmation.<\/p>",
             "card_icon": "icon-warranty"
           }
         }
