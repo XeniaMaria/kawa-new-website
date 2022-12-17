@@ -227,7 +227,7 @@
         "poster-1": {
           "type": "poster",
           "settings": {
-            "title": "Category",
+            "title": "Category 1",
             "image": "shopify:\/\/shop_images\/6feabd6e53c83c501b1dd1e153fba7d8_bd6651bf-02d6-40fb-b8d9-f2726a071d05.jpg",
             "link": "#"
           }
@@ -259,7 +259,7 @@
         "poster-5": {
           "type": "poster",
           "settings": {
-            "title": "CJ1005",
+            "title": "Category 2",
             "link": "#"
           }
         }
@@ -272,7 +272,7 @@
         "poster-5"
       ],
       "settings": {
-        "title": "Build Your Smart Home"
+        "title": "Build Your Smart Home, Life, and Car."
       }
     },
     "kawa-news": {
