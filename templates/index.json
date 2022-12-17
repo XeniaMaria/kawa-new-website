@@ -25,6 +25,7 @@
         },
         "banner-item-3": {
           "type": "banner_item",
+          "disabled": true,
           "settings": {
             "banner_product": "baby-monitor-with-camera-and-audio-kawa-video-baby-monitor-no-wifi-5-720p-hd-display-110-wide-angle-night-vision-temperature-sensor-2-way-audio-ptz-white-noise-20hrs-battery-1000ft-range",
             "video_link": "https:\/\/reolink.com\/wp-content\/assets\/banner\/duo-poe-homepage-banner-pc.mp4",

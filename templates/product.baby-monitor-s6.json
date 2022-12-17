@@ -56,7 +56,8 @@
     "video": {
       "type": "kawa-preview-video",
       "settings": {
-        "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/fd5bb78358954e02a5d6013bae20fefc.mp4",
+        "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/5246a89c5085449db89534c7cb8b4674.mp4",
+        "cover_image": "shopify:\/\/shop_images\/feed_.00_00_11_24.Still001.png",
         "max_width": "mw-1300-c",
         "has_border": false
       }
