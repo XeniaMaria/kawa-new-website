@@ -191,7 +191,7 @@
           "type": "reason_card",
           "settings": {
             "card_title": "Fast, Free Shipping",
-            "card_content": "<p>We offer free shipping straight to your door throughout the contiguousUS*.<\/p><p><\/p><p>It usually takes 3-7 business days* for your package to be delivered, so you can sit back and relax, worry-free. Except for some special countries.<\/p><p>*Please see our shipping policy for more details.<\/p><p>*Due to COVID-19 shipping times may vary.<\/p>",
+            "card_content": "<p>We offer free shipping straight to your door throughout North America, Europe, and the Middle East*.<\/p><p><\/p><p>It usually takes 3-7 business days* for your package to be delivered, so you can sit back and relax, worry-free. Except for some special countries.<\/p><p>*Please see our shipping policy for more details.<\/p><p>*Due to COVID-19 shipping times may vary.<\/p>",
             "card_icon": "icon-truck"
           }
         },
