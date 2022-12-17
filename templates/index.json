@@ -198,8 +198,8 @@
         "card-return": {
           "type": "reason_card",
           "settings": {
-            "card_title": "30-Day Money-Back Guarantee",
-            "card_content": "<p>Get a full refund when you return your undamaged products within 30days - for any reason. Once the item arrives back at the eufywarehouse for inspection, the refund process will begin.<\/p><p>See our refund policy for more details about what is needed for asmooth refund process..<\/p>",
+            "card_title": "30-Day Free and Easy Returns",
+            "card_content": "<p>Get a full refund when you return your undamaged products within 30days - for any reason. Once the item arrives back at the KAWA warehouse for inspection, the refund process will begin.<\/p><p>See our refund policy for more details about what is needed for a smooth refund process..<\/p>",
             "card_icon": "icon-return"
           }
         },
