@@ -1,67 +1,62 @@
 {{ "kawa-latest-articles.css" | asset_url | stylesheet_tag }}
 
 <div class="kawa-latest-articles">
-    <h2>
-        {{ section.settings.title }}
-    </h2>
-    <div class="article-list">
-        {% paginate blog.articles by section.settings.page_size %}
-            {%- for article in blog.articles -%}
-                <div class="article-item">
-                    <div class="article-wrap">
-                        <a href="{{ article.url }}" class="article-img-link">
-                            <div
-                                class="article-img"
-                                style="background-image: url({{ article.image | image_url }});">
-                            </div>
-                        </a>
-                        <div class="article-info-wrap">
-                            <p class="blog-title">
-                                <a href="{{ blog.url }}">
-                                    {{ blog.title }}
-                                </a>
-                            </p>
-                            <p class="article-update-time">
-                                {{ article.updated_at | date: '%Y/%m/%d' }}
-                            </p>
-                            <p class="article-title">
-                                <a href="{{ article.url }}">
-                                    {{ article.title }}
-                                </a>
-                            </p>
-                            <p class="article-excerpt">
-                                {{ article.excerpt_or_content }}
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            {%- endfor -%}
-            <span class="articles-pagination">
-                {{- paginate | default_pagination }}
-            </span>
-        {% endpaginate %}
-    </div>
+  <h2>
+    {{ section.settings.title }}
+  </h2>
+  <div class="article-list">
+    {% paginate blog.articles by section.settings.page_size %}
+      {%- for article in blog.articles -%}
+        <div class="article-item">
+          <div class="article-wrap">
+            <a href="{{ article.url }}" class="article-img-link">
+              <div class="article-img" style="background-image: url({{ article.image | image_url }});"></div>
+            </a>
+            <div class="article-info-wrap">
+              <p class="blog-title">
+                <a href="{{ blog.url }}">
+                  {{ blog.title }}
+                </a>
+              </p>
+              <p class="article-update-time">
+                {{ article.updated_at | date: '%Y/%m/%d' }}
+              </p>
+              <p class="article-title">
+                <a href="{{ article.url }}">
+                  {{ article.title }}
+                </a>
+              </p>
+              <p class="article-excerpt">
+                {{ article.excerpt_or_content }}
+              </p>
+            </div>
+          </div>
+        </div>
+      {%- endfor -%}
+      <span class="articles-pagination">
+        {{- paginate | default_pagination }}
+      </span>
+    {% endpaginate %}
+  </div>
 </div>
 
 <script>
-    const allArticles = {{ blog.articles | json }}
-    console.log(allArticles)
+  const allArticles = {{ blog.articles | json }}
 </script>
 
 {% schema %}
-{
-   "name": "最新时间排序的博客文章",
-   "settings": [
-        {
-            "type": "text",
-            "id": "title",
-            "label": "标题"
-        },
-        {
-            "type": "number",
-            "id": "page_size",
-            "label": "每页大小"
-        }
-   ]
-}
+  {
+    "name": "最新时间排序的博客文章",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "标题"
+      }, {
+        "type": "number",
+        "id": "page_size",
+        "label": "每页大小"
+      }
+    ]
+  }
 {% endschema %}
