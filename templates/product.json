@@ -261,29 +261,29 @@
         "faq-1": {
           "type": "faq_item",
           "settings": {
-            "question": "Is eufy Baby Smart Sock safe for my baby?",
-            "solution": "Yes, eufy Baby Smart Sock is safe for daily use with your baby when used as instructed. The sensor tracks your baby's sleep via light reflections (PPG technology) and baby's movements. The sock uses high-quality fabric that wraps comfortably on your baby's feet. All components of the smart sock are carefully selected and manufactured with quality in mind. We have collaborated with parents like you and engaged in rigorous tests to make sure the sock is safe for all."
+            "question": "Is the sound alert sensitive enough?",
+            "solution": "Yes, the Sound Alert is highly sensitive. The baby monitor's original intention is to let you know your baby's movements in real time and know your baby is safe. You can turn it off or lower the sensitivity. Please do not install it near the air conditioner, otherwise, it may cause false alarms."
           }
         },
         "faq-2": {
           "type": "faq_item",
           "settings": {
-            "question": "Does the device generate any radio emmisions that would harm my baby?",
-            "solution": "Smart Sock is not harmful to the baby as it has been tested and meets the applicable limits for radio frequency (RF) exposure. The sock connects with the base periodically via Bluetooth Low Energy 5.0 (2.4GHz) that has low power output. The base and camera connect to your phone via Wi-Fi like any other Wi-Fi-connected devices in your room."
+            "question": "How is the transmission range?",
+            "solution": "KAWA baby camera monitor can stay connected stably upstairs or downstairs, across the house, and on a patio or garden, up to 1000 feet long range. *Note: 1,000ft within a wide, unobstructed area."
           }
         },
         "faq-3": {
           "type": "faq_item",
           "settings": {
-            "question": "Will Smart Sock cause a choking hazard to my baby?",
-            "solution": "Smart Sock is safe for your baby and meets the safety standards. As a precaution, keep the sock sensor away from your baby's mouth."
+            "question": "Can the white noise play on the baby camera?",
+            "solution": "The white noise can play on the monitor for parents, and the lullaby can play on both the camera and monitor. When the monitor plays white noise, you can't hear the sound from the baby camera. But the monitor from your side will receive a sound alert immediately when your baby is crying and the noise around your baby reaches the set threshold. Please do not worry."
           }
         },
         "faq-4": {
           "type": "faq_item",
           "settings": {
-            "question": "How many sock sizes are included in the box?",
-            "solution": "Smart Sock comes in 3 sizes that fit most children up to 18 months old or weigh up to 30 lb. All sizes are symmetrical and can be worn on either foot.."
+            "question": "I am not able to change the monitor mode. Even when selecting vox threshold or audio only it's automatically back to vox.",
+            "solution": "If you need audio only functionality, you can turn off the vox feature first so there are no more vox reminders. If you still have questions, please contact kawa's official email address. I hope my answer will help you."
           }
         }
       },
