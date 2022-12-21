@@ -173,7 +173,7 @@
         "tab-1": {
           "type": "tab_item",
           "settings": {
-            "name": "4X Zoom",
+            "name": "Support Multiple Cameras",
             "image": "shopify:\/\/shop_images\/p-1.jpg",
             "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2b735d4eac8c4381a4bc20aa4ce9903e.mp4",
             "cover_image": "shopify:\/\/shop_images\/p-1.jpg"
@@ -182,7 +182,7 @@
         "tab-2": {
           "type": "tab_item",
           "settings": {
-            "name": "2-Way Audio Intercom",
+            "name": "AI Motion Detection",
             "image": "shopify:\/\/shop_images\/p-3.jpg",
             "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4fd0bd0eaece4443882eb7ecc46f71c1.mp4",
             "cover_image": "shopify:\/\/shop_images\/p-3.jpg"
@@ -191,7 +191,7 @@
         "tab-3": {
           "type": "tab_item",
           "settings": {
-            "name": "Enhance Night Vision",
+            "name": "2K Quard High Definition",
             "image": "shopify:\/\/shop_images\/p-2.jpg",
             "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/aba06c5ec87a4a819349b2639883c73f.mp4",
             "cover_image": "shopify:\/\/shop_images\/p-2.jpg"
@@ -204,8 +204,8 @@
         "tab-3"
       ],
       "settings": {
-        "title": "Clear & Color, Even at Night or from Afar",
-        "description": "With 5-megapixel resolution and built-in spotlights, this smart IP camera keeps recording in full color day and night. Even better, you can zoom in optically to find more details."
+        "title": "Capture every details in your house",
+        "description": "With 3-megapixel resolution, this smart IP camera keeps 24\/7 Continuous Recording.  Even better, you can receive instant notification on your phone if human, motion or abnormal sound detected in your house."
       }
     },
     "image-text-2": {
