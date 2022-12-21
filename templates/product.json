@@ -201,32 +201,32 @@
           "type": "image_text",
           "settings": {
             "image": "shopify:\/\/shop_images\/P1_429a41fd-6fe5-42f2-8b26-4c6f49be1172.jpg",
-            "title": "Get Notified Anywhere",
-            "content": "Get instant notifications from your phone every time your baby is awake or fussy, or when the room temperature is out of the normal range."
+            "title": "360° Panoramic View & 4X Zoom",
+            "content": "Each corner is covered with pan 350° and tilt 67°, easily making the video monitor controlled remotely. Need a closer look? 4X zoom makes it possible to watch every detail of your baby more closely and clearly."
           }
         },
         "image-text-item-2": {
           "type": "image_text",
           "settings": {
             "image": "shopify:\/\/shop_images\/A9-300-2_cd7b645a-dc3e-45bf-9843-26e965c59b74.jpg",
-            "title": "Gain Peace of Mind at",
-            "content": "The base glows green to indicate that     your baby is doing fine. A sound and a red light from the base lets you know tha        on your baby."
+            "title": "Room Temperature Sensor",
+            "content": "Built-in temperature sensor will notify you with a sound alert and message when the temp exceeds the set range. Ensure your baby is in a comfortable environment."
           }
         },
         "image-text-item-3": {
           "type": "image_text",
           "settings": {
             "image": "shopify:\/\/shop_images\/7-1.jpg",
-            "title": "Get Notified Anywhere",
-            "content": "Get instant notifications from your phone every time your baby is awake or fussy, or when the room temperature is out of the normal range."
+            "title": "2-Way Audio Intercom",
+            "content": "Sometimes all your baby needs is to hear your voice. The convenient built-in microphone and speaker allow you to quickly and remotely soothe your baby, providing a full sense of security. So you can enjoy a peaceful morning in the kitchen or elsewhere in the home."
           }
         },
         "image-text-item-4": {
           "type": "image_text",
           "settings": {
             "image": "shopify:\/\/shop_images\/5_0c177200-5d73-4bd2-a65c-e1b504825a46.jpg",
-            "title": "Gain Peace of Mind at a",
-            "content": "The base glows green to indicate that your baby is doing fine. A sound and a red light from the base lets you know that you should check on your baby."
+            "title": "VOX Sleep\/Wake & Audio-only Mode",
+            "content": "In optional Audio-only mode, you can also hear your baby's voice in real time with the screen off. In Smart VOX mode, the monitor screen will turn on when detecting a sudden voice, like crying or shouting from your baby. You will know instantly when you are needed."
           }
         }
       },
@@ -243,8 +243,8 @@
       "type": "kawa-product-comparison",
       "settings": {
         "title": "Product Comparison",
-        "product_1": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6",
-        "product_2": "kawa-5-720p-hd-display-video-baby-monitor-with-night-vision-temperature-sensor-2-way-audio-pan-tilt-zoom-white-noise-lullaby-20-hours-battery-1000ft-range",
+        "product_1": "baby-monitor-kawa-2k-qhd-5-video-baby-monitor-with-camera-and-audio-no-wifi-night-vision-recording-playback-2-way-talk-temp-sensor-4000mah-4x-zoom-flip-180-lullabies-1000ft-range-s7",
+        "product_2": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6",
         "product_desc_1": "<p>Sleep tracking and insights<br>(Sleep time, heart rate, movements, history analysis)<\/p><p>Prompts when uncomfortable sleep is detected<\/p><p>2K video and night vision<\/p><p>330° pan, 110° tilt<\/p><p>Room temperature and sound notifications<\/p><p>Two-way talk<\/p><p>5\" touchscreen<\/p><p>Livestream on display and app<\/p><p>Real-time sleep data on display and app<\/p><p>Smart alerts on display and app<\/p>",
         "product_desc_2": "<p>Sleep tracking and insights<br>(Sleep time, heart rate, movements, history analysis)<\/p><p>Prompts when uncomfortable sleep is detected<\/p><p>2K video and night vision<\/p><p>330° pan, 110° tilt<\/p><p>Room temperature and sound notifications<\/p><p>Two-way talk<\/p><p>LED indicators on baby's status<\/p><p>Livestream on app<\/p><p>Real-time sleep data on app<br> <\/p><p>Smart alerts on app<\/p>"
       }
