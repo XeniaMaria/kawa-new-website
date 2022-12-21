@@ -268,29 +268,29 @@
         "faq-1": {
           "type": "faq_item",
           "settings": {
-            "question": "Is eufy Baby Smart Sock safe for my baby?",
-            "solution": "Yes, eufy Baby Smart Sock is safe for daily use with your baby when used as instructed. The sensor tracks your baby's sleep via light reflections (PPG technology) and baby's movements. The sock uses high-quality fabric that wraps comfortably on your baby's feet. All components of the smart sock are carefully selected and manufactured with quality in mind. We have collaborated with parents like you and engaged in rigorous tests to make sure the sock is safe for all."
+            "question": "Can you set the noise threshold so that you hear only sound louder than a certain level, and not sniffling or cough sound for example?",
+            "solution": "There is a video about how to adjust the alert threshold, hope the video can help you, if there are still problem, welcome to contact us at any time."
           }
         },
         "faq-2": {
           "type": "faq_item",
           "settings": {
-            "question": "Does the device generate any radio emmisions that would harm my baby?",
-            "solution": "Smart Sock is not harmful to the baby as it has been tested and meets the applicable limits for radio frequency (RF) exposure. The sock connects with the base periodically via Bluetooth Low Energy 5.0 (2.4GHz) that has low power output. The base and camera connect to your phone via Wi-Fi like any other Wi-Fi-connected devices in your room."
+            "question": "I would like to turn the screen off but have constant sound in the evening. Is this possible or I would have to have the screen on at all times?",
+            "solution": "There’s a button on the side that turns it onto sleep mode. It looks like it’s off and you can’t hear anything. But you can set the sound sensitivity level really high so if it hears a sound the screen will come back on. The screen and sound will then turn off again when it’s quiet. You can set how long you would like it to be on for before it goes onto sleep mode again I.e 3 minuets."
           }
         },
         "faq-3": {
           "type": "faq_item",
           "settings": {
-            "question": "Will Smart Sock cause a choking hazard to my baby?",
-            "solution": "Smart Sock is safe for your baby and meets the safety standards. As a precaution, keep the sock sensor away from your baby's mouth."
+            "question": "Can you turn the sound off completely from the camera? The camera and monitor are currently next to each other (same room) and it echosetc",
+            "solution": "When the camera is too close to the display, there will be an echo. You can turn down the sound of the display to help reduce the echo. Hope my answer helps you."
           }
         },
         "faq-4": {
           "type": "faq_item",
           "settings": {
-            "question": "How many sock sizes are included in the box?",
-            "solution": "Smart Sock comes in 3 sizes that fit most children up to 18 months old or weigh up to 30 lb. All sizes are symmetrical and can be worn on either foot.."
+            "question": "Does the camera need to be plugged in all the time to work?",
+            "solution": "Yes, the camera needs to be plugged in all the time, and you can also use the power bank to provide power when you go out. We think that it is better to keep the camera working continuously so that every moment of the baby can not be missed. I hope my answer can help you, if you have any other questions, please feel free to contact us."
           }
         }
       },
