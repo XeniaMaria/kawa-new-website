@@ -275,8 +275,8 @@
         "faq-1": {
           "type": "faq_item",
           "settings": {
-            "question": "Is eufy Baby Smart Sock safe for my baby?",
-            "solution": "Yes, eufy Baby Smart Sock is safe for daily use with your baby when used as instructed. The sensor tracks your baby's sleep via light reflections (PPG technology) and baby's movements. The sock uses high-quality fabric that wraps comfortably on your baby's feet. All components of the smart sock are carefully selected and manufactured with quality in mind. We have collaborated with parents like you and engaged in rigorous tests to make sure the sock is safe for all."
+            "question": "Easily Setup Your KAWA Indoor Camera 2K in a Minute!",
+            "solution": "1. Download the \"KAWA IOT\" App on the App Store or Google Play. (Please scan the QR code on the manual to download the APP if your phone is HUAWEI, and please don't update the version of APP. They're the same actually, please don't worry)\n2. Click the '+' icon on the Home page\n3. Press the reset button for 5 seconds on the back of the indoor camera and then click \"confirm\" in the APP\n4. Enter the correct wifi information(ONLY Works with 2.4GHz Wi-Fi networks, does not support 5GHz Wi-Fi)\n5. Scan the QR Code on the App from 15-20 cm away\n6. After hearing the beep sound, Click the Button and Wait about 2 minutes, the set up is finished"
           }
         },
         "faq-2": {
