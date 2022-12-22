@@ -258,6 +258,7 @@
         },
         "poster-5": {
           "type": "poster",
+          "disabled": true,
           "settings": {
             "title": "Category 2",
             "link": "#"
