@@ -147,6 +147,33 @@
       "settings": {
       }
     },
+    "fcd178ac-b361-4cd5-8c22-649946eb8ddd": {
+      "type": "kawa-image-text",
+      "blocks": {
+        "template--15871244206240__fcd178ac-b361-4cd5-8c22-649946eb8ddd-167171654696123e49-0": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/02_2.jpg",
+            "title": "1000ft Range Transmission",
+            "content": "Get stable visuals up to 1000 feet range. Easily receive your baby's smile the first time whether you are in your study, kitchen, bedroom, garden, or on the second floor. (*Note: 1,000ft within a wide, unobstructed area.)"
+          }
+        },
+        "template--15871244206240__fcd178ac-b361-4cd5-8c22-649946eb8ddd-167171654696123e49-1": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/02_1.jpg",
+            "title": "",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15871244206240__fcd178ac-b361-4cd5-8c22-649946eb8ddd-167171654696123e49-0",
+        "template--15871244206240__fcd178ac-b361-4cd5-8c22-649946eb8ddd-167171654696123e49-1"
+      ],
+      "settings": {
+      }
+    },
     "video-text": {
       "type": "kawa-video-text",
       "settings": {
@@ -328,6 +355,7 @@
     "carousel-2",
     "carousel-1",
     "image-text-1",
+    "fcd178ac-b361-4cd5-8c22-649946eb8ddd",
     "video-text",
     "tabs",
     "image-text-2",
