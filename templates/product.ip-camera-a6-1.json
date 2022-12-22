@@ -282,15 +282,15 @@
         "faq-2": {
           "type": "faq_item",
           "settings": {
-            "question": "Does the device generate any radio emmisions that would harm my baby?",
-            "solution": "Smart Sock is not harmful to the baby as it has been tested and meets the applicable limits for radio frequency (RF) exposure. The sock connects with the base periodically via Bluetooth Low Energy 5.0 (2.4GHz) that has low power output. The base and camera connect to your phone via Wi-Fi like any other Wi-Fi-connected devices in your room."
+            "question": "If you can't connect the camera to the APP.",
+            "solution": "1. Press the RESET button(next to the USB port) for 5secs to reset the camera.\n2. Make sure the device is On and the red light is Flashing before setting up\n3. Smartphone and camera under the Same 2.4GHz Wi-Fi Networks\n4. It's a plug-in camera that needs to be plugged into an outlet for continuous power and use"
           }
         },
         "faq-3": {
           "type": "faq_item",
           "settings": {
-            "question": "Will Smart Sock cause a choking hazard to my baby?",
-            "solution": "Smart Sock is safe for your baby and meets the safety standards. As a precaution, keep the sock sensor away from your baby's mouth."
+            "question": "If you can't find the KAWA APP on google play\/google store (support both Android and iOS).",
+            "solution": "Scan the QR code to download which you can find in the user manual."
           }
         },
         "faq-4": {
