@@ -347,9 +347,9 @@
     "alexa-video": {
       "type": "kawa-alexa-video",
       "settings": {
-        "title": "use alexa",
+        "title": "Support video guidance for you",
         "jump_link": "#",
-        "jump_text": "how to connect alexa",
+        "jump_text": "How to connect the D6 dashcam and app?",
         "cover_image": "shopify:\/\/shop_images\/317F357E-7C16-44ae-89EB-59D87FEE2951.png",
         "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e37d71a3a79a45459c45965d719f565a.mp4"
       }
