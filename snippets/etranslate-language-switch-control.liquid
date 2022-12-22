@@ -291,7 +291,7 @@
 
             </div>
             <div class='etranslate-language-arrow-new'>
-                <img src="" id="etranslate-language-arrow-new-img" style="display: none" alt="Etranslate">
+                <img src="" id="etranslate-language-arrow-new-img" style="display: none" alt="Etranslate" width='12' height='8' />
             </div>
         </div>
     </span>
@@ -322,7 +322,7 @@
                    target='_blank'
                 >
                     <div class='etranslate-language-list-dropdown-logo-img'>
-                        <img src='https://res.etranslate.io/etweb/assets/logoY.png' alt="Etranslate"/>
+                        <img src='https://res.etranslate.io/etweb/assets/logoY.png' alt="Etranslate" width='16' height='16'/>
                     </div>
                     <div class='etranslate-language-list-dropdown-logo-title'>
                         ETranslate
@@ -1132,7 +1132,7 @@ function documentReady(fu){if(document.readyState==="complete"||document.readySt
                 </div>
             </div>
             <div class='etranslate-currency-selector-arrow'>
-                <img src="" id="etranslate-language-arrow-new-img" style="display: none" alt="Etranslate">
+                <img src="" id="etranslate-language-arrow-new-img" style="display: none" alt="Etranslate" width='12' height='8'/>
             </div>
         </div>
     </span>
@@ -1161,7 +1161,7 @@ function documentReady(fu){if(document.readyState==="complete"||document.readySt
                    target='_blank'
                 >
                     <div class='etranslate-language-list-dropdown-logo-img'>
-                        <img src='https://res.etranslate.io/etweb/assets/logoY.png' alt="Etranslate"/>
+                        <img src='https://res.etranslate.io/etweb/assets/logoY.png' alt="Etranslate" width='16' height='16'/>
                     </div>
                     <div class='etranslate-language-list-dropdown-logo-title'>
                         ETranslate
@@ -1260,6 +1260,39 @@ function etranslateCurrency(originCurrency, currentCurrency) {
     }
     // 对页面事件的监听，对于价格改变的事件需要重新去计算价格
     if (monitor) {
+        // 劫持history pushState replaceState
+        const _wr = function(type) {
+            const orig = history[type];
+            return function() {
+                const e = new Event(type);
+                e.arguments = arguments;
+                window.dispatchEvent(e);
+                // 注意事件监听在url变更方法调用之前 也就是在事件监听的回调函数中获取的页面链接为跳转前的链接
+                const rv = orig.apply(this, arguments);
+                return rv;
+            };
+        };
+        // 重写
+        history.pushState = _wr('pushState');
+        history.replaceState = _wr('replaceState');
+
+        window.addEventListener('pushState', function(e) {
+            metaFiles.user_currencies_data.forEach(data => {
+                if (data.code === localStorage.getItem('currentCurrency')) {
+                    currentCurrency = data;
+                }
+            });
+            etranslateCurrency(originCurrency, currentCurrency);
+        });
+        window.addEventListener('replaceState', function(e) {
+            metaFiles.user_currencies_data.forEach(data => {
+                if (data.code === localStorage.getItem('currentCurrency')) {
+                    currentCurrency = data;
+                }
+            });
+            etranslateCurrency(originCurrency, currentCurrency);
+        });
+
         const send = XMLHttpRequest.prototype.send;
         XMLHttpRequest.prototype.send = function () {
             this.addEventListener('load', function () {
@@ -1321,7 +1354,7 @@ function documentReady(fu){if(document.readyState==="complete"||document.readySt
                 </div>
             </div>
                <div class='etranslate-language-arrow-new'>
-                <img src="" id="etranslate-language-arrow-new-img" style="display: none" alt="Etranslate">
+                <img src="" id="etranslate-language-arrow-new-img" style="display: none" alt="Etranslate" width='12' height='7' />
             </div>
         </div>
     </span>
@@ -1339,7 +1372,7 @@ function documentReady(fu){if(document.readyState==="complete"||document.readySt
                             </div>
                         </div>
                         <div class='etranslate-currency_language-arrow-language'>
-                            <img src="" id="etranslate-currency_language-arrow-language-img" style="display: none" alt="Etranslate">
+                            <img src="" id="etranslate-currency_language-arrow-language-img" style="display: none" alt="Etranslate" width='12' height='8' />
                         </div>
                     </div>
                     <ul class="etranslate-language-dropdown etranslate-selector-dropdown">
@@ -1363,7 +1396,7 @@ function documentReady(fu){if(document.readyState==="complete"||document.readySt
                             <div class="etranslate-currency-name">{{ shop.currency }}</div>
                         </div>
                         <div class='etranslate-currency_language-arrow-currency'>
-                            <img src="" id="etranslate-currency_language-arrow-currency-img" style="display: none" alt="Etranslate">
+                            <img src="" id="etranslate-currency_language-arrow-currency-img" style="display: none" alt="Etranslate" width='12' height='8' />
                         </div>
                     </div>
                     <ul class="etranslate-currency-dropdown etranslate-selector-dropdown">
@@ -1391,7 +1424,7 @@ function documentReady(fu){if(document.readyState==="complete"||document.readySt
                        target='_blank'
                     >
                         <div class='etranslate-language-list-dropdown-logo-img'>
-                            <img src='https://res.etranslate.io/etweb/assets/logoY.png' alt="Etranslate"/>
+                            <img src='https://res.etranslate.io/etweb/assets/logoY.png' alt="Etranslate" width='16' height='16' />
                         </div>
                         <div class='etranslate-language-list-dropdown-logo-title'>
                             ETranslate
@@ -1434,7 +1467,7 @@ function documentReady(fu){if(document.readyState==="complete"||document.readySt
                 </div>
             </div>
             <div class='etranslate-language-arrow-new'>
-                <img src="" id="etranslate-language-arrow-new-img" style="display: none" alt="Etranslate">
+                <img src="" id="etranslate-language-arrow-new-img" style="display: none" alt="Etranslate" width='12' height='8' />
             </div>
         </div>
     </span>
@@ -1454,7 +1487,7 @@ function documentReady(fu){if(document.readyState==="complete"||document.readySt
                                 </div>
                             </div>
                             <div class='etranslate-currency_language-arrow-language'>
-                                <img src="" id="etranslate-currency_language-arrow-language-img" style="display: none" alt="Etranslate">
+                                <img src="" id="etranslate-currency_language-arrow-language-img" style="display: none" alt="Etranslate" width='12' height='8' />
                             </div>
                         </div>
                         <ul class="etranslate-language-dropdown etranslate-selector-dropdown">
@@ -1479,7 +1512,7 @@ function documentReady(fu){if(document.readyState==="complete"||document.readySt
                                 <div class="etranslate-currency-name">{{ shop.currency }}</div>
                             </div>
                             <div class='etranslate-currency_language-arrow-currency'>
-                                <img src="" id="etranslate-currency_language-arrow-currency-img" style="display: none" alt="Etranslate">
+                                <img src="" id="etranslate-currency_language-arrow-currency-img" style="display: none" alt="Etranslate" width='12' height='8' />
                             </div>
                         </div>
                         <ul class="etranslate-currency-dropdown etranslate-selector-dropdown">
@@ -1508,7 +1541,7 @@ function documentReady(fu){if(document.readyState==="complete"||document.readySt
                            target='_blank'
                         >
                             <div class='etranslate-language-list-dropdown-logo-img'>
-                                <img src='https://res.etranslate.io/etweb/assets/logoY.png' alt="Etranslate"/>
+                                <img src='https://res.etranslate.io/etweb/assets/logoY.png' alt="Etranslate" width='16' height='16' />
                             </div>
                             <div class='etranslate-language-list-dropdown-logo-title'>
                                 ETranslate
