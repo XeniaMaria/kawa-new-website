@@ -152,7 +152,7 @@
           "type": "video-block",
           "settings": {
             "video_poster": "shopify:\/\/shop_images\/1013_6cb0a69c-a8bc-471b-9ba8-8f333335d464.png",
-            "video_html": "https:\/\/www.youtube.com\/watch?v=bOq0R5Ezrio"
+            "video_html": "<iframe width=\"992\" height=\"558\" src=\"https:\/\/www.youtube.com\/embed\/bOq0R5Ezrio\" title=\"KAWA 2K IP Camera  |  Ultra HD  |  REVIEW\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"><\/iframe>"
           }
         },
         "video-block-3": {
