@@ -296,8 +296,8 @@
         "faq-4": {
           "type": "faq_item",
           "settings": {
-            "question": "How many sock sizes are included in the box?",
-            "solution": "Smart Sock comes in 3 sizes that fit most children up to 18 months old or weigh up to 30 lb. All sizes are symmetrical and can be worn on either foot.."
+            "question": "Can it play an automatic notification if motion is detected?",
+            "solution": "Yes, this indoor camera receives instant notification on your phone if human, motion or abnormal sound detected in your house. Automatically record a 30 seconds motion-triggered and noise-triggered video to the cloud(30 days free trial). Hope that helps. Any further questions, please feel free to contatct us."
           }
         }
       },
