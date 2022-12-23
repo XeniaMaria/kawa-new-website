@@ -6,6 +6,11 @@
     background-position: right;
     background-size: cover;
   }
+  @media screen and (max-width: 768px) {
+    .kawa-support-center-search {
+      background-image: url('{{ section.settings.bg_image_mb | image_url }}');
+    }
+  }
 {%- endstyle -%}
 
 <div class="kawa-support-center-search">
@@ -26,6 +31,10 @@
         "type": "image_picker",
         "id": "bg_image",
         "label": "背景图片"
+      }, {
+        "type": "image_picker",
+        "id": "bg_image_mb",
+        "label": "背景图片（移动端）"
       }, {
         "type": "text",
         "id": "title",

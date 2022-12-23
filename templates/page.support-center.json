@@ -4,6 +4,7 @@
       "type": "kawa-support-center-search",
       "settings": {
         "bg_image": "shopify:\/\/shop_images\/54dd5e6c4120c0d1e3659735609d1a86.jpg",
+        "bg_image_mb": "shopify:\/\/shop_images\/54dd5e6c4120c0d1e3659735609d1a86.jpg",
         "title": "Support Center"
       }
     },
