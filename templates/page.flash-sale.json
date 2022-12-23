@@ -102,6 +102,7 @@
       "type": "kawa-flash-sale-banner",
       "settings": {
         "bg_image": "shopify:\/\/shop_images\/2_85997cb0-6765-4406-9dcc-832926485fac.jpg",
+        "bg_image_mb": "shopify:\/\/shop_images\/2_85997cb0-6765-4406-9dcc-832926485fac.jpg",
         "subtitle": "",
         "title": "",
         "des": ""
