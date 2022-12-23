@@ -164,6 +164,7 @@
     },
     "flash-sale-ad": {
       "type": "kawa-flash-sale-ad",
+      "disabled": true,
       "blocks": {
         "ad-block-1": {
           "type": "ad-block",
@@ -236,10 +237,10 @@
           "type": "comment",
           "settings": {
             "star_number": 5,
-            "comment_title": "A solid, affordable choice",
-            "comment_content": "When it comes to affordable outdoor wireless security, the Argus 3 Pro delivers. This security camera is plug and play, and nearly every feature is customizable—from motion detector sensitivity to image resolution. In the app, you can configure the types of alerts and alarms you want and view a live video feed.",
+            "comment_title": "It Works Perfectly!",
+            "comment_content": "This is what I exactly need at home. Being away all day at work and having a helpful watchful eye so that I can easily check my phone give me peace of mind. It gives me notifications of any motion and sounds detections, is very easy to operate, simple manual instructions. What I like the most is the clarity of the camera captions, I can vividly see everything. It’s worth the price! I will recommend it to everyone home!",
             "comment_product": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6",
-            "username": "Rebecca"
+            "username": "Amanda"
           }
         },
         "comment-2": {
