@@ -8,7 +8,7 @@
     <div class="shop-row" {{ block.shopify_attributes }}>
       <div class="product-left__image">
         <a href="{{ product.url }}">
-          <img src="{{ product.featured_media | image_url }}" class="product-image" width="100" height="100" loading="lazy"/>
+          <img src="{{ block.settings.product_img | image_url }}" class="product-image" width="100" height="100" loading="lazy"/>
         </a>
       </div>
       <div class="product-right__info">
@@ -130,7 +130,11 @@
             "type": "text",
             "id": "product_tags",
             "label": "产品标签",
-            "info": "最多填四项，每项用逗号（英文逗号，如：,）隔开。"
+            "info": "最多填四项，每项用逗号（英文逗号：,）隔开。"
+          },{
+            "type": "image_picker",
+            "id": "product_img",
+            "label": "产品图片"
           }
         ]
       }
