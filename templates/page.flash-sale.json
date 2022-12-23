@@ -115,7 +115,7 @@
           "type": "flash-sale-product",
           "settings": {
             "product": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6",
-            "product_tags": "5 Inch Large Display , ,2-Way Talk, ,20Hrs Battery,  ,720P HD Display",
+            "product_tags": "5 Inch Large Display,2-Way Talk,20Hrs Battery,720P HD Display",
             "product_img": "shopify:\/\/shop_images\/01_300x300_7f391fbc-9ac9-4a1b-a3d8-572634bf6005.jpg"
           }
         },
@@ -142,7 +142,8 @@
           "type": "flash-sale-product",
           "settings": {
             "product": "kawa-3mp-ip-camera-video-wifi-surveillance-cameras-indoor-security-cam-smart-home-baby-monitor-tracking-audio-alexa",
-            "product_tags": "Dual Lens,Person\/Vehicle Detection,180° View (Horizontal),4K Ultra HD"
+            "product_tags": "2K\/3MP,AI Human Detection,360°Panoramic View,Works with Alexa",
+            "product_img": "shopify:\/\/shop_images\/13_300x300_f01e7609-8198-44b8-9b0a-ffb2a89a228c.jpg"
           }
         },
         "flash-sale-product-2": {
