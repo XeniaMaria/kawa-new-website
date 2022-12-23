@@ -12,6 +12,7 @@
         },
         "support-block-2": {
           "type": "support-block",
+          "disabled": true,
           "settings": {
             "blog": "kawa-s3",
             "title": "Kawa S3"
@@ -19,12 +20,15 @@
         },
         "support-block-3": {
           "type": "support-block",
+          "disabled": true,
           "settings": {
-            "blog": "kawa-s4"
+            "blog": "kawa-s4",
+            "title": ""
           }
         },
         "support-block-4": {
           "type": "support-block",
+          "disabled": true,
           "settings": {
             "blog": "kawa-s5",
             "title": "Kawa S5"
@@ -38,7 +42,8 @@
         "support-block-4"
       ],
       "settings": {
-        "parent_page": "product-video"
+        "parent_page": "product-video",
+        "title": ""
       }
     }
   },
