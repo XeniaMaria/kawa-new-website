@@ -105,12 +105,12 @@
           "type": "commodity_item",
           "settings": {
             "title": "Free",
-            "desc": "Free for a new device",
-            "orig_price": 5,
+            "desc": "Free for a new account",
+            "orig_price": 6.0,
             "price": 0,
             "price_color": "#479dea",
             "duration": "month",
-            "detail": "<div>Sign up for free<\/div><div>Free for 30 days<\/div><div>Cannot switch devices<\/div>"
+            "detail": "<div>7 days Event Record<\/div><div>Free for 30 days<\/div><div>First free trial per account<\/div>"
           }
         },
         "commodity-item-2": {
@@ -118,15 +118,16 @@
           "settings": {
             "title": "Monthly",
             "desc": "Service Content",
-            "orig_price": 5,
-            "price": 3,
+            "orig_price": 8.0,
+            "price": 5.0,
             "price_color": "#56b85d",
             "duration": "month",
-            "detail": "<div>2K Maximum Video Resolution<\/div><div>30-Day Video History<\/div><div>1 Camera Supported<\/div><div>Support Device Switching<\/div>"
+            "detail": "<div>24 hours continuous recording<\/div><div>7-Day Video History<\/div><div>Expiration date: 1 month<\/div>"
           }
         },
         "commodity-item-3": {
           "type": "commodity_item",
+          "disabled": true,
           "settings": {
             "title": "Annually",
             "desc": "Service Content",
@@ -136,15 +137,28 @@
             "duration": "annual",
             "detail": "<div>2K Maximum Video Resolution<\/div><div>30-Day Video History<\/div><div>1 Camera Supported<\/div><div>Support Device Switching<\/div>"
           }
+        },
+        "4db25d23-e222-414d-b3a9-922c3d137e68": {
+          "type": "commodity_item",
+          "settings": {
+            "title": "Monthly",
+            "desc": "Service Content",
+            "orig_price": 10.0,
+            "price": 6.0,
+            "price_color": "",
+            "duration": "month",
+            "detail": "<div>24 hours continuous recording<\/div><div>14-Day Video History<\/div><div>Expiration date: 1 month<\/div>"
+          }
         }
       },
       "block_order": [
         "commodity-item-1",
         "commodity-item-2",
-        "commodity-item-3"
+        "commodity-item-3",
+        "4db25d23-e222-414d-b3a9-922c3d137e68"
       ],
       "settings": {
-        "title": "Subscribe to the Plan that Suits You"
+        "title": "Subscribe to the cloud storage plan that Suits You"
       }
     },
     "7c4ea1bc-73f4-4bd3-8620-7f43214a17af": {
