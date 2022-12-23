@@ -1,0 +1,48 @@
+{
+  "sections": {
+    "support-blogs": {
+      "type": "kawa-support-blogs",
+      "blocks": {
+        "support-block-1": {
+          "type": "support-block",
+          "settings": {
+            "blog": "kawa-s2",
+            "title": "Kawa S2"
+          }
+        },
+        "support-block-2": {
+          "type": "support-block",
+          "settings": {
+            "blog": "kawa-s3",
+            "title": "Kawa S3"
+          }
+        },
+        "support-block-3": {
+          "type": "support-block",
+          "settings": {
+            "blog": "kawa-s4"
+          }
+        },
+        "support-block-4": {
+          "type": "support-block",
+          "settings": {
+            "blog": "kawa-s5",
+            "title": "Kawa S5"
+          }
+        }
+      },
+      "block_order": [
+        "support-block-1",
+        "support-block-2",
+        "support-block-3",
+        "support-block-4"
+      ],
+      "settings": {
+        "parent_page": "product-video"
+      }
+    }
+  },
+  "order": [
+    "support-blogs"
+  ]
+}
