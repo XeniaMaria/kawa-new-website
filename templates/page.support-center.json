@@ -4,7 +4,6 @@
       "type": "kawa-support-center-search",
       "settings": {
         "bg_image": "shopify:\/\/shop_images\/54dd5e6c4120c0d1e3659735609d1a86.jpg",
-        "bg_image_mb": "shopify:\/\/shop_images\/54dd5e6c4120c0d1e3659735609d1a86.jpg",
         "title": "Support Center"
       }
     },
@@ -16,7 +15,7 @@
           "settings": {
             "service_page": "product-video",
             "service_title": "Product videos",
-            "service_des": "Find information about ordering Reolink online, shipping, returns and more."
+            "service_des": "Find information and help about ordering KAWA online, shipping, returns and more."
           }
         },
         "service-2": {
