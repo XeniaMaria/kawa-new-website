@@ -92,8 +92,8 @@
       "settings": {
         "pc_img": "shopify:\/\/shop_images\/fash3.jpg",
         "mobile_img": "shopify:\/\/shop_images\/12.jpg",
-        "title": "Your Privacy Will Be Well Protected",
-        "content": "Noorio Cloud uses 128-bit AES Encryption and TLS to encrypt transmission channels. Store your essential information on Amazon servers in North America, with the highest standards of security and reliability. Whether uploading or replaying, it is always confidential.",
+        "title": "Your Privacy will be Well Protected",
+        "content": "With the highest standards of security and reliability. Whether uploading or replaying, it is always confidential.",
         "text_pos": "top",
         "text_color": "gray"
       }
