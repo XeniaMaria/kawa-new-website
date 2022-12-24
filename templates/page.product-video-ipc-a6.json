@@ -7,11 +7,12 @@
           "type": "support-block",
           "settings": {
             "blog": "kawa-s2",
-            "title": "Kawa IP Camera A6"
+            "title": "Guidance Videos"
           }
         },
         "support-block-2": {
           "type": "support-block",
+          "disabled": true,
           "settings": {
             "blog": "kawa-s3",
             "title": "Kawa S3"
