@@ -7,7 +7,7 @@
           "type": "support-block",
           "settings": {
             "blog": "q-a-dash-cam-d6",
-            "title": "Guidance Videos"
+            "title": "Guidance Instruction"
           }
         }
       },
@@ -16,7 +16,7 @@
       ],
       "settings": {
         "parent_page": "product-video",
-        "title": ""
+        "title": "Q&A Dash Cam D6"
       }
     }
   },
