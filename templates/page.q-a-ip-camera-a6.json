@@ -6,17 +6,25 @@
         "539b1c1e-1f78-4d7a-816b-20a5ef45f008": {
           "type": "support-block",
           "settings": {
-            "blog": "q-a-ip-camera-a6",
-            "title": "Guidance Videos"
+            "blog": "q-a-baby-monitor-s7",
+            "title": "Q&A IP Camera A6"
+          }
+        },
+        "900d8260-be96-4e48-a0bb-b61c5cf53ce7": {
+          "type": "support-block",
+          "settings": {
+            "blog": "q-a-baby-monitor-s7",
+            "title": ""
           }
         }
       },
       "block_order": [
-        "539b1c1e-1f78-4d7a-816b-20a5ef45f008"
+        "539b1c1e-1f78-4d7a-816b-20a5ef45f008",
+        "900d8260-be96-4e48-a0bb-b61c5cf53ce7"
       ],
       "settings": {
         "parent_page": "product-video",
-        "title": ""
+        "title": "All product's Q&A"
       }
     }
   },
