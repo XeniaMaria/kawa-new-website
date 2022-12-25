@@ -3,51 +3,15 @@
     "support-blogs": {
       "type": "kawa-support-blogs",
       "blocks": {
-        "support-block-1": {
-          "type": "support-block",
-          "disabled": true,
-          "settings": {
-            "blog": "kawa-s2",
-            "title": "Guidance Videos"
-          }
-        },
-        "support-block-2": {
-          "type": "support-block",
-          "disabled": true,
-          "settings": {
-            "blog": "kawa-s3",
-            "title": "Kawa S3"
-          }
-        },
-        "support-block-3": {
-          "type": "support-block",
-          "disabled": true,
-          "settings": {
-            "blog": "kawa-s4",
-            "title": ""
-          }
-        },
-        "support-block-4": {
-          "type": "support-block",
-          "disabled": true,
-          "settings": {
-            "blog": "kawa-s5",
-            "title": "Kawa S5"
-          }
-        },
         "c728e030-5043-492a-b63d-e2e527b0caef": {
           "type": "support-block",
           "settings": {
             "blog": "crib-support-zj01-1",
-            "title": "Guidance Video"
+            "title": "Guidance Videos"
           }
         }
       },
       "block_order": [
-        "support-block-1",
-        "support-block-2",
-        "support-block-3",
-        "support-block-4",
         "c728e030-5043-492a-b63d-e2e527b0caef"
       ],
       "settings": {
