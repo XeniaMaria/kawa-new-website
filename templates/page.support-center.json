@@ -34,6 +34,14 @@
             "service_des": "Have issues with your KAWA? Get quick answers and helpful advice on common device issues."
           }
         },
+        "4af003ab-8a75-479a-852d-77ee43e2a08f": {
+          "type": "service",
+          "settings": {
+            "service_page": "faqs-1",
+            "service_title": "FAQs",
+            "service_des": "Quick answers to frequently asked questions about KAWA products."
+          }
+        },
         "service-4": {
           "type": "service",
           "disabled": true,
@@ -78,26 +86,18 @@
             "service_title": "",
             "service_des": ""
           }
-        },
-        "4af003ab-8a75-479a-852d-77ee43e2a08f": {
-          "type": "service",
-          "settings": {
-            "service_page": "faqs-1",
-            "service_title": "FAQs",
-            "service_des": "Quick answers to frequently asked questions about KAWA products."
-          }
         }
       },
       "block_order": [
         "service-1",
         "service-2",
         "service-3",
+        "4af003ab-8a75-479a-852d-77ee43e2a08f",
         "service-4",
         "9059afbc-2f3c-4214-a1e1-ab9f3e5800a9",
         "c381a2e2-1ef4-434b-be60-775e32480139",
         "6b23e498-e668-4fdc-9485-667352a2aee6",
-        "2a1f6e59-0c73-4124-b993-8ba3f0a7eebb",
-        "4af003ab-8a75-479a-852d-77ee43e2a08f"
+        "2a1f6e59-0c73-4124-b993-8ba3f0a7eebb"
       ],
       "settings": {
         "title": "Popular service"
