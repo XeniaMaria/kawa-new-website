@@ -36,6 +36,7 @@
         },
         "service-4": {
           "type": "service",
+          "disabled": true,
           "settings": {
             "service_page": "faqs",
             "service_title": "FAQs",
