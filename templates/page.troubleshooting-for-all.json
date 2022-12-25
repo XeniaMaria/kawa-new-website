@@ -9,10 +9,26 @@
             "blog": "troubleshooting-s6",
             "title": "Troubleshooting-S6"
           }
+        },
+        "ed990a4f-b933-4da4-a555-9bed196d8048": {
+          "type": "support-block",
+          "settings": {
+            "blog": "troubleshooting-s7",
+            "title": "Troubleshooting-S7"
+          }
+        },
+        "cde37319-7612-4e5c-be71-6e35b447dc41": {
+          "type": "support-block",
+          "settings": {
+            "blog": "troubleshooting-a6",
+            "title": "Troubleshooting-A6"
+          }
         }
       },
       "block_order": [
-        "c728e030-5043-492a-b63d-e2e527b0caef"
+        "c728e030-5043-492a-b63d-e2e527b0caef",
+        "ed990a4f-b933-4da4-a555-9bed196d8048",
+        "cde37319-7612-4e5c-be71-6e35b447dc41"
       ],
       "settings": {
         "parent_page": "product-video",
