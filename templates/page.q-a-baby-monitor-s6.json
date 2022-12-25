@@ -1,0 +1,26 @@
+{
+  "sections": {
+    "support-blogs": {
+      "type": "kawa-support-blogs",
+      "blocks": {
+        "c728e030-5043-492a-b63d-e2e527b0caef": {
+          "type": "support-block",
+          "settings": {
+            "blog": "hardwire-kit-pt01",
+            "title": "Guidance Videos"
+          }
+        }
+      },
+      "block_order": [
+        "c728e030-5043-492a-b63d-e2e527b0caef"
+      ],
+      "settings": {
+        "parent_page": "product-video",
+        "title": ""
+      }
+    }
+  },
+  "order": [
+    "support-blogs"
+  ]
+}
