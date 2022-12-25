@@ -5,6 +5,7 @@
       "blocks": {
         "support-block-1": {
           "type": "support-block",
+          "disabled": true,
           "settings": {
             "blog": "kawa-s2",
             "title": "Kawa S2"
@@ -28,10 +29,9 @@
         },
         "support-block-4": {
           "type": "support-block",
-          "disabled": true,
           "settings": {
             "blog": "kawa-s5",
-            "title": "Kawa S5"
+            "title": "Guidance Videos"
           }
         },
         "76dd2701-0ddb-4639-a67a-556b76ee6871": {
