@@ -23,12 +23,20 @@
             "blog": "troubleshooting-a6",
             "title": "Troubleshooting-A6"
           }
+        },
+        "7056376a-756f-4cbb-8386-663852eea6ad": {
+          "type": "support-block",
+          "settings": {
+            "blog": "troubleshooting-d6",
+            "title": "Troubleshooting-D6"
+          }
         }
       },
       "block_order": [
         "c728e030-5043-492a-b63d-e2e527b0caef",
         "ed990a4f-b933-4da4-a555-9bed196d8048",
-        "cde37319-7612-4e5c-be71-6e35b447dc41"
+        "cde37319-7612-4e5c-be71-6e35b447dc41",
+        "7056376a-756f-4cbb-8386-663852eea6ad"
       ],
       "settings": {
         "parent_page": "product-video",
