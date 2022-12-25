@@ -33,17 +33,25 @@
             "blog": "kawa-s5",
             "title": "Kawa S5"
           }
+        },
+        "76dd2701-0ddb-4639-a67a-556b76ee6871": {
+          "type": "support-block",
+          "settings": {
+            "blog": "installation-videos-for-d6-and-pt01-2",
+            "title": ""
+          }
         }
       },
       "block_order": [
         "support-block-1",
         "support-block-2",
         "support-block-3",
-        "support-block-4"
+        "support-block-4",
+        "76dd2701-0ddb-4639-a67a-556b76ee6871"
       ],
       "settings": {
         "parent_page": "product-video",
-        "title": ""
+        "title": "Installation Videos for D6 and PT01"
       }
     }
   },
