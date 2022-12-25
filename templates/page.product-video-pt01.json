@@ -5,6 +5,7 @@
       "blocks": {
         "support-block-1": {
           "type": "support-block",
+          "disabled": true,
           "settings": {
             "blog": "kawa-s2",
             "title": "Guidance Videos"
@@ -37,8 +38,8 @@
         "c728e030-5043-492a-b63d-e2e527b0caef": {
           "type": "support-block",
           "settings": {
-            "blog": "crib-support-zj01-1",
-            "title": ""
+            "blog": "hardwire-kit-pt01",
+            "title": "Guidance Videos"
           }
         }
       },
