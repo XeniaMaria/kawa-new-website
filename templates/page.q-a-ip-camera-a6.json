@@ -21,14 +21,22 @@
           "type": "support-block",
           "settings": {
             "blog": "q-a-ip-camera-a6",
-            "title": ""
+            "title": "Q&A IP Camera A6"
+          }
+        },
+        "cc4094a8-caa1-4678-b550-09b66f46b27a": {
+          "type": "support-block",
+          "settings": {
+            "blog": "q-a-dash-cam-d6",
+            "title": "Q&A Dash Cam D6"
           }
         }
       },
       "block_order": [
         "539b1c1e-1f78-4d7a-816b-20a5ef45f008",
         "900d8260-be96-4e48-a0bb-b61c5cf53ce7",
-        "b331d168-ffbb-4e96-b33f-453c6dd32be7"
+        "b331d168-ffbb-4e96-b33f-453c6dd32be7",
+        "cc4094a8-caa1-4678-b550-09b66f46b27a"
       ],
       "settings": {
         "parent_page": "product-video",
