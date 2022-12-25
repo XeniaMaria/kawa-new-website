@@ -23,7 +23,7 @@
           "settings": {
             "service_page": "manual-download",
             "service_title": "Manual & Download",
-            "service_des": "Handy tutorials to help you quickly set up and use your Reolink."
+            "service_des": "Handy instruction guide will help you to set up and use your KAWA quickly."
           }
         },
         "service-3": {
@@ -31,7 +31,7 @@
           "settings": {
             "service_page": "",
             "service_title": "Troubleshooting",
-            "service_des": "Having issues with your Reolink? Get quick answers to common device issues."
+            "service_des": "Have issues with your KAWA? Get quick answers and helpful advice on common device issues."
           }
         },
         "service-4": {
@@ -39,7 +39,7 @@
           "settings": {
             "service_page": "faqs",
             "service_title": "FAQs",
-            "service_des": "Quick answers to frequently asked questions about Reolink products."
+            "service_des": "Quick answers to frequently asked questions about KAWA products."
           }
         },
         "9059afbc-2f3c-4214-a1e1-ab9f3e5800a9": {
