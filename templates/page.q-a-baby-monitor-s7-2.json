@@ -3,16 +3,16 @@
     "support-blogs": {
       "type": "kawa-support-blogs",
       "blocks": {
-        "c728e030-5043-492a-b63d-e2e527b0caef": {
+        "bfe80f3e-aa31-490a-90e8-c1c64c226788": {
           "type": "support-block",
           "settings": {
-            "blog": "hardwire-kit-pt01",
-            "title": "Guidance Videos"
+            "blog": "q-a-baby-monitor-s7",
+            "title": ""
           }
         }
       },
       "block_order": [
-        "c728e030-5043-492a-b63d-e2e527b0caef"
+        "bfe80f3e-aa31-490a-90e8-c1c64c226788"
       ],
       "settings": {
         "parent_page": "product-video",

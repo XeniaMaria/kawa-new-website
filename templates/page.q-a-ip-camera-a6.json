@@ -3,16 +3,16 @@
     "support-blogs": {
       "type": "kawa-support-blogs",
       "blocks": {
-        "c728e030-5043-492a-b63d-e2e527b0caef": {
+        "539b1c1e-1f78-4d7a-816b-20a5ef45f008": {
           "type": "support-block",
           "settings": {
-            "blog": "hardwire-kit-pt01",
+            "blog": "q-a-ip-camera-a6",
             "title": "Guidance Videos"
           }
         }
       },
       "block_order": [
-        "c728e030-5043-492a-b63d-e2e527b0caef"
+        "539b1c1e-1f78-4d7a-816b-20a5ef45f008"
       ],
       "settings": {
         "parent_page": "product-video",
