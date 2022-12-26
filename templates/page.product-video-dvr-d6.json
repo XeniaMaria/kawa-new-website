@@ -30,15 +30,15 @@
         "support-block-4": {
           "type": "support-block",
           "settings": {
-            "blog": "kawa-s5",
+            "blog": "kawa-dash-cam-d6",
             "title": "Guidance Videos"
           }
         },
         "76dd2701-0ddb-4639-a67a-556b76ee6871": {
           "type": "support-block",
           "settings": {
-            "blog": "installation-videos-for-d6-and-pt01-2",
-            "title": ""
+            "blog": "installation-videos-for-d6-and-pt01",
+            "title": "Installation Videos for D6 and PT01"
           }
         }
       },
