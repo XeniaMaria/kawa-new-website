@@ -85,27 +85,29 @@
         "carousel-1": {
           "type": "carousel_item",
           "settings": {
-            "title": "Home Security Camera"
+            "title": "Home Security Camera",
+            "image": "shopify:\/\/shop_images\/13_620f794f-56a1-4316-8a14-85f80ab8a8bb.jpg"
           }
         },
         "carousel-2": {
           "type": "carousel_item",
           "settings": {
             "title": "2K Smart Baby Monitor",
-            "image": "shopify:\/\/shop_images\/02.jpg"
+            "image": "shopify:\/\/shop_images\/02_ba156508-efdd-4457-b286-9e65489d94f5.jpg"
           }
         },
         "carousel-3": {
           "type": "carousel_item",
           "settings": {
-            "title": "Baby Monitor"
+            "title": "Baby Monitor S6",
+            "image": "shopify:\/\/shop_images\/01.2.jpg"
           }
         },
         "2a3aec5e-58f1-4a6d-8729-29ce2d88965b": {
           "type": "carousel_item",
           "settings": {
             "title": "2K Dash Cam",
-            "image": "shopify:\/\/shop_images\/05.jpg"
+            "image": "shopify:\/\/shop_images\/05_d0eedfea-a667-41a9-8b48-e689cbf86084.jpg"
           }
         }
       },
