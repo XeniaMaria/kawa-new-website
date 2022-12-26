@@ -45,6 +45,7 @@
         },
         "product-block-5": {
           "type": "product-block",
+          "disabled": true,
           "settings": {
             "block_title": "Micro SD Card 64GB",
             "block_img": "shopify:\/\/shop_images\/1_4.jpg",
