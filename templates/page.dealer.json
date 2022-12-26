@@ -5,7 +5,7 @@
       "settings": {
         "title": "Become an Kawa Dealer",
         "content": "Empower your customers with industry-leading home security and car security protection.",
-        "image": "shopify:\/\/shop_images\/1_d4c4a94f-a94d-41e6-90a5-05d7b9a193bf.jpg"
+        "image": "shopify:\/\/shop_images\/1_3ff9c80b-8515-4762-8756-6cf987e45466.jpg"
       }
     },
     "common-image-2": {
@@ -21,8 +21,7 @@
       "disabled": true,
       "settings": {
         "show_title": false,
-        "title": "",
-        "image": "shopify:\/\/shop_images\/x.jpg"
+        "title": ""
       }
     },
     "dealer-process": {
@@ -31,7 +30,7 @@
         "process-step-1": {
           "type": "process_step",
           "settings": {
-            "image": "shopify:\/\/shop_images\/85e425f11907a8c738d11185558f7905_589c6186-a608-49a8-a075-3433be07b34b.png",
+            "image": "shopify:\/\/shop_images\/85e425f11907a8c738d11185558f7905.png",
             "title": "Register",
             "sub_title": "Submit Application"
           }
@@ -39,7 +38,7 @@
         "process-step-2": {
           "type": "process_step",
           "settings": {
-            "image": "shopify:\/\/shop_images\/6c09258e0af82bf1510f1a6f46919e97_f807bbc2-dfc6-4e6e-922b-26c1fdabde87.png",
+            "image": "shopify:\/\/shop_images\/6c09258e0af82bf1510f1a6f46919e97.png",
             "title": "Internal",
             "sub_title": "Verifying Details"
           }
@@ -86,8 +85,7 @@
         "carousel-1": {
           "type": "carousel_item",
           "settings": {
-            "title": "Home Security Camera",
-            "image": "shopify:\/\/shop_images\/13_6c71be34-f4b2-4c9d-b6cf-476e8e8d834f.jpg"
+            "title": "Home Security Camera"
           }
         },
         "carousel-2": {
@@ -100,8 +98,7 @@
         "carousel-3": {
           "type": "carousel_item",
           "settings": {
-            "title": "Baby Monitor",
-            "image": "shopify:\/\/shop_images\/01..jpg"
+            "title": "Baby Monitor"
           }
         },
         "2a3aec5e-58f1-4a6d-8729-29ce2d88965b": {
