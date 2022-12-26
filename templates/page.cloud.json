@@ -4,7 +4,7 @@
       "type": "kawa-single-img-text",
       "settings": {
         "pc_img": "shopify:\/\/shop_images\/fash_2.jpg",
-        "mobile_img": "shopify:\/\/shop_images\/2_c283ec3d-52fb-439c-be49-036839e64e09.jpg",
+        "mobile_img": "shopify:\/\/shop_images\/2_39cb432e-8cb7-44cf-b2c3-47079fa58b65.jpg",
         "title": "Kawa Cloud",
         "content": "With the highest standards of security and reliability. Whether uploading or replaying, it is always confidential. KAWA and KAWA's cloud service providers will never access or use its content without your consent, authorization, and permission. You retain control, maintenance, and ownership of the content stored in the cloud.",
         "text_pos": "top",
@@ -45,7 +45,7 @@
       "type": "kawa-single-img-text",
       "settings": {
         "pc_img": "shopify:\/\/shop_images\/c8577a1df210126991a8c79837c61c3f.jpg",
-        "mobile_img": "shopify:\/\/shop_images\/11.jpg",
+        "mobile_img": "shopify:\/\/shop_images\/11_74b1cfd7-beea-4ca0-9591-8d54a87dce08.jpg",
         "title": "",
         "content": "",
         "text_pos": "top",
@@ -106,7 +106,7 @@
           "settings": {
             "title": "Free",
             "desc": "Free for a new account",
-            "orig_price": 6.0,
+            "orig_price": 6,
             "price": 0,
             "price_color": "#479dea",
             "duration": "month",
@@ -118,8 +118,8 @@
           "settings": {
             "title": "Monthly",
             "desc": "Service Content",
-            "orig_price": 8.0,
-            "price": 5.0,
+            "orig_price": 8,
+            "price": 5,
             "price_color": "#56b85d",
             "duration": "month",
             "detail": "<div>24 hours continuous recording<\/div><div>7-Day Video History<\/div><div>Expiration date: 1 month<\/div>"
@@ -143,8 +143,8 @@
           "settings": {
             "title": "Monthly",
             "desc": "Service Content",
-            "orig_price": 10.0,
-            "price": 6.0,
+            "orig_price": 10,
+            "price": 6,
             "price_color": "",
             "duration": "month",
             "detail": "<div>24 hours continuous recording<\/div><div>14-Day Video History<\/div><div>Expiration date: 1 month<\/div>"
