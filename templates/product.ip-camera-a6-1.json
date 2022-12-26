@@ -122,6 +122,7 @@
     },
     "phone-preview": {
       "type": "kawa-phone-preview",
+      "disabled": true,
       "settings": {
         "img_width": 310,
         "img_height": 700,
