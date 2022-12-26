@@ -30,7 +30,7 @@
         "service-3": {
           "type": "service",
           "settings": {
-            "service_page": "troubleshooting-for-all-products",
+            "service_page": "troubleshooting",
             "service_title": "Troubleshooting",
             "service_des": "Have issues with your KAWA? Get quick answers and helpful advice on common device issues."
           }
