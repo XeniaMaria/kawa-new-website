@@ -27,39 +27,41 @@
     <div class="banner-des hide-more">
       {{ section.settings.des }}
     </div>
-    <p class="show-more-btn">
+    {% comment %} <p class="show-more-btn">
       <span class="iconify" data-icon="ep:arrow-down"></span>
-    </p>
-  </div>
+    </p> {% endcomment %}</div>
 </div>
-<div class="kawa-flash-sale-banner--mb banner--mb">
+{% comment %}
+  <div class="kawa-flash-sale-banner--mb banner--mb">
   <h3 class="banner-subtitle--mb">
-    {{ section.settings.subtitle }}
+  {{ section.settings.subtitle }}
   </h3>
   <div class="banner-des--mb hide-more--mb">
-    {{ section.settings.des }}
+  {{ section.settings.des }}
   </div>
   <p class="show-more-btn--mb">
-    <span class="iconify" data-icon="ep:arrow-down"></span>
+  <span class="iconify" data-icon="ep:arrow-down"></span>
   </p>
-</div>
-
-<script>
+  </div>
+{% endcomment %}<script>
   (function() {
-    const arrowBtn = document.querySelector(".kawa-flash-sale-banner .show-more-btn");
-    const desEl = document.querySelector(".kawa-flash-sale-banner .banner-des");
-    arrowBtn.addEventListener("click", () => {
-      arrowBtn.classList.toggle("active");
-      desEl.classList.toggle("hide-more");
-    })
 
-
-    const arrowBtnMb = document.querySelector(".kawa-flash-sale-banner--mb .show-more-btn--mb");
-    const desElMb = document.querySelector(".kawa-flash-sale-banner--mb .banner-des--mb");
-    arrowBtnMb.addEventListener("click", () => {
-      arrowBtnMb.classList.toggle("active");
-      desElMb.classList.toggle("hide-more--mb");
-    })
+    /*
+  const arrowBtn = document.querySelector(".kawa-flash-sale-banner .show-more-btn");
+  const desEl = document.querySelector(".kawa-flash-sale-banner .banner-des");
+  arrowBtn.addEventListener("click", () => {
+  arrowBtn.classList.toggle("active");
+  desEl.classList.toggle("hide-more");
+  })
+  
+  
+  const arrowBtnMb = document.querySelector(".kawa-flash-sale-banner--mb .show-more-btn--mb");
+  onst desElMb = document.querySelector(".kawa-flash-sale-banner--mb .banner-des--mb");
+  arrowBtnMb.addEventListener("click", () => {
+  arrowBtnMb.classList.toggle("active");
+  desElMb.classList.toggle("hide-more--mb");
+  })
+  */
   })();
 </script>
 
