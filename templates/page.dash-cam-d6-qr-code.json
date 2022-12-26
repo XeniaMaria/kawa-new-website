@@ -5,15 +5,6 @@
       "settings": {
       }
     },
-    "support-manuals": {
-      "type": "kawa-support-manuals",
-      "disabled": true,
-      "settings": {
-        "title": "Manuals",
-        "show_category": true,
-        "product": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6"
-      }
-    },
     "31948728-271e-4069-94bd-2a86622730f7": {
       "type": "video",
       "settings": {
@@ -41,12 +32,20 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "support-manuals": {
+      "type": "kawa-support-manuals",
+      "settings": {
+        "title": "Manuals",
+        "show_category": true,
+        "product": "dash-cam-2k-kawa-360-dash-camera-for-cars-1440p-with-starlight-color-night-vision-voice-control-emergency-recording-built-in-3d-sensor-hidden-design-dashcam-wdr-wide-angle-24h-parking-monitor"
+      }
     }
   },
   "order": [
     "app-download",
-    "support-manuals",
     "31948728-271e-4069-94bd-2a86622730f7",
-    "e458a475-b0b5-402c-a6ea-7bb955c8bfce"
+    "e458a475-b0b5-402c-a6ea-7bb955c8bfce",
+    "support-manuals"
   ]
 }
