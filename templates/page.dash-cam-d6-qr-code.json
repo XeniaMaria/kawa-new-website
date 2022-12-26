@@ -37,7 +37,7 @@
       "type": "kawa-support-manuals",
       "settings": {
         "title": "Manuals",
-        "show_category": true,
+        "show_category": false,
         "product": "dash-cam-2k-kawa-360-dash-camera-for-cars-1440p-with-starlight-color-night-vision-voice-control-emergency-recording-built-in-3d-sensor-hidden-design-dashcam-wdr-wide-angle-24h-parking-monitor"
       }
     }
