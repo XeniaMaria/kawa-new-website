@@ -6,14 +6,14 @@
         "support-block-1": {
           "type": "support-block",
           "settings": {
-            "blog": "kawa-s2",
+            "blog": "kawa-ip-camera-a6",
             "title": "Guidance Videos"
           }
         },
         "c728e030-5043-492a-b63d-e2e527b0caef": {
           "type": "support-block",
           "settings": {
-            "blog": "crib-support-zj01-1",
+            "blog": "crib-support-zj01",
             "title": "Crib Support"
           }
         }
