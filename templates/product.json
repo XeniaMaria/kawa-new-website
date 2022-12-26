@@ -40,10 +40,10 @@
       ],
       "settings": {
         "discount_code": "WS24S360",
-        "show_comment": true,
-        "show_discount": true,
-        "show_share": true,
-        "discount_faq": "<p><\/p>",
+        "show_comment": false,
+        "show_discount": false,
+        "show_share": false,
+        "discount_faq": "",
         "show_payment_flags": true
       }
     },
