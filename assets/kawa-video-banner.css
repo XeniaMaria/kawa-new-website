@@ -128,6 +128,10 @@
   position: relative;
 }
 
+.video-banner .vc-video--mb {
+  display: none;
+}
+
 @media screen and (max-width: 1200px) {
   .video-banner .banner-main-text {
     font-size: 60px;
@@ -188,6 +192,11 @@
   }
 
   .video-banner .vc-video {
+    display: none;
+  }
+
+  .video-banner .vc-video--mb {
+    display: block;
     object-fit: fill;
   }
 

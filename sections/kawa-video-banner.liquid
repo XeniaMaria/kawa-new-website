@@ -70,8 +70,18 @@
                 loop=""
                 muted="muted"
                 playsinline=""
-                data-canvas="7af2875d-f2bc-1be0-9992-6a94f3ef1f47"
                 src="{{ block.settings.video_link }}"
+                isload="true"
+              ></video>
+              <video
+                autoplay
+                class="vc-video--mb lazyloadVideo w-100 h-100"
+                type="video/mp4"
+                preload="none"
+                loop=""
+                muted="muted"
+                playsinline=""
+                src="{{ block.settings.video_link_mb }}"
                 isload="true"
               ></video>
           </div>
@@ -157,6 +167,12 @@
           "id": "video_link",
           "label": "视频链接",
           "info": "将mp4文件上传后，复制链接。"
+        },
+        {
+          "type": "url",
+          "id": "video_link_mb",
+          "label": "视频链接（移动端）",
+          "info": "移动端视频链接"
         },
         {
           "type": "text",
