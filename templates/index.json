@@ -162,7 +162,7 @@
           "type": "video-block",
           "settings": {
             "video_poster": "shopify:\/\/shop_images\/1002_774bb933-6a5f-4be7-8ceb-3574b29dd41d.jpg",
-            "video_html": "<iframe width=\"699\" height=\"393\" src=\"https:\/\/www.youtube.com\/embed\/_7w_NSwtVfY\" title=\"\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>"
+            "video_html": ""
           }
         },
         "video-block-4": {
