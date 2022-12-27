@@ -266,6 +266,7 @@
     },
     "specifications": {
       "type": "kawa-product-specifications",
+      "disabled": true,
       "settings": {
         "title": "Specs"
       }
