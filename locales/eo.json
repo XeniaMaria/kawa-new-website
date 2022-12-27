@@ -1452,7 +1452,35 @@
         "load_more": "Ŝarĝu pli",
         "load_more_accessibility_label": "Ŝarĝu pli da eroj",
         "loading_accessibility_label": "Ŝarĝante erojn"
-      }
+      },
+      "shipment_timeline": {
+        "expand_events_label": "Montru detalojn",
+        "expand_events_accessibility_label": "Montru detalojn pri sendado de mendo",
+        "hide_events_label": "Kaŝi detalojn",
+        "hide_events_accessibility_label": "Kaŝi ordonajn sendodetalojn"
+      },
+      "addresses_section_title": "Fakturado kaj sendo",
+      "billing_address": "Faktura adreso",
+      "card_ending_with": "finiĝante per {{lastDigits}}",
+      "contact": "Kontaktu",
+      "fully_refunded_label": "REPAGOS",
+      "discount": "Rabato",
+      "hide_items": "Kaŝi erojn",
+      "loading": "Ŝarĝante mendo detaloj",
+      "loading_finished_accessibility_message": "Mendaj detaloj estis ŝarĝitaj",
+      "location": "Loko",
+      "mobile_summary_toggle_button": {
+        "open": "Montru mendan resumon",
+        "closed": "Kaŝi mendan resumon"
+      },
+      "no_data": "Neniu",
+      "partially_refunded_label": "PARTE REPAGOS",
+      "payment": {
+        "status_in_review": "Pago ŝuldata post revizio",
+        "status_unpaid": "Pago ŝuldata je {{date}}",
+        "title": "Pago"
+      },
+      "refunded_amount": "Repagita"
     },
     "addresses": {
       "add_button": "Aldonu adreson",
@@ -1617,8 +1645,105 @@
         "no_filtered_results_title": "Neniuj filtritaj rezultoj",
         "order_link": "Vidu mendon {{name}}",
         "order_number": "Mendu {{name}}",
-        "orders_title": "Konfirmita"
-      }
+        "orders_title": "Konfirmita",
+        "pagination": {
+          "nav_accessibility_label": "Mendoj navigaj butonoj",
+          "next": "Poste",
+          "next_accessibility_label": "Sekvaj mendoj",
+          "previous": "Antaŭa",
+          "previous_accessibility_label": "Antaŭaj mendoj",
+          "load_more": "Ŝarĝu pli",
+          "load_more_accessibility_label": "Ŝarĝu pli da mendoj"
+        },
+        "payment_status": {
+          "list_view": {
+            "overdue": "Pago prokrastita",
+            "due": "Pago {{date}}",
+            "due_today": "Pago ŝuldata hodiaŭ",
+            "due_without_date": "Pago ŝuldata",
+            "due_on_fulfillment": "Pago ŝuldata je plenumo",
+            "pay_to_confirm": "Pagu por konfirmi",
+            "payment_not_due": "Pago ankoraŭ ne ŝuldata"
+          },
+          "table_view": {
+            "overdue": "Malfrua",
+            "due": "Estu {{date}}",
+            "due_today": "Paga hodiaŭ",
+            "paid": "Pagita",
+            "due_without_date": "Pro",
+            "due_on_fulfillment": "Paga sur plenumo",
+            "pay_to_confirm": "Pagu por konfirmi",
+            "payment_not_due": "Ankoraŭ ne ŝuldata"
+          }
+        },
+        "sort_by": "Ordigi laŭ: {{option}}",
+        "sort_hide_options_accessibility_label": "Kaŝi ordigajn opciojn por konfirmitaj mendoj.",
+        "sort_show_options_accessibility_label": "Montru ordigajn elektojn por konfirmitaj mendoj.",
+        "sort_currently_sorted_by_accessibility_label": "Nuntempe ordigita per: {{option}}",
+        "sort_title": "Ordigi",
+        "sort": {
+          "date": {
+            "newest": "De la plej nova ĝis la plej malnova",
+            "oldest": "De la plej malnova ĝis la plej nova"
+          },
+          "location": {
+            "ascending": "Loko (AZ)",
+            "descending": "Loko (ZA)"
+          },
+          "order_number": {
+            "ascending": "Mendonumero (malalta ĝis alta)",
+            "descending": "Ordonumero (alta ĝis malalta)"
+          },
+          "order_total": {
+            "ascending": "Totalo de mendo (malalta ĝis alta)",
+            "descending": "Ordotuto (alta ĝis malalta)"
+          }
+        },
+        "table_view": "Montru tabelan vidon"
+      },
+      "order_status": {
+        "attempted_delivery_label": "Provo de liverado",
+        "attempted_delivery_description": "La livera provo estis malsukcesa.",
+        "confirmed_description": "Ni ricevis vian mendon.",
+        "on_its_way_description": "Ĉi tiu sendo estas survoje.",
+        "out_for_delivery_description": "Ĉi tiu sendo estas liverebla.",
+        "preparing_for_shipping_label": "Preparante por sendo",
+        "preparing_for_shipping_description": "Ĉi tiuj aĵoj estas pretaj por sendo.",
+        "ready_for_pickup_label": "Preta por preni",
+        "ready_for_pickup_description": "Ĉi tiuj aĵoj estas pretaj por preni.",
+        "picked_up_label": "Kolektis",
+        "picked_up_description": "Ĉi tiuj aĵoj estis prenitaj.",
+        "canceled_description": "Via mendo estis nuligita je {{date}} .",
+        "canceled_label": "Nuligite",
+        "canceled_title": "Via mendo estas nuligita",
+        "come_back": "Revenu al ĉi tiu paĝo por ĝisdatigoj pri via sendostaso.",
+        "company_tracking_number": "{{company}} spura numero:",
+        "confirmed_label": "Konfirmita",
+        "confirmed_title": "Via mendo estas konfirmita",
+        "delivered_description": "Ĉi tiu sendo estis liverita.",
+        "delivered_label": "Liverita",
+        "delivered_title": "Via sendo estas liverita",
+        "estimated_delivery": "Laŭtaksa livero {{date}}",
+        "in_review_description": "Ni sciigos vin ĉu ni bezonas pliajn informojn aŭ kiam via mendo estos konfirmita.",
+        "in_review_label": "En recenzo",
+        "in_review_title": "Via mendo estas reviziita",
+        "no_tracking_number": "Ne ekzistas spura numero por ĉi tiu sendo.",
+        "on_its_way_label": "Survoje",
+        "on_its_way_title": "Via sendo estas survoja",
+        "out_for_delivery_label": "For por livero",
+        "out_for_delivery_title": "Via sendo estas liverebla",
+        "resume_tracking": "Rekomencu spuradon",
+        "submitted_label": "Submetita",
+        "submitted_description": "Revizu mendo kaj pago detaloj.",
+        "track_shipment": "Spuri sendon",
+        "request_return": "Petu revenon"
+      },
+      "status_mark_as_delivered": "Marku kiel liverita",
+      "status_title": "Ordo statuso",
+      "buy_again": "Aĉetu denove",
+      "buy_again_accessibility_label": "Aĉetu denove por mendo {{orderId}}",
+      "manage": "Administri",
+      "manage_accessiblity_label": "Administri mendon {{orderId}}"
     }
   },
   "products": {
