@@ -55,6 +55,7 @@
     },
     "video": {
       "type": "kawa-preview-video",
+      "disabled": true,
       "settings": {
         "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/57d135e474854c3b8973a129d0e52f70.mp4",
         "cover_image": "shopify:\/\/shop_images\/1002_a0aef2da-05ac-47b5-aeea-f11bc985ba2b.jpg",
@@ -64,6 +65,7 @@
     },
     "b1235f69-f0df-4e15-9581-e92175bad203": {
       "type": "kawa-image-text",
+      "disabled": true,
       "blocks": {
         "template--15914115825824__b1235f69-f0df-4e15-9581-e92175bad203-167117957750bc4710-0": {
           "type": "image_text",
@@ -110,34 +112,12 @@
     "carousel-2": {
       "type": "kawa-main-product-carousel",
       "disabled": true,
-      "blocks": {
-        "carousel-item-1": {
-          "type": "carousel_item",
-          "settings": {
-            "name": "",
-            "title": "",
-            "content": "",
-            "image": "shopify:\/\/shop_images\/af0471597e10c84743607ce5f08d0cc6_04fe2ef7-a940-40aa-a571-9bdb9bfa8495.jpg"
-          }
-        },
-        "carousel-item-2": {
-          "type": "carousel_item",
-          "settings": {
-            "name": "",
-            "title": "",
-            "content": ""
-          }
-        }
-      },
-      "block_order": [
-        "carousel-item-1",
-        "carousel-item-2"
-      ],
       "settings": {
       }
     },
     "carousel-1": {
       "type": "kawa-main-product-carousel",
+      "disabled": true,
       "blocks": {
         "carousel-item-1": {
           "type": "carousel_item",
@@ -167,6 +147,7 @@
     },
     "image-text-1": {
       "type": "kawa-image-text",
+      "disabled": true,
       "blocks": {
         "image-text-item-1": {
           "type": "image_text",
@@ -194,6 +175,7 @@
     },
     "0980a0d0-bd15-4ce2-bdf7-480057cb01e6": {
       "type": "kawa-image-text",
+      "disabled": true,
       "blocks": {
         "template--15914115825824__0980a0d0-bd15-4ce2-bdf7-480057cb01e6-167117957750bc4710-0": {
           "type": "image_text",
@@ -239,6 +221,7 @@
     },
     "image-text-2": {
       "type": "kawa-image-text",
+      "disabled": true,
       "blocks": {
         "image-text-item-1": {
           "type": "image_text",
@@ -284,6 +267,7 @@
     },
     "product-comparison": {
       "type": "kawa-product-comparison",
+      "disabled": true,
       "settings": {
         "title": "Product Comparison",
         "product_1": "baby-monitor-kawa-2k-qhd-5-video-baby-monitor-with-camera-and-audio-no-wifi-night-vision-recording-playback-2-way-talk-temp-sensor-4000mah-4x-zoom-flip-180-lullabies-1000ft-range-s7",
@@ -301,6 +285,7 @@
     },
     "tabs": {
       "type": "kawa-product-tabs",
+      "disabled": true,
       "blocks": {
         "tab-1": {
           "type": "tab_item",
@@ -339,6 +324,7 @@
     },
     "video-text": {
       "type": "kawa-video-text",
+      "disabled": true,
       "settings": {
         "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/d74c0ff0b4ac499ab5608e27669ad140.mp4",
         "title": "Instant Sound Alert",
@@ -348,6 +334,7 @@
     },
     "faq": {
       "type": "kawa-faq",
+      "disabled": true,
       "blocks": {
         "faq-1": {
           "type": "faq_item",
