@@ -1153,7 +1153,48 @@
     "page_titles": {
       "blog_or_article_with_error": "Eraro - %{title}",
       "products": "Produktoj",
-      "shopping_cart": "Via Aĉetveturilo"
+      "shopping_cart": "Via Aĉetveturilo",
+      "account": "Konto",
+      "create_account": "Krei konton",
+      "reset_account": "Restarigi Konton",
+      "addresses": "Adresoj",
+      "order": "Mendo %{name}",
+      "search": "Serĉu",
+      "search_results": {
+        "one": "Serĉu: %{count} rezulto trovita por \"%{terms}\"",
+        "other": "Serĉu: %{count} rezultoj trovitaj por \"%{terms}\""
+      },
+      "collections": "Kolektoj",
+      "not_found": "404 Ne Trovita",
+      "challenge": "Defio",
+      "checkpoint": "Kontrolpunkto"
+    },
+    "cart": {
+      "discounts_with_count": "%{count} rabatoj estis aplikitaj"
+    },
+    "challenge": {
+      "message": "Por daŭrigi, informu nin, ke vi ne estas roboto.",
+      "error": "Via respondo ne estis ĝusta, bonvolu provi denove.",
+      "submit_button_text": "Submeti"
+    },
+    "checkpoint": {
+      "message": "Solvu Captcha por daŭrigi",
+      "error": "Kaptcha validigo malsukcesis",
+      "submit_button_text": "Submeti"
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Kutime preta en 1 horo",
+        "two_hours": "Kutime preta en 2 horoj",
+        "four_hours": "Kutime preta en 4 horoj",
+        "twenty_four_hours": "Kutime preta en 24 horoj",
+        "two_to_four_days": "Kutime preta en 2-4 tagoj",
+        "five_or_more_days": "Kutime preta en 5+ tagoj",
+        "zero_to_two_hours": "Kutime preta en 2 horoj",
+        "two_to_four_hours": "Kutime preta en 4 horoj",
+        "immediately": "Preta por preni nun",
+        "next_day": "Preta por preni la venontan tagon"
+      }
     }
   },
   "customer_accounts": {
@@ -1483,6 +1524,101 @@
       "subscription_policy": "Abonpolitiko",
       "terms_of_sale": "Kondiĉoj de vendo",
       "terms_of_service": "Reguloj de servado"
+    },
+    "navigation_and_structure": {
+      "account_menu": {
+        "hide_accessibility_label": "Kaŝi Konton menuo",
+        "label": "Konto",
+        "show_accessibility_label": "Montru Konto-menuon"
+      },
+      "action_menu_accessibility_label": "Pli da agoj",
+      "close_menu_accessibility_label": "Fermu ĉefan navigadon",
+      "contact_email_subject": "Kontaktu el {{shopName}} reta butiko",
+      "contact_link": "Kontaktu nin",
+      "delete_confirmation": {
+        "cancel": "Nuligi",
+        "delete": "Forigi"
+      },
+      "dismiss_toast": "Forĵeti",
+      "document_title": "{{sectionName}} - {{shopName}} - Konto",
+      "go_to_store_link": "Iru al vendejo",
+      "loading_message": "Ŝarĝante",
+      "log_out_link": "Elsaluti",
+      "login_prompt": {
+        "continue": "Daŭrigu",
+        "privacy": "Privateco",
+        "title": "Daŭrigu ensaluti"
+      },
+      "logout_overlay_label": "Malsaluti vin...",
+      "nav_label_accessibility_label": "Ĉefa navigado",
+      "navigation_accessibility_message": "Vi navigis al {{sectionName}}",
+      "open_menu_accessibility_label": "Malfermu ĉefan navigadon",
+      "orders_link_label": "Mendoj",
+      "shop_logo_accessibility_label": "{{shopName}} emblemo",
+      "subscriptions_link_label": "Abonoj"
+    },
+    "account_information": {
+      "loading_accessibility_message": "Ŝarĝante kontajn informojn",
+      "loading_finished_accessibility_message": "Kontaj informoj ŝargis",
+      "profile_card": {
+        "cancel": "Nuligi",
+        "cancel_accessibility_label": "Nuligi redaktadon de profilo",
+        "edit": "Redakti",
+        "edit_accessibility_label": "Redaktu profilon",
+        "email_help_text": "Retpoŝto uzata por ensaluto ne povas esti ŝanĝita",
+        "first_name": "Antaŭnomo",
+        "last_name": "Familia nomo",
+        "phone_number_help_text": "Telefonnumero uzata por ensaluto ne povas esti ŝanĝita",
+        "save": "Savi",
+        "save_accessibility_label": "Konservu profilon",
+        "title": "Profilo"
+      },
+      "profile_update_confirmation_message": "Profilo ĝisdatigita",
+      "title": "Informoj pri konto",
+      "people": {
+        "pagination": {
+          "load_more": "Ŝarĝu pli",
+          "load_more_accessibility_label": "Ŝarĝu pli da homoj",
+          "loading_accessibility_label": "Ŝarĝante homojn"
+        }
+      }
+    },
+    "orders": {
+      "list_layout_accessibility_label": "Opcioj de aranĝo",
+      "list_title": "Mendoj",
+      "order_list": {
+        "column_headers": {
+          "delivery_date": "Livera dato",
+          "items": "Eroj",
+          "order_date": "Dato de mendo",
+          "order_number": "Mendnumero",
+          "status": "Ordo statuso",
+          "payment_status": "Paga stato",
+          "total": "Entute"
+        },
+        "delivered": "Liverita {{date}}",
+        "empty_state_order_source_description": "Nur mendoj faritaj de {{email}} montros ĉi tie.",
+        "empty_state_subtitle": "Iru al vendejo por fari mendon.",
+        "empty_state_title": "Ankoraŭ neniuj mendoj",
+        "estimated": "Laŭtaksa {{date}}",
+        "estimated_shortform": "Est. {{date}}",
+        "estimated_delivery": "Laŭtaksa livero {{date}}",
+        "one_images_accessibility_label": "Mendo inkluzivas {{lineItemName1}}",
+        "two_images_accessibility_label": "Mendo inkluzivas {{lineItemName1}} , {{lineItemName2}}",
+        "three_images_accessibility_label": "Ordo inkluzivas {{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}}",
+        "four_images_accessibility_label": "Ordo inkluzivas {{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}} , {{lineItemName4}}",
+        "items": {
+          "one": "{{count}} ero",
+          "other": "{{count}} eroj"
+        },
+        "list_view": "Montru listvidon",
+        "multiple_shipments": "Multoblaj sendoj",
+        "no_filtered_results_description": "Forigu aŭ ĝustigu filtrilojn por vidi viajn mendojn",
+        "no_filtered_results_title": "Neniuj filtritaj rezultoj",
+        "order_link": "Vidu mendon {{name}}",
+        "order_number": "Mendu {{name}}",
+        "orders_title": "Konfirmita"
+      }
     }
   },
   "products": {
