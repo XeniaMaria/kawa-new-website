@@ -627,7 +627,169 @@
       "invalid_format": "formato ne validas",
       "expired": "eksvalidiĝis",
       "invalid_start_date_or_issue_number_for_debit": "valida komencdato aŭ eldona numero estas postulata",
-      "invalid_expiry_year": "ne estas valida eksvalida jaro"
+      "invalid_expiry_year": "ne estas valida eksvalida jaro",
+      "reset_password_html": "Ĉi tiu retadreso jam estas asociita kun konto. Se ĉi tiu konto estas via, vi povas <a href=\"\/account\/login#recover\">restarigi vian pasvorton<\/a>",
+      "verify_email": "Ni sendis retmesaĝon al %{customer_email}, bonvolu klaki la ligilon inkluzivita por kontroli vian retadreson.",
+      "product_not_available": "produkto ne estas publikigita por ĉi tiu kliento."
+    },
+    "notices": {
+      "customer": {
+        "password_reset_error": "Eraro pri rekomencigita pasvorto",
+        "no_account_found": "Neniu konto trovita kun tiu retpoŝto.",
+        "invalid_credentials": "Malĝusta retpoŝto aŭ pasvorto.",
+        "denylisted_reset_password": "Via konto ne estis alirebla ĉar la nuna pasvorto ne estas sekura. Vi ricevos retpoŝton por ĝisdatigi vian pasvorton."
+      },
+      "address": {
+        "updated": "Sukcese ĝisdatigita adreso.",
+        "error_updating": "Eraro dum ĝisdatigo de adreso",
+        "created": "Sukcese kreita adreso",
+        "error_creating": "Eraro dum kreado de adreso.",
+        "deleted": "Sukcese forigita adreso",
+        "error_deleting": "Eraro dum forigo de adreso."
+      },
+      "order": {
+        "not_available": "Ĉi tiu mendo ne disponeblas",
+        "financial_status": {
+          "authorized": "Rajtigita",
+          "pending": "Decidota",
+          "paid": "Pagita",
+          "unpaid": "Nepagita",
+          "voided": "Nuligite",
+          "partially_paid": "Parte pagita",
+          "partially_refunded": "Parte repagite",
+          "refunded": "Repagita",
+          "expired": "Eksvalidiĝis"
+        },
+        "fulfillment_status": {
+          "fulfilled": "Plenumis",
+          "complete": "Kompleta",
+          "partial": "Parta",
+          "unfulfilled": "Neplenumita",
+          "restocked": "Reprovizita"
+        },
+        "transaction_status": {
+          "success": "Sukceso",
+          "pending": "Decidota",
+          "failure": "Fiasko",
+          "error": "Eraro"
+        },
+        "cancel_reason": {
+          "declined": "Pago malkreskis",
+          "inventory": "Eroj nedisponeblaj",
+          "fraud": "Fraŭda ordono",
+          "customer": "Kliento ŝanĝis\/nuligis mendon",
+          "other": "Alia"
+        },
+        "cash_on_delivery": "Kontanttransdono (COD)"
+      },
+      "cart": {
+        "only_n_items_available": "Vi povas nur aldoni %{count} %{name} al la ĉaro.",
+        "too_many_items_in_cart": "Vi ne povas aldoni pli %{name} al la ĉaro.",
+        "all_items_in_cart": "Ĉiuj %{count} %{name} estas en via ĉaro.",
+        "empty_update": "ne povas ĝisdatigi malplenan ĉaron",
+        "missing_parameters": "neniu valida id aŭ linio-parametro",
+        "generic_error": "Ĉaro Eraro",
+        "product_not_available": "Produkto ne haveblas",
+        "too_many_line_items_error": "Via ĉaro ne povas enhavi pli ol %{max} aĵojn.",
+        "link_expired": "Ligilo eksvalidiĝis",
+        "link_no_longer_exists": "Ligilo ne plu ekzistas.",
+        "stock_problems_html": "Unu aŭ pluraj eroj ne plu disponeblas. Ni provizis <a href=\"%%7Blink%7D\">ĝisdatigitan ĉaron<\/a> .",
+        "changed": "Ĉaro ŝanĝiĝis",
+        "items_changed": "Unu aŭ pluraj eroj ŝanĝiĝis.",
+        "product_sold_out": "La produkto '%{name}' jam estas elĉerpita.",
+        "variant_not_found": "Ne povas trovi varianton",
+        "variant_requires_selling_plan": "Variaĵo nur povas esti aĉetita kun venda plano.",
+        "selling_plan_not_available_for_company_locations": "Nur unufoja aĉeto disponeblas por B2B mendoj",
+        "digital_product_not_available_for_company_locations": "Ĉi tiu aĵo ne povas esti aldonita al B2B mendo",
+        "selling_plan_not_applicable": "Ne povas apliki vendoplanon al varianto",
+        "shipping_address_not_required": "Ĉi tiu ĉaro ne postulas sendon",
+        "shipping_address_invalid": "Okazis problemo pri kalkulo de viaj sendaj tarifoj. Daŭrigu pagi por elekti sendokurzon antaŭ ol vi kompletigas vian mendon."
+      },
+      "storefront": {
+        "invalid_password": "Pasvorto malĝusta, bonvolu provi denove."
+      },
+      "tags": {
+        "add_articles": "Malvastigi serĉon al artikoloj ankaŭ kun etikedo %{tag}",
+        "add_products": "Malvastigu elekton al produktoj kongruantaj al etikedo %{tag}",
+        "remove_articles": "Plivastigu serĉon al artikoloj kiuj ne estas etikeditaj %{tag}",
+        "remove_products": "Forigi etikedon %{tag}"
+      }
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "Dankon pro abono al nia dissendolisto.",
+        "disclaimer": "Vi povas malaboni iam ajn.",
+        "unsubscribe": "Malaboniĝi"
+      },
+      "unsubscribed": {
+        "confirmation": "Vi malabonis de nia dissendolisto.",
+        "disclaimer": "Vi ne ricevos pliajn merkatajn ĝisdatigojn de ni. Vi povas denove aboni iam ajn.",
+        "preview": "Vi antaŭrigardas, kion vidos klientoj kiam ili malabonos."
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>Vi elektis retpoŝti malferman spuradon.<\/b>",
+          "visibility": "Retpoŝtaj malfermaj tarifoj estos raportitaj anonime. Ni vidos nur ĉu vi malfermis retpoŝton kiel parto de aldonita retpoŝta malferma indico.",
+          "opt_out_html": "Vi povas <a style=\"text-decoration:underline;\" href=\"%%7Blink%7D\">elekti ekstere<\/a> de retpoŝta malferma spurado se vi ne volas kunhavigi ĉi tiun informon.",
+          "preview_bar": "Vi antaŭrigardas kion vidos klientoj kiam ili elektas retpoŝti malferman spuradon."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>Vi elektis for de retpoŝta malferma spurado.<\/b>",
+          "visibility": "Ni ne vidos ĉu vi malfermis niajn retpoŝtojn.",
+          "opt_in_html": "<a style=\"text-decoration:underline;\" href=\"%%7Blink%7D\">Elektu<\/a> retpoŝti malferman spuradon.",
+          "preview_bar": "Vi antaŭrigardas, kion vidos klientoj kiam ili elektas ekstere de retpoŝta malferma spurado."
+        },
+        "no_longer_track": {
+          "status_html": "<b>Ni ne plu spuras neniun retpoŝton malfermitaj.<\/b>",
+          "privacy_policy": "Post kiam ĉi tiu retpoŝto estis sendita, ni ĝisdatigis nian privatecan politikon kaj ni ne plu spuras malfermaĵojn."
+        },
+        "track": {
+          "status_html": "<b>Retpoŝta malferma spurado estas raportita.<\/b>",
+          "visibility": "Ni vidos nur ĉu vi malfermis la retpoŝton, kiel parto de la totala retpoŝta malferma indico."
+        },
+        "updated_policy": {
+          "status_html": "<b>Retpoŝta malferma spurado estas raportita.<\/b>",
+          "visibility": "Ni ĝisdatigis nian politikon, kaj nun malfermiĝas spuraj retpoŝtoj. Retpoŝtaj malfermaj tarifoj estos raportitaj anonime. Ni vidos nur ĉu vi malfermis retpoŝton kiel parto de la totala retpoŝta malferma indico.",
+          "opt_out_html": "Se vi ne volas kunhavigi ĉi tiujn informojn, vi povas <a style=\"text-decoration:underline;\" href=\"%%7Blink%7D\">malaboni.<\/a>"
+        }
+      }
+    },
+    "filters": {
+      "availability": {
+        "label": "Havebleco",
+        "value": {
+          "in_stock": "En stoko",
+          "out_of_stock": "Elĉerpita"
+        }
+      },
+      "vendor": {
+        "label": "Marko"
+      },
+      "price": {
+        "label": "Prezo"
+      },
+      "product_type": {
+        "label": "Produkta tipo"
+      },
+      "boolean": {
+        "true_label": "Jes",
+        "false_label": "Ne"
+      },
+      "tags": {
+        "label": "Pli da filtriloj"
+      }
+    },
+    "search": {
+      "sorting": {
+        "relevance": "Graveco",
+        "price_ascending": "Prezo, malalta al alta",
+        "price_descending": "Prezo, alta ĝis malalta"
+      }
+    },
+    "page_titles": {
+      "blog_or_article_with_error": "Eraro - %{title}",
+      "products": "Produktoj",
+      "shopping_cart": "Via Aĉetveturilo"
     }
   },
   "customer_accounts": {
