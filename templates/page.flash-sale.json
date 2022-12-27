@@ -54,6 +54,7 @@
     },
     "flash-sale-nav": {
       "type": "kawa-flash-sale-nav",
+      "disabled": true,
       "blocks": {
         "flash-sale-collection-1": {
           "type": "flash-sale-collection",
@@ -102,7 +103,7 @@
       "type": "kawa-flash-sale-banner",
       "settings": {
         "bg_image": "shopify:\/\/shop_images\/2_97efa07f-01ca-42ac-89fb-c868097cf4a1.jpg",
-        "bg_image_mb": "shopify:\/\/shop_images\/2_97efa07f-01ca-42ac-89fb-c868097cf4a1.jpg",
+        "bg_image_mb": "shopify:\/\/shop_images\/13_300x300_ee7ccb48-d01c-41c3-9243-d15e06509557.jpg",
         "subtitle": "",
         "title": "",
         "des": ""
