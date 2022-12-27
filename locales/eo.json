@@ -112,7 +112,453 @@
         "pick_up_locations": "Kaptaj lokoj",
         "pick_up_in_one_hour": "Kutime preta en 1 horo",
         "pick_up_in_two_hours": "Kutime preta en 2 horoj"
+      },
+      "tips": {
+        "add_tip": "Aldonu konsilon",
+        "update_tip": "Ĝisdatigu konsileton",
+        "message": "Dankon, ni dankas ĝin",
+        "no_tip_label": "Neniu"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "zero": "Aĉetu %{product_name}",
+          "one": "Aĉetu %{product_name} kaj %{count} alian objekton",
+          "other": "Aĉetu %{product_name} kaj %{count} aliajn aĵojn"
+        }
+      },
+      "subscriptions": {
+        "recurring_total_intervals": {
+          "day": {
+            "one": "tago",
+            "other": "%{count} tagoj"
+          },
+          "week": {
+            "one": "semajno",
+            "other": "%{count} semajnoj"
+          },
+          "month": {
+            "one": "monato",
+            "other": "%{count} monatoj"
+          },
+          "year": {
+            "one": "jaro",
+            "other": "%{count} jaroj"
+          }
+        },
+        "recurring_totals": "%{total_price} ĉiu %{interval}",
+        "recurring_totals_with_initial_order_shipping_discount": "Unua pago %{total_price_with_discount}, poste %{recurring_total}",
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "one": "Unua pago %{total_price}",
+            "other": "Unuaj %{count} pagoj %{total_price} ĉiu"
+          },
+          "following_cycles": ", tiam %{total_price} ĉiu %{interval}"
+        },
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": ", tiam %{count} pago je %{total_price}",
+            "other": ", tiam %{count} pagoj po %{total_price}"
+          }
+        }
+      },
+      "customer_payment_methods": {
+        "page_title": "Pagmetodoj",
+        "title": "Pagmetodoj",
+        "update_card_button_label": "Ĝisdatigu karton",
+        "delete_customer_mandate": {
+          "generic_error": "Estis problemo pri procesado de via peto.",
+          "success_message": "Via pagmetodo estis sukcese forigita"
+        }
       }
+    },
+    "pagination": {
+      "previous": "Antaŭa",
+      "next": "Poste"
+    },
+    "links": {
+      "powered_by_shopify": "Funkciigita de Shopify",
+      "learn_more": "Lernu pli"
+    },
+    "feed": {
+      "more": "Pli"
+    },
+    "attributes": {
+      "email": "retpoŝto",
+      "password": "Pasvorto",
+      "password_confirmation": "La konfirmo de pasvorto",
+      "first_name": "antaŭnomo",
+      "last_name": "Familia nomo",
+      "body": "korpo",
+      "signature": "Adreso"
+    },
+    "addresses": {
+      "zip_code": "Poŝtkodo",
+      "postal_code": "Poŝtkodo",
+      "postcode": "Poŝtkodo",
+      "pincode": "Pinkodo",
+      "region": "Regiono",
+      "prefecture": "Prefektejo",
+      "province": "Provinco",
+      "state": "Ŝtato",
+      "state_and_territory": "Ŝtato\/teritorio",
+      "county": "Distrikto",
+      "emirate": "Emirlando",
+      "governorate": "Gubernio",
+      "confirm": "Ĉu vi certas, ke vi volas forigi ĉi tiun adreson?"
+    },
+    "collections": {
+      "sorting": {
+        "manual": "Prezentita",
+        "best_selling": "Plej vendata",
+        "az": "Alfabete, AZ",
+        "za": "Alfabete, ZA",
+        "price_ascending": "Prezo, malalta al alta",
+        "price_descending": "Prezo, alta ĝis malalta",
+        "date_ascending": "Dato, malnova al nova",
+        "date_descending": "Dato, nova al malnova"
+      }
+    },
+    "errors": {
+      "blank": "ne povas esti malplena",
+      "blocked_address": "Ĉi tiu loko ne estas subtenata.",
+      "credit_card_session_expired": "Kreditkarta rajtigo eksvalidiĝis, bonvolu enigi viajn pagajn informojn denove. Via karto ne estas ŝargita.",
+      "empty": "ne povas esti malplena",
+      "invalid_email": "Devas esti valida retpoŝtadreso",
+      "discount_disabled": "Ĉi tiu rabato estis malŝaltita",
+      "discount_expired": "Ĉi tiu rabato ne plu validas",
+      "discount_limit_reached": "Ĉi tiu rabato atingis sian uzlimon",
+      "discount_not_found": "Ne eblas trovi validan rabaton kongruan kun la enigita kodo",
+      "customer_already_used_once_per_customer_discount_notice": "Ĉi tiu rabato atingis sian uzlimon",
+      "gift_card_already_applied": "Kodo jam estis aplikita al via kaso",
+      "gift_card_code_invalid": "Kodo estas nevalida",
+      "gift_card_currency_mismatch": "Via donackarto estas en %{gift_card_currency}. Kontaktu nin por ke ĝi reeldonos en %{checkout_currency}.",
+      "gift_card_depleted": "Ne restas mono en ĉi tiu donackarto",
+      "gift_card_disabled": "Donackarto estas malŝaltita",
+      "gift_card_expired": "Donackarto eksvalidiĝis",
+      "invalid": "estas nevalida",
+      "bad_domain": "enhavas nevalidan domajnan nomon",
+      "taken": "jam estis prenita",
+      "contains_html_tags": "ne povas enhavi HTML-etikedojn",
+      "too_short": "estas tro mallonga (minimumo estas %{count} signoj)",
+      "too_long": "estas tro longa (maksimume estas %{count} signoj)",
+      "password_mismatch": "devas kongrui kun la provizita pasvorto",
+      "contains_spaces": "komenciĝas aŭ finiĝas per spacoj.",
+      "email_domain_invalid": "provizanto ne estas subtenata",
+      "invalid_for_country": "ne validas por %{country}",
+      "invalid_for_country_and_province": "ne validas por %{province} kaj %{country}",
+      "invalid_province_in_country": "ne estas valida provinco en %{country}",
+      "invalid_state_in_country": "ne estas valida ŝtato en %{country}",
+      "invalid_region_in_country": "ne estas valida regiono en %{country}",
+      "less_than_or_equal_to": "devas esti malpli ol aŭ egala al %{count}",
+      "not_supported": "ne estas subtenata",
+      "full_name_required": "Enigu antaŭnomon kaj familian nomon",
+      "invalid_for_card_type": "ne validas",
+      "invalid_type": "pardonu, ni ne akceptas kartojn de ĉi tiu tipo",
+      "invalid_format": "formato ne validas",
+      "expired": "eksvalidiĝis",
+      "invalid_start_date_or_issue_number_for_debit": "valida komencdato aŭ eldona numero estas postulata",
+      "invalid_expiry_year": "ne estas valida eksvalida jaro"
+    }
+  },
+  "customer_accounts": {
+    "B2B": {
+      "location_selection": {
+        "list_accessibility_label": "Listo de Lokoj",
+        "list_item_without_address_accessibility_label": "{{name}} : Neniu adreso",
+        "list_loading_accessibility_message": "Ŝarĝante liston de lokoj",
+        "list_loading_address_accessibility_message": "Ŝarĝanta adreson por {{locationName}}",
+        "list_loading_finished_accessibility_message": "Listo de lokoj ŝargis",
+        "loading_store_accessibility_message": "Iru al magazeno",
+        "no_location_title": "Nur personaj mendoj",
+        "no_location_description": "Vi ne plu havas permeson fari mendojn por {{company}} . Vi ankoraŭ povas fari personajn mendojn.",
+        "no_locations_found": "Neniuj lokoj trovitaj",
+        "search": "Serĉu lokon",
+        "selection_cancel_button": "Nuligi",
+        "selection_confirmation_button": "Elektu lokon",
+        "title": "Por kiu loko vi aĉetas?",
+        "clear_search": "Klara serĉo",
+        "try_new_search": "Provu novan serĉon"
+      },
+      "addresses": {
+        "add_billing_address_button": "Aldonu fakturadreson",
+        "add_billing_address_section_accessibility_label": "Aldonu fakturadreson",
+        "add_shipping_address_button": "Aldonu sendan adreson",
+        "add_shipping_address_section_accessibility_label": "Aldonu sendan adreson",
+        "billing_address_card_title": "Faktura adreso",
+        "cancel_adding_billing_address_accessibility_label": "Nuligi aldoni fakturadreson",
+        "cancel_adding_shipping_address_accessibility_label": "Nuligi aldoni sendan adreson",
+        "save_new_billing_address_accessibility_label": "Konservu fakturadreson",
+        "save_new_shipping_address_accessibility_label": "Konservu sendan adreson",
+        "shipping_address_card_title": "Sendo adreso"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all": "Kaŝi ĉion",
+          "show_all": "Montru ĉion",
+          "hide_all_accessibility_label": "Kaŝi ĉiujn mendojn en revizio",
+          "show_all_accessibility_label": "Montru ĉiujn mendojn en revizio",
+          "show_all_orders_in_review": "Montru ĉiujn mendojn en revizio",
+          "show_less_orders_in_review": "Montru malpli da mendoj en revizio",
+          "title": "Decidota",
+          "pagination": {
+            "nav_accessibility_label": "Mendoj en revizio navigado butonoj"
+          }
+        },
+        "order_list_column_headers_location": "Loko",
+        "order_list_column_headers_contact": "Kontaktu"
+      },
+      "draft_order_details": {
+        "draft_order_subtitle": "Konfirmita {{date}} de mendo {{draftOrderName}}",
+        "loading": "Ŝarĝante mendo detaloj",
+        "loading_finished_accessibility_message": "Mendaj detaloj estis ŝarĝitaj",
+        "payment_status": {
+          "pending": {
+            "banner_overdue": {
+              "one": "Via pago estas {{count}} tagoj",
+              "other": "Via pago estas prokrastita de {{count}} tagoj"
+            },
+            "banner_due": {
+              "one": "Via pago estas pagenda en {{count}} tago",
+              "other": "Via pago estas pagenda en {{count}} tagoj"
+            },
+            "banner_due_today": "Via pago estas pagebla hodiaŭ",
+            "title": "Pago ŝuldata",
+            "title_with_date": "Pago {{date}}",
+            "title_due_on_receipt": "Pago ankoraŭ ne ŝuldata",
+            "title_due_on_fulfillment": "Pago ŝuldata je plenumo",
+            "description_overdue": "Via pago estas malfrua.",
+            "description_partially_paid": "Ĉi tiu mendo estis parte pagita. Vi havas restantan ekvilibron.",
+            "description_authorized": "Via pagmetodo estos ŝargita en la limdato, aŭ vi povas pagi nun.",
+            "description_due_on_receipt": "Vi ricevos fakturon kiam pago estos.",
+            "description_due_on_fulfillment": "Pago estas pagenda post kiam ĉiuj eroj en ĉi tiu ordo estas plenumitaj."
+          },
+          "draft": {
+            "description": "Pagaj detaloj estas deciditaj kiam la mendo estas konfirmita.",
+            "title": "Pago ankoraŭ ne ŝuldata",
+            "in_review": {
+              "description": "Pagaj detaloj estas deciditaj kiam la mendo estas konfirmita.",
+              "title": "Pago ankoraŭ ne ŝuldata"
+            },
+            "submitted": {
+              "description": "Sendu pagon por konfirmi ĉi tiun mendon.",
+              "title": "Pagu por konfirmi"
+            }
+          },
+          "paid": {
+            "title": "Pagita",
+            "title_with_date": "Pagita {{date}}",
+            "description": "Via mendo estas plene pagita."
+          },
+          "refund": {
+            "title": "Repagita",
+            "title_with_date": "Repagita {{date}}",
+            "description_full_refund": "Vi ricevis plenan repagon por ĉi tiu mendo.",
+            "description_single_refund": "Vi ricevis partan repagon por ĉi tiu mendo.",
+            "description_multiple_refunds": "Vi ricevis partajn repagojn por ĉi tiu mendo."
+          },
+          "canceled": {
+            "title": "Pago nuligita",
+            "description": "Vi ne estos ŝargita."
+          },
+          "pay_now": "Pagu nun",
+          "title": "Paga stato"
+        },
+        "order_timeline": {
+          "expand_events_label": "Montru detalojn",
+          "expand_events_accessibility_label": "Montru detalojn pri malneto de mendo",
+          "hide_events_label": "Kaŝi detalojn",
+          "hide_events_accessibility_label": "Kaŝi malnetajn ordon detalojn"
+        },
+        "subtitle": "Sendita {{date}}",
+        "title": "Mendu {{name}}"
+      }
+    },
+    "errors": {
+      "address_deletion_error": {
+        "description": "Okazis problemo dum forigo de ĉi tiu adreso. Provu denove aŭ refreŝigu la paĝon."
+      },
+      "addresses_loading_issue": {
+        "description": "Eraro de konekto. Kontrolu vian interretan konekton kaj provu denove."
+      },
+      "banner_title": {
+        "one": "Estas {{count}} eraro",
+        "other": "Estas {{count}} eraroj"
+      },
+      "failed_address_creation": {
+        "description": "Estis problemo dum kreado de via adreso. Provu refreŝigi ĉi tiun paĝon aŭ kontrolu vian interretan konekton."
+      },
+      "failed_address_update": {
+        "description": "Estis problemo ĝisdatigante vian adreson. Provu refreŝigi ĉi tiun paĝon aŭ kontrolu vian interretan konekton."
+      },
+      "load_orders_error": {
+        "title": "Ne eblas ŝargi mendojn",
+        "description": "Reprovu aŭ revenu poste.",
+        "retry_button": "Reprovi"
+      },
+      "no_access": {
+        "back_to_authentication_link": "Ensalutu en malsaman konton",
+        "description": "Vi ne estas registrita kiel B2B-kliento kun {{shopName}}",
+        "title": "Neniu aliro"
+      },
+      "no_access_to_locations": {
+        "description": "Vi ne havas aliron al iuj lokoj"
+      },
+      "not_found": {
+        "description": "Kontrolu la URL aŭ provu denove post kelkaj minutoj.",
+        "title": "Estas problemo dum ŝarĝo de ĉi tiu paĝo"
+      },
+      "order_not_found": {
+        "description": "Ĉi tiu ordo ne ekzistas aŭ vi ne havas permeson vidi ĝin.",
+        "title": "Ordo ne trovita"
+      },
+      "profile_update_error": {
+        "description": "Estis problemo ĝisdatigante vian profilon. Provu refreŝigi ĉi tiun paĝon aŭ kontrolu vian interretan konekton."
+      },
+      "retry_action_label": "Reprovi"
+    },
+    "payment_methods": {
+      "title": "Pagmetodoj",
+      "add_payment_method_button": "Aldonu pagmetodon",
+      "delete_payment_method_button": "Forigi",
+      "delete_payment_method_button_accessibility_label": "Forigu {{paymentMethodName}}",
+      "back_button": "Reen"
+    }
+  },
+  "products": {
+    "facets": {
+      "max_price": "La plej alta prezo estas {{ price }}",
+      "product_count": {
+        "one": "{{ product_count }} de {{ count }} produkto",
+        "other": "{{ product_count }} el {{ count }} produktoj"
+      },
+      "product_count_simple": {
+        "one": "{{ count }} produkto",
+        "other": "{{ count }} produktojn"
+      },
+      "reset": "Restarigi",
+      "sort_button": "Ordigi",
+      "sort_by_label": "Ordigi laŭ:",
+      "to": "Al",
+      "clear_filter": "Forigi filtrilon"
+    }
+  },
+  "templates": {
+    "search": {
+      "no_results": "Neniuj rezultoj trovitaj por \" {{ terms }} \". Kontrolu la literumon aŭ uzu alian vorton aŭ frazon.",
+      "page": "Paĝo",
+      "products": "Produktoj",
+      "results_with_count": {
+        "one": "{{ count }} rezulto",
+        "other": "{{ count }} rezultojn"
+      },
+      "results_with_count_and_term": {
+        "one": "{{ count }} rezulto trovita por “ {{ terms }} ”",
+        "other": "{{ count }} rezultoj trovitaj por “ {{ terms }} ”"
+      },
+      "title": "Serĉrezultoj",
+      "search_for": "Serĉu \" {{ terms }} \""
+    },
+    "cart": {
+      "cart": "Ĉaro"
+    },
+    "contact": {
+      "form": {
+        "title": "Kontakta formularo",
+        "name": "Nomo",
+        "email": "Retpoŝto",
+        "phone": "Telefonnumero",
+        "comment": "Komento",
+        "send": "Sendu",
+        "post_success": "Dankon pro kontakti nin. Ni revenos al vi kiel eble plej baldaŭ.",
+        "error_heading": "Bonvolu ĝustigi la jenajn:"
+      }
+    },
+    "404": {
+      "title": "Paĝo ne trovita"
+    }
+  },
+  "localization": {
+    "country_label": "Lando\/regiono",
+    "language_label": "Lingvo",
+    "update_language": "Ĝisdatigu lingvon",
+    "update_country": "Ĝisdatigu landon\/regionon"
+  },
+  "customer": {
+    "account": {
+      "title": "Konto",
+      "details": "Detaloj pri konto",
+      "view_addresses": "Rigardu adresojn",
+      "return": "Revenu al la detaloj de la konto"
+    },
+    "account_fallback": "Konto",
+    "activate_account": {
+      "title": "Aktivigu konton",
+      "subtext": "Kreu vian pasvorton por aktivigi vian konton.",
+      "password": "Pasvorto",
+      "password_confirm": "Konfirmu pasvorton",
+      "submit": "Aktivigu konton",
+      "cancel": "Malakcepti inviton"
+    },
+    "addresses": {
+      "title": "Adresoj",
+      "default": "Defaŭlte",
+      "add_new": "Aldonu novan adreson",
+      "edit_address": "Redaktu adreson",
+      "first_name": "Antaŭnomo",
+      "last_name": "Familia nomo",
+      "company": "Kompanio",
+      "address1": "Adreso 1",
+      "address2": "Adreso 2",
+      "city": "Urbo",
+      "country": "Lando\/regiono",
+      "province": "Provinco",
+      "zip": "Poŝta\/kodo",
+      "phone": "Telefono",
+      "set_default": "Agordu kiel defaŭltan adreson",
+      "add": "Aldonu adreson",
+      "update": "Ĝisdatigu adreson",
+      "cancel": "Nuligi",
+      "edit": "Redakti",
+      "delete": "Forigi",
+      "delete_confirm": "Ĉu vi certas, ke vi volas forigi ĉi tiun adreson?"
+    },
+    "log_in": "Ensaluti",
+    "log_out": "Elsaluti",
+    "login_page": {
+      "cancel": "Nuligi",
+      "create_account": "Krei konton",
+      "email": "Retpoŝto",
+      "forgot_password": "Ĉu vi forgesis vian pasvorton?",
+      "guest_continue": "Daŭrigu",
+      "guest_title": "Daŭrigu kiel gasto",
+      "password": "Pasvorto",
+      "title": "Ensaluti",
+      "sign_in": "Ensaluti",
+      "submit": "Submeti"
+    },
+    "order": {
+      "title": "Mendo {{ name }}",
+      "date_html": "Lokita je {{ date }}",
+      "cancelled_html": "Mendo Nuligis je {{ date }}",
+      "cancelled_reason": "Kialo: {{ reason }}",
+      "billing_address": "Faktura Adreso",
+      "payment_status": "Paga Statuso",
+      "shipping_address": "Sendenda Adreso",
+      "fulfillment_status": "Plenuma Statuso",
+      "discount": "Rabato",
+      "shipping": "Sendo",
+      "tax": "Imposto",
+      "product": "Produkto",
+      "price": "Prezo",
+      "quantity": "Kvanto",
+      "total": "Entute",
+      "fulfilled_at_html": "Plenumis {{ date }}",
+      "track_shipment": "Spuri sendon",
+      "tracking_url": "Spuranta ligilo",
+      "tracking_company": "Kondukisto",
+      "tracking_number": "Spura nombro",
+      "subtotal": "Subtotalo",
+      "total_duties": "Devoj"
     }
   }
 }
