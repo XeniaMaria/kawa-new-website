@@ -1198,7 +1198,72 @@
       "sort_button": "Ordigi",
       "sort_by_label": "Ordigi laŭ:",
       "to": "Al",
-      "clear_filter": "Forigi filtrilon"
+      "clear_filter": "Forigi filtrilon",
+      "apply": "Apliki",
+      "clear": "Klara",
+      "clear_all": "Forigu ĉiujn",
+      "from": "De",
+      "filter_and_sort": "Filtri kaj ordigi",
+      "filter_button": "Filtrilo",
+      "filters_selected": {
+        "one": "{{ count }} elektita",
+        "other": "{{ count }} elektita"
+      },
+      "filter_selected_accessibility": "{{ type }} ( {{ count }} filtrilojn elektitaj)",
+      "show_more": "Montru pli",
+      "show_less": "Montru malpli"
+    },
+    "product": {
+      "add_to_cart": "Aldonu al la korbo",
+      "choose_options": "Elektu opciojn",
+      "choose_product_options": "Elektu opciojn por {{ product_name }}",
+      "description": "Priskribo",
+      "on_sale": "Vendo",
+      "product_variants": "Produktaj variantoj",
+      "media": {
+        "gallery_viewer": "Galerio-Vidilo",
+        "load_image": "Ŝarĝu bildon {{ index }} en galeria vido",
+        "load_model": "Ŝarĝu 3D-Modelo {{ index }} en galeria vido",
+        "load_video": "Ludu videon {{ index }} en galeria vido",
+        "image_available": "Bildo {{ index }} nun haveblas en galeria vido",
+        "open_media": "Malfermu amaskomunikilaron {{ index }} en modala",
+        "play_model": "Ludu 3D-Vidilon",
+        "play_video": "Ludu videon"
+      },
+      "quantity": {
+        "label": "Kvanto",
+        "input_label": "Kvanto por {{ product }}",
+        "increase": "Pliigi kvanton por {{ product }}",
+        "decrease": "Malpliigu kvanton por {{ product }}"
+      },
+      "pickup_availability": {
+        "view_store_info": "Rigardu vendejajn informojn",
+        "check_other_stores": "Kontrolu haveblecon ĉe aliaj vendejoj",
+        "pick_up_available": "Elekto havebla",
+        "pick_up_available_at_html": "Repreno disponebla ĉe <span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "pick_up_unavailable_at_html": "Repreno nuntempe ne disponebla ĉe <span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "unavailable": "Ne eblis ŝargi la haveblecon de ŝarĝo",
+        "refresh": "Refreŝigi"
+      },
+      "price": {
+        "from_price_html": "De {{ price }}",
+        "regular_price": "Regula prezo",
+        "sale_price": "Venda prezo",
+        "unit_price": "Prezo unuopa"
+      },
+      "share": "Kunhavigu ĉi tiun produkton",
+      "sold_out": "Elvendita",
+      "unavailable": "Nedisponebla",
+      "vendor": "Vendisto",
+      "video_exit_message": "{{ title }} malfermas plenekranan videon en la sama fenestro.",
+      "view_full_details": "Rigardu plenajn detalojn",
+      "xr_button": "Vidu en via spaco",
+      "xr_button_label": "Vidu en via spaco, ŝarĝas objekton en la fenestro de pliigita realeco",
+      "include_taxes": "Imposto inkluzivita.",
+      "shipping_policy_html": "<a href=\"&lt;span%20class='notranslate'&gt;%7B%7B%20link%20%7D%7D&lt;\/span&gt;\">Sendado<\/a> kalkulita ĉe la kaso."
+    },
+    "modal": {
+      "label": "Media galerio"
     }
   },
   "templates": {
@@ -1364,5 +1429,82 @@
       "copy_code_success": "Kodo kopiita sukcese",
       "print_gift_card": "Presi"
     }
+  },
+  "general": {
+    "social": {
+      "links": {
+        "youtube": "Jutubo",
+        "tiktok": "Tik Tok"
+      }
+    },
+    "continue_shopping": "Daŭrigu butikumado",
+    "pagination": {
+      "label": "Paĝigo",
+      "page": "Paĝo {{ number }}",
+      "next": "Sekva paĝo",
+      "previous": "Antaŭa paĝo"
+    },
+    "search": {
+      "search": "Serĉu"
+    },
+    "cart": {
+      "view": "Rigardu mian ĉaron ( {{ count }} )",
+      "item_added": "Ero aldonita al via ĉaro"
+    },
+    "share": {
+      "close": "Fermi kundividi",
+      "copy_to_clipboard": "Kopiu ligilon",
+      "share_url": "Ligo",
+      "success_message": "Ligo kopiita al tondujo"
+    },
+    "slider": {
+      "of": "de",
+      "next_slide": "Glitu dekstren",
+      "previous_slide": "Glitu maldekstren"
+    }
+  },
+  "newsletter": {
+    "label": "Retpoŝto",
+    "success": "Dankon pro abono",
+    "button_label": "Abonu"
+  },
+  "accessibility": {
+    "skip_to_text": "Saltu al enhavo",
+    "skip_to_product_info": "Saltu al produktaj informoj",
+    "close": "Fermu",
+    "error": "Eraro",
+    "refresh_page": "Elekto de elekto rezultigas plenan paĝan refreŝigon.",
+    "link_messages": {
+      "new_window": "Malfermiĝas en nova fenestro.",
+      "external": "Malfermas eksteran retejon."
+    },
+    "loading": "Ŝargante...",
+    "total_reviews": "totalaj recenzoj",
+    "star_reviews_info": "{{ rating_value }} el {{ rating_max }} steloj",
+    "collapsible_content_title": "Faldebla enhavo"
+  },
+  "blogs": {
+    "article": {
+      "blog": "Blogo",
+      "read_more_title": "Legu pli: {{ title }}",
+      "comments": {
+        "one": "{{ count }} komenton",
+        "other": "{{ count }} komentojn"
+      },
+      "moderated": "Bonvolu noti, ke komentoj devas esti aprobitaj antaŭ ol ili estas publikigitaj.",
+      "comment_form_title": "lasu komenton",
+      "name": "Nomo",
+      "email": "Retpoŝto",
+      "message": "Komento",
+      "post": "Afiŝu komenton",
+      "back_to_blog": "Reen al blogo",
+      "share": "Kunhavigu ĉi tiun artikolon",
+      "success": "Via komento estis afiŝita sukcese! Dankon!",
+      "success_moderated": "Via komento estis afiŝita sukcese. Ni publikigos ĝin post iom da tempo, ĉar nia blogo estas moderigita."
+    }
+  },
+  "onboarding": {
+    "product_title": "Ekzempla produkta titolo",
+    "collection_title": "La nomo de via kolekto"
   }
 }
