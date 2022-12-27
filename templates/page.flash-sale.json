@@ -1,5 +1,21 @@
 {
   "sections": {
+    "f8b163ff-0286-40ec-97b1-173baf940edd": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/3000x1500_ee08c5bf-6c10-41a3-85b3-a1dac0e6ee81.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "c0ff6eee-df5b-45a5-bc60-4dd3043745be": {
       "type": "image-banner",
       "disabled": true,
@@ -101,9 +117,10 @@
     },
     "flash-sale-banner": {
       "type": "kawa-flash-sale-banner",
+      "disabled": true,
       "settings": {
         "bg_image": "shopify:\/\/shop_images\/2_97efa07f-01ca-42ac-89fb-c868097cf4a1.jpg",
-        "bg_image_mb": "shopify:\/\/shop_images\/13_300x300_ee7ccb48-d01c-41c3-9243-d15e06509557.jpg",
+        "bg_image_mb": "shopify:\/\/shop_images\/59c6f07bf7bae868dd56b1a9f3077648_588b9202-506a-491a-8e7d-2cc1afdb0f7a.jpg",
         "subtitle": "",
         "title": "",
         "des": ""
@@ -313,6 +330,7 @@
     }
   },
   "order": [
+    "f8b163ff-0286-40ec-97b1-173baf940edd",
     "c0ff6eee-df5b-45a5-bc60-4dd3043745be",
     "flash-sale-nav",
     "flash-sale-banner",
