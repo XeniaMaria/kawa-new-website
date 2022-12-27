@@ -119,7 +119,7 @@
             "title": "Monthly",
             "desc": "Service Content",
             "orig_price": 8,
-            "price": 5,
+            "price": 5.0,
             "price_color": "#56b85d",
             "duration": "month",
             "detail": "<div>24 hours continuous recording<\/div><div>7-Day Video History<\/div><div>Expiration date: 1 month<\/div>"

@@ -235,6 +235,13 @@
             "link": "#"
           }
         },
+        "poster-5": {
+          "type": "poster",
+          "settings": {
+            "title": "Category 2",
+            "link": "#"
+          }
+        },
         "poster-2": {
           "type": "poster",
           "disabled": true,
@@ -258,22 +265,14 @@
             "title": "CJ1004",
             "link": "#"
           }
-        },
-        "poster-5": {
-          "type": "poster",
-          "disabled": true,
-          "settings": {
-            "title": "Category 2",
-            "link": "#"
-          }
         }
       },
       "block_order": [
         "poster-1",
+        "poster-5",
         "poster-2",
         "poster-3",
-        "poster-4",
-        "poster-5"
+        "poster-4"
       ],
       "settings": {
         "title": "Build Your Smart Home, Life, and Car."
