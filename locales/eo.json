@@ -1222,7 +1222,36 @@
       "add_payment_method_button": "Aldonu pagmetodon",
       "delete_payment_method_button": "Forigi",
       "delete_payment_method_button_accessibility_label": "Forigu {{paymentMethodName}}",
-      "back_button": "Reen"
+      "back_button": "Reen",
+      "back_button_accessibility_label": "Reen al {{paymentMethodStepTitle}}",
+      "generic_card": "Karto",
+      "payment_details": {
+        "title": "Detaloj pri pagmetodo",
+        "credit_card_ending_in": "finiĝanta per {{lastDigits}}",
+        "payment_method_expiring_on": "Eksvalidiĝo je {{expiryDate}}",
+        "preauthorized_payments": "Antaŭaŭtorizitaj pagoj",
+        "close_payment_modal": "Fermu",
+        "close_payment_modal_accessibility_label": "Fermu pagmetodo detaloj modalaj",
+        "payment_method_not_found_error": "Ne eblas trovi pagmetodon",
+        "payment_details_loading": "Ŝarĝante detalojn pri pagmetodo",
+        "pre_authorized_payments": "Antaŭrajtigitaj pagoj",
+        "total_amount_of_subscription_line_items_left": "kaj {{total}} pli",
+        "total_amount_of_subscription_line_items_left_accessibility_label": "{{totalItems}} eroj entute, montrante {{totalItemsToDisplay}} eroj.",
+        "next_payment_due": "Venonta pago pagenda {{dueDateInMonthDayYear}}"
+      },
+      "payment_delete": {
+        "title": "Forigi pagmetodon",
+        "description_without_replacement": "Ĉi tiu pagmetodo ne plu estos disponebla por estontaj aĉetoj.",
+        "description_with_replacement": "Forigo de ĉi tiu pagmetodo influos antaŭaŭtorizitajn pagojn. Anstataŭigu ĝin per alia pagmaniero por daŭre ricevi venontajn mendojn.",
+        "payment_method_selector_placeholder": "Elektu pagmetodon",
+        "payment_method_selector_no_alternative_payment": "Neniu",
+        "replace_method_with_new_method_description": "Via {{currentPaymentMethodName}} estos forigita kaj anstataŭigita per via {{newPaymentMethodName}} .",
+        "error_when_deleting": "Ni pardonpetas sed io misfunkciis kaj ni ne povis forigi ĉi tiun pagmetodon. Bonvolu provi denove poste aŭ refreŝigi la paĝon.",
+        "delete_and_replace_button": "Forigu kaj anstataŭigu",
+        "delete_and_replace_button_accessibility_label": "Forigu {{currentPaymentMethodName}} kaj anstataŭigu per {{newPaymentMethodName}} .",
+        "deleted_successfully": "Pagmetodo sukcese forigita.",
+        "loading_available_payment_methods_accessibility_label": "Ŝarĝante disponeblajn pagmetodojn"
+      }
     },
     "order_details": {
       "request_return_failed": "Estis problemo pri procesado de via peto. Bonvolu reprovi.",
@@ -1313,6 +1342,19 @@
       "save_accessibility_label": "Konservu adreson {{address}}",
       "section_title_accessibility_label": "Aldonu adreson",
       "update_success_notification": "Adreso ĝisdatigita"
+    },
+    "payment_method_brands": {
+      "visa": "Vizo",
+      "shoppay": "Butiko Pagu"
+    },
+    "shop_policies": {
+      "legal_notice": "Leĝa avizo",
+      "privacy_policy": "Privateca politiko",
+      "refund_policy": "Politiko pri repago",
+      "shipping_policy": "Politiko de sendo",
+      "subscription_policy": "Abonpolitiko",
+      "terms_of_sale": "Kondiĉoj de vendo",
+      "terms_of_service": "Reguloj de servado"
     }
   },
   "products": {
@@ -1566,7 +1608,13 @@
     "social": {
       "links": {
         "youtube": "Jutubo",
-        "tiktok": "Tik Tok"
+        "tiktok": "Tik Tok",
+        "facebook": "Fejsbuko"
+      },
+      "alt_text": {
+        "share_on_facebook": "Kunhavigu ĉe Fejsbuko",
+        "share_on_twitter": "Tweet sur Twitter",
+        "share_on_pinterest": "Alpinglu sur Pinterest"
       }
     },
     "continue_shopping": "Daŭrigu butikumado",
@@ -1593,6 +1641,16 @@
       "of": "de",
       "next_slide": "Glitu dekstren",
       "previous_slide": "Glitu maldekstren"
+    },
+    "password_page": {
+      "login_form_heading": "Eniru vendejon uzante pasvorton:",
+      "login_password_button": "Enigu uzante pasvorton",
+      "login_form_password_label": "Pasvorto",
+      "login_form_password_placeholder": "Via pasvorto",
+      "login_form_error": "Erara pasvorto!",
+      "login_form_submit": "Eniru",
+      "admin_link_html": "Ĉu vi estas la posedanto de la vendejo? <a href=\"\/admin\" class=\"link underlined-link\">Ensalutu ĉi tie<\/a>",
+      "powered_by_shopify_html": "Ĉi tiu butiko estos funkciigita de {{ shopify }}"
     }
   },
   "newsletter": {
@@ -1638,5 +1696,79 @@
   "onboarding": {
     "product_title": "Ekzempla produkta titolo",
     "collection_title": "La nomo de via kolekto"
+  },
+  "sections": {
+    "header": {
+      "announcement": "Anonco",
+      "menu": "Menuo",
+      "cart_count": {
+        "one": "{{ count }} ero",
+        "other": "{{ count }} erojn"
+      }
+    },
+    "cart": {
+      "title": "Via ĉaro",
+      "caption": "Ĉaretoj",
+      "remove_title": "Forigi {{ title }}",
+      "subtotal": "Subtotalo",
+      "new_subtotal": "Nova subtotalo",
+      "note": "Mendu specialajn instrukciojn",
+      "checkout": "Kontrolu",
+      "empty": "Via ĉaro estas malplena",
+      "cart_error": "Okazis eraro dum la ĝisdatigo de via ĉaro. Bonvolu reprovi.",
+      "cart_quantity_error_html": "Vi povas nur aldoni {{ quantity }} de ĉi tiu aĵo al via ĉaro.",
+      "taxes_and_shipping_policy_at_checkout_html": "Impostoj kaj <a href=\"&lt;span%20class='notranslate'&gt;%7B%7B%20link%20%7D%7D&lt;\/span&gt;\">sendo<\/a> kalkulitaj ĉe la kaso",
+      "taxes_included_but_shipping_at_checkout": "Imposto inkluzivita kaj sendo kalkulita ĉe la kaso",
+      "taxes_included_and_shipping_policy_html": "Imposto inkluzivita. <a href=\"&lt;span%20class='notranslate'&gt;%7B%7B%20link%20%7D%7D&lt;\/span&gt;\">Sendado<\/a> kalkulita ĉe la kaso.",
+      "taxes_and_shipping_at_checkout": "Impostoj kaj sendo kalkulitaj ĉe la kaso",
+      "headings": {
+        "product": "Produkto",
+        "price": "Prezo",
+        "total": "Entute",
+        "quantity": "Kvanto",
+        "image": "Produkta bildo"
+      },
+      "update": "Ĝisdatigo",
+      "login": {
+        "title": "Havas konton?",
+        "paragraph_html": "<a href=\"&lt;span%20class='notranslate'&gt;%7B%7B%20link%20%7D%7D&lt;\/span&gt;\" class=\"link underlined-link\">Ensalutu<\/a> por kontroli pli rapide."
+      }
+    },
+    "footer": {
+      "payment": "Pagmetodoj"
+    },
+    "featured_blog": {
+      "view_all": "Rigardu ĉiujn",
+      "onboarding_title": "Bloga afiŝo",
+      "onboarding_content": "Donu al viaj klientoj resumon de via bloga afiŝo"
+    },
+    "featured_collection": {
+      "view_all": "Rigardu ĉiujn",
+      "view_all_label": "Rigardu ĉiujn produktojn en la {{ collection_name }}",
+      "slider": "Glitilo"
+    },
+    "collection_list": {
+      "view_all": "Rigardu ĉiujn"
+    },
+    "collection_template": {
+      "empty": "Neniuj produktoj trovitaj",
+      "title": "Kolekto",
+      "use_fewer_filters_html": "Uzu malpli da filtriloj aŭ <a class=\"&lt;span class='notranslate'&gt;{{ class }}&lt;\/span&gt;\" href=\"&lt;span%20class='notranslate'&gt;%7B%7B%20link%20%7D%7D&lt;\/span&gt;\">forigu ĉiujn<\/a>"
+    },
+    "video": {
+      "load_video": "Ŝargi videon: {{ description }}"
+    },
+    "slideshow": {
+      "load_slide": "Ŝargi diapozitivon",
+      "previous_slideshow": "Antaŭa glitado",
+      "next_slideshow": "Sekva diapozitivo",
+      "pause_slideshow": "Paŭzi bildaron",
+      "play_slideshow": "Ludu bildaron",
+      "carousel": "Karuselo",
+      "slide": "Gliti"
+    },
+    "page": {
+      "title": "Paĝtitolo"
+    }
   }
 }
