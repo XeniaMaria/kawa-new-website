@@ -570,7 +570,32 @@
         "original_price": "Originala prezo",
         "sale_price": "Venda prezo",
         "total_updated_label": "Ĝisdatigita totala prezo:",
-        "order_total_updated_label": "Ĝisdatigita totalo"
+        "order_total_updated_label": "Ĝisdatigita totalo",
+        "total_already_paid_label": "Jam pagita",
+        "gift_card_ending": "Donackarto finiĝanta per %{last_characters}",
+        "estimated_tax_label": "Laŭtaksa imposto",
+        "multiple_shipping_lines_label": "Sendado totala",
+        "recurring_subtotal_label": "Revenanta subtotalo",
+        "recurring_total_label": "Revenanta totalo",
+        "recurring_total_tooltip": "Ne inkluzivas sendadon, imposton, impostojn aŭ ajnajn aplikeblajn rabatojn.",
+        "confirmation_number_label": "Konfirmo #%{confirmation_number}",
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> ne povus esti uzata kun viaj ekzistantaj rabatoj. Vi jam havas pli bonan kombinaĵon.",
+        "percent_off_shipping": "%{percent}% rabato de sendo",
+        "amount_off_shipping": "%{amount} rabato de sendo",
+        "deferred_payment_info": {
+          "title": "Pago de %{amount_due} estas pagenda je %{due_at}",
+          "description_html": "Por demandoj pri via mendo, %{contact_us}.",
+          "paid_today": "Totalo pagita hodiaŭ",
+          "due_on_fulfillment_title": "Pago de %{amount_due} estas pagenda ĉe plenumado"
+        },
+        "payment_terms_totals": {
+          "due_today": "Sumo ŝuldata hodiaŭ",
+          "due_later": "Sumo ŝuldata %{due_at}",
+          "due_on_fulfillment": "Sumo pagenda sur plenumo",
+          "due_later_checkout_to_draft": "Sumo pago poste"
+        },
+        "maximum_discount_code_limit_reached": "Vi atingis la maksimuman nombron da rabataj kodoj. Forigu ekzistantan kodon por uzi <strong style=\"text-transform:uppercase\">%{code}<\/strong> .",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> ne funkcias nun. Kontaktu nin por helpo."
       },
       "payment": {
         "gift_card_code_label": "Kodo de donackarto",
@@ -674,7 +699,15 @@
         "no_taxes_banner_content": "Impostoj ne estos ŝargitaj sur ĉi tiu ordo. Post kiam vi kolektis pagon, impostoj ne plu povas esti aldonitaj.",
         "paypal": {
           "connect": "Klaku por konekti vian PayPal-konton"
-        }
+        },
+        "amazon_payments_login_hint": "Oni petos vin ensaluti kun Amazon.",
+        "amazon_payments_logout": "Elsalutu de Amazon Pay",
+        "amazon_payments_failed_mfa_challenge": "La elektita pagmetodo ne povis esti uzata. Elektu alian metodon aŭ kontaktu vian bankon aŭ karton.",
+        "amazon_payments_abandoned_mfa_challenge": "Via pago ne povis esti finita. Provu alian pagmetodon aŭ kontaktu vian bankon aŭ karton.",
+        "amazon_payments_could_not_enqueue_authorize": "Estis problemo pri procesado de via pago. Provu denove aŭ uzu alian pagmetodon.",
+        "title": "Pago",
+        "amount_left_to_pay_label": "Pago ŝuldata:",
+        "discount_button_action_label": "Apliki Rabatkodon"
       },
       "payment_errors": {
         "deferred_amount_changed": "Via pago ne povis esti procesita ĉar la prokrastita pagokvanto ŝanĝiĝis. Bonvolu kontroli vian mendon kaj provi denove.",
@@ -775,6 +808,101 @@
         "bank_deposit_label": "Banka Deponejo",
         "cash_on_delivery_label": "Kontanttransdono (COD)",
         "money_order_label": "Monordono"
+      },
+      "shipping": {
+        "title": "Sendo",
+        "shipping_method_title": "Sendado metodo",
+        "shipping_method_one_time_purchase_group_title": "Unufoja aĉeto",
+        "shipping_method_subscription_group_title": "Abono",
+        "subscription_shipping": "Abonan sendadon",
+        "subscription_local_delivery": "Abono loka livero",
+        "subscription_pickup": "Repreno de abonoj",
+        "waiting_on_rate_notice": "Akiro de disponeblaj sendaj tarifoj...",
+        "waiting_on_pickup_location_notice": "Akiro de disponeblaj pretlokoj...",
+        "no_rates_for_cart_or_destination_notice": "Ne estas sendaj metodoj disponeblaj por via ĉaro aŭ adreso",
+        "no_pickup_location_notice": "Almenaŭ unu el viaj produktoj ne estas disponebla por preni",
+        "no_rates_for_country_notice": "Neniuj sendaj tarifoj trovitaj por ĉi tiu adreso.",
+        "no_rates_contact_notice": "Kontaktu nin por pliaj informoj",
+        "free_rate_label": "Senpaga",
+        "cheapest_rate_label": "Plej malmultekosta",
+        "please_enter_your_shipping_information_notice": "Bonvolu enigi viajn sendajn informojn.",
+        "estimated_delivery_date": {
+          "one": "%{count} labortago",
+          "other": "%{count} labortagoj"
+        },
+        "estimated_delivery_date_range": "%{minimum} ĝis %{maximum} labortagoj",
+        "estimated_delivery_time": "Laŭtaksa livero %{time}",
+        "estimated_delivery_time_range": "Laŭtaksa livero %{min_time}–%{max_time}",
+        "delivery_today": "samtaga livero %{time}",
+        "delivery_tomorrow": "Venonttaga livero %{time}",
+        "two_day_delivery": "2-taga livero %{time}",
+        "delivery": "Livero %{time}",
+        "arrives_time": "Alvenas %{time}",
+        "arrives_time_range": "Alvenas %{min_time}–%{max_time}",
+        "estimated_time": "Laŭtaksa %{time}",
+        "estimated_time_range": "Laŭtaksa %{min_time}–%{max_time}",
+        "shipping_line_phone_label": "Poŝtelefonnumero (postulata)",
+        "shipping_line_phone": "Via kuriero povas uzi ĉi tiun numeron por kontakti vin.",
+        "shipping_line_delivery_phone_label": "Poŝtelefona numero",
+        "shipping_line_delivery_phone": "Vi povas esti kontaktita kun ĝisdatigoj pri via livero.",
+        "optional_shipping_line_delivery_instructions_label": "Liveraj instrukcioj (laŭvola)",
+        "shipping_line_delivery_instructions": "Enigu necesajn informojn kiel pordkodojn aŭ deportinstrukciojn.",
+        "other_method": {
+          "zero": "Neniuj aliaj metodoj haveblaj",
+          "one": "%{count} alia metodo disponebla ĉe",
+          "other": "%{count} aliaj metodoj disponeblaj ekde"
+        },
+        "shipping_rate_discounted_amount": "Estis: %{original_amount}. Nun: %{amount}",
+        "local_delivery": "Loka livero",
+        "subscription_delivery_description": {
+          "prepaid_delivery_frequency": {
+            "one": "por %{count} livero",
+            "other": "por %{count} liveroj"
+          },
+          "subscription_delivery_frequency": {
+            "day": {
+              "one": "ĉiutage",
+              "other": "ĉiun %{count} tagojn"
+            },
+            "week": {
+              "one": "ĉiusemajne",
+              "other": "ĉiujn %{count} semajnojn"
+            },
+            "month": {
+              "one": "ĉiumonate",
+              "other": "ĉiun %{count} monatojn"
+            },
+            "year": {
+              "one": "ĉiujare",
+              "other": "ĉiun %{count} jarojn"
+            }
+          },
+          "multiple_subscriptions_shipping_price_label": "%{shipping_price} per livero",
+          "prepaid_shipping_price_label": "%{shipping_price} per livero x %{delivery_interval_count}",
+          "initial_order_discounted": "Unua sendokosto %{discounted_shipping_cost}, poste %{frequency_description}",
+          "prepaid_initial_order_discounted": "Unua sendokosto %{discounted_shipping_price} %{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "Unua sendokosto %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_renewal": "Unua sendokosto %{discounted_shipping_price} %{prepaid_delivery_frequency}, poste %{shipping_price} %{billing_cycle}",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Unua sendokosto %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), poste %{shipping_price} %{billing_cycle}",
+          "shipping_price_included": "Inkluzivita",
+          "recurring_order_shipping_price": "sekvita de %{recurring_order_shipping_price}",
+          "first_order_shipping_price_included": "Unua mendo inkluzivita, sekvita de %{recurring_order_shipping_price}",
+          "first_order_different_shipping_price": "%{first_order_shipping_price} (%{per_delivery_price} per livero), sekvata de %{recurring_order_shipping_price}",
+          "first_n_order_free": {
+            "one": "Unua mendo senpage",
+            "other": "Unuaj %{count} mendoj senpage"
+          },
+          "free_for_first_n_order": {
+            "one": "Por unua ordo",
+            "other": "Por unuaj %{count} mendoj"
+          }
+        },
+        "one_time_purchase_shipping": "Unufoja sendado"
+      },
+      "localized_fields": {
+        "additional_information": {
+          "title": "Kromaj Informoj"
+        }
       }
     },
     "pagination": {
