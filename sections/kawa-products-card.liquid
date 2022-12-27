@@ -7,7 +7,18 @@
       <a href="{{ block.settings.card_product.url }}">
         <div class="product-card product-card-{{ forloop.index }}">
           <figure class="w-100">
-            <img src="{{ block.settings.card_image | image_url }}" class="w-100-h-auto" width="100" height="100" loading="lazy"/>
+            <img
+              src="{{ block.settings.card_image | image_url }}"
+              class="w-100-h-auto product-img--pc"
+              width="100"
+              height="100"
+              loading="lazy" />
+            <img
+              src="{{ block.settings.card_image_mb | image_url }}"
+              class="w-100-h-auto product-img--mb"
+              width="100"
+              height="100"
+              loading="lazy" />
           </figure>
           <div class="card-description-box flex-vc wh-100">
             <p class="description-title">{{ block.settings.title }}</p>
@@ -40,11 +51,18 @@
             "type": "product",
             "id": "card_product",
             "label": "卡片对应的产品"
-          }, {
+          },
+          {
             "type": "image_picker",
             "id": "card_image",
             "label": "卡片对应的图片"
-          }, {
+          },
+          {
+            "type": "image_picker",
+            "id": "card_image_mb",
+            "label": "卡片对应的图片(移动端)"
+          },
+          {
             "type": "text",
             "id": "title",
             "label": "卡片标题"
