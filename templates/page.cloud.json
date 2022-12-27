@@ -4,6 +4,7 @@
       "type": "kawa-single-img-text",
       "settings": {
         "pc_img": "shopify:\/\/shop_images\/fash_2.jpg",
+        "mobile_img": "shopify:\/\/shop_images\/2_39cb432e-8cb7-44cf-b2c3-47079fa58b65.jpg",
         "title": "Kawa Cloud",
         "content": "With the highest standards of security and reliability. Whether uploading or replaying, it is always confidential. KAWA and KAWA's cloud service providers will never access or use its content without your consent, authorization, and permission. You retain control, maintenance, and ownership of the content stored in the cloud.",
         "text_pos": "top",
@@ -44,7 +45,7 @@
       "type": "kawa-single-img-text",
       "settings": {
         "pc_img": "shopify:\/\/shop_images\/c8577a1df210126991a8c79837c61c3f.jpg",
-        "mobile_img": "shopify:\/\/shop_images\/11.jpg",
+        "mobile_img": "shopify:\/\/shop_images\/11_74b1cfd7-beea-4ca0-9591-8d54a87dce08.jpg",
         "title": "",
         "content": "",
         "text_pos": "top",
