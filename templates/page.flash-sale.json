@@ -16,56 +16,42 @@
         "show_text_below": true
       }
     },
-    "c0ff6eee-df5b-45a5-bc60-4dd3043745be": {
-      "type": "image-banner",
+    "flash-sale-banner": {
+      "type": "kawa-flash-sale-banner",
       "disabled": true,
+      "settings": {
+        "bg_image": "shopify:\/\/shop_images\/2_97efa07f-01ca-42ac-89fb-c868097cf4a1.jpg",
+        "bg_image_mb": "shopify:\/\/shop_images\/59c6f07bf7bae868dd56b1a9f3077648_588b9202-506a-491a-8e7d-2cc1afdb0f7a.jpg",
+        "subtitle": "",
+        "title": "",
+        "des": ""
+      }
+    },
+    "flash-sale-1": {
+      "type": "kawa-flash-sale",
       "blocks": {
-        "template--15545510002740__c0ff6eee-df5b-45a5-bc60-4dd3043745be-16711703135d4a758b-0": {
-          "type": "heading",
-          "disabled": true,
+        "flash-sale-product-1": {
+          "type": "flash-sale-product",
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
+            "product": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6",
+            "product_tags": "5 Inch Large Display,2-Way Talk,20Hrs Battery,720P HD Display",
+            "product_img": "shopify:\/\/shop_images\/01_300x300_662f62c6-fd27-4720-8763-de2ec2b6f5ea.jpg"
           }
         },
-        "template--15545510002740__c0ff6eee-df5b-45a5-bc60-4dd3043745be-16711703135d4a758b-1": {
-          "type": "text",
+        "flash-sale-product-2": {
+          "type": "flash-sale-product",
           "disabled": true,
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "template--15545510002740__c0ff6eee-df5b-45a5-bc60-4dd3043745be-16711703135d4a758b-2": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "product": "kawa-5-720p-hd-display-video-baby-monitor-with-night-vision-temperature-sensor-2-way-audio-pan-tilt-zoom-white-noise-lullaby-20-hours-battery-1000ft-range",
+            "product_tags": "4G LTE,Person\/Vehicle Detection,Battery\/Solar Powered,IP66 Waterproof"
           }
         }
       },
       "block_order": [
-        "template--15545510002740__c0ff6eee-df5b-45a5-bc60-4dd3043745be-16711703135d4a758b-0",
-        "template--15545510002740__c0ff6eee-df5b-45a5-bc60-4dd3043745be-16711703135d4a758b-1",
-        "template--15545510002740__c0ff6eee-df5b-45a5-bc60-4dd3043745be-16711703135d4a758b-2"
+        "flash-sale-product-1",
+        "flash-sale-product-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/3000x1500.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
       }
     },
     "flash-sale-nav": {
@@ -111,44 +97,6 @@
         "df737849-a28d-4beb-9b91-0bca5d691161",
         "flash-sale-collection-2",
         "flash-sale-collection-3"
-      ],
-      "settings": {
-      }
-    },
-    "flash-sale-banner": {
-      "type": "kawa-flash-sale-banner",
-      "disabled": true,
-      "settings": {
-        "bg_image": "shopify:\/\/shop_images\/2_97efa07f-01ca-42ac-89fb-c868097cf4a1.jpg",
-        "bg_image_mb": "shopify:\/\/shop_images\/59c6f07bf7bae868dd56b1a9f3077648_588b9202-506a-491a-8e7d-2cc1afdb0f7a.jpg",
-        "subtitle": "",
-        "title": "",
-        "des": ""
-      }
-    },
-    "flash-sale-1": {
-      "type": "kawa-flash-sale",
-      "blocks": {
-        "flash-sale-product-1": {
-          "type": "flash-sale-product",
-          "settings": {
-            "product": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6",
-            "product_tags": "5 Inch Large Display,2-Way Talk,20Hrs Battery,720P HD Display",
-            "product_img": "shopify:\/\/shop_images\/01_300x300_662f62c6-fd27-4720-8763-de2ec2b6f5ea.jpg"
-          }
-        },
-        "flash-sale-product-2": {
-          "type": "flash-sale-product",
-          "disabled": true,
-          "settings": {
-            "product": "kawa-5-720p-hd-display-video-baby-monitor-with-night-vision-temperature-sensor-2-way-audio-pan-tilt-zoom-white-noise-lullaby-20-hours-battery-1000ft-range",
-            "product_tags": "4G LTE,Person\/Vehicle Detection,Battery\/Solar Powered,IP66 Waterproof"
-          }
-        }
-      },
-      "block_order": [
-        "flash-sale-product-1",
-        "flash-sale-product-2"
       ],
       "settings": {
       }
@@ -331,10 +279,9 @@
   },
   "order": [
     "f8b163ff-0286-40ec-97b1-173baf940edd",
-    "c0ff6eee-df5b-45a5-bc60-4dd3043745be",
-    "flash-sale-nav",
     "flash-sale-banner",
     "flash-sale-1",
+    "flash-sale-nav",
     "flash-sale-2",
     "flash-sale-ad",
     "flash-sale-comment",
