@@ -49,6 +49,7 @@
     },
     "banner": {
       "type": "kawa-main-product-banner",
+      "disabled": true,
       "settings": {
         "banner_image": "shopify:\/\/shop_images\/1005_98ef0c03-b7e1-4d48-b25f-255025aa819c.jpg"
       }
@@ -95,6 +96,7 @@
     },
     "image-text-1": {
       "type": "kawa-image-text",
+      "disabled": true,
       "blocks": {
         "image-text-item-1": {
           "type": "image_text",
@@ -122,6 +124,7 @@
     },
     "351b63f1-e016-469c-a58b-b3e8b2c342a5": {
       "type": "kawa-image-text",
+      "disabled": true,
       "blocks": {
         "template--15917345144992__351b63f1-e016-469c-a58b-b3e8b2c342a5-1670556217e8b1e688-0": {
           "type": "image_text",
@@ -149,6 +152,7 @@
     },
     "image-text-2": {
       "type": "kawa-image-text",
+      "disabled": true,
       "blocks": {
         "image-text-item-1": {
           "type": "image_text",
@@ -185,6 +189,7 @@
     },
     "b5574955-4e4a-4d4c-8849-d1adf0874599": {
       "type": "kawa-image-text",
+      "disabled": true,
       "blocks": {
         "template--15917345144992__b5574955-4e4a-4d4c-8849-d1adf0874599-167064044697626061-0": {
           "type": "image_text",
@@ -221,6 +226,7 @@
     },
     "tabs": {
       "type": "kawa-product-tabs",
+      "disabled": true,
       "blocks": {
         "tab-1": {
           "type": "tab_item",
@@ -291,12 +297,14 @@
     },
     "specifications": {
       "type": "kawa-product-specifications",
+      "disabled": true,
       "settings": {
         "title": "Specs"
       }
     },
     "faq": {
       "type": "kawa-faq",
+      "disabled": true,
       "blocks": {
         "faq-1": {
           "type": "faq_item",
@@ -347,6 +355,7 @@
     },
     "alexa-video": {
       "type": "kawa-alexa-video",
+      "disabled": true,
       "settings": {
         "title": "Support Guidance Videos for you",
         "jump_link": "https:\/\/www.kawa-in.com\/blogs\/kawa-dash-cam-d6\/how-to-install-your-dash-cam-d6-on-your-car",
@@ -357,6 +366,7 @@
     },
     "product-buy": {
       "type": "kawa-product-buy",
+      "disabled": true,
       "settings": {
       }
     },
