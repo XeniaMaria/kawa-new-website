@@ -325,7 +325,39 @@
         "opt_in_message_html": "Via informo estis sukcese konservita kun %{shopify_pay}",
         "order_updates_description_missing": "Vi ne ricevas ekspedajn ĝisdatigojn.",
         "order_updates_subscribe_to_email_notifications": "Ricevu sendojn ĝisdatigojn per retpoŝto",
-        "order_updates_subscribe_to_email_or_phone_notifications": "Ricevu ekspedajn ĝisdatigojn per retpoŝto aŭ teksto"
+        "order_updates_subscribe_to_email_or_phone_notifications": "Ricevu ekspedajn ĝisdatigojn per retpoŝto aŭ teksto",
+        "title": "Dankon por via aĉeto!",
+        "confirmation_email_sent_text": "Konfirma retpoŝto estis sendita al %{email}",
+        "return_to_store_link_label": "Daŭrigu butikumado",
+        "print_link_label": "Presi kvitancon",
+        "payment_information_title": "Pagaj informoj",
+        "shipping_information_title": "Sendaj informoj",
+        "page_title": "Dankon %{display_name}!",
+        "page_title_no_name": "Dankon!",
+        "cancelled_page_title": "Mendo nuligita",
+        "customer_information_title": "Informoj pri klientoj",
+        "contact_information_title": "Kontakt-informoj",
+        "billing_address_title": "Faktura adreso",
+        "company_location_title": "Loko",
+        "shipping_address_title": "Sendo adreso",
+        "shipping_address_map_title": "Guglo-mapo montranta pinpunkton de senda adreso: %{address}",
+        "payment_method_title": "Pagmaniero",
+        "shipping_method_title": "Sendado metodo",
+        "tracking_number": "Spura nombro:",
+        "company_tracking_number": "%{company} spura numero:",
+        "estimated_arrival": "Laŭtaksa liverdato:",
+        "estimated_delivery": "Laŭtaksa livero",
+        "re-order": "Reordigu la samajn erojn",
+        "confirmed": "Konfirmita",
+        "gift_card_confirmation_by_text": "Donacaj kartoj estas senditaj per teksto. Se vi ne ricevis la vian, provu sendi ilin denove aŭ kontaktu nin.",
+        "gift_card_confirmation_by_email": "Donacaj kartoj estas senditaj retpoŝte. Se vi ne ricevis la vian, provu sendi ilin denove aŭ kontaktu nin.",
+        "gift_card_title": "Donacaj kartoj",
+        "resend_gift_cards": "Resendu donackartojn",
+        "thank_you_title": "Via mendo estas konfirmita",
+        "thank_you_title_payment": "Via pago estas konfirmita",
+        "thank_you_title_review": "Via mendo estas sendita por revizio",
+        "thank_you_confirmed_order_with_email": "Vi baldaŭ ricevos konfirman retpoŝton kun via mendnumero.",
+        "thank_you_confirmed_order_with_phone": "Vi baldaŭ ricevos konfirman tekston kun via mendnumero."
       },
       "review": {
         "title": "Recenzo",
@@ -643,6 +675,106 @@
         "paypal": {
           "connect": "Klaku por konekti vian PayPal-konton"
         }
+      },
+      "payment_errors": {
+        "deferred_amount_changed": "Via pago ne povis esti procesita ĉar la prokrastita pagokvanto ŝanĝiĝis. Bonvolu kontroli vian mendon kaj provi denove.",
+        "deferred_date_changed": "Via pago ne povis esti procesita ĉar la prokrastita pagodato ŝanĝiĝis. Bonvolu kontroli vian mendon kaj provi denove.",
+        "order_total_changed": "Via pago ne povis esti procesita ĉar via mendotuto ŝanĝiĝis. Kontrolu vian mendon totalon kaj provu denove.",
+        "payment_processing": "Via pago ne povas esti procesita pro teknikaj kialoj. Provu denove aŭ uzu alian pagmetodon.",
+        "payment_processing_no_retry": "Via pago ne povas esti procesita pro teknikaj kialoj. Bonvolu provi alian pagmetodon.",
+        "paypal_zero_amount": "Vi ne povas uzi PayPal por %{amount} mendoj. Konfirmu, ke via mendo estas ĝusta kaj kontrolu sen PayPal.",
+        "paypal_invalid_token": "PayPal ne estis havebla. Provu denove aŭ uzu alian kontrolopcion.",
+        "pay_later_failed": "Okazis eraro prilaborante vian pagon per Pay poste. Elektu alian pagmetodon kaj provu denove.",
+        "three_d_secure_failed": "Via pago ne povis esti kontrolita. Provu denove aŭ uzu alian pagmetodon.",
+        "three_d_secure_failed_duplicate": "La 3D Sekura aŭtentikigo de la kreditkarto malsukcesis ĉar alia jam okazas.",
+        "three_d_secure_throttled": "Tro da provoj; bonvolu atendi antaŭ provi denove",
+        "subscription_agreement_blank": "Por aĉeti abonon, viaj pagodetaloj devas esti konservitaj. Por daŭrigi, konfirmu, ke vi konsentas aŭ forigas abonaĵojn de via mendo.",
+        "insufficient_funds": "Via pago estis malakceptita pro nesufiĉaj financoj. Provu denove aŭ uzu alian pagmetodon.",
+        "fraud_payment_errors": {
+          "transaction_declined": "Ĉi tiu transakcio estis malakceptita",
+          "address_mismatch": "Strata adreso kaj poŝtkodo ne kongruas.",
+          "cannot_process": "Ĉi tiu transakcio ne povas esti procesita.",
+          "no_match": "Neniu Matĉo",
+          "card_declined": "Via karto estis malakceptita"
+        }
+      },
+      "shipping_errors": {
+        "shipping_method": "Via ĉaro estis ĝisdatigita kaj la antaŭa sendokurzo ne validas. Elektu novan tarifon.",
+        "shipping_method_not_available": "Via ĉaro estas ĝisdatigita kaj la aĵoj kiujn vi aldonis ne povas esti senditaj al via adreso. Forigu la erojn por kompletigi vian mendon.",
+        "shipping_method_not_available_generic": {
+          "one": "Ĉi tiu mendo ne povas esti sendita al la adreso kiun vi enigis. Revizu vian adreson por certigi, ke ĉiuj kampoj estas ĝuste enigitaj kaj provu denove.",
+          "other": "Kelkaj eroj en via ĉaro ne povas esti senditaj al la adreso kiun vi enigis. Revizu vian adreson por certigi, ke ĉiuj kampoj estas ĝuste enigitaj kaj provu denove."
+        },
+        "shipping_method_not_available_updated": {
+          "one": "La objekto, kiun vi aldonis, ne sendas al via loko. Forigu ĝin por kontroli, aŭ kontaktu la vendejon.",
+          "other": "Unu aŭ pluraj aĵoj kiujn vi aldonis ne sendas al via loko. Forigu ilin por kontroli, aŭ kontaktu la vendejon."
+        },
+        "payment_method_not_supported": "Vi ne povas uzi ĉi tiun pagmetodon por %{country}. Bonvolu uzi alian pagmetodon por sendi al ĉi tiu lando."
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "Ekspresa kaso",
+        "or": "AŬ"
+      },
+      "alternative_payment_method": {
+        "button_html": "Pagu kun: %{method}",
+        "button_label": "Pagu kun: %{method}"
+      },
+      "paypal": {
+        "button_html": "Pagu kun %{logo}"
+      },
+      "apple_pay": {
+        "button_html": "Aĉetu per %{logo}"
+      },
+      "post_purchase": {
+        "page_title": "Post-aĉeto",
+        "title": "Post-aĉeto",
+        "escape_confirmation": "Vi pagis vian mendon.",
+        "escape_action": "Vidi mendokonfirmon ›",
+        "components": {
+          "close": "Fermu",
+          "expand": "Rigardu pli",
+          "processing": "Prilaborado...",
+          "submit": "Submeti"
+        }
+      },
+      "processing": {
+        "redirecting_page_title": "Alidirektante…",
+        "redirecting_title": "Alidirektante…",
+        "redirecting_notice": "Atendu dum ni alidirektas vin.",
+        "complete_your_purchase_title": "Kompletigu vian aĉeton",
+        "continue_to_payment_gateway_notice": "Daŭrigu pagon por aldoni viajn pagajn informojn.",
+        "continue_to_payment_gateway_button_label": "Daŭrigu pagon",
+        "complete_your_purchase_title_error": "Korektu viajn pagajn informojn",
+        "continue_to_payment_gateway_notice_error": "Viaj pag-informoj ne povis esti kontrolitaj.",
+        "continue_to_payment_gateway_button_label_error": "Ĝisdatigu pagajn informojn",
+        "page_title": "Pretiga ordo",
+        "title": "Pretiga ordo",
+        "your_order_has_been_received_title": "Dankon pro via mendo",
+        "you_will_receive_confirmation": "Ni ricevas multajn mendojn nun. Vi devus ricevi konfirmon per retpoŝto aŭ teksto baldaŭ. Se vi ne ricevas ĝin en la sekva horo, informu nin.",
+        "you_will_not_be_charged": "Vi ankoraŭ ne estos ŝargita",
+        "wait": {
+          "short": "Via mendo estas procesita.",
+          "medium": {
+            "one": "Via mendo estas procesita. Laŭtaksa atendotempo estas %{count} minuto.",
+            "other": "Via mendo estas procesita. Laŭtaksa atendotempo estas %{count} minutoj."
+          },
+          "long": "Vi ricevos retpoŝton tuj kiam via mendo estos procesita. Nuntempe estas granda kvanto da mendoj.",
+          "no_auto_refresh_html": "Se vi ne estas aŭtomate alidirektita, %{link}.",
+          "refresh_this_page": "refreŝigu ĉi tiun paĝon"
+        }
+      },
+      "failed_payment": {
+        "page_title": "Pago ne povis esti procesita",
+        "title": "Pago ne povis esti procesita",
+        "payment_not_processed_title": "Via pago ne povis esti procesita",
+        "payment_not_processed_text": "Vi ne estis akuzita. Revenu al via ĉaro por kompletigi vian aĉeton.",
+        "return_to_cart_button_label": "Reiru al ĉaro"
+      },
+      "payment_gateway": {
+        "credit_card_label": "Kreditkarto",
+        "bank_deposit_label": "Banka Deponejo",
+        "cash_on_delivery_label": "Kontanttransdono (COD)",
+        "money_order_label": "Monordono"
       }
     },
     "pagination": {
