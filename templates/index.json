@@ -148,7 +148,7 @@
           "type": "video-block",
           "settings": {
             "video_poster": "shopify:\/\/shop_images\/8a953a1254d464d9662047ecf553a0ec_dc90c99a-e291-4820-99f1-30613b0c343a.jpg",
-            "video_html": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/5af937a6934643e4b9ddf9916dd2b2c8.mp4"
+            "video_html": ""
           }
         },
         "video-block-2": {
@@ -162,7 +162,7 @@
           "type": "video-block",
           "settings": {
             "video_poster": "shopify:\/\/shop_images\/1002_774bb933-6a5f-4be7-8ceb-3574b29dd41d.jpg",
-            "video_html": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/31521bbae30f405a85e6719e7d15d16d.mp4"
+            "video_html": ""
           }
         },
         "video-block-4": {
