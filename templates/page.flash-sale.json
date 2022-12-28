@@ -1,19 +1,14 @@
 {
   "sections": {
-    "f8b163ff-0286-40ec-97b1-173baf940edd": {
-      "type": "image-banner",
+    "f215b601-5e65-4e80-b769-197ee4946c50": {
+      "type": "kawa-single-img-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/3000x1500_ee08c5bf-6c10-41a3-85b3-a1dac0e6ee81.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "pc_img": "shopify:\/\/shop_images\/3000x1500_ee08c5bf-6c10-41a3-85b3-a1dac0e6ee81.jpg",
+        "mobile_img": "shopify:\/\/shop_images\/3000x1500_ee08c5bf-6c10-41a3-85b3-a1dac0e6ee81.jpg",
+        "title": "",
+        "content": "",
+        "text_pos": "center",
+        "text_color": "white"
       }
     },
     "flash-sale-banner": {
@@ -278,7 +273,7 @@
     }
   },
   "order": [
-    "f8b163ff-0286-40ec-97b1-173baf940edd",
+    "f215b601-5e65-4e80-b769-197ee4946c50",
     "flash-sale-banner",
     "flash-sale-1",
     "flash-sale-nav",
