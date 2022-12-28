@@ -1,24 +1,63 @@
-<link rel="stylesheet" href="{{ 'kawa-smart-home.css' | asset_url }}" media="print" onload="this.media='all'"/>
+<link
+  rel="stylesheet"
+  href="{{ 'kawa-smart-home.css' | asset_url }}"
+  media="print"
+  onload="this.media='all'"
+>
 
-<div class="kawa-smart-home">
-  <h2 class="smart-home-title text-center">
+<div
+  class="kawa-smart-home"
+>
+  <h2
+    class="smart-home-title text-center"
+  >
     <span>
       {{ section.settings.title }}
     </span>
   </h2>
-  <div class="smart-home-tabs mw-1200-c">
-    <div class="tabs-menu flex-c flex-wrap">
+  <div
+    class="smart-home-tabs mw-1200-c"
+  >
+    <div
+      class="tabs-menu flex-c flex-wrap"
+    >
       {%- for block in section.blocks -%}
-        <button id="tab-menu-0{{ forloop.index }}" class="tabs-menu-item" {% if forloop.index == 1 %} data-of-tab-active="true"{%- else -%} data-of-tab-active="false"{% endif %}>
+        <button
+          id="tab-menu-0{{ forloop.index }}"
+          class="tabs-menu-item"
+          {% if forloop.index == 1 %}
+            data-of-tab-active="true"
+          {%- else -%}
+            data-of-tab-active="false"
+          {% endif %}
+        >
           <span>{{ block.settings.title }}</span>
         </button>
       {%- endfor -%}
     </div>
-    <div class="tab-content-wrapper w-100">
+    <div
+      class="tab-content-wrapper w-100"
+    >
       {%- for block in section.blocks -%}
-        <div class="tab-content tab-content-0{{ forloop.index }}" {% if forloop.index == 1 %}style="display: block;"{%- else -%}style="display: none;"{% endif %}>
-          <a href="{{ block.settings.link }}" class="w-100">
-            <img src="{{ block.settings.image | image_url }}" width="100" height="100" loading="lazy" class="w-100-h-auto"/>
+        <div
+          class="tab-content tab-content-0{{ forloop.index }}"
+          {% if forloop.index == 1 %}
+            style="display: block;"
+          {%- else -%}
+            style="display: none;"
+          {% endif %}
+        >
+          <a
+            href="{{ block.settings.link }}"
+            class="w-100"
+          >
+            <img
+              src="{{ block.settings.image | image_url }}"
+              width="100"
+              height="100"
+              loading="lazy"
+              class="w-100-h-auto"
+            >
           </a>
         </div>
       {%- endfor -%}
@@ -26,62 +65,66 @@
   </div>
 </div>
 
-<script type="text/javascript">
-  (function() {
+<script
+  type="text/javascript"
+>
+  (function () {
     const tabList = [];
     const addTabMenuClick = (tab) => {
-      tab.tabMenu.addEventListener("click", (e) => {
-        if (tab.tabMenu.getAttribute("data-of-tab-active") !== true) {
+      tab.tabMenu.addEventListener('click', (e) => {
+        if (tab.tabMenu.getAttribute('data-of-tab-active') !== true) {
           tabList.forEach((t) => {
-            t.tabMenu.setAttribute("data-of-tab-active", false);
-            t.tabContent.style.display = "none";
+            t.tabMenu.setAttribute('data-of-tab-active', false);
+            t.tabContent.style.display = 'none';
           });
-          tab.tabMenu.setAttribute("data-of-tab-active", true);
-          tab.tabContent.style.display = "block";
+          tab.tabMenu.setAttribute('data-of-tab-active', true);
+          tab.tabContent.style.display = 'block';
         }
       });
     };
-    for (let i = 1; i <= 5; i++) {
+    const tabCount = document.querySelectorAll('.kawa-smart-home .tabs-menu-item');
+    for (let i = 1; i <= tabCount.length; i++) {
       const temp = {
         tabMenu: document.getElementById(`tab-menu-0${i}`),
-        tabContent: document.querySelector(`.tab-content-0${i}`)
+        tabContent: document.querySelector(`.tab-content-0${i}`),
       };
       tabList.push(temp);
       addTabMenuClick(temp);
     }
   })();
 </script>
-
 {% schema %}
-  {
-    "name": "t:sections.kawa-smart-home.name",
-    "settings": [
-      {
-        "type": "text",
-        "id": "title",
-        "label": "标题"
-      }
-    ],
-    "blocks": [
-      {
-        "type": "poster",
-        "name": "项",
-        "settings": [
-          {
-            "type": "text",
-            "id": "title",
-            "label": "每一项的标题"
-          }, {
-            "type": "image_picker",
-            "id": "image",
-            "label": "每一项的图片"
-          }, {
-            "type": "url",
-            "id": "link",
-            "label": "跳转链接"
-          }
-        ]
-      }
-    ]
-  }
+{
+  "name": "t:sections.kawa-smart-home.name",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "标题"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "poster",
+      "name": "项",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "每一项的标题"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "每一项的图片"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "跳转链接"
+        }
+      ]
+    }
+  ]
+}
 {% endschema %}
