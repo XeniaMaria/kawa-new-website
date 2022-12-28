@@ -145,7 +145,7 @@
             "desc": "Service Content",
             "orig_price": "9.99",
             "price": "5.99",
-            "price_color": "",
+            "price_color": "#e68b49",
             "duration": "month",
             "detail": "<div>14-Day Continuous Recording<\/div><div>1-Month Video History<\/div><div>Expiration Date: 30 Days<\/div>"
           }
