@@ -374,27 +374,25 @@
     }
 
     //drawer
-    window.addEventListener("load", () => {
-      const drawerEle = document.querySelector(".kawa-drawer");
-      const drawerTrigger = document.querySelector(".nav-hamburger .nav-switch");
-      const menu = document.querySelector(".sidebar-menu");
-      const mainContent = document.querySelector("#MainContent");
-      drawerEle.style.transition = "all 0.3s ease-in";
-      drawerTrigger.onclick = () => {
-        drawerEle.classList.add("drawer-display");
-        mainContent.style.display = "none";
-        //移动端滚动穿透解决。
-        document.body.style.overflow = "hidden";
-      };
-      drawerEle.onclick = () => {
-        drawerEle.classList.remove("drawer-display");
-        mainContent.style.display = "block";
-        document.body.style.overflow = null;
-      };
-      menu.onclick = (e) => {
-        e.stopPropagation();
-      };
-    });
+    const drawerEle = document.querySelector(".kawa-drawer");
+    const drawerTrigger = document.querySelector(".nav-hamburger");
+    const menu = document.querySelector(".sidebar-menu");
+    const mainContent = document.querySelector("#MainContent");
+    drawerEle.style.transition = "all 0.3s ease-in";
+    drawerTrigger.onclick = () => {
+      drawerEle.classList.add("drawer-display");
+      mainContent.style.display = "none";
+      //移动端滚动穿透解决。
+      document.body.style.overflow = "hidden";
+    };
+    drawerEle.onclick = () => {
+      drawerEle.classList.remove("drawer-display");
+      mainContent.style.display = "block";
+      document.body.style.overflow = null;
+    };
+    menu.onclick = (e) => {
+      e.stopPropagation();
+    };
 
     //拥有子元素的菜单
     const hasChildMenus = document.querySelectorAll(".sidebar-menu .has-child");
