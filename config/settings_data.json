@@ -381,6 +381,7 @@
       "app_download_code_tips_android": "Scan QR code to download",
       "app_download_apk_url": "",
       "app_download_apk_tips": "",
+      "app_download_name_2": "APP 2",
       "copyright_text": "Copyright © 2022 Kawa all rights reserved.",
       "sections": {
         "announcement-bar": {

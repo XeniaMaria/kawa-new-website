@@ -1,4 +1,4 @@
-{{ "kawa-footer.css" | asset_url | stylesheet_tag }}
+{{ 'kawa-footer.css' | asset_url | stylesheet_tag }}
 
 <div class="kawa-footer">
   <div class="footer-container mw-1200-c">
@@ -14,9 +14,9 @@
           ></span>
           <p>
             CN: {{ shop.phone }}
-            <br />
+            <br>
             Mon-Sat 6:00AM - 6:00PM (PT)
-            <br />
+            <br>
             Sun 7:00AM - 4:00PM (PT)
           </p>
         </li>
@@ -32,7 +32,8 @@
               href="mailto:{{ shop.email }}?ref=footer"
               title="mailto:{{ shop.email }}"
               class="kawa-email"
-              >{{ shop.email }}
+            >
+              {{- shop.email }}
             </a>
           </p>
         </li>
@@ -45,92 +46,121 @@
           ></span>
           <p>
             <a href="#">Website Live Chat</a>
-            <br />
+            <br>
             Mon-Fri 9:00 AM-5:00 PM (PT)
           </p>
         </li>
       </ul>
     </div>
     <div class="footer-maps">
-        <ul class="footer-category">
-          {%- for link in linklists.footer.links -%}
-            <li>
-              <div class="footer-title">
-                {{ link.title }}
-                <i class="fold">
-                </i>
-              </div>
-              <ul>
-                {%- for sub_link in link.links -%}
-                  <li>
-                    {{ sub_link.title | link_to: sub_link.url }}
-                  </li>
-                {%- endfor -%}
+      <ul class="footer-category">
+        {%- for link in linklists.footer.links -%}
+          <li>
+            <div class="footer-title">
+              {{ link.title }}
+              <i class="fold"> </i>
+            </div>
+            <ul>
+              {%- for sub_link in link.links -%}
+                <li>
+                  {{ sub_link.title | link_to: sub_link.url }}
+                </li>
+              {%- endfor -%}
+            </ul>
+          </li>
+        {%- endfor -%}
+      </ul>
+      <div class="footer-app-download">
+        <div class="footer-download-title">Download App</div>
+        <div class="footer-divide-line"></div>
+        <div class="footer-all-app">
+          <div class="app-wrap">
+            <figure class="app-icon">
+              <img
+                src="{{ settings.app_download_logo | image_url }}"
+                width="100"
+                height="100"
+                loading="lazy"
+              >
+            </figure>
+            <p class="app-name">
+              {{ settings.app_download_name }}
+            </p>
+            <div class="app-box">
+              <ul class="app-stores">
+                <li>
+                  <a href="{{ settings.app_download_ios }}" target="_blank">
+                    <img
+                      src="{{ settings.app_store_img | image_url }}"
+                      width="148"
+                      height="42"
+                      loading="lazy"
+                    >
+                  </a>
+                </li>
+                <li>
+                  <a href="{{ settings.app_download_android }}" target="_blank">
+                    <img
+                      src="{{ settings.google_play_img | image_url }}"
+                      width="148"
+                      height="42"
+                      loading="lazy"
+                    >
+                  </a>
+                </li>
               </ul>
-            </li>
-          {%- endfor -%}
-        </ul>
-        <div class="footer-app-download">
-          <div class="footer-download-title">
-            Download App
+            </div>
           </div>
-          <div class="footer-divide-line">
-          </div>
-          <div class="footer-all-app">
-            <div class="app-wrap">
-              <figure class="app-icon">
-                <img
-                  src="{{ settings.app_download_logo | image_url }}"
-                  width="100"
-                  height="100"
-                  loading="lazy"
-                />
-              </figure>
-              <p class="app-name">
-                {{ settings.app_download_name }}
-              </p>
-              <div class="app-box">
-                <ul class="app-stores">
-                  <li>
-                    <a href="{{ settings.app_download_ios }}" target="_blank">
-                      <img
-                        src="https://cdn.shopifycdn.net/s/files/1/0608/5528/7860/files/app-store.png?v=1666576881"
-                        width="148"
-                        height="42"
-                        loading="lazy"
-                      />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="{{ settings.app_download_android }}" target="_blank">
-                      <img
-                        src="https://cdn.shopifycdn.net/s/files/1/0608/5528/7860/files/google-play.png?v=1666576886"
-                        width="148"
-                        height="42"
-                        loading="lazy"
-                      />
-                    </a>
-                  </li>
-                </ul>
-              </div>
+          <div class="app-wrap">
+            <figure class="app-icon">
+              <img
+                src="{{ settings.app_download_logo_2 | image_url }}"
+                width="100"
+                height="100"
+                loading="lazy"
+              >
+            </figure>
+            <p class="app-name">
+              {{ settings.app_download_name_2 }}
+            </p>
+            <div class="app-box">
+              <ul class="app-stores">
+                <li>
+                  <a href="{{ settings.app_download_ios_2 }}" target="_blank">
+                    <img
+                      src="{{ settings.app_store_img | image_url }}"
+                      width="148"
+                      height="42"
+                      loading="lazy"
+                    >
+                  </a>
+                </li>
+                <li>
+                  <a href="{{ settings.app_download_android_2 }}" target="_blank">
+                    <img
+                      src="{{ settings.google_play_img | image_url }}"
+                      width="148"
+                      height="42"
+                      loading="lazy"
+                    >
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
-        <div class="payment-list">
-          {%- for type in shop.enabled_payment_types -%}
-            {{ type | payment_type_svg_tag }}
-          {%- endfor -%}
-        </div>
+      </div>
+      <div class="payment-list">
+        {%- for type in shop.enabled_payment_types -%}
+          {{ type | payment_type_svg_tag }}
+        {%- endfor -%}
+      </div>
     </div>
     <div class="footer-app-download-mb">
       <div class="download-title-mb">
-        <div class="divide-line-mb">
-        </div>
-        <p>
-          Download App
-        </p>
-        <div class="divide-line-mb">
-        </div>
+        <div class="divide-line-mb"></div>
+        <p>Download App</p>
+        <div class="divide-line-mb"></div>
       </div>
       <div class="footer-all-app">
         <div class="app-wrap">
@@ -140,7 +170,7 @@
               width="100"
               height="100"
               loading="lazy"
-            />
+            >
           </figure>
           <p class="app-name">
             {{ settings.app_download_name }}
@@ -150,21 +180,58 @@
               <li>
                 <a href="{{ settings.app_download_ios }}" target="_blank">
                   <img
-                    src="https://cdn.shopifycdn.net/s/files/1/0608/5528/7860/files/app-store.png?v=1666576881"
+                    src="{{ settings.app_store_img | image_url }}"
                     width="148"
                     height="42"
                     loading="lazy"
-                  />
+                  >
                 </a>
               </li>
               <li>
                 <a href="{{ settings.app_download_android }}" target="_blank">
                   <img
-                    src="https://cdn.shopifycdn.net/s/files/1/0608/5528/7860/files/google-play.png?v=1666576886"
+                    src="{{ settings.google_play_img | image_url }}"
                     width="148"
                     height="42"
                     loading="lazy"
-                  />
+                  >
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="app-wrap">
+          <figure class="app-icon">
+            <img
+              src="{{ settings.app_download_logo_2 | image_url }}"
+              width="100"
+              height="100"
+              loading="lazy"
+            >
+          </figure>
+          <p class="app-name">
+            {{ settings.app_download_name_2 }}
+          </p>
+          <div class="app-box">
+            <ul class="app-stores">
+              <li>
+                <a href="{{ settings.app_download_ios_2 }}" target="_blank">
+                  <img
+                    src="{{ settings.app_store_img | image_url }}"
+                    width="148"
+                    height="42"
+                    loading="lazy"
+                  >
+                </a>
+              </li>
+              <li>
+                <a href="{{ settings.app_download_android_2 }}" target="_blank">
+                  <img
+                    src="{{ settings.google_play_img | image_url }}"
+                    width="148"
+                    height="42"
+                    loading="lazy"
+                  >
                 </a>
               </li>
             </ul>
@@ -182,23 +249,23 @@
 </div>
 
 <script>
-    window.addEventListener("load",()=> {
-      if(window.innerWidth <= 768) {
-        const allFooterCategory = document.querySelectorAll(".kawa-footer .footer-category > li");
-        Array.from(allFooterCategory).forEach((footer) => {
-          footer.addEventListener("click",() => {
-            if(footer.classList.contains("active")) {
-              footer.classList.remove("active");
-            } else {
-              Array.from(allFooterCategory).forEach((f) => {
-                f.classList.remove("active")
-              })
-              footer.classList.add("active")
-            }
-          })
-        })
-      }
-    })
+  window.addEventListener('load', () => {
+    if (window.innerWidth <= 768) {
+      const allFooterCategory = document.querySelectorAll('.kawa-footer .footer-category > li');
+      Array.from(allFooterCategory).forEach((footer) => {
+        footer.addEventListener('click', () => {
+          if (footer.classList.contains('active')) {
+            footer.classList.remove('active');
+          } else {
+            Array.from(allFooterCategory).forEach((f) => {
+              f.classList.remove('active');
+            });
+            footer.classList.add('active');
+          }
+        });
+      });
+    }
+  });
 </script>
 
 {% schema %} { "name": "footer" } {% endschema %}

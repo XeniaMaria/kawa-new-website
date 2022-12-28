@@ -1607,6 +1607,26 @@
         "type": "text",
         "id": "app_download_apk_tips",
         "label": "apk下载链接的文本"
+      },
+      {
+        "type": "text",
+        "id": "app_download_name_2",
+        "label": "第二个app的名字"
+      },
+      {
+        "type": "image_picker",
+        "id": "app_download_logo_2",
+        "label": "第二个app的logo"
+      },
+      {
+        "type": "url",
+        "id": "app_download_ios_2",
+        "label": "第二个app的App Store链接"
+      },
+      {
+        "type": "url",
+        "id": "app_download_android_2",
+        "label": "第二个app的谷歌商店的链接"
       }
     ]
   },
