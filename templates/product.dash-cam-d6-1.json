@@ -63,6 +63,44 @@
         "has_border": false
       }
     },
+    "tabs": {
+      "type": "kawa-product-tabs",
+      "blocks": {
+        "tab-1": {
+          "type": "tab_item",
+          "settings": {
+            "name": "Daytime scene shooting",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/aa234de351a348459923d159658cb1e3.mp4",
+            "cover_image": "shopify:\/\/shop_images\/1005_1e26c7b5-93e7-46b8-9e75-1a8c795a2da8.jpg"
+          }
+        },
+        "tab-2": {
+          "type": "tab_item",
+          "settings": {
+            "name": "Night scene shooting",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/48a0c373cde749538f603dbddfb27724.mp4",
+            "cover_image": "shopify:\/\/shop_images\/1005_881c78a0-fcab-47cf-9a54-1d0786522060.jpg"
+          }
+        },
+        "tab-3": {
+          "type": "tab_item",
+          "settings": {
+            "name": "Voice Control Shooting",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/b7ac5a77a9094f259572426610cd7ba9.mp4",
+            "cover_image": "shopify:\/\/shop_images\/1005_68b9de81-0633-4fc2-b9c6-d8f8d1a001dd.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "tab-1",
+        "tab-2",
+        "tab-3"
+      ],
+      "settings": {
+        "title": "Capture Your Every Drive in the High Resolution",
+        "description": "With 1440P resolution, F2.0 Large Aperture, 400MPS, and support Voice Control Function, KAWA D6 Dash Cam keeps recording in full-color day and night, and captures more light, and ensures ultra-clear night vision video details even at night. Even better, you can free your hands to enjoy the era of intelligence, save the current picture in time"
+      }
+    },
     "carousel-1": {
       "type": "kawa-main-product-carousel",
       "disabled": true,
@@ -219,44 +257,6 @@
       "settings": {
       }
     },
-    "tabs": {
-      "type": "kawa-product-tabs",
-      "blocks": {
-        "tab-1": {
-          "type": "tab_item",
-          "settings": {
-            "name": "Daytime scene shooting",
-            "image": "shopify:\/\/shop_images\/1005_1e26c7b5-93e7-46b8-9e75-1a8c795a2da8.jpg",
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2b735d4eac8c4381a4bc20aa4ce9903e.mp4"
-          }
-        },
-        "tab-2": {
-          "type": "tab_item",
-          "settings": {
-            "name": "Night scene shooting",
-            "image": "shopify:\/\/shop_images\/1005_881c78a0-fcab-47cf-9a54-1d0786522060.jpg",
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4fd0bd0eaece4443882eb7ecc46f71c1.mp4"
-          }
-        },
-        "tab-3": {
-          "type": "tab_item",
-          "settings": {
-            "name": "Voice Control Shooting",
-            "image": "shopify:\/\/shop_images\/1005_68b9de81-0633-4fc2-b9c6-d8f8d1a001dd.jpg",
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/aba06c5ec87a4a819349b2639883c73f.mp4"
-          }
-        }
-      },
-      "block_order": [
-        "tab-1",
-        "tab-2",
-        "tab-3"
-      ],
-      "settings": {
-        "title": "Capture Your Every Drive in the High Resolution",
-        "description": "With 1440P resolution, F2.0 Large Aperture, 400MPS, and support Voice Control Function, KAWA D6 Dash Cam keeps recording in full-color day and night, and captures more light, and ensures ultra-clear night vision video details even at night. Even better, you can free your hands to enjoy the era of intelligence, save the current picture in time"
-      }
-    },
     "phone-preview": {
       "type": "kawa-phone-preview",
       "disabled": true,
@@ -291,8 +291,19 @@
     },
     "specifications": {
       "type": "kawa-product-specifications",
+      "disabled": true,
       "settings": {
         "title": "Specs"
+      }
+    },
+    "alexa-video": {
+      "type": "kawa-alexa-video",
+      "settings": {
+        "title": "Support Guidance Videos for you",
+        "jump_link": "https:\/\/www.kawa-in.com\/blogs\/kawa-dash-cam-d6\/how-to-install-your-dash-cam-d6-on-your-car",
+        "jump_text": "How to install your Dash Cam D6 on your car?",
+        "cover_image": "shopify:\/\/shop_images\/317F357E-7C16-44ae-89EB-59D87FEE2951.png",
+        "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e37d71a3a79a45459c45965d719f565a.mp4"
       }
     },
     "faq": {
@@ -345,16 +356,6 @@
         "title": "FAQ"
       }
     },
-    "alexa-video": {
-      "type": "kawa-alexa-video",
-      "settings": {
-        "title": "Support Guidance Videos for you",
-        "jump_link": "https:\/\/www.kawa-in.com\/blogs\/kawa-dash-cam-d6\/how-to-install-your-dash-cam-d6-on-your-car",
-        "jump_text": "How to install your Dash Cam D6 on your car?",
-        "cover_image": "shopify:\/\/shop_images\/317F357E-7C16-44ae-89EB-59D87FEE2951.png",
-        "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e37d71a3a79a45459c45965d719f565a.mp4"
-      }
-    },
     "product-buy": {
       "type": "kawa-product-buy",
       "settings": {
@@ -371,18 +372,18 @@
     "main",
     "banner",
     "video",
+    "tabs",
     "carousel-1",
     "image-text-1",
     "351b63f1-e016-469c-a58b-b3e8b2c342a5",
     "image-text-2",
     "b5574955-4e4a-4d4c-8849-d1adf0874599",
-    "tabs",
     "phone-preview",
     "video-text",
     "product-comparison",
     "specifications",
-    "faq",
     "alexa-video",
+    "faq",
     "product-buy",
     "carousel-2"
   ]

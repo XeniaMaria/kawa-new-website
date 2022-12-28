@@ -175,7 +175,6 @@
           "type": "tab_item",
           "settings": {
             "name": "Support Multiple Cameras",
-            "image": "shopify:\/\/shop_images\/p-1.jpg",
             "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2b735d4eac8c4381a4bc20aa4ce9903e.mp4",
             "cover_image": "shopify:\/\/shop_images\/p-1.jpg"
           }
@@ -184,7 +183,6 @@
           "type": "tab_item",
           "settings": {
             "name": "AI Motion Detection",
-            "image": "shopify:\/\/shop_images\/p-3.jpg",
             "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4fd0bd0eaece4443882eb7ecc46f71c1.mp4",
             "cover_image": "shopify:\/\/shop_images\/p-3.jpg"
           }
@@ -193,7 +191,6 @@
           "type": "tab_item",
           "settings": {
             "name": "2K Quard High Definition",
-            "image": "shopify:\/\/shop_images\/p-2.jpg",
             "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/aba06c5ec87a4a819349b2639883c73f.mp4",
             "cover_image": "shopify:\/\/shop_images\/p-2.jpg"
           }
