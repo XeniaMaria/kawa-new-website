@@ -200,9 +200,14 @@
 .kawa-footer .app-stores li {
   width: 148px;
   height: 36px;
-  background-color: #000;
+  background-color: #fff;
   border-radius: 3px;
   margin: 0 12px 12px;
+}
+
+.kawa-footer .app-stores li img {
+  width: 100%;
+  height: auto;
 }
 
 .kawa-footer .payment-list {
