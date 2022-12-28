@@ -240,10 +240,14 @@
   window.addEventListener("load", () => {
     var swiper = new Swiper(".main-product-swiper-container", {
       loop: true,
-      nextButton: ".main-product-button-next",
-      prevButton: ".main-product-button-prev",
-      pagination: ".swiper-pagination-custom",
-      paginationType: "fraction",
+      navigation: {
+        nextEl: ".main-product-button-next",
+        prevEl: ".main-product-button-prev"
+      },
+      pagination: {
+        el: ".swiper-pagination-custom",
+        type: "fraction"
+      }
     });
   });
 

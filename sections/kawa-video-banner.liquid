@@ -120,17 +120,20 @@
     loop: true,
     pagination: '.swiper-pagination',
     paginationClickable: true,
-    nextButton: '.swiper-button-next',
-    prevButton: '.swiper-button-prev',
-
-    onSlideChangeEnd: function (swiper) {
-      if (autoTextMap.length === 0) {
-        return;
-      }
-      const curIdx = swiper.activeIndex;
-      let curObj = autoTextMap[curIdx];
-      curObj.el.classList.add('text-blink');
-      writeText(curObj);
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    on: {
+      slideChangeTransitionEnd: function () {
+        if (autoTextMap.length === 0) {
+          return;
+        }
+        const curIdx = this.activeIndex;
+        let curObj = autoTextMap[curIdx];
+        curObj.el.classList.add('text-blink');
+        writeText(curObj);
+      },
     },
   });
 
