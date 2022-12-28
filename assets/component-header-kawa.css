@@ -331,6 +331,7 @@
   height: 100%;
   z-index: 100;
   transform: translateX(-100%);
+  display: none;
 }
 .drawer-display {
   transform: translateX(0);
@@ -464,6 +465,10 @@
 @media screen and (max-width: 768px) {
   #header {
     background-color: #fff;
+  }
+
+  #header .kawa-drawer {
+    display: block;
   }
 
   #header .header-wrapper-kawa {

@@ -378,7 +378,9 @@
     const drawerTrigger = document.querySelector(".nav-hamburger");
     const menu = document.querySelector(".sidebar-menu");
     const mainContent = document.querySelector("#MainContent");
-    drawerEle.style.transition = "all 0.3s ease-in";
+    setTimeout(() => {
+      drawerEle.style.transition = "all 0.3s ease-in";
+    },500);
     drawerTrigger.onclick = () => {
       drawerEle.classList.add("drawer-display");
       mainContent.style.display = "none";
