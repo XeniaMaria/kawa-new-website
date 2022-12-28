@@ -1,8 +1,47 @@
 {
   "sections": {
+    "c52ddc9e-6299-42ce-b24c-aa390e37cb81": {
+      "type": "kawa-app-download",
+      "settings": {
+        "is_single": true,
+        "app_download_name": "KAWA DVR",
+        "app_download_title": "KAWA DVR APP",
+        "app_download_des": "Control and monitor your Dash Cam D6 and real-time road conditions.",
+        "app_download_logo": "shopify:\/\/shop_images\/kawa_dvr_icon_f44e5dc9-e06a-435d-b386-e8de21c6829a.png",
+        "app_download_learn_more": "",
+        "app_download_bg": "shopify:\/\/shop_images\/2d492b34be543819e883f2ee621ced45.jpg",
+        "app_download_bg_mb": "shopify:\/\/shop_images\/15b9780b875b16005176b53c81363697_734b3b3f-fde7-44df-8c17-ef9e272a64c9.jpg",
+        "app_store_img": "shopify:\/\/shop_images\/2.png",
+        "app_download_ios": "",
+        "app_download_ios_tips": "Requires iOS9.0 or above.",
+        "google_play_img": "shopify:\/\/shop_images\/1.png",
+        "app_download_android": "",
+        "app_download_android_tips": "Requires Android5.0or above.",
+        "app_download_code_ios": "shopify:\/\/shop_images\/CJ1005_APPIOS_95e76281-2f4c-4f38-b5ae-3a4da09e5e1f.png",
+        "app_download_code_tips_ios": "Scan QR code to download(IOS)",
+        "app_download_code_android": "shopify:\/\/shop_images\/CJ1005_APP.png",
+        "app_download_code_tips_android": "Scan QR code to download(Android)",
+        "app_download_apk_url": "",
+        "app_download_apk_tips": ""
+      }
+    },
     "app-download": {
       "type": "kawa-app-download",
-      "settings": {}
+      "settings": {
+        "is_single": false,
+        "app_download_name": "",
+        "app_download_title": "KAWA DVR APP",
+        "app_download_des": "Control and monitor your Dash Cam D6 and real-time road conditions.",
+        "app_download_learn_more": "",
+        "app_download_ios": "",
+        "app_download_ios_tips": "",
+        "app_download_android": "",
+        "app_download_android_tips": "",
+        "app_download_code_tips_ios": "",
+        "app_download_code_tips_android": "",
+        "app_download_apk_url": "",
+        "app_download_apk_tips": ""
+      }
     },
     "support-manuals": {
       "type": "kawa-support-manuals",
@@ -13,5 +52,9 @@
       }
     }
   },
-  "order": ["app-download", "support-manuals"]
+  "order": [
+    "c52ddc9e-6299-42ce-b24c-aa390e37cb81",
+    "app-download",
+    "support-manuals"
+  ]
 }
