@@ -118,11 +118,11 @@
           "settings": {
             "title": "Monthly",
             "desc": "Service Content",
-            "orig_price": "7.99",
+            "orig_price": "8.99",
             "price": "4.99",
             "price_color": "#56b85d",
             "duration": "month",
-            "detail": "<div>24 hours continuous recording<\/div><div>7-Day Video History<\/div><div>Expiration date: 1 month<\/div>"
+            "detail": "<div>7-Day Continuous Recording<\/div><div>1-Month Video History<\/div><div>Expiration Date: 30 Days<\/div>"
           }
         },
         "commodity-item-3": {
@@ -147,7 +147,7 @@
             "price": "5.99",
             "price_color": "",
             "duration": "month",
-            "detail": "<div>24 hours continuous recording<\/div><div>14-Day Video History<\/div><div>Expiration date: 1 month<\/div>"
+            "detail": "<div>14-Day Continuous Recording<\/div><div>1-Month Video History<\/div><div>Expiration Date: 30 Days<\/div>"
           }
         }
       },
