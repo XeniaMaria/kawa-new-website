@@ -138,6 +138,10 @@
     "app_download_code_tips_android": "Scan QR code to download",
     "app_download_apk_url": "",
     "app_download_apk_tips": "",
+    "app_download_name_2": "KAWA DVR",
+    "app_download_logo_2": "shopify:\/\/shop_images\/kawa_dvr_icon_f44e5dc9-e06a-435d-b386-e8de21c6829a.png",
+    "app_download_ios_2": "https:\/\/apps.apple.com\/cn\/app\/kawa-dvr\/id1601762531",
+    "app_download_android_2": "https:\/\/play.google.com\/store\/apps\/details?id=com.apical.cj1005",
     "copyright_text": "Copyright © 2022 Kawa all rights reserved.",
     "sections": {
       "announcement-bar": {
