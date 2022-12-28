@@ -1,22 +1,22 @@
-{{ "kawa-phone-preview.css" | asset_url | stylesheet_tag }}
+{{ 'kawa-phone-preview.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
-    .kawa-phone-preview .phone-img {
-        width: {{ section.settings.img_width }}px;
-        height: {{ section.settings.img_height }}px;
-    }
-    .kawa-phone-preview .phone-simulator {
-        background: url({{ section.settings.phone_simulator | image_url }})
-          transparent center center no-repeat;
-    }
+  .kawa-phone-preview .phone-img {
+      width: {{ section.settings.img_width }}px;
+      height: {{ section.settings.img_height }}px;
+  }
+  .kawa-phone-preview .phone-simulator {
+      background: url({{ section.settings.phone_simulator | image_url }})
+        transparent center center no-repeat;
+  }
 
-    @media (max-width: 768px) {
-        .kawa-phone-preview .phone-simulator:nth-child(4) {
-            background: url({{ section.settings.phone_simulator | image_url }})
-          transparent center center no-repeat;
-            background-color: #fff;
-        }
-    }
+  @media (max-width: 768px) {
+      .kawa-phone-preview .phone-simulator:nth-child(4) {
+          background: url({{ section.settings.phone_simulator | image_url }})
+        transparent center center no-repeat;
+          background-color: #fff;
+      }
+  }
 {%- endstyle -%}
 
 <div class="kawa-phone-preview w-100">
@@ -32,7 +32,7 @@
           loading="lazy"
           width="{{ section.settings.img_width }}"
           height="{{ section.settings.img_height }}"
-        />
+        >
         <img
           src="{{ section.settings.img_2 | image_url }}"
           alt=""
@@ -40,7 +40,7 @@
           loading="lazy"
           width="{{ section.settings.img_width }}"
           height="{{ section.settings.img_height }}"
-        />
+        >
         <img
           src="{{ section.settings.img_3 | image_url }}"
           alt=""
@@ -48,7 +48,7 @@
           loading="lazy"
           width="{{ section.settings.img_width }}"
           height="{{ section.settings.img_height }}"
-        />
+        >
       </div>
       <div class="step-nav">
         <div class="number number-1"><span class="acc">1</span></div>
@@ -59,44 +59,44 @@
       </div>
     </div>
     <ul class="content-wrapper">
-      <li class="preview-content content-scroll-1">1111</li>
+      <li class="preview-content content-scroll-1">{{ section.settings.content_1 }}</li>
       <div
         class="phone-simulator"
       >
         <img
-            src="{{ section.settings.img_1 | image_url }}"
-            alt=""
-            class="phone-img"
-            loading="lazy"
-            width="{{ section.settings.img_width }}"
-            height="{{ section.settings.img_height }}"
-            />
+          src="{{ section.settings.img_1 | image_url }}"
+          alt=""
+          class="phone-img"
+          loading="lazy"
+          width="{{ section.settings.img_width }}"
+          height="{{ section.settings.img_height }}"
+        >
       </div>
-      <li class="preview-content content-scroll-2">2</li>
+      <li class="preview-content content-scroll-2">{{ section.settings.content_2 }}</li>
       <div
         class="phone-simulator"
       >
         <img
-            src="{{ section.settings.img_2 | image_url }}"
-            alt=""
-            class="phone-img"
-            loading="lazy"
-            width="{{ section.settings.img_width }}"
-            height="{{ section.settings.img_height }}"
-            />
+          src="{{ section.settings.img_2 | image_url }}"
+          alt=""
+          class="phone-img"
+          loading="lazy"
+          width="{{ section.settings.img_width }}"
+          height="{{ section.settings.img_height }}"
+        >
       </div>
-      <li class="preview-content content-scroll-3">3</li>
+      <li class="preview-content content-scroll-3">{{ section.settings.content_3 }}</li>
       <div
         class="phone-simulator"
       >
         <img
-            src="{{ section.settings.img_3 | image_url }}"
-            alt=""
-            class="phone-img"
-            loading="lazy"
-            width="{{ section.settings.img_width }}"
-            height="{{ section.settings.img_height }}"
-            />
+          src="{{ section.settings.img_3 | image_url }}"
+          alt=""
+          class="phone-img"
+          loading="lazy"
+          width="{{ section.settings.img_width }}"
+          height="{{ section.settings.img_height }}"
+        >
       </div>
     </ul>
   </div>
@@ -104,8 +104,8 @@
 
 <script>
   (function () {
-    const container = document.querySelector(".content-wrapper");
-    const phoneContainer = document.querySelector(".phone-content");
+    const container = document.querySelector('.content-wrapper');
+    const phoneContainer = document.querySelector('.phone-content');
     const contentImgMaps = [];
 
     for (let i = 1; i <= 3; i++) {
@@ -120,36 +120,36 @@
       contentImgMaps.push(newItem);
     }
 
-    window.addEventListener("scroll", () => {
+    window.addEventListener('scroll', () => {
       const boundingTop = container.getBoundingClientRect().top;
       const boundingBottom = container.getBoundingClientRect().bottom;
       const viewportHeight = window.innerHeight;
 
       if (boundingTop >= 0 && boundingBottom > viewportHeight) {
         //当容器上边界进入视口时，使用absolute
-        phoneContainer.style.position = "absolute";
-        phoneContainer.classList.remove("phone-bottom");
+        phoneContainer.style.position = 'absolute';
+        phoneContainer.classList.remove('phone-bottom');
       } else if (boundingBottom < viewportHeight && boundingTop < 0) {
         //当元素下边界进入视口 也用absolute
-        phoneContainer.classList.add("phone-bottom");
-        phoneContainer.style.position = "absolute";
+        phoneContainer.classList.add('phone-bottom');
+        phoneContainer.style.position = 'absolute';
       } else {
         //元素在视口中 fixed
-        phoneContainer.style.position = "fixed";
-        phoneContainer.classList.remove("phone-bottom");
+        phoneContainer.style.position = 'fixed';
+        phoneContainer.classList.remove('phone-bottom');
       }
 
       const resetState = () => {
         contentImgMaps.forEach((item) => {
-          item.img.classList.add("d-none");
-          item.step.classList.remove("active");
-          item.content.classList.remove("active");
+          item.img.classList.add('d-none');
+          item.step.classList.remove('active');
+          item.content.classList.remove('active');
         });
       };
       const activeNewItem = (item) => {
-        item.img.classList.remove("d-none");
-        item.step.classList.add("active");
-        item.content.classList.add("active");
+        item.img.classList.remove('d-none');
+        item.step.classList.add('active');
+        item.content.classList.add('active');
       };
 
       //图片切换
@@ -157,10 +157,7 @@
       if (hideHeight > 2 * viewportHeight) {
         resetState();
         activeNewItem(contentImgMaps[0]);
-      } else if (
-        hideHeight > viewportHeight &&
-        hideHeight < 2 * viewportHeight
-      ) {
+      } else if (hideHeight > viewportHeight && hideHeight < 2 * viewportHeight) {
         resetState();
         activeNewItem(contentImgMaps[1]);
       } else {
@@ -191,7 +188,15 @@
     { "type": "image_picker", "id": "phone_simulator", "label": "手机框图片" },
     { "type": "image_picker", "id": "img_1", "label": "图片1" },
     { "type": "image_picker", "id": "img_2", "label": "图片2" },
-    { "type": "image_picker", "id": "img_3", "label": "图片3" }
+    { "type": "image_picker", "id": "img_3", "label": "图片3" },
+    { "type": "richtext", "id": "content_1", "label": "内容1" },
+    { "type": "richtext", "id": "content_2", "label": "内容2" },
+    { "type": "richtext", "id": "content_3", "label": "内容3" }
+  ],
+  "presets": [
+    {
+      "name": "手机预览页面"
+    }
   ]
 }
 {% endschema %}
