@@ -80,9 +80,18 @@
         "padding_bottom": 16
       }
     },
+    "3496d3dc-9fc4-418b-890f-6c6f03aac9c2": {
+      "type": "kawa-single-img-text",
+      "settings": {
+        "pc_img": "shopify:\/\/shop_images\/a5_70ccf03e-bbd7-4519-98e1-0d37177b6364.jpg",
+        "title": "",
+        "content": "",
+        "text_pos": "center",
+        "text_color": "white"
+      }
+    },
     "283b56e7-480b-47e7-8177-0e44698957e2": {
       "type": "newsletter",
-      "disabled": true,
       "blocks": {
         "template--15871243813024__283b56e7-480b-47e7-8177-0e44698957e2-167230306881ee5078-0": {
           "type": "heading",
@@ -151,6 +160,7 @@
     "d4b88b7c-baa9-49ac-a5fb-ea0fd9eccad5",
     "main",
     "form",
+    "3496d3dc-9fc4-418b-890f-6c6f03aac9c2",
     "283b56e7-480b-47e7-8177-0e44698957e2",
     "975d117d-612c-4fd7-8284-a7684f6b79ab"
   ]
