@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "main": {
+      "type": "kawa-main-blog",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
