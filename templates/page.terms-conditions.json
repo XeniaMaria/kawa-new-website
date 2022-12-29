@@ -2,6 +2,7 @@
   "sections": {
     "single-img-text-2": {
       "type": "kawa-single-img-text",
+      "disabled": true,
       "settings": {
         "pc_img": "shopify:\/\/shop_images\/fash_2.jpg",
         "mobile_img": "shopify:\/\/shop_images\/2_39cb432e-8cb7-44cf-b2c3-47079fa58b65.jpg",
@@ -13,6 +14,7 @@
     },
     "099e9763-f6a3-4152-9074-ab9d0d9d3605": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--15545509511220__099e9763-f6a3-4152-9074-ab9d0d9d3605-1671155776a0f361ea-0": {
           "type": "heading",
@@ -43,6 +45,7 @@
     },
     "single-img-text-1": {
       "type": "kawa-single-img-text",
+      "disabled": true,
       "settings": {
         "pc_img": "shopify:\/\/shop_images\/c8577a1df210126991a8c79837c61c3f.jpg",
         "mobile_img": "shopify:\/\/shop_images\/11_74b1cfd7-beea-4ca0-9591-8d54a87dce08.jpg",
@@ -89,6 +92,7 @@
     },
     "single-img-text-3": {
       "type": "kawa-single-img-text",
+      "disabled": true,
       "settings": {
         "pc_img": "shopify:\/\/shop_images\/fash3.jpg",
         "mobile_img": "shopify:\/\/shop_images\/12.jpg",
@@ -100,6 +104,7 @@
     },
     "cloud-commodity": {
       "type": "kawa-cloud-commodity",
+      "disabled": true,
       "blocks": {
         "commodity-item-1": {
           "type": "commodity_item",
