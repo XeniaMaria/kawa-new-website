@@ -1,214 +1,319 @@
 {
   "sections": {
-    "single-img-text-2": {
-      "type": "kawa-single-img-text",
-      "disabled": true,
-      "settings": {
-        "pc_img": "shopify:\/\/shop_images\/fash_2.jpg",
-        "mobile_img": "shopify:\/\/shop_images\/2_39cb432e-8cb7-44cf-b2c3-47079fa58b65.jpg",
-        "title": "Kawa Cloud",
-        "content": "With the highest standards of security and reliability. Whether uploading or replaying, it is always confidential. KAWA and KAWA's cloud service providers will never access or use its content without your consent, authorization, and permission. You retain control, maintenance, and ownership of the content stored in the cloud.",
-        "text_pos": "top",
-        "text_color": "gray"
-      }
-    },
     "099e9763-f6a3-4152-9074-ab9d0d9d3605": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "template--15545509511220__099e9763-f6a3-4152-9074-ab9d0d9d3605-1671155776a0f361ea-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Record and preserve the beautiful moments.<\/p>",
+            "heading": "<p><strong>Introduction<\/strong><\/p>",
             "heading_size": "h1"
           }
         },
         "template--15545509511220__099e9763-f6a3-4152-9074-ab9d0d9d3605-1671155776a0f361ea-1": {
           "type": "text",
           "settings": {
-            "text": "<p>No need to worry about your precious moments, or important evidence of burglary not being captured. Cloud storage can record important confidence for you in time. Turn on the camera's Motion Detection and Noise Sound Detection to provide security for your home.<\/p>"
+            "text": "<p>These terms and conditions govern your use of this website. By using this website, you accept these terms and conditions in full. If you disagree with these terms and conditions or any part of these terms and conditions, you must not use this website. <\/p><p>This website uses cookies. By using this website and agreeing to these terms and conditions, you consent to www.kawa-in.com’s use of cookies in accordance with the terms of www.kawa-in.com’s privacy policy \/ cookies policy. Unless otherwise stated, www.kawa-in.com and\/or its licensors own the intellectual property rights in the website and material on the website. Subject to the license below, all these intellectual property rights are reserved. You may view, download for caching purposes only, print pages, user manuals, or other product information from the website for your own personal use, subject to the restrictions set out below and elsewhere in these terms and conditions. <\/p>"
+          }
+        },
+        "f7efed57-4f40-47c3-ac54-78d2e6209d00": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Acceptable use<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1311e34e-bed9-44e2-9c08-f8ecb3c887f4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You must not use this website in any way that causes, or may cause, damage to the website or impairment of the availability or accessibility of the website, or in any way which is unlawful, illegal, fraudulent or harmful, or in connection with any unlawful, illegal, fraudulent or harmful purpose or activity. You must not use this website to copy, store, host, transmit, send, use, publish or distribute any material which consists of (or is linked to) any spyware, computer virus, Trojan horse, worm, keystroke logger, rootkit or other malicious computer software.<\/p><p>You must not conduct any systematic or automated data collection activities (including without limitation scraping, data mining, data extraction and data harvesting) on or in relation to this website without www.kawa-in.com’s express written consent.<\/p><p>You must not use this website to transmit or send unsolicited commercial communications. <\/p><p>You must not use this website for any purposes related to marketing without www.kawa-in.com’s express written consent. <\/p>"
+          }
+        },
+        "e1f988ca-b806-4542-a56d-0c0bc5eeb4e7": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>No warranties<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "ce65eead-4602-4e13-b30d-213c997de826": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This website is provided “as is” without any representations or warranties, express or implied. www.kawa-in.com makes no representations or warranties in relation to this website or the information and materials provided on this website.<\/p><p>Without prejudice to the generality of the foregoing paragraph, www.kawa-in.com does not warrant that:<\/p><p>This website will be constantly available, or available at all, or<\/p><p>The information on this website is complete, true, accurate or non-misleading.<\/p><p>Nothing on this website constitutes, or is meant to constitute, advice of any kind. If you require advice in relation to any legal, financial or medical matter you should consult an appropriate professional. <\/p>"
           }
         }
       },
       "block_order": [
         "template--15545509511220__099e9763-f6a3-4152-9074-ab9d0d9d3605-1671155776a0f361ea-0",
-        "template--15545509511220__099e9763-f6a3-4152-9074-ab9d0d9d3605-1671155776a0f361ea-1"
+        "template--15545509511220__099e9763-f6a3-4152-9074-ab9d0d9d3605-1671155776a0f361ea-1",
+        "f7efed57-4f40-47c3-ac54-78d2e6209d00",
+        "1311e34e-bed9-44e2-9c08-f8ecb3c887f4",
+        "e1f988ca-b806-4542-a56d-0c0bc5eeb4e7",
+        "ce65eead-4602-4e13-b30d-213c997de826"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
         "color_scheme": "background-1",
-        "full_width": true,
+        "full_width": false,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 20
       }
     },
-    "single-img-text-1": {
-      "type": "kawa-single-img-text",
-      "disabled": true,
-      "settings": {
-        "pc_img": "shopify:\/\/shop_images\/c8577a1df210126991a8c79837c61c3f.jpg",
-        "mobile_img": "shopify:\/\/shop_images\/11_74b1cfd7-beea-4ca0-9591-8d54a87dce08.jpg",
-        "title": "",
-        "content": "",
-        "text_pos": "top",
-        "text_color": "white"
-      }
-    },
-    "2f04cd79-41d0-4786-8219-3f66e9930afd": {
-      "type": "collage",
-      "disabled": true,
+    "5a89fbf2-8d60-41c8-bf24-e7d3f2070a51": {
+      "type": "rich-text",
       "blocks": {
-        "template--15545509511220__2f04cd79-41d0-4786-8219-3f66e9930afd-16711560861dbd49e0-0": {
-          "type": "video",
+        "template--15929805930656__5a89fbf2-8d60-41c8-bf24-e7d3f2070a51-16722890662407fb5f-0": {
+          "type": "heading",
           "settings": {
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "description": "Describe the video",
-            "image_padding": false
+            "heading": "<p><strong>Limitations of liability<\/strong><\/p>",
+            "heading_size": "h1"
           }
         },
-        "template--15545509511220__2f04cd79-41d0-4786-8219-3f66e9930afd-16711560861dbd49e0-1": {
-          "type": "product",
+        "template--15929805930656__5a89fbf2-8d60-41c8-bf24-e7d3f2070a51-16722890662407fb5f-1": {
+          "type": "text",
           "settings": {
-            "product": "",
-            "second_image": false
+            "text": "<p>www.kawa-in.com will not be liable to you (whether under the law of contact, the law of torts or otherwise) in relation to the contents of, or use of, or otherwise in connection with, this website:<\/p><p>To the extent that the website is provided free-of-charge, for any direct loss: <\/p><p>For any indirect, special or consequential loss, or<\/p><p>For any business losses, loss of revenue, income, profits or anticipated savings, loss of contracts or business relationships, loss of reputation or goodwill, or loss or corruption of information or data. These limitations of liability apply even if www.kawa-in.com has been expressly advised of the potential loss.<\/p>"
+          }
+        },
+        "cefb04d2-923e-4873-98d1-5a0b3bfef4d7": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Exceptions<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1d847872-4be1-4ba6-a938-55d2ccd3293f": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Nothing in this website disclaimer will exclude or limit any warranty implied by law that it would be unlawful to exclude or limit; and nothing in this website disclaimer will exclude or limit www.kawa-in.com’s liability in respect of any:<\/p><p>Death or personal injury caused by www.kawa-in.com’s negligence:<\/p><p>Fraud or fraudulent misrepresentation on the part of www.kawa-in.com, or <\/p><p>Matter which it would be illegal or unlawful for www.kawa-in.com to exclude or<\/p><p>limit, or to attempt or purport to exclude or limit its liability.<\/p>"
+          }
+        },
+        "f40e4ab0-de03-454b-baf5-8fa57866e4d0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Reasonableness<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "f0eb31c9-4a6b-4639-abff-a152b1749b77": {
+          "type": "text",
+          "settings": {
+            "text": "<p>By using this website, you agree that the exclusions and limitations of liability set out in this website disclaimer are reasonable.<\/p><p>If you do not think they are reasonable, you must not use this website. <\/p>"
           }
         }
       },
       "block_order": [
-        "template--15545509511220__2f04cd79-41d0-4786-8219-3f66e9930afd-16711560861dbd49e0-0",
-        "template--15545509511220__2f04cd79-41d0-4786-8219-3f66e9930afd-16711560861dbd49e0-1"
+        "template--15929805930656__5a89fbf2-8d60-41c8-bf24-e7d3f2070a51-16722890662407fb5f-0",
+        "template--15929805930656__5a89fbf2-8d60-41c8-bf24-e7d3f2070a51-16722890662407fb5f-1",
+        "cefb04d2-923e-4873-98d1-5a0b3bfef4d7",
+        "1d847872-4be1-4ba6-a938-55d2ccd3293f",
+        "f40e4ab0-de03-454b-baf5-8fa57866e4d0",
+        "f0eb31c9-4a6b-4639-abff-a152b1749b77"
       ],
       "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
         "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "full_width": false,
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
-    "single-img-text-3": {
-      "type": "kawa-single-img-text",
-      "disabled": true,
+    "70846616-8dfe-4e4f-8a9e-816c4c777d24": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15929805930656__70846616-8dfe-4e4f-8a9e-816c4c777d24-16722890662407fb5f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Other parties<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15929805930656__70846616-8dfe-4e4f-8a9e-816c4c777d24-16722890662407fb5f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You accept that, as a limited liability entity, www.kawa-in.com has an interest in limiting the personal liability of its officers and employees. You agree that you will not bring any claim personally against www.kawa-in.com’s officers or employees in respect of any losses you suffer in connection with the website.<\/p><p>Without prejudice to the foregoing paragraph, you agree that the limitations of warranties and liability set out in this website disclaimer will protect www.kawa-in.com’s officers, employees, agents, subsidiaries, successors, assigns and sub-contractors as well as www.kawa-in.com.<\/p>"
+          }
+        },
+        "fc66273e-61fc-48a6-83a5-de927338cfd3": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Unenforceable provisions<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "64cc33e2-2794-43d5-a60f-92acd1bbf4b0": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If any provision of this website disclaimer is, or is found to be, unenforceable under applicable law, that will not affect the enforceability of the other provisions of this website disclaimer.<\/p>"
+          }
+        },
+        "85475160-25b7-4055-8ae9-895607fc3748": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Indemnity<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "7853c959-e7b4-4017-90b6-f1e2b4b66c9e": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You hereby indemnify www.kawa-in.com and undertake to keep www.kawa-in.com indemnified against any losses, damages, costs, liabilities and expenses (including without limitation: legal expenses and any amounts paid bywww.kawa-in.comto a third party in settlement of a claim or dispute on the advice of www.kawa-in.com’s legal advisers) incurred or suffered by www.kawa-in.com arising out of any breach by you of any provision of these terms and conditions, or arising out of any claim that you have breached any provision of these terms and conditions.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15929805930656__70846616-8dfe-4e4f-8a9e-816c4c777d24-16722890662407fb5f-0",
+        "template--15929805930656__70846616-8dfe-4e4f-8a9e-816c4c777d24-16722890662407fb5f-1",
+        "fc66273e-61fc-48a6-83a5-de927338cfd3",
+        "64cc33e2-2794-43d5-a60f-92acd1bbf4b0",
+        "85475160-25b7-4055-8ae9-895607fc3748",
+        "7853c959-e7b4-4017-90b6-f1e2b4b66c9e"
+      ],
       "settings": {
-        "pc_img": "shopify:\/\/shop_images\/fash3.jpg",
-        "mobile_img": "shopify:\/\/shop_images\/12.jpg",
-        "title": "Your Privacy will be Well Protected",
-        "content": "With the highest standards of security and reliability. Whether uploading or replaying, it is always confidential.",
-        "text_pos": "top",
-        "text_color": "gray"
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": false,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "24d93e7a-4d32-4357-9494-3ac2375f32a3": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15929805930656__24d93e7a-4d32-4357-9494-3ac2375f32a3-16722890662407fb5f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Breaches of these terms and conditions<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15929805930656__24d93e7a-4d32-4357-9494-3ac2375f32a3-16722890662407fb5f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Without prejudice to www.kawa-in.com’s other rights under these terms and conditions, if you breach these terms and conditions in any way, www.kawa-in.com may take such action as www.kawa-in.com deems appropriate to deal with the breach, including suspending your access to the website, prohibiting you from accessing the website, blocking computers using your IP address from accessing the website, contacting your internet service provider to request that they block your access to the website and\/or bringing court proceedings against you.<\/p>"
+          }
+        },
+        "abd7cc0a-96c2-487b-a446-5ad0e891f484": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Variation<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "fbed15aa-74be-4e32-9206-fce863eae656": {
+          "type": "text",
+          "settings": {
+            "text": "<p>www.kawa-in.com may revise these terms and conditions from time-to-time. Revised terms and conditions will apply to the use of this website from the date of the publication of the revised terms and conditions on this website. Please check this page regularly to ensure you are familiar with the current version. <\/p>"
+          }
+        },
+        "1312be65-bc9f-4c87-b29d-2de9871ee44a": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Assignment<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "a60c6005-58f4-4572-972d-ecceb1720c11": {
+          "type": "text",
+          "settings": {
+            "text": "<p>www.kawa-in.com may transfer, sub-contract or otherwise deal with www.kawa-in.com’s rights and\/or obligations under these terms and conditions without notifying you or obtaining your consent. You may not transfer, sub-contract or otherwise deal with your rights and\/or obligations under these terms and conditions. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15929805930656__24d93e7a-4d32-4357-9494-3ac2375f32a3-16722890662407fb5f-0",
+        "template--15929805930656__24d93e7a-4d32-4357-9494-3ac2375f32a3-16722890662407fb5f-1",
+        "abd7cc0a-96c2-487b-a446-5ad0e891f484",
+        "fbed15aa-74be-4e32-9206-fce863eae656",
+        "1312be65-bc9f-4c87-b29d-2de9871ee44a",
+        "a60c6005-58f4-4572-972d-ecceb1720c11"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": false,
+        "padding_top": 24,
+        "padding_bottom": 20
+      }
+    },
+    "c80a62b3-fa9a-45bd-b5f9-ec4027a42875": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15929805930656__c80a62b3-fa9a-45bd-b5f9-ec4027a42875-16722890662407fb5f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Severability<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15929805930656__c80a62b3-fa9a-45bd-b5f9-ec4027a42875-16722890662407fb5f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If a provision of these terms and conditions is determined by any court or other competent authority to be unlawful and\/or unenforceable, the other provisions will continue in effect. If any unlawful and\/ or unenforceable provision would be lawful or enforceable if part of it were deleted, that part will be deemed to be deleted, and the rest of the provision will continue in effect.<\/p>"
+          }
+        },
+        "8eeb1a35-84db-4e4d-9584-51c61a1328bc": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Entire agreement<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "913f3176-c588-4fbb-8861-d9248f94252d": {
+          "type": "text",
+          "settings": {
+            "text": "<p>These terms and conditions, together with www.kawa-in.com’s Privacy Policy, constitute the entire agreement between you and www.kawa-in.com in relation to your use of this website, and supersede all previous agreements in respect of your use of this website.<\/p>"
+          }
+        },
+        "8991a2ea-f391-40cd-b86b-bb74843a64b9": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Law and jurisdiction<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "71dd4a68-14ff-47ca-a45d-e36a9c526578": {
+          "type": "text",
+          "settings": {
+            "text": "<p>When completing your purchase, a billing statement including 'kawa-in.com' and the country code such as 'HK', 'UK', etc. would be displayed on the payment page and\/or your card statement.<\/p><p>All purchases will be processed by our respective entity in the corresponding country as indicated by the country code in the billing statement and are governed by the Local Law.  <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15929805930656__c80a62b3-fa9a-45bd-b5f9-ec4027a42875-16722890662407fb5f-0",
+        "template--15929805930656__c80a62b3-fa9a-45bd-b5f9-ec4027a42875-16722890662407fb5f-1",
+        "8eeb1a35-84db-4e4d-9584-51c61a1328bc",
+        "913f3176-c588-4fbb-8861-d9248f94252d",
+        "8991a2ea-f391-40cd-b86b-bb74843a64b9",
+        "71dd4a68-14ff-47ca-a45d-e36a9c526578"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": false,
+        "padding_top": 0,
+        "padding_bottom": 52
       }
     },
     "cloud-commodity": {
       "type": "kawa-cloud-commodity",
       "disabled": true,
-      "blocks": {
-        "commodity-item-1": {
-          "type": "commodity_item",
-          "settings": {
-            "title": "Free",
-            "desc": "Free for a new account",
-            "orig_price": "5.99",
-            "price": "0",
-            "price_color": "#479dea",
-            "duration": "month",
-            "detail": "<div>7 days Event Record<\/div><div>Free for 30 days<\/div><div>First free trial per account<\/div>"
-          }
-        },
-        "commodity-item-2": {
-          "type": "commodity_item",
-          "settings": {
-            "title": "Monthly",
-            "desc": "Service Content",
-            "orig_price": "8.99",
-            "price": "4.99",
-            "price_color": "#56b85d",
-            "duration": "month",
-            "detail": "<div>7-Day Continuous Recording<\/div><div>1-Month Video History<\/div><div>Expiration Date: 30 Days<\/div>"
-          }
-        },
-        "4db25d23-e222-414d-b3a9-922c3d137e68": {
-          "type": "commodity_item",
-          "settings": {
-            "title": "Monthly",
-            "desc": "Service Content",
-            "orig_price": "9.99",
-            "price": "5.99",
-            "price_color": "#1878b9",
-            "duration": "month",
-            "detail": "<div>14-Day Continuous Recording<\/div><div>1-Month Video History<\/div><div>Expiration Date: 30 Days<\/div>"
-          }
-        },
-        "2291329c-a901-475d-b260-2790a88aad8f": {
-          "type": "commodity_item",
-          "settings": {
-            "title": "Monthly",
-            "desc": "",
-            "orig_price": "29.99",
-            "price": "14.99",
-            "price_color": "#334fb4",
-            "duration": "month",
-            "detail": "<div>30-Day Continuous Recording<\/div><div>1-Month Video History<\/div><div>Expiration Date: 30 Days<\/div>"
-          }
-        },
-        "commodity-item-3": {
-          "type": "commodity_item",
-          "settings": {
-            "title": "Annually",
-            "desc": "Service Content",
-            "orig_price": "99.99",
-            "price": "59.99",
-            "price_color": "#e67349",
-            "duration": "annual",
-            "detail": "<div>14-Day Continuous Recording<\/div><div>1-Year Video History<\/div><div>Expiration Date: 365 Days<\/div>"
-          }
-        }
-      },
-      "block_order": [
-        "commodity-item-1",
-        "commodity-item-2",
-        "4db25d23-e222-414d-b3a9-922c3d137e68",
-        "2291329c-a901-475d-b260-2790a88aad8f",
-        "commodity-item-3"
-      ],
       "settings": {
         "title": "Subscribe to the cloud storage plan that Suits You"
-      }
-    },
-    "7c4ea1bc-73f4-4bd3-8620-7f43214a17af": {
-      "type": "kawa-image-text",
-      "settings": {
-      }
-    },
-    "2be5aae1-e26c-47f6-9c50-0793b1059975": {
-      "type": "featured-blog",
-      "settings": {
-        "heading": "Blog posts",
-        "heading_size": "h1",
-        "blog": "news",
-        "post_limit": 2,
-        "columns_desktop": 1,
-        "color_scheme": "background-1",
-        "show_image": true,
-        "show_date": true,
-        "show_author": false,
-        "show_view_all": true,
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     }
   },
   "order": [
-    "single-img-text-2",
     "099e9763-f6a3-4152-9074-ab9d0d9d3605",
-    "single-img-text-1",
-    "2f04cd79-41d0-4786-8219-3f66e9930afd",
-    "single-img-text-3",
-    "cloud-commodity",
-    "7c4ea1bc-73f4-4bd3-8620-7f43214a17af",
-    "2be5aae1-e26c-47f6-9c50-0793b1059975"
+    "5a89fbf2-8d60-41c8-bf24-e7d3f2070a51",
+    "70846616-8dfe-4e4f-8a9e-816c4c777d24",
+    "24d93e7a-4d32-4357-9494-3ac2375f32a3",
+    "c80a62b3-fa9a-45bd-b5f9-ec4027a42875",
+    "cloud-commodity"
   ]
 }
