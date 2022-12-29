@@ -1,0 +1,110 @@
+{
+  "sections": {
+    "70846616-8dfe-4e4f-8a9e-816c4c777d24": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15929805930656__70846616-8dfe-4e4f-8a9e-816c4c777d24-16722890662407fb5f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>KAWA is not liable for:<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15929805930656__70846616-8dfe-4e4f-8a9e-816c4c777d24-16722890662407fb5f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This device complies with the radio interference requirements of the European Community.<\/p><p>Hereby, KAWA ELECTRONICS COMPANY LIMITED declares that the radio equipment type Baby Monitors S6 is in compliance with Directive 2014\/53\/EU.The full text of the EU declaration of conformity is available at the following internet address: www.kawa-in.com <\/p><p>The product shall only be connected to a USB interface of version<br\/>USB2.0 or higher and that the connection to a power USB is prohibited.<\/p><p>Caution:<br\/>For Adapter: Shall be installed near the equipment and shall be easily accessible.<br\/>For Battery: Risk of explosion battery is replaced by an incorrect type,<br\/>dispose of used batteries according to the instructions. To prevent possible hearing damage, do not listen at high volume levels for long periods.<\/p><p>Operating Frequency Range: 2400 – 2483.5MHz<\/p><p>Transmit Output Power: 21 (+1\/-2) dBm @ Maximum Power Setting<\/p><p>Only can use the adapter as below:<br\/>S6-M: Rated Input & Output: AC100V-240V, 50\/60Hz, 200mA, DC5.0V, 2A.<br\/>S6-C: Rated Input & Output: AC100V-240V, 50\/60Hz, 200mA, DC5.0V, 1A.<br\/>Manufacturer: KAWA ELECTRONICS COMPANY LIMITED<br\/>Model Name: Baby Monitor S6<br\/>The plug could be disconnected from adapter.<\/p><p><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15929805930656__70846616-8dfe-4e4f-8a9e-816c4c777d24-16722890662407fb5f-0",
+        "template--15929805930656__70846616-8dfe-4e4f-8a9e-816c4c777d24-16722890662407fb5f-1"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": false,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "93366b81-d3d8-4c26-a47b-2ab3a5d68640": {
+      "type": "kawa-image-text",
+      "blocks": {
+        "template--15929823592608__93366b81-d3d8-4c26-a47b-2ab3a5d68640-1672295330a557bdbe-0": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1.1_b03ab12e-4d76-4284-8f8c-eb6c46de4369.png",
+            "title": "",
+            "content": ""
+          }
+        },
+        "df4486bb-c20f-4db3-b1d5-ac80fb14b4a4": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1.3.png",
+            "title": "",
+            "content": ""
+          }
+        },
+        "d42e2e56-6b06-4d3d-bdbb-f6cb05aee2ce": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1.4.webp",
+            "title": "",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15929823592608__93366b81-d3d8-4c26-a47b-2ab3a5d68640-1672295330a557bdbe-0",
+        "df4486bb-c20f-4db3-b1d5-ac80fb14b4a4",
+        "d42e2e56-6b06-4d3d-bdbb-f6cb05aee2ce"
+      ],
+      "settings": {
+      }
+    },
+    "cloud-commodity": {
+      "type": "kawa-cloud-commodity",
+      "disabled": true,
+      "settings": {
+        "title": "Subscribe to the cloud storage plan that Suits You"
+      }
+    },
+    "c50aa2ec-06ad-4a46-bf06-f5abc030cc49": {
+      "type": "kawa-image-text",
+      "blocks": {
+        "template--15929823592608__c50aa2ec-06ad-4a46-bf06-f5abc030cc49-1672295330a557bdbe-0": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1.5.webp",
+            "title": "",
+            "content": ""
+          }
+        },
+        "template--15929823592608__c50aa2ec-06ad-4a46-bf06-f5abc030cc49-1672295330a557bdbe-1": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1.2.png",
+            "title": "",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15929823592608__c50aa2ec-06ad-4a46-bf06-f5abc030cc49-1672295330a557bdbe-0",
+        "template--15929823592608__c50aa2ec-06ad-4a46-bf06-f5abc030cc49-1672295330a557bdbe-1"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "70846616-8dfe-4e4f-8a9e-816c4c777d24",
+    "93366b81-d3d8-4c26-a47b-2ab3a5d68640",
+    "cloud-commodity",
+    "c50aa2ec-06ad-4a46-bf06-f5abc030cc49"
+  ]
+}
