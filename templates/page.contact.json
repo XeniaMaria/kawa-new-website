@@ -24,8 +24,8 @@
         "b6bb3f2e-3948-4ef1-adeb-ea8a5c8188d2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Informations",
+            "text": "<p>Address：FLAT A 21\/F CHEUNG LEE IND BLDG 9 CHEUNG LEE ST CHAI WAN HONG KONG <br\/>Monday to Friday：9:00 am - 6:00 pm UTC+8<br\/>Saturday and Sunday：9:00 am - 4:00 pm UTC+8<\/p>",
             "link_label": "",
             "link": ""
           }
