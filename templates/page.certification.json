@@ -1,125 +1,5 @@
 {
   "sections": {
-    "099e9763-f6a3-4152-9074-ab9d0d9d3605": {
-      "type": "rich-text",
-      "blocks": {
-        "template--15545509511220__099e9763-f6a3-4152-9074-ab9d0d9d3605-1671155776a0f361ea-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p><strong>Intro<\/strong><\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "template--15545509511220__099e9763-f6a3-4152-9074-ab9d0d9d3605-1671155776a0f361ea-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>KAWA provides a straightforward warranty that is processed in the most hassle-free way possible. Products sold by KAWA as refurbished (“pre-owned”) come with their own unique warranty that you can find on the product listing or contact us at support@kawa-in.com with your order receipt for confirmation.<\/p><p>This limited warranty provided by the manufacturer in no way affects a potential statutory warranty provided by law.<\/p>"
-          }
-        },
-        "f7efed57-4f40-47c3-ac54-78d2e6209d00": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p><strong>30-Day Money-Back Guarantee for Any Reason<\/strong><\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "1311e34e-bed9-44e2-9c08-f8ecb3c887f4": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Undamaged products may be returned for a full refund for any reason within 30 days of the date of purchase. Once the returned item arrives back in KAWA’s warehouse for inspection, the refund process will begin.<\/p><ul><li>Returns must include all accessories<\/li><li>Items must include original packaging<\/li><li>For non-quality related warranty claims, buyer is responsible for shipping costs<\/li><li>For non-quality related warranty claims, KAWA refunds the cost of the product itself<\/li><li>Returns may be rejected if product does not meet the above requirements<\/li><\/ul><p>Refund requests for the 30-day money back guarantee expire 30 days after opening a warranty claim. It is not possible to process a request for a refund for non-quality issues for items that have expired this 30-day window. For purchases not made directly through KAWA’s online stores, please contact retailers for refunds. For quality-related issues, please see below.<\/p>"
-          }
-        },
-        "e1f988ca-b806-4542-a56d-0c0bc5eeb4e7": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p><strong>Warranty Claims for Quality-Related Issues<\/strong><\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "ce65eead-4602-4e13-b30d-213c997de826": {
-          "type": "text",
-          "settings": {
-            "text": "<p>All quality-related defects on items sold directly by KAWA or KAWA’s authorized resellers are covered by an extensive warranty, starting from the date of purchase.<\/p><p>KAWA’s limited warranty is restricted to the country of purchase. The limited warranty is void on items taken outside the country they were originally bought in or shipped to directly from an authorized online purchase.<\/p><p>Quality-related warranty claims on purchases made through KAWA’s authorized distributors and retailers are handled through KAWA.<\/p><p>For quality-related warranty claims, items will be replaced with suitable replacement parts or a factory refurbished model of equal value when available, otherwise a new item will be sent.<\/p><p>Warranties on all replacements follow the same warranty time frame of the original defective item, or 3 months after being replaced, whichever is longer. Warranties on products are void after having been fully refunded.<\/p><p>Process:<\/p><ul><li>Buyer must provide sufficient proof of purchase<\/li><li>KAWA must document what happens when buyers troubleshoot the product<\/li><li>The defective item’s serial number and\/or visible proof depicting the defect are required<\/li><li>It may be necessary to return the item for quality inspection<\/li><\/ul>"
-          }
-        }
-      },
-      "block_order": [
-        "template--15545509511220__099e9763-f6a3-4152-9074-ab9d0d9d3605-1671155776a0f361ea-0",
-        "template--15545509511220__099e9763-f6a3-4152-9074-ab9d0d9d3605-1671155776a0f361ea-1",
-        "f7efed57-4f40-47c3-ac54-78d2e6209d00",
-        "1311e34e-bed9-44e2-9c08-f8ecb3c887f4",
-        "e1f988ca-b806-4542-a56d-0c0bc5eeb4e7",
-        "ce65eead-4602-4e13-b30d-213c997de826"
-      ],
-      "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
-        "color_scheme": "background-1",
-        "full_width": false,
-        "padding_top": 40,
-        "padding_bottom": 12
-      }
-    },
-    "5a89fbf2-8d60-41c8-bf24-e7d3f2070a51": {
-      "type": "rich-text",
-      "blocks": {
-        "template--15929805930656__5a89fbf2-8d60-41c8-bf24-e7d3f2070a51-16722890662407fb5f-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p><strong>Valid proof of purchase:<\/strong><\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "template--15929805930656__5a89fbf2-8d60-41c8-bf24-e7d3f2070a51-16722890662407fb5f-1": {
-          "type": "text",
-          "settings": {
-            "text": "<ul><li>Order number from online purchases made through KAWA or KAWA’s authorized resellers<\/li><li>Sales invoice<\/li><li>Dated sales receipt from an authorized KAWA reseller that shows a description of the product along with its price<\/li><\/ul><p>Please note more than one type of proof of purchase may be required to process a warranty claim (such as receipt of money transfer and confirmation of address item was originally shipped to).<\/p><p>Warranty claims for product defects expire 90 days after opening a warranty claim. It is not possible to process a warranty claim for items that have expired their original warranty time frame or 90-day warranty claim request period, whichever is longer.<\/p>"
-          }
-        },
-        "cefb04d2-923e-4873-98d1-5a0b3bfef4d7": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p><strong>Shipping costs must be covered by buyer in the following situations:<\/strong><\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "1d847872-4be1-4ba6-a938-55d2ccd3293f": {
-          "type": "text",
-          "settings": {
-            "text": "<ul><li>Returning products for any reason other than a proven defect<\/li><li>Warranty claims on items taken outside the original country of purchase<\/li><li>Buyer’s accidental returns<\/li><li>Returning personal items<\/li><li>Returning items claimed to have defects but found by KAWA quality control to be in working condition<\/li><li>Returning defective items in international shipping<\/li><li>Costs associated with unauthorized returns (any returns made outside of the approved warranty process)<\/li><\/ul>"
-          }
-        },
-        "f40e4ab0-de03-454b-baf5-8fa57866e4d0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p><strong>Not Covered Under Warranty:<\/strong><\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "f0eb31c9-4a6b-4639-abff-a152b1749b77": {
-          "type": "text",
-          "settings": {
-            "text": "<ul><li>Products without sufficient proof of purchase<\/li><li>Lost or stolen products<\/li><li>Items that have expired their warranty period<\/li><li>Non quality-related issues (after 30 days of purchase)<\/li><li>Free products<\/li><li>Repairs through 3rd parties<\/li><li>Damage from outside sources<\/li><li>Damage from misuse of products (including, but not limited to: falls, extreme temperatures, water, operating devices improperly)<\/li><li>Purchases from illegitimate resource<\/li><\/ul>"
-          }
-        }
-      },
-      "block_order": [
-        "template--15929805930656__5a89fbf2-8d60-41c8-bf24-e7d3f2070a51-16722890662407fb5f-0",
-        "template--15929805930656__5a89fbf2-8d60-41c8-bf24-e7d3f2070a51-16722890662407fb5f-1",
-        "cefb04d2-923e-4873-98d1-5a0b3bfef4d7",
-        "1d847872-4be1-4ba6-a938-55d2ccd3293f",
-        "f40e4ab0-de03-454b-baf5-8fa57866e4d0",
-        "f0eb31c9-4a6b-4639-abff-a152b1749b77"
-      ],
-      "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
-        "color_scheme": "background-1",
-        "full_width": false,
-        "padding_top": 12,
-        "padding_bottom": 12
-      }
-    },
     "70846616-8dfe-4e4f-8a9e-816c4c777d24": {
       "type": "rich-text",
       "blocks": {
@@ -133,7 +13,7 @@
         "template--15929805930656__70846616-8dfe-4e4f-8a9e-816c4c777d24-16722890662407fb5f-1": {
           "type": "text",
           "settings": {
-            "text": "<ul><li>Loss of data incurred from use of KAWA products<\/li><li>Returning personal items sent to KAWA<\/li><\/ul><p>When returning items with a prepaid shipping label provided by KAWA, KAWA takes responsibility for any damage or loss incurred in transit. When returning items for non-quality issues, buyer assumes responsibility for any damage or loss incurred in transit. KAWA does not provide refunds for items damaged in transit for non-quality related warranty claims.<\/p>"
+            "text": "<p>This device complies with the radio interference requirements of the European Community.<\/p><p>Hereby, KAWA ELECTRONICS COMPANY LIMITED declares that the radio equipment type Baby Monitors S6 is in compliance with Directive 2014\/53\/EU.The full text of the EU declaration of conformity is available at the following internet address: www.kawa-in.com <\/p><p>The product shall only be connected to a USB interface of version<br\/>USB2.0 or higher and that the connection to a power USB is prohibited.<\/p><p>Caution:<br\/>For Adapter: Shall be installed near the equipment and shall be easily accessible.<br\/>For Battery: Risk of explosion battery is replaced by an incorrect type,<br\/>dispose of used batteries according to the instructions. To prevent possible hearing damage, do not listen at high volume levels for long periods.<\/p><p>Operating Frequency Range: 2400 – 2483.5MHz<\/p><p>Transmit Output Power: 21 (+1\/-2) dBm @ Maximum Power Setting<\/p><p>Only can use the adapter as below:<br\/>S6-M: Rated Input & Output: AC100V-240V, 50\/60Hz, 200mA, DC5.0V, 2A.<br\/>S6-C: Rated Input & Output: AC100V-240V, 50\/60Hz, 200mA, DC5.0V, 1A.<br\/>Manufacturer: KAWA ELECTRONICS COMPANY LIMITED<br\/>Model Name: Baby Monitor S6<br\/>The plug could be disconnected from adapter.<\/p><p><\/p>"
           }
         }
       },
@@ -150,18 +30,81 @@
         "padding_bottom": 12
       }
     },
+    "93366b81-d3d8-4c26-a47b-2ab3a5d68640": {
+      "type": "kawa-image-text",
+      "blocks": {
+        "template--15929823592608__93366b81-d3d8-4c26-a47b-2ab3a5d68640-1672295330a557bdbe-0": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1.1_b03ab12e-4d76-4284-8f8c-eb6c46de4369.png",
+            "title": "",
+            "content": ""
+          }
+        },
+        "df4486bb-c20f-4db3-b1d5-ac80fb14b4a4": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1.3.png",
+            "title": "",
+            "content": ""
+          }
+        },
+        "d42e2e56-6b06-4d3d-bdbb-f6cb05aee2ce": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1.4.webp",
+            "title": "",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15929823592608__93366b81-d3d8-4c26-a47b-2ab3a5d68640-1672295330a557bdbe-0",
+        "df4486bb-c20f-4db3-b1d5-ac80fb14b4a4",
+        "d42e2e56-6b06-4d3d-bdbb-f6cb05aee2ce"
+      ],
+      "settings": {
+      }
+    },
     "cloud-commodity": {
       "type": "kawa-cloud-commodity",
       "disabled": true,
       "settings": {
         "title": "Subscribe to the cloud storage plan that Suits You"
       }
+    },
+    "c50aa2ec-06ad-4a46-bf06-f5abc030cc49": {
+      "type": "kawa-image-text",
+      "blocks": {
+        "template--15929823592608__c50aa2ec-06ad-4a46-bf06-f5abc030cc49-1672295330a557bdbe-0": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1.5.webp",
+            "title": "",
+            "content": ""
+          }
+        },
+        "template--15929823592608__c50aa2ec-06ad-4a46-bf06-f5abc030cc49-1672295330a557bdbe-1": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1.2.png",
+            "title": "",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15929823592608__c50aa2ec-06ad-4a46-bf06-f5abc030cc49-1672295330a557bdbe-0",
+        "template--15929823592608__c50aa2ec-06ad-4a46-bf06-f5abc030cc49-1672295330a557bdbe-1"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
-    "099e9763-f6a3-4152-9074-ab9d0d9d3605",
-    "5a89fbf2-8d60-41c8-bf24-e7d3f2070a51",
     "70846616-8dfe-4e4f-8a9e-816c4c777d24",
-    "cloud-commodity"
+    "93366b81-d3d8-4c26-a47b-2ab3a5d68640",
+    "cloud-commodity",
+    "c50aa2ec-06ad-4a46-bf06-f5abc030cc49"
   ]
 }
