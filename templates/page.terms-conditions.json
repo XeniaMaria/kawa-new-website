@@ -57,7 +57,7 @@
         "color_scheme": "background-1",
         "full_width": false,
         "padding_top": 40,
-        "padding_bottom": 20
+        "padding_bottom": 12
       }
     },
     "5a89fbf2-8d60-41c8-bf24-e7d3f2070a51": {
@@ -116,8 +116,8 @@
         "content_alignment": "left",
         "color_scheme": "background-1",
         "full_width": false,
-        "padding_top": 20,
-        "padding_bottom": 20
+        "padding_top": 12,
+        "padding_bottom": 12
       }
     },
     "70846616-8dfe-4e4f-8a9e-816c4c777d24": {
@@ -176,8 +176,8 @@
         "content_alignment": "left",
         "color_scheme": "background-1",
         "full_width": false,
-        "padding_top": 20,
-        "padding_bottom": 20
+        "padding_top": 12,
+        "padding_bottom": 12
       }
     },
     "24d93e7a-4d32-4357-9494-3ac2375f32a3": {
@@ -236,8 +236,8 @@
         "content_alignment": "left",
         "color_scheme": "background-1",
         "full_width": false,
-        "padding_top": 24,
-        "padding_bottom": 20
+        "padding_top": 12,
+        "padding_bottom": 12
       }
     },
     "c80a62b3-fa9a-45bd-b5f9-ec4027a42875": {
@@ -296,8 +296,8 @@
         "content_alignment": "left",
         "color_scheme": "background-1",
         "full_width": false,
-        "padding_top": 0,
-        "padding_bottom": 52
+        "padding_top": 12,
+        "padding_bottom": 12
       }
     },
     "cloud-commodity": {
