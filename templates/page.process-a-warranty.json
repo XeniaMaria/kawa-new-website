@@ -6,40 +6,27 @@
         "template--15545509511220__099e9763-f6a3-4152-9074-ab9d0d9d3605-1671155776a0f361ea-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>Intro<\/strong><\/p>",
+            "heading": "<p><strong>How it Works<\/strong><\/p>",
             "heading_size": "h1"
           }
         },
         "template--15545509511220__099e9763-f6a3-4152-9074-ab9d0d9d3605-1671155776a0f361ea-1": {
           "type": "text",
           "settings": {
-            "text": "<p>KAWA provides a straightforward warranty that is processed in the most hassle-free way possible. Products sold by KAWA as refurbished (“pre-owned”) come with their own unique warranty that you can find on the product listing or contact us at support@kawa-in.com with your order receipt for confirmation.<\/p><p>This limited warranty provided by the manufacturer in no way affects a potential statutory warranty provided by law.<\/p>"
+            "text": "<p>Welcome to KAWA’s self-service page for processing warranty requests and making inquiries. All KAWA warranties are automatically kept track of in our system, so there is no need to register your product. This page is for you to reach out to us when you have issues with your product or to quickly help resolve any other issue you’re experiencing. We apologize in advance for whatever inconvenience your KAWA purchase may have caused.<\/p><p>Please note this page is regarding purchases made through this website or the KAWA store on Amazon. For purchases made through KAWA’s authorized resellers, please contact them directly.<\/p><p>All products purchased from KAWA come with a hassle-free warranty. You can find the precise warranty period of your product on the literature inside its box. You can also verify the warranty period with our customer service team in the body of your message.<\/p><p>If your product turns out to have a defect during its warranty period, please contact us at support@kawa-in.com with your order receipt for confirmation and let us know what we can do to help you. It may save you time to first trouble shoot issues by going to our FAQ page or looking at Instruction Manuals before filing a warranty claim.<\/p><p>Thank you in advance for all of the information you provide; we know your time is valuable.<\/p><p>Warranty Information Tips<\/p>"
           }
         },
         "f7efed57-4f40-47c3-ac54-78d2e6209d00": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>30-Day Money-Back Guarantee for Any Reason<\/strong><\/p>",
+            "heading": "<p><strong>Warranty Information Tips<\/strong><\/p>",
             "heading_size": "h1"
           }
         },
         "1311e34e-bed9-44e2-9c08-f8ecb3c887f4": {
           "type": "text",
           "settings": {
-            "text": "<p>Undamaged products may be returned for a full refund for any reason within 30 days of the date of purchase. Once the returned item arrives back in KAWA’s warehouse for inspection, the refund process will begin.<\/p><ul><li>Returns must include all accessories<\/li><li>Items must include original packaging<\/li><li>For non-quality related warranty claims, buyer is responsible for shipping costs<\/li><li>For non-quality related warranty claims, KAWA refunds the cost of the product itself<\/li><li>Returns may be rejected if product does not meet the above requirements<\/li><\/ul><p>Refund requests for the 30-day money back guarantee expire 30 days after opening a warranty claim. It is not possible to process a request for a refund for non-quality issues for items that have expired this 30-day window. For purchases not made directly through KAWA’s online stores, please contact retailers for refunds. For quality-related issues, please see below.<\/p>"
-          }
-        },
-        "e1f988ca-b806-4542-a56d-0c0bc5eeb4e7": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p><strong>Warranty Claims for Quality-Related Issues<\/strong><\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "ce65eead-4602-4e13-b30d-213c997de826": {
-          "type": "text",
-          "settings": {
-            "text": "<p>All quality-related defects on items sold directly by KAWA or KAWA’s authorized resellers are covered by an extensive warranty, starting from the date of purchase.<\/p><p>KAWA’s limited warranty is restricted to the country of purchase. The limited warranty is void on items taken outside the country they were originally bought in or shipped to directly from an authorized online purchase.<\/p><p>Quality-related warranty claims on purchases made through KAWA’s authorized distributors and retailers are handled through KAWA.<\/p><p>For quality-related warranty claims, items will be replaced with suitable replacement parts or a factory refurbished model of equal value when available, otherwise a new item will be sent.<\/p><p>Warranties on all replacements follow the same warranty time frame of the original defective item, or 3 months after being replaced, whichever is longer. Warranties on products are void after having been fully refunded.<\/p><p>Process:<\/p><ul><li>Buyer must provide sufficient proof of purchase<\/li><li>KAWA must document what happens when buyers troubleshoot the product<\/li><li>The defective item’s serial number and\/or visible proof depicting the defect are required<\/li><li>It may be necessary to return the item for quality inspection<\/li><\/ul>"
+            "text": "<p><strong>Order ID<\/strong>: You can find this in the order history of the account the purchase was made through.<\/p><p><strong>Model Number<\/strong>: You can find this in your account's order history, as well as on the packaging or manual of the product. Some products come with the model number printed directly on them. Model numbers help us identify the exact make and model of your product more accurately than a product name would.<\/p><p><strong>SN<\/strong>: The SN can be found on the main body of the product itself. It’s located on a sticker, tag, and attached directly on the product or packaging. Looks something like SN:S6-CA14Y0016.<\/p>"
           }
         }
       },
@@ -47,9 +34,7 @@
         "template--15545509511220__099e9763-f6a3-4152-9074-ab9d0d9d3605-1671155776a0f361ea-0",
         "template--15545509511220__099e9763-f6a3-4152-9074-ab9d0d9d3605-1671155776a0f361ea-1",
         "f7efed57-4f40-47c3-ac54-78d2e6209d00",
-        "1311e34e-bed9-44e2-9c08-f8ecb3c887f4",
-        "e1f988ca-b806-4542-a56d-0c0bc5eeb4e7",
-        "ce65eead-4602-4e13-b30d-213c997de826"
+        "1311e34e-bed9-44e2-9c08-f8ecb3c887f4"
       ],
       "settings": {
         "desktop_content_position": "left",
@@ -57,96 +42,6 @@
         "color_scheme": "background-1",
         "full_width": false,
         "padding_top": 40,
-        "padding_bottom": 12
-      }
-    },
-    "5a89fbf2-8d60-41c8-bf24-e7d3f2070a51": {
-      "type": "rich-text",
-      "blocks": {
-        "template--15929805930656__5a89fbf2-8d60-41c8-bf24-e7d3f2070a51-16722890662407fb5f-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p><strong>Valid proof of purchase:<\/strong><\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "template--15929805930656__5a89fbf2-8d60-41c8-bf24-e7d3f2070a51-16722890662407fb5f-1": {
-          "type": "text",
-          "settings": {
-            "text": "<ul><li>Order number from online purchases made through KAWA or KAWA’s authorized resellers<\/li><li>Sales invoice<\/li><li>Dated sales receipt from an authorized KAWA reseller that shows a description of the product along with its price<\/li><\/ul><p>Please note more than one type of proof of purchase may be required to process a warranty claim (such as receipt of money transfer and confirmation of address item was originally shipped to).<\/p><p>Warranty claims for product defects expire 90 days after opening a warranty claim. It is not possible to process a warranty claim for items that have expired their original warranty time frame or 90-day warranty claim request period, whichever is longer.<\/p>"
-          }
-        },
-        "cefb04d2-923e-4873-98d1-5a0b3bfef4d7": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p><strong>Shipping costs must be covered by buyer in the following situations:<\/strong><\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "1d847872-4be1-4ba6-a938-55d2ccd3293f": {
-          "type": "text",
-          "settings": {
-            "text": "<ul><li>Returning products for any reason other than a proven defect<\/li><li>Warranty claims on items taken outside the original country of purchase<\/li><li>Buyer’s accidental returns<\/li><li>Returning personal items<\/li><li>Returning items claimed to have defects but found by KAWA quality control to be in working condition<\/li><li>Returning defective items in international shipping<\/li><li>Costs associated with unauthorized returns (any returns made outside of the approved warranty process)<\/li><\/ul>"
-          }
-        },
-        "f40e4ab0-de03-454b-baf5-8fa57866e4d0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p><strong>Not Covered Under Warranty:<\/strong><\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "f0eb31c9-4a6b-4639-abff-a152b1749b77": {
-          "type": "text",
-          "settings": {
-            "text": "<ul><li>Products without sufficient proof of purchase<\/li><li>Lost or stolen products<\/li><li>Items that have expired their warranty period<\/li><li>Non quality-related issues (after 30 days of purchase)<\/li><li>Free products<\/li><li>Repairs through 3rd parties<\/li><li>Damage from outside sources<\/li><li>Damage from misuse of products (including, but not limited to: falls, extreme temperatures, water, operating devices improperly)<\/li><li>Purchases from illegitimate resource<\/li><\/ul>"
-          }
-        }
-      },
-      "block_order": [
-        "template--15929805930656__5a89fbf2-8d60-41c8-bf24-e7d3f2070a51-16722890662407fb5f-0",
-        "template--15929805930656__5a89fbf2-8d60-41c8-bf24-e7d3f2070a51-16722890662407fb5f-1",
-        "cefb04d2-923e-4873-98d1-5a0b3bfef4d7",
-        "1d847872-4be1-4ba6-a938-55d2ccd3293f",
-        "f40e4ab0-de03-454b-baf5-8fa57866e4d0",
-        "f0eb31c9-4a6b-4639-abff-a152b1749b77"
-      ],
-      "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
-        "color_scheme": "background-1",
-        "full_width": false,
-        "padding_top": 12,
-        "padding_bottom": 12
-      }
-    },
-    "70846616-8dfe-4e4f-8a9e-816c4c777d24": {
-      "type": "rich-text",
-      "blocks": {
-        "template--15929805930656__70846616-8dfe-4e4f-8a9e-816c4c777d24-16722890662407fb5f-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p><strong>KAWA is not liable for:<\/strong><\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "template--15929805930656__70846616-8dfe-4e4f-8a9e-816c4c777d24-16722890662407fb5f-1": {
-          "type": "text",
-          "settings": {
-            "text": "<ul><li>Loss of data incurred from use of KAWA products<\/li><li>Returning personal items sent to KAWA<\/li><\/ul><p>When returning items with a prepaid shipping label provided by KAWA, KAWA takes responsibility for any damage or loss incurred in transit. When returning items for non-quality issues, buyer assumes responsibility for any damage or loss incurred in transit. KAWA does not provide refunds for items damaged in transit for non-quality related warranty claims.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--15929805930656__70846616-8dfe-4e4f-8a9e-816c4c777d24-16722890662407fb5f-0",
-        "template--15929805930656__70846616-8dfe-4e4f-8a9e-816c4c777d24-16722890662407fb5f-1"
-      ],
-      "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
-        "color_scheme": "background-1",
-        "full_width": false,
-        "padding_top": 12,
         "padding_bottom": 12
       }
     },
@@ -160,8 +55,6 @@
   },
   "order": [
     "099e9763-f6a3-4152-9074-ab9d0d9d3605",
-    "5a89fbf2-8d60-41c8-bf24-e7d3f2070a51",
-    "70846616-8dfe-4e4f-8a9e-816c4c777d24",
     "cloud-commodity"
   ]
 }
