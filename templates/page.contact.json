@@ -80,12 +80,66 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "d4b88b7c-baa9-49ac-a5fb-ea0fd9eccad5": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15871243813024__d4b88b7c-baa9-49ac-a5fb-ea0fd9eccad5-167230370654fb006c-0": {
+          "type": "column",
+          "settings": {
+            "title": "Contact Customer Service",
+            "text": "<p>support@kawa-in.com<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--15871243813024__d4b88b7c-baa9-49ac-a5fb-ea0fd9eccad5-167230370654fb006c-1": {
+          "type": "column",
+          "settings": {
+            "title": "Contact Marketing Department",
+            "text": "<p>Influencer and Partnerships & PR Inquiries & Affiliate:<\/p><p>marketing@kawa-in.com<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "b6bb3f2e-3948-4ef1-adeb-ea8a5c8188d2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15871243813024__d4b88b7c-baa9-49ac-a5fb-ea0fd9eccad5-167230370654fb006c-0",
+        "template--15871243813024__d4b88b7c-baa9-49ac-a5fb-ea0fd9eccad5-167230370654fb006c-1",
+        "b6bb3f2e-3948-4ef1-adeb-ea8a5c8188d2"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "form",
     "283b56e7-480b-47e7-8177-0e44698957e2",
-    "975d117d-612c-4fd7-8284-a7684f6b79ab"
+    "975d117d-612c-4fd7-8284-a7684f6b79ab",
+    "d4b88b7c-baa9-49ac-a5fb-ea0fd9eccad5"
   ]
 }
