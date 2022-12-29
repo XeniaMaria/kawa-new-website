@@ -1,86 +1,5 @@
 {
   "sections": {
-    "main": {
-      "type": "main-page",
-      "settings": {
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "form": {
-      "type": "contact-form",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "283b56e7-480b-47e7-8177-0e44698957e2": {
-      "type": "newsletter",
-      "blocks": {
-        "template--15871243813024__283b56e7-480b-47e7-8177-0e44698957e2-167230306881ee5078-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Subscribe to our emails",
-            "heading_size": "h1"
-          }
-        },
-        "template--15871243813024__283b56e7-480b-47e7-8177-0e44698957e2-167230306881ee5078-1": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
-          }
-        },
-        "template--15871243813024__283b56e7-480b-47e7-8177-0e44698957e2-167230306881ee5078-2": {
-          "type": "email_form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "template--15871243813024__283b56e7-480b-47e7-8177-0e44698957e2-167230306881ee5078-0",
-        "template--15871243813024__283b56e7-480b-47e7-8177-0e44698957e2-167230306881ee5078-1",
-        "template--15871243813024__283b56e7-480b-47e7-8177-0e44698957e2-167230306881ee5078-2"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "975d117d-612c-4fd7-8284-a7684f6b79ab": {
-      "type": "rich-text",
-      "blocks": {
-        "template--15871243813024__975d117d-612c-4fd7-8284-a7684f6b79ab-1672303067ca13e210-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Enjoy the benefits of registering:<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "template--15871243813024__975d117d-612c-4fd7-8284-a7684f6b79ab-1672303067ca13e210-1": {
-          "type": "text",
-          "settings": {
-            "text": "<ul><li>Extend the warranty period for 1 year of value-added service. <\/li><li>Buy KAWA any goods again, and enjoy 10％ off. <\/li><li>Product upgrades and updates will be notified the first time.<\/li><\/ul><p> <\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--15871243813024__975d117d-612c-4fd7-8284-a7684f6b79ab-1672303067ca13e210-0",
-        "template--15871243813024__975d117d-612c-4fd7-8284-a7684f6b79ab-1672303067ca13e210-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "left",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "d4b88b7c-baa9-49ac-a5fb-ea0fd9eccad5": {
       "type": "multicolumn",
       "blocks": {
@@ -118,7 +37,7 @@
         "b6bb3f2e-3948-4ef1-adeb-ea8a5c8188d2"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "EMAIL",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -133,13 +52,94 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 16
+      }
+    },
+    "283b56e7-480b-47e7-8177-0e44698957e2": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15871243813024__283b56e7-480b-47e7-8177-0e44698957e2-167230306881ee5078-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "template--15871243813024__283b56e7-480b-47e7-8177-0e44698957e2-167230306881ee5078-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "template--15871243813024__283b56e7-480b-47e7-8177-0e44698957e2-167230306881ee5078-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--15871243813024__283b56e7-480b-47e7-8177-0e44698957e2-167230306881ee5078-0",
+        "template--15871243813024__283b56e7-480b-47e7-8177-0e44698957e2-167230306881ee5078-1",
+        "template--15871243813024__283b56e7-480b-47e7-8177-0e44698957e2-167230306881ee5078-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": false,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "975d117d-612c-4fd7-8284-a7684f6b79ab": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15871243813024__975d117d-612c-4fd7-8284-a7684f6b79ab-1672303067ca13e210-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Enjoy the benefits of registering:<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15871243813024__975d117d-612c-4fd7-8284-a7684f6b79ab-1672303067ca13e210-1": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Extend the warranty period for 1 year of value-added service. <\/li><li>Buy KAWA any goods again, and enjoy 10％ off. <\/li><li>Product upgrades and updates will be notified the first time.<\/li><\/ul><p> <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15871243813024__975d117d-612c-4fd7-8284-a7684f6b79ab-1672303067ca13e210-0",
+        "template--15871243813024__975d117d-612c-4fd7-8284-a7684f6b79ab-1672303067ca13e210-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
     }
   },
   "order": [
+    "d4b88b7c-baa9-49ac-a5fb-ea0fd9eccad5",
     "main",
     "form",
     "283b56e7-480b-47e7-8177-0e44698957e2",
-    "975d117d-612c-4fd7-8284-a7684f6b79ab",
-    "d4b88b7c-baa9-49ac-a5fb-ea0fd9eccad5"
+    "975d117d-612c-4fd7-8284-a7684f6b79ab"
   ]
 }
