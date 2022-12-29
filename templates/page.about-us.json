@@ -1,19 +1,79 @@
 {
   "sections": {
+    "1c2fedb3-76c1-4e95-bf91-49c7044b7f94": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15929825788064__1c2fedb3-76c1-4e95-bf91-49c7044b7f94-16722980754425d01d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>KAWA is one of the global leaders in smart hardware from design, development to supply innovative and high-quality products. Based on our technology core-machine vision, plus the algorithm of deep learning, we aim to create an advanced product to where human being around the world by constantly technological innovations. KAWA is creating a safe and convenient environment by samrt technology that will simplify the smart-home experience and make people more relaxed, comfortable and pleasant.<\/p>"
+          }
+        },
+        "template--15929825788064__1c2fedb3-76c1-4e95-bf91-49c7044b7f94-16722980754425d01d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>About KAWA Factory<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--15929825788064__1c2fedb3-76c1-4e95-bf91-49c7044b7f94-16722980754425d01d-1",
+        "template--15929825788064__1c2fedb3-76c1-4e95-bf91-49c7044b7f94-16722980754425d01d-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "aabf4efe-f65e-4b5e-9c70-4a630feb36b7": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15929825788064__aabf4efe-f65e-4b5e-9c70-4a630feb36b7-16722980754425d01d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The base covers an area of 30000 square meters, more than 2000 employees, with advanced automatic testing and production equipment, and informationization management system. International Exhibition<\/p>"
+          }
+        },
+        "template--15929825788064__aabf4efe-f65e-4b5e-9c70-4a630feb36b7-16722980754425d01d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>International Exhibition<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--15929825788064__aabf4efe-f65e-4b5e-9c70-4a630feb36b7-16722980754425d01d-1",
+        "template--15929825788064__aabf4efe-f65e-4b5e-9c70-4a630feb36b7-16722980754425d01d-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "70846616-8dfe-4e4f-8a9e-816c4c777d24": {
       "type": "rich-text",
       "blocks": {
         "template--15929805930656__70846616-8dfe-4e4f-8a9e-816c4c777d24-16722890662407fb5f-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>KAWA is not liable for:<\/strong><\/p>",
+            "heading": "",
             "heading_size": "h1"
           }
         },
         "template--15929805930656__70846616-8dfe-4e4f-8a9e-816c4c777d24-16722890662407fb5f-1": {
           "type": "text",
           "settings": {
-            "text": "<p>This device complies with the radio interference requirements of the European Community.<\/p><p>Hereby, KAWA ELECTRONICS COMPANY LIMITED declares that the radio equipment type Baby Monitors S6 is in compliance with Directive 2014\/53\/EU.The full text of the EU declaration of conformity is available at the following internet address: www.kawa-in.com <\/p><p>The product shall only be connected to a USB interface of version<br\/>USB2.0 or higher and that the connection to a power USB is prohibited.<\/p><p>Caution:<br\/>For Adapter: Shall be installed near the equipment and shall be easily accessible.<br\/>For Battery: Risk of explosion battery is replaced by an incorrect type,<br\/>dispose of used batteries according to the instructions. To prevent possible hearing damage, do not listen at high volume levels for long periods.<\/p><p>Operating Frequency Range: 2400 – 2483.5MHz<\/p><p>Transmit Output Power: 21 (+1\/-2) dBm @ Maximum Power Setting<\/p><p>Only can use the adapter as below:<br\/>S6-M: Rated Input & Output: AC100V-240V, 50\/60Hz, 200mA, DC5.0V, 2A.<br\/>S6-C: Rated Input & Output: AC100V-240V, 50\/60Hz, 200mA, DC5.0V, 1A.<br\/>Manufacturer: KAWA ELECTRONICS COMPANY LIMITED<br\/>Model Name: Baby Monitor S6<br\/>The plug could be disconnected from adapter.<\/p><p><\/p>"
+            "text": "<p>Whatever you need, we’re happy to assist you.We’ll try our best to respond within 24 hours.<\/p><p><br\/><strong>KAWA ELECTRONICS COMPANY LIMITED<\/strong><br\/>Support Email：support@kawa-in.com <br\/>Marketing Inquiries：marketing@kawa-in.com<br\/>Address：FLAT A 21\/F CHEUNG LEE IND BLDG 9 CHEUNG LEE ST CHAI WAN HONG KONG <br\/>Monday to Friday：9:00 am - 6:00 pm UTC+8<br\/>Saturday and Sunday：9:00 am - 4:00 pm UTC+8<\/p><p><\/p>"
           }
         }
       },
@@ -102,6 +162,8 @@
     }
   },
   "order": [
+    "1c2fedb3-76c1-4e95-bf91-49c7044b7f94",
+    "aabf4efe-f65e-4b5e-9c70-4a630feb36b7",
     "70846616-8dfe-4e4f-8a9e-816c4c777d24",
     "93366b81-d3d8-4c26-a47b-2ab3a5d68640",
     "cloud-commodity",
