@@ -151,28 +151,28 @@
           "type": "video-block",
           "settings": {
             "video_poster": "shopify:\/\/shop_images\/8a953a1254d464d9662047ecf553a0ec_dc90c99a-e291-4820-99f1-30613b0c343a.jpg",
-            "video_html": "<iframe width=\"718\" height=\"403\" src=\"https:\/\/www.youtube.com\/embed\/Kl4c1T9klEI?list=PLUxNdsQ5vJY8fGfvy_I--7HcDyQAqKpR7\" title=\"Let's Check More Details about the Cute Yellow Rabbit Camera\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"><\/iframe>"
+            "video_html": "_7w_NSwtVfY"
           }
         },
         "video-block-2": {
           "type": "video-block",
           "settings": {
             "video_poster": "shopify:\/\/shop_images\/1013_6cb0a69c-a8bc-471b-9ba8-8f333335d464.png",
-            "video_html": "<iframe width=\"992\" height=\"558\" src=\"https:\/\/www.youtube.com\/embed\/bOq0R5Ezrio\" title=\"KAWA 2K IP Camera  |  Ultra HD  |  REVIEW\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"><\/iframe>"
+            "video_html": "_7w_NSwtVfY"
           }
         },
         "video-block-3": {
           "type": "video-block",
           "settings": {
             "video_poster": "shopify:\/\/shop_images\/1002_774bb933-6a5f-4be7-8ceb-3574b29dd41d.jpg",
-            "video_html": "<iframe width=\"716\" height=\"403\" src=\"https:\/\/www.youtube.com\/embed\/_7w_NSwtVfY?list=PLUxNdsQ5vJY8fGfvy_I--7HcDyQAqKpR7\" title=\"KAWA Baby Monitor S7 | 2K Recording Video\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>"
+            "video_html": "_7w_NSwtVfY"
           }
         },
         "video-block-4": {
           "type": "video-block",
           "settings": {
             "video_poster": "shopify:\/\/shop_images\/1005_602b5e7e-457d-465c-a111-f07196fa540e.jpg",
-            "video_html": "<iframe width=\"716\" height=\"403\" src=\"https:\/\/www.youtube.com\/embed\/QCbqT9bfzBQ?list=PLUxNdsQ5vJY8fGfvy_I--7HcDyQAqKpR7\" title=\"Review of Dash Camera | KAWA Dash Camera D6\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"><\/iframe>"
+            "video_html": "_7w_NSwtVfY"
           }
         }
       },

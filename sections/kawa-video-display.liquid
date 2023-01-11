@@ -36,7 +36,10 @@
       <div class="modal fade" id="{{ section.id }}-video-modal-{{ forloop.index }}">
         <div class="modal-dialog modal-xl modal-dialog-centered">
           <div class="modal-content">
-            {{ block.settings.video_html }}
+            <lite-youtube
+              videoid="{{ block.settings.video_html }}"
+              playlabel="Play: Keynote (Google I/O '18)"
+            ></lite-youtube>
           </div>
         </div>
       </div>
@@ -109,9 +112,9 @@
           "label": "视频封面"
         },
         {
-          "type": "html",
+          "type": "text",
           "id": "video_html",
-          "label": "youtube视频html"
+          "label": "youtube视频id"
         }
       ]
     }
