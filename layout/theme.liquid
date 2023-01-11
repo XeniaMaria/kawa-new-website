@@ -215,7 +215,6 @@
       }
     {% endstyle %}
 
-    {{ 'sugar.css' | asset_url | stylesheet_tag }}
     {{ 'kawa-accordion.css' | asset_url | stylesheet_tag }}
     {{ 'kawa-breadcrumbs.css' | asset_url | stylesheet_tag }}
 
@@ -227,6 +226,16 @@
     >
     <noscript>
       <link rel="stylesheet" href="{{ 'base.css' | asset_url }}">
+    </noscript>
+
+    <link
+      rel="preload"
+      href="{{ 'sugar.css' | asset_url }}"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    >
+    <noscript>
+      <link rel="stylesheet" href="{{ 'sugar.css' | asset_url }}">
     </noscript>
 
     <link
