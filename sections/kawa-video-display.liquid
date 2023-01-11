@@ -1,7 +1,4 @@
-<link rel="stylesheet" href="{{ 'kawa-video-display.css' | asset_url }}" media="print" onload="this.media='all'"/>
-
-<link rel="stylesheet" href="{{ 'swiper.min.css' | asset_url }}" media="print" onload="this.media='all'"/>
-<script src="{{ 'swiper.min.js' | asset_url }}" defer="defer"></script>
+<link rel="stylesheet" href="{{ 'kawa-video-display.css' | asset_url }}" media="print" onload="this.media='all'">
 
 <div class="kawa-video-display text-center">
   <h2 class="video-display-title">{{ section.settings.title }}</h2>
@@ -18,8 +15,13 @@
       <div class="swiper-wrapper">
         {%- for block in section.blocks -%}
           <div class="swiper-slide">
-            <li class="video-item" {{ block.shopify_attributes }} data-toggle="modal" data-target="#{{ section.id }}-video-modal-{{ forloop.index }}">
-              <img src="{{ block.settings.video_poster | image_url }}" width="270" height="200" loading="lazy"/>
+            <li
+              class="video-item"
+              {{ block.shopify_attributes }}
+              data-toggle="modal"
+              data-target="#{{ section.id }}-video-modal-{{ forloop.index }}"
+            >
+              <img src="{{ block.settings.video_poster | image_url }}" width="270" height="200" loading="lazy">
               <div class="cover">
                 <span class="iconify play-icon" data-icon="clarity:play-solid"></span>
               </div>
@@ -29,7 +31,7 @@
       </div>
     </div>
 
-    <!-- 模态框 视频-->
+    <!-- 模态框 视频 -->
     {%- for block in section.blocks -%}
       <div class="modal fade" id="{{ section.id }}-video-modal-{{ forloop.index }}">
         <div class="modal-dialog modal-xl modal-dialog-centered">
@@ -43,10 +45,10 @@
 </div>
 
 <script>
-  (function() {
+  (function () {
     const vw = window.innerWidth;
     if (vw <= 768) {
-      const swiper = new Swiper(".kawa-video-display .swiper-container", {
+      const swiper = new Swiper('.kawa-video-display .swiper-container', {
         loop: true,
         effect: 'coverflow',
         slidesPerView: 3,
@@ -56,61 +58,63 @@
           stretch: 0,
           depth: 100,
           modifier: 1,
-          slideShadows: true
-        }
+          slideShadows: true,
+        },
       });
     } else {
-      const swiper = new Swiper(".kawa-video-display .swiper-container", {slidesPerView: 4});
+      const swiper = new Swiper('.kawa-video-display .swiper-container', { slidesPerView: 4 });
     }
   })();
 </script>
 
 {% schema %}
-  {
-    "name": "t:sections.kawa-video-display.name",
-    "tag": "section",
-    "settings": [
-      {
-        "type": "text",
-        "id": "title",
-        "label": "标题"
-      },
-      {
-        "type": "text",
-        "id": "link_one_text",
-        "label": "链接1文本"
-      },
-      {
-        "type": "url",
-        "id": "link_one_url",
-        "label": "链接1的url"
-      },
-      {
-        "type": "text",
-        "id": "link_two_text",
-        "label": "链接2文本"
-      }, {
-        "type": "url",
-        "id": "link_two_url",
-        "label": "链接2的url"
-      }
-    ],
-    "blocks": [
-      {
-        "type": "video-block",
-        "name": "视频",
-        "settings": [
-          {
-            "type": "image_picker",
-            "id": "video_poster",
-            "label": "视频封面"
-          }, {
-            "type": "html",
-            "id": "video_html",
-            "label": "youtube视频html"
-          }
-        ]
-      }
-    ]
-  }
+{
+  "name": "t:sections.kawa-video-display.name",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "标题"
+    },
+    {
+      "type": "text",
+      "id": "link_one_text",
+      "label": "链接1文本"
+    },
+    {
+      "type": "url",
+      "id": "link_one_url",
+      "label": "链接1的url"
+    },
+    {
+      "type": "text",
+      "id": "link_two_text",
+      "label": "链接2文本"
+    },
+    {
+      "type": "url",
+      "id": "link_two_url",
+      "label": "链接2的url"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "video-block",
+      "name": "视频",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "video_poster",
+          "label": "视频封面"
+        },
+        {
+          "type": "html",
+          "id": "video_html",
+          "label": "youtube视频html"
+        }
+      ]
+    }
+  ]
+}
 {% endschema %}
