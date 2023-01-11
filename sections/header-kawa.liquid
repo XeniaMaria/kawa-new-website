@@ -5,8 +5,14 @@
   media="print"
   onload="this.media='all'"
 />
+
 <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
-<link rel="stylesheet" href="{{ 'swiper.min.css' | asset_url }}"/>
+
+<link rel="preload" href="{{ 'swiper.min.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+  <link rel="stylesheet" href="{{ 'swiper.min.css' | asset_url }}"/>
+</noscript>
+
 <script src="{{ 'swiper.min.js' | asset_url }}"></script>
 
 {%- if settings.cart_type == "drawer" -%}
