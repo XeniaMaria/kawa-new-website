@@ -220,12 +220,18 @@
     {{ 'kawa-accordion.css' | asset_url | stylesheet_tag }}
     {{ 'kawa-breadcrumbs.css' | asset_url | stylesheet_tag }}
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
-    <script
-      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-      media="print"
-      onload="this.media='all'"
-    ></script>
+    <link
+      rel="preload"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      as="style"
+      onload="this.οnlοad=null;this.rel='stylesheet'"
+    >
+
+    <noscript>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    </noscript>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 
     {{ 'bootstrap-reset.css' | asset_url | stylesheet_tag }}
