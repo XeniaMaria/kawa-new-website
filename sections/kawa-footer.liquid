@@ -13,8 +13,10 @@
             data-height="24"
           ></span>
           <p>
-            CN: {{ shop.phone }}
-            <br>
+            {% if settings.show_phone %}
+              CN: {{ shop.phone }}
+              <br>
+            {% endif %}
             Mon-Sat 6:00AM - 6:00PM (PT)
             <br>
             Sun 7:00AM - 4:00PM (PT)
