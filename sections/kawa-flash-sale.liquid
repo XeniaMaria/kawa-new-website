@@ -1,4 +1,4 @@
-{{ "kawa-flash-sale.css" | asset_url | stylesheet_tag }}
+{{ 'kawa-flash-sale.css' | asset_url | stylesheet_tag }}
 
 <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
 
@@ -8,16 +8,27 @@
     <div class="shop-row" {{ block.shopify_attributes }}>
       <div class="product-left__image">
         <a href="{{ product.url }}">
-          <img src="{{ block.settings.product_img | image_url }}" class="product-image" width="100" height="100" loading="lazy"/>
+          <img
+            src="{{ block.settings.product_img | image_url }}"
+            class="product-image"
+            alt="{{ product.title }}"
+            width="100"
+            height="100"
+            loading="lazy"
+          >
         </a>
       </div>
       <div class="product-right__info">
         <ul class="product-tabs">
           {%- for inline_block in section.blocks -%}
-            <li class="flash-sale-product__tab  product-tab-{{ forloop.index }}
-                                                                                                                                                                                                                                                                                                                                            {% if product.title == inline_block.settings.product.title %}
-                                                                                                                                                                                                                                                                                                                                            active
-                                                                                                                                                                                                                                                                                                                                            {% endif %}">
+            <li
+              class="
+                flash-sale-product__tab  product-tab-{{ forloop.index }}
+                {% if product.title == inline_block.settings.product.title %}
+                active
+                {% endif %}
+              "
+            >
               {{ inline_block.settings.product.metafields.descriptors.subtitle }}
             </li>
           {%- endfor -%}
@@ -31,7 +42,7 @@
             </a>
           </h3>
           <ul class="product-tags">
-            {%- assign tags = block.settings.product_tags | escape | split: "," -%}
+            {%- assign tags = block.settings.product_tags | escape | split: ',' -%}
             {%- for tag in tags -%}
               <li class="product-tag">
                 <span>
@@ -47,35 +58,36 @@
               </button>
             {%- else -%}
               <product-form>
-                {%- form 'product', product, class: "product-buy-form" -%}
-                    <input type="text" name="quantity" min="1" value="1" style="display: none;">
-                    {%- if product.has_only_default_variant -%}
-                      <input
-                        type="hidden"
-                        name="id"
-                        value="{{ product.selected_or_first_available_variant.id }}"
-                        {% if product.selected_or_first_available_variant.availabel == false %}disabled {% endif %}
+                {%- form 'product', product, class: 'product-buy-form' -%}
+                  <input type="text" name="quantity" min="1" value="1" style="display: none;">
+                  {%- if product.has_only_default_variant -%}
+                    <input
+                      type="hidden"
+                      name="id"
+                      value="{{ product.selected_or_first_available_variant.id }}"
+                      {% if product.selected_or_first_available_variant.availabel == false %}
+                        disabled
+                      {% endif %}
+                    >
+                  {%- endif -%}
+                  <button type="submit" class="shop-button">
+                    <span>Add To Cart</span>
+                    <div class="loading-overlay__spinner hidden">
+                      <svg
+                        aria-hidden="true"
+                        focusable="false"
+                        role="presentation"
+                        class="spinner"
+                        viewBox="0 0 66 66"
+                        xmlns="http://www.w3.org/2000/svg"
                       >
-                      {%- endif -%}
-                    <button type="submit" class="shop-button">
-                      <span>Add To Cart</span>
-                        <div class="loading-overlay__spinner hidden">
-                            <svg
-                              aria-hidden="true"
-                              focusable="false"
-                              role="presentation"
-                              class="spinner"
-                              viewBox="0 0 66 66"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
-                            </svg>
-                          </div>
-                    </button>
+                        <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                      </svg>
+                    </div>
+                  </button>
                 {%- endform -%}
               </product-form>
             {%- endif -%}
-
           </div>
         </div>
       </div>
@@ -84,60 +96,58 @@
 </div>
 
 <script>
-  window.addEventListener("load", () => {
-    const sectionId = "{{ section.id }}";
-    const productPanels = document.querySelectorAll(`.${sectionId}.kawa-flash-sale .shop-row`)
+  window.addEventListener('load', () => {
+    const sectionId = '{{ section.id }}';
+    const productPanels = document.querySelectorAll(`.${sectionId}.kawa-flash-sale .shop-row`);
     const productTabs = document.querySelectorAll(`.${sectionId}.kawa-flash-sale .product-tabs`);
 
     Array.from(productPanels).forEach((pp) => {
-      pp.style.display = "none";
-    })
-    productPanels[0].style.display = "flex";
+      pp.style.display = 'none';
+    });
+    productPanels[0].style.display = 'flex';
 
     for (let i = 1; i <= productTabs.length; i++) {
       Array.from(productTabs).forEach((tabs) => {
         const tabI = tabs.querySelector(`.product-tab-${i}`);
-        tabI.addEventListener("click", () => {
-          Array
-            .from(productPanels)
-            .forEach((productPanel) => {
-              productPanel.style.display = "none";
-            })
-            productPanels[i - 1]
-            .style
-            .display = "flex";
-        })
-      })
+        tabI.addEventListener('click', () => {
+          Array.from(productPanels).forEach((productPanel) => {
+            productPanel.style.display = 'none';
+          });
+          productPanels[i - 1].style.display = 'flex';
+        });
+      });
     }
-  })
+  });
 </script>
 
 {% schema %}
-  {
-    "name": "热销产品section",
-    "tag": "div",
-    "class": "flash-sale-section",
-    "blocks": [
-      {
-        "type": "flash-sale-product",
-        "name": "热销产品",
-        "settings": [
-          {
-            "type": "product",
-            "id": "product",
-            "label": "产品"
-          }, {
-            "type": "text",
-            "id": "product_tags",
-            "label": "产品标签",
-            "info": "最多填四项，每项用逗号（英文逗号：,）隔开。"
-          },{
-            "type": "image_picker",
-            "id": "product_img",
-            "label": "产品图片"
-          }
-        ]
-      }
-    ]
-  }
+{
+  "name": "热销产品section",
+  "tag": "div",
+  "class": "flash-sale-section",
+  "blocks": [
+    {
+      "type": "flash-sale-product",
+      "name": "热销产品",
+      "settings": [
+        {
+          "type": "product",
+          "id": "product",
+          "label": "产品"
+        },
+        {
+          "type": "text",
+          "id": "product_tags",
+          "label": "产品标签",
+          "info": "最多填四项，每项用逗号（英文逗号：,）隔开。"
+        },
+        {
+          "type": "image_picker",
+          "id": "product_img",
+          "label": "产品图片"
+        }
+      ]
+    }
+  ]
+}
 {% endschema %}

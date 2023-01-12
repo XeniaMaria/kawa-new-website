@@ -1,4 +1,4 @@
-{{ "kawa-products-card.css" | asset_url | stylesheet_tag }}
+{{ 'kawa-products-card.css' | asset_url | stylesheet_tag }}
 
 <div class="products-card-container mw-1200-c {{ section.id }}">
   <div class="container-title">{{ section.settings.title | escape }}</div>
@@ -10,15 +10,19 @@
             <img
               src="{{ block.settings.card_image | image_url }}"
               class="w-100-h-auto product-img--pc"
+              alt="{{ block.settings.card_product.title }}"
               width="100"
               height="100"
-              loading="lazy" />
+              loading="lazy"
+            >
             <img
               src="{{ block.settings.card_image_mb | image_url }}"
               class="w-100-h-auto product-img--mb"
+              alt="{{ block.settings.card_product.url }}"
               width="100"
               height="100"
-              loading="lazy" />
+              loading="lazy"
+            >
           </figure>
           <div class="card-description-box flex-vc wh-100">
             <p class="description-title">{{ block.settings.title }}</p>
@@ -32,47 +36,48 @@
 </div>
 
 {% schema %}
-  {
-    "name": "产品卡片",
-    "class": "kawa-products-card__section",
-    "settings": [
-      {
-        "type": "text",
-        "id": "title",
-        "label": "标题"
-      }
-    ],
-    "blocks": [
-      {
-        "type": "product-card",
-        "name": "产品卡",
-        "settings": [
-          {
-            "type": "product",
-            "id": "card_product",
-            "label": "卡片对应的产品"
-          },
-          {
-            "type": "image_picker",
-            "id": "card_image",
-            "label": "卡片对应的图片"
-          },
-          {
-            "type": "image_picker",
-            "id": "card_image_mb",
-            "label": "卡片对应的图片(移动端)"
-          },
-          {
-            "type": "text",
-            "id": "title",
-            "label": "卡片标题"
-          }, {
-            "type": "text",
-            "id": "des",
-            "label": "描述"
-          }
-        ]
-      }
-    ]
-  }
+{
+  "name": "产品卡片",
+  "class": "kawa-products-card__section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "标题"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "product-card",
+      "name": "产品卡",
+      "settings": [
+        {
+          "type": "product",
+          "id": "card_product",
+          "label": "卡片对应的产品"
+        },
+        {
+          "type": "image_picker",
+          "id": "card_image",
+          "label": "卡片对应的图片"
+        },
+        {
+          "type": "image_picker",
+          "id": "card_image_mb",
+          "label": "卡片对应的图片(移动端)"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "卡片标题"
+        },
+        {
+          "type": "text",
+          "id": "des",
+          "label": "描述"
+        }
+      ]
+    }
+  ]
+}
 {% endschema %}
