@@ -253,7 +253,7 @@
 </div>
 
 <script>
-  window.addEventListener('load', () => {
+  (function () {
     if (window.innerWidth <= 768) {
       const allFooterCategory = document.querySelectorAll('.kawa-footer .footer-category > li');
       Array.from(allFooterCategory).forEach((footer) => {
@@ -269,7 +269,7 @@
         });
       });
     }
-  });
+  })();
 </script>
 
 {% schema %} { "name": "footer" } {% endschema %}
