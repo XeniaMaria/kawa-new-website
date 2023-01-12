@@ -60,7 +60,7 @@
 </div>
 
 <script>
-  window.addEventListener('load', () => {
+  (function () {
     const allTabNav = document.querySelectorAll('.kawa-product-tabs .tab-nav-item');
     allTabNav[0].classList.add('active');
 
@@ -86,9 +86,7 @@
         swiper.slideTo(index);
       };
     });
-  });
 
-  (function () {
     const videoCount = document.querySelectorAll('.kawa-product-tabs video').length;
     for (let i = 1; i <= videoCount; i++) {
       let previewVideo = document.querySelector(`.kawa-product-tabs .tab-video-${i}`);
