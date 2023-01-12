@@ -21,7 +21,13 @@
               data-toggle="modal"
               data-target="#{{ section.id }}-video-modal-{{ forloop.index }}"
             >
-              <img src="{{ block.settings.video_poster | image_url }}" width="270" height="200" loading="lazy">
+              <img
+                src="{{ block.settings.video_poster | image_url }}"
+                alt="youtube videoId: {{ block.settings.video_htm }}"
+                width="270"
+                height="200"
+                loading="lazy"
+              >
               <div class="cover">
                 <span class="iconify play-icon" data-icon="clarity:play-solid"></span>
               </div>
