@@ -168,7 +168,7 @@
   top: 50px;
   left: -10px;
   padding-top: 20px;
-  z-index: 2;
+  z-index: 49;
 }
 .kawa-footer .app-wrap:hover .app-box {
   visibility: visible;
