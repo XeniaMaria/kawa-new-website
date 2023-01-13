@@ -142,5 +142,7 @@ product-image--mb:hover {
 
   .product-image--mb {
     display: block;
+    width: 100%;
+    height: auto;
   }
 }
