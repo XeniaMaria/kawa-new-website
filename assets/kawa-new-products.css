@@ -82,21 +82,15 @@
   margin-left: 24px;
 }
 
-.product-image,
-product-image--mb {
+.product-image {
   width: 100%;
   height: auto;
   transform: scale(1);
   transition: transform 0.4s ease-in-out 0s;
 }
 
-.product-image:hover,
-product-image--mb:hover {
+.product-image:hover {
   transform: scale(1.05);
-}
-
-.product-image--mb {
-  display: none;
 }
 
 @media screen and (max-width: 767px) {
@@ -134,15 +128,5 @@ product-image--mb:hover {
   .kawa-new-products .slide-item-button {
     width: 150px;
     bottom: 20px;
-  }
-
-  .product-image {
-    display: none;
-  }
-
-  .product-image--mb {
-    display: block;
-    width: 100%;
-    height: auto;
   }
 }
