@@ -137,7 +137,7 @@
       </ul>
       <ul class="nav-right">
         <li class="nav-icon search-nav">
-          <a><span class="iconify" data-icon="fe:search"></span></a>
+         <span class="iconify" data-icon="fe:search"></span>
           <div class="search-down">
             <div class="search-wrap">
               {%- if settings.predictive_search_enabled -%}
@@ -193,7 +193,7 @@
           </div>
         </li>
         <li class="nav-icon account-nav">
-          <a><span class="iconify" data-icon="charm:person"></span></a>
+          <span class="iconify" data-icon="charm:person"></span>
           <ul class="account-menu">
             {% if shop.customer_accounts_enabled %}
               <li>
@@ -211,7 +211,6 @@
           </ul>
         </li>
         <li class="nav-icon manage-nav cart-icon-bubble">
-          <a style="position: relative;">
             <span class="iconify" data-icon="bx:shopping-bag"></span>
             {%- if cart != empty -%}
               <div class="cart-count-bubble">
@@ -221,7 +220,6 @@
                   <span class="visually-hidden">{{ 'sections.header.cart_count' | t: count: cart.item_count }}</span>
               </div>
             {%- endif -%}
-          </a>
         </li>
         {%- comment -%} <li class="nav-icon lang-nav">
           <a>
@@ -300,9 +298,9 @@
           {%- for sub-link in link.links -%} {%- case sub-link.type -%} {%- when
           'collection_link' -%}
           <li class="collection-menu">
-            <a>
+            <div>
               {{ sub-link.title }}
-            </a>
+            </div>
             {%- assign collection = sub-link.object -%}
             <div class="collection-menu-products">
               {%- for product in collection.products -%}

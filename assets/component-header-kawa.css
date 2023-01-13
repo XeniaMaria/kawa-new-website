@@ -79,7 +79,7 @@
 }
 
 #header .nav-left > li > a,
-#header .nav-right > li > a {
+#header .nav-right > li > svg {
   color: #fff;
   font-family: quicksand;
   font-weight: 500;
@@ -122,11 +122,11 @@
   height: 88px;
 }
 
-#header:hover [class^='nav-'] > li > a,
-#header.persistent-show [class^='nav-'] > li > a {
+#header:hover [class^='nav-'] > li > *,
+#header.persistent-show [class^='nav-'] > li > * {
   color: #555;
 }
-#header [class^='nav-'] > li > a:hover {
+#header [class^='nav-'] > li > *:hover {
   color: #00ade5;
 }
 
