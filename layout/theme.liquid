@@ -220,8 +220,6 @@
     {% endstyle %}
 
     {%- if settings.cart_type == 'drawer' -%}
-      {{ 'component-cart-drawer.css' | asset_url | stylesheet_tag }}
-      {{ 'component-cart.css' | asset_url | stylesheet_tag }}
       {{ 'component-totals.css' | asset_url | stylesheet_tag }}
       {{ 'component-price.css' | asset_url | stylesheet_tag }}
       {{ 'component-discounts.css' | asset_url | stylesheet_tag }}
@@ -229,6 +227,26 @@
     {%- endif -%}
 
     <noscript>{{ 'component-cart-items.css' | asset_url | stylesheet_tag }}</noscript>
+
+    <link
+      rel="preload"
+      href="{{ 'component-cart-drawer.css' | asset_url }}"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    >
+    <noscript>
+      <link rel="stylesheet" href="{{ 'component-cart-drawer.css' | asset_url }}">
+    </noscript>
+
+    <link
+      rel="preload"
+      href="{{ 'component-cart.css' | asset_url }}"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    >
+    <noscript>
+      <link rel="stylesheet" href="{{ 'component-cart.css' | asset_url }}">
+    </noscript>
 
     <link
       rel="preload"
