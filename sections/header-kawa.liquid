@@ -223,15 +223,11 @@
         </li> {%- endcomment -%}
       </ul>
       <div class="nav-hamburger">
-        <span class="iconify nav-switch" data-icon="cil:hamburger-menu"></span>
+        {% render 'icon-kawa-hamburger' %}
       </div>
     </div>
     <div class="cart-icon-container cart-icon-bubble">
-        <span
-          class="iconify"
-          data-icon="ion:cart-outline"
-          style="color: #333"
-        ></span>
+      {% render 'icon-kawa-cart' %}
         {%- if cart != empty -%}
           <div class="cart-count-bubble">
               {%- if cart.item_count < 100 -%}

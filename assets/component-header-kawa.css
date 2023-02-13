@@ -497,6 +497,12 @@
     font-size: 8vw;
   }
 
+  #header .nav-hamburger svg,
+  #header .cart-icon-container svg {
+    width: 1em;
+    height: 1em;
+  }
+
   #header .cart-icon-container {
     position: relative;
     order: 3;
