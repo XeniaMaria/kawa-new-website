@@ -3,7 +3,7 @@
   href="{{ 'kawa-product-specifications.css' | asset_url }}"
   media="print"
   onload="this.media='all'"
-/>
+>
 
 <div class="kawa-product-specifications mw-1000-c">
   <div class="specifications-title">
@@ -13,33 +13,28 @@
   {% assign specifications = product.metafields.customer.specs.value %}
   {% for specification in specifications %}
     <div class="kawa-accordion">
-        <span class="kawa-accordion-name">
-            {{ specification.name }}
-        </span>
-        <span
-        class="iconify icon-arrow-right"
-        data-icon="dashicons:arrow-right-alt2"
-      ></span>
+      <span class="kawa-accordion-name">
+        {{ specification.name }}
+      </span>
+      {% render 'icon-kawa-arrow-right' %}
     </div>
     <div class="kawa-accordion-content">
-        <span class="accordion-content__inner">
-            {%- assign allLine = specification.value | split: '<br>' -%}
+      <span class="accordion-content__inner">
+        {%- assign allLine = specification.value | split: '<br>' -%}
 
-            {% for line in allLine %}
-                {{ line }} <br>
-            {% endfor %}
-        </span>
+        {% for line in allLine %}
+          {{ line }}
+          <br>
+        {% endfor %}
+      </span>
     </div>
   {% endfor %}
-
 </div>
 
 {% schema %}
 {
   "name": "产品规格",
   "tag": "section",
-  "settings": [
-    { "type": "text", "id": "title", "label": "标题", "default": "Specs" }
-  ]
+  "settings": [{ "type": "text", "id": "title", "label": "标题", "default": "Specs" }]
 }
 {% endschema %}

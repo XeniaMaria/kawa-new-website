@@ -32,6 +32,9 @@
   position: relative;
   bottom: 2px;
 }
+.kawa-footer .social-media-wrap .icon-f {
+  margin-right: 0;
+}
 
 .kawa-footer .footer-contact a {
   color: #41aad7;

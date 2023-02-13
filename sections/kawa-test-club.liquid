@@ -3,321 +3,309 @@
   href="{{ 'kawa-test-club.css' | asset_url }}"
   media="print"
   onload="this.media='all'"
-/>
+>
 
 <div class="kawa-test-club mw-1200-c">
-    <div class="testing-product-list">
-        <div class="test-club-tabs flex-c">
-            <div class="test-club-tag test-club-tag-1 is-active">ACTIVE TESTING</div>
-            <div class="test-club-tag test-club-tag-2">RULES</div>
-          </div>
+  <div class="testing-product-list">
+    <div class="test-club-tabs flex-c">
+      <div class="test-club-tag test-club-tag-1 is-active">ACTIVE TESTING</div>
+      <div class="test-club-tag test-club-tag-2">RULES</div>
+    </div>
 
-          <div class="test-club-content test-club-content-1 is-active">
-            <div class="row">
-                {% for block in section.blocks %} {%- assign product =
-                    block.settings.card_product -%}
-              <div class="col-xl-4 col-md-6 col-12" {{ block.shopify_attributes }}>
-                <div class="testing-product-card">
-                  <div class="product-image-wrapper flex-cc">
-                    <img
-                      class="testing-product-image"
-                      loading="lazy"
-                      src="{{ product.featured_media | image_url }}"
-                      width="100"
-                      height="100"
-                      data-product-id="{{ product.id }}"
-                      onclick="displayProductDetail(this)"
-                    />
+    <div class="test-club-content test-club-content-1 is-active">
+      <div class="row">
+        {% for block in section.blocks %}
+          {%- assign product = block.settings.card_product -%}
+          <div class="col-xl-4 col-md-6 col-12" {{ block.shopify_attributes }}>
+            <div class="testing-product-card">
+              <div class="product-image-wrapper flex-cc">
+                <img
+                  class="testing-product-image"
+                  loading="lazy"
+                  src="{{ product.featured_media | image_url }}"
+                  width="100"
+                  height="100"
+                  data-product-id="{{ product.id }}"
+                  onclick="displayProductDetail(this)"
+                >
+              </div>
+              <div
+                class="testing-product-title"
+                title="{{ product.title | escape }}"
+              >
+                {{ product.title }}
+              </div>
+              <div class="flex-a testing-product-info">
+                <div class="flex-vbc">
+                  <div class="testing-product-discount-price">
+                    {{ product.price | money }}
                   </div>
-                  <div
-                    class="testing-product-title"
-                    title="{{ product.title | escape }}"
-                  >
-                    {{ product.title }}
+                  <div class="testing-product-price">
+                    {{ product.price | money }}
                   </div>
-                  <div class="flex-a testing-product-info">
-                    <div class="flex-vbc">
-                      <div class="testing-product-discount-price">
-                        {{ product.price | money }}
-                      </div>
-                      <div class="testing-product-price">
-                        {{ product.price | money }}
-                      </div>
-                    </div>
-                    <div class="testing-product-divider"></div>
-                    <div class="flex-vbc">
-                      <div class="testing-product-count">
-                        {{ block.settings.required }}
-                      </div>
-                      <div class="testing-product-note">Required</div>
-                    </div>
-                    <div class="testing-product-divider"></div>
-                    <div class="flex-vbc">
-                      <div class="testing-product-count">
-                        {{ block.settings.applied }}
-                      </div>
-                      <div class="testing-product-note">Applied</div>
-                    </div>
+                </div>
+                <div class="testing-product-divider"></div>
+                <div class="flex-vbc">
+                  <div class="testing-product-count">
+                    {{ block.settings.required }}
                   </div>
-                  <div class="testing-product-star flex-c">
-                    <div class="testing-product-star-container">
-                      {% render 'kawa-star-rate', star_number:
-                      block.settings.star_number %}
-                    </div>
-                    <div class="testing-product-comment-number">
-                      <span style="padding: 0px 10px">
-                        {{ block.settings.comment_number }}
-                      </span>
-                    </div>
+                  <div class="testing-product-note">Required</div>
+                </div>
+                <div class="testing-product-divider"></div>
+                <div class="flex-vbc">
+                  <div class="testing-product-count">
+                    {{ block.settings.applied }}
                   </div>
-                  <div class="testing-product-area">
-                    Valid In: {{ block.settings.valid_area }}
-                  </div>
-                  <button
-                    class="testing-product-apply-button"
-                    data-toggle="modal"
-                    data-target="#testing-club-modal-{{ forloop.index }}"
-                  >
-                    APPLY NOW
+                  <div class="testing-product-note">Applied</div>
+                </div>
+              </div>
+              <div class="testing-product-star flex-c">
+                <div class="testing-product-star-container">
+                  {% render 'kawa-star-rate', star_number: block.settings.star_number %}
+                </div>
+                <div class="testing-product-comment-number">
+                  <span style="padding: 0px 10px">
+                    {{ block.settings.comment_number }}
+                  </span>
+                </div>
+              </div>
+              <div class="testing-product-area">Valid In: {{ block.settings.valid_area }}</div>
+              <button
+                class="testing-product-apply-button"
+                data-toggle="modal"
+                data-target="#testing-club-modal-{{ forloop.index }}"
+              >
+                APPLY NOW
+              </button>
+            </div>
+          </div>
+          <!-- 模态框 -->
+          <div class="modal fade" id="testing-club-modal-{{ forloop.index }}">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+              <div class="modal-content">
+                <!-- 模态框头部 -->
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">
+                    {% render 'icon-kawa-close' %}
                   </button>
                 </div>
-              </div>
-              <!-- 模态框 -->
-              <div class="modal fade" id="testing-club-modal-{{ forloop.index }}">
-                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                  <div class="modal-content">
-                    <!-- 模态框头部 -->
-                    <div class="modal-header">
-                      <button type="button" class="close" data-dismiss="modal">
-                        <span
-                          class="iconify"
-                          data-icon="ci:close-big"
-                          data-width="32"
-                          data-height="32"
-                        ></span>
-                      </button>
-                    </div>
 
-                    <!-- 模态框主体 -->
-                    <div class="modal-body">
-                      <h6 class="testing-product-form__title">TEST APPLY FORM</h6>
-                      <div class="testing-product-form__description">
-                        Please submit your information so that we can keep you up to
-                        date on your product testing plan and result.
-                      </div>
-                      <div class="testing-product-form">
-                        {%- form 'contact' -%}
+                <!-- 模态框主体 -->
+                <div class="modal-body">
+                  <h6 class="testing-product-form__title">TEST APPLY FORM</h6>
+                  <div class="testing-product-form__description">
+                    Please submit your information so that we can keep you up to date on your product testing plan and
+                    result.
+                  </div>
+                  <div class="testing-product-form">
+                    {%- form 'contact' -%}
+                      <input
+                        type="hidden"
+                        name="contact[product]"
+                        value="{{ product.title | escape }}"
+                      >
+                      <div class="testing-form-item">
+                        <label for="testing-customer-name" class="required">Name</label>
                         <input
-                          type="hidden"
-                          name="contact[product]"
-                          value="{{ product.title | escape }}"
-                        />
-                        <div class="testing-form-item">
-                          <label for="testing-customer-name" class="required"
-                            >Name</label
-                          >
-                          <input
-                            type="text"
-                            name="contact[name]"
-                            id="testing-customer-name"
-                            aria-required="true"
-                          />
-                        </div>
-                        <div class="testing-form-item">
-                          <label for="testing-customer-email" class="required"
-                            >Email Address</label
-                          >
-                          <input
-                            type="text"
-                            name="contact[email]"
-                            id="testing-customer-email"
-                            aria-required="true"
-                          />
-                        </div>
-                        <div class="testing-form-item">
-                          <label for="testing-customer-country" class="required"
-                            >Country</label
-                          >
-                          <input
-                            type="text"
-                            name="contact[country]"
-                            id="testing-customer-country"
-                            aria-required="true"
-                          />
-                        </div>
-                        <div class="testing-form-item">
-                          <label for="testing-customer-youtube">Youtube</label>
-                          <input
-                            type="text"
-                            name="contact[youtube]"
-                            id="testing-customer-youtube"
-                          />
-                        </div>
-                        <div class="testing-form-item">
-                          <label for="testing-customer-youtube">Instagram</label>
-                          <input
-                            type="text"
-                            name="contact[instagram]"
-                            id="testing-customer-instagram"
-                          />
-                        </div>
-                        <div class="testing-form-item">
-                          <label for="testing-customer-youtube">Facebook Link</label>
-                          <input
-                            type="text"
-                            name="contact[facebook]"
-                            id="testing-customer-facebook"
-                          />
-                        </div>
-                        <div class="testing-form-item">
-                          <label for="testing-customer-remark">Remark</label>
-                          <input
-                            type="text"
-                            name="contact[remark]"
-                            id="testing-customer-remark"
-                          />
-                        </div>
-
-                        <div class="testing-form-submit flex-c">
-                          <input
-                            type="submit"
-                            value="Apply By Email"
-                          />
-                        </div>
-                        {%- endform -%}
+                          type="text"
+                          name="contact[name]"
+                          id="testing-customer-name"
+                          aria-required="true"
+                        >
                       </div>
-                    </div>
+                      <div class="testing-form-item">
+                        <label for="testing-customer-email" class="required">Email Address</label>
+                        <input
+                          type="text"
+                          name="contact[email]"
+                          id="testing-customer-email"
+                          aria-required="true"
+                        >
+                      </div>
+                      <div class="testing-form-item">
+                        <label for="testing-customer-country" class="required">Country</label>
+                        <input
+                          type="text"
+                          name="contact[country]"
+                          id="testing-customer-country"
+                          aria-required="true"
+                        >
+                      </div>
+                      <div class="testing-form-item">
+                        <label for="testing-customer-youtube">Youtube</label>
+                        <input
+                          type="text"
+                          name="contact[youtube]"
+                          id="testing-customer-youtube"
+                        >
+                      </div>
+                      <div class="testing-form-item">
+                        <label for="testing-customer-youtube">Instagram</label>
+                        <input
+                          type="text"
+                          name="contact[instagram]"
+                          id="testing-customer-instagram"
+                        >
+                      </div>
+                      <div class="testing-form-item">
+                        <label for="testing-customer-youtube">Facebook Link</label>
+                        <input
+                          type="text"
+                          name="contact[facebook]"
+                          id="testing-customer-facebook"
+                        >
+                      </div>
+                      <div class="testing-form-item">
+                        <label for="testing-customer-remark">Remark</label>
+                        <input
+                          type="text"
+                          name="contact[remark]"
+                          id="testing-customer-remark"
+                        >
+                      </div>
+
+                      <div class="testing-form-submit flex-c">
+                        <input
+                          type="submit"
+                          value="Apply By Email"
+                        >
+                      </div>
+                    {%- endform -%}
                   </div>
                 </div>
               </div>
-              {% endfor %}
             </div>
           </div>
-          <div class="test-club-content test-club-content-2">
-            <div class="testing-rules-content">
-              <h2></h2>
-              <p>
-                <b><span id="rf60r" style=""></span>What is Testing Club Program?</b>
-              </p>
-              <p>
-                This is a program for fans who love to test and love KAWA products! We
-                will provide you with free product samples so you can test and review
-                them. We have no restrictions on where you can test, it can be: a video
-                on YouTube, a text comment on a community or social media, or whatever
-                and wherever you get creative. To participate in this program, simply
-                follow these steps:<br /><br /><b>How to join us?</b><br />1. Sign in
-                with your KAWA account (if you haven’t, just make it for free.).<br />2.
-                Read the Testing Club rules.<br />3. Find the product you want to test
-                and promote.<br />4. Click the “APPLY NOW” button.<br />5. Fill out the
-                application (Especially your Social Media link, like Youtube or
-                Instagram link.), and wait for us to get back to you.<br /><br /><b
-                  >How can I prioritize selection?</b
-                ><br />(Applicants who meet the following criteria will be given
-                preference. However, you don't have to meet all of these criteria.)<br />1.
-                Provide complete personal information, including your social media (your
-                personal information is only used by us, and we will never disclose your
-                personal information).<br />2. Be as specific as possible in your test
-                plan (including filling in the Remark section: where will you post your
-                review, what form your review will take, and how you plan to get the
-                product through its paces).<br />3. Complete a survey of the product
-                (not every product has a survey).<br />4. Plagiarizing someone else's
-                test plan or failing to submit a link for review will result in
-                disqualification from future Testing Club programs.<br />5. You can
-                apply for multiple products at the same time, and we will judge whether
-                it is approved or not based on the information you provide.<br /><br /><b
-                  >Review submissions and notes:</b
-                ><br />1. KAWA reserves the right of final interpretation.<br />2. By
-                participating, you agree to our Terms of Use and Privacy Policy.<br />3.
-                Once you submit your comment, KAWA reserves the right to use, edit and
-                repost your submission.<br />4. KAWA audit task time: 1-2 weeks.<br />5.
-                Tester's comment delivery time: within 2 weeks. You need to complete
-                your testing tasks within 2 weeks after you receive the product. After
-                you make your test plan task, you need to take the initiative to contact
-                us for review. After we review it, we will publish it on your
-                corresponding social media/community, forum, etc.<br />
-              </p>
-              <p>
-                <span
-                  style="
-                    font-size: 16px;
-                    color: rgb(96, 98, 102);
-                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
-                      'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei',
-                      'Helvetica Neue', Helvetica, Arial, sans-serif,
-                      'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-                  "
-                  id="i3i0g"
-                  >If you have any questions, you can contact our customer service
-                  email: support@kawa-in.com.</span
-                ><b></b>
-              </p>
-            </div>
-          </div>
-    </div>
-    <div class="testing-product-detail container" style="display: none;">
-        <div class="go-back-btn" onclick="goBackProductList()">
-            <span class="iconify" data-icon="bytesize:chevron-left"></span>
-            <span>goback</span>
-        </div>
-        {% for block in section.blocks %}
-            <div class="testing-product-detail__item" data-product-id="{{ block.settings.card_product.id }}" style="display: none;">
-                {% render 'kawa-product-detail',
-                    cur_product: block.settings.card_product,
-                    star_number: block.settings.star_number
-                %}
-
-                <div class="testing-proudct-recommend">
-                  <div class="testing-product-recommend__title">
-                    More Recommended Products
-                  </div>
-                  {%- for recommend in section.blocks limit: 3 -%}
-                    <img
-                    src="{{ recommend.settings.card_product.featured_media | image_url }}"
-                    class="testing-product-recommend__item col-xl-4 col-md-6 col-12"
-                    loading="lazy"
-                    width="100"
-                    height="100"
-                    data-product-id="{{ recommend.settings.card_product.id }}"
-                    onclick="displayProductDetail(this)"
-                    />
-                  {%- endfor -%}
-                </div>
-
-                <div class="testing-product-comments">
-                  <div class="testing-product-comments_title">
-                    Product Comments
-                  </div>
-                  <div class="testing-product-comment__item">
-                    {% render 'kawa-product-comment',
-                      name: block.settings.comment_1_name,
-                      avatar: block.settings.comment_1_avatar,
-                      date: block.settings.comment_1_date,
-                      star_number: block.settings.comment_1_star_number,
-                      content: block.settings.comment_1_content;
-                    %}
-                  </div>
-                  <div class="testing-product-comment__item">
-                    {% render 'kawa-product-comment',
-                      name: block.settings.comment_2_name,
-                      avatar: block.settings.comment_2_avatar,
-                      date: block.settings.comment_2_date,
-                      star_number: block.settings.comment_2_star_number,
-                      content: block.settings.comment_2_content;
-                    %}
-                  </div>
-                  <div class="testing-product-comment__item">
-                    {% render 'kawa-product-comment',
-                      name: block.settings.comment_3_name,
-                      avatar: block.settings.comment_3_avatar,
-                      date: block.settings.comment_3_date,
-                      star_number: block.settings.comment_3_star_number,
-                      content: block.settings.comment_3_content;
-                    %}
-                  </div>
-                </div>
-            </div>
         {% endfor %}
+      </div>
     </div>
+    <div class="test-club-content test-club-content-2">
+      <div class="testing-rules-content">
+        <h2></h2>
+        <p>
+          <b><span id="rf60r" style=""></span>What is Testing Club Program?</b>
+        </p>
+        <p>
+          This is a program for fans who love to test and love KAWA products! We will provide you with free product
+          samples so you can test and review them. We have no restrictions on where you can test, it can be: a video on
+          YouTube, a text comment on a community or social media, or whatever and wherever you get creative. To
+          participate in this program, simply follow these steps:<br>
+          <br>
+          <b>How to join us?</b><br>
+          1. Sign in with your KAWA account (if you haven’t, just make it for free.).<br>
+          2. Read the Testing Club rules.<br>
+          3. Find the product you want to test and promote.<br>
+          4. Click the “APPLY NOW” button.<br>
+          5. Fill out the application (Especially your Social Media link, like Youtube or Instagram link.), and wait for
+          us to get back to you.<br>
+          <br>
+          <b>How can I prioritize selection?</b><br>
+          (Applicants who meet the following criteria will be given preference. However, you don't have to meet all of
+          these criteria.)<br>
+          1. Provide complete personal information, including your social media (your personal information is only used
+          by us, and we will never disclose your personal information).<br>
+          2. Be as specific as possible in your test plan (including filling in the Remark section: where will you post
+          your review, what form your review will take, and how you plan to get the product through its paces).<br>
+          3. Complete a survey of the product (not every product has a survey).<br>
+          4. Plagiarizing someone else's test plan or failing to submit a link for review will result in
+          disqualification from future Testing Club programs.<br>
+          5. You can apply for multiple products at the same time, and we will judge whether it is approved or not based
+          on the information you provide.<br>
+          <br>
+          <b>Review submissions and notes:</b><br>
+          1. KAWA reserves the right of final interpretation.<br>
+          2. By participating, you agree to our Terms of Use and Privacy Policy.<br>
+          3. Once you submit your comment, KAWA reserves the right to use, edit and repost your submission.<br>
+          4. KAWA audit task time: 1-2 weeks.<br>
+          5. Tester's comment delivery time: within 2 weeks. You need to complete your testing tasks within 2 weeks
+          after you receive the product. After you make your test plan task, you need to take the initiative to contact
+          us for review. After we review it, we will publish it on your corresponding social media/community, forum,
+          etc.<br>
+        </p>
+        <p>
+          <span
+            style="
+              font-size: 16px;
+              color: rgb(96, 98, 102);
+              font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+                'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei',
+                'Helvetica Neue', Helvetica, Arial, sans-serif,
+                'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+            "
+            id="i3i0g"
+            >If you have any questions, you can contact our customer service email: support@kawa-in.com.</span
+          ><b></b>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="testing-product-detail container" style="display: none;">
+    <div class="go-back-btn" onclick="goBackProductList()">
+      {% render 'icon-kawa-arrow-right' %}
+      <span>goback</span>
+    </div>
+    {% for block in section.blocks %}
+      <div
+        class="testing-product-detail__item"
+        data-product-id="{{ block.settings.card_product.id }}"
+        style="display: none;"
+      >
+        {% render 'kawa-product-detail',
+          cur_product: block.settings.card_product,
+          star_number: block.settings.star_number
+        %}
+
+        <div class="testing-proudct-recommend">
+          <div class="testing-product-recommend__title">More Recommended Products</div>
+          {%- for recommend in section.blocks limit: 3 -%}
+            <img
+              src="{{ recommend.settings.card_product.featured_media | image_url }}"
+              class="testing-product-recommend__item col-xl-4 col-md-6 col-12"
+              loading="lazy"
+              width="100"
+              height="100"
+              data-product-id="{{ recommend.settings.card_product.id }}"
+              onclick="displayProductDetail(this)"
+            >
+          {%- endfor -%}
+        </div>
+
+        <div class="testing-product-comments">
+          <div class="testing-product-comments_title">Product Comments</div>
+          <div class="testing-product-comment__item">
+            {%
+              render 'kawa-product-comment',
+              name: block.settings.comment_1_name,
+              avatar: block.settings.comment_1_avatar,
+              date: block.settings.comment_1_date,
+              star_number: block.settings.comment_1_star_number,
+              content: block.settings.comment_1_content;
+            %}
+          </div>
+          <div class="testing-product-comment__item">
+            {%
+              render 'kawa-product-comment',
+              name: block.settings.comment_2_name,
+              avatar: block.settings.comment_2_avatar,
+              date: block.settings.comment_2_date,
+              star_number: block.settings.comment_2_star_number,
+              content: block.settings.comment_2_content;
+            %}
+          </div>
+          <div class="testing-product-comment__item">
+            {%
+              render 'kawa-product-comment',
+              name: block.settings.comment_3_name,
+              avatar: block.settings.comment_3_avatar,
+              date: block.settings.comment_3_date,
+              star_number: block.settings.comment_3_star_number,
+              content: block.settings.comment_3_content;
+            %}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
 </div>
 
 <script type="text/javascript">
@@ -325,17 +313,17 @@
     //tab页
     const testClubTabList = [];
     const onTab = (tab) => {
-      tab.tabMenu.addEventListener("click", (e) => {
+      tab.tabMenu.addEventListener('click', (e) => {
         testClubTabList.forEach((t) => {
-          t.tabMenu.classList.remove("is-active");
-          t.tabContent.classList.remove("is-active");
+          t.tabMenu.classList.remove('is-active');
+          t.tabContent.classList.remove('is-active');
         });
-        tab.tabMenu.classList.add("is-active");
-        tab.tabContent.classList.add("is-active");
+        tab.tabMenu.classList.add('is-active');
+        tab.tabContent.classList.add('is-active');
       });
     };
 
-    const allTabs = document.getElementsByClassName("test-club-content");
+    const allTabs = document.getElementsByClassName('test-club-content');
     for (let i = 1; i <= allTabs.length; i++) {
       const temp = {
         tabMenu: document.querySelector(`.test-club-tag-${i}`),
@@ -348,164 +336,164 @@
 
   //产品详细信息页
   const productListContainer = document.querySelector('.testing-product-list');
-  const productDetailContainer =  document.querySelector('.testing-product-detail')
+  const productDetailContainer = document.querySelector('.testing-product-detail');
   const productIdElePairs = [];
-  const allProductDetails = document.getElementsByClassName('testing-product-detail__item')
+  const allProductDetails = document.getElementsByClassName('testing-product-detail__item');
   Array.from(allProductDetails).forEach((item) => {
     const productId = item.getAttribute('data-product-id');
     const pair = {
-        id: productId,
-        ele: item
-    }
+      id: productId,
+      ele: item,
+    };
     productIdElePairs.push(pair);
-  })
+  });
   //根据id显示产品详情页
   const displayProductDetail = (obj) => {
     const productId = obj.getAttribute('data-product-id');
     const pair = productIdElePairs.find((item) => {
-        return item.id === productId
-    })
+      return item.id === productId;
+    });
     productIdElePairs.forEach((item) => {
-        item.ele.style.display = "none";
-    })
-    productListContainer.style.display = "none";
-    productDetailContainer.style.display = "block";
-    pair.ele.style.display = "block";
-  }
+      item.ele.style.display = 'none';
+    });
+    productListContainer.style.display = 'none';
+    productDetailContainer.style.display = 'block';
+    pair.ele.style.display = 'block';
+  };
   const goBackProductList = () => {
-    productDetailContainer.style.display = "none";
+    productDetailContainer.style.display = 'none';
     productIdElePairs.forEach((item) => {
-        item.ele.style.display = "none";
-    })
-    productListContainer.style.display = "block";
-  }
+      item.ele.style.display = 'none';
+    });
+    productListContainer.style.display = 'block';
+  };
 </script>
 
 {% schema %}
 {
-    "name": "产品测试",
-    "tag": "section",
-    "blocks": [
-      {
-        "type": "testing_product_card",
-        "name": "正在测试的产品",
-        "settings": [
-          {
-            "type": "product",
-            "id": "card_product",
-            "label": "产品"
-          },
-          {
-            "type": "number",
-            "id": "required",
-            "label": "Required"
-          },
-          {
-            "type": "number",
-            "id": "applied",
-            "label": "Applied"
-          },
-          {
-            "type": "number",
-            "id": "star_number",
-            "label": "评价星级"
-          },
-          {
-            "type": "number",
-            "id": "comment_number",
-            "label": "评价数量"
-          },
-          {
-            "type": "text",
-            "id": "valid_area",
-            "label": "有效地区"
-          },
-          {
-            "type": "text",
-            "id": "comment_1_name",
-            "label": "评论1的评论者名称"
-          },
-          {
-            "type": "image_picker",
-            "id": "comment_1_avatar",
-            "label": "评论1的评论者头像"
-          },
-          {
-            "type": "text",
-            "id": "comment_1_date",
-            "label": "评论1的评论日期",
-            "info": "正确的日期字符串"
-          },
-          {
-            "type": "number",
-            "id": "comment_1_star_number",
-            "label": "评论1的星级",
-            "info": "整数n等于n颗星,任何小数都等于半颗星,最大值为5"
-          },
-          {
-            "type": "textarea",
-            "id": "comment_1_content",
-            "info": "评论1的内容",
-            "label": "输入任何内容"
-          },
-          {
-            "type": "text",
-            "id": "comment_2_name",
-            "label": "评论2的评论者名称"
-          },
-          {
-            "type": "image_picker",
-            "id": "comment_2_avatar",
-            "label": "评论2的评论者头像"
-          },
-          {
-            "type": "text",
-            "id": "comment_2_date",
-            "label": "评论2的评论日期",
-            "info": "正确的日期字符串"
-          },
-          {
-            "type": "number",
-            "id": "comment_2_star_number",
-            "label": "评论2的星级",
-            "info": "整数n等于n颗星,任何小数都等于半颗星,最大值为5"
-          },
-          {
-            "type": "textarea",
-            "id": "comment_2_content",
-            "info": "评论2的内容",
-            "label": "输入任何内容"
-          },
-          {
-            "type": "text",
-            "id": "comment_3_name",
-            "label": "评论3的评论者名称"
-          },
-          {
-            "type": "image_picker",
-            "id": "comment_3_avatar",
-            "label": "评论3的评论者头像"
-          },
-          {
-            "type": "text",
-            "id": "comment_3_date",
-            "label": "评论3的评论日期",
-            "info": "正确的日期字符串"
-          },
-          {
-            "type": "number",
-            "id": "comment_3_star_number",
-            "label": "评论3的星级",
-            "info": "整数n等于n颗星,任何小数都等于半颗星,最大值为5"
-          },
-          {
-            "type": "textarea",
-            "id": "comment_3_content",
-            "info": "评论3的内容",
-            "label": "输入任何内容"
-          }
-        ]
-      }
-    ]
+  "name": "产品测试",
+  "tag": "section",
+  "blocks": [
+    {
+      "type": "testing_product_card",
+      "name": "正在测试的产品",
+      "settings": [
+        {
+          "type": "product",
+          "id": "card_product",
+          "label": "产品"
+        },
+        {
+          "type": "number",
+          "id": "required",
+          "label": "Required"
+        },
+        {
+          "type": "number",
+          "id": "applied",
+          "label": "Applied"
+        },
+        {
+          "type": "number",
+          "id": "star_number",
+          "label": "评价星级"
+        },
+        {
+          "type": "number",
+          "id": "comment_number",
+          "label": "评价数量"
+        },
+        {
+          "type": "text",
+          "id": "valid_area",
+          "label": "有效地区"
+        },
+        {
+          "type": "text",
+          "id": "comment_1_name",
+          "label": "评论1的评论者名称"
+        },
+        {
+          "type": "image_picker",
+          "id": "comment_1_avatar",
+          "label": "评论1的评论者头像"
+        },
+        {
+          "type": "text",
+          "id": "comment_1_date",
+          "label": "评论1的评论日期",
+          "info": "正确的日期字符串"
+        },
+        {
+          "type": "number",
+          "id": "comment_1_star_number",
+          "label": "评论1的星级",
+          "info": "整数n等于n颗星,任何小数都等于半颗星,最大值为5"
+        },
+        {
+          "type": "textarea",
+          "id": "comment_1_content",
+          "info": "评论1的内容",
+          "label": "输入任何内容"
+        },
+        {
+          "type": "text",
+          "id": "comment_2_name",
+          "label": "评论2的评论者名称"
+        },
+        {
+          "type": "image_picker",
+          "id": "comment_2_avatar",
+          "label": "评论2的评论者头像"
+        },
+        {
+          "type": "text",
+          "id": "comment_2_date",
+          "label": "评论2的评论日期",
+          "info": "正确的日期字符串"
+        },
+        {
+          "type": "number",
+          "id": "comment_2_star_number",
+          "label": "评论2的星级",
+          "info": "整数n等于n颗星,任何小数都等于半颗星,最大值为5"
+        },
+        {
+          "type": "textarea",
+          "id": "comment_2_content",
+          "info": "评论2的内容",
+          "label": "输入任何内容"
+        },
+        {
+          "type": "text",
+          "id": "comment_3_name",
+          "label": "评论3的评论者名称"
+        },
+        {
+          "type": "image_picker",
+          "id": "comment_3_avatar",
+          "label": "评论3的评论者头像"
+        },
+        {
+          "type": "text",
+          "id": "comment_3_date",
+          "label": "评论3的评论日期",
+          "info": "正确的日期字符串"
+        },
+        {
+          "type": "number",
+          "id": "comment_3_star_number",
+          "label": "评论3的星级",
+          "info": "整数n等于n颗星,任何小数都等于半颗星,最大值为5"
+        },
+        {
+          "type": "textarea",
+          "id": "comment_3_content",
+          "info": "评论3的内容",
+          "label": "输入任何内容"
+        }
+      ]
+    }
+  ]
 }
 {% endschema %}

@@ -108,7 +108,7 @@
 }
 #header:hover .cart-count-bubble,
 #header.persistent-show .cart-count-bubble {
-  display: flex;
+  display: none;
 }
 
 #header .nav-right > li svg {

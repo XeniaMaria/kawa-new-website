@@ -1,49 +1,52 @@
-{{ "kawa-support-product.css" | asset_url | stylesheet_tag }}
+{{ 'kawa-support-product.css' | asset_url | stylesheet_tag }}
 
 <div class="kawa-support-product">
-    <h3 class="support-product-title">
-        <span class="iconify product-icon" data-icon="icon-park-outline:monitor-camera"></span>
-        <span class="title-text">
-            {{ section.settings.title }}
-        </span>
-    </h3>
-    <div class="support-product-panel">
-        <img
-            src="{{ section.settings.product_image | image_url }}"
-            class="support-product-img"
-            width="100"
-            height="100"
-            loading="lazy"
-        />
-        <a
-            class="support-product-link"
-            href="{{ section.settings.product.url }}"
-        >
-            Buy Now
-        </a>
-    </div>
+  <h3 class="support-product-title">
+    <svg class="icon-f product-icon" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+      <path d="M512 452.096c36.352 0 66.56-29.696 66.56-66.56 0-36.352-29.696-66.56-66.56-66.56s-66.56 29.696-66.56 66.56 30.208 66.56 66.56 66.56z"/>
+      <path d="M753.664 912.384H583.168V765.44c182.784-34.304 314.88-193.024 314.88-379.392C898.048 173.056 724.992 0 512 0S125.952 173.056 125.952 386.048c0 96.768 35.84 188.928 101.376 260.608 64 69.632 150.528 113.152 243.712 123.392v142.848H301.056c-30.72 0-55.808 25.088-55.808 55.808S270.336 1024 301.056 1024h452.608c30.72 0 55.808-25.088 55.808-55.808s-25.088-55.808-55.808-55.808zM512 111.616c151.04 0 274.432 122.88 274.432 274.432S663.552 660.48 512 660.48 237.568 537.6 237.568 386.048 360.96 111.616 512 111.616z"/>
+    </svg>
+    <span class="title-text">
+      {{ section.settings.title }}
+    </span>
+  </h3>
+  <div class="support-product-panel">
+    <img
+      src="{{ section.settings.product_image | image_url }}"
+      class="support-product-img"
+      width="100"
+      height="100"
+      loading="lazy"
+    >
+    <a
+      class="support-product-link"
+      href="{{ section.settings.product.url }}"
+    >
+      Buy Now
+    </a>
+  </div>
 </div>
 
 {% schema %}
 {
-    "name": "support页的产品",
-    "tag": "section",
-    "settings": [
-        {
-            "type": "text",
-            "id": "title",
-            "label": "标题"
-        },
-        {
-            "type": "image_picker",
-            "id": "product_image",
-            "label": "产品图片"
-        },
-        {
-            "type": "product",
-            "id": "product",
-            "label": "产品"
-        }
-    ]
+  "name": "support页的产品",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "标题"
+    },
+    {
+      "type": "image_picker",
+      "id": "product_image",
+      "label": "产品图片"
+    },
+    {
+      "type": "product",
+      "id": "product",
+      "label": "产品"
+    }
+  ]
 }
 {% endschema %}

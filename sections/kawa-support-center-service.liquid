@@ -1,65 +1,62 @@
-{{ "kawa-support-center-service.css" | asset_url | stylesheet_tag }}
+{{ 'kawa-support-center-service.css' | asset_url | stylesheet_tag }}
 
 <div class="kawa-support-center-service">
-    <h2 class="section-title">
-        {{ section.settings.title }}
-    </h2>
-    <ul class="service-blocks">
-        {%- for block in section.blocks -%}
-            <li class="service-item" {{ block.shopify_attributes }}>
-                <a href="{{ block.settings.service_page.url }}" class="service-link">
-                    <h4 class="service-title">
-                        {{ block.settings.service_title }}
-                    </h4>
-                    <p class="service-detail">
-                        {{ block.settings.service_des }}
-                    </p>
-                    <div class="view-all-btn">
-                        <span>View All</span>
-                        <span
-                            class="iconify icon-arrow-right"
-                            data-icon="dashicons:arrow-right-alt2"
-                        ></span>
-                    </div>
-                </a>
-            </li>
-        {%- endfor -%}
-    </ul>
+  <h2 class="section-title">
+    {{ section.settings.title }}
+  </h2>
+  <ul class="service-blocks">
+    {%- for block in section.blocks -%}
+      <li class="service-item" {{ block.shopify_attributes }}>
+        <a href="{{ block.settings.service_page.url }}" class="service-link">
+          <h4 class="service-title">
+            {{ block.settings.service_title }}
+          </h4>
+          <p class="service-detail">
+            {{ block.settings.service_des }}
+          </p>
+          <div class="view-all-btn">
+            <span>View All</span>
+            {% render 'icon-kawa-arrow-right' %}
+          </div>
+        </a>
+      </li>
+    {%- endfor -%}
+  </ul>
 </div>
 
 {% schema %}
 {
-    "name": "support center service",
-    "tag": "section",
-    "settings": [
+  "name": "support center service",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "标题"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "service",
+      "name": "support模块",
+      "settings": [
         {
-            "type": "text",
-            "id": "title",
-            "label": "标题"
-        }
-    ],
-    "blocks": [
+          "type": "page",
+          "id": "service_page",
+          "label": "对应的页面"
+        },
         {
-            "type": "service",
-            "name": "support模块",
-            "settings": [
-                {
-                    "type": "page",
-                    "id": "service_page",
-                    "label": "对应的页面"
-                },
-                {
-                    "type": "text",
-                    "id": "service_title",
-                    "label": "标题"
-                },
-                {
-                    "type": "textarea",
-                    "id": "service_des",
-                    "label": "描述"
-                }
-            ]
+          "type": "text",
+          "id": "service_title",
+          "label": "标题"
+        },
+        {
+          "type": "textarea",
+          "id": "service_des",
+          "label": "描述"
         }
-    ]
+      ]
+    }
+  ]
 }
 {% endschema %}
