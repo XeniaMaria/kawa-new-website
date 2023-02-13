@@ -213,7 +213,7 @@
   border-radius: 8px;
 }
 
-.article-promotion .close-icon {
+.article-promotion .promotion-product-wrap > .icon-f {
   position: absolute;
   top: 16px;
   right: 16px;

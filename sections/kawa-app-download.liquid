@@ -1,69 +1,86 @@
-{{ "kawa-app-download.css" | asset_url | stylesheet_tag }}
+{{ 'kawa-app-download.css' | asset_url | stylesheet_tag }}
 
 <div
-  class="kawa-app-download">
+  class="kawa-app-download"
+>
   {% if section.settings.is_single %}
     {%- assign settings = section.settings -%}
   {% endif %}
   <div
-    class="download-bg">
+    class="download-bg"
+  >
     <img
       src="{{ settings.app_download_bg | image_url }}"
       width="100"
       height="100"
-      loading="lazy" />
+      loading="lazy"
+    >
   </div>
   <div
-    class="download-content">
+    class="download-content"
+  >
     <div
-      class="download-title">
+      class="download-title"
+    >
       <img
         src="{{ settings.app_download_logo | image_url }}"
         width="48"
         height="48"
-        loading="lazy" />
+        loading="lazy"
+      >
       <h3>{{ settings.app_download_title }}</h3>
     </div>
     <p
-      class="download-des">
+      class="download-des"
+    >
       {{ settings.app_download_des }}
     </p>
-    {%- if settings.app_download_learn_more != nil -%}
+    {%- if settings.app_download_learn_more != null -%}
       <div
-        class="download-learn-more">
+        class="download-learn-more"
+      >
         <a
-          href=" {{ settings.app_download_learn_more }} ">
+          href=" {{ settings.app_download_learn_more }} "
+        >
           Learn More >
         </a>
       </div>
     {%- endif -%}
     <div
-      class="download-qr-content">
+      class="download-qr-content"
+    >
       <div
-        class="download-play">
+        class="download-play"
+      >
         <div
-          class="play-item">
+          class="play-item"
+        >
           <a
-            href=" {{ settings.app_download_ios }} ">
+            href=" {{ settings.app_download_ios }} "
+          >
             <img
               src="{{ settings.app_store_img | image_url }}"
               width="100"
               height="100"
-              loading="lazy" />
+              loading="lazy"
+            >
           </a>
           <p>
             {{ settings.app_download_ios_tips }}
           </p>
         </div>
         <div
-          class="play-item">
+          class="play-item"
+        >
           <a
-            href=" {{ settings.app_download_android }} ">
+            href=" {{ settings.app_download_android }} "
+          >
             <img
               src="{{ settings.google_play_img | image_url }}"
               width="100"
               height="100"
-              loading="lazy" />
+              loading="lazy"
+            >
           </a>
           <p>
             {{ settings.app_download_android_tips }}
@@ -72,39 +89,44 @@
       </div>
 
       <div
-        class="qr-box">
+        class="qr-box"
+      >
         <div
-          class="qr-content qr-ios">
+          class="qr-content qr-ios"
+        >
           <img
             src="{{ settings.app_download_code_ios | image_url }}"
             width="100"
             height="100"
-            loading="lazy" />
+            loading="lazy"
+          >
           <p>
             {{ settings.app_download_code_tips_ios }}
           </p>
         </div>
         <div
-          class="qr-content qr-android">
+          class="qr-content qr-android"
+        >
           <img
             src="{{ settings.app_download_code_android | image_url }}"
             width="100"
             height="100"
-            loading="lazy" />
+            loading="lazy"
+          >
           <p>
             {{ settings.app_download_code_tips_android }}
           </p>
         </div>
       </div>
     </div>
-    {%- if settings.app_download_apk_url != nil -%}
+    {%- if settings.app_download_apk_url != null -%}
       <div
-        class="direct-download">
+        class="direct-download"
+      >
         <a
-          href="{{ settings.app_download_apk_url }}">
-          <span
-            class="iconify"
-            data-icon="akar-icons:download"></span>
+          href="{{ settings.app_download_apk_url }}"
+        >
+          {% render 'icon-kawa-download' %}
           <span>
             {{ settings.app_download_apk_tips }}
           </span>
@@ -113,113 +135,131 @@
     {%- endif -%}
   </div>
   <div
-    class="download-bg-mb">
+    class="download-bg-mb"
+  >
     <img
       class="w-100-h-auto"
       src="{{ settings.app_download_bg_mb | image_url }}"
       width="100"
       height="100"
-      loading="lazy" />
+      loading="lazy"
+    >
   </div>
 </div>
 
 {% schema %}
-  {
-    "name": "app下载模块",
-    "tag": "section",
-    "settings": [
-      {
-        "type": "checkbox",
-        "id": "is_single",
-        "label": "是否是单独设置",
-        "info": "选中的话单独配置，未选中使用全局配置",
-        "default": false
-      },
-      {
-        "type": "text",
-        "id": "app_download_name",
-        "label": "app名称"
-      },
-      {
-        "type": "text",
-        "id": "app_download_title",
-        "label": "标题"
-      },
-      {
-        "type": "textarea",
-        "id": "app_download_des",
-        "label": "描述"
-      }, {
-        "type": "image_picker",
-        "id": "app_download_logo",
-        "label": "app logo"
-      }, {
-        "type": "url",
-        "id": "app_download_learn_more",
-        "label": "learn more url"
-      }, {
-        "type": "image_picker",
-        "id": "app_download_bg",
-        "label": "背景图片"
-      }, {
-        "type": "image_picker",
-        "id": "app_download_bg_mb",
-        "label": "背景图片(移动端)"
-      }, {
-        "type": "image_picker",
-        "id": "app_store_img",
-        "label": "app Store图片"
-      }, {
-        "type": "url",
-        "id": "app_download_ios",
-        "label": "App Store链接"
-      }, {
-        "type": "text",
-        "id": "app_download_ios_tips",
-        "label": "ios相关提示"
-      }, {
-        "type": "image_picker",
-        "id": "google_play_img",
-        "label": "谷歌play图片"
-      }, {
-        "type": "url",
-        "id": "app_download_android",
-        "label": "谷歌商店链接"
-      }, {
-        "type": "text",
-        "id": "app_download_android_tips",
-        "label": "安卓相关提示"
-      }, {
-        "type": "image_picker",
-        "id": "app_download_code_ios",
-        "label": "苹果下载二维码"
-      }, {
-        "type": "text",
-        "id": "app_download_code_tips_ios",
-        "label": "苹果二维码下方提示"
-      }, {
-        "type": "image_picker",
-        "id": "app_download_code_android",
-        "label": "安卓下载二维码"
-      }, {
-        "type": "text",
-        "id": "app_download_code_tips_android",
-        "label": "安卓二维码下方提示"
-      }, {
-        "type": "url",
-        "id": "app_download_apk_url",
-        "label": "apk文件URL",
-        "info": "允许在本网页直接下载"
-      }, {
-        "type": "text",
-        "id": "app_download_apk_tips",
-        "label": "apk下载链接的文本"
-      }
-    ],
-    "presets": [
-      {
-        "name": "app下载模块"
-      }
-    ]
-  }
+{
+  "name": "app下载模块",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "is_single",
+      "label": "是否是单独设置",
+      "info": "选中的话单独配置，未选中使用全局配置",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "app_download_name",
+      "label": "app名称"
+    },
+    {
+      "type": "text",
+      "id": "app_download_title",
+      "label": "标题"
+    },
+    {
+      "type": "textarea",
+      "id": "app_download_des",
+      "label": "描述"
+    },
+    {
+      "type": "image_picker",
+      "id": "app_download_logo",
+      "label": "app logo"
+    },
+    {
+      "type": "url",
+      "id": "app_download_learn_more",
+      "label": "learn more url"
+    },
+    {
+      "type": "image_picker",
+      "id": "app_download_bg",
+      "label": "背景图片"
+    },
+    {
+      "type": "image_picker",
+      "id": "app_download_bg_mb",
+      "label": "背景图片(移动端)"
+    },
+    {
+      "type": "image_picker",
+      "id": "app_store_img",
+      "label": "app Store图片"
+    },
+    {
+      "type": "url",
+      "id": "app_download_ios",
+      "label": "App Store链接"
+    },
+    {
+      "type": "text",
+      "id": "app_download_ios_tips",
+      "label": "ios相关提示"
+    },
+    {
+      "type": "image_picker",
+      "id": "google_play_img",
+      "label": "谷歌play图片"
+    },
+    {
+      "type": "url",
+      "id": "app_download_android",
+      "label": "谷歌商店链接"
+    },
+    {
+      "type": "text",
+      "id": "app_download_android_tips",
+      "label": "安卓相关提示"
+    },
+    {
+      "type": "image_picker",
+      "id": "app_download_code_ios",
+      "label": "苹果下载二维码"
+    },
+    {
+      "type": "text",
+      "id": "app_download_code_tips_ios",
+      "label": "苹果二维码下方提示"
+    },
+    {
+      "type": "image_picker",
+      "id": "app_download_code_android",
+      "label": "安卓下载二维码"
+    },
+    {
+      "type": "text",
+      "id": "app_download_code_tips_android",
+      "label": "安卓二维码下方提示"
+    },
+    {
+      "type": "url",
+      "id": "app_download_apk_url",
+      "label": "apk文件URL",
+      "info": "允许在本网页直接下载"
+    },
+    {
+      "type": "text",
+      "id": "app_download_apk_tips",
+      "label": "apk下载链接的文本"
+    }
+  ],
+  "presets": [
+    {
+      "name": "app下载模块"
+    }
+  ]
+}
 {% endschema %}

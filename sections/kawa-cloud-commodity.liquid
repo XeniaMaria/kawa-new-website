@@ -1,4 +1,4 @@
-{{ "kawa-cloud-commodity.css" | asset_url | stylesheet_tag }}
+{{ 'kawa-cloud-commodity.css' | asset_url | stylesheet_tag }}
 
 <div class="kawa-cloud-commodity">
   <div class="cloud-commodity-title">
@@ -6,18 +6,18 @@
   </div>
   <div class="commodities-wrapper">
     {%- for block in section.blocks -%}
-
       <div class="mobile-card-switch is-collapse" onclick="handleSwitch(this)">
-        <span class="iconify switch-icon" data-icon="clarity:play-solid"></span>
+        {% render 'icon-kawa-switch' %}
         <div class="switch-commodity-title">
           {{ block.settings.title }}
         </div>
         <div class="switch-commodity-price">
           $
           {%- if block.settings.price == 0 -%}
-            0.00<span>/{{ block.settings.duration | truncate: 2, "" }}</span>
+            0.00<span>/{{ block.settings.duration | truncate: 2, '' }}</span>
           {%- else -%}
-            {{ block.settings.price | strip }}<span>/{{ block.settings.duration | truncate: 2, "" }}</span>
+            {{ block.settings.price | strip -}}
+            <span>/{{ block.settings.duration | truncate: 2, '' }}</span>
           {%- endif -%}
         </div>
       </div>
@@ -41,9 +41,10 @@
         <div class="commodity-price" style="color: {{ block.settings.price_color }};">
           $
           {%- if block.settings.price == 0 -%}
-            0.00<span>/{{ block.settings.duration | truncate: 2, "" }}</span>
+            0.00<span>/{{ block.settings.duration | truncate: 2, '' }}</span>
           {%- else -%}
-            {{ block.settings.price | strip }}<span>/{{ block.settings.duration | truncate: 2, "" }}</span>
+            {{ block.settings.price | strip -}}
+            <span>/{{ block.settings.duration | truncate: 2, '' }}</span>
           {%- endif -%}
         </div>
         <div class="commodity-desc">
@@ -59,77 +60,81 @@
 </div>
 
 <script>
-  const switchEls = document.querySelectorAll(".mobile-card-switch");
+  const switchEls = document.querySelectorAll('.mobile-card-switch');
   const handleSwitch = (switchEl) => {
-    if (switchEl.classList.contains("is-collapse")) {
-      switchEls.forEach((el) => el.classList.add("is-collapse"));
-      switchEl.classList.toggle("is-collapse");
+    if (switchEl.classList.contains('is-collapse')) {
+      switchEls.forEach((el) => el.classList.add('is-collapse'));
+      switchEl.classList.toggle('is-collapse');
     } else {
-      switchEl.classList.toggle("is-collapse");
+      switchEl.classList.toggle('is-collapse');
     }
-  }
+  };
 </script>
 
 {% schema %}
-  {
-    "name": "云存储套餐展示",
-    "tag": "section",
-    "settings": [
-      {
-        "type": "text",
-        "id": "title",
-        "label": "标题"
-      }
-    ],
-    "blocks": [
-      {
-        "type": "commodity_item",
-        "name": "套餐",
-        "settings": [
-          {
-            "type": "text",
-            "id": "title",
-            "label": "套餐名称"
-          },
-          {
-            "type": "text",
-            "id": "desc",
-            "label": "套餐描述"
-          },
-          {
-            "type": "text",
-            "id": "orig_price",
-            "label": "套餐原始价格"
-          },
-          {
-            "type": "text",
-            "id": "price",
-            "label": "套餐价格"
-          }, {
-            "type": "color",
-            "id": "price_color",
-            "label": "价格字体颜色"
-          }, {
-            "type": "radio",
-            "id": "duration",
-            "label": "套餐时长",
-            "options": [
-              {
-                "value": "month",
-                "label": "按月"
-              }, {
-                "value": "annual",
-                "label": "按年"
-              }
-            ],
-            "default": "month"
-          }, {
-            "type": "html",
-            "id": "detail",
-            "label": "套餐详细信息"
-          }
-        ]
-      }
-    ]
-  }
+{
+  "name": "云存储套餐展示",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "标题"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "commodity_item",
+      "name": "套餐",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "套餐名称"
+        },
+        {
+          "type": "text",
+          "id": "desc",
+          "label": "套餐描述"
+        },
+        {
+          "type": "text",
+          "id": "orig_price",
+          "label": "套餐原始价格"
+        },
+        {
+          "type": "text",
+          "id": "price",
+          "label": "套餐价格"
+        },
+        {
+          "type": "color",
+          "id": "price_color",
+          "label": "价格字体颜色"
+        },
+        {
+          "type": "radio",
+          "id": "duration",
+          "label": "套餐时长",
+          "options": [
+            {
+              "value": "month",
+              "label": "按月"
+            },
+            {
+              "value": "annual",
+              "label": "按年"
+            }
+          ],
+          "default": "month"
+        },
+        {
+          "type": "html",
+          "id": "detail",
+          "label": "套餐详细信息"
+        }
+      ]
+    }
+  ]
+}
 {% endschema %}
