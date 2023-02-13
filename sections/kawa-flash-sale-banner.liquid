@@ -1,4 +1,4 @@
-{{ "kawa-flash-sale-banner.css" | asset_url | stylesheet_tag }}
+{{ 'kawa-flash-sale-banner.css' | asset_url | stylesheet_tag }}
 
 {% style %}
   .kawa-flash-sale-banner {
@@ -27,73 +27,39 @@
     <div class="banner-des hide-more">
       {{ section.settings.des }}
     </div>
-    {% comment %} <p class="show-more-btn">
-      <span class="iconify" data-icon="ep:arrow-down"></span>
-    </p> {% endcomment %}</div>
+  </div>
 </div>
-{% comment %}
-  <div class="kawa-flash-sale-banner--mb banner--mb">
-  <h3 class="banner-subtitle--mb">
-  {{ section.settings.subtitle }}
-  </h3>
-  <div class="banner-des--mb hide-more--mb">
-  {{ section.settings.des }}
-  </div>
-  <p class="show-more-btn--mb">
-  <span class="iconify" data-icon="ep:arrow-down"></span>
-  </p>
-  </div>
-{% endcomment %}<script>
-  (function() {
-
-    /*
-  const arrowBtn = document.querySelector(".kawa-flash-sale-banner .show-more-btn");
-  const desEl = document.querySelector(".kawa-flash-sale-banner .banner-des");
-  arrowBtn.addEventListener("click", () => {
-  arrowBtn.classList.toggle("active");
-  desEl.classList.toggle("hide-more");
-  })
-  
-  
-  const arrowBtnMb = document.querySelector(".kawa-flash-sale-banner--mb .show-more-btn--mb");
-  onst desElMb = document.querySelector(".kawa-flash-sale-banner--mb .banner-des--mb");
-  arrowBtnMb.addEventListener("click", () => {
-  arrowBtnMb.classList.toggle("active");
-  desElMb.classList.toggle("hide-more--mb");
-  })
-  */
-  })();
-</script>
 
 {% schema %}
-  {
-    "name": "flash sale banner",
-    "tag": "section",
-    "settings": [
-      {
-        "type": "image_picker",
-        "id": "bg_image",
-        "label": "背景图"
-      },
-      {
-        "type": "image_picker",
-        "id": "bg_image_mb",
-        "label": "背景图(移动端)"
-      },
-      {
-        "type": "text",
-        "id": "subtitle",
-        "label": "子标题"
-      },
-      {
-        "type": "text",
-        "id": "title",
-        "label": "标题"
-      }, {
-        "type": "html",
-        "id": "des",
-        "label": "描述"
-      }
-    ]
-  }
+{
+  "name": "flash sale banner",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "bg_image",
+      "label": "背景图"
+    },
+    {
+      "type": "image_picker",
+      "id": "bg_image_mb",
+      "label": "背景图(移动端)"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "子标题"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "标题"
+    },
+    {
+      "type": "html",
+      "id": "des",
+      "label": "描述"
+    }
+  ]
+}
 {% endschema %}

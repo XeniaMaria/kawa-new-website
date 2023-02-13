@@ -1,98 +1,105 @@
-{{ "kawa-flash-sale-nav.css" | asset_url | stylesheet_tag }}
+{{ 'kawa-flash-sale-nav.css' | asset_url | stylesheet_tag }}
 
 <div class="kawa-flash-sale-nav">
-    <div class="nav-container">
-        <ul>
-            {%- for block in section.blocks -%}
-                <li {{ block.shopify_attributes }}>
-                    <a href="{{ block.settings.collection_page.url }}" class="{%- if block.settings.collection_page.url == request.path -%}
-                        active
-                    {%- endif -%}">
-                        {{ block.settings.collection_name }}
-                    </a>
-                </li>
-            {%- endfor -%}
-        </ul>
+  <div class="nav-container">
+    <ul>
+      {%- for block in section.blocks -%}
+        <li {{ block.shopify_attributes }}>
+          <a
+            href="{{ block.settings.collection_page.url }}"
+            class="
+              {%- if block.settings.collection_page.url == request.path -%}
+                  active
+              {%- endif -%}
+            "
+          >
+            {{ block.settings.collection_name }}
+          </a>
+        </li>
+      {%- endfor -%}
+    </ul>
+  </div>
+  <div class="nav-container--mb">
+    <div class="nav-bar">
+      {%- for block in section.blocks -%}
+        {%- if block.settings.collection_page.url == request.path -%}
+          <h3>{{ block.settings.collection_name }}</h3>
+        {%- endif -%}
+      {%- endfor -%}
+      <a href="javascript:void(0);" class="all-categories-btn">
+        <span>All Categories</span>
+        {% render 'icon-kawa-arrow-down' %}
+      </a>
     </div>
-    <div class="nav-container--mb">
-        <div class="nav-bar">
-            {%- for block in section.blocks -%}
-                {%- if block.settings.collection_page.url == request.path -%}
-                    <h3>{{ block.settings.collection_name }} </h3>
-                {%- endif -%}
-            {%- endfor -%}
-            <a href="javascript:void(0);" class="all-categories-btn">
-                <span>All Categories</span>
-                <span class="iconify" data-icon="ep:arrow-down-bold"></span>
-            </a>
-        </div>
-        <ul class="category-list">
-            {%- for block in section.blocks -%}
-                <li>
-                    <a href="{{ block.settings.collection_page.url }}" class="{%- if block.settings.collection_page.url == request.path -%}
-                        active
-                    {%- endif -%}">
-                        <span>
-                            {{ block.settings.collection_name }}
-                        </span>
-                        <span
-                            class="iconify icon-arrow-right"
-                            data-icon="dashicons:arrow-right-alt2"
-                        ></span>
-                    </a>
-                </li>
-            {%- endfor -%}
-        </ul>
-    </div>
+    <ul class="category-list">
+      {%- for block in section.blocks -%}
+        <li>
+          <a
+            href="{{ block.settings.collection_page.url }}"
+            class="
+              {%- if block.settings.collection_page.url == request.path -%}
+                  active
+              {%- endif -%}
+            "
+          >
+            <span>
+              {{ block.settings.collection_name }}
+            </span>
+            {% render 'icon-kawa-arrow-right' %}
+          </a>
+        </li>
+      {%- endfor -%}
+    </ul>
+  </div>
 </div>
 
 <script>
-    (function(){
-        const navSection = document.querySelector(".kawa-flash-sale-nav");
-        window.addEventListener("scroll",()=> {
-            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-            if(scrollTop > 88) {
-                navSection.style.display = "block";
-            } else {
-                navSection.style.display = "none";
-            }
-        })
+  (function () {
+    const navSection = document.querySelector('.kawa-flash-sale-nav');
+    window.addEventListener('scroll', () => {
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      if (scrollTop > 88) {
+        navSection.style.display = 'block';
+      } else {
+        navSection.style.display = 'none';
+      }
+    });
 
-        const allCategoriesBtn = document.querySelector(".kawa-flash-sale-nav .nav-container--mb .all-categories-btn")
-        const categoryListMb = document.querySelector(".kawa-flash-sale-nav .nav-container--mb .category-list")
-        allCategoriesBtn.addEventListener("click",() => {
-            allCategoriesBtn.classList.toggle("active");
-            categoryListMb.classList.toggle("active");
-        })
-    })()
+    const allCategoriesBtn = document.querySelector('.kawa-flash-sale-nav .nav-container--mb .all-categories-btn');
+    const categoryListMb = document.querySelector('.kawa-flash-sale-nav .nav-container--mb .category-list');
+    allCategoriesBtn.addEventListener('click', () => {
+      allCategoriesBtn.classList.toggle('active');
+      categoryListMb.classList.toggle('active');
+    });
+  })();
 </script>
 
 {% schema %}
 {
-    "name": "flash-sale 导航",
-    "tag": "section",
-    "blocks": [
+  "name": "flash-sale 导航",
+  "tag": "section",
+  "blocks": [
+    {
+      "type": "flash-sale-collection",
+      "name": "热销的产品系列块",
+      "settings": [
         {
-            "type": "flash-sale-collection",
-            "name": "热销的产品系列块",
-            "settings": [
-                {
-                    "type": "collection",
-                    "id": "collection",
-                    "label": "热销的产品系列"
-                },
-                {
-                    "type": "text",
-                    "id": "collection_name",
-                    "label": "热销的产品系列名称"
-                },
-                {
-                    "type": "page",
-                    "id": "collection_page",
-                    "label": "对应的页面"
-                }
-            ]
+          "type": "collection",
+          "id": "collection",
+          "label": "热销的产品系列"
+        },
+        {
+          "type": "text",
+          "id": "collection_name",
+          "label": "热销的产品系列名称"
+        },
+        {
+          "type": "page",
+          "id": "collection_page",
+          "label": "对应的页面"
         }
-    ]
+      ]
+    }
+  ]
 }
 {% endschema %}

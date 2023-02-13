@@ -280,8 +280,10 @@
   justify-content: space-between;
   cursor: pointer;
 }
-.kawa-main-product .iconify:first-child {
+.kawa-main-product .icon-f:first-child {
   margin-right: 5px;
+  width: 16px;
+  height: 16px;
 }
 
 .kawa-main-product .product-purchase-quantity {

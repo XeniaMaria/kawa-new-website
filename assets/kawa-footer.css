@@ -23,12 +23,12 @@
   color: #fff;
 }
 
-.kawa-footer .iconify {
+.kawa-footer .icon-f {
   margin-right: 12px;
-}
-.kawa-footer .email-icon {
   width: 24px;
   height: 24px;
+}
+.kawa-footer .email-icon {
   position: relative;
   bottom: 2px;
 }
@@ -36,7 +36,6 @@
 .kawa-footer .footer-contact a {
   color: #41aad7;
   position: relative;
-  bottom: 3px;
 }
 
 .kawa-footer .footer-contact a:hover {

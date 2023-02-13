@@ -1,85 +1,80 @@
-{{ "kawa-flash-sale-comment.css" | asset_url | stylesheet_tag }}
+{{ 'kawa-flash-sale-comment.css' | asset_url | stylesheet_tag }}
 
 <div class="kawa-flash-sale-comment">
-    <div class="section-title">
-        {{ section.settings.title }}
-    </div>
-    <ul class="comments-container">
-        {%- for block in section.blocks -%}
-            <li class="comment-item" {{ block.shopify_attributes }}>
-                <a href="{{ block.settings.comment_product.url }}">
-                    {% render 'kawa-star-rate',
-                        star_number: block.settings.star_number %}
-                    <div class="comment-title">
-                        {{ block.settings.comment_title }}
-                    </div>
-                    <p class="comment-content">
-                        {{ block.settings.comment_content }}
-                    </p>
-                    <p class="comment-by">
-                        By {{ block.settings.username }}, a user of
-                        {{ block.settings.comment_product.metafields.descriptors.subtitle }}
-                    </p>
-                </a>
-                <a
-                    class="read-more-link"
-                    href="{{ block.settings.comment_product.url }}">
-                    <span>
-                        Read more
-                    </span>
-                    <span
-                        class="iconify icon-arrow-right"
-                        data-icon="dashicons:arrow-right-alt2"
-                    ></span>
-                </a>
-            </li>
-        {%- endfor -%}
-    </ul>
+  <div class="section-title">
+    {{ section.settings.title }}
+  </div>
+  <ul class="comments-container">
+    {%- for block in section.blocks -%}
+      <li class="comment-item" {{ block.shopify_attributes }}>
+        <a href="{{ block.settings.comment_product.url }}">
+          {% render 'kawa-star-rate', star_number: block.settings.star_number %}
+          <div class="comment-title">
+            {{ block.settings.comment_title }}
+          </div>
+          <p class="comment-content">
+            {{ block.settings.comment_content }}
+          </p>
+          <p class="comment-by">
+            By {{ block.settings.username }}, a user of
+            {{ block.settings.comment_product.metafields.descriptors.subtitle }}
+          </p>
+        </a>
+        <a
+          class="read-more-link"
+          href="{{ block.settings.comment_product.url }}"
+        >
+          <span> Read more </span>
+          {% render 'icon-kawa-arrow-right' %}
+        </a>
+      </li>
+    {%- endfor -%}
+  </ul>
 </div>
 
 {% schema %}
 {
-    "name": "comments",
-    "tag": "section",
-    "settings": [
+  "name": "comments",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "标题"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "comment",
+      "name": "评论",
+      "settings": [
         {
-            "type": "text",
-            "id": "title",
-            "label": "标题"
-        }
-    ],
-    "blocks": [
+          "type": "number",
+          "id": "star_number",
+          "label": "评论星级"
+        },
         {
-            "type": "comment",
-            "name": "评论",
-            "settings": [
-                {
-                    "type": "number",
-                    "id": "star_number",
-                    "label": "评论星级"
-                },
-                {
-                    "type": "text",
-                    "id": "comment_title",
-                    "label": "评论标题"
-                },
-                {
-                    "type": "textarea",
-                    "id": "comment_content",
-                    "label": "评论内容"
-                },
-                {
-                    "type": "product",
-                    "id": "comment_product",
-                    "label": "评论的产品"
-                },
-                {
-                    "type": "text",
-                    "id": "username",
-                    "label": "评论的用户名"
-                }
-            ]
+          "type": "text",
+          "id": "comment_title",
+          "label": "评论标题"
+        },
+        {
+          "type": "textarea",
+          "id": "comment_content",
+          "label": "评论内容"
+        },
+        {
+          "type": "product",
+          "id": "comment_product",
+          "label": "评论的产品"
+        },
+        {
+          "type": "text",
+          "id": "username",
+          "label": "评论的用户名"
         }
-    ]
+      ]
+    }
+  ]
 }
 {% endschema %}
