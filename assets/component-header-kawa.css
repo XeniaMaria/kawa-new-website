@@ -341,7 +341,7 @@
   transform: translateX(0);
 }
 
-.kawa-drawer-close {
+.kawa-drawer > .icon-f {
   color: white;
   position: absolute;
   right: 3vw;
@@ -501,6 +501,10 @@
   #header .cart-icon-container svg {
     width: 1em;
     height: 1em;
+  }
+  #header .nav-hamburger svg {
+    position: relative;
+    bottom: 2px;
   }
 
   #header .cart-icon-container {

@@ -56,10 +56,7 @@
                     {%- assign collection = sub_link.object -%}
                       <li class="flex-b category-tab-{{ forloop.index }}">
                         {{ collection.title }}
-                        <span
-                          class="iconify icon-arrow-right"
-                          data-icon="dashicons:arrow-right-alt2"
-                        ></span>
+                        {% render 'icon-kawa-arrow-right' %}
                       </li>
                     {%- endfor -%}
                   </ul>
@@ -215,12 +212,6 @@
               </div>
             {%- endif -%}
         </li>
-        {%- comment -%} <li class="nav-icon lang-nav">
-          <a>
-            <span class="iconify" data-icon="mingcute:earth-line"></span>
-            <span class="current-lang">Other Regions</span>
-          </a>
-        </li> {%- endcomment -%}
       </ul>
       <div class="nav-hamburger">
         {% render 'icon-kawa-hamburger' %}
@@ -241,10 +232,7 @@
 
   <!-- drawer -->
   <div class="kawa-drawer">
-    <span
-      class="iconify kawa-drawer-close"
-      data-icon="ant-design:close-outlined"
-    ></span>
+    {% render 'icon-kawa-close' %}
     <ul class="sidebar-menu">
 
       <li class="sidebar-search-menu">
@@ -278,7 +266,7 @@
         >
           {{ link.title }}
           {%- if link.links.size > 0 -%}
-          <span class="iconify" data-icon="ep:arrow-down-bold"></span>
+            {% render 'icon-kawa-arrow-down' %}
           {%- endif -%}
         </a>
         {%- if link.links.size > 0 -%}
