@@ -4,11 +4,11 @@
   <h2 class="video-display-title">{{ section.settings.title }}</h2>
   <a href="{{ section.settings.link_one_url }}" class="video-display-link">
     <span class="text">{{ section.settings.link_one_text }}</span>
-    <span class="iconify icon-arrow-right" data-icon="dashicons:arrow-right-alt2"></span>
+    {% render 'icon-kawa-arrow-right' %}
   </a>
   <a href="{{ section.settings.link_two_url }}" class="video-display-link share-link">
     <span class="text">{{ section.settings.link_two_text }}</span>
-    <span class="iconify icon-arrow-right" data-icon="dashicons:arrow-right-alt2"></span>
+    {% render 'icon-kawa-arrow-right' %}
   </a>
   <ul class="all-video mw-1200-c">
     <div class="swiper-container">
@@ -29,7 +29,7 @@
                 loading="lazy"
               >
               <div class="cover">
-                <span class="iconify play-icon" data-icon="clarity:play-solid"></span>
+                {% render 'icon-kawa-switch' %}
               </div>
             </li>
           </div>

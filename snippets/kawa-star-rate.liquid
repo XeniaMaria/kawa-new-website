@@ -1,51 +1,57 @@
 {% comment %}
-    Renders a start rate   5星评分
+  Renders a start rate   5星评分
 
-    Accepts:
-    - star_number: {Number} 默认为0,最大为5，传入非整数表示半星
+  Accepts:
+  - star_number: {Number} 默认为0,最大为5，传入非整数表示半星
 
-    Usage:
-    {% render 'kawa-star-rate' %}
+  Usage:
+  {% render 'kawa-star-rate' %}
 {% endcomment %}
 
 {%- liquid
-    if star_number > 5
-        assign real_star_number = 5
-    else
-        assign real_star_number = star_number
-    endif
+  if star_number > 5
+    assign real_star_number = 5
+  else
+    assign real_star_number = star_number
+  endif
 -%}
 {%- assign solid_star_number = real_star_number | floor -%}
 {%- assign half_start_number = 0 -%}
 {%- assign origin_star_number = real_star_number -%}
 <div class="kawa-star-rate">
-    {%- for i in (1..solid_star_number) -%}
-        <span
-            class="iconify"
-            data-icon="ic:baseline-star"
-            style="color: #ffc200;"
-            data-width="20"
-            data-height="20"
-            ></span>
-    {%- endfor -%}
-    {%- unless origin_star_number == solid_star_number -%}
-        {%- assign half_start_number = 1 -%}
-        <span
-            class="iconify"
-            data-icon="ic:baseline-star-half"
-            style="color: #ffc200;"
-            data-width="20"
-            data-height="20"
-            ></span>
-    {%- endunless -%}
-    {%- assign border_star_number =  5 | minus: solid_star_number | minus: half_start_number -%}
-    {%- for i in (1..border_star_number) -%}
-        <span
-            class="iconify"
-            data-icon="ic:baseline-star-border"
-            style="color: #ffc200;"
-            data-width="20"
-            data-height="20"
-            ></span>
-    {%- endfor -%}
+  {%- for i in (1..solid_star_number) -%}
+    <svg
+      class="icon"
+      viewBox="0 0 1024 1024"
+      xmlns="http://www.w3.org/2000/svg"
+      width="20"
+      height="20"
+    >
+      <path d="M512 736.981333 775.68 896 705.92 596.096 938.666667 394.410667 631.850667 368.085333 512 85.333333 392.149333 368.085333 85.333333 394.410667 318.08 596.096 248.32 896Z" fill="#ffc200"></path>
+    </svg>
+  {%- endfor -%}
+  {%- unless origin_star_number == solid_star_number -%}
+    {%- assign half_start_number = 1 -%}
+    <svg
+      class="icon"
+      viewBox="0 0 1024 1024"
+      xmlns="http://www.w3.org/2000/svg"
+      width="20"
+      height="20"
+    >
+      <path d="M938.666667 415.744l-306.816-26.325333L512 106.666667 392.149333 389.418667 85.333333 415.744l0 0 0 0 232.746667 201.685333L248.32 917.333333 512 758.272l0 0 263.68 159.018667-69.76-299.904L938.666667 415.744zM512 678.229333 512 281.386667l72.96 172.202667 186.88 16.042667-141.738667 122.794667 42.496 182.656L512 678.229333z" fill="#ffc200"></path>
+    </svg>
+  {%- endunless -%}
+  {%- assign border_star_number = 5 | minus: solid_star_number | minus: half_start_number -%}
+  {%- for i in (1..border_star_number) -%}
+    <svg
+      class="icon"
+      viewBox="0 0 1024 1024"
+      xmlns="http://www.w3.org/2000/svg"
+      width="20"
+      height="20"
+    >
+      <path d="M938.666667 394.410667l-306.816-26.325333L512 85.333333 392.149333 368.085333 85.333333 394.410667l232.746667 201.685333L248.32 896 512 736.938667 775.68 896l-69.76-299.904L938.666667 394.410667zM512 656.896l-160.554667 96.853333 42.496-182.656L252.16 448.298667l186.88-16.042667L512 260.053333l72.96 172.202667 186.88 16.042667-141.738667 122.794667 42.496 182.656L512 656.896z"></path>
+    </svg>
+  {%- endfor -%}
 </div>
