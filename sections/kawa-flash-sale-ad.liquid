@@ -1,107 +1,106 @@
-{{ "kawa-flash-sale-ad.css" | asset_url | stylesheet_tag }}
+{{ 'kawa-flash-sale-ad.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
-.flash-sale-ad-section {
+  .flash-sale-ad-section {
     background: url({{ section.settings.bg_image | image_url }}) bottom no-repeat;
-}
+  }
 {%- endstyle -%}
 
 <div class="kawa-flash-sale-ad">
-    <h2 class="ad-title">
-        {{ section.settings.title }}
-    </h2>
-    <div class="ad-des">
-        {{ section.settings.description }}
-    </div>
-    <ul class="ad-list hide-more">
-        {%- for block in section.blocks -%}
-            <li {{ block.shopify_attributes }}>
-
-                {%- if block.settings.ad-icon == empty -%}
-                    <span class="iconify" data-icon="emojione-monotone:white-circle" style="color: #fff;"></span>
-                    {%- else -%}
-                    {{ block.settings.ad-icon }}
-                {%- endif -%}
-                <h4 class="ad-item__title">
-                    {{ block.settings.ad-title }}
-                </h4>
-                <p class="ad-item__description">
-                    {{ block.settings.ad-description }}
-                </p>
-            </li>
-        {%- endfor -%}
-    </ul>
-    <p class="ad-tips">
-        {{ section.settings.tips }}
-    </p>
-    <p class="ad-learn-more">
-        <span>
-            Learn More
-        </span>
-        <span class="iconify" data-icon="ep:arrow-down-bold"></span>
-    </p>
+  <h2 class="ad-title">
+    {{ section.settings.title }}
+  </h2>
+  <div class="ad-des">
+    {{ section.settings.description }}
+  </div>
+  <ul class="ad-list hide-more">
+    {%- for block in section.blocks -%}
+      <li {{ block.shopify_attributes }}>
+        {%- if block.settings['ad-icon'] == empty -%}
+          <svg class="icon-f" viewBox="0 0 1024 1024" style="color:#fff;" xmlns="http://www.w3.org/2000/svg">
+            <path d="M512 64a448 448 0 1 1 0 896 448 448 0 0 1 0-896zm0 64a384 384 0 1 0 0 768 384 384 0 0 0 0-768z" fill-opacity=".9" opacity=".9"/>
+          </svg>
+        {%- else -%}
+          {{ block.settings['ad-icon'] }}
+        {%- endif -%}
+        <h4 class="ad-item__title">
+          {{ block.settings['ad-title'] }}
+        </h4>
+        <p class="ad-item__description">
+          {{ block.settings['ad-description'] }}
+        </p>
+      </li>
+    {%- endfor -%}
+  </ul>
+  <p class="ad-tips">
+    {{ section.settings.tips }}
+  </p>
+  <p class="ad-learn-more">
+    <span> Learn More </span>
+    {% render 'icon-kawa-arrow-down' %}
+  </p>
 </div>
 
 <script>
-(function() {
-    const learnMoreBtn = document.querySelector(".kawa-flash-sale-ad .ad-learn-more");
-    const adList = document.querySelector(".kawa-flash-sale-ad .ad-list")
-    learnMoreBtn.addEventListener("click",() => {
-        learnMoreBtn.classList.toggle("active");
-        adList.classList.toggle("hide-more")
-    })
-})()
+  (function () {
+    const learnMoreBtn = document.querySelector('.kawa-flash-sale-ad .ad-learn-more');
+    const adList = document.querySelector('.kawa-flash-sale-ad .ad-list');
+    learnMoreBtn.addEventListener('click', () => {
+      learnMoreBtn.classList.toggle('active');
+      adList.classList.toggle('hide-more');
+    });
+  })();
 </script>
 
 {% schema %}
 {
-    "name": "选择Kawa原因",
-    "tag": "section",
-    "class": "flash-sale-ad-section",
-    "settings": [
+  "name": "选择Kawa原因",
+  "tag": "section",
+  "class": "flash-sale-ad-section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "bg_image",
+      "label": "背景图片"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "标题"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "描述"
+    },
+    {
+      "type": "text",
+      "id": "tips",
+      "label": "提示信息"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "ad-block",
+      "name": "原因",
+      "settings": [
         {
-            "type": "image_picker",
-            "id": "bg_image",
-            "label": "背景图片"
+          "type": "html",
+          "id": "ad-icon",
+          "label": "原因图标"
         },
         {
-            "type": "text",
-            "id": "title",
-            "label": "标题"
+          "type": "text",
+          "id": "ad-title",
+          "label": "原因标题"
         },
         {
-            "type": "textarea",
-            "id": "description",
-            "label": "描述"
-        },
-        {
-            "type": "text",
-            "id": "tips",
-            "label": "提示信息"
+          "type": "textarea",
+          "id": "ad-description",
+          "label": "原因描述"
         }
-    ],
-    "blocks": [
-        {
-            "type": "ad-block",
-            "name": "原因",
-            "settings": [
-                {
-                    "type": "html",
-                    "id": "ad-icon",
-                    "label": "原因图标"
-                },
-                {
-                    "type": "text",
-                    "id": "ad-title",
-                    "label": "原因标题"
-                },
-                {
-                    "type": "textarea",
-                    "id": "ad-description",
-                    "label": "原因描述"
-                }
-            ]
-        }
-    ]
+      ]
+    }
+  ]
 }
 {% endschema %}

@@ -17,10 +17,7 @@
         </p>
         <a href="{{ product.url }}" class="product-name--mb">
           <span>{{ product.metafields.descriptors.subtitle }}</span>
-          <span
-            class="iconify icon-arrow-right"
-            data-icon="dashicons:arrow-right-alt2"
-          ></span>
+          {% render 'icon-kawa-arrow-right' %}
         </a>
         <div class="product-info">
           <p class="info-product-name">
@@ -31,10 +28,7 @@
           </p>
           <a href="{{ product.url }}">
             <span class="learn-more">Learn More</span>
-            <span
-              class="iconify icon-arrow-right"
-              data-icon="dashicons:arrow-right-alt2"
-            ></span>
+            {% render 'icon-kawa-arrow-right' %}
           </a>
         </div>
       </div>

@@ -1,25 +1,22 @@
-{{ "kawa-faq.css" | asset_url | stylesheet_tag }}
+{{ 'kawa-faq.css' | asset_url | stylesheet_tag }}
 
 <div id="product-page-faq" class="kawa-faq mw-1000-c">
   <h1 class="title">{{ section.settings.title }}</h1>
 
   {%- for block in section.blocks -%}
-  <div {{ block.shopify_attributes }}>
-    <div class="kawa-accordion">
-      <span class="kawa-accordion-name">
-        {{ block.settings.question }}
-      </span>
-      <span
-        class="iconify icon-arrow-right"
-        data-icon="dashicons:arrow-right-alt2"
-      ></span>
+    <div {{ block.shopify_attributes }}>
+      <div class="kawa-accordion">
+        <span class="kawa-accordion-name">
+          {{ block.settings.question }}
+        </span>
+        {% render 'icon-kawa-arrow-right' %}
+      </div>
+      <div class="kawa-accordion-content">
+        <span class="accordion-content__inner">
+          {{ block.settings.solution }}
+        </span>
+      </div>
     </div>
-    <div class="kawa-accordion-content">
-      <span class="accordion-content__inner">
-        {{ block.settings.solution }}
-      </span>
-    </div>
-  </div>
   {%- endfor -%}
 </div>
 
@@ -27,9 +24,7 @@
 {
   "name": "FAQ",
   "tag": "section",
-  "settings": [
-    { "type": "text", "id": "title", "label": "标题", "default": "FAQ" }
-  ],
+  "settings": [{ "type": "text", "id": "title", "label": "标题", "default": "FAQ" }],
   "blocks": [
     {
       "type": "faq_item",

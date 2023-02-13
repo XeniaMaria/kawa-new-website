@@ -130,7 +130,7 @@
         "ad-block-1": {
           "type": "ad-block",
           "settings": {
-            "ad-icon": "<span class=\"iconify\" data-icon=\"icon-park-outline:camera-two\"><\/span>",
+            "ad-icon": "",
             "ad-title": "Dual-Lens",
             "ad-description": "Dual-Lens With one more high-tech lens, these dual cameras either cover larger surveillance areas or offer more advanced tracking modes. Keep everything under your control."
           }
@@ -138,7 +138,7 @@
         "ad-block-2": {
           "type": "ad-block",
           "settings": {
-            "ad-icon": "<span class=\"iconify\" data-icon=\"humbleicons:eye-close\"><\/span>",
+            "ad-icon": "",
             "ad-title": "Wide Viewing Angle",
             "ad-description": "Equipped with two lenses, these cameras provide you with a wide field of view. You can cover more areas and explore more details."
           }
@@ -146,7 +146,7 @@
         "ad-block-3": {
           "type": "ad-block",
           "settings": {
-            "ad-icon": "<span class=\"iconify\" data-icon=\"bi:badge-4k-fill\"><\/span>",
+            "ad-icon": "",
             "ad-title": "Super HD",
             "ad-description": "These wide angle IP cameras feature up to 8MP resolution and show you clear, crisp images and videos. You can view everything with more colors, more sharpness and more fun."
           }
@@ -154,7 +154,7 @@
         "ad-block-4": {
           "type": "ad-block",
           "settings": {
-            "ad-icon": "<span class=\"iconify\" data-icon=\"akar-icons:moon\"><\/span>",
+            "ad-icon": "",
             "ad-title": "Color Night Vision",
             "ad-description": "With infrared lights and powerful spotlights, these cameras show you everything in full color and keep your home and business 24\/7 guarded."
           }
@@ -162,7 +162,7 @@
         "ad-block-5": {
           "type": "ad-block",
           "settings": {
-            "ad-icon": "<span class=\"iconify\" data-icon=\"bi:badge-4k-fill\"><\/span>",
+            "ad-icon": "",
             "ad-title": "Super HD",
             "ad-description": "These wide angle IP cameras feature up to 8MP resolution and show you clear, crisp images and videos. You can view everything with more colors, more sharpness and more fun."
           }
@@ -170,7 +170,7 @@
         "ad-block-6": {
           "type": "ad-block",
           "settings": {
-            "ad-icon": "<span class=\"iconify\" data-icon=\"akar-icons:moon\"><\/span>",
+            "ad-icon": "",
             "ad-title": "Color Night Vision",
             "ad-description": "With infrared lights and powerful spotlights, these cameras show you everything in full color and keep your home and business 24\/7 guarded."
           }

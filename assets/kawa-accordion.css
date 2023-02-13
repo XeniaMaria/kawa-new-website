@@ -16,14 +16,14 @@
   margin-bottom: 16px;
   flex-basis: 90%;
 }
-.kawa-accordion .icon-arrow-right {
+.kawa-accordion .icon-f {
   position: relative;
   top: 5px;
   transform: rotate(90deg);
   width: 14px;
   height: 14px;
 }
-.kawa-accordion.active .icon-arrow-right {
+.kawa-accordion.active .icon-f {
   transform: rotate(270deg);
 }
 .kawa-accordion-content {
