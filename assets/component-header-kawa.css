@@ -88,6 +88,10 @@
   line-height: 88px;
   height: 88px;
 }
+#header .nav-right > li > svg {
+  width: 1em;
+  height: 1em;
+}
 
 #header .nav-left > li > a:hover {
   border-bottom: 3px solid #00ade5;
