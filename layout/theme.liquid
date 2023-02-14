@@ -248,15 +248,28 @@
       <link rel="stylesheet" href="{{ 'component-cart.css' | asset_url }}">
     </noscript>
 
-    <link
-      rel="preload"
-      href="{{ 'swiper.min.css' | asset_url }}"
-      as="style"
-      onload="this.onload=null;this.rel='stylesheet'"
-    >
-    <noscript>
-      <link rel="stylesheet" href="{{ 'swiper.min.css' | asset_url }}">
-    </noscript>
+    {% unless canonical_url contains '/collections/all' %}
+      <link
+        rel="preload"
+        href="{{ 'swiper.min.css' | asset_url }}"
+        as="style"
+        onload="this.onload=null;this.rel='stylesheet'"
+      >
+      <noscript>
+        <link rel="stylesheet" href="{{ 'swiper.min.css' | asset_url }}">
+      </noscript>
+      <link
+        rel="preload"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        as="style"
+        onload="this.οnlοad=null;this.rel='stylesheet'"
+      >
+      <noscript>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+      </noscript>
+      {{ 'lite-yt-embed.css' | asset_url | stylesheet_tag }}
+      <script src="{{ 'lite-yt-embed.js' | asset_url }}"></script>
+    {% endunless %}
 
     {{ 'kawa-accordion.css' | asset_url | stylesheet_tag }}
     {{ 'kawa-breadcrumbs.css' | asset_url | stylesheet_tag }}
@@ -281,21 +294,8 @@
       <link rel="stylesheet" href="{{ 'sugar.css' | asset_url }}">
     </noscript>
 
-    <link
-      rel="preload"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
-      as="style"
-      onload="this.οnlοad=null;this.rel='stylesheet'"
-    >
-    <noscript>
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
-    </noscript>
-
     {{ 'bootstrap-reset.css' | asset_url | stylesheet_tag }}
     <script src="{{ 'kawa-accordion.js' | asset_url }}" defer="defer"></script>
-
-    {{ 'lite-yt-embed.css' | asset_url | stylesheet_tag }}
-    <script src="{{ 'lite-yt-embed.js' | asset_url }}"></script>
 
     {%- unless settings.type_body_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
@@ -376,12 +376,3 @@
     {%- endif -%}
   </body>
 </html>
-
-{% comment %}
-  {% include 'etranslate-language-switch-control' %}
-  {% include 'etranslate-dynamic-element.liquid' %}
-
-  {% include 'etranslate-rtl' %}
-
-  {% include 'etranslate-language-switch-control.liquid' %}
-{% endcomment %}
