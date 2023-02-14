@@ -15,9 +15,7 @@
 <nav class="kawa-breadcrumbs-nav">
   <ol class="kawa-breadcrumbs">
     <li>
-      <a href="{{ pages['support-center'].url }}">
-        Kawa Support
-      </a>
+      <a href="{{ pages['support-center'].url }}"> Kawa Support </a>
     </li>
     {%- case type -%}
       {%- when 'normal_page' -%}
@@ -41,11 +39,13 @@
             </a>
           </li>
         {%- endif -%}
-        <li>
-          <a href="{{ sub_page.url }}">
-            {{ sub_page.title }}
-          </a>
-        </li>
+        {%- if sub_page != blank -%}
+          <li>
+            <a href="{{ sub_page.url }}">
+              {{ sub_page.title }}
+            </a>
+          </li>
+        {% endif %}
         <li>
           {{ blog.title }}
         </li>
@@ -57,11 +57,13 @@
             </a>
           </li>
         {%- endif -%}
-        <li>
-          <a href="{{ sub_page.url }}">
-            {{ sub_page.title }}
-          </a>
-        </li>
+        {%- if sub_page != blank -%}
+          <li>
+            <a href="{{ sub_page.url }}">
+              {{ sub_page.title }}
+            </a>
+          </li>
+        {% endif %}
         <li>
           <a href="{{ blog.url }}">
             {{ blog.title }}
