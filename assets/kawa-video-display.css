@@ -29,10 +29,10 @@
 }
 
 .video-display-link .icon-f {
-  margin-left: 10px;
   position: relative;
+  left: 10px;
   top: 2px;
-  transition: margin-left 0.3s ease;
+  transition: left 0.3s ease;
 }
 
 .video-display-link:hover .text {
@@ -40,7 +40,7 @@
 }
 
 .video-display-link:hover .icon-f {
-  margin-left: 20px;
+  left: 20px;
 }
 
 .kawa-video-display .all-video {
