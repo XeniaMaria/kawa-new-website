@@ -111,6 +111,7 @@
 }
 
 #header .nav-right > li svg {
+  display: inline-block;
   position: relative;
   top: 4px;
 }
