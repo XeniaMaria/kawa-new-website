@@ -8,7 +8,10 @@
   </symbol>
 </svg>
 
-<div id="header">
+{%- assign path = shop.url | append: '/' -%}
+<div id="header" {% if canonical_url != path %}
+class="persistent-show"
+{% endif %}>
   <div class="header-wrapper-kawa d-flex mw-1200-c">
     <div class="logo-container">
       <a href="/">
@@ -403,12 +406,6 @@
     searchInputMb.addEventListener("blur",() => {
       searchInputWrapMb.classList.remove("active");
     })
-
-    //除了主页面，其他页面均显示header。
-    const path = window.location.pathname;
-    if(path !== "/"){
-      header.classList.add("persistent-show")
-    }
   })();
 </script>
 
