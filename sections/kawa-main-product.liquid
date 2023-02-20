@@ -99,7 +99,7 @@
                   </h5>
                 </div>
                 <div class="copy-box">
-                  <p class="copy-text" onclick="onCopyTextClick()" data-clipboard-target="#discount-code">COPY</p>
+                  <p class="copy-text" onclick="onCopyTextClick()">COPY</p>
                   <p class="copied-text" style="display: none;">COPIED</p>
                 </div>
               </div>
@@ -205,8 +205,6 @@
   </div>
 </div>
 
-<script src="{{ 'clipboard.min.js' | asset_url }}"></script>
-
 <script type="text/javascript">
   const productTabList = [];
   const onProductTabClick = (tab) => {
@@ -260,10 +258,12 @@
     fixNav();
   })
 
+  const discount_code = document.getElementById("discount-code");
   const copyText = document.querySelector(".copy-text");
   const copiedText = document.querySelector(".copied-text");
 
   const onCopyTextClick = () => {
+    window.navigator.clipboard.writeText(discount_code.innerText);
     copyText.style.display = "none";
     copiedText.style.display = "block";
     setTimeout(() => {
@@ -271,7 +271,6 @@
     copiedText.style.display = "none";
     },1000);
   }
-  new ClipboardJS(".copy-text");
 
   //导航
   window.addEventListener("load",() => {
