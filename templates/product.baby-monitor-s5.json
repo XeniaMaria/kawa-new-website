@@ -146,7 +146,7 @@
             "name": "Recording & Playback",
             "title": "Support local recording with TF \/ micro SD card.",
             "content": "KAWA baby monitor with camera support TF\/micro SD card(not included) up to 256GB to record and playback every precious moment of your baby's growth.",
-            "image": "shopify:\/\/shop_images\/3_c4227125-4ec9-4911-b938-937f8fbf4f0a.jpg"
+            "image": "shopify:\/\/shop_images\/3_3.676.jpg"
           }
         },
         "carousel-item-2": {
@@ -180,9 +180,9 @@
         "image-text-item-2": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/5_1879e7fa-93d5-4358-8d35-243a112a6ab2.jpg",
-            "title": "Connect up to 4 cameras & Cycle Monitoring",
-            "content": "A great choice for families with more than one baby. Up to 4 cameras can be connected and the screen can be set to loop."
+            "image": "shopify:\/\/shop_images\/cycle.jpg",
+            "title": "Cycle Monitoring",
+            "content": "A great choice for families with more than one baby."
           }
         }
       },
@@ -245,32 +245,32 @@
           "type": "image_text",
           "settings": {
             "image": "shopify:\/\/shop_images\/P1_429a41fd-6fe5-42f2-8b26-4c6f49be1172.jpg",
-            "title": "360° Panoramic View & 4X Zoom",
-            "content": "Each corner is covered with pan 350° and tilt 67°, easily making the video monitor controlled remotely. Need a closer look? 4X zoom makes it possible to watch every detail of your baby more closely and clearly."
+            "title": "Night Vision with Music, Keep a watchful eye from day to night.",
+            "content": "Camera LED light can be turned on or off. No red dot or red light from the baby camera, without causing any disturbance to your baby. Superior night vision offers you real scenes even in dim light conditions."
           }
         },
         "image-text-item-2": {
           "type": "image_text",
           "settings": {
             "image": "shopify:\/\/shop_images\/A9-300-2_cd7b645a-dc3e-45bf-9843-26e965c59b74.jpg",
-            "title": "Room Temperature Sensor",
-            "content": "Built-in temperature sensor will notify you with a sound alert and message when the temp exceeds the set range. Ensure your baby is in a comfortable environment."
+            "title": "Instant Crying Sound Alert and Detection",
+            "content": "Receive a clear and real-time sound alert when your baby cries or the temperature in your baby's room exceeds the threshold you set. There are 5 levels for adjustment."
           }
         },
         "image-text-item-3": {
           "type": "image_text",
           "settings": {
             "image": "shopify:\/\/shop_images\/7-1.jpg",
-            "title": "2-Way Audio Intercom",
-            "content": "Sometimes all your baby needs is to hear your voice. The convenient built-in microphone and speaker allow you to quickly and remotely soothe your baby, providing a full sense of security. So you can enjoy a peaceful morning in the kitchen or elsewhere in the home."
+            "title": "2-Way Talk, Get real-time contact with your baby",
+            "content": "When your baby wakes up crying or looking for you, real-time reply and chat with 2-way talk feature give the best comfort for your baby."
           }
         },
         "image-text-item-4": {
           "type": "image_text",
           "settings": {
             "image": "shopify:\/\/shop_images\/5_0c177200-5d73-4bd2-a65c-e1b504825a46.jpg",
-            "title": "VOX Sleep\/Wake & Audio-only Mode",
-            "content": "In optional Audio-only mode, you can also hear your baby's voice in real time with the screen off. In Smart VOX mode, the monitor screen will turn on when detecting a sudden voice, like crying or shouting from your baby. You will know instantly when you are needed."
+            "title": "Provide VOX Mode & Audio Only Mode",
+            "content": "In Audio only mode, you can also hear your baby's voice in real time with the screen off. Turn on VOX function, and the screen will wake up automatically when your baby’s sound reaches the set threshold."
           }
         }
       },
@@ -279,6 +279,47 @@
         "image-text-item-2",
         "image-text-item-3",
         "image-text-item-4"
+      ],
+      "settings": {
+      }
+    },
+    "0d1e037a-f887-472e-8845-daf9dfa1dc9e": {
+      "type": "kawa-image-text",
+      "blocks": {
+        "template--15973510021280__0d1e037a-f887-472e-8845-daf9dfa1dc9e-16771456052c8d2e7a-0": {
+          "type": "image_text",
+          "settings": {
+            "title": "100% Secure and Encrypted Data",
+            "content": "Enhanced 2.4GHz wireless technology, No Wi-Fi or App Pairing - 100% private connection and prevent signal drop outs."
+          }
+        },
+        "template--15973510021280__0d1e037a-f887-472e-8845-daf9dfa1dc9e-16771456052c8d2e7a-1": {
+          "type": "image_text",
+          "settings": {
+            "title": "KAWA Exclusive Crib Support",
+            "content": "It's adapted to Baby Monitor S5 and KAWA other camera models. Exclusive design. Provides a good sense of security for your baby in the crib."
+          }
+        },
+        "template--15973510021280__0d1e037a-f887-472e-8845-daf9dfa1dc9e-16771456052c8d2e7a-2": {
+          "type": "image_text",
+          "settings": {
+            "title": "Cover Each Corner with 360° Pan and 150° Tilt",
+            "content": "With 360° pan and 150° tilt in each corner, easily gets the video monitor supervised to each corner."
+          }
+        },
+        "template--15973510021280__0d1e037a-f887-472e-8845-daf9dfa1dc9e-16771456052c8d2e7a-3": {
+          "type": "image_text",
+          "settings": {
+            "title": "Connect up to 4 cameras",
+            "content": "Up to 4 cameras can be connected and the screen can be set to loop."
+          }
+        }
+      },
+      "block_order": [
+        "template--15973510021280__0d1e037a-f887-472e-8845-daf9dfa1dc9e-16771456052c8d2e7a-0",
+        "template--15973510021280__0d1e037a-f887-472e-8845-daf9dfa1dc9e-16771456052c8d2e7a-1",
+        "template--15973510021280__0d1e037a-f887-472e-8845-daf9dfa1dc9e-16771456052c8d2e7a-2",
+        "template--15973510021280__0d1e037a-f887-472e-8845-daf9dfa1dc9e-16771456052c8d2e7a-3"
       ],
       "settings": {
       }
@@ -418,6 +459,7 @@
     "image-text-1",
     "0980a0d0-bd15-4ce2-bdf7-480057cb01e6",
     "image-text-2",
+    "0d1e037a-f887-472e-8845-daf9dfa1dc9e",
     "product-comparison",
     "specifications",
     "tabs",
