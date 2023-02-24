@@ -49,11 +49,11 @@
     "kawa-new-products": {
       "type": "kawa-new-products",
       "blocks": {
-        "product-slide-1": {
+        "d2cfa390-6ba3-4278-a76e-d2410ae6e785": {
           "type": "product-slide",
           "settings": {
-            "product_item": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6",
-            "product_image": "shopify:\/\/shop_images\/1_4500df3e-549c-4ac6-883b-cbecff7f7ff3.jpg",
+            "product_item": "baby-monitor-camera-and-night-vision-2k-qhd-camera-2-8-monitor-no-wifi-tf-card-not-included-recording-playback-2-way-talk-4x-zoom-lullabies-1400ft-range-baby-monitor-s5",
+            "product_image": "shopify:\/\/shop_images\/2_d0ef5cf5-b363-4d8a-ab7a-aa606a692c28.jpg",
             "tag": ""
           }
         },
@@ -62,6 +62,14 @@
           "settings": {
             "product_item": "baby-monitor-with-camera-and-audio-kawa-5-hd-display-video-baby-monitor-with-night-vision-temperature-sensor-2-way-audio-pan-tilt-zoom-white-noise-lullaby-20-hours-battery-life-1000ft-range",
             "product_image": "shopify:\/\/shop_images\/1_7ae69eed-c763-4e39-9692-b9e268e81f9b.jpg",
+            "tag": ""
+          }
+        },
+        "product-slide-1": {
+          "type": "product-slide",
+          "settings": {
+            "product_item": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6",
+            "product_image": "shopify:\/\/shop_images\/1_4500df3e-549c-4ac6-883b-cbecff7f7ff3.jpg",
             "tag": ""
           }
         },
@@ -80,22 +88,14 @@
             "product_image": "shopify:\/\/shop_images\/05.jpg",
             "tag": ""
           }
-        },
-        "d2cfa390-6ba3-4278-a76e-d2410ae6e785": {
-          "type": "product-slide",
-          "settings": {
-            "product_item": "baby-monitor-camera-and-night-vision-2k-qhd-camera-2-8-monitor-no-wifi-tf-card-not-included-recording-playback-2-way-talk-4x-zoom-lullabies-1400ft-range-baby-monitor-s5",
-            "product_image": "shopify:\/\/shop_images\/2_d0ef5cf5-b363-4d8a-ab7a-aa606a692c28.jpg",
-            "tag": ""
-          }
         }
       },
       "block_order": [
-        "product-slide-1",
+        "d2cfa390-6ba3-4278-a76e-d2410ae6e785",
         "product-slide-2",
+        "product-slide-1",
         "product-slide-3",
-        "50f5f7fa-a213-4103-960b-cd2bef194fc2",
-        "d2cfa390-6ba3-4278-a76e-d2410ae6e785"
+        "50f5f7fa-a213-4103-960b-cd2bef194fc2"
       ],
       "settings": {
         "title": "New on Kawa Store"
