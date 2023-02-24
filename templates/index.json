@@ -104,14 +104,14 @@
     "kawa-products-card": {
       "type": "kawa-products-card",
       "blocks": {
-        "product-card-1": {
+        "1fbf4da6-60a7-4886-8e8d-f6c04acdaffc": {
           "type": "product-card",
           "settings": {
-            "card_product": "kawa-3mp-ip-camera-video-wifi-surveillance-cameras-indoor-security-cam-smart-home-baby-monitor-tracking-audio-alexa",
-            "card_image": "shopify:\/\/shop_images\/13_4326b0d4-3200-462f-ae22-88a4349fe635.jpg",
-            "card_image_mb": "shopify:\/\/shop_images\/13_7ba2e721-4ff2-42d1-8bb6-36b61f2f1258.jpg",
-            "title": "Elderly, Kids and Pet Camera",
-            "des": "IP Camera A6"
+            "card_product": "baby-monitor-camera-and-night-vision-2k-qhd-camera-2-8-monitor-no-wifi-tf-card-not-included-recording-playback-2-way-talk-4x-zoom-lullabies-1400ft-range-baby-monitor-s5",
+            "card_image": "shopify:\/\/shop_images\/1180_x_612_5799196d-1f60-4284-a96a-484ab7a96b30.jpg",
+            "card_image_mb": "shopify:\/\/shop_images\/1180_x_612_bc226e57-8f51-4dbd-8d53-201848c15935.jpg",
+            "title": "Cute, Unique Unicorn Shape",
+            "des": "Baby Monitor S5"
           }
         },
         "product-card-2": {
@@ -134,22 +134,22 @@
             "des": "Dash Cam D6"
           }
         },
-        "1fbf4da6-60a7-4886-8e8d-f6c04acdaffc": {
+        "product-card-1": {
           "type": "product-card",
           "settings": {
-            "card_product": "baby-monitor-camera-and-night-vision-2k-qhd-camera-2-8-monitor-no-wifi-tf-card-not-included-recording-playback-2-way-talk-4x-zoom-lullabies-1400ft-range-baby-monitor-s5",
-            "card_image": "shopify:\/\/shop_images\/1180_x_612_5799196d-1f60-4284-a96a-484ab7a96b30.jpg",
-            "card_image_mb": "shopify:\/\/shop_images\/1180_x_612_bc226e57-8f51-4dbd-8d53-201848c15935.jpg",
-            "title": "Cute, Unique Unicorn Shape",
-            "des": "Baby Monitor S5"
+            "card_product": "kawa-3mp-ip-camera-video-wifi-surveillance-cameras-indoor-security-cam-smart-home-baby-monitor-tracking-audio-alexa",
+            "card_image": "shopify:\/\/shop_images\/13_4326b0d4-3200-462f-ae22-88a4349fe635.jpg",
+            "card_image_mb": "shopify:\/\/shop_images\/13_7ba2e721-4ff2-42d1-8bb6-36b61f2f1258.jpg",
+            "title": "Elderly, Kids and Pet Camera",
+            "des": "IP Camera A6"
           }
         }
       },
       "block_order": [
-        "product-card-1",
+        "1fbf4da6-60a7-4886-8e8d-f6c04acdaffc",
         "product-card-2",
         "product-card-3",
-        "1fbf4da6-60a7-4886-8e8d-f6c04acdaffc"
+        "product-card-1"
       ],
       "settings": {
         "title": "Kawa Fans Love These Products"
