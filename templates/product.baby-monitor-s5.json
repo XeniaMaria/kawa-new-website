@@ -244,7 +244,7 @@
         "image-text-item-1": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/P1_429a41fd-6fe5-42f2-8b26-4c6f49be1172.jpg",
+            "image": "shopify:\/\/shop_images\/5_7bfcae4b-f468-4ff0-a4cf-ef56e8c85af1.jpg",
             "title": "Night Vision with Music, Keep a watchful eye from day to night.",
             "content": "Camera LED light can be turned on or off. No red dot or red light from the baby camera, without causing any disturbance to your baby. Superior night vision offers you real scenes even in dim light conditions."
           }
@@ -252,7 +252,7 @@
         "image-text-item-2": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/A9-300-2_cd7b645a-dc3e-45bf-9843-26e965c59b74.jpg",
+            "image": "shopify:\/\/shop_images\/1_a561a0cc-5bb5-4b29-99e8-a75f01111120.jpg",
             "title": "Instant Crying Sound Alert and Detection",
             "content": "Receive a clear and real-time sound alert when your baby cries or the temperature in your baby's room exceeds the threshold you set. There are 5 levels for adjustment."
           }
@@ -260,7 +260,7 @@
         "image-text-item-3": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/7-1.jpg",
+            "image": "shopify:\/\/shop_images\/99.jpg",
             "title": "2-Way Talk, Get real-time contact with your baby",
             "content": "When your baby wakes up crying or looking for you, real-time reply and chat with 2-way talk feature give the best comfort for your baby."
           }
@@ -268,7 +268,7 @@
         "image-text-item-4": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/5_0c177200-5d73-4bd2-a65c-e1b504825a46.jpg",
+            "image": "shopify:\/\/shop_images\/13_b2d45f68-2a91-426b-bbb1-5d99335fa7ef.jpg",
             "title": "Provide VOX Mode & Audio Only Mode",
             "content": "In Audio only mode, you can also hear your baby's voice in real time with the screen off. Turn on VOX function, and the screen will wake up automatically when your baby’s sound reaches the set threshold."
           }
@@ -289,6 +289,7 @@
         "template--15973510021280__0d1e037a-f887-472e-8845-daf9dfa1dc9e-16771456052c8d2e7a-0": {
           "type": "image_text",
           "settings": {
+            "image": "shopify:\/\/shop_images\/2_b361333f-7856-40b3-91ba-84fa13a0322b.jpg",
             "title": "100% Secure and Encrypted Data",
             "content": "Enhanced 2.4GHz wireless technology, No Wi-Fi or App Pairing - 100% private connection and prevent signal drop outs."
           }
@@ -296,6 +297,7 @@
         "template--15973510021280__0d1e037a-f887-472e-8845-daf9dfa1dc9e-16771456052c8d2e7a-1": {
           "type": "image_text",
           "settings": {
+            "image": "shopify:\/\/shop_images\/7_1.jpg",
             "title": "KAWA Exclusive Crib Support",
             "content": "It's adapted to Baby Monitor S5 and KAWA other camera models. Exclusive design. Provides a good sense of security for your baby in the crib."
           }
@@ -303,6 +305,7 @@
         "template--15973510021280__0d1e037a-f887-472e-8845-daf9dfa1dc9e-16771456052c8d2e7a-2": {
           "type": "image_text",
           "settings": {
+            "image": "shopify:\/\/shop_images\/10_a6ce5241-63a9-4605-a2a8-d39590bb0360.jpg",
             "title": "Cover Each Corner with 360° Pan and 150° Tilt",
             "content": "With 360° pan and 150° tilt in each corner, easily gets the video monitor supervised to each corner."
           }
@@ -310,6 +313,7 @@
         "template--15973510021280__0d1e037a-f887-472e-8845-daf9dfa1dc9e-16771456052c8d2e7a-3": {
           "type": "image_text",
           "settings": {
+            "image": "shopify:\/\/shop_images\/1v4.jpg",
             "title": "Connect up to 4 cameras",
             "content": "Up to 4 cameras can be connected and the screen can be set to loop."
           }
