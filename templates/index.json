@@ -85,7 +85,7 @@
           "type": "product-slide",
           "settings": {
             "product_item": "baby-monitor-camera-and-night-vision-2k-qhd-camera-2-8-monitor-no-wifi-tf-card-not-included-recording-playback-2-way-talk-4x-zoom-lullabies-1400ft-range-baby-monitor-s5",
-            "product_image": "shopify:\/\/shop_images\/1V1.jpg",
+            "product_image": "shopify:\/\/shop_images\/2_d0ef5cf5-b363-4d8a-ab7a-aa606a692c28.jpg",
             "tag": ""
           }
         }
@@ -133,12 +133,21 @@
             "title": "Hands-Free Voice Control",
             "des": "Dash Cam D6"
           }
+        },
+        "1fbf4da6-60a7-4886-8e8d-f6c04acdaffc": {
+          "type": "product-card",
+          "settings": {
+            "card_product": "",
+            "title": "",
+            "des": ""
+          }
         }
       },
       "block_order": [
         "product-card-1",
         "product-card-2",
-        "product-card-3"
+        "product-card-3",
+        "1fbf4da6-60a7-4886-8e8d-f6c04acdaffc"
       ],
       "settings": {
         "title": "Kawa Fans Love These Products"
