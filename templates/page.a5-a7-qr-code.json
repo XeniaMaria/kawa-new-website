@@ -25,8 +25,37 @@
           }
         }
       },
-      "block_order": ["a5", "a7"]
+      "block_order": [
+        "video-1",
+        "video-2"
+      ],
+      "settings": {
+        "title": "Connection Videos"
+      }
+    },
+    "support-manuals": {
+      "type": "kawa-support-manuals",
+      "disabled": true,
+      "settings": {
+        "title": "Manuals",
+        "show_category": false,
+        "product": "dash-cam-2k-kawa-360-dash-camera-for-cars-1440p-with-starlight-color-night-vision-voice-control-emergency-recording-built-in-3d-sensor-hidden-design-dashcam-wdr-wide-angle-24h-parking-monitor"
+      }
+    },
+    "support-product": {
+      "type": "kawa-support-product",
+      "disabled": true,
+      "settings": {
+        "title": "Try to Purchase the KAWA Hardwire Kit PT01",
+        "product_image": "shopify:\/\/shop_images\/1_34f3f4db-67d2-4490-9e84-71f29eb1dee8.jpg",
+        "product": "kawa-hardwire-kit-pt01-compatible-with-kawa-dash-cam-d6-parking-surveillance-cable-car-dvr-24h-parking-monitor"
+      }
     }
   },
-  "order": ["qrcode-product"]
+  "order": [
+    "app-download",
+    "install-video",
+    "support-manuals",
+    "support-product"
+  ]
 }
