@@ -2,7 +2,21 @@
   "sections": {
     "app-download": {
       "type": "kawa-app-download",
+      "disabled": true,
       "settings": {
+        "is_single": false,
+        "app_download_name": "",
+        "app_download_title": "",
+        "app_download_des": "",
+        "app_download_learn_more": "",
+        "app_download_ios": "",
+        "app_download_ios_tips": "",
+        "app_download_android": "",
+        "app_download_android_tips": "",
+        "app_download_code_tips_ios": "",
+        "app_download_code_tips_android": "",
+        "app_download_apk_url": "",
+        "app_download_apk_tips": ""
       }
     },
     "install-video": {
@@ -35,6 +49,7 @@
     },
     "support-manuals": {
       "type": "kawa-support-manuals",
+      "disabled": true,
       "settings": {
         "title": "Manuals",
         "show_category": false,
@@ -43,6 +58,7 @@
     },
     "support-product": {
       "type": "kawa-support-product",
+      "disabled": true,
       "settings": {
         "title": "Try to Purchase the KAWA Hardwire Kit PT01",
         "product_image": "shopify:\/\/shop_images\/1_34f3f4db-67d2-4490-9e84-71f29eb1dee8.jpg",
