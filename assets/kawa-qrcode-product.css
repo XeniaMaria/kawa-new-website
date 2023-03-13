@@ -1,0 +1,56 @@
+.kawa-qrcode-product {
+  background-color: #caeaff;
+  padding-top: 28.87px;
+  padding-bottom: 28px;
+  font-family: -apple-system, BlinkMacSystemFont, PingFang SC, Helvetica, Tahoma, Arial, Microsoft YaHei, 微软雅黑,
+    sans-serif;
+}
+
+.kawa-qrcode-product .section-title {
+  margin-bottom: 29.67px;
+  font-size: calc(100vw * 16 / 357);
+  color: #0493f1;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: calc(100vw * 1.2 / 357);
+}
+
+.kawa-qrcode-product .qr-product-card {
+  width: calc(100vw * 336 / 357);
+  height: calc(100vw * 336 / 357 / 2.48);
+  background-color: #fff;
+  margin: 0 auto calc(100vw * 9.67 / 357);
+  padding: 0 calc(100vw * 36 / 357);
+  border-radius: calc(100vw * 12 / 357);
+  display: flex;
+  align-items: center;
+}
+
+.kawa-qrcode-product .qr-product-txt {
+  height: 100%;
+  width: calc(100vw * 155.67 / 357);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: calc(100vw * 47 / 357);
+}
+
+.kawa-qrcode-product .qr-product-name {
+  margin-bottom: calc(100vw * 336 / 357 / 2.48 / 8.15);
+  color: #333;
+  font-size: calc(100vw * 12 / 357);
+  font-weight: 500;
+  letter-spacing: calc(100vw * 0.9 / 357);
+}
+
+.kawa-qrcode-product .qr-product-subtitle {
+  color: #666;
+  font-size: calc(100vw * 20 / 357);
+  font-weight: 500;
+  letter-spacing: calc(100vw * 1.5 / 357);
+}
+
+.kawa-qrcode-product .qr-product-img {
+  width: calc(100vw * 46 / 357);;
+  height: auto;
+}

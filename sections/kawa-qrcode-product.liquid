@@ -1,0 +1,66 @@
+{{ 'kawa-qrcode-product.css' | asset_url | stylesheet_tag }}
+
+<div class="kawa-qrcode-product">
+  <div class="section-title">{{ section.settings.title }}</div>
+  <div class="qr-product-list">
+    {%- for block in section.blocks -%}
+      <a href="{{ block.settings.product_url }}">
+        <div class="qr-product-card">
+          <div class="qr-product-txt">
+            <span class="qr-product-name">{{ block.settings.product_name }}</span>
+            <span class="qr-product-subtitle">{{ block.settings.product_subtitle }}</span>
+          </div>
+          <img
+            src="{{ block.settings.product_image | image_url }}"
+            class="qr-product-img"
+            height="90"
+            width="60"
+            loading="lazy"
+          >
+        </div>
+      </a>
+    {%- endfor -%}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "扫描二维码后的产品列表",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "标题"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "product_card",
+      "name": "产品项",
+      "settings": [
+        {
+          "type": "text",
+          "id": "product_name",
+          "label": "产品名"
+        },
+        {
+          "type": "text",
+          "id": "product_subtitle",
+          "label": "简称"
+        },
+        {
+          "type": "image_picker",
+          "id": "product_image",
+          "label": "产品图片"
+        },
+        {
+          "type": "url",
+          "id": "product_url",
+          "label": "链接"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
