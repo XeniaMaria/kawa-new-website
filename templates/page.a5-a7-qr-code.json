@@ -65,12 +65,57 @@
         "product_image": "shopify:\/\/shop_images\/1_34f3f4db-67d2-4490-9e84-71f29eb1dee8.jpg",
         "product": "kawa-hardwire-kit-pt01-compatible-with-kawa-dash-cam-d6-parking-surveillance-cable-car-dvr-24h-parking-monitor"
       }
+    },
+    "b44b19a6-832b-4318-b950-aa6ab8a7dac7": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15987608387744__b44b19a6-832b-4318-b950-aa6ab8a7dac7-167869396893789d16-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Test for A5 and A6 E-Manual<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15987608387744__b44b19a6-832b-4318-b950-aa6ab8a7dac7-167869396893789d16-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--15987608387744__b44b19a6-832b-4318-b950-aa6ab8a7dac7-167869396893789d16-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15987608387744__b44b19a6-832b-4318-b950-aa6ab8a7dac7-167869396893789d16-0",
+        "template--15987608387744__b44b19a6-832b-4318-b950-aa6ab8a7dac7-167869396893789d16-1",
+        "template--15987608387744__b44b19a6-832b-4318-b950-aa6ab8a7dac7-167869396893789d16-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "app-download",
     "install-video",
     "support-manuals",
-    "support-product"
+    "support-product",
+    "b44b19a6-832b-4318-b950-aa6ab8a7dac7"
   ]
 }
