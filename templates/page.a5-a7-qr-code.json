@@ -21,6 +21,7 @@
     },
     "install-video": {
       "type": "kawa-install-video",
+      "disabled": true,
       "blocks": {
         "video-1": {
           "type": "install-video",
