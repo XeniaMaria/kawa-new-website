@@ -2,6 +2,7 @@
   "sections": {
     "app-download": {
       "type": "kawa-app-download",
+      "disabled": true,
       "settings": {
         "is_single": true,
         "app_download_name": "",
@@ -27,6 +28,7 @@
     },
     "31948728-271e-4069-94bd-2a86622730f7": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "Dash Cam D6 Connection Guidance Video-(iOS)",
         "heading_size": "h1",
@@ -41,6 +43,7 @@
     },
     "e458a475-b0b5-402c-a6ea-7bb955c8bfce": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "Dash Cam D6 Connection Guidance Video-(Android)",
         "heading_size": "h1",
@@ -58,11 +61,12 @@
       "settings": {
         "title": "Manuals",
         "show_category": false,
-        "product": "qr-code-for-user-manual-dash-cam-2k-kawa-360-dash-camera-for-cars-1440p-with-starlight-color-night-vision-voice-control-emergency-recording-built-in-3d-sensor-hidden-design-dashcam-wdr-wide-angle-24h-parking-monitor"
+        "product": ""
       }
     },
     "dbc48c40-df54-443f-b186-4300d5e798a6": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "template--15927911055520__dbc48c40-df54-443f-b186-4300d5e798a6-1672052838ee76c00b-0": {
           "type": "heading",
