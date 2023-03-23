@@ -101,6 +101,7 @@ cart-drawer:not(.is-empty) .cart-drawer__collection {
 
 .cart-drawer__warnings .drawer__close {
   right: 5px;
+  top: 5px;
 }
 
 .drawer__close svg {
