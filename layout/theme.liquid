@@ -319,10 +319,6 @@
     <link rel="stylesheet" href="{{ 'component-cart-items.css' | asset_url }}" media="print" onload="this.media='all'">
     {{ 'component-header-kawa.css' | asset_url | stylesheet_tag }}
 
-    {%- if settings.cart_type == 'drawer' -%}
-      <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
-    {%- endif -%}
-
     <script>
       document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
       if (Shopify.designMode) {
