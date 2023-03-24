@@ -266,7 +266,7 @@
 
 .product-sub-menu .product-card-list {
   padding: 1.5rem 0;
-  max-height: 80vh;
+  max-height: 415px;
   overflow-y: auto;
 }
 
