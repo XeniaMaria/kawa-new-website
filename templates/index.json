@@ -2,6 +2,7 @@
   "sections": {
     "kawa_video_banner": {
       "type": "kawa-video-banner",
+      "disabled": true,
       "blocks": {
         "banner-item-1": {
           "type": "banner_item",
@@ -44,6 +45,16 @@
         "banner-item-3"
       ],
       "settings": {
+      }
+    },
+    "8de9d4c1-f974-4d37-b44e-7a4e4d7800bc": {
+      "type": "kawa-single-img-text",
+      "settings": {
+        "pc_img": "shopify:\/\/shop_images\/KAWA-BABY-MONITOR-S5-BANNER.jpg",
+        "title": "",
+        "content": "",
+        "text_pos": "center",
+        "text_color": "white"
       }
     },
     "kawa-new-products": {
@@ -357,6 +368,7 @@
   },
   "order": [
     "kawa_video_banner",
+    "8de9d4c1-f974-4d37-b44e-7a4e4d7800bc",
     "kawa-new-products",
     "kawa-products-card",
     "kawa-preview-video",
