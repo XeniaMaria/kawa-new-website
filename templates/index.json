@@ -2,7 +2,6 @@
   "sections": {
     "kawa_video_banner": {
       "type": "kawa-video-banner",
-      "disabled": true,
       "blocks": {
         "banner-item-1": {
           "type": "banner_item",
@@ -49,6 +48,7 @@
     },
     "8de9d4c1-f974-4d37-b44e-7a4e4d7800bc": {
       "type": "kawa-single-img-text",
+      "disabled": true,
       "settings": {
         "pc_img": "shopify:\/\/shop_images\/KAWA-BABY-MONITOR-S5-BANNER.jpg",
         "title": "",
