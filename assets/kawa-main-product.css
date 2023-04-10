@@ -6,7 +6,7 @@
 .kawa-main-product .product-page-header {
   height: 72px;
   position: relative;
-  background-origin: #fff;
+  background: #fff;
   transition: opacity 0.25s;
   border-top: 1px solid #e5e5e5;
 }
@@ -22,12 +22,6 @@
   will-change: transform;
   visibility: visible;
   opacity: 1;
-}
-
-.kawa-main-product .product-short-name {
-  padding: 24px 10px 24px 76px;
-  font-size: 16px;
-  font-weight: 700;
 }
 
 .kawa-main-product .product-header-nav {
