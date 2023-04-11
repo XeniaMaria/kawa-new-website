@@ -1,9 +1,8 @@
-{{ "kawa-main-product.css" | asset_url | stylesheet_tag }}
+{{ 'kawa-main-product.css' | asset_url | stylesheet_tag }}
 
 <div id="product-page-purchase" class="kawa-main-product w-100">
   <div class="product-page-header flex-b">
-    <p class="product-short-name">
-    </p>
+    <p class="product-short-name">&nbsp;</p>
     <nav class="product-header-nav flex-bc">
       <a class="header-nav-item product-nav-item-1 active">Purchase</a>
       <a class="header-nav-item product-nav-item-2">Overview</a>
@@ -12,20 +11,20 @@
     </nav>
   </div>
 
-  <div class="product-page-main d-flex w-100">
+  <div class="product-page-main w-100">
     <div class="product-images">
       <div class="swiper-container main-product-swiper-container">
         <div class="swiper-wrapper">
           {%- for image in product.images -%}
-          <div class="swiper-slide">
-            <img
-              src="{{ image | image_url }}"
-              loading="lazy"
-              class="w-100-h-auto"
-              width="100"
-              height="100"
-            />
-          </div>
+            <div class="swiper-slide">
+              <img
+                src="{{ image | image_url }}"
+                loading="lazy"
+                class="w-100-h-auto"
+                width="100"
+                height="100"
+              >
+            </div>
           {%- endfor -%}
         </div>
         <div class="swiper-pagination swiper-pagination-custom"></div>
@@ -43,15 +42,6 @@
           <h1 class="product-information-name">
             {{ product.metafields.descriptors.subtitle }}
           </h1>
-          <div class="product-information-price">
-            {%- unless product.price_varies == false and product.compare_at_price_varies %}
-              <span class="orig-price">
-                {{ product.compare_at_price | money }}
-              </span>
-              &nbsp;
-            {%- endunless -%}
-            {{ product.price | money }}
-          </div>
         </div>
         <div class="product-description border-bottom">
           {{ product.description }}
@@ -61,7 +51,7 @@
         {% endif %}
         {%- if section.settings.show_discount -%}
           <div class="product-discount-code border-bottom">
-            <p class="discount-title"  data-toggle="modal" data-target="#discount-modal">
+            <p class="discount-title" data-toggle="modal" data-target="#discount-modal">
               <svg class="icon-f" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
                 <path d="M920.952 337.345c-22.474-53.132-54.639-100.843-95.604-141.807-40.964-40.964-88.675-73.13-141.807-95.603C628.517 76.661 570.083 64.86 509.866 64.86c-60.217 0-118.65 11.801-173.676 35.075-53.132 22.473-100.843 54.639-141.807 95.603-40.964 40.964-73.13 88.675-95.603 141.807-23.274 55.026-35.075 113.458-35.075 173.676s11.801 118.65 35.075 173.676c22.473 53.132 54.639 100.843 95.603 141.807 40.964 40.965 88.675 73.13 141.807 95.604 55.026 23.273 113.458 35.074 173.676 35.074 60.217 0 118.65-11.801 173.676-35.074 53.132-22.474 100.843-54.639 141.807-95.604 40.965-40.964 73.13-88.675 95.604-141.807 23.273-55.026 35.074-113.459 35.074-173.676s-11.801-118.65-35.075-173.676zM552.268 827.936c-12.134 10.795-26.157 16.178-42.063 16.178-16.45 0-30.805-5.324-43.078-15.972-12.266-10.648-18.399-25.547-18.399-44.681 0-17.002 5.927-31.283 17.796-42.887 11.862-11.589 26.422-17.384 43.681-17.384 16.987 0 31.275 5.795 42.872 17.384 11.589 11.604 17.392 25.885 17.392 42.887-.001 18.87-6.068 33.695-18.201 44.475zm151.059-374.509c-9.295 17.252-20.355 32.15-33.165 44.681-12.803 12.545-35.791 33.636-68.956 63.301-9.17 8.354-16.516 15.708-22.039 22.046-5.53 6.339-9.648 12.134-12.34 17.384-2.699 5.265-4.787 10.516-6.265 15.781-1.485 5.251-3.714 14.487-6.677 27.709-5.125 28.032-21.171 42.063-48.13 42.063-14.024 0-25.819-4.589-35.393-13.766-9.567-9.163-14.354-22.782-14.354-40.842 0-22.649 3.5-42.269 10.516-58.844 7.008-16.59 16.311-31.15 27.907-43.681 11.589-12.545 27.231-27.444 46.917-44.696 17.252-15.105 29.731-26.488 37.408-34.18a115.268 115.268 0 0 0 19.414-25.679c5.265-9.442 7.891-19.678 7.891-30.738 0-21.576-8.023-39.769-24.069-54.609-16.038-14.825-36.739-22.238-62.08-22.238-29.665 0-51.505 7.486-65.522 22.443-14.023 14.972-25.885 37.004-35.592 66.125-9.17 30.474-26.562 45.711-52.174 45.711-15.104 0-27.841-5.324-38.217-15.972-10.383-10.648-15.575-22.179-15.575-34.592 0-25.606 8.221-51.564 24.672-77.846 16.443-26.297 40.445-48.064 71.993-65.316 31.547-17.266 68.353-25.885 110.416-25.885 39.092 0 73.611 7.207 103.54 21.635s53.05 34.033 69.36 58.844c16.318 24.811 24.473 51.77 24.473 80.891-.001 22.913-4.649 43.003-13.959 60.27z"/>
               </svg>
@@ -70,7 +60,6 @@
               <div class="modal fade" id="discount-modal">
                 <div class="modal-dialog modal-dialog-centered">
                   <div class="modal-content">
-
                     <!-- 模态框头部 -->
                     <div class="modal-header">
                       <h4 class="modal-title">Discount Code FAQ</h4>
@@ -122,14 +111,15 @@
             type="hidden"
             name="id"
             value="{{ product.selected_or_first_available_variant.id }}"
-            {% if product.selected_or_first_available_variant.availabel == false %}disabled {% endif %}
+            {% if product.selected_or_first_available_variant.availabel == false %}
+              disabled
+            {% endif %}
             form="product-purchase-form"
           >
         {%- else -%}
           <div class="product-variant border-bottom"></div>
         {%- endif -%}
 
-        </div>
         <div class="product-purchase-quantity border-bottom">
           <label for="quantity">Qty</label>
           <quantity-input class="quantity-box">
@@ -155,40 +145,43 @@
             </button>
           </quantity-input>
         </div>
-        <div class="product-store border-bottom">
-          <div class="product-store-title">Kawa Store</div>
-          <div class="product-store-list">
-            {%- for block in section.blocks -%}
-              {%- case block.type -%}
-                {%- when "store_info_item" -%}
-                  <div class="kawa-store-list__item">
-                    <div class="store-info-item" data-toggle="modal" data-target="#store-modal-{{ forloop.index }}">
-                      <p>{{ block.settings.title }}</p>
-                    </div>
+        {%- if section.settings.show_store_info -%}
+          <div class="product-store border-bottom">
+            <div class="product-store-title">Kawa Store</div>
+            <div class="product-store-list">
+              {%- for block in section.blocks -%}
+                {%- case block.type -%}
+                  {%- when 'store_info_item' -%}
+                    <div class="kawa-store-list__item">
+                      <div class="store-info-item" data-toggle="modal" data-target="#store-modal-{{ forloop.index }}">
+                        <p>{{ block.settings.title }}</p>
+                      </div>
 
-                    <div class="modal fade" id="store-modal-{{ forloop.index }}">
-                      <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
+                      <div class="modal fade" id="store-modal-{{ forloop.index }}">
+                        <div class="modal-dialog modal-dialog-centered">
+                          <div class="modal-content">
+                            <!-- 模态框头部 -->
+                            <div class="modal-header">
+                              <h4 class="modal-title">{{ block.settings.title }}</h4>
+                              <button type="button" class="close" data-dismiss="modal" style="font-size: 35px;">
+                                &times;
+                              </button>
+                            </div>
 
-                          <!-- 模态框头部 -->
-                          <div class="modal-header">
-                            <h4 class="modal-title">{{ block.settings.title }}</h4>
-                            <button type="button" class="close" data-dismiss="modal" style="font-size: 35px;">&times;</button>
-                          </div>
-
-                          <!-- 模态框主体 -->
-                          <div class="modal-body">
-                            {{ block.settings.content }}
+                            <!-- 模态框主体 -->
+                            <div class="modal-body">
+                              {{ block.settings.content }}
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                {%- else -%}
-              {%- endcase -%}
-            {%- endfor -%}
+                  {%- else -%}
+                {%- endcase -%}
+              {%- endfor -%}
+            </div>
           </div>
-        </div>
+        {%- endif -%}
         {%- if section.settings.show_payment_flags -%}
           <div class="payment-method border-bottom">
             <div class="payment-method-title">Pay with Ease</div>
@@ -199,6 +192,15 @@
             </div>
           </div>
         {%- endif -%}
+        <div class="product-information-price border-bottom">
+          {%- unless product.price_varies == false and product.compare_at_price_varies %}
+            <span class="orig-price">
+              {{ product.compare_at_price | money }}
+            </span>
+            &nbsp;
+          {%- endunless -%}
+          {{ product.price | money }}
+        </div>
       </div>
     </div>
   </div>
@@ -207,11 +209,11 @@
 <script type="text/javascript">
   const productTabList = [];
   const onProductTabClick = (tab) => {
-    tab.tabMenu.addEventListener("click", (e) => {
+    tab.tabMenu.addEventListener('click', (e) => {
       productTabList.forEach((t) => {
-        t.tabMenu.classList.remove("active");
+        t.tabMenu.classList.remove('active');
       });
-      tab.tabMenu.classList.add("active");
+      tab.tabMenu.classList.add('active');
     });
   };
   for (let i = 1; i <= 4; i++) {
@@ -222,98 +224,98 @@
     onProductTabClick(temp);
   }
 
-  window.addEventListener("load", () => {
-    var swiper = new Swiper(".main-product-swiper-container", {
+  window.addEventListener('load', () => {
+    var swiper = new Swiper('.main-product-swiper-container', {
       loop: true,
       navigation: {
-        nextEl: ".main-product-button-next",
-        prevEl: ".main-product-button-prev"
+        nextEl: '.main-product-button-next',
+        prevEl: '.main-product-button-prev',
       },
       pagination: {
-        el: ".swiper-pagination-custom",
-        type: "fraction"
-      }
+        el: '.swiper-pagination-custom',
+        type: 'fraction',
+      },
     });
   });
 
   //监听滚动事件固定导航头
   function fixNav() {
-    const navElement = document.querySelector(".product-page-header");
+    const navElement = document.querySelector('.product-page-header');
     window.addEventListener(
-      "scroll",
+      'scroll',
       debounce(() => {
         const afterScrollTop = document.documentElement.scrollTop;
 
         if (afterScrollTop >= 88) {
-          navElement.classList.add("fixed");
+          navElement.classList.add('fixed');
         } else {
-          navElement.classList.remove("fixed");
+          navElement.classList.remove('fixed');
         }
       }, 100)
     );
   }
 
-  window.addEventListener('load',()=> {
+  window.addEventListener('load', () => {
     fixNav();
-  })
+  });
 
-  const discount_code = document.getElementById("discount-code");
-  const copyText = document.querySelector(".copy-text");
-  const copiedText = document.querySelector(".copied-text");
+  const discount_code = document.getElementById('discount-code');
+  const copyText = document.querySelector('.copy-text');
+  const copiedText = document.querySelector('.copied-text');
 
   const onCopyTextClick = () => {
     window.navigator.clipboard.writeText(discount_code.innerText);
-    copyText.style.display = "none";
-    copiedText.style.display = "block";
+    copyText.style.display = 'none';
+    copiedText.style.display = 'block';
     setTimeout(() => {
-      copyText.style.display = "block";
-    copiedText.style.display = "none";
-    },1000);
-  }
+      copyText.style.display = 'block';
+      copiedText.style.display = 'none';
+    }, 1000);
+  };
 
   //导航
-  window.addEventListener("load",() => {
-    const purchaseEl = document.getElementById("product-page-purchase");
-    const purchaseNav = document.querySelector(".product-nav-item-1");
-    const overviewEl = document.getElementById("product-page-overview");
-    const overviewNav = document.querySelector(".product-nav-item-2");
-    const compareEl = document.getElementById("product-page-compare");
-    const compareNav = document.querySelector(".product-nav-item-3");
-    const faqEl = document.getElementById("product-page-faq");
-    const faqNav = document.querySelector(".product-nav-item-4");
+  window.addEventListener('load', () => {
+    const purchaseEl = document.getElementById('product-page-purchase');
+    const purchaseNav = document.querySelector('.product-nav-item-1');
+    const overviewEl = document.getElementById('product-page-overview');
+    const overviewNav = document.querySelector('.product-nav-item-2');
+    const compareEl = document.getElementById('product-page-compare');
+    const compareNav = document.querySelector('.product-nav-item-3');
+    const faqEl = document.getElementById('product-page-faq');
+    const faqNav = document.querySelector('.product-nav-item-4');
 
     const productNavEls = [
-      {el:purchaseEl,nav:purchaseNav},
-      {el:overviewEl,nav:overviewNav},
-      {el:compareEl,nav:compareNav},
-      {el:faqEl,nav:faqNav}
-    ]
+      { el: purchaseEl, nav: purchaseNav },
+      { el: overviewEl, nav: overviewNav },
+      { el: compareEl, nav: compareNav },
+      { el: faqEl, nav: faqNav },
+    ];
 
     productNavEls.forEach((item) => {
-      if(item.el && item.nav) {
+      if (item.el && item.nav) {
         item.nav.onclick = () => {
           window.scrollTo({
             top: item.el.offsetTop - 100,
-            behavior: "smooth"
-          })
-        }
+            behavior: 'smooth',
+          });
+        };
       }
-    })
+    });
 
-    window.addEventListener("scroll", () => {
+    window.addEventListener('scroll', () => {
       const viewportHeight = window.innerHeight;
       productNavEls.forEach((item) => {
-        if(item.el && item.nav) {
-          if(item.el.getBoundingClientRect().top < viewportHeight) {
+        if (item.el && item.nav) {
+          if (item.el.getBoundingClientRect().top < viewportHeight) {
             productNavEls.forEach((it) => {
-              it.nav.classList.remove("active");
+              it.nav.classList.remove('active');
             });
-            item.nav.classList.add("active");
+            item.nav.classList.add('active');
           }
         }
-      })
-    })
-  })
+      });
+    });
+  });
 </script>
 
 {% schema %}
@@ -322,9 +324,9 @@
   "tag": "section",
   "settings": [
     {
-     "type": "text",
-     "id": "discount_code",
-     "label": "折扣码"
+      "type": "text",
+      "id": "discount_code",
+      "label": "折扣码"
     },
     {
       "type": "checkbox",
@@ -359,6 +361,12 @@
       "id": "show_payment_flags",
       "label": "显示支持的支付方式图标",
       "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_store_info",
+      "label": "显示保证信息",
+      "default": false
     }
   ],
   "blocks": [

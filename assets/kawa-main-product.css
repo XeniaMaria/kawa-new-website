@@ -65,17 +65,18 @@
 }
 
 .kawa-main-product .product-images {
-  width: 62.5%;
+  width: 50%;
 }
 
 .kawa-main-product .product-information {
   padding: 2.6% 5.2% 2.6% 4.2%;
-  width: 37.5%;
+  width: 50%;
   min-width: 500px;
 }
 
 .kawa-main-product .product-page-main {
   background: #fbfbfb;
+  display: flex;
 }
 
 /*轮播图样式*/
@@ -368,16 +369,29 @@
   width: 174px;
 }
 
-@media (max-width: 1440px) {
-  .kawa-main-product .product-images {
-    width: 10%;
-    flex-grow: 1;
-  }
-
-  .kawa-main-product .product-information {
-    padding: 2.6% 5.2% 2.6% 7%;
-    width: 50%;
-  }
+.kawa-main-product .shopify-payment-button__button {
+  background: red;
+  color: #fff;
+  border-radius: 26px;
+  opacity: 1;
+  box-shadow: none;
+  min-height: 0;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 26px;
+  font-size: 18px;
+  padding: 0;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  font-weight: 600;
+  overflow: hidden;
+  cursor: pointer;
+  font-size: 16px;
+}
+.kawa-main-product .shopify-payment-button__button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  background-color: rgb(18, 18, 18);
 }
 
 @media (max-width: 768px) {
