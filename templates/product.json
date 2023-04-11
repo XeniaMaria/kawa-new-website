@@ -313,6 +313,20 @@
         "jump_text": "how to connect alexa",
         "video_link": "https://reolink.com/wp-content/assets/banner/reolink-go-pt-homepage-banner-pc.mp4"
       }
+    },
+    "banner-text-new": {
+      "type": "kawa-banner-text-new",
+      "settings": {
+        "offset_x": 200,
+        "offset_y": 200,
+        "title": "Two-Way Audio: Talk Like You’re Here",
+        "des": "Built-in mic & speaker allow you to listen and talk back to whoever the camera catches in real time: A “hello” to families and friends or a warning to suspicious strangers.",
+        "icon_one": "shopify://shop_images/6c09258e0af82bf1510f1a6f46919e97.png",
+        "icon_text_one": "Microphone",
+        "icon_two": "shopify://shop_images/08eb545fd08c4b82cdde655ddca5ac97.png",
+        "icon_text_two": "Speaker",
+        "banner_img": "shopify://shop_images/11.jpg"
+      }
     }
   },
   "order": [
@@ -331,6 +345,7 @@
     "faq",
     "phone-preview",
     "product-buy",
-    "alexa-video"
+    "alexa-video",
+    "banner-text-new"
   ]
 }
