@@ -1,0 +1,64 @@
+{{ 'kawa-video-text-new.css' | asset_url | stylesheet_tag }}
+
+<div class="kawa-video-text-new">
+  <div class="info">
+    <h4>{{ section.settings.title }}</h4>
+    <p>
+      {{ section.settings.des }}
+    </p>
+  </div>
+  <video
+    class="video_pc"
+    crossorigin="anonymous"
+    autoplay
+    preload="none"
+    loop="true"
+    muted="muted"
+    src="{{ section.settings.video_url_pc }}"
+  ></video>
+  <video
+    class="video_mb"
+    crossorigin="anonymous"
+    autoplay
+    preload="none"
+    loop="true"
+    muted="muted"
+    src="{{ section.settings.video_url_mb }}"
+  ></video>
+</div>
+
+<script type="text/javascript"></script>
+
+{% schema %}
+{
+  "name": "视频详情模块NEW",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "标题"
+    },
+    {
+      "type": "textarea",
+      "id": "des",
+      "label": "正文"
+    },
+    {
+      "type": "url",
+      "id": "video_url_pc",
+      "label": "视频链接(PC端)"
+    },
+    {
+      "type": "url",
+      "id": "video_url_mb",
+      "label": "视频链接(移动端)"
+    }
+  ],
+  "presets": [
+    {
+      "name": "视频详情模块NEW"
+    }
+  ]
+}
+{% endschema %}
