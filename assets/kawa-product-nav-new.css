@@ -1,0 +1,47 @@
+.kawa-product-nav-new {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .kawa-product-nav-new {
+    display: block;
+    padding: 8px 0 16px;
+    background: #fff;
+    letter-spacing: -0.02em;
+  }
+
+  .kawa-product-nav-new ul {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .kawa-product-nav-new li {
+    width: 120px;
+    padding: 0 8px;
+  }
+
+  .kawa-product-nav-new a {
+    color: rgba(0, 0, 0, 0.85);
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.02em;
+  }
+
+  .kawa-product-nav-new img {
+    line-height: 64px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 64px;
+    height: 64px;
+  }
+
+  .kawa-product-nav-new .info {
+    margin-top: 4px;
+    display: block;
+  }
+}

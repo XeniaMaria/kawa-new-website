@@ -7,8 +7,8 @@
           "type": "banner_item",
           "settings": {
             "banner_product": "kawa-3mp-ip-camera-video-wifi-surveillance-cameras-indoor-security-cam-smart-home-baby-monitor-tracking-audio-alexa",
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3d90410dd6af475aabb4d4064569b829.mp4",
-            "video_link_mb": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/678d8fbc50cb4c25b1297be34768fbec.mp4",
+            "video_link": "https://cdn.shopify.com/videos/c/o/v/3d90410dd6af475aabb4d4064569b829.mp4",
+            "video_link_mb": "https://cdn.shopify.com/videos/c/o/v/678d8fbc50cb4c25b1297be34768fbec.mp4",
             "title": "Capture every",
             "dynamic_text": "360° Detail",
             "des": "Crystal-clear 2K Quard High-definition Image and Video."
@@ -18,8 +18,8 @@
           "type": "banner_item",
           "settings": {
             "banner_product": "kawa-3mp-ip-camera-video-wifi-surveillance-cameras-indoor-security-cam-smart-home-baby-monitor-tracking-audio-alexa",
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/774b69038f604c0c9ed0406e5c5fdbc6.mp4",
-            "video_link_mb": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/5fa3eb000ff94559a7b5698f1e3f641b.mp4",
+            "video_link": "https://cdn.shopify.com/videos/c/o/v/774b69038f604c0c9ed0406e5c5fdbc6.mp4",
+            "video_link_mb": "https://cdn.shopify.com/videos/c/o/v/5fa3eb000ff94559a7b5698f1e3f641b.mp4",
             "title": "AI Detection",
             "dynamic_text": "Instant Alerts",
             "des": "Receive Instant Notifications on Your Phone."
@@ -30,21 +30,16 @@
           "disabled": true,
           "settings": {
             "banner_product": "baby-monitor-with-camera-and-audio-kawa-video-baby-monitor-no-wifi-5-720p-hd-display-110-wide-angle-night-vision-temperature-sensor-2-way-audio-ptz-white-noise-20hrs-battery-1000ft-range",
-            "video_link": "https:\/\/reolink.com\/wp-content\/assets\/banner\/duo-poe-homepage-banner-pc.mp4",
-            "video_link_mb": "https:\/\/reolink.com\/wp-content\/assets\/banner\/duo-poe-homepage-banner-pc.mp4",
+            "video_link": "https://reolink.com/wp-content/assets/banner/duo-poe-homepage-banner-pc.mp4",
+            "video_link_mb": "https://reolink.com/wp-content/assets/banner/duo-poe-homepage-banner-pc.mp4",
             "title": "Make Security",
             "dynamic_text": "Double",
             "des": "Solar-Powered, or Rechargeable Battery-Powered; Your Wire-Free Security Camera Pro."
           }
         }
       },
-      "block_order": [
-        "banner-item-1",
-        "banner-item-2",
-        "banner-item-3"
-      ],
-      "settings": {
-      }
+      "block_order": ["banner-item-1", "banner-item-2", "banner-item-3"],
+      "settings": {}
     },
     "kawa-new-products": {
       "type": "kawa-new-products",
@@ -53,7 +48,7 @@
           "type": "product-slide",
           "settings": {
             "product_item": "baby-monitor-camera-and-night-vision-2k-qhd-camera-2-8-monitor-no-wifi-tf-card-not-included-recording-playback-2-way-talk-4x-zoom-lullabies-1400ft-range-baby-monitor-s5",
-            "product_image": "shopify:\/\/shop_images\/2_d0ef5cf5-b363-4d8a-ab7a-aa606a692c28.jpg",
+            "product_image": "shopify://shop_images/2_d0ef5cf5-b363-4d8a-ab7a-aa606a692c28.jpg",
             "tag": ""
           }
         },
@@ -61,7 +56,7 @@
           "type": "product-slide",
           "settings": {
             "product_item": "baby-monitor-with-camera-and-audio-kawa-5-hd-display-video-baby-monitor-with-night-vision-temperature-sensor-2-way-audio-pan-tilt-zoom-white-noise-lullaby-20-hours-battery-life-1000ft-range",
-            "product_image": "shopify:\/\/shop_images\/1_7ae69eed-c763-4e39-9692-b9e268e81f9b.jpg",
+            "product_image": "shopify://shop_images/1_7ae69eed-c763-4e39-9692-b9e268e81f9b.jpg",
             "tag": ""
           }
         },
@@ -69,7 +64,7 @@
           "type": "product-slide",
           "settings": {
             "product_item": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6",
-            "product_image": "shopify:\/\/shop_images\/1_4500df3e-549c-4ac6-883b-cbecff7f7ff3.jpg",
+            "product_image": "shopify://shop_images/1_4500df3e-549c-4ac6-883b-cbecff7f7ff3.jpg",
             "tag": ""
           }
         },
@@ -77,7 +72,7 @@
           "type": "product-slide",
           "settings": {
             "product_item": "kawa-3mp-ip-camera-video-wifi-surveillance-cameras-indoor-security-cam-smart-home-baby-monitor-tracking-audio-alexa",
-            "product_image": "shopify:\/\/shop_images\/13_60884f4e-5ab9-4f51-ad5c-730f373b7ca3.jpg",
+            "product_image": "shopify://shop_images/13_60884f4e-5ab9-4f51-ad5c-730f373b7ca3.jpg",
             "tag": ""
           }
         },
@@ -85,7 +80,7 @@
           "type": "product-slide",
           "settings": {
             "product_item": "dash-cam-2k-kawa-360-dash-camera-for-cars-1440p-with-starlight-color-night-vision-voice-control-emergency-recording-built-in-3d-sensor-hidden-design-dashcam-wdr-wide-angle-24h-parking-monitor",
-            "product_image": "shopify:\/\/shop_images\/05.jpg",
+            "product_image": "shopify://shop_images/05.jpg",
             "tag": ""
           }
         }
@@ -108,8 +103,8 @@
           "type": "product-card",
           "settings": {
             "card_product": "baby-monitor-camera-and-night-vision-2k-qhd-camera-2-8-monitor-no-wifi-tf-card-not-included-recording-playback-2-way-talk-4x-zoom-lullabies-1400ft-range-baby-monitor-s5",
-            "card_image": "shopify:\/\/shop_images\/1180_x_612_5799196d-1f60-4284-a96a-484ab7a96b30.jpg",
-            "card_image_mb": "shopify:\/\/shop_images\/1180_x_612_a169664c-19ce-454c-9d68-ba2d55639d27.jpg",
+            "card_image": "shopify://shop_images/1180_x_612_5799196d-1f60-4284-a96a-484ab7a96b30.jpg",
+            "card_image_mb": "shopify://shop_images/1180_x_612_a169664c-19ce-454c-9d68-ba2d55639d27.jpg",
             "title": "Cute, Unique Unicorn Shape",
             "des": "Baby Monitor S5"
           }
@@ -118,8 +113,8 @@
           "type": "product-card",
           "settings": {
             "card_product": "baby-monitor-with-camera-and-audio-kawa-5-hd-display-video-baby-monitor-with-night-vision-temperature-sensor-2-way-audio-pan-tilt-zoom-white-noise-lullaby-20-hours-battery-life-1000ft-range",
-            "card_image": "shopify:\/\/shop_images\/02_d651f02b-71fe-44ff-806f-192600220f41.jpg",
-            "card_image_mb": "shopify:\/\/shop_images\/02_7ab7363e-cd64-4d82-86bc-9ac909dd566b.jpg",
+            "card_image": "shopify://shop_images/02_d651f02b-71fe-44ff-806f-192600220f41.jpg",
+            "card_image_mb": "shopify://shop_images/02_7ab7363e-cd64-4d82-86bc-9ac909dd566b.jpg",
             "title": "Large 5'' IPS display 2K",
             "des": "Baby Monitor S7"
           }
@@ -128,8 +123,8 @@
           "type": "product-card",
           "settings": {
             "card_product": "dash-cam-2k-kawa-360-dash-camera-for-cars-1440p-with-starlight-color-night-vision-voice-control-emergency-recording-built-in-3d-sensor-hidden-design-dashcam-wdr-wide-angle-24h-parking-monitor",
-            "card_image": "shopify:\/\/shop_images\/1005_fa2dddad-840e-489b-b247-45efa1233caa.jpg",
-            "card_image_mb": "shopify:\/\/shop_images\/1005_13915436-80de-4063-9fd1-2b9176e418c5.jpg",
+            "card_image": "shopify://shop_images/1005_fa2dddad-840e-489b-b247-45efa1233caa.jpg",
+            "card_image_mb": "shopify://shop_images/1005_13915436-80de-4063-9fd1-2b9176e418c5.jpg",
             "title": "Hands-Free Voice Control",
             "des": "Dash Cam D6"
           }
@@ -138,19 +133,14 @@
           "type": "product-card",
           "settings": {
             "card_product": "kawa-3mp-ip-camera-video-wifi-surveillance-cameras-indoor-security-cam-smart-home-baby-monitor-tracking-audio-alexa",
-            "card_image": "shopify:\/\/shop_images\/13_4326b0d4-3200-462f-ae22-88a4349fe635.jpg",
-            "card_image_mb": "shopify:\/\/shop_images\/13_7ba2e721-4ff2-42d1-8bb6-36b61f2f1258.jpg",
+            "card_image": "shopify://shop_images/13_4326b0d4-3200-462f-ae22-88a4349fe635.jpg",
+            "card_image_mb": "shopify://shop_images/13_7ba2e721-4ff2-42d1-8bb6-36b61f2f1258.jpg",
             "title": "Elderly, Kids and Pet Camera",
             "des": "IP Camera A6"
           }
         }
       },
-      "block_order": [
-        "1fbf4da6-60a7-4886-8e8d-f6c04acdaffc",
-        "product-card-2",
-        "product-card-3",
-        "product-card-1"
-      ],
+      "block_order": ["1fbf4da6-60a7-4886-8e8d-f6c04acdaffc", "product-card-2", "product-card-3", "product-card-1"],
       "settings": {
         "title": "Kawa Fans Love These Products"
       }
@@ -158,8 +148,8 @@
     "kawa-preview-video": {
       "type": "kawa-preview-video",
       "settings": {
-        "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3ea6efc96c5745a79e2f086c33383b12.mp4",
-        "cover_image": "shopify:\/\/shop_images\/cj1013.00_00_02_20.Still001.jpg",
+        "video_link": "https://cdn.shopify.com/videos/c/o/v/3ea6efc96c5745a79e2f086c33383b12.mp4",
+        "cover_image": "shopify://shop_images/cj1013.00_00_02_20.Still001.jpg",
         "max_width": "mw-1200-c",
         "has_border": true
       }
@@ -170,38 +160,33 @@
         "video-block-1": {
           "type": "video-block",
           "settings": {
-            "video_poster": "shopify:\/\/shop_images\/8a953a1254d464d9662047ecf553a0ec_dc90c99a-e291-4820-99f1-30613b0c343a.jpg",
+            "video_poster": "shopify://shop_images/8a953a1254d464d9662047ecf553a0ec_dc90c99a-e291-4820-99f1-30613b0c343a.jpg",
             "video_html": "Kl4c1T9klEI"
           }
         },
         "video-block-2": {
           "type": "video-block",
           "settings": {
-            "video_poster": "shopify:\/\/shop_images\/1013_6cb0a69c-a8bc-471b-9ba8-8f333335d464.png",
+            "video_poster": "shopify://shop_images/1013_6cb0a69c-a8bc-471b-9ba8-8f333335d464.png",
             "video_html": "bOq0R5Ezrio"
           }
         },
         "video-block-3": {
           "type": "video-block",
           "settings": {
-            "video_poster": "shopify:\/\/shop_images\/1002_774bb933-6a5f-4be7-8ceb-3574b29dd41d.jpg",
+            "video_poster": "shopify://shop_images/1002_774bb933-6a5f-4be7-8ceb-3574b29dd41d.jpg",
             "video_html": "_7w_NSwtVfY"
           }
         },
         "video-block-4": {
           "type": "video-block",
           "settings": {
-            "video_poster": "shopify:\/\/shop_images\/1005_602b5e7e-457d-465c-a111-f07196fa540e.jpg",
+            "video_poster": "shopify://shop_images/1005_602b5e7e-457d-465c-a111-f07196fa540e.jpg",
             "video_html": "QCbqT9bfzBQ"
           }
         }
       },
-      "block_order": [
-        "video-block-1",
-        "video-block-2",
-        "video-block-3",
-        "video-block-4"
-      ],
+      "block_order": ["video-block-1", "video-block-2", "video-block-3", "video-block-4"],
       "settings": {
         "title": "See the Best #KawaUnboxing",
         "link_one_text": "Check how it works?",
@@ -217,7 +202,7 @@
           "type": "reason_card",
           "settings": {
             "card_title": "Fast, Free Shipping",
-            "card_content": "<p>We offer free shipping straight to your door throughout North America, Europe, and the Middle East*.<\/p><p><\/p><p>It usually takes 3-7 business days* for your package to be delivered, so you can sit back and relax, worry-free. Except for some special countries.<\/p><p>*Please see our shipping policy for more details.<\/p><p>*Due to COVID-19 shipping times may vary.<\/p>",
+            "card_content": "<p>We offer free shipping straight to your door throughout North America, Europe, and the Middle East*.</p><p></p><p>It usually takes 3-7 business days* for your package to be delivered, so you can sit back and relax, worry-free. Except for some special countries.</p><p>*Please see our shipping policy for more details.</p><p>*Due to COVID-19 shipping times may vary.</p>",
             "card_icon": "icon-truck"
           }
         },
@@ -225,7 +210,7 @@
           "type": "reason_card",
           "settings": {
             "card_title": "30-Day Free and Easy Returns",
-            "card_content": "<p>Get a full refund when you return your undamaged products within 30days - for any reason. Once the item arrives back at the KAWA warehouse for inspection, the refund process will begin.<\/p><p>See our refund policy for more details about what is needed for a smooth refund process..<\/p>",
+            "card_content": "<p>Get a full refund when you return your undamaged products within 30days - for any reason. Once the item arrives back at the KAWA warehouse for inspection, the refund process will begin.</p><p>See our refund policy for more details about what is needed for a smooth refund process..</p>",
             "card_icon": "icon-return"
           }
         },
@@ -233,16 +218,12 @@
           "type": "reason_card",
           "settings": {
             "card_title": "365 Days Warranty",
-            "card_content": "<p>KAWA provides warranty service and official customer support for 1 year. If you’re not totally satisfied with the products or request a repair, please feel free to find on the product listing or contact us at support@kawa-in.com with your order receipt for confirmation.<\/p>",
+            "card_content": "<p>KAWA provides warranty service and official customer support for 1 year. If you’re not totally satisfied with the products or request a repair, please feel free to find on the product listing or contact us at support@kawa-in.com with your order receipt for confirmation.</p>",
             "card_icon": "icon-warranty"
           }
         }
       },
-      "block_order": [
-        "card-truck",
-        "card-return",
-        "card-warranty"
-      ],
+      "block_order": ["card-truck", "card-return", "card-warranty"],
       "settings": {
         "title": "Why Choose Kawa?"
       }
@@ -254,7 +235,7 @@
           "type": "poster",
           "settings": {
             "title": "Category 1",
-            "image": "shopify:\/\/shop_images\/6feabd6e53c83c501b1dd1e153fba7d8_bd6651bf-02d6-40fb-b8d9-f2726a071d05.jpg",
+            "image": "shopify://shop_images/6feabd6e53c83c501b1dd1e153fba7d8_bd6651bf-02d6-40fb-b8d9-f2726a071d05.jpg",
             "link": "#"
           }
         },
@@ -262,7 +243,7 @@
           "type": "poster",
           "settings": {
             "title": "Category 2",
-            "image": "shopify:\/\/shop_images\/59c6f07bf7bae868dd56b1a9f3077648_588b9202-506a-491a-8e7d-2cc1afdb0f7a.jpg",
+            "image": "shopify://shop_images/59c6f07bf7bae868dd56b1a9f3077648_588b9202-506a-491a-8e7d-2cc1afdb0f7a.jpg",
             "link": "#"
           }
         },
@@ -291,13 +272,7 @@
           }
         }
       },
-      "block_order": [
-        "poster-1",
-        "poster-5",
-        "poster-2",
-        "poster-3",
-        "poster-4"
-      ],
+      "block_order": ["poster-1", "poster-5", "poster-2", "poster-3", "poster-4"],
       "settings": {
         "title": "Build Your Smart Home, Life, and Car."
       }
@@ -309,27 +284,23 @@
         "news-block-1": {
           "type": "news-block",
           "settings": {
-            "news_article": "buyers-guide\/something-special-for-mother-s-day"
+            "news_article": "buyers-guide/something-special-for-mother-s-day"
           }
         },
         "news-block-2": {
           "type": "news-block",
           "settings": {
-            "news_article": "buyers-guide\/check-out-kawas-newest-tech"
+            "news_article": "buyers-guide/check-out-kawas-newest-tech"
           }
         },
         "news-block-3": {
           "type": "news-block",
           "settings": {
-            "news_article": "buyers-guide\/winner-of-a-design-award"
+            "news_article": "buyers-guide/winner-of-a-design-award"
           }
         }
       },
-      "block_order": [
-        "news-block-1",
-        "news-block-2",
-        "news-block-3"
-      ],
+      "block_order": ["news-block-1", "news-block-2", "news-block-3"],
       "settings": {
         "title": "News"
       }
@@ -346,13 +317,59 @@
       "settings": {
         "heading": "Video",
         "heading_size": "h1",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false,
         "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "product-nav-new": {
+      "type": "kawa-product-nav-new",
+      "blocks": {
+        "product-1": {
+          "type": "product_card",
+          "settings": {
+            "image": "shopify://shop_images/ea0ac1b43f2dbf14718891d5e3545a71.png",
+            "info": "Kawa S1",
+            "product_url": "#"
+          }
+        },
+        "product-2": {
+          "type": "product_card",
+          "settings": {
+            "image": "shopify://shop_images/06d21883a0f8f1cac5d08f8c664e6bae.png",
+            "info": "Kawa S2",
+            "product_url": "#"
+          }
+        },
+        "product-3": {
+          "type": "product_card",
+          "settings": {
+            "image": "shopify://shop_images/ea0ac1b43f2dbf14718891d5e3545a71.png",
+            "info": "Kawa S3",
+            "product_url": "#"
+          }
+        },
+        "product-4": {
+          "type": "product_card",
+          "settings": {
+            "image": "shopify://shop_images/06d21883a0f8f1cac5d08f8c664e6bae.png",
+            "info": "Kawa S4",
+            "product_url": "#"
+          }
+        },
+        "product-5": {
+          "type": "product_card",
+          "settings": {
+            "image": "shopify://shop_images/ea0ac1b43f2dbf14718891d5e3545a71.png",
+            "info": "Kawa S5",
+            "product_url": "#"
+          }
+        }
+      },
+      "block_order": ["product-1", "product-2", "product-3", "product-4", "product-5"]
     }
   },
   "order": [
@@ -365,6 +382,7 @@
     "kawa-smart-home",
     "kawa-news",
     "kawa-email-subscribe",
-    "0acc6788-02de-42b8-9377-72379f169d96"
+    "0acc6788-02de-42b8-9377-72379f169d96",
+    "product-nav-new"
   ]
 }

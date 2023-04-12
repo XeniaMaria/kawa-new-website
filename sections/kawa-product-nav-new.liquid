@@ -1,0 +1,51 @@
+{{ 'kawa-product-nav-new.css' | asset_url | stylesheet_tag }}
+
+<div class="kawa-product-nav-new">
+  <ul>
+    {% for block in section.blocks %}
+      <li>
+        <a href="{{ block.settings.product_url }}">
+          <img src="{{ block.settings.image | image_url }}" loading="lazy" alt="icon" width="64" height="64">
+          <div class="info">
+            {{ block.settings.info }}
+          </div>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+{% schema %}
+{
+  "name": "主页的产品导航NEW",
+  "tag": "section",
+  "blocks": [
+    {
+      "type": "product_card",
+      "name": "产品信息块",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "产品图片"
+        },
+        {
+          "type": "text",
+          "id": "info",
+          "label": "产品名"
+        },
+        {
+          "type": "url",
+          "id": "product_url",
+          "label": "产品对应页面的链接"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "视频详情模块NEW"
+    }
+  ]
+}
+{% endschema %}
