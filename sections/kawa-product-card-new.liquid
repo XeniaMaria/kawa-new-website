@@ -1,0 +1,119 @@
+{{ 'kawa-product-card-new.css' | asset_url | stylesheet_tag }}
+
+<div class="kawa-product-card-new {{ section.id }}">
+  <div class="card-new-header">
+    <h2>{{ section.settings.title }}</h2>
+  </div>
+  <button class="to-prev">prev</button>
+  <button class="to-next">next</button>
+  <div class="card-list">
+    {% for block in section.blocks %}
+      <div class="card-new">
+        <div class="card-wrap">
+          <a href="{{ block.settings.card_product.url }}">
+            <div class="top-placeholder"></div>
+            <div class="front-layer">
+              <img
+                src="{{ block.settings.fr_image | image_url }}"
+                width="auto"
+                height="auto"
+                class="front-img"
+                loading="lazy"
+              >
+            </div>
+            <div class="bg-layer">
+              <img
+                src="{{ block.settings.bg_image | image_url }}"
+                width="auto"
+                height="auto"
+                class="bg-img"
+                loading="lazy"
+              >
+              <div class="info">
+                <h3 class="product-subtitle">
+                  {{ block.settings.card_product.metafields.descriptors.subtitle }}
+                </h3>
+                <p>{{ block.settings.info }}</p>
+              </div>
+              <div class="price-and-buy">
+                <div class="price-wrap">
+                  <p>{{ block.settings.card_product.price | money }}</p>
+                </div>
+                <span class="buy-btn">Buy Now</span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<script type="text/javascript">
+  (function () {
+    const cardList = document.querySelector('.kawa-product-card-new.{{ section.id }} .card-list');
+    const prevBtn = document.querySelector('.kawa-product-card-new.{{ section.id }} .to-prev');
+    const nextBtn = document.querySelector('.kawa-product-card-new.{{ section.id }} .to-next');
+    const cards = cardList.children;
+    tranLen = cards[0].clientWidth;
+    nextBtn.addEventListener('click', () => {
+      cardList.scrollTo({
+        left: cardList.scrollLeft + tranLen,
+        behavior: 'smooth',
+      });
+    });
+    prevBtn.addEventListener('click', () => {
+      cardList.scrollTo({
+        left: cardList.scrollLeft - tranLen,
+        behavior: 'smooth',
+      });
+    });
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "主页的新品或者主打产品NEW",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "标题"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "product_card",
+      "name": "产品卡片",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "bg_image",
+          "label": "产品背景图"
+        },
+        {
+          "type": "image_picker",
+          "id": "fr_image",
+          "label": "产品前景图"
+        },
+        {
+          "type": "product",
+          "id": "card_product",
+          "label": "对应的产品"
+        },
+        {
+          "type": "text",
+          "id": "info",
+          "label": "产品的描述"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "主页的新品或者主打产品NEW"
+    }
+  ]
+}
+{% endschema %}

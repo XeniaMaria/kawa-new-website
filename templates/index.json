@@ -370,6 +370,69 @@
         }
       },
       "block_order": ["product-1", "product-2", "product-3", "product-4", "product-5"]
+    },
+    "product-card-new": {
+      "type": "kawa-product-card-new",
+      "settings": {
+        "title": "What's New"
+      },
+      "blocks": {
+        "card-1": {
+          "type": "product_card",
+          "settings": {
+            "bg_image": "shopify://shop_images/a86267bd5ea32991c66f4b65ad9ba927.jpg",
+            "fr_image": "shopify://shop_images/ac62ad3ffab7bf837537288ecfec5e16.png",
+            "info": "Lightweight and Compact Drone for Safe and Immersive Flight",
+            "card_product": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6"
+          }
+        },
+        "card-2": {
+          "type": "product_card",
+          "settings": {
+            "bg_image": "shopify://shop_images/64731a65eb93a36ef2e317f61cfcdd71.jpg",
+            "fr_image": "shopify://shop_images/94361f08a162f5a391f63f22092cb51e.png",
+            "info": "Easy-To-Use Mini Camera Drone",
+            "card_product": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6"
+          }
+        },
+        "card-3": {
+          "type": "product_card",
+          "settings": {
+            "bg_image": "shopify://shop_images/67ec360e207d9ab0e7ec639d1ea68c90.jpg",
+            "fr_image": "shopify://shop_images/219f14cde565d4334d03853ae5a40fb7.png",
+            "info": "Lightweight Travel Stabilizer",
+            "card_product": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6"
+          }
+        },
+        "card-4": {
+          "type": "product_card",
+          "settings": {
+            "bg_image": "shopify://shop_images/a86267bd5ea32991c66f4b65ad9ba927.jpg",
+            "fr_image": "shopify://shop_images/ac62ad3ffab7bf837537288ecfec5e16.png",
+            "info": "Lightweight and Compact Drone for Safe and Immersive Flight",
+            "card_product": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6"
+          }
+        },
+        "card-5": {
+          "type": "product_card",
+          "settings": {
+            "bg_image": "shopify://shop_images/64731a65eb93a36ef2e317f61cfcdd71.jpg",
+            "fr_image": "shopify://shop_images/94361f08a162f5a391f63f22092cb51e.png",
+            "info": "Easy-To-Use Mini Camera Drone",
+            "card_product": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6"
+          }
+        },
+        "card-6": {
+          "type": "product_card",
+          "settings": {
+            "bg_image": "shopify://shop_images/67ec360e207d9ab0e7ec639d1ea68c90.jpg",
+            "fr_image": "shopify://shop_images/219f14cde565d4334d03853ae5a40fb7.png",
+            "info": "Lightweight Travel Stabilizer",
+            "card_product": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6"
+          }
+        }
+      },
+      "block_order": ["card-1", "card-2", "card-3", "card-4", "card-5", "card-6"]
     }
   },
   "order": [
@@ -383,6 +446,7 @@
     "kawa-news",
     "kawa-email-subscribe",
     "0acc6788-02de-42b8-9377-72379f169d96",
-    "product-nav-new"
+    "product-nav-new",
+    "product-card-new"
   ]
 }

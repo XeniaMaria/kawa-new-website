@@ -1,0 +1,321 @@
+.kawa-product-card-new {
+  margin-top: 48px;
+  letter-spacing: -0.02em;
+}
+
+.kawa-product-card-new .card-new-header {
+  padding: 0 24px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+
+.kawa-product-card-new .card-new-header h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.85);
+  line-height: 28px;
+  letter-spacing: -0.03em;
+}
+
+.kawa-product-card-new .card-list {
+  padding-bottom: 32px;
+  padding-top: 8px;
+  margin-top: -8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-scroll-snap-type: x mandatory;
+  scroll-snap-type: x mandatory;
+  overflow-x: auto;
+  overflow-y: hidden;
+  position: relative;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
+}
+
+.kawa-product-card-new .card-list::-webkit-scrollbar {
+  display: none;
+}
+
+.kawa-product-card-new .card-new {
+  --scrollbar-width: 0px;
+  --col-gap: 8px;
+  --visible-cols: 1;
+  --col-hint: 0.154168;
+  --padding-left: 24px;
+  --total-gap: calc(var(--col-gap) * (var(--visible-cols)));
+  --full-width: calc(100vw - var(--scrollbar-width, 0%));
+  --col-size: calc(
+    (var(--full-width) - var(--total-gap) - var(--padding-left)) / (var(--visible-cols) + var(--col-hint))
+  );
+  --last-col-size: calc(var(--col-size) + var(--padding-left));
+  -ms-scroll-snap-coordinate: left;
+  scroll-snap-coordinate: left;
+  scroll-snap-align: start;
+  margin: 0 calc(var(--col-gap) / 2);
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 var(--col-size);
+  flex: 0 0 var(--col-size);
+}
+.kawa-product-card-new .card-new:last-child {
+  flex-basis: var(--last-col-size);
+}
+
+.kawa-product-card-new .card-wrap {
+  position: relative;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transform: translateX(var(--padding-left));
+  transform: translateX(var(--padding-left));
+}
+.kawa-product-card-new .card-new:last-child .card-wrap::after {
+  content: '';
+  padding-right: var(--padding-left);
+}
+
+.kawa-product-card-new .card-wrap a {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1 1;
+  display: block;
+  position: relative;
+  height: 100%;
+}
+
+.kawa-product-card-new .top-placeholder {
+  height: 32px;
+  display: block;
+}
+
+.kawa-product-card-new .front-layer {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 3;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+  pointer-events: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.kawa-product-card-new .bg-layer {
+  position: relative;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.kawa-product-card-new .bg-layer:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.kawa-product-card-new .front-img {
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.kawa-product-card-new .bg-img {
+  width: 100%;
+  height: auto;
+}
+
+.kawa-product-card-new .info {
+  position: absolute;
+  bottom: 96px;
+  left: 24px;
+  width: calc(100% - 48px);
+}
+
+.kawa-product-card-new .info h3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #fff;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.kawa-product-card-new .info p {
+  color: rgba(255, 255, 255, 0.65);
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 20px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+}
+
+.kawa-product-card-new .price-and-buy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  bottom: 32px;
+  left: 24px;
+  width: calc(100% - 48px);
+}
+
+.kawa-product-card-new .price-wrap {
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.kawa-product-card-new .buy-btn {
+  background: #fff;
+  color: rgba(0, 0, 0, 0.85);
+  border-radius: 88rem !important;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 32px;
+  width: auto;
+  padding: 0 15px;
+  border: none;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+
+@media not all and (any-pointer: fine), (hover: none), (max-width: 767px) {
+  .kawa-product-card-new .card-list {
+    -ms-scroll-snap-type: none;
+    scroll-snap-type: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .kawa-product-card-new {
+    margin-top: 64px;
+    letter-spacing: -0.02em;
+  }
+
+  .kawa-product-card-new .card-new-header {
+    max-width: 1504px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .kawa-product-card-new .card-new-header h2 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .kawa-product-card-new .card-new {
+    --col-gap: 16px;
+    --visible-cols: 3;
+    --padding-left: calc((var(--full-width) - 1440px) / 2);
+    --col-size: calc((1292px - (var(--visible-cols) - 1) * var(--col-gap)) / var(--visible-cols));
+  }
+
+  .kawa-product-card-new .card-new-header h2 {
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 600;
+  }
+
+  .kawa-product-card-new .top-placeholder {
+    height: 48px;
+  }
+
+  .kawa-product-card-new .info {
+    left: 32px;
+    width: calc(100% - 64px);
+  }
+
+  .kawa-product-card-new .info h3 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .kawa-product-card-new .info p {
+    font-size: 16px;
+  }
+
+  .kawa-product-card-new .price-and-buy {
+    left: 32px;
+    width: calc(100% - 64px);
+  }
+
+  .kawa-product-card-new .price-wrap {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1504px) {
+  .kawa-product-card-new .card-new {
+    --padding-left: calc((var(--full-width) - 1440px) / 2);
+    --col-size: calc((1292px - (var(--visible-cols) - 1) * var(--col-gap)) / var(--visible-cols));
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .kawa-product-card-new .card-new-header {
+    max-width: 1664px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .kawa-product-card-new .card-new {
+    --padding-left: calc((var(--full-width) - 1664px) / 2);
+    --visible-cols: 3;
+    --col-gap: 16px;
+    --col-size: calc((1484px - (var(--visible-cols) - 1) * var(--col-gap)) / var(--visible-cols));
+  }
+}
