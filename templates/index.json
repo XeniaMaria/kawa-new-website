@@ -356,6 +356,7 @@
     },
     "product-nav-new": {
       "type": "kawa-product-nav-new",
+      "disabled": true,
       "blocks": {
         "product-1": {
           "type": "product_card",
@@ -410,6 +411,7 @@
     },
     "product-card-new": {
       "type": "kawa-product-card-new",
+      "disabled": true,
       "blocks": {
         "card-1": {
           "type": "product_card",
@@ -480,6 +482,7 @@
     },
     "banner-product-new": {
       "type": "kawa-banner-product-new",
+      "disabled": true,
       "blocks": {
         "card-1": {
           "type": "product_card",
