@@ -31,23 +31,28 @@
       </ul>
     </div>
     <div class="footer-maps">
-      <ul class="footer-category">
-        {%- for link in linklists.footer.links -%}
-          <li>
-            <div class="footer-title">
-              {{ link.title }}
-              <i class="fold"> </i>
-            </div>
-            <ul>
-              {%- for sub_link in link.links -%}
-                <li>
-                  {{ sub_link.title | link_to: sub_link.url }}
-                </li>
-              {%- endfor -%}
-            </ul>
-          </li>
-        {%- endfor -%}
-      </ul>
+      <div class="menu-media-container">
+        <ul class="footer-category">
+          {%- for link in linklists.footer.links -%}
+            <li>
+              <div class="footer-title">
+                {{ link.title }}
+                <i class="fold"> </i>
+              </div>
+              <ul>
+                {%- for sub_link in link.links -%}
+                  <li>
+                    {{ sub_link.title | link_to: sub_link.url }}
+                  </li>
+                {%- endfor -%}
+              </ul>
+            </li>
+          {%- endfor -%}
+        </ul>
+        <ul class="social-media-wrap">
+          {%- render 'kawa-social-list' -%}
+        </ul>
+      </div>
       <div class="footer-app-download">
         <div class="footer-download-title">Download App</div>
         <div class="footer-divide-line"></div>
@@ -221,9 +226,6 @@
         </div>
       </div>
     </div>
-    <ul class="social-media-wrap">
-      {%- render 'kawa-social-list' -%}
-    </ul>
     <p class="footer-copyright">
       {{ settings.copyright_text }}
     </p>
