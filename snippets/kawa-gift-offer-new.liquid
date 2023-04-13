@@ -124,8 +124,8 @@
       dlgCloseBtn.addEventListener('click', () => {
         offerDlg.style.right = '-350px';
 
-        dlgCloseBtn.addEventListener('transitionend', () => {
-          dlgCloseBtn.parentNode.removeChild(dlgCloseBtn);
+        offerDlg.addEventListener('transitionend', () => {
+          offerDlg.parentNode.removeChild(offerDlg);
 
           $('#dummy-chat-button-iframe').css('visibility', 'unset');
         });
