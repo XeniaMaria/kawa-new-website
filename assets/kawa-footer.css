@@ -14,6 +14,14 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
+.kawa-footer .footer-contact > ul {
+  display: flex;
+  color: #fff;
+}
+.kawa-footer .footer-contact > ul > li {
+  flex-basis: 50%;
+}
+
 .kawa-footer .contact-title {
   margin-bottom: 20px;
   font-size: 16px;
