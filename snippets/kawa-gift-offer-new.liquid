@@ -156,7 +156,7 @@
 
     //复制折扣码
     $('.kawa-gift-offer-new .code-copy-box').on('click', () => {
-      navigator.clipboard.writeText($('.kawa-gift-offer-new .code-copy-box coupon-code').text()).then(() => {
+      navigator.clipboard.writeText($('.kawa-gift-offer-new .code-copy-box .coupon-code').text()).then(() => {
         $('.kawa-gift-offer-new .copy-icon').css('display', 'none');
         $('.kawa-gift-offer-new .tick-icon').css('display', 'block');
         setTimeout(() => {
