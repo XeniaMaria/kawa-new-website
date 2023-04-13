@@ -144,6 +144,13 @@
     "app_download_ios_2": "https:\/\/apps.apple.com\/cn\/app\/kawa-dvr\/id1601762531",
     "app_download_android_2": "https:\/\/play.google.com\/store\/apps\/details?id=com.apical.cj1005",
     "copyright_text": "Copyright © 2022 Kawa all rights reserved.",
+    "coupon_dlg_code": "X7WC3XN6",
+    "coupon_dlg_title": "JOIN US",
+    "coupon_dlg_info": "Sign up for 10% OFF Your First Order",
+    "coupon_dlg_button": "Unlock Offer",
+    "coupon_dlg_detail": "By signing up, you agree to receive email marketing",
+    "coupon_dlg_success_title": "Welcome to Kawa!",
+    "coupon_dlg_success_info": "Get your 10% OFF Order Now",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -388,6 +395,13 @@
       "app_download_apk_tips": "",
       "app_download_name_2": "APP 2",
       "copyright_text": "Copyright © 2022 Kawa all rights reserved.",
+      "coupon_dlg_code": "X7WC3XN6",
+      "coupon_dlg_title": "JOIN US",
+      "coupon_dlg_info": "Sign up for 10% OFF Your First Order",
+      "coupon_dlg_button": "Unlock Offer",
+      "coupon_dlg_detail": "By signing up, you agree to receive email marketing",
+      "coupon_dlg_success_title": "Welcome to Kawa!",
+      "coupon_dlg_success_info": "Get your 10% OFF Order Now",
       "sections": {
         "announcement-bar": {
           "type": "announcement-bar",
