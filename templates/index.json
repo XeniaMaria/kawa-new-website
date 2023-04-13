@@ -433,6 +433,39 @@
         }
       },
       "block_order": ["card-1", "card-2", "card-3", "card-4", "card-5", "card-6"]
+    },
+    "banner-product-new": {
+      "type": "kawa-banner-product-new",
+      "settings": {
+        "title": "Camera"
+      },
+      "blocks": {
+        "card-1": {
+          "type": "product_card",
+          "settings": {
+            "image": "shopify://shop_images/dd139ac4c8e72085d045dc449e69acb6.png",
+            "tag": "Entry-Level",
+            "card_product": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6"
+          }
+        },
+        "card-2": {
+          "type": "product_card",
+          "settings": {
+            "image": "shopify://shop_images/075ddd56c077682113326867178aacef.png",
+            "tag": "Flagship",
+            "card_product": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6"
+          }
+        },
+        "card-3": {
+          "type": "product_card",
+          "settings": {
+            "image": "shopify://shop_images/a225932ae0a0f9c8d19c2a0cfbf6d550.jpg",
+            "tag": "Advanced",
+            "card_product": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6"
+          }
+        }
+      },
+      "block_order": ["card-1", "card-2", "card-3"]
     }
   },
   "order": [
@@ -447,6 +480,7 @@
     "kawa-email-subscribe",
     "0acc6788-02de-42b8-9377-72379f169d96",
     "product-nav-new",
-    "product-card-new"
+    "product-card-new",
+    "banner-product-new"
   ]
 }
