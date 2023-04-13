@@ -259,19 +259,19 @@
       </noscript>
       <link
         rel="preload"
-        href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        href="{{ 'bootstrap.min.css' | asset_url }}"
         as="style"
-        onload="this.οnlοad=null;this.rel='stylesheet'"
+        onload="this.onload=null;this.rel='stylesheet'"
       >
       <noscript>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="{{ 'bootstrap.min.css' | asset_url }}">
       </noscript>
       {{ 'lite-yt-embed.css' | asset_url | stylesheet_tag }}
       <script src="{{ 'lite-yt-embed.js' | asset_url }}"></script>
 
       <script src="{{ 'swiper.min.js' | asset_url }}"></script>
-      <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="{{ 'jquery-3.5.1.min.js' | asset_url }}"></script>
+      <script src="{{ 'bootstrap.min.js' | asset_url }}"></script>
 
       {{ 'kawa-accordion.css' | asset_url | stylesheet_tag }}
       {{ 'kawa-breadcrumbs.css' | asset_url | stylesheet_tag }}
