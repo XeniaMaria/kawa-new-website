@@ -1,0 +1,93 @@
+.kawa-banner-text-new {
+  position: relative;
+  background-color: black;
+}
+
+.kawa-banner-text-new .des-area {
+  overflow: hidden;
+  width: 100%;
+  max-width: 94vw;
+  margin: auto;
+  text-align: center;
+}
+
+.kawa-banner-text-new .title {
+  color: #fff;
+  overflow: hidden;
+  font-family: Quicksand !important;
+  font-weight: 500 !important;
+  font-size: 46px;
+  line-height: 1.2;
+  margin-top: 9.5vw;
+  margin-bottom: 2.5vw;
+}
+
+.kawa-banner-text-new .des {
+  color: #fff;
+  margin: 4.3vw auto;
+  font-size: 3.75vw;
+  overflow: hidden;
+  font-weight: 400;
+}
+
+.kawa-banner-text-new .icon-wrap {
+  color: #fff;
+  margin: 4.3vw auto;
+  font-family: icomoon;
+}
+
+.kawa-banner-text-new .icon-wrap img {
+  width: 4.3vw;
+  height: 4.3vw;
+}
+
+.kawa-banner-text-new .banner-img {
+  width: 100vw;
+  height: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .kawa-banner-text-new .des-area {
+    text-align: left;
+    position: absolute;
+    top: 0;
+    width: unset;
+    box-sizing: content-box;
+    max-width: 550px;
+  }
+
+  .kawa-banner-text-new .title {
+    margin-top: 0;
+  }
+
+  .kawa-banner-text-new .des {
+    margin: 40px 0 0;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  .kawa-banner-text-new .icon-wrap {
+    margin: 20px 0 0;
+  }
+
+  .kawa-banner-text-new .icon-wrap > span {
+    display: inline-block;
+    margin-top: 16px;
+    margin-right: 40px;
+  }
+
+  .kawa-banner-text-new .icon-wrap img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .kawa-banner-text-new .icon-text {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .kawa-banner-text-new .banner-img {
+    width: 100%;
+    height: auto;
+  }
+}

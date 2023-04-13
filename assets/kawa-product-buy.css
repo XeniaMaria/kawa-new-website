@@ -1,31 +1,36 @@
 .kawa-product-buy {
+  box-shadow: 0 -11px 51px 0 rgba(0, 0, 0, 0.1);
+  background: #fff;
   width: 100%;
-  margin: 0;
-  overflow: hidden;
-  padding: 19px calc(100 / 1920 * 100vw);
+  max-width: 390px;
+  min-height: 104px;
   position: fixed;
   bottom: 0;
-  left: 0;
-  background: #fff;
+  right: 50%;
+  transform: translate(50%);
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  display: none;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
   z-index: 48;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-start;
+}
+
+.kawa-product-buy .product-subtitle {
+  font-size: 18px;
+  letter-spacing: -0.6px;
+  font-weight: 300;
+  margin-top: 20px;
+  line-height: normal;
 }
 
 .kawa-product-buy .purchase-box {
+  width: 100%;
+  padding: 0 10px;
   display: flex;
-  width: 33%;
   justify-content: space-between;
   align-items: center;
-  min-width: 500px;
-}
-
-.kawa-product-buy .product-price > span {
-  font-size: 24px;
-  line-height: 1.2;
-  font-weight: 600;
-  color: #000;
 }
 
 .kawa-product-buy product-form {
@@ -44,15 +49,14 @@
 }
 
 .kawa-product-buy .add-to-cart__btn {
-  background: #fff;
   border: 1px solid #00ade5;
-  color: #00ade5;
+  background: #00ade5;
+  color: #fff;
   width: 50%;
-  margin-left: 6px;
   flex: auto;
   min-height: 0;
-  height: 52px;
-  line-height: 52px;
+  height: 50px;
+  line-height: 50px;
   border-radius: 26px;
   padding: 0;
   box-sizing: border-box;
@@ -78,17 +82,18 @@
 }
 
 .kawa-product-buy .shopify-payment-button__button {
-  background: #00ade5;
+  background: red;
   color: #fff;
   border-radius: 26px;
   opacity: 1;
   box-shadow: none;
   min-height: 0;
-  height: 52px;
-  line-height: 52px;
+  height: 50px;
+  line-height: 50px;
   border-radius: 26px;
   font-size: 18px;
   padding: 0;
+  margin-bottom: 10px;
   box-sizing: border-box;
   font-weight: 600;
   overflow: hidden;
@@ -103,6 +108,10 @@
 
 .kawa-product-buy .shopify-payment-button__button::before,
 .kawa-product-buy .shopify-payment-button__button::after {
+  display: none;
+}
+
+.kawa-product-buy .shopify-payment-button__more-options {
   display: none;
 }
 
