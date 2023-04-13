@@ -353,6 +353,167 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "product-nav-new": {
+      "type": "kawa-product-nav-new",
+      "blocks": {
+        "product-1": {
+          "type": "product_card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ea0ac1b43f2dbf14718891d5e3545a71.png",
+            "info": "Kawa S1",
+            "product_url": "#"
+          }
+        },
+        "product-2": {
+          "type": "product_card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/06d21883a0f8f1cac5d08f8c664e6bae.png",
+            "info": "Kawa S2",
+            "product_url": "#"
+          }
+        },
+        "product-3": {
+          "type": "product_card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ea0ac1b43f2dbf14718891d5e3545a71.png",
+            "info": "Kawa S3",
+            "product_url": "#"
+          }
+        },
+        "product-4": {
+          "type": "product_card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/06d21883a0f8f1cac5d08f8c664e6bae.png",
+            "info": "Kawa S4",
+            "product_url": "#"
+          }
+        },
+        "product-5": {
+          "type": "product_card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ea0ac1b43f2dbf14718891d5e3545a71.png",
+            "info": "Kawa S5",
+            "product_url": "#"
+          }
+        }
+      },
+      "block_order": [
+        "product-1",
+        "product-2",
+        "product-3",
+        "product-4",
+        "product-5"
+      ],
+      "settings": {
+      }
+    },
+    "product-card-new": {
+      "type": "kawa-product-card-new",
+      "blocks": {
+        "card-1": {
+          "type": "product_card",
+          "settings": {
+            "bg_image": "shopify:\/\/shop_images\/a86267bd5ea32991c66f4b65ad9ba927.jpg",
+            "fr_image": "shopify:\/\/shop_images\/ac62ad3ffab7bf837537288ecfec5e16.png",
+            "card_product": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6",
+            "info": "Lightweight and Compact Drone for Safe and Immersive Flight"
+          }
+        },
+        "card-2": {
+          "type": "product_card",
+          "settings": {
+            "bg_image": "shopify:\/\/shop_images\/64731a65eb93a36ef2e317f61cfcdd71.jpg",
+            "fr_image": "shopify:\/\/shop_images\/94361f08a162f5a391f63f22092cb51e.png",
+            "card_product": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6",
+            "info": "Easy-To-Use Mini Camera Drone"
+          }
+        },
+        "card-3": {
+          "type": "product_card",
+          "settings": {
+            "bg_image": "shopify:\/\/shop_images\/67ec360e207d9ab0e7ec639d1ea68c90.jpg",
+            "fr_image": "shopify:\/\/shop_images\/219f14cde565d4334d03853ae5a40fb7.png",
+            "card_product": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6",
+            "info": "Lightweight Travel Stabilizer"
+          }
+        },
+        "card-4": {
+          "type": "product_card",
+          "settings": {
+            "bg_image": "shopify:\/\/shop_images\/a86267bd5ea32991c66f4b65ad9ba927.jpg",
+            "fr_image": "shopify:\/\/shop_images\/ac62ad3ffab7bf837537288ecfec5e16.png",
+            "card_product": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6",
+            "info": "Lightweight and Compact Drone for Safe and Immersive Flight"
+          }
+        },
+        "card-5": {
+          "type": "product_card",
+          "settings": {
+            "bg_image": "shopify:\/\/shop_images\/64731a65eb93a36ef2e317f61cfcdd71.jpg",
+            "fr_image": "shopify:\/\/shop_images\/94361f08a162f5a391f63f22092cb51e.png",
+            "card_product": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6",
+            "info": "Easy-To-Use Mini Camera Drone"
+          }
+        },
+        "card-6": {
+          "type": "product_card",
+          "settings": {
+            "bg_image": "shopify:\/\/shop_images\/67ec360e207d9ab0e7ec639d1ea68c90.jpg",
+            "fr_image": "shopify:\/\/shop_images\/219f14cde565d4334d03853ae5a40fb7.png",
+            "card_product": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6",
+            "info": "Lightweight Travel Stabilizer"
+          }
+        }
+      },
+      "block_order": [
+        "card-1",
+        "card-2",
+        "card-3",
+        "card-4",
+        "card-5",
+        "card-6"
+      ],
+      "settings": {
+        "title": "What's New"
+      }
+    },
+    "banner-product-new": {
+      "type": "kawa-banner-product-new",
+      "blocks": {
+        "card-1": {
+          "type": "product_card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dd139ac4c8e72085d045dc449e69acb6.png",
+            "tag": "Entry-Level",
+            "card_product": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6"
+          }
+        },
+        "card-2": {
+          "type": "product_card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/075ddd56c077682113326867178aacef.png",
+            "tag": "Flagship",
+            "card_product": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6"
+          }
+        },
+        "card-3": {
+          "type": "product_card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/a225932ae0a0f9c8d19c2a0cfbf6d550.jpg",
+            "tag": "Advanced",
+            "card_product": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6"
+          }
+        }
+      },
+      "block_order": [
+        "card-1",
+        "card-2",
+        "card-3"
+      ],
+      "settings": {
+        "title": "Camera"
+      }
     }
   },
   "order": [
@@ -365,6 +526,9 @@
     "kawa-smart-home",
     "kawa-news",
     "kawa-email-subscribe",
-    "0acc6788-02de-42b8-9377-72379f169d96"
+    "0acc6788-02de-42b8-9377-72379f169d96",
+    "product-nav-new",
+    "product-card-new",
+    "banner-product-new"
   ]
 }

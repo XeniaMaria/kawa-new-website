@@ -1,0 +1,81 @@
+{{ 'kawa-banner-product-new.css' | asset_url | stylesheet_tag }}
+
+<div class="kawa-banner-product-new">
+  <div class="section-title">
+    <h2>{{ section.settings.title }}</h2>
+  </div>
+  <div class="product-list-container">
+    <div class="product-list">
+      {% for block in section.blocks %}
+        <div class="product-card">
+          <a href="{{ block.settings.card_product.url }}">
+            <figure>
+              <img src="{{ block.settings.image | image_url }}" loading="lazy" width="auto" height="auto">
+            </figure>
+            <div class="info">
+              <div class="info-label">
+                <div class="info-tag">
+                  <span>{{ block.settings.tag }}</span>
+                </div>
+              </div>
+              <p>
+                {{ block.settings.card_product.metafields.descriptors.subtitle }}
+              </p>
+            </div>
+            <div class="shop-info">
+              <div class="shop-info-price">
+                <div>
+                  <p>
+                    {{ block.settings.card_product.price | money }}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "主页的baner和三列产品列表NEW",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "标题"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "product_card",
+      "name": "产品卡片块",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "产品图片"
+        },
+        {
+          "type": "text",
+          "id": "tag",
+          "label": "标签"
+        },
+        {
+          "type": "product",
+          "id": "card_product",
+          "label": "对应产品"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "主页的baner和三列产品列表NEW"
+    }
+  ]
+}
+{% endschema %}

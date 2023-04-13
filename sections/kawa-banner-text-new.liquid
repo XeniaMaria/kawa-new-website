@@ -1,0 +1,104 @@
+{{ 'kawa-banner-text-new.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  @media screen and (min-width: 768px) {
+      .kawa-banner-text-new .des-area {
+      padding-left: {{ section.settings.offset_x }}px;
+      padding-top: {{ section.settings.offset_y }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="kawa-banner-text-new">
+  <div class="des-area">
+    <h3 class="title">
+      {{ section.settings.title }}
+    </h3>
+    <p class="des">
+      {{ section.settings.des }}
+    </p>
+    <p class="icon-wrap">
+      <span>
+        <img src="{{ section.settings.icon_one | image_url }}" width="16" height="16" loading="lazy">
+        <span class="icon-text">
+          {{ section.settings.icon_text_one }}
+        </span>
+      </span>
+      <span>
+        <img src="{{ section.settings.icon_two | image_url }}" width="16" height="16" loading="lazy">
+        <span class="icon-text">
+          {{ section.settings.icon_text_two }}
+        </span>
+      </span>
+    </p>
+  </div>
+  <img
+    src="{{ section.settings.banner_img | image_url }}"
+    width="auto"
+    height="auto"
+    class="banner-img"
+    loading="lazy"
+  >
+</div>
+
+{% schema %}
+{
+  "name": "产品页的banner+文案NEW",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "number",
+      "id": "offset_x",
+      "label": "距离左边的位置",
+      "info": "文本块距离左边的偏移量,单位是px,填数值(如:20,就是20px)。",
+      "default": 100
+    },
+    {
+      "type": "number",
+      "id": "offset_y",
+      "label": "距离图片上边的偏移量,单位是px,填数值(如:20,就是20px)。",
+      "default": 100
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "标题"
+    },
+    {
+      "type": "textarea",
+      "id": "des",
+      "label": "描述"
+    },
+    {
+      "type": "image_picker",
+      "id": "banner_img",
+      "label": "banner图"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon_one",
+      "label": "图标1"
+    },
+    {
+      "type": "text",
+      "id": "icon_text_one",
+      "label": "图标文本1"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon_two",
+      "label": "图标2"
+    },
+    {
+      "type": "text",
+      "id": "icon_text_two",
+      "label": "图标文本2"
+    }
+  ],
+  "presets": [
+    {
+      "name": "产品页的banner+文案NEW"
+    }
+  ]
+}
+{% endschema %}
