@@ -1645,5 +1645,45 @@
         "label": "版权声明"
       }
     ]
+  },
+  {
+    "name": "左下角折扣对话框",
+    "settings": [
+      {
+        "type": "text",
+        "id": "coupon_dlg_code",
+        "label": "折扣码"
+      },
+      {
+        "type": "text",
+        "id": "coupon_dlg_title",
+        "label": "对话框标题"
+      },
+      {
+        "type": "text",
+        "id": "coupon_dlg_info",
+        "label": "对话框的说明"
+      },
+      {
+        "type": "text",
+        "id": "coupon_dlg_button",
+        "label": "对话框的按钮文本"
+      },
+      {
+        "type": "textarea",
+        "id": "coupon_dlg_detail",
+        "label": "对话框详细说明"
+      },
+      {
+        "type": "text",
+        "id": "coupon_dlg_success_title",
+        "label": "订阅成功后的对话框标题"
+      },
+      {
+        "type": "text",
+        "id": "coupon_dlg_success_info",
+        "label": "订阅成功后的对话框说明"
+      }
+    ]
   }
 ]

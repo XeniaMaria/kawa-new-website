@@ -1,0 +1,163 @@
+{% comment %}
+  未注册时渲染礼物，邮箱订阅获取优惠码
+
+  Usage:
+  {% render 'kawa-gift-offer-new' %}
+{% endcomment %}
+
+{{ 'kawa-gift-offer-new.css' | asset_url | stylesheet_tag }}
+
+<div class="kawa-gift-offer-new">
+  <button class="gift-btn">
+    <div>
+      <span></span>
+    </div>
+  </button>
+  <div class="get-offer-dlg">
+    <div>
+      <div class="subscribe-form-wrap">
+        <button class="close-dlg-btn">
+          <svg
+            role="img"
+            width="35"
+            height="35"
+            viewBox="0 0 20 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title id="title-Close form 1">Close form 1</title><circle cx="10" cy="10" r="9.5" fill="rgba(180,187,195,0)" stroke="rgba(255,255,255,0)" style="cursor: pointer;"></circle><path d="M6 6L14 14M6 14L14 6L6 14Z" stroke="#373F47" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" style="cursor: pointer;"></path>
+          </svg>
+        </button>
+        {% form 'customer' %}
+          <div class="form-inner">
+            <div class="form-item form-title">
+              <span>{{ settings.coupon_dlg_title }}</span>
+            </div>
+            <div class="form-item form-info">
+              <span>{{ settings.coupon_dlg_info }}</span>
+            </div>
+            <div class="form-item form-email-box">
+              <input type="email" name="contact[email]" placeholder="Email" required>
+            </div>
+            <div class="form-item error-text">
+              <span></span>
+            </div>
+            <div class="form-item form-submit-btn">
+              <button type="button">
+                {{ settings.coupon_dlg_button }}
+                <svg
+                  width="16"
+                  hight="16"
+                  aria-hidden="true"
+                  focusable="false"
+                  role="presentation"
+                  class="spinner"
+                  viewBox="0 0 66 66"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle class="path" fill="none" stroke="white" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                </svg>
+              </button>
+            </div>
+            <div class="form-item form-detail form-detail">
+              <span>{{ settings.coupon_dlg_detail }}</span>
+            </div>
+          </div>
+          <div class="form-inner-success">
+            <div class="form-item success-title">
+              <span>{{ settings.coupon_dlg_success_title }}</span>
+              <div style="font-size: 16px;">&nbsp;</div>
+            </div>
+            <div class="form-item success-info">
+              <span>{{ settings.coupon_dlg_success_info }}</span>
+            </div>
+            <div class="form-item code-copy-box">
+              <div>{{ settings.coupon_dlg_code }}</div>
+              <svg
+                class="copy-icon"
+                style="height: 32px; width: 32px; cursor: pointer; flex-shrink: 0; color: rgb(77, 78, 81);"
+              >
+                <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M3.60156 1.09961C1.94471 1.09961 0.601562 2.44275 0.601562 4.09961V22.4996C0.601562 24.1565 1.94471 25.4996 3.60156 25.4996H8V23.4996H3.60156C3.04928 23.4996 2.60156 23.0519 2.60156 22.4996V4.09961C2.60156 3.54732 3.04928 3.09961 3.60156 3.09961H18.8016C19.3538 3.09961 19.8016 3.54732 19.8016 4.09961V5.30078H21.8016V4.09961C21.8016 2.44276 20.4584 1.09961 18.8016 1.09961H3.60156Z" fill="currentColor"></path><rect x="11.1992" y="8.5" width="19.2" height="22.4" rx="2" stroke="currentColor" stroke-width="2"></rect></svg>
+              </svg>
+              <svg
+                class="tick-icon"
+                style="display: none;"
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                viewBox="0 0 16 16"
+              >
+                <path fill="none" stroke="green" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m2.75 8.75l3.5 3.5l7-7.5"/>
+              </svg>
+            </div>
+          </div>
+        {% endform %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  (function () {
+    const giftBtn = document.querySelector('.kawa-gift-offer-new .gift-btn');
+    const offerDlg = document.querySelector('.kawa-gift-offer-new .get-offer-dlg');
+    const dlgCloseBtn = document.querySelector('.kawa-gift-offer-new .get-offer-dlg .close-dlg-btn');
+    //打开对话框
+    if (giftBtn) {
+      giftBtn.addEventListener('click', () => {
+        giftBtn.style.bottom = '-104px';
+        giftBtn.addEventListener('transitionend', () => {
+          giftBtn.parentNode.removeChild(giftBtn);
+
+          if (offerDlg) {
+            offerDlg.style.right = '0';
+          }
+        });
+      });
+    }
+
+    //关闭对话框
+    if (dlgCloseBtn) {
+      dlgCloseBtn.addEventListener('click', () => {
+        offerDlg.style.right = '-350px';
+        dlgCloseBtn.addEventListener('transitionend', () => {
+          dlgCloseBtn.parentNode.removeChild(dlgCloseBtn);
+        });
+      });
+    }
+
+    //上传contact信息
+    $('.kawa-gift-offer-new .form-submit-btn button').on('click', function () {
+      const valid = document.querySelector('.kawa-gift-offer-new #contact_form').reportValidity();
+      if (valid) {
+        $('.kawa-gift-offer-new .form-submit-btn button svg').css('display', 'block');
+        $('.kawa-gift-offer-new .error-text').css('display', 'none');
+        $.post('/contact#contact_form', $('.kawa-gift-offer-new #contact_form').serialize())
+          .done((res) => {
+            $('.kawa-gift-offer-new .form-submit-btn button svg').css('display', 'none');
+
+            $('.kawa-gift-offer-new .form-inner').css('display', 'none');
+            $('.kawa-gift-offer-new .form-inner-success').css('display', 'flex');
+          })
+          .fail((res) => {
+            $('.kawa-gift-offer-new .form-submit-btn button svg').css('display', 'none');
+
+            $('.kawa-gift-offer-new .error-text').css('display', 'block');
+            $('.kawa-gift-offer-new .error-text span').text(res.statusText);
+          });
+      }
+    });
+
+    //复制折扣码
+    $('.kawa-gift-offer-new .code-copy-box').on('click', () => {
+      navigator.clipboard.writeText('code').then(() => {
+        $('.kawa-gift-offer-new .copy-icon').css('display', 'none');
+        $('.kawa-gift-offer-new .tick-icon').css('display', 'block');
+        setTimeout(() => {
+          $('.kawa-gift-offer-new .copy-icon').css('display', 'block');
+          $('.kawa-gift-offer-new .tick-icon').css('display', 'none');
+        }, 1500);
+      });
+    });
+  })();
+</script>
