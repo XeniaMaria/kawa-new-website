@@ -326,6 +326,7 @@
       }
     },
     "product-nav-new": {
+      "disabled": true,
       "type": "kawa-product-nav-new",
       "blocks": {
         "product-1": {
@@ -372,6 +373,7 @@
       "block_order": ["product-1", "product-2", "product-3", "product-4", "product-5"]
     },
     "product-card-new": {
+      "disabled": true,
       "type": "kawa-product-card-new",
       "settings": {
         "title": "What's New"
@@ -435,6 +437,7 @@
       "block_order": ["card-1", "card-2", "card-3", "card-4", "card-5", "card-6"]
     },
     "banner-product-new": {
+      "disabled": true,
       "type": "kawa-banner-product-new",
       "settings": {
         "title": "Camera"
