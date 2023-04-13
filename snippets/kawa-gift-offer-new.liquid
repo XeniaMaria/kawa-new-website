@@ -106,8 +106,11 @@
     if (giftBtn) {
       giftBtn.addEventListener('click', () => {
         giftBtn.style.bottom = '-104px';
+
         giftBtn.addEventListener('transitionend', () => {
           giftBtn.parentNode.removeChild(giftBtn);
+
+          $('#dummy-chat-button-iframe').css('visibility', 'hidden');
 
           if (offerDlg) {
             offerDlg.style.right = '0';
@@ -120,8 +123,11 @@
     if (dlgCloseBtn) {
       dlgCloseBtn.addEventListener('click', () => {
         offerDlg.style.right = '-350px';
+
         dlgCloseBtn.addEventListener('transitionend', () => {
           dlgCloseBtn.parentNode.removeChild(dlgCloseBtn);
+
+          $('#dummy-chat-button-iframe').css('visibility', 'unset');
         });
       });
     }
