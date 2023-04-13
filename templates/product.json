@@ -336,6 +336,29 @@
         "video_url_pc": "https://cdn.shopify.com/videos/c/o/v/fd5bb78358954e02a5d6013bae20fefc.mp4",
         "video_url_mb": "https://cdn.shopify.com/videos/c/o/v/db8a3e3cd2a2479595c51bc79239056a.mp4"
       }
+    },
+    "banner-text-new": {
+      "type": "kawa-banner-text-new",
+      "settings": {
+        "offset_x": 200,
+        "offset_y": 200,
+        "title": "Two-Way Audio: Talk Like You’re Here",
+        "des": "Built-in mic & speaker allow you to listen and talk back to whoever the camera catches in real time: A “hello” to families and friends or a warning to suspicious strangers.",
+        "banner_img": "shopify:\/\/shop_images\/11.jpg",
+        "icon_one": "shopify:\/\/shop_images\/6c09258e0af82bf1510f1a6f46919e97.png",
+        "icon_text_one": "Microphone",
+        "icon_two": "shopify:\/\/shop_images\/08eb545fd08c4b82cdde655ddca5ac97.png",
+        "icon_text_two": "Speaker"
+      }
+    },
+    "video-text-new": {
+      "type": "kawa-video-text-new",
+      "settings": {
+        "title": "Discover the Freedom of Flight",
+        "des": "Lose yourself in total immersion as you swoop and dive like never before. Combine Avata with DJI goggles for a life-like flying experience.",
+        "video_url_pc": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/fd5bb78358954e02a5d6013bae20fefc.mp4",
+        "video_url_mb": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/db8a3e3cd2a2479595c51bc79239056a.mp4"
+      }
     }
   },
   "order": [
