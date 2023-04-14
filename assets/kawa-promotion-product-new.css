@@ -1,0 +1,220 @@
+.kawa-promotion-product-new {
+  width: 100%;
+  max-width: 1200px;
+  overflow: visible;
+  margin: 0 auto;
+}
+
+.kawa-promotion-product-new .section-title {
+  font-size: 36px;
+  font-weight: 500;
+  width: 100%;
+  text-align: center;
+  line-height: 1.2;
+  margin: 30px 0 40px;
+}
+
+.kawa-promotion-product-new .card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  box-sizing: border-box;
+}
+
+.kawa-promotion-product-new .product-card {
+  border: 1px solid #005823;
+  background-color: #fff;
+  box-shadow: none;
+  width: 100%;
+  max-width: 585px;
+  flex: none;
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  margin: 0 0 30px;
+  border-radius: 8px;
+}
+
+.kawa-promotion-product-new .card-inner {
+  background: #fff;
+  border-radius: 8px;
+  font-weight: 500;
+  text-align: left;
+  width: 100%;
+  max-width: 585px;
+  padding: 20px 24px 30px 30px;
+  box-sizing: border-box;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.kawa-promotion-product-new .image-content {
+  width: 200px;
+  margin: 0 auto;
+  float: left;
+}
+
+.kawa-promotion-product-new .image-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+.kawa-promotion-product-new .text-content {
+  margin-left: 230px;
+  text-align: left;
+  color: #333;
+}
+
+.kawa-promotion-product-new .text-content p {
+  font-size: 20px;
+  margin-top: 20px;
+  line-height: 1.2;
+}
+
+.kawa-promotion-product-new .text-content a {
+  color: #333;
+}
+.kawa-promotion-product-new .text-content a:hover {
+  color: #00ade5;
+}
+
+.kawa-promotion-product-new .product-info ul {
+  padding-left: 16px;
+  margin-top: 12px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.kawa-promotion-product-new .product-info li {
+  line-height: 1.2;
+  list-style: disc;
+  list-style-position: outside;
+  margin-bottom: 8px;
+}
+
+.kawa-promotion-product-new .product-info li::marker {
+  font-size: 12px;
+}
+
+.kawa-promotion-product-new .product-price {
+  margin-top: 20px;
+}
+
+.kawa-promotion-product-new .product-price span {
+  font-size: 18px;
+  display: inline-block;
+  font-weight: 500;
+}
+
+.kawa-promotion-product-new .product-price del {
+  font-size: 14px;
+  color: #777;
+  display: inline-block;
+  font-weight: 500;
+  margin-left: 12px;
+}
+
+.kawa-promotion-product-new .quantity-box {
+  display: flex;
+  justify-content: left;
+  margin-top: 20px;
+}
+
+.kawa-promotion-product-new .quantity__input {
+  width: 32px;
+  border: 1px solid rgb(221, 221, 221);
+  flex-grow: unset;
+}
+.kawa-promotion-product-new .quantity__input:focus-visible {
+  outline: none;
+  box-shadow: none;
+  border-color: #00ade5;
+}
+
+.kawa-promotion-product-new .add-to-cart__btn {
+  display: block;
+  margin-left: 0;
+  width: fit-content;
+  margin-top: 20px;
+  transform: translateY(0);
+  transition: transform 0.4s;
+  border-radius: 24px;
+  line-height: 34px;
+  padding: 0 20px;
+  border-right-color: #f45c43;
+  color: #fff;
+  background: linear-gradient(90deg, #eb3349 0%, #f45c43 100%);
+  border: 1px solid transparent;
+  font-weight: 500;
+  font-size: 14px;
+  height: 36px;
+}
+.kawa-promotion-product-new .add-to-cart__btn:hover {
+  box-shadow: 0 5px 8px rgba(177, 69, 56, 0.4);
+  transform: translateY(-6px);
+  position: relative;
+  transition: transform 0.4s;
+}
+
+@media screen and (max-width: 1280px) {
+  .kawa-promotion-product-new {
+    width: calc(100% - 80px);
+  }
+
+  .kawa-promotion-product-new .card-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .kawa-promotion-product-new .text-content p {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .kawa-promotion-product-new .product-info ul {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .kawa-promotion-product-new {
+    width: calc(100% - 60px);
+  }
+
+  .kawa-promotion-product-new .product-price span {
+    vertical-align: middle;
+  }
+
+  .kawa-promotion-product-new .product-price del {
+    margin-left: 2.2vw;
+    vertical-align: middle;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .kawa-promotion-product-new {
+    width: calc(100% - 40px);
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .kawa-promotion-product-new .image-content {
+    width: 110px;
+  }
+
+  .kawa-promotion-product-new .text-content {
+    margin-left: 130px;
+  }
+
+  .kawa-promotion-product-new .text-content p {
+    font-size: 16px;
+  }
+
+  .kawa-promotion-product-new .product-price span {
+    font-size: 16px;
+  }
+}
