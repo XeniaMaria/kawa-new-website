@@ -2,7 +2,55 @@
   "layout": "promotion",
   "sections": {
     "promotion-list-new": {
-      "type": "kawa-promotion-list"
+      "type": "kawa-promotion-list-new",
+      "settings": {
+        "title": "More Options to Fit Your Needs"
+      },
+      "blocks": {
+        "option-1": {
+          "type": "option",
+          "settings": {
+            "name": "Battery-Powered Security Cameras",
+            "target": "#"
+          }
+        },
+        "option-2": {
+          "type": "option",
+          "settings": {
+            "name": "Dual-Lens Security Cameras",
+            "target": "#"
+          }
+        },
+        "option-3": {
+          "type": "option",
+          "settings": {
+            "name": "PoE IP Cameras & NVRs",
+            "target": "#"
+          }
+        },
+        "option-4": {
+          "type": "option",
+          "settings": {
+            "name": "WiFi Security Cameras",
+            "target": "#"
+          }
+        },
+        "option-5": {
+          "type": "option",
+          "settings": {
+            "name": "PoE & WiFi Security Camera Systems",
+            "target": "#"
+          }
+        },
+        "option-6": {
+          "type": "option",
+          "settings": {
+            "name": "Video Doorbells",
+            "target": "#"
+          }
+        }
+      },
+      "block_order": ["option-1", "option-2", "option-3", "option-4", "option-5", "option-6"]
     }
   },
   "order": ["promotion-list-new"]

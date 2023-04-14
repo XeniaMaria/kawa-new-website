@@ -1,6 +1,21 @@
 {{ 'kawa-promotion-list-new.css' | asset_url | stylesheet_tag }}
 
-<div class="kawa-promotion-list-new">1</div>
+<div class="kawa-promotion-list-new">
+  <div class="promotion-list-wrap">
+    <div class="list-container">
+      <div class="container-wrap">
+        <h5>{{ section.settings.title }}</h5>
+        <ul>
+          {% for block in section.blocks %}
+            <li>
+              <a href="{{ block.settings.target }}">{{ block.settings.name }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
 {% schema %}
 {
@@ -11,6 +26,29 @@
       "type": "text",
       "id": "title",
       "label": "标题"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "option",
+      "name": "列表项",
+      "settings": [
+        {
+          "type": "text",
+          "id": "name",
+          "label": "列表项名称"
+        },
+        {
+          "type": "url",
+          "id": "target",
+          "label": "跳转地址"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "承接页的产品列表NEW"
     }
   ]
 }
