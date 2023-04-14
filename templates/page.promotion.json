@@ -1,0 +1,9 @@
+{
+  "layout": "promotion",
+  "sections": {
+    "promotion-list-new": {
+      "type": "kawa-promotion-list"
+    }
+  },
+  "order": ["promotion-list-new"]
+}
