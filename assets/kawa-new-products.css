@@ -1,3 +1,7 @@
+.kawa-new-products {
+  margin-top: 40px;
+}
+
 .kawa-new-products a:hover {
   text-decoration: none;
 }
@@ -94,6 +98,10 @@
 }
 
 @media screen and (max-width: 767px) {
+  .kawa-new-products {
+    margin-top: 20px;
+  }
+
   .kawa-new-products .new-products-title {
     margin-top: 30px;
     margin-bottom: 0px;
