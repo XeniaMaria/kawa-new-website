@@ -10,6 +10,7 @@
 }
 #header.persistent-show {
   background-color: #fff;
+  margin-bottom: 0;
 }
 
 #header ul {
