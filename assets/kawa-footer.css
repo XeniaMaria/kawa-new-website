@@ -19,7 +19,7 @@
   color: #fff;
 }
 .kawa-footer .footer-contact > ul > li {
-  flex-basis: 50%;
+  flex-basis: 40%;
 }
 
 .kawa-footer .contact-title {
@@ -157,6 +157,12 @@
   text-align: center;
   margin-top: 30px;
   padding-bottom: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .kawa-footer .footer-container {
+    padding: 0 30px;
+  }
 }
 
 @media screen and (max-width: 768px) {
