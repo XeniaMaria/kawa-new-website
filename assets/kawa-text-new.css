@@ -1,0 +1,14 @@
+.kawa-text-new {
+  text-align: center;
+  padding: 20px 5vw;
+}
+
+.kawa-text-new h2 {
+  font-weight: 700;
+}
+
+@media screen and (min-width: 1080px) {
+  .kawa-text-new {
+    padding: 30px calc(((100vw - 17px) - 800px) / 2);
+  }
+}

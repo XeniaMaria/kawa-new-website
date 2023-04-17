@@ -1,0 +1,74 @@
+{{ 'kawa-text-new.css' | asset_url | stylesheet_tag }}
+
+{% style %}
+  .kawa-text-new {
+    background-color: {{ section.settings.bg_color }};
+  }
+  .kawa-text-new h2 {
+    font-size: {{ section.settings.title_fontsize }}px;
+    color: {{ section.settings.title_color }};
+  }
+  .kawa-text-new p {
+    font-size: {{ section.settings.des_fontsize }}px;
+    color: {{ section.settings.des_color }};
+  }
+{% endstyle %}
+
+<div class="kawa-text-new">
+  <h2>{{ section.settings.title }}</h2>
+  <p>{{ section.settings.des }}</p>
+</div>
+
+{% schema %}
+{
+  "name": "纯文本详情模块NEW",
+  "settings": [
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "模块背景颜色",
+      "default": "#fcfcfc"
+    },
+    {
+      "type": "number",
+      "id": "title_fontsize",
+      "label": "标题字体大小",
+      "default": 30
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "title_color",
+      "info": "标题字体颜色",
+      "default": "#000"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "标题文本"
+    },
+    {
+      "type": "number",
+      "id": "des_fontsize",
+      "label": "正文字体大小",
+      "default": 14
+    },
+    {
+      "type": "color",
+      "id": "des_color",
+      "label": "正文字体颜色",
+      "default": "#555"
+    },
+    {
+      "type": "textarea",
+      "id": "des",
+      "label": "标题文本"
+    }
+  ],
+  "presets": [
+    {
+      "name": "纯文本详情模块"
+    }
+  ]
+}
+{% endschema %}
