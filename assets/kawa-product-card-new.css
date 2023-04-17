@@ -17,6 +17,10 @@
   letter-spacing: -0.03em;
 }
 
+.kawa-product-card-new .nav-btn {
+  display: none;
+}
+
 .kawa-product-card-new .card-list {
   padding-bottom: 32px;
   padding-top: 8px;
@@ -260,7 +264,7 @@
   .kawa-product-card-new .card-new {
     --col-gap: 16px;
     --visible-cols: 3;
-    --padding-left: calc((var(--full-width) - 1440px) / 2);
+    --padding-left: 32px;
     --col-size: calc((1292px - (var(--visible-cols) - 1) * var(--col-gap)) / var(--visible-cols));
   }
 
@@ -268,6 +272,42 @@
     font-size: 32px;
     line-height: 36px;
     font-weight: 600;
+  }
+
+  .kawa-product-card-new .nav-btn {
+    display: flex;
+    justify-content: space-between;
+    width: calc(100vw - 17px);
+    max-width: calc(100vw - 17px);
+    padding: 0 32px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 1234;
+  }
+
+  .kawa-product-card-new .nav-btn button {
+    width: 32px;
+    height: 32px;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    opacity: 0;
+    cursor: pointer;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    border-radius: 50%;
+    background: #6c7073;
+    color: #fff;
+    font-size: 14px;
+  }
+  .kawa-product-card-new > div:last-child:hover .nav-btn button {
+    opacity: 0.7;
+  }
+  .kawa-product-card-new > div:last-child:hover .nav-btn button:hover {
+    opacity: 1;
   }
 
   .kawa-product-card-new .top-placeholder {
@@ -303,6 +343,11 @@
     --padding-left: calc((var(--full-width) - 1440px) / 2);
     --col-size: calc((1292px - (var(--visible-cols) - 1) * var(--col-gap)) / var(--visible-cols));
   }
+
+  .kawa-product-card-new .nav-btn {
+    padding-left: calc((calc(100vw) - 1440px) / 2);
+    padding-right: calc((calc(100vw) - 1440px) / 2);
+  }
 }
 
 @media screen and (min-width: 1920px) {
@@ -310,6 +355,11 @@
     max-width: 1664px;
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .kawa-product-card-new .nav-btn {
+    padding-left: 128px;
+    padding-right: 128px;
   }
 
   .kawa-product-card-new .card-new {

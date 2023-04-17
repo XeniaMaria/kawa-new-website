@@ -4,48 +4,54 @@
   <div class="card-new-header">
     <h2>{{ section.settings.title }}</h2>
   </div>
-  <button class="to-prev">prev</button>
-  <button class="to-next">next</button>
-  <div class="card-list">
-    {% for block in section.blocks %}
-      <div class="card-new">
-        <div class="card-wrap">
-          <a href="{{ block.settings.card_product.url }}">
-            <div class="top-placeholder"></div>
-            <div class="front-layer">
-              <img
-                src="{{ block.settings.fr_image | image_url }}"
-                width="auto"
-                height="auto"
-                class="front-img"
-                loading="lazy"
-              >
-            </div>
-            <div class="bg-layer">
-              <img
-                src="{{ block.settings.bg_image | image_url }}"
-                width="auto"
-                height="auto"
-                class="bg-img"
-                loading="lazy"
-              >
-              <div class="info">
-                <h3 class="product-subtitle">
-                  {{ block.settings.card_product.metafields.descriptors.subtitle }}
-                </h3>
-                <p>{{ block.settings.info }}</p>
+  <div style="position: relative;">
+    <div class="nav-btn">
+      <button class="to-prev"><span>&lt;</span></button>
+      <button class="to-next"><span>&gt;</span></button>
+    </div>
+    <div class="card-list">
+      {% for block in section.blocks %}
+        <div class="card-new">
+          <div class="card-wrap">
+            <a href="{{ block.settings.card_product.url }}">
+              <div class="top-placeholder"></div>
+              <div class="front-layer">
+                <img
+                  src="{{ block.settings.fr_image | image_url }}"
+                  width="auto"
+                  height="auto"
+                  class="front-img"
+                  loading="lazy"
+                >
               </div>
-              <div class="price-and-buy">
-                <div class="price-wrap">
-                  <p>{{ block.settings.card_product.price | money }}</p>
+              <div class="bg-layer">
+                <div>
+                  <img
+                    src="{{ block.settings.bg_image | image_url }}"
+                    width="auto"
+                    height="auto"
+                    class="bg-img"
+                    loading="lazy"
+                  >
                 </div>
-                <span class="buy-btn">Buy Now</span>
+                <div class="info">
+                  <h3 class="product-subtitle">
+                    {{ block.settings.card_product.metafields.descriptors.subtitle }}
+                  </h3>
+                  <p>{{ block.settings.info }}</p>
+                </div>
+                <div class="price-and-buy">
+                  <div class="price-wrap">
+                    <p>{{ block.settings.card_product.price | money }}</p>
+                  </div>
+                  <span class="buy-btn">Buy Now</span>
+                </div>
               </div>
-            </div>
-          </a>
+            </a>
+          </div>
         </div>
-      </div>
-    {% endfor %}
+      {% endfor %}
+    </div>
   </div>
 </div>
 
