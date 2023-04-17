@@ -115,7 +115,6 @@
 #header .nav-right > li svg {
   display: inline-block;
   position: relative;
-  top: 4px;
 }
 
 #header .nav-right > li .current-lang {
@@ -467,6 +466,23 @@
 #header .search-wrap predictive-search {
   position: relative;
   display: inline-block;
+}
+
+@media screen and (max-width: 1080px) {
+  #header .logo {
+    width: 69px;
+    height: 17px;
+    margin-top: 35px;
+  }
+
+  #header .nav-left {
+    padding-left: 20px;
+  }
+
+  #header .nav-left > li,
+  #header .nav-right > li {
+    padding: 0 9px;
+  }
 }
 
 @media screen and (max-width: 768px) {

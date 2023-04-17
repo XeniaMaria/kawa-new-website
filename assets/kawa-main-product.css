@@ -394,6 +394,17 @@
   background-color: rgb(18, 18, 18);
 }
 
+@media (max-width: 1200px) {
+  .kawa-main-product .product-images {
+    width: 45%;
+  }
+  .kawa-main-product .product-information {
+    padding: 2.6% 5.2% 2.6% 4.2%;
+    width: 45%;
+    min-width: unset;
+  }
+}
+
 @media (max-width: 768px) {
   .kawa-main-product .product-short-name {
     display: none;
