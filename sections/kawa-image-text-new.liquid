@@ -1,0 +1,105 @@
+{{ 'kawa-image-text-new.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .kawa-image-text-new .img-text-wrap h2 {
+    font-size: {{ section.settings.title_fontsize }}px;
+    color: {{ section.settings.title_color }};
+  }
+
+  .kawa-image-text-new .img-text-wrap span {
+    font-size: {{ section.settings.des_fontsize }}px;
+    color: {{ section.settings.des_color }};
+  }
+{%- endstyle -%}
+
+<div class="kawa-image-text-new">
+  {%- for block in section.blocks -%}
+    <div class="img-text-wrap {{ block.settings.img_position }}">
+      <img src="{{ block.settings.img | image_url }}" loading="lazy" width="350" height="auto">
+      <div class="info">
+        <h2>{{ block.settings.title }}</h2>
+        <div>
+          <span>{{ block.settings.des }}</span>
+        </div>
+      </div>
+    </div>
+  {%- endfor -%}
+</div>
+
+{% schema %}
+{
+  "name": "产品图片加文案NEW",
+  "settings": [
+    {
+      "type": "number",
+      "id": "title_fontsize",
+      "label": "标题字体大小",
+      "default": 30
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "title_color",
+      "info": "标题字体颜色",
+      "default": "#00ade5"
+    },
+    {
+      "type": "number",
+      "id": "des_fontsize",
+      "label": "正文字体大小",
+      "default": 14
+    },
+    {
+      "type": "color",
+      "id": "des_color",
+      "label": "正文字体颜色",
+      "default": "#555"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "item",
+      "name": "文案图片项",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "img",
+          "label": "图片"
+        },
+
+        {
+          "type": "text",
+          "id": "title",
+          "label": "文案标题"
+        },
+        {
+          "type": "textarea",
+          "id": "des",
+          "label": "文案正文"
+        },
+        {
+          "type": "select",
+          "id": "img_position",
+          "label": "图片文本位置",
+          "options": [
+            {
+              "value": "left",
+              "label": "左图片右文本"
+            },
+            {
+              "value": "right",
+              "label": "左文本右图片"
+            }
+          ],
+          "default": "left"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "产品图片加文案NEW"
+    }
+  ]
+}
+{% endschema %}
