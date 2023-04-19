@@ -1,0 +1,188 @@
+{{ 'kawa-main-banner-new.css' | asset_url | stylesheet_tag }}
+
+<div class="kawa-main-banner-new">
+  <div class="banner-img-wrap">
+    <a href="#">
+      {% if section.settings.banner_type == 'image' %}
+        <picture>
+          <source media="(min-width: 768px)" srcset="{{ section.settings.banner_image_pc | image_url }} ">
+          <source media="(max-width: 767px)" srcset="{{ section.settings.banner_image_mb | image_url }} ">
+          <img
+            class="banner-img"
+            loading="lazy"
+            src="{{ section.settings.banner_image_pc | image_url }} "
+            width="auto"
+            height="auto"
+          >
+        </picture>
+      {% elsif section.settings.banner_type == 'video' %}
+        <div class="banner-video-wrap">
+          <video
+            class="banner-video"
+            autoplay
+            muted="muted"
+            playsinline
+            webkit-playsinline="true"
+            x5-playsinline="true"
+          >
+            <source
+              type="video/mp4"
+              media="(max-width: 767px)"
+              src="{{ section.settings.banner_video_mb }}"
+            >
+            <source
+              type="video/mp4"
+              media="(min-width: 768px)"
+              src="{{ section.settings.banner_video_pc }}"
+            >
+          </video>
+          <picture>
+            <source media="(min-width: 768px)" srcset="{{ section.settings.banner_video_poster_pc | image_url }} ">
+            <source media="(max-width: 767px)" srcset="{{ section.settings.banner_video_poster_mb | image_url }} ">
+            <img
+              class="banner-video-poster-img"
+              loading="lazy"
+              src="{{ section.settings.banner_video_poster_pc | image_url }} "
+              width="auto"
+              height="auto"
+            >
+          </picture>
+        </div>
+      {% endif %}
+    </a>
+  </div>
+  <div class="banner-content-wrap">
+    <p class="text-top">{{ section.settings.text_top }}</p>
+    <h2 class="text-middle">{{ section.settings.text_middle }}</h2>
+    <p class="text-bottom">{{ section.settings.text_bottom }}</p>
+  </div>
+</div>
+
+<script type="text/javascript">
+  (function () {
+    const videoEl = $('.kawa-main-banner-new .banner-video');
+    const posterEl = $('.kawa-main-banner-new .banner-video-poster-img');
+    $('.kawa-main-banner-new .banner-video').on('canplay', () => {
+      videoEl.addClass('do-show');
+      posterEl.addClass('not-show');
+    });
+    $('.kawa-main-banner-new .banner-video').on('ended', () => {
+      videoEl.removeClass('do-show');
+      posterEl.removeClass('not-show');
+    });
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "主页的bannerNEW",
+  "settings": [
+    {
+      "type": "radio",
+      "id": "banner_type",
+      "label": "banner类型",
+      "options": [
+        {
+          "value": "image",
+          "label": "图片"
+        },
+        {
+          "value": "video",
+          "label": "视频"
+        },
+        {
+          "value": "carousel",
+          "label": "轮播图"
+        }
+      ],
+      "default": "image"
+    },
+    {
+      "type": "text",
+      "id": "text_top",
+      "label": "上方文本",
+      "info": "这些文本只有banner类型为图片或视频时有效,banner类型为轮播图时每个文本需要单独设置。"
+    },
+    {
+      "type": "text",
+      "id": "text_middle",
+      "label": "中间文本",
+      "info": "这些文本只有banner类型为图片或视频时有效,banner类型为轮播图时每个文本需要单独设置。"
+    },
+    {
+      "type": "text",
+      "id": "text_bottom",
+      "label": "下方文本",
+      "info": "这些文本只有banner类型为图片或视频时有效,banner类型为轮播图时每个文本需要单独设置。"
+    },
+    {
+      "type": "image_picker",
+      "id": "banner_image_pc",
+      "label": "banner图(PC端)"
+    },
+    {
+      "type": "image_picker",
+      "id": "banner_image_mb",
+      "label": "banner图(移动端)"
+    },
+    {
+      "type": "url",
+      "id": "banner_video_pc",
+      "label": "banner视频(PC端)"
+    },
+    {
+      "type": "image_picker",
+      "id": "banner_video_poster_pc",
+      "label": "banner视频的封面图片(PC端)"
+    },
+    {
+      "type": "url",
+      "id": "banner_video_mb",
+      "label": "banner视频(移动端)"
+    },
+    {
+      "type": "image_picker",
+      "id": "banner_video_poster_mb",
+      "label": "banner视频的封面图片(移动端)"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image_carousel_item",
+      "name": "轮播图项",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text_top",
+          "label": "上方文本"
+        },
+        {
+          "type": "text",
+          "id": "text_middle",
+          "label": "中间文本"
+        },
+        {
+          "type": "text",
+          "id": "text_bottom",
+          "label": "下方文本"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_pc",
+          "label": "banner图(PC端)"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_mb",
+          "label": "banner图(移动端)"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "主页的bannerNEW"
+    }
+  ]
+}
+{% endschema %}

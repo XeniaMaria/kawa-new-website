@@ -1,6 +1,21 @@
 {
   "layout": "promotion",
   "sections": {
+    "main-banner-new": {
+      "type": "kawa-main-banner-new",
+      "settings": {
+        "banner_type": "video",
+        "text_top": "Enjoy the Easter Season's Festivities",
+        "text_middle": "UP TO 15% OFF",
+        "text_bottom": "Special savings and gifts from Mar.20-Apr.9",
+        "banner_image_pc": "shopify://shop_images/banner_pc_2.jpg",
+        "banner_image_mb": "shopify://shop_images/banner_mb_2.jpg",
+        "banner_video_pc": "https://cdn.shopify.com/videos/c/o/v/792a2a44df264073909a9845c12ad1f9.mp4",
+        "banner_video_mb": "https://cdn.shopify.com/videos/c/o/v/792a2a44df264073909a9845c12ad1f9.mp4",
+        "banner_video_poster_pc": "shopify://shop_images/banner_poster_pc.jpg",
+        "banner_video_poster_mb": "shopify://shop_images/banner_poster_mb.jpg"
+      }
+    },
     "promotion-list-new": {
       "type": "kawa-promotion-list-new",
       "settings": {
@@ -98,5 +113,5 @@
       "block_order": ["product-1", "product-2", "product-3", "product-4"]
     }
   },
-  "order": ["kawa-product-new", "promotion-list-new"]
+  "order": ["main-banner-new", "kawa-product-new", "promotion-list-new"]
 }
