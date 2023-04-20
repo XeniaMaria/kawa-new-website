@@ -1,0 +1,94 @@
+{% comment %}
+  新的banner的一个banner项
+
+  Accepts:
+  - banner_type: {String} baner项类型 image或video
+  - image_pc: {Object} banner图PC端
+  - image_mb: {Object} banner图移动端
+  - video_pc: {String} banner视频PC端
+  - video_mb: {String} banner视频移动端
+  - video_poster_pc: {Object} banner视频封面PC端
+  - video_poster_mb: {Object} banner视频封面移动端
+  - text_top: {String} 上方文本
+  - text_middle: {String} 中间文本
+  - text_bottom: {String} 下方文本
+
+  Usage:
+  {% render 'kawa-main-banner-new-item' %}
+{% endcomment %}
+{{ 'kawa-main-banner-new-item.css' | asset_url | stylesheet_tag }}
+
+<div class="banner-item-wrap">
+  <div class="banner-img-wrap">
+    <a href="#">
+      {% if banner_type == 'image' %}
+        <picture>
+          <source media="(min-width: 768px)" srcset="{{ image_pc | image_url }} ">
+          <source media="(max-width: 767px)" srcset="{{ image_mb | image_url }} ">
+          <img
+            class="banner-img"
+            loading="lazy"
+            src="{{ image_pc | image_url }} "
+            width="auto"
+            height="auto"
+          >
+        </picture>
+      {% elsif banner_type == 'video' %}
+        <div class="banner-video-wrap">
+          <video
+            class="banner-video"
+            autoplay
+            muted="muted"
+            playsinline
+            webkit-playsinline="true"
+            x5-playsinline="true"
+          >
+            <source
+              type="video/mp4"
+              media="(max-width: 767px)"
+              src="{{ video_mb }}"
+            >
+            <source
+              type="video/mp4"
+              media="(min-width: 768px)"
+              src="{{ video_pc }}"
+            >
+          </video>
+          <picture>
+            <source media="(min-width: 768px)" srcset="{{ video_poster_pc | image_url }} ">
+            <source media="(max-width: 767px)" srcset="{{ video_poster_mb | image_url }} ">
+            <img
+              class="banner-video-poster-img"
+              loading="lazy"
+              src="{{ video_poster_pc | image_url }} "
+              width="auto"
+              height="auto"
+            >
+          </picture>
+        </div>
+      {% endif %}
+    </a>
+  </div>
+  <div class="banner-content-wrap">
+    <p class="text-top">{{ text_top }}</p>
+    <h2 class="text-middle">{{ text_middle }}</h2>
+    <p class="text-bottom">{{ text_bottom }}</p>
+  </div>
+</div>
+
+{% if banner_type == 'video' %}
+  <script type="text/javascript">
+    (function () {
+      const videoEl = $('.kawa-main-banner-new .banner-video');
+      const posterEl = $('.kawa-main-banner-new .banner-video-poster-img');
+      videoEl.on('canplay', () => {
+        videoEl.addClass('do-show');
+        posterEl.addClass('not-show');
+      });
+      videoEl.on('ended', () => {
+        videoEl.removeClass('do-show');
+        posterEl.removeClass('not-show');
+      });
+    })();
+  </script>
+{% endif %}

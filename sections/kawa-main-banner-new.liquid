@@ -1,77 +1,56 @@
 {{ 'kawa-main-banner-new.css' | asset_url | stylesheet_tag }}
 
 <div class="kawa-main-banner-new">
-  <div class="banner-img-wrap">
-    <a href="#">
-      {% if section.settings.banner_type == 'image' %}
-        <picture>
-          <source media="(min-width: 768px)" srcset="{{ section.settings.banner_image_pc | image_url }} ">
-          <source media="(max-width: 767px)" srcset="{{ section.settings.banner_image_mb | image_url }} ">
-          <img
-            class="banner-img"
-            loading="lazy"
-            src="{{ section.settings.banner_image_pc | image_url }} "
-            width="auto"
-            height="auto"
-          >
-        </picture>
-      {% elsif section.settings.banner_type == 'video' %}
-        <div class="banner-video-wrap">
-          <video
-            class="banner-video"
-            autoplay
-            muted="muted"
-            playsinline
-            webkit-playsinline="true"
-            x5-playsinline="true"
-          >
-            <source
-              type="video/mp4"
-              media="(max-width: 767px)"
-              src="{{ section.settings.banner_video_mb }}"
-            >
-            <source
-              type="video/mp4"
-              media="(min-width: 768px)"
-              src="{{ section.settings.banner_video_pc }}"
-            >
-          </video>
-          <picture>
-            <source media="(min-width: 768px)" srcset="{{ section.settings.banner_video_poster_pc | image_url }} ">
-            <source media="(max-width: 767px)" srcset="{{ section.settings.banner_video_poster_mb | image_url }} ">
-            <img
-              class="banner-video-poster-img"
-              loading="lazy"
-              src="{{ section.settings.banner_video_poster_pc | image_url }} "
-              width="auto"
-              height="auto"
-            >
-          </picture>
-        </div>
-      {% endif %}
-    </a>
-  </div>
-  <div class="banner-content-wrap">
-    <p class="text-top">{{ section.settings.text_top }}</p>
-    <h2 class="text-middle">{{ section.settings.text_middle }}</h2>
-    <p class="text-bottom">{{ section.settings.text_bottom }}</p>
-  </div>
+  {% if section.settings.banner_type == 'carousel' %}
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        {% for block in section.blocks %}
+          <div class="swiper-slide">
+            {%
+              render 'kawa-main-banner-new-item',
+              banner_type: 'image',
+              image_pc: block.settings.image_pc,
+              image_mb: block.settings.image_mb,
+              text_top: block.settings.text_top,
+              text_middle: block.settings.text_middle,
+              text_bottom: block.settings.text_bottom,
+            %}
+          </div>
+        {% endfor %}
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  {%- else -%}
+    {%
+      render 'kawa-main-banner-new-item',
+      banner_type: section.settings.banner_type,
+      image_pc: section.settings.banner_image_pc,
+      image_mb: section.settings.banner_image_mb,
+      video_pc: section.settings.banner_video_pc,
+      video_mb: section.settings.banner_video_mb,
+      video_poster_pc: section.settings.banner_video_poster_pc,
+      video_poster_mb: section.settings.banner_video_poster_mb,
+      text_top: section.settings.text_top,
+      text_middle: section.settings.text_middle,
+      text_bottom: section.settings.text_bottom,
+    %}
+  {% endif %}
 </div>
 
-<script type="text/javascript">
-  (function () {
-    const videoEl = $('.kawa-main-banner-new .banner-video');
-    const posterEl = $('.kawa-main-banner-new .banner-video-poster-img');
-    $('.kawa-main-banner-new .banner-video').on('canplay', () => {
-      videoEl.addClass('do-show');
-      posterEl.addClass('not-show');
-    });
-    $('.kawa-main-banner-new .banner-video').on('ended', () => {
-      videoEl.removeClass('do-show');
-      posterEl.removeClass('not-show');
-    });
-  })();
-</script>
+{% if section.settings.banner_type == 'carousel' %}
+  <script type="text/javascript">
+    (function () {
+      const swiper = new Swiper('.kawa-main-banner-new .swiper-container', {
+        loop: true,
+        autoplay: true,
+        pagination: {
+          el: '.kawa-main-banner-new .swiper-pagination',
+        },
+        paginationClickable: true,
+      });
+    })();
+  </script>
+{% endif %}
 
 {% schema %}
 {
