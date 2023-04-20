@@ -437,7 +437,7 @@
       "block_order": ["card-1", "card-2", "card-3", "card-4", "card-5", "card-6"]
     },
     "banner-product-new": {
-      "disabled": false,
+      "disabled": true,
       "type": "kawa-banner-product-new",
       "settings": {
         "title": "Camera",
