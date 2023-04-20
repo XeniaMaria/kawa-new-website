@@ -437,10 +437,21 @@
       "block_order": ["card-1", "card-2", "card-3", "card-4", "card-5", "card-6"]
     },
     "banner-product-new": {
-      "disabled": true,
+      "disabled": false,
       "type": "kawa-banner-product-new",
       "settings": {
-        "title": "Camera"
+        "title": "Camera",
+        "banner_type": "image",
+        "banner_product": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6",
+        "text_top": "New",
+        "text_bottom": "Integrated Aerial Cinema Camera",
+        "banner_image_pc": "shopify://shop_images/banner_pc_2.jpg",
+        "banner_image_mb": "shopify://shop_images/banner_mb_2.jpg",
+        "banner_video_pc": "https://cdn.shopify.com/videos/c/o/v/792a2a44df264073909a9845c12ad1f9.mp4",
+        "banner_video_mb": "https://cdn.shopify.com/videos/c/o/v/792a2a44df264073909a9845c12ad1f9.mp4",
+        "banner_video_poster_pc": "shopify://shop_images/banner_poster_pc.jpg",
+        "banner_video_poster_mb": "shopify://shop_images/banner_poster_mb.jpg",
+        "btn_text": "Buy Now"
       },
       "blocks": {
         "card-1": {

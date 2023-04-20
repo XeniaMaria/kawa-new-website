@@ -23,6 +23,20 @@
   color: rgba(0, 0, 0, 0.85);
 }
 
+.kawa-banner-product-new .banner-wrap {
+  margin: 0 24px 8px;
+  position: relative;
+  height: 480px;
+  border-radius: 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  overflow: hidden;
+}
+
 .kawa-banner-product-new .product-list-container {
   width: 100%;
   max-width: 1200px;
@@ -128,6 +142,12 @@
     line-height: 32px;
   }
 
+  .kawa-banner-product-new .banner-wrap {
+    margin: 0 32px 16px;
+    padding: 0;
+    height: 400px;
+  }
+
   .kawa-banner-product-new .product-list {
     padding: 0 32px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -173,6 +193,11 @@
     line-height: 36px;
   }
 
+  .kawa-banner-product-new .banner-wrap {
+    margin: 24px 0 16px;
+    height: 480px;
+  }
+
   .kawa-banner-product-new .product-list-container {
     max-width: 1504px;
     padding-left: 0;
@@ -198,6 +223,11 @@
 }
 
 @media screen and (min-width: 1504px) {
+  .kawa-banner-product-new .banner-wrap {
+    height: 576px;
+    margin: 24px 0 16px;
+  }
+
   .kawa-banner-product-new .product-list {
     grid-gap: 16px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -214,6 +244,10 @@
 }
 
 @media screen and (min-width: 1920px) {
+  .kawa-banner-product-new .banner-wrap {
+    height: 665px;
+  }
+
   .kawa-banner-product-new {
     max-width: 1664px;
     padding-left: 0;

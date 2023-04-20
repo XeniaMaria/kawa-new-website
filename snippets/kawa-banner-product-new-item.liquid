@@ -1,0 +1,115 @@
+{% comment %}
+  新的产品banner的一个banner项
+
+  Accepts:
+  - banner_type: {String} baner项类型 image或video
+  - banner_product: {String} banner对应的产品
+  - image_pc: {Object} banner图PC端
+  - image_mb: {Object} banner图移动端
+  - video_pc: {String} banner视频PC端
+  - video_mb: {String} banner视频移动端
+  - video_poster_pc: {Object} banner视频封面PC端
+  - video_poster_mb: {Object} banner视频封面移动端
+  - text_top: {String} 上方文本
+  - text_middle: {String} 中间文本
+  - text_bottom: {String} 下方文本
+  - btn_text: {String} 按钮文本
+  - btn_target: {String} 按钮跳转的链接
+
+  Usage:
+  {% render 'kawa-banner-product-new-item' %}
+{% endcomment %}
+{{ 'kawa-banner-product-new-item.css' | asset_url | stylesheet_tag }}
+
+<div class="banner-product-item-wrap">
+  <div class="banner-img-wrap">
+    <a href="{% if btn_target == null %}{{ banner_product.url }}{% else %}{{ btn_target }} {% endif %}">
+      {% if banner_type == 'image' %}
+        <picture>
+          <source media="(min-width: 768px)" srcset="{{ image_pc | image_url }} ">
+          <source media="(max-width: 767px)" srcset="{{ image_mb | image_url }} ">
+          <img
+            class="banner-img"
+            loading="lazy"
+            src="{{ image_pc | image_url }} "
+            width="auto"
+            height="auto"
+          >
+        </picture>
+      {% elsif banner_type == 'video' %}
+        <div class="banner-video-wrap">
+          <video
+            class="banner-video"
+            autoplay
+            muted="muted"
+            playsinline
+            webkit-playsinline="true"
+            x5-playsinline="true"
+          >
+            <source
+              type="video/mp4"
+              media="(max-width: 767px)"
+              src="{{ video_mb }}"
+            >
+            <source
+              type="video/mp4"
+              media="(min-width: 768px)"
+              src="{{ video_pc }}"
+            >
+          </video>
+          <picture>
+            <source media="(min-width: 768px)" srcset="{{ video_poster_pc | image_url }} ">
+            <source media="(max-width: 767px)" srcset="{{ video_poster_mb | image_url }} ">
+            <img
+              class="banner-video-poster-img"
+              loading="lazy"
+              src="{{ video_poster_pc | image_url }} "
+              width="auto"
+              height="auto"
+            >
+          </picture>
+        </div>
+      {% endif %}
+    </a>
+  </div>
+  <div class="banner-content-wrap">
+    <div>
+      <p class="text-top">{{ text_top }}</p>
+      <h2 class="text-middle">
+        {% if text_middle == null or text_middle == empty %}
+          {{ banner_product.metafields.descriptors.subtitle }}
+        {% else %}
+          {{ text_middle }}
+        {% endif %}
+      </h2>
+      <p class="text-bottom">{{ text_bottom }}</p>
+    </div>
+    <div class="btn-price">
+      <div>
+        <span class="banner-price">{{ banner_product.price | money }}</span>
+      </div>
+      <div class="btn-wrap">
+        <a href="{% if btn_target == null %}{{ banner_product.url }}{% else %}{{ btn_target }} {% endif %}">
+          <button>{{ btn_text }}</button>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% if banner_type == 'video' %}
+  <script type="text/javascript">
+    (function () {
+      const videoEl = $('.banner-product-item-wrap .banner-video');
+      const posterEl = $('.banner-product-item-wrap .banner-video-poster-img');
+      videoEl.on('canplay', () => {
+        videoEl.addClass('do-show');
+        posterEl.addClass('not-show');
+      });
+      videoEl.on('ended', () => {
+        videoEl.removeClass('do-show');
+        posterEl.removeClass('not-show');
+      });
+    })();
+  </script>
+{% endif %}

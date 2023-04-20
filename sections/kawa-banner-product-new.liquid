@@ -4,6 +4,35 @@
   <div class="section-title">
     <h2>{{ section.settings.title }}</h2>
   </div>
+  <div class="banner-wrap">
+    {% if section.settings.banner_type == 'carousel' %}
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          {% for block in section.blocks %}
+            {% if block.type == 'carousel_item' %}
+              <div class="swiper-slide"></div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    {% else %}
+      {% render 'kawa-banner-product-new-item',
+        banner_type: section.settings.banner_type,
+        banner_product: section.settings.banner_product,
+        image_pc: section.settings.banner_image_pc,
+        image_mb: section.settings.banner_image_mb,
+        video_pc: section.settings.banner_video_pc,
+        video_mb: section.settings.banner_video_mb,
+        video_poster_pc: section.settings.banner_video_poster_pc,
+        video_poster_mb: section.settings.banner_video_poster_mb,
+        text_top: section.settings.text_top,
+        text_middle: section.settings.text_middle,
+        text_bottom: section.settings.text_bottom,
+        btn_text: section.settings.btn_text,
+        btn_target: section.settings.btn_target
+      %}
+    {% endif %}
+  </div>
   <div class="product-list-container">
     <div class="product-list">
       {% for block in section.blocks %}
@@ -38,6 +67,24 @@
   </div>
 </div>
 
+{% if section.settings.banner_type == 'carousel' %}
+  <script type="text/javascript">
+    (function () {
+      const swiper = new Swiper('.kawa-banner-product-new .swiper-container', {
+        loop: true,
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: '.kawa-main-banner-new .swiper-pagination',
+        },
+        paginationClickable: true,
+      });
+    })();
+  </script>
+{% endif %}
+
 {% schema %}
 {
   "name": "主页的baner和三列产品列表NEW",
@@ -47,6 +94,92 @@
       "type": "text",
       "id": "title",
       "label": "标题"
+    },
+    {
+      "type": "radio",
+      "id": "banner_type",
+      "label": "banner类型",
+      "options": [
+        {
+          "value": "image",
+          "label": "图片"
+        },
+        {
+          "value": "video",
+          "label": "视频"
+        },
+        {
+          "value": "carousel",
+          "label": "轮播图"
+        }
+      ],
+      "default": "image"
+    },
+    {
+      "type": "product",
+      "id": "banner_product",
+      "label": "banner对应的产品",
+      "info": "此产品只有在banner类型为图片或视频时有效,banner类型为轮播图时需要单独设置。"
+    },
+    {
+      "type": "text",
+      "id": "text_top",
+      "label": "上方文本",
+      "info": "这些文本只有banner类型为图片或视频时有效,banner类型为轮播图时需要单独设置。"
+    },
+    {
+      "type": "text",
+      "id": "text_middle",
+      "label": "中间文本(为空就用产品的名称)",
+      "info": "这些文本只有banner类型为图片或视频时有效,banner类型为轮播图时需要单独设置。"
+    },
+    {
+      "type": "text",
+      "id": "text_bottom",
+      "label": "下方文本",
+      "info": "这些文本只有banner类型为图片或视频时有效,banner类型为轮播图时需要单独设置。"
+    },
+    {
+      "type": "text",
+      "id": "btn_text",
+      "label": "按钮文本",
+      "info": "这些文本只有banner类型为图片或视频时有效,banner类型为轮播图时需要单独设置。"
+    },
+    {
+      "type": "url",
+      "id": "btn_target",
+      "label": "按钮跳转的链接",
+      "info": "如果不填写，默认就会导航到产品页面。"
+    },
+    {
+      "type": "image_picker",
+      "id": "banner_image_pc",
+      "label": "banner图(PC端)"
+    },
+    {
+      "type": "image_picker",
+      "id": "banner_image_mb",
+      "label": "banner图(移动端)"
+    },
+    {
+      "type": "url",
+      "id": "banner_video_pc",
+      "label": "banner视频(PC端)"
+    },
+    {
+      "type": "image_picker",
+      "id": "banner_video_poster_pc",
+      "label": "banner视频的封面图片(PC端)"
+    },
+    {
+      "type": "url",
+      "id": "banner_video_mb",
+      "label": "banner视频(移动端)"
+    },
+    {
+      "type": "image_picker",
+      "id": "banner_video_poster_mb",
+      "label": "banner视频的封面图片(移动端)"
     }
   ],
   "blocks": [
@@ -68,6 +201,53 @@
           "type": "product",
           "id": "card_product",
           "label": "对应产品"
+        }
+      ]
+    },
+    {
+      "type": "carousel_item",
+      "name": "banner轮播图项",
+      "settings": [
+        {
+          "type": "product",
+          "id": "item_product",
+          "label": "轮播图项对应的产品"
+        },
+        {
+          "type": "text",
+          "id": "text_top",
+          "label": "上方文本"
+        },
+        {
+          "type": "text",
+          "id": "text_middle",
+          "label": "中间文本(为空就用产品的名称)"
+        },
+        {
+          "type": "text",
+          "id": "text_bottom",
+          "label": "下方文本"
+        },
+        {
+          "type": "text",
+          "id": "btn_text",
+          "label": "按钮文本"
+        },
+        {
+          "type": "url",
+          "id": "btn_target",
+          "label": "按钮跳转的链接",
+          "info": "如果不填写，默认就会导航到已选择的轮播图项对应的产品页面。"
+        },
+        {
+          "type": "image_picker",
+          "id": "banner_image_pc",
+          "label": "轮播项的图(PC端)"
+        },
+        {
+          "type": "image_picker",
+          "id": "banner_image_mb",
+          "label": "轮播项的图(移动端)"
         }
       ]
     }
