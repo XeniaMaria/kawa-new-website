@@ -488,6 +488,7 @@
 @media screen and (max-width: 768px) {
   #header {
     background-color: #fff;
+    margin-bottom: 0;
   }
 
   #header .kawa-drawer {
