@@ -13,7 +13,9 @@
         "banner_video_pc": "https://cdn.shopify.com/videos/c/o/v/792a2a44df264073909a9845c12ad1f9.mp4",
         "banner_video_mb": "https://cdn.shopify.com/videos/c/o/v/792a2a44df264073909a9845c12ad1f9.mp4",
         "banner_video_poster_pc": "shopify://shop_images/banner_poster_pc.jpg",
-        "banner_video_poster_mb": "shopify://shop_images/banner_poster_mb.jpg"
+        "banner_video_poster_mb": "shopify://shop_images/banner_poster_mb.jpg",
+        "btn_text": "Buy Now",
+        "btn_target": "##"
       },
       "blocks": {
         "image-item-1": {
@@ -23,7 +25,9 @@
             "text_middle": "UP TO 15% OFF",
             "text_bottom": "Special savings and gifts from Mar.20-Apr.9",
             "image_pc": "shopify://shop_images/banner_pc_1.jpg",
-            "image_mb": "shopify://shop_images/banner_mb_1.jpg"
+            "image_mb": "shopify://shop_images/banner_mb_1.jpg",
+            "btn_text": "Buy Now",
+            "btn_target": "##"
           }
         },
         "image-item-2": {
@@ -33,7 +37,9 @@
             "text_middle": "UP TO 15% OFF",
             "text_bottom": "Special savings and gifts from Mar.20-Apr.9",
             "image_pc": "shopify://shop_images/banner_pc_2.jpg",
-            "image_mb": "shopify://shop_images/banner_mb_2.jpg"
+            "image_mb": "shopify://shop_images/banner_mb_2.jpg",
+            "btn_text": "Buy Now",
+            "btn_target": "##"
           }
         }
       },

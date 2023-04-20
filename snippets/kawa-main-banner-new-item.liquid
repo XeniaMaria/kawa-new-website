@@ -12,6 +12,8 @@
   - text_top: {String} 上方文本
   - text_middle: {String} 中间文本
   - text_bottom: {String} 下方文本
+  - btn_text: {String} 按钮文本
+  - btn_target: {String} 按钮跳转的链接
 
   Usage:
   {% render 'kawa-main-banner-new-item' %}
@@ -73,6 +75,11 @@
     <p class="text-top">{{ text_top }}</p>
     <h2 class="text-middle">{{ text_middle }}</h2>
     <p class="text-bottom">{{ text_bottom }}</p>
+    <div class="btn-wrap">
+      <a href="{{ btn_target }}">
+        <button>{{ btn_text }}</button>
+      </a>
+    </div>
   </div>
 </div>
 
