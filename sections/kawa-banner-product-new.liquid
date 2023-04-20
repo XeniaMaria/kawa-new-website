@@ -10,10 +10,23 @@
         <div class="swiper-wrapper">
           {% for block in section.blocks %}
             {% if block.type == 'carousel_item' %}
-              <div class="swiper-slide"></div>
+              <div class="swiper-slide">
+                {% render 'kawa-banner-product-new-item',
+                  banner_type: 'image',
+                  banner_product: block.settings.item_product,
+                  image_pc: block.settings.image_pc,
+                  image_mb: block.settings.image_mb,
+                  text_top: block.settings.text_top,
+                  text_middle: block.settings.text_middle,
+                  text_bottom: block.settings.text_bottom,
+                  btn_text: block.settings.btn_text,
+                  btn_target: block.settings.btn_target
+                %}
+              </div>
             {% endif %}
           {% endfor %}
         </div>
+        <div class="swiper-pagination"></div>
       </div>
     {% else %}
       {% render 'kawa-banner-product-new-item',
@@ -36,32 +49,34 @@
   <div class="product-list-container">
     <div class="product-list">
       {% for block in section.blocks %}
-        <div class="product-card">
-          <a href="{{ block.settings.card_product.url }}">
-            <figure>
-              <img src="{{ block.settings.image | image_url }}" loading="lazy" width="auto" height="auto">
-            </figure>
-            <div class="info">
-              <div class="info-label">
-                <div class="info-tag">
-                  <span>{{ block.settings.tag }}</span>
+        {% if block.type == 'product_card' %}
+          <div class="product-card">
+            <a href="{{ block.settings.card_product.url }}">
+              <figure>
+                <img src="{{ block.settings.image | image_url }}" loading="lazy" width="auto" height="auto">
+              </figure>
+              <div class="info">
+                <div class="info-label">
+                  <div class="info-tag">
+                    <span>{{ block.settings.tag }}</span>
+                  </div>
+                </div>
+                <p>
+                  {{ block.settings.card_product.metafields.descriptors.subtitle }}
+                </p>
+              </div>
+              <div class="shop-info">
+                <div class="shop-info-price">
+                  <div>
+                    <p>
+                      {{ block.settings.card_product.price | money }}
+                    </p>
+                  </div>
                 </div>
               </div>
-              <p>
-                {{ block.settings.card_product.metafields.descriptors.subtitle }}
-              </p>
-            </div>
-            <div class="shop-info">
-              <div class="shop-info-price">
-                <div>
-                  <p>
-                    {{ block.settings.card_product.price | money }}
-                  </p>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
+            </a>
+          </div>
+        {% endif %}
       {% endfor %}
     </div>
   </div>
@@ -77,7 +92,7 @@
           disableOnInteraction: false,
         },
         pagination: {
-          el: '.kawa-main-banner-new .swiper-pagination',
+          el: '.kawa-banner-product-new .swiper-pagination',
         },
         paginationClickable: true,
       });
@@ -241,12 +256,12 @@
         },
         {
           "type": "image_picker",
-          "id": "banner_image_pc",
+          "id": "image_pc",
           "label": "轮播项的图(PC端)"
         },
         {
           "type": "image_picker",
-          "id": "banner_image_mb",
+          "id": "image_mb",
           "label": "轮播项的图(移动端)"
         }
       ]
