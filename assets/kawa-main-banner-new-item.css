@@ -1,7 +1,7 @@
 .banner-item-wrap {
   padding: 56px 24px 0 24px;
   position: relative;
-  height: 490px;
+  height: 100%;
   letter-spacing: -0.03em;
 }
 
@@ -195,10 +195,6 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .banner-item-wrap {
-    height: 640px;
-  }
-
   .banner-item-wrap .banner-content-wrap {
     max-width: 1440px;
     margin: 0 auto;

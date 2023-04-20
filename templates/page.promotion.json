@@ -4,7 +4,7 @@
     "main-banner-new": {
       "type": "kawa-main-banner-new",
       "settings": {
-        "banner_type": "carousel",
+        "banner_type": "image",
         "text_top": "Enjoy the Easter Season's Festivities",
         "text_middle": "UP TO 15% OFF",
         "text_bottom": "Special savings and gifts from Mar.20-Apr.9",

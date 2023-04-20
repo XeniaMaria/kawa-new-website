@@ -3,3 +3,13 @@
 .kawa-main-banner-new .swiper-slide {
   height: 100%;
 }
+
+.kawa-main-banner-new {
+  height: 490px;
+}
+
+@media screen and (min-width: 1200px) {
+  .kawa-main-banner-new {
+    height: 640px;
+  }
+}
