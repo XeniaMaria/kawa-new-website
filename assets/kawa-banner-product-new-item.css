@@ -68,13 +68,6 @@
   transition: opacity 0.3s;
 }
 
-.banner-product-item-wrap .not-show {
-  opacity: 0;
-}
-.banner-product-item-wrap .do-show {
-  opacity: 1;
-}
-
 .banner-product-item-wrap .banner-content-wrap {
   position: relative;
   z-index: 3;
@@ -133,7 +126,7 @@
   pointer-events: all;
 }
 
-.banner-product-item-wrap .btn-wrap button {
+.banner-product-item-wrap .btn-wrap a button {
   position: relative;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -167,8 +160,52 @@
   border-radius: 100px;
   border: none;
 }
-.banner-product-item-wrap .btn-wrap button:hover {
+.banner-product-item-wrap .btn-wrap a button:hover {
   background: rgba(255, 255, 255, 0.9);
+}
+
+.banner-product-item-wrap .replay-icon {
+  opacity: 1;
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  right: 24px;
+  top: 24px;
+  position: absolute;
+  z-index: 5;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0;
+  font-size: 16px;
+  line-height: 20px;
+  border: none;
+  align-items: center;
+  border-radius: 40px;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  touch-action: manipulation;
+  user-select: none;
+}
+.banner-product-item-wrap .replay-icon:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.banner-product-item-wrap .replay-icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.banner-product-item-wrap .not-show {
+  opacity: 0;
+}
+.banner-product-item-wrap .do-show {
+  opacity: 1;
 }
 
 @media screen and (min-width: 768px) {
@@ -208,7 +245,7 @@
     margin-top: 64px;
   }
 
-  .banner-product-item-wrap .btn-wrap button {
+  .banner-product-item-wrap .btn-wrap a button {
     height: 40px;
     font-size: 16px;
     line-height: 20px;
@@ -247,7 +284,7 @@
     margin-top: 48px;
   }
 
-  .banner-product-item-wrap .btn-wrap button {
+  .banner-product-item-wrap .btn-wrap a button {
     height: 40px;
     font-size: 16px;
     line-height: 20px;
