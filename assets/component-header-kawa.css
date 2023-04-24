@@ -271,6 +271,10 @@
   overflow-y: auto;
 }
 
+.product-sub-menu .product-card-list::-webkit-scrollbar {
+  display: none;
+}
+
 /* 产品项目相关 */
 .product-sub-menu .product-card-item {
   max-width: 230px;
