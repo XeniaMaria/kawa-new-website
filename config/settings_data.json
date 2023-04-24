@@ -105,44 +105,44 @@
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
     "accent_icons": "text",
-    "social_twitter_link": "https://twitter.com/KAWA_easylife",
-    "social_facebook_link": "https://www.facebook.com/Kawa.easylify/",
+    "social_twitter_link": "https:\/\/twitter.com\/KAWA_easylife",
+    "social_facebook_link": "https:\/\/www.facebook.com\/Kawa.easylify\/",
     "social_pinterest_link": "",
-    "social_instagram_link": "https://www.instagram.com/kawa.easylife/",
+    "social_instagram_link": "https:\/\/www.instagram.com\/kawa.easylife\/",
     "social_tiktok_link": "",
     "social_tumblr_link": "",
     "social_snapchat_link": "",
-    "social_youtube_link": "https://www.youtube.com/@kawa.Official",
+    "social_youtube_link": "https:\/\/www.youtube.com\/@kawa.Official",
     "social_vimeo_link": "",
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
-    "favicon": "shopify://shop_images/aaa-2.png",
+    "favicon": "shopify:\/\/shop_images\/aaa-2.png",
     "currency_code_enabled": true,
     "cart_type": "drawer",
     "app_download_name": "KAWA IOT",
     "app_download_title": "KAWA DVR APP",
     "app_download_des": "Control and monitor your Dash Cam D6 and real-time road conditions.",
-    "app_download_logo": "shopify://shop_images/1_679bb176-533b-4cad-aa52-7edbafe5523b.png",
+    "app_download_logo": "shopify:\/\/shop_images\/1_679bb176-533b-4cad-aa52-7edbafe5523b.png",
     "app_download_learn_more": "",
-    "app_download_bg": "shopify://shop_images/2-2.jpg",
-    "app_download_bg_mb": "shopify://shop_images/2_2_fb79460a-30ea-4999-ba1d-caa892b459cc.jpg",
-    "app_store_img": "shopify://shop_images/2.png",
-    "app_download_ios": "https://www.buyapical.com/ilop/download.html",
+    "app_download_bg": "shopify:\/\/shop_images\/2-2.jpg",
+    "app_download_bg_mb": "shopify:\/\/shop_images\/2_2_fb79460a-30ea-4999-ba1d-caa892b459cc.jpg",
+    "app_store_img": "shopify:\/\/shop_images\/2.png",
+    "app_download_ios": "https:\/\/www.buyapical.com\/ilop\/download.html",
     "app_download_ios_tips": "Requires iOS9.0 or above.",
-    "google_play_img": "shopify://shop_images/1.png",
-    "app_download_android": "https://www.buyapical.com/ilop/download.html",
+    "google_play_img": "shopify:\/\/shop_images\/1.png",
+    "app_download_android": "https:\/\/www.buyapical.com\/ilop\/download.html",
     "app_download_android_tips": "Requires Android5.0or above.",
-    "app_download_code_ios": "shopify://shop_images/KAWA_DVR.png",
+    "app_download_code_ios": "shopify:\/\/shop_images\/KAWA_DVR.png",
     "app_download_code_tips_ios": "Scan QR code to download",
-    "app_download_code_android": "shopify://shop_images/KAWA_DVR.png",
+    "app_download_code_android": "shopify:\/\/shop_images\/KAWA_DVR.png",
     "app_download_code_tips_android": "Scan QR code to download",
     "app_download_apk_url": "",
     "app_download_apk_tips": "",
     "app_download_name_2": "KAWA DVR",
-    "app_download_logo_2": "shopify://shop_images/kawa_dvr_icon_f44e5dc9-e06a-435d-b386-e8de21c6829a.png",
-    "app_download_ios_2": "https://apps.apple.com/cn/app/kawa-dvr/id1601762531",
-    "app_download_android_2": "https://play.google.com/store/apps/details?id=com.apical.cj1005",
+    "app_download_logo_2": "shopify:\/\/shop_images\/kawa_dvr_icon_f44e5dc9-e06a-435d-b386-e8de21c6829a.png",
+    "app_download_ios_2": "https:\/\/apps.apple.com\/cn\/app\/kawa-dvr\/id1601762531",
+    "app_download_android_2": "https:\/\/play.google.com\/store\/apps\/details?id=com.apical.cj1005",
     "copyright_text": "Copyright © 2022 Kawa all rights reserved.",
     "coupon_dlg_code": "X7WC3XN6",
     "coupon_dlg_title": "JOIN US",
@@ -164,8 +164,11 @@
             }
           }
         },
-        "block_order": ["announcement-bar-0"],
-        "settings": {}
+        "block_order": [
+          "announcement-bar-0"
+        ],
+        "settings": {
+        }
       },
       "header": {
         "type": "header",
@@ -181,7 +184,8 @@
       },
       "header-kawa": {
         "type": "header-kawa",
-        "settings": {}
+        "settings": {
+        }
       },
       "footer": {
         "type": "footer",
@@ -204,11 +208,15 @@
             "type": "text",
             "settings": {
               "heading": "Our mission",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>"
+              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
             }
           }
         },
-        "block_order": ["footer-0", "footer-1", "footer-2"],
+        "block_order": [
+          "footer-0",
+          "footer-1",
+          "footer-2"
+        ],
         "settings": {
           "color_scheme": "background-1",
           "newsletter_enable": true,
@@ -237,10 +245,13 @@
       },
       "kawa-footer": {
         "type": "kawa-footer",
-        "settings": {}
+        "settings": {
+        }
       }
     },
-    "content_for_index": []
+    "content_for_index": [
+
+    ]
   },
   "presets": {
     "Default": {
@@ -366,19 +377,19 @@
       "app_download_name": "kawa iot",
       "app_download_title": "KAWA DVR APP",
       "app_download_des": "Control and monitor your Dash Cam D6 and real-time road conditions.",
-      "app_download_logo": "shopify://shop_images/kawa_dvr_icon_f44e5dc9-e06a-435d-b386-e8de21c6829a.png",
+      "app_download_logo": "shopify:\/\/shop_images\/kawa_dvr_icon_f44e5dc9-e06a-435d-b386-e8de21c6829a.png",
       "app_download_learn_more": "",
-      "app_download_bg": "shopify://shop_images/2d492b34be543819e883f2ee621ced45.jpg",
-      "app_download_bg_mb": "shopify://shop_images/download-bg-mb.png",
+      "app_download_bg": "shopify:\/\/shop_images\/2d492b34be543819e883f2ee621ced45.jpg",
+      "app_download_bg_mb": "shopify:\/\/shop_images\/download-bg-mb.png",
       "app_store_img": "",
-      "app_download_ios": "https://apps.apple.com/cn/app/kawa-dvr/id1601762531",
+      "app_download_ios": "https:\/\/apps.apple.com\/cn\/app\/kawa-dvr\/id1601762531",
       "app_download_ios_tips": "Requires iOS9.0 or above.",
       "google_play_img": "",
-      "app_download_android": "https://play.google.com/store/apps/details?id=com.apical.cj1005",
+      "app_download_android": "https:\/\/play.google.com\/store\/apps\/details?id=com.apical.cj1005",
       "app_download_android_tips": "Requires Android5.0or above.",
-      "app_download_code_ios": "shopify://shop_images/KAWA_DVR.png",
+      "app_download_code_ios": "shopify:\/\/shop_images\/KAWA_DVR.png",
       "app_download_code_tips_ios": "Scan QR code to download",
-      "app_download_code_android": "shopify://shop_images/KAWA_DVR.png",
+      "app_download_code_android": "shopify:\/\/shop_images\/KAWA_DVR.png",
       "app_download_code_tips_android": "Scan QR code to download",
       "app_download_apk_url": "",
       "app_download_apk_tips": "",
@@ -404,8 +415,11 @@
               }
             }
           },
-          "block_order": ["announcement-bar-0"],
-          "settings": {}
+          "block_order": [
+            "announcement-bar-0"
+          ],
+          "settings": {
+          }
         },
         "header": {
           "type": "header",
@@ -421,7 +435,8 @@
         },
         "header-kawa": {
           "type": "header-kawa",
-          "settings": {}
+          "settings": {
+          }
         },
         "footer": {
           "type": "footer",
@@ -444,11 +459,15 @@
               "type": "text",
               "settings": {
                 "heading": "Our mission",
-                "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>"
+                "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
               }
             }
           },
-          "block_order": ["footer-0", "footer-1", "footer-2"],
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
           "settings": {
             "color_scheme": "background-1",
             "newsletter_enable": true,
