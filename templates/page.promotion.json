@@ -3,20 +3,6 @@
   "sections": {
     "main-banner-new": {
       "type": "kawa-main-banner-new",
-      "settings": {
-        "banner_type": "image",
-        "text_top": "Enjoy the Easter Season's Festivities",
-        "text_middle": "UP TO 15% OFF",
-        "text_bottom": "Special savings and gifts from Mar.20-Apr.9",
-        "banner_image_pc": "shopify://shop_images/banner_pc_2.jpg",
-        "banner_image_mb": "shopify://shop_images/banner_mb_2.jpg",
-        "banner_video_pc": "https://cdn.shopify.com/videos/c/o/v/792a2a44df264073909a9845c12ad1f9.mp4",
-        "banner_video_mb": "https://cdn.shopify.com/videos/c/o/v/792a2a44df264073909a9845c12ad1f9.mp4",
-        "banner_video_poster_pc": "shopify://shop_images/banner_poster_pc.jpg",
-        "banner_video_poster_mb": "shopify://shop_images/banner_poster_mb.jpg",
-        "btn_text": "Buy Now",
-        "btn_target": "##"
-      },
       "blocks": {
         "image-item-1": {
           "type": "image_carousel_item",
@@ -24,10 +10,10 @@
             "text_top": "Enjoy the Easter Season's Festivities",
             "text_middle": "UP TO 15% OFF",
             "text_bottom": "Special savings and gifts from Mar.20-Apr.9",
-            "image_pc": "shopify://shop_images/banner_pc_1.jpg",
-            "image_mb": "shopify://shop_images/banner_mb_1.jpg",
             "btn_text": "Buy Now",
-            "btn_target": "##"
+            "btn_target": "##",
+            "image_pc": "shopify:\/\/shop_images\/banner_pc_1.jpg",
+            "image_mb": "shopify:\/\/shop_images\/banner_mb_1.jpg"
           }
         },
         "image-item-2": {
@@ -36,20 +22,34 @@
             "text_top": "Enjoy the Easter Season's Festivities",
             "text_middle": "UP TO 15% OFF",
             "text_bottom": "Special savings and gifts from Mar.20-Apr.9",
-            "image_pc": "shopify://shop_images/banner_pc_2.jpg",
-            "image_mb": "shopify://shop_images/banner_mb_2.jpg",
             "btn_text": "Buy Now",
-            "btn_target": "##"
+            "btn_target": "##",
+            "image_pc": "shopify:\/\/shop_images\/banner_pc_2.jpg",
+            "image_mb": "shopify:\/\/shop_images\/banner_mb_2.jpg"
           }
         }
       },
-      "block_order": ["image-item-1", "image-item-2"]
+      "block_order": [
+        "image-item-1",
+        "image-item-2"
+      ],
+      "settings": {
+        "banner_type": "image",
+        "text_top": "Enjoy the Easter Season's Festivities",
+        "text_middle": "UP TO 15% OFF",
+        "text_bottom": "Special savings and gifts from Mar.20-Apr.9",
+        "btn_text": "Buy Now",
+        "btn_target": "##",
+        "banner_image_pc": "shopify:\/\/shop_images\/banner_pc_2.jpg",
+        "banner_image_mb": "shopify:\/\/shop_images\/banner_mb_2.jpg",
+        "banner_video_pc": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/792a2a44df264073909a9845c12ad1f9.mp4",
+        "banner_video_poster_pc": "shopify:\/\/shop_images\/banner_poster_pc.jpg",
+        "banner_video_mb": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/792a2a44df264073909a9845c12ad1f9.mp4",
+        "banner_video_poster_mb": "shopify:\/\/shop_images\/banner_poster_mb.jpg"
+      }
     },
     "promotion-list-new": {
       "type": "kawa-promotion-list-new",
-      "settings": {
-        "title": "More Options to Fit Your Needs"
-      },
       "blocks": {
         "option-1": {
           "type": "option",
@@ -94,53 +94,72 @@
           }
         }
       },
-      "block_order": ["option-1", "option-2", "option-3", "option-4", "option-5", "option-6"]
+      "block_order": [
+        "option-1",
+        "option-2",
+        "option-3",
+        "option-4",
+        "option-5",
+        "option-6"
+      ],
+      "settings": {
+        "title": "More Options to Fit Your Needs"
+      }
     },
     "kawa-product-new": {
       "type": "kawa-promotion-product-new",
-      "settings": {
-        "title": "Spring Deals"
-      },
       "blocks": {
         "product-1": {
           "type": "product_card",
           "settings": {
-            "card_product": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6",
-            "image": "shopify://shop_images/030709011630652941.5667.png",
-            "info": "<ul><li>4G LTE Network</li><li>2K 4MP Super HD</li><li>Person/Vehicle Detection</li></ul>",
+            "card_product": "baby-monitor-camera-s6-with-tx",
+            "image": "shopify:\/\/shop_images\/030709011630652941.5667.png",
+            "info": "<ul><li>4G LTE Network<\/li><li>2K 4MP Super HD<\/li><li>Person\/Vehicle Detection<\/li><\/ul>",
             "btn_text": "Buy Now"
           }
         },
         "product-2": {
           "type": "product_card",
           "settings": {
-            "card_product": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6",
-            "image": "shopify://shop_images/030709011630652941.5667.png",
-            "info": "<ul><li>4G LTE Network</li><li>2K 4MP Super HD</li><li>Person/Vehicle Detection</li></ul>",
+            "card_product": "baby-monitor-camera-s6-with-tx",
+            "image": "shopify:\/\/shop_images\/030709011630652941.5667.png",
+            "info": "<ul><li>4G LTE Network<\/li><li>2K 4MP Super HD<\/li><li>Person\/Vehicle Detection<\/li><\/ul>",
             "btn_text": "Buy Now"
           }
         },
         "product-3": {
           "type": "product_card",
           "settings": {
-            "card_product": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6",
-            "image": "shopify://shop_images/030709011630652941.5667.png",
-            "info": "<ul><li>4G LTE Network</li><li>2K 4MP Super HD</li><li>Person/Vehicle Detection</li></ul>",
+            "card_product": "baby-monitor-camera-s6-with-tx",
+            "image": "shopify:\/\/shop_images\/030709011630652941.5667.png",
+            "info": "<ul><li>4G LTE Network<\/li><li>2K 4MP Super HD<\/li><li>Person\/Vehicle Detection<\/li><\/ul>",
             "btn_text": "Buy Now"
           }
         },
         "product-4": {
           "type": "product_card",
           "settings": {
-            "card_product": "baby-monitor-kawa-video-baby-monitor-with-camera-and-audio-5-720p-hd-display-no-wifi-spilt-screen-night-vision-2-way-talk-temperature-sensor-20hrs-battery-lullabies-1000ft-range-s6",
-            "image": "shopify://shop_images/030709011630652941.5667.png",
-            "info": "<ul><li>4G LTE Network</li><li>2K 4MP Super HD</li><li>Person/Vehicle Detection</li></ul>",
+            "card_product": "baby-monitor-camera-s6-with-tx",
+            "image": "shopify:\/\/shop_images\/030709011630652941.5667.png",
+            "info": "<ul><li>4G LTE Network<\/li><li>2K 4MP Super HD<\/li><li>Person\/Vehicle Detection<\/li><\/ul>",
             "btn_text": "Buy Now"
           }
         }
       },
-      "block_order": ["product-1", "product-2", "product-3", "product-4"]
+      "block_order": [
+        "product-1",
+        "product-2",
+        "product-3",
+        "product-4"
+      ],
+      "settings": {
+        "title": "Spring Deals"
+      }
     }
   },
-  "order": ["main-banner-new", "kawa-product-new", "promotion-list-new"]
+  "order": [
+    "main-banner-new",
+    "kawa-product-new",
+    "promotion-list-new"
+  ]
 }
