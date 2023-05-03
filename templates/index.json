@@ -255,7 +255,7 @@
           "settings": {
             "title": "Category 1",
             "image": "shopify:\/\/shop_images\/6feabd6e53c83c501b1dd1e153fba7d8_bd6651bf-02d6-40fb-b8d9-f2726a071d05.jpg",
-            "link": "#"
+            "link": "http:\/\/www.kawa-in.com\/t6\/customer"
           }
         },
         "poster-5": {
@@ -263,7 +263,7 @@
           "settings": {
             "title": "Category 2",
             "image": "shopify:\/\/shop_images\/59c6f07bf7bae868dd56b1a9f3077648_588b9202-506a-491a-8e7d-2cc1afdb0f7a.jpg",
-            "link": "#"
+            "link": "http:\/\/www.kawa-in.com\/t6\/business"
           }
         },
         "poster-2": {
@@ -361,7 +361,6 @@
         "product-1": {
           "type": "product_card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ea0ac1b43f2dbf14718891d5e3545a71.png",
             "info": "Kawa S1",
             "product_url": "#"
           }
@@ -369,7 +368,6 @@
         "product-2": {
           "type": "product_card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/06d21883a0f8f1cac5d08f8c664e6bae.png",
             "info": "Kawa S2",
             "product_url": "#"
           }
@@ -377,7 +375,6 @@
         "product-3": {
           "type": "product_card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ea0ac1b43f2dbf14718891d5e3545a71.png",
             "info": "Kawa S3",
             "product_url": "#"
           }
@@ -385,7 +382,6 @@
         "product-4": {
           "type": "product_card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/06d21883a0f8f1cac5d08f8c664e6bae.png",
             "info": "Kawa S4",
             "product_url": "#"
           }
@@ -393,7 +389,6 @@
         "product-5": {
           "type": "product_card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ea0ac1b43f2dbf14718891d5e3545a71.png",
             "info": "Kawa S5",
             "product_url": "#"
           }
@@ -416,8 +411,6 @@
         "card-1": {
           "type": "product_card",
           "settings": {
-            "bg_image": "shopify:\/\/shop_images\/a86267bd5ea32991c66f4b65ad9ba927.jpg",
-            "fr_image": "shopify:\/\/shop_images\/ac62ad3ffab7bf837537288ecfec5e16.png",
             "card_product": "baby-monitor-camera-s6-with-tx",
             "info": "Lightweight and Compact Drone for Safe and Immersive Flight"
           }
@@ -425,8 +418,6 @@
         "card-2": {
           "type": "product_card",
           "settings": {
-            "bg_image": "shopify:\/\/shop_images\/64731a65eb93a36ef2e317f61cfcdd71.jpg",
-            "fr_image": "shopify:\/\/shop_images\/94361f08a162f5a391f63f22092cb51e.png",
             "card_product": "baby-monitor-camera-s6-with-tx",
             "info": "Easy-To-Use Mini Camera Drone"
           }
@@ -434,8 +425,6 @@
         "card-3": {
           "type": "product_card",
           "settings": {
-            "bg_image": "shopify:\/\/shop_images\/67ec360e207d9ab0e7ec639d1ea68c90.jpg",
-            "fr_image": "shopify:\/\/shop_images\/219f14cde565d4334d03853ae5a40fb7.png",
             "card_product": "baby-monitor-camera-s6-with-tx",
             "info": "Lightweight Travel Stabilizer"
           }
@@ -443,8 +432,6 @@
         "card-4": {
           "type": "product_card",
           "settings": {
-            "bg_image": "shopify:\/\/shop_images\/a86267bd5ea32991c66f4b65ad9ba927.jpg",
-            "fr_image": "shopify:\/\/shop_images\/ac62ad3ffab7bf837537288ecfec5e16.png",
             "card_product": "baby-monitor-camera-s6-with-tx",
             "info": "Lightweight and Compact Drone for Safe and Immersive Flight"
           }
@@ -452,8 +439,6 @@
         "card-5": {
           "type": "product_card",
           "settings": {
-            "bg_image": "shopify:\/\/shop_images\/64731a65eb93a36ef2e317f61cfcdd71.jpg",
-            "fr_image": "shopify:\/\/shop_images\/94361f08a162f5a391f63f22092cb51e.png",
             "card_product": "baby-monitor-camera-s6-with-tx",
             "info": "Easy-To-Use Mini Camera Drone"
           }
@@ -461,8 +446,6 @@
         "card-6": {
           "type": "product_card",
           "settings": {
-            "bg_image": "shopify:\/\/shop_images\/67ec360e207d9ab0e7ec639d1ea68c90.jpg",
-            "fr_image": "shopify:\/\/shop_images\/219f14cde565d4334d03853ae5a40fb7.png",
             "card_product": "baby-monitor-camera-s6-with-tx",
             "info": "Lightweight Travel Stabilizer"
           }
@@ -487,7 +470,6 @@
         "card-1": {
           "type": "product_card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/dd139ac4c8e72085d045dc449e69acb6.png",
             "tag": "Entry-Level",
             "card_product": "baby-monitor-camera-s6-with-tx"
           }
@@ -495,7 +477,6 @@
         "card-2": {
           "type": "product_card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/075ddd56c077682113326867178aacef.png",
             "tag": "Flagship",
             "card_product": "baby-monitor-camera-s6-with-tx"
           }
@@ -503,7 +484,6 @@
         "card-3": {
           "type": "product_card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/a225932ae0a0f9c8d19c2a0cfbf6d550.jpg",
             "tag": "Advanced",
             "card_product": "baby-monitor-camera-s6-with-tx"
           }
@@ -513,10 +493,10 @@
           "settings": {
             "item_product": "baby-monitor-camera-s6-with-tx",
             "text_top": "New",
+            "text_middle": "",
             "text_bottom": "Cold-Resistant and Durable Action Camera",
             "btn_text": "Buy Now",
-            "image_pc": "shopify:\/\/shop_images\/banner_pc_1.jpg",
-            "image_mb": "shopify:\/\/shop_images\/banner_mb_1.jpg"
+            "btn_target": ""
           }
         },
         "carousel-item-2": {
@@ -524,10 +504,10 @@
           "settings": {
             "item_product": "baby-monitor-camera-s6-with-tx",
             "text_top": "New",
+            "text_middle": "",
             "text_bottom": "Integrated Aerial Cinema Camera",
             "btn_text": "Buy Now",
-            "image_pc": "shopify:\/\/shop_images\/banner_pc_2.jpg",
-            "image_mb": "shopify:\/\/shop_images\/banner_mb_2.jpg"
+            "btn_target": ""
           }
         }
       },
@@ -543,14 +523,12 @@
         "banner_type": "carousel",
         "banner_product": "baby-monitor-camera-s6-with-tx",
         "text_top": "New",
+        "text_middle": "",
         "text_bottom": "Integrated Aerial Cinema Camera",
         "btn_text": "Buy Now",
-        "banner_image_pc": "shopify:\/\/shop_images\/banner_pc_2.jpg",
-        "banner_image_mb": "shopify:\/\/shop_images\/banner_mb_2.jpg",
+        "btn_target": "",
         "banner_video_pc": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/792a2a44df264073909a9845c12ad1f9.mp4",
-        "banner_video_poster_pc": "shopify:\/\/shop_images\/banner_poster_pc.jpg",
-        "banner_video_mb": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/792a2a44df264073909a9845c12ad1f9.mp4",
-        "banner_video_poster_mb": "shopify:\/\/shop_images\/banner_poster_mb.jpg"
+        "banner_video_mb": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/792a2a44df264073909a9845c12ad1f9.mp4"
       }
     }
   },
