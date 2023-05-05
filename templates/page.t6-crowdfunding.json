@@ -2,6 +2,7 @@
   "sections": {
     "qrcode-product": {
       "type": "kawa-qrcode-product",
+      "disabled": true,
       "blocks": {
         "a5": {
           "type": "product_card",
