@@ -5,6 +5,7 @@
       "blocks": {
         "a5": {
           "type": "product_card",
+          "disabled": true,
           "settings": {
             "product_name": "KAWA SMART CAMERA",
             "product_subtitle": "A5",
@@ -14,6 +15,7 @@
         },
         "a7": {
           "type": "product_card",
+          "disabled": true,
           "settings": {
             "product_name": "KAWA SMART PAN-TITL CAMERA",
             "product_subtitle": "A7",
@@ -29,9 +31,16 @@
       "settings": {
         "title": "Select device"
       }
+    },
+    "90c46117-8638-45a6-9d3a-06003579f3bb": {
+      "type": "kawa-custom-html",
+      "settings": {
+        "custom_html": "<div id=\"unique_id\" data-kol-snippet=\"embedpage\" class=\"kol-embed-page-frame default\" data-settings='{\"pageID\":\"371536\", \"embedHeight\":\"full\",\"embedHeightPixels\":\"500\"}'>\n<\/div>"
+      }
     }
   },
   "order": [
-    "qrcode-product"
+    "qrcode-product",
+    "90c46117-8638-45a6-9d3a-06003579f3bb"
   ]
 }
