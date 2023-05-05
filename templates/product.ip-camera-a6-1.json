@@ -44,17 +44,20 @@
         "show_discount": false,
         "show_share": false,
         "discount_faq": "",
-        "show_payment_flags": true
+        "show_payment_flags": true,
+        "show_store_info": false
       }
     },
     "banner": {
       "type": "kawa-main-product-banner",
+      "disabled": true,
       "settings": {
         "banner_image": "shopify:\/\/shop_images\/yi_6e68619f-1c09-424a-b8c2-3d84a14880f7.jpg"
       }
     },
     "video": {
       "type": "kawa-preview-video",
+      "disabled": true,
       "settings": {
         "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3ea6efc96c5745a79e2f086c33383b12.mp4",
         "cover_image": "shopify:\/\/shop_images\/cj1013.00_00_02_20.Still001.jpg",
@@ -64,6 +67,7 @@
     },
     "carousel-1": {
       "type": "kawa-main-product-carousel",
+      "disabled": true,
       "blocks": {
         "carousel-item-1": {
           "type": "carousel_item",
@@ -93,6 +97,7 @@
     },
     "carousel-2": {
       "type": "kawa-main-product-carousel",
+      "disabled": true,
       "blocks": {
         "carousel-item-1": {
           "type": "carousel_item",
@@ -128,11 +133,15 @@
         "img_height": 700,
         "img_1": "shopify:\/\/shop_images\/1_6760b9e0-61bd-4b26-9c67-cb4d65a240da.jpg",
         "img_2": "shopify:\/\/shop_images\/3_5e815dac-3364-4d37-944f-409a5340dbac.jpg",
-        "img_3": "shopify:\/\/shop_images\/2_95914256-92d5-46b6-a8b2-5dad470014c5.jpg"
+        "img_3": "shopify:\/\/shop_images\/2_95914256-92d5-46b6-a8b2-5dad470014c5.jpg",
+        "content_1": "",
+        "content_2": "",
+        "content_3": ""
       }
     },
     "image-text-1": {
       "type": "kawa-image-text",
+      "disabled": true,
       "blocks": {
         "image-text-item-1": {
           "type": "image_text",
@@ -170,6 +179,7 @@
     },
     "tabs": {
       "type": "kawa-product-tabs",
+      "disabled": true,
       "blocks": {
         "tab-1": {
           "type": "tab_item",
@@ -208,6 +218,7 @@
     },
     "image-text-2": {
       "type": "kawa-image-text",
+      "disabled": true,
       "blocks": {
         "image-text-item-1": {
           "type": "image_text",
@@ -253,6 +264,7 @@
     },
     "product-comparison": {
       "type": "kawa-product-comparison",
+      "disabled": true,
       "settings": {
         "title": "Product Comparison",
         "product_1": "kawa-3mp-ip-camera-video-wifi-surveillance-cameras-indoor-security-cam-smart-home-baby-monitor-tracking-audio-alexa",
@@ -270,6 +282,7 @@
     },
     "faq": {
       "type": "kawa-faq",
+      "disabled": true,
       "blocks": {
         "faq-1": {
           "type": "faq_item",
@@ -312,6 +325,7 @@
     },
     "alexa-video": {
       "type": "kawa-alexa-video",
+      "disabled": true,
       "settings": {
         "title": "Support Guidance Videos for you",
         "jump_link": "https:\/\/www.kawa-in.com\/blogs\/kawa-ip-camera-a6\/how-to-connect-the-camera-a6-to-alexa",
