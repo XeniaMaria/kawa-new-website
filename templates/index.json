@@ -534,7 +534,7 @@
     "custom-html": {
       "type": "kawa-custom-html",
       "settings": {
-        "custom_html": "<div id=\"unique_id\" data-kol-snippet=\"embedpage\" class=\"kol-embed-page-frame default\" data-settings='{\"pageID\":\"371536\", \"embedHeight\":\"full\",\"embedHeightPixels\":\"500\"}'>\n<\/div>"
+        "custom_html": ""
       }
     }
   },
