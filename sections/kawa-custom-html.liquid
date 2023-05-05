@@ -1,0 +1,22 @@
+<div class="kawa-custom-html">
+  {{ section.settings.custom_html }}
+</div>
+
+{% schema %}
+{
+  "name": "自定义HTML",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "html",
+      "id": "custom_html",
+      "label": "自定义HTML内容"
+    }
+  ],
+  "presets": [
+    {
+      "name": "自定义HTML"
+    }
+  ]
+}
+{% endschema %}
