@@ -533,7 +533,6 @@
     },
     "custom-html": {
       "type": "kawa-custom-html",
-      "disabled": true,
       "settings": {
         "custom_html": "16:33<div id=\"unique_id\" data-kol-snippet=\"embedpage\" class=\"kol-embed-page-frame default\" data-settings='{\"pageID\":\"371536\", \"embedHeight\":\"full\",\"embedHeightPixels\":\"500\"}'>\n<\/div>"
       }
