@@ -1,5 +1,19 @@
 {
   "sections": {
+    "6617e918-4f16-45b7-a0d8-64c251fe0091": {
+      "type": "kawa-main-banner-new",
+      "settings": {
+        "banner_type": "image",
+        "text_top": "",
+        "text_middle": "",
+        "text_bottom": "",
+        "btn_text": "",
+        "btn_target": "shopify:\/\/pages\/t6-security-camera-crowdfunding",
+        "banner_image_pc": "shopify:\/\/shop_images\/T6_.144.gif",
+        "banner_video_pc": "",
+        "banner_video_mb": ""
+      }
+    },
     "kawa_video_banner": {
       "type": "kawa-video-banner",
       "blocks": {
@@ -155,15 +169,6 @@
         "title": "Kawa Fans Love These Products"
       }
     },
-    "kawa-preview-video": {
-      "type": "kawa-preview-video",
-      "settings": {
-        "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3ea6efc96c5745a79e2f086c33383b12.mp4",
-        "cover_image": "shopify:\/\/shop_images\/cj1013.00_00_02_20.Still001.jpg",
-        "max_width": "mw-1200-c",
-        "has_border": true
-      }
-    },
     "kawa-video-display": {
       "type": "kawa-video-display",
       "blocks": {
@@ -249,23 +254,8 @@
     },
     "kawa-smart-home": {
       "type": "kawa-smart-home",
+      "disabled": true,
       "blocks": {
-        "71ed786c-471a-4709-bab6-f8cecb46dfc1": {
-          "type": "poster",
-          "settings": {
-            "title": "Category 1",
-            "image": "shopify:\/\/shop_images\/6feabd6e53c83c501b1dd1e153fba7d8_bd6651bf-02d6-40fb-b8d9-f2726a071d05.jpg",
-            "link": ""
-          }
-        },
-        "poster-5": {
-          "type": "poster",
-          "settings": {
-            "title": "Category 2",
-            "image": "shopify:\/\/shop_images\/59c6f07bf7bae868dd56b1a9f3077648_588b9202-506a-491a-8e7d-2cc1afdb0f7a.jpg",
-            "link": ""
-          }
-        },
         "poster-2": {
           "type": "poster",
           "disabled": true,
@@ -292,8 +282,6 @@
         }
       },
       "block_order": [
-        "71ed786c-471a-4709-bab6-f8cecb46dfc1",
-        "poster-5",
         "poster-2",
         "poster-3",
         "poster-4"
@@ -536,27 +524,13 @@
       "settings": {
         "custom_html": ""
       }
-    },
-    "6617e918-4f16-45b7-a0d8-64c251fe0091": {
-      "type": "kawa-main-banner-new",
-      "settings": {
-        "banner_type": "image",
-        "text_top": "",
-        "text_middle": "",
-        "text_bottom": "",
-        "btn_text": "",
-        "btn_target": "shopify:\/\/pages\/t6众筹",
-        "banner_image_pc": "shopify:\/\/shop_images\/T6_.144.gif",
-        "banner_video_pc": "",
-        "banner_video_mb": ""
-      }
     }
   },
   "order": [
+    "6617e918-4f16-45b7-a0d8-64c251fe0091",
     "kawa_video_banner",
     "kawa-new-products",
     "kawa-products-card",
-    "kawa-preview-video",
     "kawa-video-display",
     "kawa-choose-reason",
     "kawa-smart-home",
@@ -566,7 +540,6 @@
     "product-nav-new",
     "product-card-new",
     "banner-product-new",
-    "custom-html",
-    "6617e918-4f16-45b7-a0d8-64c251fe0091"
+    "custom-html"
   ]
 }
