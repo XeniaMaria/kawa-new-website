@@ -11,7 +11,8 @@
         "btn_target": "shopify:\/\/pages\/t6-security-camera-crowdfunding",
         "banner_video_pc": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e2bcc8eccc2c4b24ad505acb27c2a522.mp4",
         "banner_video_poster_pc": "shopify:\/\/shop_images\/T6_-PC.jpg",
-        "banner_video_mb": ""
+        "banner_video_mb": "",
+        "banner_video_poster_mb": "shopify:\/\/shop_images\/T6.jpg"
       }
     },
     "kawa_video_banner": {
