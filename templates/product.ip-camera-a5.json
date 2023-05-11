@@ -2,6 +2,7 @@
   "sections": {
     "main": {
       "type": "kawa-main-product",
+      "disabled": true,
       "blocks": {
         "store-info-item-1": {
           "type": "store_info_item",
@@ -50,12 +51,14 @@
     },
     "banner": {
       "type": "kawa-main-product-banner",
+      "disabled": true,
       "settings": {
         "banner_image": "shopify:\/\/shop_images\/yi_6e68619f-1c09-424a-b8c2-3d84a14880f7.jpg"
       }
     },
     "video": {
       "type": "kawa-preview-video",
+      "disabled": true,
       "settings": {
         "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3ea6efc96c5745a79e2f086c33383b12.mp4",
         "cover_image": "shopify:\/\/shop_images\/cj1013.00_00_02_20.Still001.jpg",
@@ -65,6 +68,7 @@
     },
     "carousel-1": {
       "type": "kawa-main-product-carousel",
+      "disabled": true,
       "blocks": {
         "carousel-item-1": {
           "type": "carousel_item",
@@ -94,6 +98,7 @@
     },
     "carousel-2": {
       "type": "kawa-main-product-carousel",
+      "disabled": true,
       "blocks": {
         "carousel-item-1": {
           "type": "carousel_item",
@@ -137,6 +142,7 @@
     },
     "image-text-1": {
       "type": "kawa-image-text",
+      "disabled": true,
       "blocks": {
         "image-text-item-1": {
           "type": "image_text",
@@ -164,6 +170,7 @@
     },
     "video-text": {
       "type": "kawa-video-text",
+      "disabled": true,
       "settings": {
         "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/d74c0ff0b4ac499ab5608e27669ad140.mp4",
         "title": "Instant Sound Alert",
@@ -173,6 +180,7 @@
     },
     "tabs": {
       "type": "kawa-product-tabs",
+      "disabled": true,
       "blocks": {
         "tab-1": {
           "type": "tab_item",
@@ -211,6 +219,7 @@
     },
     "image-text-2": {
       "type": "kawa-image-text",
+      "disabled": true,
       "blocks": {
         "image-text-item-1": {
           "type": "image_text",
@@ -256,6 +265,7 @@
     },
     "product-comparison": {
       "type": "kawa-product-comparison",
+      "disabled": true,
       "settings": {
         "title": "Product Comparison",
         "product_1": "ip-camera-a6",
@@ -266,12 +276,14 @@
     },
     "specifications": {
       "type": "kawa-product-specifications",
+      "disabled": true,
       "settings": {
         "title": "Specs"
       }
     },
     "faq": {
       "type": "kawa-faq",
+      "disabled": true,
       "blocks": {
         "faq-1": {
           "type": "faq_item",
@@ -314,6 +326,7 @@
     },
     "alexa-video": {
       "type": "kawa-alexa-video",
+      "disabled": true,
       "settings": {
         "title": "Support Guidance Videos for you",
         "jump_link": "https:\/\/www.kawa-in.com\/blogs\/kawa-ip-camera-a6\/how-to-connect-the-camera-a6-to-alexa",
@@ -324,6 +337,7 @@
     },
     "product-buy": {
       "type": "kawa-product-buy",
+      "disabled": true,
       "settings": {
       }
     }
