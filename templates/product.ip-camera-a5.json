@@ -2,7 +2,6 @@
   "sections": {
     "main": {
       "type": "kawa-main-product",
-      "disabled": true,
       "blocks": {
         "store-info-item-1": {
           "type": "store_info_item",
