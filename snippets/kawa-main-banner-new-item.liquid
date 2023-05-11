@@ -38,7 +38,21 @@
       {% elsif banner_type == 'video' %}
         <div class="banner-video-wrap">
           <video
-            class="banner-video"
+            class="banner-video banner-video-pc"
+            autoplay
+            muted="muted"
+            playsinline
+            webkit-playsinline="true"
+            x5-playsinline="true"
+          >
+            <source
+              type="video/mp4"
+              media="(min-width: 768px)"
+              src="{{ video_pc }}"
+            >
+          </video>
+          <video
+            class="banner-video banner-video-mb"
             autoplay
             muted="muted"
             playsinline
@@ -49,11 +63,6 @@
               type="video/mp4"
               media="(max-width: 767px)"
               src="{{ video_mb }}"
-            >
-            <source
-              type="video/mp4"
-              media="(min-width: 768px)"
-              src="{{ video_pc }}"
             >
           </video>
           <picture>

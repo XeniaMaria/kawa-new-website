@@ -149,6 +149,13 @@
   background: rgba(255, 255, 255, 0.9);
 }
 
+.banner-item-wrap .banner-video.banner-video-mb {
+  display: block;
+}
+.banner-item-wrap .banner-video.banner-video-pc {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   .banner-item-wrap {
     padding: 0 32px;
@@ -158,6 +165,12 @@
 
   .banner-item-wrap .banner-video {
     height: auto;
+  }
+  .banner-item-wrap .banner-video.banner-video-mb {
+    display: none;
+  }
+  .banner-item-wrap .banner-video.banner-video-pc {
+    display: block;
   }
 
   .banner-item-wrap .banner-content-wrap {
