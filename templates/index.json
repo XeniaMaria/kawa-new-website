@@ -250,7 +250,7 @@
     "kawa-smart-home": {
       "type": "kawa-smart-home",
       "blocks": {
-        "poster-1": {
+        "71ed786c-471a-4709-bab6-f8cecb46dfc1": {
           "type": "poster",
           "settings": {
             "title": "Category 1",
@@ -292,7 +292,7 @@
         }
       },
       "block_order": [
-        "poster-1",
+        "71ed786c-471a-4709-bab6-f8cecb46dfc1",
         "poster-5",
         "poster-2",
         "poster-3",
@@ -536,6 +536,20 @@
       "settings": {
         "custom_html": ""
       }
+    },
+    "6617e918-4f16-45b7-a0d8-64c251fe0091": {
+      "type": "kawa-main-banner-new",
+      "settings": {
+        "banner_type": "image",
+        "text_top": "",
+        "text_middle": "",
+        "text_bottom": "",
+        "btn_text": "",
+        "btn_target": "shopify:\/\/pages\/t6众筹",
+        "banner_image_pc": "shopify:\/\/shop_images\/T6_.144.gif",
+        "banner_video_pc": "",
+        "banner_video_mb": ""
+      }
     }
   },
   "order": [
@@ -552,6 +566,7 @@
     "product-nav-new",
     "product-card-new",
     "banner-product-new",
-    "custom-html"
+    "custom-html",
+    "6617e918-4f16-45b7-a0d8-64c251fe0091"
   ]
 }
