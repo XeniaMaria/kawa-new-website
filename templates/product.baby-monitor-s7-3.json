@@ -111,29 +111,6 @@
     "carousel-2": {
       "type": "kawa-main-product-carousel",
       "disabled": true,
-      "blocks": {
-        "carousel-item-1": {
-          "type": "carousel_item",
-          "settings": {
-            "name": "",
-            "title": "",
-            "content": "",
-            "image": "shopify:\/\/shop_images\/af0471597e10c84743607ce5f08d0cc6_04fe2ef7-a940-40aa-a571-9bdb9bfa8495.jpg"
-          }
-        },
-        "carousel-item-2": {
-          "type": "carousel_item",
-          "settings": {
-            "name": "",
-            "title": "",
-            "content": ""
-          }
-        }
-      },
-      "block_order": [
-        "carousel-item-1",
-        "carousel-item-2"
-      ],
       "settings": {
       }
     },
@@ -146,7 +123,7 @@
             "name": "Recording & Playback",
             "title": "Support local recording with TF \/ micro SD card.",
             "content": "KAWA baby monitor with camera support TF\/micro SD card(not included) up to 256GB to record and playback every precious moment of your baby's growth.",
-            "image": "shopify:\/\/shop_images\/3_c4227125-4ec9-4911-b938-937f8fbf4f0a.jpg"
+            "image": "shopify:\/\/shop_images\/3_e190b346-3e2d-4325-bc7c-fefe6300597f.jpg"
           }
         },
         "carousel-item-2": {
@@ -155,7 +132,7 @@
             "name": "2K & 3MP Baby Monitor",
             "title": "Large 5'' IPS display coupled with 2k resolution and crisp night vision.",
             "content": "Capture every detail in your baby’s room with crystal-clear 2K baby camera real-time image and 5’’ large color screen KAWA baby monitor. Superior night vision offers you the real scenes even in dim conditions. It is 4x clearer than the ordinary 720p resolution.",
-            "image": "shopify:\/\/shop_images\/2_994e82ed-109e-47ca-b189-f0675324fe04.jpg"
+            "image": "shopify:\/\/shop_images\/2_90e47e95-fa3e-48fc-b2da-dd43b66d049d.jpg"
           }
         }
       },
@@ -172,7 +149,7 @@
         "image-text-item-1": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4_0f6e7453-5743-4caa-8d5f-89649106d12c.jpg",
+            "image": "shopify:\/\/shop_images\/4_caaccdf4-6ce8-4762-b040-429598ee4259.jpg",
             "title": "Long Battery",
             "content": "Our video baby monitor with high-capacity 4,000mAh battery provides whole day monitoring on screen-off mode."
           }
@@ -180,7 +157,7 @@
         "image-text-item-2": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/5_98c2b9c0-3585-46da-ba96-68dfc6855703.jpg",
+            "image": "shopify:\/\/shop_images\/5_586da63f-52c0-4f42-9fd3-91f0bdbaa8a9.jpg",
             "title": "Upgraded Non-disturbing Night Vision",
             "content": "No red dot or red light from the baby camera, without causing any disturbance to your baby. Superior night vision offers you real scenes even in dim light conditions."
           }
@@ -199,7 +176,7 @@
         "template--15914115825824__0980a0d0-bd15-4ce2-bdf7-480057cb01e6-167117957750bc4710-0": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/02_1.jpg",
+            "image": "shopify:\/\/shop_images\/02_1_2f249c8b-c6d2-4390-bf5c-ce52bab08fdc.jpg",
             "title": "Staying with your baby from day to night",
             "content": "You can enjoy your time. This Baby monitor is not only for babies, but also for the elderly, and you can even look after your pets."
           }
@@ -207,33 +184,15 @@
         "template--15914115825824__0980a0d0-bd15-4ce2-bdf7-480057cb01e6-167117957750bc4710-1": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/02_2.jpg",
+            "image": "shopify:\/\/shop_images\/02_2_677d442b-d7ba-4bbf-abed-36640460b106.jpg",
             "title": "1000ft extra long connection distance.",
             "content": "Get stable visuals with a video baby monitor transmission up to 1000 feet range. Easily receive your baby's smile the first time whether you are in your study, kitchen, bedroom, garden, or on the second floor. Get stable visuals up to 1000 feet range. Easily receive your baby's smile the first time whether you are in your study, kitchen, bedroom, garden, or on the second floor. (*Note: 1,000ft within a wide, unobstructed area.)"
-          }
-        },
-        "template--15914115825824__0980a0d0-bd15-4ce2-bdf7-480057cb01e6-167117957750bc4710-2": {
-          "type": "image_text",
-          "disabled": true,
-          "settings": {
-            "title": "",
-            "content": ""
-          }
-        },
-        "template--15914115825824__0980a0d0-bd15-4ce2-bdf7-480057cb01e6-167117957750bc4710-3": {
-          "type": "image_text",
-          "disabled": true,
-          "settings": {
-            "title": "",
-            "content": ""
           }
         }
       },
       "block_order": [
         "template--15914115825824__0980a0d0-bd15-4ce2-bdf7-480057cb01e6-167117957750bc4710-0",
-        "template--15914115825824__0980a0d0-bd15-4ce2-bdf7-480057cb01e6-167117957750bc4710-1",
-        "template--15914115825824__0980a0d0-bd15-4ce2-bdf7-480057cb01e6-167117957750bc4710-2",
-        "template--15914115825824__0980a0d0-bd15-4ce2-bdf7-480057cb01e6-167117957750bc4710-3"
+        "template--15914115825824__0980a0d0-bd15-4ce2-bdf7-480057cb01e6-167117957750bc4710-1"
       ],
       "settings": {
       }
@@ -244,7 +203,7 @@
         "image-text-item-1": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/P1_429a41fd-6fe5-42f2-8b26-4c6f49be1172.jpg",
+            "image": "shopify:\/\/shop_images\/P1_19d241b8-3d9e-4775-bc75-29cd5ee9f770.jpg",
             "title": "360° Panoramic View & 4X Zoom",
             "content": "Each corner is covered with pan 350° and tilt 67°, easily making the video monitor controlled remotely. Need a closer look? 4X zoom makes it possible to watch every detail of your baby more closely and clearly."
           }
@@ -252,7 +211,7 @@
         "image-text-item-2": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/A9-300-2_cd7b645a-dc3e-45bf-9843-26e965c59b74.jpg",
+            "image": "shopify:\/\/shop_images\/A9-300-2_207197d7-44c6-4072-970f-8ad8c2a04d8d.jpg",
             "title": "Room Temperature Sensor",
             "content": "Built-in temperature sensor will notify you with a sound alert and message when the temp exceeds the set range. Ensure your baby is in a comfortable environment."
           }
@@ -260,7 +219,7 @@
         "image-text-item-3": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/7-1.jpg",
+            "image": "shopify:\/\/shop_images\/7-1_3df62f7a-879f-428c-a59f-0b2fcad8e7e9.jpg",
             "title": "2-Way Audio Intercom",
             "content": "Sometimes all your baby needs is to hear your voice. The convenient built-in microphone and speaker allow you to quickly and remotely soothe your baby, providing a full sense of security. So you can enjoy a peaceful morning in the kitchen or elsewhere in the home."
           }
@@ -268,7 +227,7 @@
         "image-text-item-4": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/5_0c177200-5d73-4bd2-a65c-e1b504825a46.jpg",
+            "image": "shopify:\/\/shop_images\/5_bb7ecd5c-ce62-4dee-8f39-34720a739136.jpg",
             "title": "VOX Sleep\/Wake & Audio-only Mode",
             "content": "In optional Audio-only mode, you can also hear your baby's voice in real time with the screen off. In Smart VOX mode, the monitor screen will turn on when detecting a sudden voice, like crying or shouting from your baby. You will know instantly when you are needed."
           }
