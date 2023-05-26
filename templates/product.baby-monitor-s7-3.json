@@ -58,7 +58,7 @@
       "type": "kawa-preview-video",
       "settings": {
         "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/57d135e474854c3b8973a129d0e52f70.mp4",
-        "cover_image": "shopify:\/\/shop_images\/1002_a0aef2da-05ac-47b5-aeea-f11bc985ba2b.jpg",
+        "cover_image": "shopify:\/\/shop_images\/1002_fd8eb1a0-fe37-4fc6-bed3-190ac1fb7fa7.jpg",
         "max_width": "mw-1300-c",
         "has_border": false
       }
@@ -266,24 +266,24 @@
           "type": "tab_item",
           "settings": {
             "name": "4X Zoom",
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/46cee3c503ba4961a90e71744778d3e2.mp4",
-            "cover_image": "shopify:\/\/shop_images\/111.jpg"
+            "image": "shopify:\/\/shop_images\/111.jpg",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/46cee3c503ba4961a90e71744778d3e2.mp4"
           }
         },
         "tab-2": {
           "type": "tab_item",
           "settings": {
             "name": "2-Way Audio Intercom",
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0e9abb267dc24bacaa06c810731a86cf.mp4",
-            "cover_image": "shopify:\/\/shop_images\/112.jpg"
+            "image": "shopify:\/\/shop_images\/112.jpg",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0e9abb267dc24bacaa06c810731a86cf.mp4"
           }
         },
         "tab-3": {
           "type": "tab_item",
           "settings": {
             "name": "Enhance Night Vision",
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/474dba233f0d4ee7b98079840ce67f13.mp4",
-            "cover_image": "shopify:\/\/shop_images\/114_d853b32c-c43e-43f1-8285-ab59427b0dd6.jpg"
+            "image": "shopify:\/\/shop_images\/114.jpg",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/474dba233f0d4ee7b98079840ce67f13.mp4"
           }
         }
       },
