@@ -51,7 +51,7 @@
     "banner": {
       "type": "kawa-main-product-banner",
       "settings": {
-        "banner_image": "shopify:\/\/shop_images\/A1-1_e24feb8a-ae00-4cb9-bb0a-ae2ffd28c35b.jpg"
+        "banner_image": "shopify:\/\/shop_images\/A1-1_e6fb69e2-a5b6-49c7-900a-1b4099d993e7.jpg"
       }
     },
     "video": {
@@ -65,6 +65,7 @@
     },
     "carousel-1": {
       "type": "kawa-main-product-carousel",
+      "disabled": true,
       "blocks": {
         "carousel-item-1": {
           "type": "carousel_item",
@@ -94,6 +95,7 @@
     },
     "carousel-2": {
       "type": "kawa-main-product-carousel",
+      "disabled": true,
       "blocks": {
         "carousel-item-1": {
           "type": "carousel_item",
@@ -124,35 +126,26 @@
     "image-text-1": {
       "type": "kawa-image-text",
       "blocks": {
-        "image-text-item-1": {
-          "type": "image_text",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/StockSnap_WQQUEGXCIM_3429dd94-e7d1-4b9a-8653-6a7620f4d19f.jpg",
-            "title": "Get a KAWA baby monitor, get a balanced work-life.",
-            "content": "You will have the freedom to attend to other tasks in your life, such as cooking, cleaning the baby bottles, doing yoga, reading, working, and sleeping. Enjoy time for yourself while keeping an eye on your baby."
-          }
-        },
         "image-text-item-2": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/970x600_f6f88c64-0d1b-4885-917c-b988aa54efba.jpg",
-            "title": "KAWA baby camera monitor can offer you peace of mind.",
-            "content": "It is easy to feel chaotic or anxious whether you’re a first-time parent or growing your family, especially when you need to work while taking care of your baby."
+            "image": "shopify:\/\/shop_images\/a8_a713f551-a121-4ef0-af2a-ce50a21f09f7.jpg",
+            "title": "",
+            "content": ""
           }
         },
-        "5a15b530-6497-4b8c-98ae-3f86a6eec093": {
+        "image-text-item-1": {
           "type": "image_text",
-          "disabled": true,
           "settings": {
+            "image": "shopify:\/\/shop_images\/a9_679c39aa-367b-4692-bde3-43f41cdc50ca.jpg",
             "title": "",
             "content": ""
           }
         }
       },
       "block_order": [
-        "image-text-item-1",
         "image-text-item-2",
-        "5a15b530-6497-4b8c-98ae-3f86a6eec093"
+        "image-text-item-1"
       ],
       "settings": {
       }
