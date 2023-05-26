@@ -69,7 +69,7 @@
         "template--15914115825824__b1235f69-f0df-4e15-9581-e92175bad203-167117957750bc4710-0": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/af0471597e10c84743607ce5f08d0cc6_a71ca717-ab64-456a-90fd-8b3df5d98d54.jpg",
+            "image": "shopify:\/\/shop_images\/4-1.jpg",
             "title": "",
             "content": ""
           }
@@ -116,6 +116,7 @@
     },
     "carousel-1": {
       "type": "kawa-main-product-carousel",
+      "disabled": true,
       "blocks": {
         "carousel-item-1": {
           "type": "carousel_item",
@@ -146,26 +147,26 @@
     "image-text-1": {
       "type": "kawa-image-text",
       "blocks": {
-        "image-text-item-1": {
-          "type": "image_text",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/4_055a8b5d-16fd-4ffd-9ea6-131eaecf97f8.jpg",
-            "title": "Long Battery",
-            "content": "Our video baby monitor with high-capacity 4,000mAh battery provides whole day monitoring on screen-off mode."
-          }
-        },
         "image-text-item-2": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/5_5c036dec-e070-4426-9323-6bf917d10cbd.jpg",
-            "title": "Upgraded Non-disturbing Night Vision",
-            "content": "No red dot or red light from the baby camera, without causing any disturbance to your baby. Superior night vision offers you real scenes even in dim light conditions."
+            "image": "shopify:\/\/shop_images\/5_1.jpg",
+            "title": "",
+            "content": ""
+          }
+        },
+        "d45116c0-45a2-4cff-8f27-b7584b6aaafb": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/f50773a91650b93d8cbfcca039e63b93.jpg",
+            "title": "",
+            "content": ""
           }
         }
       },
       "block_order": [
-        "image-text-item-1",
-        "image-text-item-2"
+        "image-text-item-2",
+        "d45116c0-45a2-4cff-8f27-b7584b6aaafb"
       ],
       "settings": {
       }
@@ -261,37 +262,7 @@
     },
     "tabs": {
       "type": "kawa-product-tabs",
-      "blocks": {
-        "tab-1": {
-          "type": "tab_item",
-          "settings": {
-            "name": "4X Zoom",
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/46cee3c503ba4961a90e71744778d3e2.mp4",
-            "cover_image": "shopify:\/\/shop_images\/111.jpg"
-          }
-        },
-        "tab-2": {
-          "type": "tab_item",
-          "settings": {
-            "name": "2-Way Audio Intercom",
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0e9abb267dc24bacaa06c810731a86cf.mp4",
-            "cover_image": "shopify:\/\/shop_images\/112.jpg"
-          }
-        },
-        "tab-3": {
-          "type": "tab_item",
-          "settings": {
-            "name": "Enhance Night Vision",
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/474dba233f0d4ee7b98079840ce67f13.mp4",
-            "cover_image": "shopify:\/\/shop_images\/114.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "tab-1",
-        "tab-2",
-        "tab-3"
-      ],
+      "disabled": true,
       "settings": {
         "title": "Get a KAWA baby monitor, get a balanced work-life.",
         "description": "You may feel chaotic or anxious whether you’re a first-time parent or growing your family, especially when you have to work while taking care of your baby. KAWA baby camera monitor can offer you peace of mind. Contain all features most parents would desire for a baby monitor according to tens of thousands of surveys."
@@ -299,6 +270,7 @@
     },
     "video-text": {
       "type": "kawa-video-text",
+      "disabled": true,
       "settings": {
         "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/d74c0ff0b4ac499ab5608e27669ad140.mp4",
         "title": "Instant Sound Alert",
