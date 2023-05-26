@@ -1,0 +1,396 @@
+{
+  "sections": {
+    "main": {
+      "type": "kawa-main-product",
+      "blocks": {
+        "store-info-item-1": {
+          "type": "store_info_item",
+          "settings": {
+            "title": "Fast, Free Shipping",
+            "content": "<p>We offer free shipping straight to your door throughout the contiguous US*. It usually takes 3-7 business days* for your package to be delivered, so you can sit back and relax, worry-free.<\/p><p><\/p><p>*Please see our shipping policy for more details.<\/p><p>*Due to COVID-19 shipping times may be delayed.<\/p>"
+          }
+        },
+        "store-info-item-2": {
+          "type": "store_info_item",
+          "settings": {
+            "title": "30-Day Money-Back Guarantee",
+            "content": "<p> Get a full refund when you return your undamaged products within 30 days - for any reason. Once the item arrives back at the eufy warehouse for inspection, the refund process will begin.<\/p><p> See our refund policy for more details about what is needed for a smooth refund process..<\/p>"
+          }
+        },
+        "store-info-item-3": {
+          "type": "store_info_item",
+          "settings": {
+            "title": "Hassle-free Warranty",
+            "content": "<p> eufy provides a straightforward, hassle-free warranty to save you some headaches. All pre-owned and refurbished products come with their own unique warranty that you can find on the product listing or contact us at support@eufylife.com with your order receipt for confirmation.<\/p><p> This limited warranty provided by the manufacturer in no way affects a potential statutory warranty provided by law.<\/p>"
+          }
+        },
+        "store-info-item-4": {
+          "type": "store_info_item",
+          "settings": {
+            "title": "Lifetime Customer Support",
+            "content": "<p> We'll Always be There for You.<\/p><p> If you have any questions or concerns, feel free to contact us at support@eufylife.com.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "store-info-item-1",
+        "store-info-item-2",
+        "store-info-item-3",
+        "store-info-item-4"
+      ],
+      "settings": {
+        "discount_code": "WS24S360",
+        "show_comment": false,
+        "show_discount": false,
+        "show_share": false,
+        "discount_faq": "",
+        "show_payment_flags": true,
+        "show_store_info": false
+      }
+    },
+    "banner": {
+      "type": "kawa-main-product-banner",
+      "settings": {
+        "banner_image": "shopify:\/\/shop_images\/A1-1_e24feb8a-ae00-4cb9-bb0a-ae2ffd28c35b.jpg"
+      }
+    },
+    "video": {
+      "type": "kawa-preview-video",
+      "settings": {
+        "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/5246a89c5085449db89534c7cb8b4674.mp4",
+        "cover_image": "shopify:\/\/shop_images\/feed_.00_00_11_24.Still001_4ea55ada-6554-4ef1-8b0f-8e3ce60316af.png",
+        "max_width": "mw-1300-c",
+        "has_border": false
+      }
+    },
+    "carousel-1": {
+      "type": "kawa-main-product-carousel",
+      "blocks": {
+        "carousel-item-1": {
+          "type": "carousel_item",
+          "settings": {
+            "name": "Automatical Night Vision",
+            "title": "Free Up Your Stress, From Dawn to Dusk",
+            "content": "Automatic night vision allows you to see from top to toe clearly in the dark of the night, without visible IR LEDS to disturb your baby's sleep.",
+            "image": "shopify:\/\/shop_images\/A4_ca348972-9263-4fdc-8e8e-44076d122123.jpg"
+          }
+        },
+        "carousel-item-2": {
+          "type": "carousel_item",
+          "settings": {
+            "name": "360° Monitoring",
+            "title": "No More Blind Spots",
+            "content": "Pan , tilt , zoom - you name it . Check in on your baby\nin full view and magnify details whenever you need it.",
+            "image": "shopify:\/\/shop_images\/A7_8f259439-3a32-48db-b28e-c828819469be.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "carousel-item-1",
+        "carousel-item-2"
+      ],
+      "settings": {
+      }
+    },
+    "carousel-2": {
+      "type": "kawa-main-product-carousel",
+      "blocks": {
+        "carousel-item-1": {
+          "type": "carousel_item",
+          "settings": {
+            "name": "Sleep Tracker",
+            "title": "Be in 4 places at once",
+            "content": "With 4 cameras, you can view your little ones one at a time, 4 on a split screen, or set it on Auto Switch to view 4 cameras by turns in every 5-30 seconds.",
+            "image": "shopify:\/\/shop_images\/A6_acc24acc-b67d-42d5-933c-1bd192c1f21d.jpg"
+          }
+        },
+        "carousel-item-2": {
+          "type": "carousel_item",
+          "settings": {
+            "name": "2-Way Audio Intercom",
+            "title": "2-Way Audio Intercom",
+            "content": "Sometimes all your baby needs is to hear your voice. The convenient built-in microphone and speaker allows you to quickly and remotely soothe your baby, providing a full sense of security. So you can enjoy a peaceful morning in the kitchen or elsewhere in the home.",
+            "image": "shopify:\/\/shop_images\/A8_17b3524c-aab6-40b3-ad42-b737a03c00e3.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "carousel-item-1",
+        "carousel-item-2"
+      ],
+      "settings": {
+      }
+    },
+    "image-text-1": {
+      "type": "kawa-image-text",
+      "blocks": {
+        "image-text-item-1": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/StockSnap_WQQUEGXCIM_3429dd94-e7d1-4b9a-8653-6a7620f4d19f.jpg",
+            "title": "Get a KAWA baby monitor, get a balanced work-life.",
+            "content": "You will have the freedom to attend to other tasks in your life, such as cooking, cleaning the baby bottles, doing yoga, reading, working, and sleeping. Enjoy time for yourself while keeping an eye on your baby."
+          }
+        },
+        "image-text-item-2": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/970x600_f6f88c64-0d1b-4885-917c-b988aa54efba.jpg",
+            "title": "KAWA baby camera monitor can offer you peace of mind.",
+            "content": "It is easy to feel chaotic or anxious whether you’re a first-time parent or growing your family, especially when you need to work while taking care of your baby."
+          }
+        },
+        "5a15b530-6497-4b8c-98ae-3f86a6eec093": {
+          "type": "image_text",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "image-text-item-1",
+        "image-text-item-2",
+        "5a15b530-6497-4b8c-98ae-3f86a6eec093"
+      ],
+      "settings": {
+      }
+    },
+    "image-text-2": {
+      "type": "kawa-image-text",
+      "blocks": {
+        "image-text-item-3": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/A2-1600-1-1_7812d10a-70c3-4c4d-b96e-a5d79d5537b8.jpg",
+            "title": "From Day to Night",
+            "content": "Built-in 4,000mAh rechargeable battery provides 20-hour monitoring. Check out your baby at any time with ease.\n\nIf the screen is on for an entire day, it can last up to 10 hours."
+          }
+        },
+        "image-text-item-1": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_a5194a82-6f6b-476a-a69a-f51d2329d853.jpg",
+            "title": "No WIFI No App",
+            "content": "KAWA baby monitors with camera uses an encrypted 2.4GHz FHSS radio signal, risks of hacking and security breach do not exist. No WiFi baby monitor is a solid choice for 100% privacy and security. Very easy to use."
+          }
+        },
+        "image-text-item-2": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/A9-300-3_2_1ebe30e7-a27c-4601-9ed1-a6ca4c6f6483.jpg",
+            "title": "Instant Sound Alert",
+            "content": "A built-in microphone can pick up low sound up to 20ft away for louder volume and crisper audio in your baby’s room. Get alerted immediately when your baby needs you via the advanced sound detection technology."
+          }
+        },
+        "image-text-item-4": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/A9-300-2_29016b71-cd24-49d3-a0d0-f9b6d1897c56.jpg",
+            "title": "Room Temperature Sensor",
+            "content": "Built-in temperature sensor can monitor the temperature of baby nursery in real-time throughout the day. It will notify you with sound alert and message when the temp exceeds the set range. Ensure your baby is in a comfortable environment."
+          }
+        }
+      },
+      "block_order": [
+        "image-text-item-3",
+        "image-text-item-1",
+        "image-text-item-2",
+        "image-text-item-4"
+      ],
+      "settings": {
+      }
+    },
+    "6dccfd68-cad9-4e99-aec2-9acac6e4deb5": {
+      "type": "kawa-image-text",
+      "blocks": {
+        "template--15873217364128__6dccfd68-cad9-4e99-aec2-9acac6e4deb5-167117957750bc4710-0": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gift_4acfe662-d2b8-4ce1-9eeb-6b11fd1dd8c5.jpg",
+            "title": "Prefect for New Mom\/Parent",
+            "content": "You will get a changeable yellow deer camera cover as a gift. Infants will not be afraid of the camera, instead, they will have fun with our cutest baby camera."
+          }
+        },
+        "template--15873217364128__6dccfd68-cad9-4e99-aec2-9acac6e4deb5-167117957750bc4710-1": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_520cd9ae-fb01-43ce-8bb8-338fec4bfd12.jpg",
+            "title": "VOX Sleep\/Wake",
+            "content": "Smart VOX mode will turn the monitor screen on when it detects a sudden voice, like crying or shouting from the baby. When you are needed, you will know instantly."
+          }
+        },
+        "template--15873217364128__6dccfd68-cad9-4e99-aec2-9acac6e4deb5-167117957750bc4710-2": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_479ee7e9-caa2-41b3-ba93-88b770fa14b2.jpg",
+            "title": "Remote Pan Tilt Zoom & Service",
+            "content": "See every inch of your baby’s room with pan 350°, tilt 67° and 110° wide angle view. One press digital 2x zoom let you see your baby up close."
+          }
+        },
+        "template--15873217364128__6dccfd68-cad9-4e99-aec2-9acac6e4deb5-167117957750bc4710-3": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7_ea202f8a-a116-41f5-8c43-eed3119d331b.jpg",
+            "title": " Lullaby & White Noise",
+            "content": "6 soothing lullabies can create a sound environment for your baby's deep sleep, transport your little one into dreamland. Plus the white noise for parents to get a good night's sleep, brings you more energy to take care of your loved one."
+          }
+        }
+      },
+      "block_order": [
+        "template--15873217364128__6dccfd68-cad9-4e99-aec2-9acac6e4deb5-167117957750bc4710-0",
+        "template--15873217364128__6dccfd68-cad9-4e99-aec2-9acac6e4deb5-167117957750bc4710-1",
+        "template--15873217364128__6dccfd68-cad9-4e99-aec2-9acac6e4deb5-167117957750bc4710-2",
+        "template--15873217364128__6dccfd68-cad9-4e99-aec2-9acac6e4deb5-167117957750bc4710-3"
+      ],
+      "settings": {
+      }
+    },
+    "product-comparison": {
+      "type": "kawa-product-comparison",
+      "settings": {
+        "title": "Product Comparison",
+        "product_1": "baby-monitor-camera-s6-with-tx",
+        "product_2": "baby-monitor-camera-s7-with-tx",
+        "product_desc_1": "<p>720P Resolution<br><\/p><p>Support Recording\/Playback: No<\/p><p>Large 5'' IPS display<\/p><p>Enhance Night Vision<\/p><p>Room Temperature and Sound Alert<\/p><p>Two-way talk<\/p><p>360° Panoramic View:  pan 350° and tilt 67°<\/p><p>VOX Mode \/ Audio-only<\/p><p>Long Battery &amp; Long Distance:<br>1000ft Range &amp; 4000mAh for Monitor.<br>Camera: plug in outlet.<\/p><p>Without the Risk of Hacking<br>No Wi-Fi, No APP<\/p>",
+        "product_desc_2": "<p>2K QHD Resolution<\/p><p>Support Recording\/Playback: Yes<br><\/p><p>Large 5'' IPS Display<\/p><p>Enhance Night Vision<\/p><p>Room Temperature and Sound Alert<\/p><p>Two-way talk<\/p><p>360° Panoramic View:  pan 350° and tilt 67°<\/p><p>VOX Mode \/ Audio-only<\/p><p>Long Battery &amp; Long Distance:<br>1000ft Range &amp; 4000mAh for Monitor.<br>Camera: plug in outlet.<\/p><p>Without the Risk of Hacking<br>No Wi-Fi, No APP<\/p>"
+      }
+    },
+    "specifications": {
+      "type": "kawa-product-specifications",
+      "settings": {
+        "title": "Specs"
+      }
+    },
+    "faq": {
+      "type": "kawa-faq",
+      "blocks": {
+        "faq-1": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Can you set the noise threshold so that you hear only sound louder than a certain level, and not sniffling or cough sound for example?",
+            "solution": "There is a video about how to adjust the alert threshold, hope the video can help you, if there are still problem, welcome to contact us at any time."
+          }
+        },
+        "faq-2": {
+          "type": "faq_item",
+          "settings": {
+            "question": "I would like to turn the screen off but have constant sound in the evening. Is this possible or I would have to have the screen on at all times?",
+            "solution": "There’s a button on the side that turns it onto sleep mode. It looks like it’s off and you can’t hear anything. But you can set the sound sensitivity level really high so if it hears a sound the screen will come back on. The screen and sound will then turn off again when it’s quiet. You can set how long you would like it to be on for before it goes onto sleep mode again I.e 3 minuets."
+          }
+        },
+        "faq-3": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Can you turn the sound off completely from the camera? The camera and monitor are currently next to each other (same room) and it echosetc",
+            "solution": "When the camera is too close to the display, there will be an echo. You can turn down the sound of the display to help reduce the echo. Hope my answer helps you."
+          }
+        },
+        "faq-4": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Does the camera need to be plugged in all the time to work?",
+            "solution": "Yes, the camera needs to be plugged in all the time, and you can also use the power bank to provide power when you go out. We think that it is better to keep the camera working continuously so that every moment of the baby can not be missed. I hope my answer can help you, if you have any other questions, please feel free to contact us."
+          }
+        }
+      },
+      "block_order": [
+        "faq-1",
+        "faq-2",
+        "faq-3",
+        "faq-4"
+      ],
+      "settings": {
+        "title": "FAQ"
+      }
+    },
+    "tabs": {
+      "type": "kawa-product-tabs",
+      "disabled": true,
+      "blocks": {
+        "tab-1": {
+          "type": "tab_item",
+          "settings": {
+            "name": "Color Night Vision",
+            "video_link": ""
+          }
+        },
+        "tab-2": {
+          "type": "tab_item",
+          "settings": {
+            "name": "5MP Super HD",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/fd5bb78358954e02a5d6013bae20fefc.mp4"
+          }
+        },
+        "tab-3": {
+          "type": "tab_item",
+          "settings": {
+            "name": "3X Optical Zoom",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/fd5bb78358954e02a5d6013bae20fefc.mp4"
+          }
+        },
+        "3f2fe361-2f25-4067-b4c5-38056f64eefc": {
+          "type": "tab_item",
+          "settings": {
+            "name": "",
+            "video_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab-1",
+        "tab-2",
+        "tab-3",
+        "3f2fe361-2f25-4067-b4c5-38056f64eefc"
+      ],
+      "settings": {
+        "title": "Clear & Color, Even at Night or from Afar",
+        "description": "With 5-megapixel resolution and built-in spotlights, this smart IP camera keeps recording in full color day and night. Even better, you can zoom in optically to find more details."
+      }
+    },
+    "video-text": {
+      "type": "kawa-video-text",
+      "disabled": true,
+      "settings": {
+        "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/fd5bb78358954e02a5d6013bae20fefc.mp4",
+        "title": "Pet Monitor",
+        "content": "Get clear and stable live-stream from anywhere",
+        "warning": ""
+      }
+    },
+    "phone-preview": {
+      "type": "kawa-phone-preview",
+      "disabled": true,
+      "settings": {
+        "img_width": 340,
+        "img_height": 616,
+        "content_1": "",
+        "content_2": "",
+        "content_3": ""
+      }
+    },
+    "product-buy": {
+      "type": "kawa-product-buy",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "banner",
+    "video",
+    "carousel-1",
+    "carousel-2",
+    "image-text-1",
+    "image-text-2",
+    "6dccfd68-cad9-4e99-aec2-9acac6e4deb5",
+    "product-comparison",
+    "specifications",
+    "faq",
+    "tabs",
+    "video-text",
+    "phone-preview",
+    "product-buy"
+  ]
+}
