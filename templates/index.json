@@ -68,7 +68,7 @@
           "type": "product-slide",
           "settings": {
             "product_item": "baby-monitor-camera-s5-with-tx",
-            "product_image": "shopify:\/\/shop_images\/2_d0ef5cf5-b363-4d8a-ab7a-aa606a692c28.jpg",
+            "product_image": "shopify:\/\/shop_images\/2_42152f20-1deb-4527-bbee-a0c8c11b1efb.jpg",
             "tag": ""
           }
         },
@@ -76,7 +76,7 @@
           "type": "product-slide",
           "settings": {
             "product_item": "baby-monitor-camera-s7-with-tx",
-            "product_image": "shopify:\/\/shop_images\/1_7ae69eed-c763-4e39-9692-b9e268e81f9b.jpg",
+            "product_image": "shopify:\/\/shop_images\/1002_8a60bfff-3000-48e9-8d2a-d030ebfbfb11.jpg",
             "tag": ""
           }
         },
@@ -84,7 +84,7 @@
           "type": "product-slide",
           "settings": {
             "product_item": "baby-monitor-camera-s6-with-tx",
-            "product_image": "shopify:\/\/shop_images\/1_4500df3e-549c-4ac6-883b-cbecff7f7ff3.jpg",
+            "product_image": "shopify:\/\/shop_images\/1.jpg",
             "tag": ""
           }
         },
@@ -92,7 +92,7 @@
           "type": "product-slide",
           "settings": {
             "product_item": "ip-camera-a6",
-            "product_image": "shopify:\/\/shop_images\/13_60884f4e-5ab9-4f51-ad5c-730f373b7ca3.jpg",
+            "product_image": "shopify:\/\/shop_images\/13_df738ea1-e486-4afb-99ea-fe325e1a72ab.jpg",
             "tag": ""
           }
         },
@@ -100,7 +100,7 @@
           "type": "product-slide",
           "settings": {
             "product_item": "dashcam-d6",
-            "product_image": "shopify:\/\/shop_images\/05.jpg",
+            "product_image": "shopify:\/\/shop_images\/1_3_0daccf6b-bddd-4651-979e-d7786d556d30.jpg",
             "tag": ""
           }
         }
@@ -123,8 +123,8 @@
           "type": "product-card",
           "settings": {
             "card_product": "baby-monitor-camera-s5-with-tx",
-            "card_image": "shopify:\/\/shop_images\/1180_x_612_5799196d-1f60-4284-a96a-484ab7a96b30.jpg",
-            "card_image_mb": "shopify:\/\/shop_images\/1180_x_612_a169664c-19ce-454c-9d68-ba2d55639d27.jpg",
+            "card_image": "shopify:\/\/shop_images\/1180_x_612_2b7d0cb2-dced-4d2a-84ce-928f22792174.jpg",
+            "card_image_mb": "shopify:\/\/shop_images\/1180_x_612_fe2d33fd-32c2-4d78-8b04-50f052d632a7.jpg",
             "title": "Cute, Unique Unicorn Shape",
             "des": "Baby Monitor S5"
           }
@@ -133,8 +133,8 @@
           "type": "product-card",
           "settings": {
             "card_product": "baby-monitor-camera-s7-with-tx",
-            "card_image": "shopify:\/\/shop_images\/02_d651f02b-71fe-44ff-806f-192600220f41.jpg",
-            "card_image_mb": "shopify:\/\/shop_images\/02_7ab7363e-cd64-4d82-86bc-9ac909dd566b.jpg",
+            "card_image": "shopify:\/\/shop_images\/02_-app.jpg",
+            "card_image_mb": "shopify:\/\/shop_images\/02_-app.jpg",
             "title": "Large 5'' IPS display 2K",
             "des": "Baby Monitor S7"
           }
@@ -143,8 +143,8 @@
           "type": "product-card",
           "settings": {
             "card_product": "dashcam-d6",
-            "card_image": "shopify:\/\/shop_images\/1005_fa2dddad-840e-489b-b247-45efa1233caa.jpg",
-            "card_image_mb": "shopify:\/\/shop_images\/1005_13915436-80de-4063-9fd1-2b9176e418c5.jpg",
+            "card_image": "shopify:\/\/shop_images\/1005_-pc.jpg",
+            "card_image_mb": "shopify:\/\/shop_images\/1005_-app.jpg",
             "title": "Hands-Free Voice Control",
             "des": "Dash Cam D6"
           }
@@ -153,8 +153,8 @@
           "type": "product-card",
           "settings": {
             "card_product": "ip-camera-a6",
-            "card_image": "shopify:\/\/shop_images\/13_4326b0d4-3200-462f-ae22-88a4349fe635.jpg",
-            "card_image_mb": "shopify:\/\/shop_images\/13_7ba2e721-4ff2-42d1-8bb6-36b61f2f1258.jpg",
+            "card_image": "shopify:\/\/shop_images\/13_-pc.jpg",
+            "card_image_mb": "shopify:\/\/shop_images\/13_-app.jpg",
             "title": "Elderly, Kids and Pet Camera",
             "des": "IP Camera A6"
           }
@@ -176,28 +176,28 @@
         "video-block-1": {
           "type": "video-block",
           "settings": {
-            "video_poster": "shopify:\/\/shop_images\/8a953a1254d464d9662047ecf553a0ec_dc90c99a-e291-4820-99f1-30613b0c343a.jpg",
+            "video_poster": "shopify:\/\/shop_images\/66c4f47d2b9cff6d7e5d6652bfc57464.jpg",
             "video_html": "Kl4c1T9klEI"
           }
         },
         "video-block-2": {
           "type": "video-block",
           "settings": {
-            "video_poster": "shopify:\/\/shop_images\/1013_6cb0a69c-a8bc-471b-9ba8-8f333335d464.png",
+            "video_poster": "shopify:\/\/shop_images\/1013_304179cb-6e90-4c09-b2aa-1c0fb3617a19.png",
             "video_html": "bOq0R5Ezrio"
           }
         },
         "video-block-3": {
           "type": "video-block",
           "settings": {
-            "video_poster": "shopify:\/\/shop_images\/1002_774bb933-6a5f-4be7-8ceb-3574b29dd41d.jpg",
+            "video_poster": "shopify:\/\/shop_images\/1002_4418b7f4-e81d-4909-a05a-96bd3a72aa75.jpg",
             "video_html": "_7w_NSwtVfY"
           }
         },
         "video-block-4": {
           "type": "video-block",
           "settings": {
-            "video_poster": "shopify:\/\/shop_images\/1005_602b5e7e-457d-465c-a111-f07196fa540e.jpg",
+            "video_poster": "shopify:\/\/shop_images\/1005_28db0ff3-0e36-4edd-8900-cd74120a417f.jpg",
             "video_html": "QCbqT9bfzBQ"
           }
         }
