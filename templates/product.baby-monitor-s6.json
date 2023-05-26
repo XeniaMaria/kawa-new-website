@@ -44,20 +44,21 @@
         "show_discount": false,
         "show_share": false,
         "discount_faq": "",
-        "show_payment_flags": true
+        "show_payment_flags": true,
+        "show_store_info": false
       }
     },
     "banner": {
       "type": "kawa-main-product-banner",
       "settings": {
-        "banner_image": "shopify:\/\/shop_images\/A1-1_3900101d-9cdc-405d-808b-4ab53fdcaffa.jpg"
+        "banner_image": "shopify:\/\/shop_images\/A1-1_e24feb8a-ae00-4cb9-bb0a-ae2ffd28c35b.jpg"
       }
     },
     "video": {
       "type": "kawa-preview-video",
       "settings": {
         "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/5246a89c5085449db89534c7cb8b4674.mp4",
-        "cover_image": "shopify:\/\/shop_images\/feed_.00_00_11_24.Still001.png",
+        "cover_image": "shopify:\/\/shop_images\/feed_.00_00_11_24.Still001_4ea55ada-6554-4ef1-8b0f-8e3ce60316af.png",
         "max_width": "mw-1300-c",
         "has_border": false
       }
@@ -71,7 +72,7 @@
             "name": "Automatical Night Vision",
             "title": "Free Up Your Stress, From Dawn to Dusk",
             "content": "Automatic night vision allows you to see from top to toe clearly in the dark of the night, without visible IR LEDS to disturb your baby's sleep.",
-            "image": "shopify:\/\/shop_images\/A4.jpg"
+            "image": "shopify:\/\/shop_images\/A4_ca348972-9263-4fdc-8e8e-44076d122123.jpg"
           }
         },
         "carousel-item-2": {
@@ -80,7 +81,7 @@
             "name": "360° Monitoring",
             "title": "No More Blind Spots",
             "content": "Pan , tilt , zoom - you name it . Check in on your baby\nin full view and magnify details whenever you need it.",
-            "image": "shopify:\/\/shop_images\/A7.jpg"
+            "image": "shopify:\/\/shop_images\/A7_8f259439-3a32-48db-b28e-c828819469be.jpg"
           }
         }
       },
@@ -100,7 +101,7 @@
             "name": "Sleep Tracker",
             "title": "Be in 4 places at once",
             "content": "With 4 cameras, you can view your little ones one at a time, 4 on a split screen, or set it on Auto Switch to view 4 cameras by turns in every 5-30 seconds.",
-            "image": "shopify:\/\/shop_images\/A6_449c172f-5b7e-483c-b691-ef5f46f42a01.jpg"
+            "image": "shopify:\/\/shop_images\/A6_acc24acc-b67d-42d5-933c-1bd192c1f21d.jpg"
           }
         },
         "carousel-item-2": {
@@ -109,7 +110,7 @@
             "name": "2-Way Audio Intercom",
             "title": "2-Way Audio Intercom",
             "content": "Sometimes all your baby needs is to hear your voice. The convenient built-in microphone and speaker allows you to quickly and remotely soothe your baby, providing a full sense of security. So you can enjoy a peaceful morning in the kitchen or elsewhere in the home.",
-            "image": "shopify:\/\/shop_images\/A8_cee311b2-0c12-4758-a28e-a2ecf2e5a712.jpg"
+            "image": "shopify:\/\/shop_images\/A8_17b3524c-aab6-40b3-ad42-b737a03c00e3.jpg"
           }
         }
       },
@@ -126,7 +127,7 @@
         "image-text-item-1": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/StockSnap_WQQUEGXCIM.jpg",
+            "image": "shopify:\/\/shop_images\/StockSnap_WQQUEGXCIM_3429dd94-e7d1-4b9a-8653-6a7620f4d19f.jpg",
             "title": "Get a KAWA baby monitor, get a balanced work-life.",
             "content": "You will have the freedom to attend to other tasks in your life, such as cooking, cleaning the baby bottles, doing yoga, reading, working, and sleeping. Enjoy time for yourself while keeping an eye on your baby."
           }
@@ -134,7 +135,7 @@
         "image-text-item-2": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/970x600.jpg",
+            "image": "shopify:\/\/shop_images\/970x600_f6f88c64-0d1b-4885-917c-b988aa54efba.jpg",
             "title": "KAWA baby camera monitor can offer you peace of mind.",
             "content": "It is easy to feel chaotic or anxious whether you’re a first-time parent or growing your family, especially when you need to work while taking care of your baby."
           }
@@ -162,7 +163,7 @@
         "image-text-item-3": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/A2-1600-1-1.jpg",
+            "image": "shopify:\/\/shop_images\/A2-1600-1-1_7812d10a-70c3-4c4d-b96e-a5d79d5537b8.jpg",
             "title": "From Day to Night",
             "content": "Built-in 4,000mAh rechargeable battery provides 20-hour monitoring. Check out your baby at any time with ease.\n\nIf the screen is on for an entire day, it can last up to 10 hours."
           }
@@ -170,7 +171,7 @@
         "image-text-item-1": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/5_fddfbaf2-1f74-4f3e-9dca-6d94e8f28eb4.jpg",
+            "image": "shopify:\/\/shop_images\/5_a5194a82-6f6b-476a-a69a-f51d2329d853.jpg",
             "title": "No WIFI No App",
             "content": "KAWA baby monitors with camera uses an encrypted 2.4GHz FHSS radio signal, risks of hacking and security breach do not exist. No WiFi baby monitor is a solid choice for 100% privacy and security. Very easy to use."
           }
@@ -178,7 +179,7 @@
         "image-text-item-2": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/A9-300-3_2.jpg",
+            "image": "shopify:\/\/shop_images\/A9-300-3_2_1ebe30e7-a27c-4601-9ed1-a6ca4c6f6483.jpg",
             "title": "Instant Sound Alert",
             "content": "A built-in microphone can pick up low sound up to 20ft away for louder volume and crisper audio in your baby’s room. Get alerted immediately when your baby needs you via the advanced sound detection technology."
           }
@@ -186,7 +187,7 @@
         "image-text-item-4": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/A9-300-2_c439876d-db98-4aa7-8082-03d34cecc5e1.jpg",
+            "image": "shopify:\/\/shop_images\/A9-300-2_29016b71-cd24-49d3-a0d0-f9b6d1897c56.jpg",
             "title": "Room Temperature Sensor",
             "content": "Built-in temperature sensor can monitor the temperature of baby nursery in real-time throughout the day. It will notify you with sound alert and message when the temp exceeds the set range. Ensure your baby is in a comfortable environment."
           }
@@ -207,7 +208,7 @@
         "template--15873217364128__6dccfd68-cad9-4e99-aec2-9acac6e4deb5-167117957750bc4710-0": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/gift_0dce3097-02ea-4a55-b59a-c0bda0b4b936.jpg",
+            "image": "shopify:\/\/shop_images\/gift_4acfe662-d2b8-4ce1-9eeb-6b11fd1dd8c5.jpg",
             "title": "Prefect for New Mom\/Parent",
             "content": "You will get a changeable yellow deer camera cover as a gift. Infants will not be afraid of the camera, instead, they will have fun with our cutest baby camera."
           }
@@ -215,7 +216,7 @@
         "template--15873217364128__6dccfd68-cad9-4e99-aec2-9acac6e4deb5-167117957750bc4710-1": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/5_79cc2d2a-f398-4dcb-b9e3-0ea5eef0b95b.jpg",
+            "image": "shopify:\/\/shop_images\/5_520cd9ae-fb01-43ce-8bb8-338fec4bfd12.jpg",
             "title": "VOX Sleep\/Wake",
             "content": "Smart VOX mode will turn the monitor screen on when it detects a sudden voice, like crying or shouting from the baby. When you are needed, you will know instantly."
           }
@@ -223,7 +224,7 @@
         "template--15873217364128__6dccfd68-cad9-4e99-aec2-9acac6e4deb5-167117957750bc4710-2": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4_554813e0-a176-4cf4-bd88-6993201a6941.jpg",
+            "image": "shopify:\/\/shop_images\/4_479ee7e9-caa2-41b3-ba93-88b770fa14b2.jpg",
             "title": "Remote Pan Tilt Zoom & Service",
             "content": "See every inch of your baby’s room with pan 350°, tilt 67° and 110° wide angle view. One press digital 2x zoom let you see your baby up close."
           }
@@ -231,7 +232,7 @@
         "template--15873217364128__6dccfd68-cad9-4e99-aec2-9acac6e4deb5-167117957750bc4710-3": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/7_4e29189d-4fa2-494b-aace-f4ec9de17120.jpg",
+            "image": "shopify:\/\/shop_images\/7_ea202f8a-a116-41f5-8c43-eed3119d331b.jpg",
             "title": " Lullaby & White Noise",
             "content": "6 soothing lullabies can create a sound environment for your baby's deep sleep, transport your little one into dreamland. Plus the white noise for parents to get a good night's sleep, brings you more energy to take care of your loved one."
           }
@@ -363,7 +364,10 @@
       "disabled": true,
       "settings": {
         "img_width": 340,
-        "img_height": 616
+        "img_height": 616,
+        "content_1": "",
+        "content_2": "",
+        "content_3": ""
       }
     },
     "product-buy": {
