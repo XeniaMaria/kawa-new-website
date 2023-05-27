@@ -57,7 +57,7 @@
     "video": {
       "type": "kawa-preview-video",
       "settings": {
-        "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3ea6efc96c5745a79e2f086c33383b12.mp4",
+        "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/b56f3048489f4ac593a41a003b79f079.mp4",
         "cover_image": "shopify:\/\/shop_images\/cj1013.00_00_02_20.Still001.jpg",
         "max_width": "mw-1300-c",
         "has_border": false
@@ -164,6 +164,7 @@
     },
     "video-text": {
       "type": "kawa-video-text",
+      "disabled": true,
       "settings": {
         "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/d74c0ff0b4ac499ab5608e27669ad140.mp4",
         "title": "Instant Sound Alert",
@@ -178,7 +179,7 @@
           "type": "tab_item",
           "settings": {
             "name": "Support Multiple Cameras",
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2b735d4eac8c4381a4bc20aa4ce9903e.mp4",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f900d1a65b874a74b75570c350f04b5e.mp4",
             "cover_image": "shopify:\/\/shop_images\/p-1.jpg"
           }
         },
@@ -186,7 +187,7 @@
           "type": "tab_item",
           "settings": {
             "name": "AI Motion Detection",
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4fd0bd0eaece4443882eb7ecc46f71c1.mp4",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/be7a45809d8d4323a76b26039176e198.mp4",
             "cover_image": "shopify:\/\/shop_images\/p-3.jpg"
           }
         },
@@ -194,7 +195,7 @@
           "type": "tab_item",
           "settings": {
             "name": "2K Quard High Definition",
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/aba06c5ec87a4a819349b2639883c73f.mp4",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/14f1a07d11eb4ce1a21b4168607debf8.mp4",
             "cover_image": "shopify:\/\/shop_images\/p-2.jpg"
           }
         }
