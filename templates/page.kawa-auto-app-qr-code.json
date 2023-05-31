@@ -4,6 +4,7 @@
       "type": "kawa-app-download",
       "settings": {
         "is_single": true,
+        "is_show_qrcode": false,
         "app_download_name": "",
         "app_download_title": "KAWA DVR APP",
         "app_download_des": "Control and monitor your Dash Cam and real-time road conditions.",

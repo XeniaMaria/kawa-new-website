@@ -6,6 +6,20 @@
   {% if section.settings.is_single %}
     {%- assign settings = section.settings -%}
   {% endif %}
+
+  {% if settings.is_show_qrcode == false %}
+    {% style %}
+      @media screen and (max-width: 768px) {
+        .kawa-app-download .download-play {
+          flex-direction: row;
+        }
+        .kawa-app-download .play-item:last-child {
+          margin-top: 20px;
+        }
+      }
+    {% endstyle %}
+  {% endif %}
+
   <div
     class="download-bg"
   >
@@ -88,36 +102,38 @@
         </div>
       </div>
 
-      <div
-        class="qr-box"
-      >
+      {% if settings.is_show_qrcode %}
         <div
-          class="qr-content qr-ios"
+          class="qr-box"
         >
-          <img
-            src="{{ settings.app_download_code_ios | image_url }}"
-            width="100"
-            height="100"
-            loading="lazy"
+          <div
+            class="qr-content qr-ios"
           >
-          <p>
-            {{ settings.app_download_code_tips_ios }}
-          </p>
-        </div>
-        <div
-          class="qr-content qr-android"
-        >
-          <img
-            src="{{ settings.app_download_code_android | image_url }}"
-            width="100"
-            height="100"
-            loading="lazy"
+            <img
+              src="{{ settings.app_download_code_ios | image_url }}"
+              width="100"
+              height="100"
+              loading="lazy"
+            >
+            <p>
+              {{ settings.app_download_code_tips_ios }}
+            </p>
+          </div>
+          <div
+            class="qr-content qr-android"
           >
-          <p>
-            {{ settings.app_download_code_tips_android }}
-          </p>
+            <img
+              src="{{ settings.app_download_code_android | image_url }}"
+              width="100"
+              height="100"
+              loading="lazy"
+            >
+            <p>
+              {{ settings.app_download_code_tips_android }}
+            </p>
+          </div>
         </div>
-      </div>
+      {% endif %}
     </div>
     {%- if settings.app_download_apk_url != null -%}
       <div
@@ -158,6 +174,13 @@
       "label": "是否是单独设置",
       "info": "选中的话单独配置，未选中使用全局配置",
       "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "is_show_qrcode",
+      "label": "是否展示二维码",
+      "info": "默认展示二维码，不想展示可以关掉",
+      "default": true
     },
     {
       "type": "text",
