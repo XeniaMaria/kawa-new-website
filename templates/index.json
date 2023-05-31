@@ -124,7 +124,7 @@
           "settings": {
             "card_product": "baby-monitor-camera-s5-with-tx",
             "card_image": "shopify:\/\/shop_images\/1180_x_612_2b7d0cb2-dced-4d2a-84ce-928f22792174.jpg",
-            "card_image_mb": "shopify:\/\/shop_images\/1180_x_612_fe2d33fd-32c2-4d78-8b04-50f052d632a7.jpg",
+            "card_image_mb": "shopify:\/\/shop_images\/1180-x-612.jpg",
             "title": "Cute, Unique Unicorn Shape",
             "des": "Baby Monitor S5"
           }
@@ -134,7 +134,7 @@
           "settings": {
             "card_product": "baby-monitor-camera-s7-with-tx",
             "card_image": "shopify:\/\/shop_images\/02_-app.jpg",
-            "card_image_mb": "shopify:\/\/shop_images\/02_-app.jpg",
+            "card_image_mb": "shopify:\/\/shop_images\/02_-app_403b9a32-e562-4f64-ad26-444df92c4566.jpg",
             "title": "Large 5'' IPS display 2K",
             "des": "Baby Monitor S7"
           }
@@ -143,7 +143,7 @@
           "type": "product-card",
           "settings": {
             "card_product": "dashcam-d6",
-            "card_image": "shopify:\/\/shop_images\/1005_-pc.jpg",
+            "card_image": "shopify:\/\/shop_images\/1005_-app_914fe417-f80c-435d-b25c-df3cfddc782e.jpg",
             "card_image_mb": "shopify:\/\/shop_images\/1005_-app.jpg",
             "title": "Hands-Free Voice Control",
             "des": "Dash Cam D6"
@@ -154,7 +154,7 @@
           "settings": {
             "card_product": "ip-camera-a6",
             "card_image": "shopify:\/\/shop_images\/13_-pc.jpg",
-            "card_image_mb": "shopify:\/\/shop_images\/13_-app.jpg",
+            "card_image_mb": "shopify:\/\/shop_images\/13_-app_4891f7b9-0de1-4447-a731-eae66efccf4e.jpg",
             "title": "Elderly, Kids and Pet Camera",
             "des": "IP Camera A6"
           }
@@ -176,28 +176,28 @@
         "video-block-1": {
           "type": "video-block",
           "settings": {
-            "video_poster": "shopify:\/\/shop_images\/66c4f47d2b9cff6d7e5d6652bfc57464.jpg",
+            "video_poster": "shopify:\/\/shop_images\/66c4f47d2b9cff6d7e5d6652bfc57464_05728488-f2b1-42b9-b6be-9014c1fb43a7.jpg",
             "video_html": "Kl4c1T9klEI"
           }
         },
         "video-block-2": {
           "type": "video-block",
           "settings": {
-            "video_poster": "shopify:\/\/shop_images\/1013_304179cb-6e90-4c09-b2aa-1c0fb3617a19.png",
+            "video_poster": "shopify:\/\/shop_images\/1013_006e144f-b3bb-4443-83af-45255d43b335.jpg",
             "video_html": "bOq0R5Ezrio"
           }
         },
         "video-block-3": {
           "type": "video-block",
           "settings": {
-            "video_poster": "shopify:\/\/shop_images\/1002_4418b7f4-e81d-4909-a05a-96bd3a72aa75.jpg",
+            "video_poster": "shopify:\/\/shop_images\/1002.jpg",
             "video_html": "_7w_NSwtVfY"
           }
         },
         "video-block-4": {
           "type": "video-block",
           "settings": {
-            "video_poster": "shopify:\/\/shop_images\/1005_28db0ff3-0e36-4edd-8900-cd74120a417f.jpg",
+            "video_poster": "shopify:\/\/shop_images\/1005.jpg",
             "video_html": "QCbqT9bfzBQ"
           }
         }
