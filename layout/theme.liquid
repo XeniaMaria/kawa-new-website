@@ -34,11 +34,13 @@
     {% render 'meta-tags' %}
 
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
-    {{ content_for_header }}
 
-    {%- comment -%}
-      {{ content_for_header }}
-    {%- endcomment -%}
+    {% capture modified_content_for_header %}{{ content_for_header }}{% endcapture %}
+
+    {% assign modified_content_for_header = modified_content_for_header
+      | remove: '"https:\/\/www.sharetodays.com\/shopify\/js\/static\/js\/jquery.min.js?shop=kawa-in.myshopify.com","https:\/\/www.sharetodays.com\/shopify\/js\/fb_pixel_plugin\/index.js?fb_pixel_id=1207956792949110\u0026website_id=69899c05199944beba6334aac536529d\u0026uid=20313b8197c73820\u0026shop=kawa-in.myshopify.com","https:\/\/www.sharetodays.com\/shopify\/js\/common_product_detail\/index.js?website_id=69899c05199944beba6334aac536529d\u0026uid=20313b8197c73820\u0026shop=kawa-in.myshopify.com",'
+    %}
+    {{ modified_content_for_header }}
 
     {%- liquid
       assign body_font_bold = settings.type_body_font | font_modify: 'weight', 'bold'
