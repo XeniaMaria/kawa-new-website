@@ -272,8 +272,17 @@
       <noscript>
         <link rel="stylesheet" href="{{ 'bootstrap.min.css' | asset_url }}">
       </noscript>
-      {{ 'lite-yt-embed.css' | asset_url | stylesheet_tag }}
-      <script src="{{ 'lite-yt-embed.js' | asset_url }}"></script>
+
+      <link
+        rel="preload"
+        href="{{ 'lite-yt-embed.css' | asset_url }}"
+        as="style"
+        onload="this.onload=null;this.rel='stylesheet'"
+      >
+      <noscript>
+        <link rel="stylesheet" href="{{ 'lite-yt-embed.css' | asset_url }}">
+      </noscript>
+      <script src="{{ 'lite-yt-embed.js' | asset_url }}" async></script>
 
       <script src="{{ 'swiper.min.js' | asset_url }}"></script>
       <script src="{{ 'jquery-3.5.1.min.js' | asset_url }}"></script>
