@@ -1,4 +1,5 @@
 {
+  "layout": "promotion",
   "sections": {
     "qrcode-product": {
       "type": "kawa-qrcode-product",
