@@ -44,7 +44,8 @@
         "show_discount": false,
         "show_share": false,
         "discount_faq": "",
-        "show_payment_flags": true
+        "show_payment_flags": true,
+        "show_store_info": false
       }
     },
     "banner": {
@@ -58,7 +59,6 @@
       "disabled": true,
       "settings": {
         "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/57d135e474854c3b8973a129d0e52f70.mp4",
-        "cover_image": "shopify:\/\/shop_images\/1002_a0aef2da-05ac-47b5-aeea-f11bc985ba2b.jpg",
         "max_width": "mw-1300-c",
         "has_border": false
       }
@@ -117,8 +117,7 @@
           "settings": {
             "name": "",
             "title": "",
-            "content": "",
-            "image": "shopify:\/\/shop_images\/af0471597e10c84743607ce5f08d0cc6_04fe2ef7-a940-40aa-a571-9bdb9bfa8495.jpg"
+            "content": ""
           }
         },
         "carousel-item-2": {
@@ -334,7 +333,7 @@
         "title": "Product Comparison",
         "product_1": "baby-monitor-camera-s5-with-tx",
         "product_2": "baby-monitor-camera-s7-with-tx",
-        "product_desc_1": "<p>2K QHD Resolution<\/p><p>Support Recording\/Playback: Yes<br><\/p><p>Large 2.8'' IPS Display<\/p><p>Enhance Night Vision<\/p><p>Room Sound Alert<\/p><p>Two-way talk<\/p><p>360° Panoramic View:  pan 360° and tilt 150°<\/p><p>VOX Mode \/ Audio-only<\/p><p>Long Battery &amp; Long Distance:<br>1000ft Range &amp; 2600mAh for Monitor.<br>Camera: plug in outlet.<\/p><p>Without the Risk of Hacking<br>No Wi-Fi, No APP<\/p>",
+        "product_desc_1": "<p>2K QHD Resolution<\/p><p>Support Recording\/Playback: Yes<br><\/p><p>Large 2.8'' IPS Display<\/p><p>Enhance Night Vision<\/p><p>Room Sound Alert<\/p><p>Two-way talk<\/p><p>360° Panoramic View:  pan 360° and tilt 150°<\/p><p>VOX Mode \/ Audio-only<\/p><p>Long Distance:<br>1000ft Range &amp; 2600mAh for Monitor.<br>Camera: plug in outlet.<\/p><p>Without the Risk of Hacking<br>No Wi-Fi, No APP<\/p>",
         "product_desc_2": "<p>2K QHD Resolution<\/p><p>Support Recording\/Playback: Yes<br><\/p><p>Large 5'' IPS Display<\/p><p>Enhance Night Vision<\/p><p>Room Temperature and Sound Alert<\/p><p>Two-way talk<\/p><p>360° Panoramic View:  pan 350° and tilt 67°<\/p><p>VOX Mode \/ Audio-only<\/p><p>Long Battery &amp; Long Distance:<br>1000ft Range &amp; 4000mAh for Monitor.<br>Camera: plug in outlet.<\/p><p>Without the Risk of Hacking<br>No Wi-Fi, No APP<\/p>"
       }
     },
@@ -369,8 +368,7 @@
           "type": "tab_item",
           "settings": {
             "name": "Enhance Night Vision",
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/474dba233f0d4ee7b98079840ce67f13.mp4",
-            "cover_image": "shopify:\/\/shop_images\/114_d853b32c-c43e-43f1-8285-ab59427b0dd6.jpg"
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/474dba233f0d4ee7b98079840ce67f13.mp4"
           }
         }
       },
