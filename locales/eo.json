@@ -1120,27 +1120,14 @@
     },
     "filters": {
       "availability": {
-        "label": "Havebleco",
         "value": {
           "in_stock": "En stoko",
           "out_of_stock": "Elĉerpita"
         }
       },
-      "vendor": {
-        "label": "Marko"
-      },
-      "price": {
-        "label": "Prezo"
-      },
-      "product_type": {
-        "label": "Produkta tipo"
-      },
       "boolean": {
         "true_label": "Jes",
         "false_label": "Ne"
-      },
-      "tags": {
-        "label": "Pli da filtriloj"
       }
     },
     "search": {
