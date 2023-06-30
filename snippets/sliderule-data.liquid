@@ -1,0 +1,60 @@
+<script name="sliderule-tracking" data-ot-ignore>
+(function(){
+	slideruleData = {
+    "version":"v0.0.1",
+    "referralExclusion":"/(paypal|visa|MasterCard|clicksafe|arcot\.com|geschuetzteinkaufen|checkout\.shopify\.com|checkout\.rechargeapps\.com|portal\.afterpay\.com|payfort)/",
+    "googleSignals":true,
+    "anonymizeIp":true,
+    "productClicks":true,
+    "persistentUserId":true,
+    "hideBranding":false,
+    "ecommerce":{"currencyCode":"{{shop.currency}}",
+    "impressions":[]},
+    "pageType":"{{request.page_type}}",
+	"destinations":{"google_analytics_4":{"measurementIds":["G-VV2DPRBM94"]}},
+    "cookieUpdate":true
+	}
+
+	{% if content_for_header contains "previewBarInjector.init();" %}
+		slideruleData.themeMode = "preview"
+	{% elsif content_for_header contains "Shopify.designMode" %}
+		slideruleData.themeMode = "design"
+	{% else %}
+		slideruleData.themeMode = "live"
+	{% endif %}
+
+	{%if collection %}
+		slideruleData.collection = {
+			handle: {{ collection.handle | json }},
+			description: {{ collection.description | json }},
+			id: {{ collection.id | json }},
+			title: {{ collection.title | json }},
+			products_count: {{ collection.products_count | json }},
+			all_products_count: {{ collection.products_count | json }},
+		}
+		slideruleData.collection.rawProducts = [
+			{% for product in collection.products %}
+				{{ product | json }},
+			{% endfor %}
+		]
+	{% endif %}
+
+
+	{%if customer %}
+		slideruleData.customer = {
+			id: '{{customer.id | json}}',
+			email: {{customer.email | json}},
+			firstName: {{customer.first_name | json}},
+			lastName: {{customer.last_name | json}},
+			phone: {{customer.phone | json}},
+			createdAt: {{customer.created_at | json}},
+			address: {{customer.default_address | json}},
+			customerLifetimeValue: parseFloat({{customer.total_spent | json}} || 0),
+			purchaseCount: parseInt({{customer.orders_count | json}} || 0),
+			tags: {{customer.tags | json}},
+			generatedClientID: {{customer.metafields.littledata.clientID | json}}
+		};
+	{% endif %}
+	})();
+</script>
+<script async type="text/javascript" src=https://grow.slideruleanalytics.com/eluredils-g.js></script>
