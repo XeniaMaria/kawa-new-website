@@ -2,8 +2,10 @@
   "sections": {
     "app-download": {
       "type": "kawa-app-download",
+      "disabled": true,
       "settings": {
         "is_single": true,
+        "is_show_qrcode": true,
         "app_download_name": "",
         "app_download_title": "KAWA DVR APP",
         "app_download_des": "Control and monitor your Dash Cam and real-time road conditions.",
@@ -27,6 +29,7 @@
     },
     "31948728-271e-4069-94bd-2a86622730f7": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "Dash Cam D6 Connection Guidance Video-(iOS)",
         "heading_size": "h1",
@@ -41,6 +44,7 @@
     },
     "e458a475-b0b5-402c-a6ea-7bb955c8bfce": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "Dash Cam D6 Connection Guidance Video-(Android)",
         "heading_size": "h1",
