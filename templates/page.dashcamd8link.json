@@ -5,6 +5,7 @@
       "disabled": true,
       "settings": {
         "is_single": true,
+        "is_show_qrcode": true,
         "app_download_name": "",
         "app_download_title": "KAWA DVR APP",
         "app_download_des": "Control and monitor your Dash Cam D6 and real-time road conditions.",
@@ -61,7 +62,7 @@
       "settings": {
         "title": "Manuals",
         "show_category": false,
-        "product": ""
+        "product": "d8-user-manual"
       }
     },
     "dbc48c40-df54-443f-b186-4300d5e798a6": {
