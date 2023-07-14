@@ -3,14 +3,14 @@
     "6617e918-4f16-45b7-a0d8-64c251fe0091": {
       "type": "kawa-main-banner-new",
       "settings": {
-        "banner_type": "video",
+        "banner_type": "image",
         "text_top": "",
         "text_middle": "",
         "text_bottom": "",
         "btn_text": "Learn More",
         "btn_target": "shopify:\/\/pages\/t6-security-camera-crowdfunding",
         "banner_video_pc": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e2bcc8eccc2c4b24ad505acb27c2a522.mp4",
-        "banner_video_poster_pc": "shopify:\/\/shop_images\/T6_-PC.jpg",
+        "banner_video_poster_pc": "shopify:\/\/shop_images\/PC.jpg",
         "banner_video_mb": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/56d3b0f790364cf99c4d931285643e88.mp4",
         "banner_video_poster_mb": "shopify:\/\/shop_images\/T6.jpg"
       }
