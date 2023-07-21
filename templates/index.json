@@ -2,34 +2,6 @@
   "sections": {
     "6617e918-4f16-45b7-a0d8-64c251fe0091": {
       "type": "kawa-main-banner-new",
-      "blocks": {
-        "2c1a3c5b-d455-4dc1-9a61-da958f65f08d": {
-          "type": "image_carousel_item",
-          "settings": {
-            "text_top": "",
-            "text_middle": "",
-            "text_bottom": "",
-            "btn_text": "",
-            "btn_target": "",
-            "image_pc": "shopify:\/\/shop_images\/new.jpg"
-          }
-        },
-        "490b9c09-eaea-431c-b138-3e27600231c6": {
-          "type": "image_carousel_item",
-          "settings": {
-            "text_top": "",
-            "text_middle": "",
-            "text_bottom": "",
-            "btn_text": "",
-            "btn_target": "",
-            "image_pc": "shopify:\/\/shop_images\/13_-app_83ed8870-3783-4d9a-b4c9-90d0a2b6ff52.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "2c1a3c5b-d455-4dc1-9a61-da958f65f08d",
-        "490b9c09-eaea-431c-b138-3e27600231c6"
-      ],
       "settings": {
         "banner_type": "image",
         "text_top": "",
@@ -41,6 +13,20 @@
         "banner_image_mb": "shopify:\/\/shop_images\/new_977684aa-de1e-44ed-8d8e-03e9da36e243.jpg",
         "banner_video_pc": "https:\/\/www.kickstarter.com\/projects\/kawa\/kawa-t6-t6-pro-security-camera-turn-night-into-day",
         "banner_video_mb": "https:\/\/www.kickstarter.com\/projects\/kawa\/kawa-t6-t6-pro-security-camera-turn-night-into-day"
+      }
+    },
+    "f0187556-b504-4167-9f5f-cfae81d1b6c8": {
+      "type": "kawa-main-banner-new",
+      "disabled": true,
+      "settings": {
+        "banner_type": "image",
+        "text_top": "",
+        "text_middle": "",
+        "text_bottom": "",
+        "btn_text": "",
+        "btn_target": "",
+        "banner_video_pc": "",
+        "banner_video_mb": ""
       }
     },
     "kawa_video_banner": {
@@ -366,6 +352,7 @@
   },
   "order": [
     "6617e918-4f16-45b7-a0d8-64c251fe0091",
+    "f0187556-b504-4167-9f5f-cfae81d1b6c8",
     "kawa_video_banner",
     "kawa-new-products",
     "kawa-products-card",
