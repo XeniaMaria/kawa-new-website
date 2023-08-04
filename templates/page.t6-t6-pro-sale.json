@@ -24,6 +24,7 @@
     },
     "flash-sale-1": {
       "type": "kawa-flash-sale",
+      "disabled": true,
       "blocks": {
         "flash-sale-product-1": {
           "type": "flash-sale-product",
@@ -98,6 +99,7 @@
     },
     "flash-sale-2": {
       "type": "kawa-flash-sale",
+      "disabled": true,
       "blocks": {
         "flash-sale-product-1": {
           "type": "flash-sale-product",
@@ -192,6 +194,7 @@
     },
     "flash-sale-comment": {
       "type": "kawa-flash-sale-comment",
+      "disabled": true,
       "blocks": {
         "comment-1": {
           "type": "comment",
