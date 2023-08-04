@@ -122,7 +122,7 @@
             "price": "4.99",
             "price_color": "#56b85d",
             "duration": "month",
-            "detail": "<div>7-Day Continuous Recording<\/div><div>1-Month Video History<\/div><div>Expiration Date: 30 Days<\/div>"
+            "detail": "<div>7-Day Continuous Recording<\/div><div>Expiration Date: 30 Days<\/div>"
           }
         },
         "4db25d23-e222-414d-b3a9-922c3d137e68": {
@@ -134,19 +134,19 @@
             "price": "5.99",
             "price_color": "#1878b9",
             "duration": "month",
-            "detail": "<div>14-Day Continuous Recording<\/div><div>1-Month Video History<\/div><div>Expiration Date: 30 Days<\/div>"
+            "detail": "<div>14-Day Continuous Recording<\/div><div>Expiration Date: 30 Days<\/div>"
           }
         },
         "2291329c-a901-475d-b260-2790a88aad8f": {
           "type": "commodity_item",
           "settings": {
             "title": "Monthly",
-            "desc": "",
+            "desc": "Service Content",
             "orig_price": "29.99",
             "price": "14.99",
             "price_color": "#334fb4",
             "duration": "month",
-            "detail": "<div>30-Day Continuous Recording<\/div><div>1-Month Video History<\/div><div>Expiration Date: 30 Days<\/div>"
+            "detail": "<div>30-Day Continuous Recording<\/div><div>Expiration Date: 30 Days<\/div>"
           }
         },
         "commodity-item-3": {
@@ -158,7 +158,7 @@
             "price": "59",
             "price_color": "#e67349",
             "duration": "annual",
-            "detail": "<div>14-Day Continuous Recording<\/div><div>1-Year Video History<\/div><div>Expiration Date: 365 Days<\/div>"
+            "detail": "<div>14-Day Continuous Recording<\/div><div>Expiration Date: 365 Days<\/div>"
           }
         }
       },
