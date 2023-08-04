@@ -1,0 +1,285 @@
+{
+  "sections": {
+    "f215b601-5e65-4e80-b769-197ee4946c50": {
+      "type": "kawa-single-img-text",
+      "settings": {
+        "pc_img": "shopify:\/\/shop_images\/smt.jpg",
+        "mobile_img": "shopify:\/\/shop_images\/3000x1500_ee08c5bf-6c10-41a3-85b3-a1dac0e6ee81.jpg",
+        "title": "",
+        "content": "",
+        "text_pos": "center",
+        "text_color": "white"
+      }
+    },
+    "flash-sale-banner": {
+      "type": "kawa-flash-sale-banner",
+      "disabled": true,
+      "settings": {
+        "bg_image": "shopify:\/\/shop_images\/2_97efa07f-01ca-42ac-89fb-c868097cf4a1.jpg",
+        "bg_image_mb": "shopify:\/\/shop_images\/59c6f07bf7bae868dd56b1a9f3077648_588b9202-506a-491a-8e7d-2cc1afdb0f7a.jpg",
+        "subtitle": "",
+        "title": "",
+        "des": ""
+      }
+    },
+    "flash-sale-1": {
+      "type": "kawa-flash-sale",
+      "blocks": {
+        "flash-sale-product-1": {
+          "type": "flash-sale-product",
+          "settings": {
+            "product": "baby-monitor-camera-s6-with-tx",
+            "product_tags": "5 Inch Large Display,2-Way Talk,20Hrs Battery,720P HD Display",
+            "product_img": "shopify:\/\/shop_images\/01_300x300_662f62c6-fd27-4720-8763-de2ec2b6f5ea.jpg"
+          }
+        },
+        "flash-sale-product-2": {
+          "type": "flash-sale-product",
+          "disabled": true,
+          "settings": {
+            "product": "kawa-5-720p-hd-display-video-baby-monitor-with-night-vision-temperature-sensor-2-way-audio-pan-tilt-zoom-white-noise-lullaby-20-hours-battery-1000ft-range",
+            "product_tags": "4G LTE,Person\/Vehicle Detection,Battery\/Solar Powered,IP66 Waterproof"
+          }
+        }
+      },
+      "block_order": [
+        "flash-sale-product-1",
+        "flash-sale-product-2"
+      ],
+      "settings": {
+      }
+    },
+    "flash-sale-nav": {
+      "type": "kawa-flash-sale-nav",
+      "disabled": true,
+      "blocks": {
+        "flash-sale-collection-1": {
+          "type": "flash-sale-collection",
+          "settings": {
+            "collection": "",
+            "collection_name": "IPC",
+            "collection_page": "flash-sale"
+          }
+        },
+        "df737849-a28d-4beb-9b91-0bca5d691161": {
+          "type": "flash-sale-collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "collection_name": "",
+            "collection_page": ""
+          }
+        },
+        "flash-sale-collection-2": {
+          "type": "flash-sale-collection",
+          "settings": {
+            "collection": "baby-monitor",
+            "collection_name": "Baby Monitor",
+            "collection_page": ""
+          }
+        },
+        "flash-sale-collection-3": {
+          "type": "flash-sale-collection",
+          "settings": {
+            "collection": "ipc",
+            "collection_name": "IPC2",
+            "collection_page": ""
+          }
+        }
+      },
+      "block_order": [
+        "flash-sale-collection-1",
+        "df737849-a28d-4beb-9b91-0bca5d691161",
+        "flash-sale-collection-2",
+        "flash-sale-collection-3"
+      ],
+      "settings": {
+      }
+    },
+    "flash-sale-2": {
+      "type": "kawa-flash-sale",
+      "blocks": {
+        "flash-sale-product-1": {
+          "type": "flash-sale-product",
+          "settings": {
+            "product": "kawa-3mp-ip-camera-video-wifi-surveillance-cameras-indoor-security-cam-smart-home-baby-monitor-tracking-audio-alexa",
+            "product_tags": "2K\/3MP,AI Human Detection,360°Panoramic View,Works with Alexa",
+            "product_img": "shopify:\/\/shop_images\/13_300x300_ee7ccb48-d01c-41c3-9243-d15e06509557.jpg"
+          }
+        },
+        "flash-sale-product-2": {
+          "type": "flash-sale-product",
+          "disabled": true,
+          "settings": {
+            "product": "kawa-3mp-ip-camera-video-wifi-surveillance-cameras-indoor-security-cam-smart-home-baby-monitor-tracking-audio-alexa",
+            "product_tags": "Dual Lens,Person\/Vehicle Detection,180° View (Horizontal),4K Ultra HD"
+          }
+        }
+      },
+      "block_order": [
+        "flash-sale-product-1",
+        "flash-sale-product-2"
+      ],
+      "settings": {
+      }
+    },
+    "flash-sale-ad": {
+      "type": "kawa-flash-sale-ad",
+      "disabled": true,
+      "blocks": {
+        "ad-block-1": {
+          "type": "ad-block",
+          "settings": {
+            "ad-icon": "",
+            "ad-title": "Dual-Lens",
+            "ad-description": "Dual-Lens With one more high-tech lens, these dual cameras either cover larger surveillance areas or offer more advanced tracking modes. Keep everything under your control."
+          }
+        },
+        "ad-block-2": {
+          "type": "ad-block",
+          "settings": {
+            "ad-icon": "",
+            "ad-title": "Wide Viewing Angle",
+            "ad-description": "Equipped with two lenses, these cameras provide you with a wide field of view. You can cover more areas and explore more details."
+          }
+        },
+        "ad-block-3": {
+          "type": "ad-block",
+          "settings": {
+            "ad-icon": "",
+            "ad-title": "Super HD",
+            "ad-description": "These wide angle IP cameras feature up to 8MP resolution and show you clear, crisp images and videos. You can view everything with more colors, more sharpness and more fun."
+          }
+        },
+        "ad-block-4": {
+          "type": "ad-block",
+          "settings": {
+            "ad-icon": "",
+            "ad-title": "Color Night Vision",
+            "ad-description": "With infrared lights and powerful spotlights, these cameras show you everything in full color and keep your home and business 24\/7 guarded."
+          }
+        },
+        "ad-block-5": {
+          "type": "ad-block",
+          "settings": {
+            "ad-icon": "",
+            "ad-title": "Super HD",
+            "ad-description": "These wide angle IP cameras feature up to 8MP resolution and show you clear, crisp images and videos. You can view everything with more colors, more sharpness and more fun."
+          }
+        },
+        "ad-block-6": {
+          "type": "ad-block",
+          "settings": {
+            "ad-icon": "",
+            "ad-title": "Color Night Vision",
+            "ad-description": "With infrared lights and powerful spotlights, these cameras show you everything in full color and keep your home and business 24\/7 guarded."
+          }
+        }
+      },
+      "block_order": [
+        "ad-block-1",
+        "ad-block-2",
+        "ad-block-3",
+        "ad-block-4",
+        "ad-block-5",
+        "ad-block-6"
+      ],
+      "settings": {
+        "title": "Why Pick Dual-Lens Security Cameras?",
+        "description": "Kawa Duo Series security cameras equipped with two lenses allow you to see a much broader world with less distortion. Reolink TrackMix Series cameras are equipped with a telephoto lens and a wide-angle lens, providing wide-angle view and close-up view synchronously on the screen. It can also automatically track and zoom in on the detected objects.",
+        "tips": "* Please go to the specific product page for details."
+      }
+    },
+    "flash-sale-comment": {
+      "type": "kawa-flash-sale-comment",
+      "blocks": {
+        "comment-1": {
+          "type": "comment",
+          "settings": {
+            "star_number": 5,
+            "comment_title": "It Works Perfectly!",
+            "comment_content": "This is what I exactly need at home. Being away all day at work and having a helpful watchful eye so that I can easily check my phone give me peace of mind. It gives me notifications of any motion and sounds detections, is very easy to operate, simple manual instructions. What I like the most is the clarity of the camera captions, I can vividly see everything. It’s worth the price! I will recommend it to everyone home!",
+            "comment_product": "kawa-3mp-ip-camera-video-wifi-surveillance-cameras-indoor-security-cam-smart-home-baby-monitor-tracking-audio-alexa",
+            "username": "Amanda"
+          }
+        },
+        "comment-2": {
+          "type": "comment",
+          "settings": {
+            "star_number": 5,
+            "comment_title": "Fantastic Camera! Well worth the buy! Good value for price & Excellent App Features!",
+            "comment_content": "The picture quality is fantastic, and motion detection picks up even the slightest motion, and micro-records it. I got a 32GB micro-SD for $10 and have extra capacity to record. Night vision is extremely good as well! Automatically switches modes when the lights go out. Two-way audio is beyond incredible!! Beats many other cameras (like Eufy, etc.) that I know other people have! The device is extremely reliable, and the application is excellent! Easy-to-use and friendly! BONUS is the near 360 pan and large tilt.",
+            "comment_product": "kawa-3mp-ip-camera-video-wifi-surveillance-cameras-indoor-security-cam-smart-home-baby-monitor-tracking-audio-alexa",
+            "username": "James"
+          }
+        },
+        "comment-3": {
+          "type": "comment",
+          "settings": {
+            "star_number": 5,
+            "comment_title": "Amazing baby monitor!",
+            "comment_content": "I had tried out a few baby monitors like the Vtech, Leapfrog, and Eufy, but liked this one the most! It has excellent picture quality and there is almost no delay or lag time on the dedicated screen for motion and sound, which was very important to me.\nI did have an issue with the first camera not transmitting sound to the dedicated screen, but Kawa has a great customer support and they resolved my issue right away. Overall I am very happy with this monitor.",
+            "comment_product": "baby-monitor-camera-s6-with-tx",
+            "username": "Anonymous"
+          }
+        }
+      },
+      "block_order": [
+        "comment-1",
+        "comment-2",
+        "comment-3"
+      ],
+      "settings": {
+        "title": "Trusted by Hundreds of Thousands of Users"
+      }
+    },
+    "flash-sale-explore": {
+      "type": "kawa-flash-sale-explore",
+      "disabled": true,
+      "blocks": {
+        "flash-sale-collection-1": {
+          "type": "flash-sale-collection",
+          "settings": {
+            "collection": "ipc",
+            "collection_name": "IPC",
+            "collection_page": "flash-sale"
+          }
+        },
+        "flash-sale-collection-2": {
+          "type": "flash-sale-collection",
+          "settings": {
+            "collection": "baby-monitor",
+            "collection_name": "Baby Monitor",
+            "collection_page": ""
+          }
+        },
+        "flash-sale-collection-3": {
+          "type": "flash-sale-collection",
+          "settings": {
+            "collection": "ipc",
+            "collection_name": "IPC2",
+            "collection_page": ""
+          }
+        }
+      },
+      "block_order": [
+        "flash-sale-collection-1",
+        "flash-sale-collection-2",
+        "flash-sale-collection-3"
+      ],
+      "settings": {
+        "title": "Explore Other Categories"
+      }
+    }
+  },
+  "order": [
+    "f215b601-5e65-4e80-b769-197ee4946c50",
+    "flash-sale-banner",
+    "flash-sale-1",
+    "flash-sale-nav",
+    "flash-sale-2",
+    "flash-sale-ad",
+    "flash-sale-comment",
+    "flash-sale-explore"
+  ]
+}
