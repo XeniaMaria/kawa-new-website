@@ -39,10 +39,26 @@
       "settings": {
         "custom_html": "<div id=\"unique_id\" data-kol-snippet=\"embedpage\" class=\"kol-embed-page-frame default\" data-settings='{\"pageID\":\"371536\", \"embedHeight\":\"full\",\"embedHeightPixels\":\"500\"}'>\n<\/div>"
       }
+    },
+    "8de5ccf9-301c-4b17-8c8e-49061880ed38": {
+      "type": "kawa-main-banner-new",
+      "settings": {
+        "banner_type": "image",
+        "text_top": "",
+        "text_middle": "",
+        "text_bottom": "",
+        "btn_text": "Learn More",
+        "btn_target": "https:\/\/www.kickstarter.com\/projects\/kawa\/kawa-t6-t6-pro-security-camera-turn-night-into-day?ref=9fdjb7",
+        "banner_image_pc": "shopify:\/\/shop_images\/PC_-new.jpg",
+        "banner_image_mb": "shopify:\/\/shop_images\/M_-new-5.png",
+        "banner_video_pc": "",
+        "banner_video_mb": ""
+      }
     }
   },
   "order": [
     "qrcode-product",
-    "90c46117-8638-45a6-9d3a-06003579f3bb"
+    "90c46117-8638-45a6-9d3a-06003579f3bb",
+    "8de5ccf9-301c-4b17-8c8e-49061880ed38"
   ]
 }
