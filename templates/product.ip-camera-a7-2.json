@@ -1,0 +1,423 @@
+{
+  "sections": {
+    "main": {
+      "type": "kawa-main-product",
+      "blocks": {
+        "store-info-item-1": {
+          "type": "store_info_item",
+          "settings": {
+            "title": "Fast, Free Shipping",
+            "content": "<p>We offer free shipping straight to your door throughout the contiguous US*. It usually takes 3-7 business days* for your package to be delivered, so you can sit back and relax, worry-free.<\/p><p><\/p><p>*Please see our shipping policy for more details.<\/p><p>*Due to COVID-19 shipping times may be delayed.<\/p>"
+          }
+        },
+        "store-info-item-2": {
+          "type": "store_info_item",
+          "settings": {
+            "title": "30-Day Money-Back Guarantee",
+            "content": "<p> Get a full refund when you return your undamaged products within 30 days - for any reason. Once the item arrives back at the eufy warehouse for inspection, the refund process will begin.<\/p><p> See our refund policy for more details about what is needed for a smooth refund process..<\/p>"
+          }
+        },
+        "store-info-item-3": {
+          "type": "store_info_item",
+          "settings": {
+            "title": "Hassle-free Warranty",
+            "content": "<p> eufy provides a straightforward, hassle-free warranty to save you some headaches. All pre-owned and refurbished products come with their own unique warranty that you can find on the product listing or contact us at support@eufylife.com with your order receipt for confirmation.<\/p><p> This limited warranty provided by the manufacturer in no way affects a potential statutory warranty provided by law.<\/p>"
+          }
+        },
+        "store-info-item-4": {
+          "type": "store_info_item",
+          "settings": {
+            "title": "Lifetime Customer Support",
+            "content": "<p> We'll Always be There for You.<\/p><p> If you have any questions or concerns, feel free to contact us at support@eufylife.com.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "store-info-item-1",
+        "store-info-item-2",
+        "store-info-item-3",
+        "store-info-item-4"
+      ],
+      "settings": {
+        "discount_code": "WS24S360",
+        "show_comment": false,
+        "show_discount": false,
+        "show_share": false,
+        "discount_faq": "",
+        "show_payment_flags": true,
+        "show_store_info": false
+      }
+    },
+    "banner": {
+      "type": "kawa-main-product-banner",
+      "settings": {
+        "banner_image": "shopify:\/\/shop_images\/64.jpg"
+      }
+    },
+    "image-text-1": {
+      "type": "kawa-image-text",
+      "blocks": {
+        "image-text-item-1": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dca3527c75cbd6f4e37a2ed5c742b2e6.jpg",
+            "title": "Upgrade 2K HD Resolution",
+            "content": "KAWA home security cameras capture every detail in your house with crystal-clear 2K quad high definition. Superior night vision offers you the real scenes even in dim conditions."
+          }
+        },
+        "image-text-item-2": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5c17617e03701f00d8eb96a229bff3ca.jpg",
+            "title": "2-Way Audio & Voice Shift",
+            "content": "Featured two-way audio function, you can talk with your baby, elderly and pets in real-time. Apply to restaurants, clothing, convenience stores and warehouses for recording customer conversations and indoor burglary. You can also turn on the Voice Shift to scare away thieves."
+          }
+        }
+      },
+      "block_order": [
+        "image-text-item-1",
+        "image-text-item-2"
+      ],
+      "settings": {
+      }
+    },
+    "product-buy": {
+      "type": "kawa-product-buy",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "3c69da77-60c0-44b7-91cb-3bf215b8d18a": {
+      "type": "kawa-image-text",
+      "blocks": {
+        "template--16030160683168__3c69da77-60c0-44b7-91cb-3bf215b8d18a-image_text-1": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/16.jpg",
+            "title": "Sound Detection with the Noise Notification",
+            "content": "When there is an odd sounds(like crashing, breaking, or a child crying)\nthe camera will focus on it and send notification to your mobile phone to ensure your child's safety."
+          }
+        },
+        "template--16030160683168__3c69da77-60c0-44b7-91cb-3bf215b8d18a-image_text-4": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/b973a8bc988d2c8a0119eff3865a58cf_f710b210-f579-4be9-a3cb-4b5992d2e005.jpg",
+            "title": "AI Human Detection",
+            "content": "AI human detection of intruders ensures accurate and effective alarms. This indoor camera automatically follows the actions and saves video in real time to record their movement and retain key evidence."
+          }
+        }
+      },
+      "block_order": [
+        "template--16030160683168__3c69da77-60c0-44b7-91cb-3bf215b8d18a-image_text-1",
+        "template--16030160683168__3c69da77-60c0-44b7-91cb-3bf215b8d18a-image_text-4"
+      ],
+      "settings": {
+      }
+    },
+    "carousel-1": {
+      "type": "kawa-main-product-carousel",
+      "disabled": true,
+      "blocks": {
+        "carousel-item-1": {
+          "type": "carousel_item",
+          "settings": {
+            "name": "360°Panoramic View",
+            "title": "360°Panoramic View",
+            "content": "Each corner covered with pan 350° and tilt 67° easily with KAWA IOT App control remotely, our indoor security camera is very suitable for monitoring the elderly, kids and pet.",
+            "image": "shopify:\/\/shop_images\/1f97f71986adc803a04019fdaebc37f0.jpg"
+          }
+        },
+        "carousel-item-2": {
+          "type": "carousel_item",
+          "settings": {
+            "name": "Superior Night Vision",
+            "title": "Superior Night Vision",
+            "content": "Smart baby camera has a built-in 940nm infrared fill light, and the image is vivid and clear even in a dim environment. No red light spot, your loved one's sleep is not disturbed.",
+            "image": "shopify:\/\/shop_images\/9_d5b150f6-431f-4302-b87d-18aa75dc7244.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "carousel-item-1",
+        "carousel-item-2"
+      ],
+      "settings": {
+      }
+    },
+    "carousel-2": {
+      "type": "kawa-main-product-carousel",
+      "disabled": true,
+      "blocks": {
+        "carousel-item-1": {
+          "type": "carousel_item",
+          "settings": {
+            "name": "Auto Motion Tracking",
+            "title": "",
+            "content": "KAWA indoor camera automatically automatically follows the actions and saves video in real time to record their movement and retain key evidence. And ttracks the motion and record the video if detect people or pet moves front it.",
+            "image": "shopify:\/\/shop_images\/a5_70ccf03e-bbd7-4519-98e1-0d37177b6364.jpg"
+          }
+        },
+        "carousel-item-2": {
+          "type": "carousel_item",
+          "settings": {
+            "name": "AI Human Detection",
+            "title": "AI Human Detection",
+            "content": "Receive instant notification on your phone if human, motion or abnormal sound detected in your house. Automatically record a 30 seconds motion-triggered and noise-triggered video to the cloud(30 days free trial).",
+            "image": "shopify:\/\/shop_images\/b973a8bc988d2c8a0119eff3865a58cf_09a1f654-e6a4-4a47-aba9-c523e33d660a.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "carousel-item-1",
+        "carousel-item-2"
+      ],
+      "settings": {
+      }
+    },
+    "video-text": {
+      "type": "kawa-video-text",
+      "disabled": true,
+      "settings": {
+        "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/d74c0ff0b4ac499ab5608e27669ad140.mp4",
+        "title": "Instant Sound Alert",
+        "content": "Built-in microphone can pick up low sound up to 20ft away from your baby’s room for louder volume and crisper audio. Get alerted immediately when your baby needs you via the advanced sound detection technology.",
+        "warning": ""
+      }
+    },
+    "phone-preview": {
+      "type": "kawa-phone-preview",
+      "disabled": true,
+      "settings": {
+        "img_width": 310,
+        "img_height": 700,
+        "img_1": "shopify:\/\/shop_images\/1_6760b9e0-61bd-4b26-9c67-cb4d65a240da.jpg",
+        "img_2": "shopify:\/\/shop_images\/3_5e815dac-3364-4d37-944f-409a5340dbac.jpg",
+        "img_3": "shopify:\/\/shop_images\/2_95914256-92d5-46b6-a8b2-5dad470014c5.jpg",
+        "content_1": "",
+        "content_2": "",
+        "content_3": ""
+      }
+    },
+    "tabs": {
+      "type": "kawa-product-tabs",
+      "disabled": true,
+      "blocks": {
+        "tab-1": {
+          "type": "tab_item",
+          "settings": {
+            "name": "Support Multiple Cameras",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2b735d4eac8c4381a4bc20aa4ce9903e.mp4",
+            "cover_image": "shopify:\/\/shop_images\/p-1.jpg"
+          }
+        },
+        "tab-2": {
+          "type": "tab_item",
+          "settings": {
+            "name": "AI Motion Detection",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4fd0bd0eaece4443882eb7ecc46f71c1.mp4",
+            "cover_image": "shopify:\/\/shop_images\/p-3.jpg"
+          }
+        },
+        "tab-3": {
+          "type": "tab_item",
+          "settings": {
+            "name": "2K Quard High Definition",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/aba06c5ec87a4a819349b2639883c73f.mp4",
+            "cover_image": "shopify:\/\/shop_images\/p-2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "tab-1",
+        "tab-2",
+        "tab-3"
+      ],
+      "settings": {
+        "title": "Capture every details in your house",
+        "description": "With 3-megapixel resolution, this smart IP camera keeps 24\/7 Continuous Recording.  Even better, you can receive instant notification on your phone if human, motion or abnormal sound detected in your house."
+      }
+    },
+    "alexa-video": {
+      "type": "kawa-alexa-video",
+      "disabled": true,
+      "settings": {
+        "title": "Support Guidance Videos for you",
+        "jump_link": "https:\/\/www.kawa-in.com\/blogs\/kawa-ip-camera-a6\/how-to-connect-the-camera-a6-to-alexa",
+        "jump_text": "How to Connect Alexa",
+        "cover_image": "shopify:\/\/shop_images\/1013.jpg",
+        "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/c6268001169b4e88b33b8d35bcc759da.mp4"
+      }
+    },
+    "2040b706-23e0-416e-9058-a6cce72c8621": {
+      "type": "kawa-image-text",
+      "blocks": {
+        "template--16030160683168__2040b706-23e0-416e-9058-a6cce72c8621-image_text-3": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/24-7.jpg",
+            "title": "24\/7 Continuous Recording",
+            "content": "Store 24\/7 monitoring data on the cloud (30 days free trial). Capture and view up to 16-256GB locally recording with TF or micro SD card (not included)."
+          }
+        },
+        "template--16030160683168__2040b706-23e0-416e-9058-a6cce72c8621-image_text-4": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1f97f71986adc803a04019fdaebc37f0.jpg",
+            "title": "Multi-users & Multiple View",
+            "content": "This indoor camera supports multiple cell phone devices to view simultaneously. You can share your WiFi camera with family or friends easily through KAWA IOT App and set the viewing permission."
+          }
+        }
+      },
+      "block_order": [
+        "template--16030160683168__2040b706-23e0-416e-9058-a6cce72c8621-image_text-3",
+        "template--16030160683168__2040b706-23e0-416e-9058-a6cce72c8621-image_text-4"
+      ],
+      "settings": {
+      }
+    },
+    "604645cd-c962-4ad2-90c5-efc1bc3d42d5": {
+      "type": "kawa-image-text",
+      "blocks": {
+        "template--16030160683168__604645cd-c962-4ad2-90c5-efc1bc3d42d5-image_text-3": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/H26.5.jpg",
+            "title": "Save Half Storage",
+            "content": "H.265 encoding standard can compress the video size to half that of the H.264 standard without reducing image quality. It saves more storage space."
+          }
+        },
+        "template--16030160683168__604645cd-c962-4ad2-90c5-efc1bc3d42d5-image_text-4": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2422fddef1cdde30694229130e1d8b6c_93d59dee-c56b-43f6-add8-c2dbc0336b68.jpg",
+            "title": "Superior Night Vision",
+            "content": "Smart baby camera has a built-in 940nm infrared fill light, and the image is vivid and clear even in a dim environment. No red light spot, your loved one's sleep is not disturbed."
+          }
+        }
+      },
+      "block_order": [
+        "template--16030160683168__604645cd-c962-4ad2-90c5-efc1bc3d42d5-image_text-3",
+        "template--16030160683168__604645cd-c962-4ad2-90c5-efc1bc3d42d5-image_text-4"
+      ],
+      "settings": {
+      }
+    },
+    "72275b8a-c7c8-4656-b406-6f15010d1e81": {
+      "type": "kawa-image-text",
+      "blocks": {
+        "template--16030160683168__72275b8a-c7c8-4656-b406-6f15010d1e81-image_text-3": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/250077086f0f319117bf89b006d73c78.jpg",
+            "title": "Privacy is our Priority",
+            "content": "All data in cloud and data transmission is financial encryption. To Prowise your privacy, security, and safety are key."
+          }
+        },
+        "template--16030160683168__72275b8a-c7c8-4656-b406-6f15010d1e81-image_text-4": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ef2909840e65e8fef88e20dc209ce066.jpg",
+            "title": "Application to multiple scenarios.",
+            "content": "Applications in indoors;\nApplications in Restaurants;\nApplications in warehouses;\nApplications in convenience stores;"
+          }
+        }
+      },
+      "block_order": [
+        "template--16030160683168__72275b8a-c7c8-4656-b406-6f15010d1e81-image_text-3",
+        "template--16030160683168__72275b8a-c7c8-4656-b406-6f15010d1e81-image_text-4"
+      ],
+      "settings": {
+      }
+    },
+    "71fa257f-1e2d-4410-88c9-2d9d70be1952": {
+      "type": "kawa-single-img-text",
+      "settings": {
+        "pc_img": "shopify:\/\/shop_images\/126bac55ad351e4635603bd8c6e01bce.jpg",
+        "mobile_img": "shopify:\/\/shop_images\/126bac55ad351e4635603bd8c6e01bce.jpg",
+        "title": "",
+        "content": "",
+        "text_pos": "center",
+        "text_color": "white"
+      }
+    },
+    "product-comparison": {
+      "type": "kawa-product-comparison",
+      "settings": {
+        "title": "Product Comparison",
+        "product_1": "ip-camera-a5",
+        "product_2": "kawa-3mp-ip-camera-video-wifi-surveillance-cameras-indoor-security-cam-smart-home-baby-monitor-tracking-audio-alexa",
+        "product_desc_1": "<p>2K QHD Resolution<\/p><p>Support Recording\/Playback: Yes<br>Support Could Storage too.<\/p><p>Screen: No<\/p><p>Can be connected to Phone: Yes<\/p><p>Enhance Night Vision<\/p><p>Smart AI Detection &amp; Instant Alerts<\/p><p>Two-way talk<\/p><p>360° Panoramic View:  Manually operated rotating Camera<\/p><p>Motion Detection<\/p><p>Multi-users &amp; Multiple View<\/p>\n<p>Camera: plug in outlet.<br>Without Battery<\/p><p>Connect to KAWA IOT APP<\/p>",
+        "product_desc_2": "<p>2K QHD Resolution<\/p><p>Support Recording\/Playback: Yes<br>Support Could Storage too.<\/p><p>Screen: No<\/p><p>Can be connected to Phone: Yes<\/p><p>Enhance Night Vision<\/p><p>Smart AI Detection &amp; Instant Alerts<\/p><p>Two-way talk<\/p><p>360° Panoramic View:  pan 350° and tilt 67°(Operate Rotating Camera via APP)<\/p><p>Auto Motion Tracking &amp; Follow the action<\/p><p>Multi-users &amp; Multiple View<\/p>\n<p>Camera: plug in outlet.<br>Without Battery<\/p><p>Connect to KAWA IOT APP<\/p>"
+      }
+    },
+    "specifications": {
+      "type": "kawa-product-specifications",
+      "settings": {
+        "title": "Specs"
+      }
+    },
+    "faq": {
+      "type": "kawa-faq",
+      "disabled": true,
+      "blocks": {
+        "faq-1": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Easily Setup Your KAWA Indoor Camera 2K in a Minute!",
+            "solution": "1. Download the \"KAWA IOT\" App on the App Store or Google Play. (Please scan the QR code on the manual to download the APP if your phone is HUAWEI, and please don't update the version of APP. They're the same actually, please don't worry)\n2. Click the '+' icon on the Home page\n3. Press the reset button for 5 seconds on the back of the indoor camera and then click \"confirm\" in the APP\n4. Enter the correct wifi information(ONLY Works with 2.4GHz Wi-Fi networks, does not support 5GHz Wi-Fi)\n5. Scan the QR Code on the App from 15-20 cm away\n6. After hearing the beep sound, Click the Button and Wait about 2 minutes, the set up is finished"
+          }
+        },
+        "faq-2": {
+          "type": "faq_item",
+          "settings": {
+            "question": "If you can't connect the camera to the APP.",
+            "solution": "1. Press the RESET button(next to the USB port) for 5secs to reset the camera.\n2. Make sure the device is On and the red light is Flashing before setting up\n3. Smartphone and camera under the Same 2.4GHz Wi-Fi Networks\n4. It's a plug-in camera that needs to be plugged into an outlet for continuous power and use"
+          }
+        },
+        "faq-3": {
+          "type": "faq_item",
+          "settings": {
+            "question": "If you can't find the KAWA APP on google play\/google store (support both Android and iOS).",
+            "solution": "Scan the QR code to download which you can find in the user manual."
+          }
+        },
+        "faq-4": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Can it play an automatic notification if motion is detected?",
+            "solution": "Yes, this indoor camera receives instant notification on your phone if human, motion or abnormal sound detected in your house. Automatically record a 30 seconds motion-triggered and noise-triggered video to the cloud(30 days free trial). Hope that helps. Any further questions, please feel free to contatct us."
+          }
+        }
+      },
+      "block_order": [
+        "faq-1",
+        "faq-2",
+        "faq-3",
+        "faq-4"
+      ],
+      "settings": {
+        "title": "FAQ"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "banner",
+    "image-text-1",
+    "product-buy",
+    "3c69da77-60c0-44b7-91cb-3bf215b8d18a",
+    "carousel-1",
+    "carousel-2",
+    "video-text",
+    "phone-preview",
+    "tabs",
+    "alexa-video",
+    "2040b706-23e0-416e-9058-a6cce72c8621",
+    "604645cd-c962-4ad2-90c5-efc1bc3d42d5",
+    "72275b8a-c7c8-4656-b406-6f15010d1e81",
+    "71fa257f-1e2d-4410-88c9-2d9d70be1952",
+    "product-comparison",
+    "specifications",
+    "faq"
+  ]
+}
