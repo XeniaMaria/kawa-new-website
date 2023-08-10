@@ -120,7 +120,7 @@
             "desc": "Service Content",
             "orig_price": "8.99",
             "price": "4.99",
-            "price_color": "#56b85d",
+            "price_color": "#00a19a",
             "duration": "month",
             "detail": "<div>7-Day Continuous Recording<\/div><div>Expiration Date: 30 Days<\/div>"
           }
@@ -155,10 +155,34 @@
             "title": "Annually",
             "desc": "Service Content",
             "orig_price": "99.99",
+            "price": "49",
+            "price_color": "#a34900",
+            "duration": "annual",
+            "detail": "<div>7-Day Continuous Recording<\/div><div>Expiration Date: 365 Days<\/div>"
+          }
+        },
+        "53c1c2f3-34b8-4806-bd8d-6232ff99e4a2": {
+          "type": "commodity_item",
+          "settings": {
+            "title": "Annually",
+            "desc": "Service Content",
+            "orig_price": "119.99",
             "price": "59",
-            "price_color": "#e67349",
+            "price_color": "#dd1d1d",
             "duration": "annual",
             "detail": "<div>14-Day Continuous Recording<\/div><div>Expiration Date: 365 Days<\/div>"
+          }
+        },
+        "7c41ad99-435e-4812-a4fc-3bbc27962d15": {
+          "type": "commodity_item",
+          "settings": {
+            "title": "Annually",
+            "desc": "Service Content",
+            "orig_price": "299.99",
+            "price": "149",
+            "price_color": "",
+            "duration": "annual",
+            "detail": "<div>30-Day Continuous Recording<\/div><div>Expiration Date: 365 Days<\/div>"
           }
         }
       },
@@ -167,7 +191,9 @@
         "commodity-item-2",
         "4db25d23-e222-414d-b3a9-922c3d137e68",
         "2291329c-a901-475d-b260-2790a88aad8f",
-        "commodity-item-3"
+        "commodity-item-3",
+        "53c1c2f3-34b8-4806-bd8d-6232ff99e4a2",
+        "7c41ad99-435e-4812-a4fc-3bbc27962d15"
       ],
       "settings": {
         "title": "Subscribe to the cloud storage plan that Suits You"
