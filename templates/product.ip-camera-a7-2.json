@@ -329,6 +329,16 @@
       "settings": {
       }
     },
+    "product-comparison": {
+      "type": "kawa-product-comparison",
+      "settings": {
+        "title": "Product Comparison",
+        "product_1": "kawa-3mp-ip-camera-video-wifi-surveillance-cameras-indoor-security-cam-smart-home-baby-monitor-tracking-audio-alexa",
+        "product_2": "ip-camera-a5",
+        "product_desc_1": "<p>2K QHD Resolution<\/p><p>Support Recording\/Playback: Yes<br>Support Could Storage too.<\/p><p>Screen: No<\/p><p>Can be connected to Phone: Yes<\/p><p>Enhance Night Vision<\/p><p>Smart AI Detection &amp; Instant Alerts<\/p><p>Two-way talk<\/p><p>360° Panoramic View:  pan 350° and tilt 67°(Operate Rotating Camera via APP)<\/p><p>Auto Motion Tracking &amp; Follow the action<\/p><p>Multi-users &amp; Multiple View<\/p>\n<p>Camera: plug in outlet.<br>Without Battery<\/p><p>Connect to KAWA IOT APP<\/p>",
+        "product_desc_2": "<p>2K QHD Resolution<\/p><p>Support Recording\/Playback: Yes<br>Support Could Storage too.<\/p><p>Screen: No<\/p><p>Can be connected to Phone: Yes<\/p><p>Enhance Night Vision<\/p><p>Smart AI Detection &amp; Instant Alerts<\/p><p>Two-way talk<\/p><p>360° Panoramic View:  Manually operated rotating Camera<\/p><p>Motion Detection<\/p><p>Multi-users &amp; Multiple View<\/p>\n<p>Camera: plug in outlet.<br>Without Battery<\/p><p>Connect to KAWA IOT APP<\/p>"
+      }
+    },
     "71fa257f-1e2d-4410-88c9-2d9d70be1952": {
       "type": "kawa-single-img-text",
       "settings": {
@@ -340,18 +350,9 @@
         "text_color": "white"
       }
     },
-    "product-comparison": {
-      "type": "kawa-product-comparison",
-      "settings": {
-        "title": "Product Comparison",
-        "product_1": "kawa-3mp-ip-camera-video-wifi-surveillance-cameras-indoor-security-cam-smart-home-baby-monitor-tracking-audio-alexa",
-        "product_2": "ip-camera-a5",
-        "product_desc_1": "<p>2K QHD Resolution<\/p><p>Support Recording\/Playback: Yes<br>Support Could Storage too.<\/p><p>Screen: No<\/p><p>Can be connected to Phone: Yes<\/p><p>Enhance Night Vision<\/p><p>Smart AI Detection &amp; Instant Alerts<\/p><p>Two-way talk<\/p><p>360° Panoramic View:  pan 350° and tilt 67°(Operate Rotating Camera via APP)<\/p><p>Auto Motion Tracking &amp; Follow the action<\/p><p>Multi-users &amp; Multiple View<\/p>\n<p>Camera: plug in outlet.<br>Without Battery<\/p><p>Connect to KAWA IOT APP<\/p>",
-        "product_desc_2": "<p>2K QHD Resolution<\/p><p>Support Recording\/Playback: Yes<br>Support Could Storage too.<\/p><p>Screen: No<\/p><p>Can be connected to Phone: Yes<\/p><p>Enhance Night Vision<\/p><p>Smart AI Detection &amp; Instant Alerts<\/p><p>Two-way talk<\/p><p>360° Panoramic View:  Manually operated rotating Camera<\/p><p>Motion Detection<\/p><p>Multi-users &amp; Multiple View<\/p>\n<p>Camera: plug in outlet.<br>Without Battery<\/p><p>Connect to KAWA IOT APP<\/p>"
-      }
-    },
     "specifications": {
       "type": "kawa-product-specifications",
+      "disabled": true,
       "settings": {
         "title": "Specs"
       }
@@ -415,8 +416,8 @@
     "2040b706-23e0-416e-9058-a6cce72c8621",
     "604645cd-c962-4ad2-90c5-efc1bc3d42d5",
     "72275b8a-c7c8-4656-b406-6f15010d1e81",
-    "71fa257f-1e2d-4410-88c9-2d9d70be1952",
     "product-comparison",
+    "71fa257f-1e2d-4410-88c9-2d9d70be1952",
     "specifications",
     "faq"
   ]
