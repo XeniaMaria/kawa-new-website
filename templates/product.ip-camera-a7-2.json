@@ -51,7 +51,7 @@
     "banner": {
       "type": "kawa-main-product-banner",
       "settings": {
-        "banner_image": "shopify:\/\/shop_images\/64.jpg"
+        "banner_image": "shopify:\/\/shop_images\/11.jpg"
       }
     },
     "image-text-1": {
@@ -60,7 +60,7 @@
         "image-text-item-1": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/dca3527c75cbd6f4e37a2ed5c742b2e6.jpg",
+            "image": "shopify:\/\/shop_images\/2k_c0db12e4-3f03-49b2-85d7-3ce6dd497504.jpg",
             "title": "Upgrade 2K HD Resolution",
             "content": "KAWA home security cameras capture every detail in your house with crystal-clear 2K quad high definition. Superior night vision offers you the real scenes even in dim conditions."
           }
@@ -68,7 +68,7 @@
         "image-text-item-2": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/5c17617e03701f00d8eb96a229bff3ca.jpg",
+            "image": "shopify:\/\/shop_images\/3_2_9bc5d89f-4087-40cc-adf3-f781a48cd570.jpg",
             "title": "2-Way Audio & Voice Shift",
             "content": "Featured two-way audio function, you can talk with your baby, elderly and pets in real-time. Apply to restaurants, clothing, convenience stores and warehouses for recording customer conversations and indoor burglary. You can also turn on the Voice Shift to scare away thieves."
           }
@@ -93,17 +93,17 @@
         "template--16030160683168__3c69da77-60c0-44b7-91cb-3bf215b8d18a-image_text-1": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/16.jpg",
-            "title": "Sound Detection with the Noise Notification",
-            "content": "When there is an odd sounds(like crashing, breaking, or a child crying)\nthe camera will focus on it and send notification to your mobile phone to ensure your child's safety."
+            "image": "shopify:\/\/shop_images\/3_73ea8fdc-03ab-47ba-a70e-c46d9f5c2027.jpg",
+            "title": "360° Panoramic View",
+            "content": "Each corner covered with pan 350° and tilt 67° easily with KAWA IOT App control remotely, our indoor security camera is very suitable for monitoring your baby, elderly and pet."
           }
         },
         "template--16030160683168__3c69da77-60c0-44b7-91cb-3bf215b8d18a-image_text-4": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/b973a8bc988d2c8a0119eff3865a58cf_f710b210-f579-4be9-a3cb-4b5992d2e005.jpg",
-            "title": "AI Human Detection",
-            "content": "AI human detection of intruders ensures accurate and effective alarms. This indoor camera automatically follows the actions and saves video in real time to record their movement and retain key evidence."
+            "image": "shopify:\/\/shop_images\/12_910c4b21-2f0a-4586-a4d9-4f7e1034140e.jpg",
+            "title": "",
+            "content": ""
           }
         }
       },
@@ -254,7 +254,7 @@
         "template--16030160683168__2040b706-23e0-416e-9058-a6cce72c8621-image_text-3": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/24-7.jpg",
+            "image": "shopify:\/\/shop_images\/2_fe328fe6-7e06-430f-b5e3-11d1a4476f2b.jpg",
             "title": "24\/7 Continuous Recording",
             "content": "Store 24\/7 monitoring data on the cloud (30 days free trial). Capture and view up to 16-256GB locally recording with TF or micro SD card (not included)."
           }
@@ -262,9 +262,9 @@
         "template--16030160683168__2040b706-23e0-416e-9058-a6cce72c8621-image_text-4": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1f97f71986adc803a04019fdaebc37f0.jpg",
-            "title": "Multi-users & Multiple View",
-            "content": "This indoor camera supports multiple cell phone devices to view simultaneously. You can share your WiFi camera with family or friends easily through KAWA IOT App and set the viewing permission."
+            "image": "shopify:\/\/shop_images\/5_2.jpg",
+            "title": "Automatic movement tracking",
+            "content": "the KAWA indoor surveillance camera automatically tracks movements and records videos as soon as it detects that people or pets are moving."
           }
         }
       },
@@ -281,7 +281,7 @@
         "template--16030160683168__604645cd-c962-4ad2-90c5-efc1bc3d42d5-image_text-3": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/H26.5.jpg",
+            "image": "shopify:\/\/shop_images\/h26.5_6656edfe-f6fc-4f4a-a568-26685fffe011.jpg",
             "title": "Save Half Storage",
             "content": "H.265 encoding standard can compress the video size to half that of the H.264 standard without reducing image quality. It saves more storage space."
           }
@@ -289,7 +289,7 @@
         "template--16030160683168__604645cd-c962-4ad2-90c5-efc1bc3d42d5-image_text-4": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2422fddef1cdde30694229130e1d8b6c_93d59dee-c56b-43f6-add8-c2dbc0336b68.jpg",
+            "image": "shopify:\/\/shop_images\/9_145c3bea-402e-4dda-84b3-c9157b23fa1b.jpg",
             "title": "Superior Night Vision",
             "content": "Smart baby camera has a built-in 940nm infrared fill light, and the image is vivid and clear even in a dim environment. No red light spot, your loved one's sleep is not disturbed."
           }
@@ -308,17 +308,17 @@
         "template--16030160683168__72275b8a-c7c8-4656-b406-6f15010d1e81-image_text-3": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/250077086f0f319117bf89b006d73c78.jpg",
-            "title": "Privacy is our Priority",
-            "content": "All data in cloud and data transmission is financial encryption. To Prowise your privacy, security, and safety are key."
+            "image": "shopify:\/\/shop_images\/7_2_fdba5484-2bd3-4faf-8cc5-e1d82243b64c.jpg",
+            "title": "Multi-users & Multiple View",
+            "content": "This indoor camera supports multiple cell phone devices to view simultaneously. You can share your WiFi camera with family or friends easily through KAWA IOT App and set the viewing permission."
           }
         },
         "template--16030160683168__72275b8a-c7c8-4656-b406-6f15010d1e81-image_text-4": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ef2909840e65e8fef88e20dc209ce066.jpg",
-            "title": "Application to multiple scenarios.",
-            "content": "Applications in indoors;\nApplications in Restaurants;\nApplications in warehouses;\nApplications in convenience stores;"
+            "image": "shopify:\/\/shop_images\/55-1.jpg",
+            "title": "Privacy is our Priority",
+            "content": "All data in cloud and data transmission is financial encryption. To Prowise your privacy, security, and safety are key."
           }
         }
       },
@@ -344,10 +344,10 @@
       "type": "kawa-product-comparison",
       "settings": {
         "title": "Product Comparison",
-        "product_1": "ip-camera-a5",
-        "product_2": "kawa-3mp-ip-camera-video-wifi-surveillance-cameras-indoor-security-cam-smart-home-baby-monitor-tracking-audio-alexa",
-        "product_desc_1": "<p>2K QHD Resolution<\/p><p>Support Recording\/Playback: Yes<br>Support Could Storage too.<\/p><p>Screen: No<\/p><p>Can be connected to Phone: Yes<\/p><p>Enhance Night Vision<\/p><p>Smart AI Detection &amp; Instant Alerts<\/p><p>Two-way talk<\/p><p>360° Panoramic View:  Manually operated rotating Camera<\/p><p>Motion Detection<\/p><p>Multi-users &amp; Multiple View<\/p>\n<p>Camera: plug in outlet.<br>Without Battery<\/p><p>Connect to KAWA IOT APP<\/p>",
-        "product_desc_2": "<p>2K QHD Resolution<\/p><p>Support Recording\/Playback: Yes<br>Support Could Storage too.<\/p><p>Screen: No<\/p><p>Can be connected to Phone: Yes<\/p><p>Enhance Night Vision<\/p><p>Smart AI Detection &amp; Instant Alerts<\/p><p>Two-way talk<\/p><p>360° Panoramic View:  pan 350° and tilt 67°(Operate Rotating Camera via APP)<\/p><p>Auto Motion Tracking &amp; Follow the action<\/p><p>Multi-users &amp; Multiple View<\/p>\n<p>Camera: plug in outlet.<br>Without Battery<\/p><p>Connect to KAWA IOT APP<\/p>"
+        "product_1": "kawa-3mp-ip-camera-video-wifi-surveillance-cameras-indoor-security-cam-smart-home-baby-monitor-tracking-audio-alexa",
+        "product_2": "ip-camera-a5",
+        "product_desc_1": "<p>2K QHD Resolution<\/p><p>Support Recording\/Playback: Yes<br>Support Could Storage too.<\/p><p>Screen: No<\/p><p>Can be connected to Phone: Yes<\/p><p>Enhance Night Vision<\/p><p>Smart AI Detection &amp; Instant Alerts<\/p><p>Two-way talk<\/p><p>360° Panoramic View:  pan 350° and tilt 67°(Operate Rotating Camera via APP)<\/p><p>Auto Motion Tracking &amp; Follow the action<\/p><p>Multi-users &amp; Multiple View<\/p>\n<p>Camera: plug in outlet.<br>Without Battery<\/p><p>Connect to KAWA IOT APP<\/p>",
+        "product_desc_2": "<p>2K QHD Resolution<\/p><p>Support Recording\/Playback: Yes<br>Support Could Storage too.<\/p><p>Screen: No<\/p><p>Can be connected to Phone: Yes<\/p><p>Enhance Night Vision<\/p><p>Smart AI Detection &amp; Instant Alerts<\/p><p>Two-way talk<\/p><p>360° Panoramic View:  Manually operated rotating Camera<\/p><p>Motion Detection<\/p><p>Multi-users &amp; Multiple View<\/p>\n<p>Camera: plug in outlet.<br>Without Battery<\/p><p>Connect to KAWA IOT APP<\/p>"
       }
     },
     "specifications": {
