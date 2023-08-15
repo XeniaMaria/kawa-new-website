@@ -138,8 +138,8 @@
           "type": "product-card",
           "settings": {
             "card_product": "baby-monitor-camera-s5-with-tx",
-            "card_image": "shopify:\/\/shop_images\/1180_x_612_2b7d0cb2-dced-4d2a-84ce-928f22792174.jpg",
-            "card_image_mb": "shopify:\/\/shop_images\/1180-x-612.jpg",
+            "card_image": "shopify:\/\/shop_images\/CJ1011.jpg",
+            "card_image_mb": "shopify:\/\/shop_images\/CJ1011.jpg",
             "title": "Cute, Unique Unicorn Shape",
             "des": "Baby Monitor S5"
           }
@@ -270,7 +270,6 @@
     },
     "kawa-smart-home": {
       "type": "kawa-smart-home",
-      "disabled": true,
       "blocks": {
         "poster-2": {
           "type": "poster",
@@ -302,13 +301,13 @@
         "poster-3",
         "poster-4"
       ],
+      "disabled": true,
       "settings": {
         "title": "Build Your Smart Home, Life, and Car."
       }
     },
     "kawa-news": {
       "type": "kawa-news",
-      "disabled": true,
       "blocks": {
         "news-block-1": {
           "type": "news-block",
@@ -334,6 +333,7 @@
         "news-block-2",
         "news-block-3"
       ],
+      "disabled": true,
       "settings": {
         "title": "News"
       }
