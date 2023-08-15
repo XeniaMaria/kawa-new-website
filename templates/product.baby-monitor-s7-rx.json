@@ -40,21 +40,25 @@
       ],
       "settings": {
         "discount_code": "WS24S360",
+        "show_comment": true,
         "show_discount": true,
+        "show_share": true,
         "discount_faq": "",
-        "show_payment_flags": true
+        "show_payment_flags": true,
+        "show_store_info": false
       }
     },
     "banner": {
       "type": "kawa-main-product-banner",
+      "disabled": true,
       "settings": {
       }
     },
     "video": {
       "type": "kawa-preview-video",
+      "disabled": true,
       "settings": {
         "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/57d135e474854c3b8973a129d0e52f70.mp4",
-        "cover_image": "shopify:\/\/shop_images\/1002_a0aef2da-05ac-47b5-aeea-f11bc985ba2b.jpg",
         "max_width": "mw-1300-c",
         "has_border": false
       }
@@ -67,8 +71,7 @@
           "settings": {
             "name": "",
             "title": "",
-            "content": "",
-            "image": "shopify:\/\/shop_images\/af0471597e10c84743607ce5f08d0cc6_04fe2ef7-a940-40aa-a571-9bdb9bfa8495.jpg"
+            "content": ""
           }
         },
         "carousel-item-2": {
@@ -84,6 +87,7 @@
         "carousel-item-1",
         "carousel-item-2"
       ],
+      "disabled": true,
       "settings": {
       }
     },
@@ -95,8 +99,7 @@
           "settings": {
             "name": "Recording & Playback",
             "title": "Support local recording with TF \/ micro SD card.",
-            "content": "KAWA baby monitor with camera support TF\/micro SD card(not included) up to 256GB to record and playback every precious moment of your baby's growth.",
-            "image": "shopify:\/\/shop_images\/3_c4227125-4ec9-4911-b938-937f8fbf4f0a.jpg"
+            "content": "KAWA baby monitor with camera support TF\/micro SD card(not included) up to 256GB to record and playback every precious moment of your baby's growth."
           }
         },
         "carousel-item-2": {
@@ -104,8 +107,7 @@
           "settings": {
             "name": "2K & 3MP Baby Monitor",
             "title": "Large 5'' IPS display coupled with 2k resolution and crisp night vision.",
-            "content": "Capture every detail in your baby’s room with crystal-clear 2K baby camera real-time image and 5’’ large color screen KAWA baby monitor. Superior night vision offers you the real scenes even in dim conditions. It is 4x clearer than the ordinary 720p resolution.",
-            "image": "shopify:\/\/shop_images\/2_994e82ed-109e-47ca-b189-f0675324fe04.jpg"
+            "content": "Capture every detail in your baby’s room with crystal-clear 2K baby camera real-time image and 5’’ large color screen KAWA baby monitor. Superior night vision offers you the real scenes even in dim conditions. It is 4x clearer than the ordinary 720p resolution."
           }
         }
       },
@@ -113,83 +115,13 @@
         "carousel-item-1",
         "carousel-item-2"
       ],
-      "settings": {
-      }
-    },
-    "image-text-1": {
-      "type": "kawa-image-text",
-      "blocks": {
-        "image-text-item-1": {
-          "type": "image_text",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/4_0f6e7453-5743-4caa-8d5f-89649106d12c.jpg",
-            "title": "Get Notified Anywhere",
-            "content": "Get instant notifications from your phone every time your baby is awake or fussy, or when the room temperature is out of the normal range."
-          }
-        },
-        "image-text-item-2": {
-          "type": "image_text",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/5_98c2b9c0-3585-46da-ba96-68dfc6855703.jpg",
-            "title": "Gain Peace of Mind at a Glance",
-            "content": "The base glows green to indicate that your baby is doing fine. A sound and a red light from the base lets you know that you should check on your baby."
-          }
-        }
-      },
-      "block_order": [
-        "image-text-item-1",
-        "image-text-item-2"
-      ],
-      "settings": {
-      }
-    },
-    "image-text-2": {
-      "type": "kawa-image-text",
-      "blocks": {
-        "image-text-item-1": {
-          "type": "image_text",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/P1_429a41fd-6fe5-42f2-8b26-4c6f49be1172.jpg",
-            "title": "Get Notified Anywhere",
-            "content": "Get instant notifications from your phone every time your baby is awake or fussy, or when the room temperature is out of the normal range."
-          }
-        },
-        "image-text-item-2": {
-          "type": "image_text",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/A9-300-2_cd7b645a-dc3e-45bf-9843-26e965c59b74.jpg",
-            "title": "Gain Peace of Mind at",
-            "content": "The base glows green to indicate that     your baby is doing fine. A sound and a red light from the base lets you know tha        on your baby."
-          }
-        },
-        "image-text-item-3": {
-          "type": "image_text",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/7-1.jpg",
-            "title": "Get Notified Anywhere",
-            "content": "Get instant notifications from your phone every time your baby is awake or fussy, or when the room temperature is out of the normal range."
-          }
-        },
-        "image-text-item-4": {
-          "type": "image_text",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/5_0c177200-5d73-4bd2-a65c-e1b504825a46.jpg",
-            "title": "Gain Peace of Mind at a",
-            "content": "The base glows green to indicate that your baby is doing fine. A sound and a red light from the base lets you know that you should check on your baby."
-          }
-        }
-      },
-      "block_order": [
-        "image-text-item-1",
-        "image-text-item-2",
-        "image-text-item-3",
-        "image-text-item-4"
-      ],
+      "disabled": true,
       "settings": {
       }
     },
     "product-comparison": {
       "type": "kawa-product-comparison",
+      "disabled": true,
       "settings": {
         "title": "Product Comparison",
         "product_1": "baby-monitor-camera-s6-with-tx",
@@ -242,6 +174,7 @@
         "faq-3",
         "faq-4"
       ],
+      "disabled": true,
       "settings": {
         "title": "FAQ"
       }
@@ -265,19 +198,19 @@
             "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0e9abb267dc24bacaa06c810731a86cf.mp4"
           }
         },
-        "tab-3": {
+        "4e722769-5243-408b-8898-ccd4fdb80dd0": {
           "type": "tab_item",
           "settings": {
             "name": "Enhance Night Vision",
-            "image": "shopify:\/\/shop_images\/114_d853b32c-c43e-43f1-8285-ab59427b0dd6.jpg",
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/474dba233f0d4ee7b98079840ce67f13.mp4"
+            "image": "shopify:\/\/shop_images\/114_7e5da9ec-4fb2-4394-b731-31afbd5273ec.jpg",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/87a5aed981ec43a89e988e410e81b8d5.mp4"
           }
         }
       },
       "block_order": [
         "tab-1",
         "tab-2",
-        "tab-3"
+        "4e722769-5243-408b-8898-ccd4fdb80dd0"
       ],
       "settings": {
         "title": "Clear & Color, Even at Night or from Afar",
@@ -286,6 +219,7 @@
     },
     "video-text": {
       "type": "kawa-video-text",
+      "disabled": true,
       "settings": {
         "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/d74c0ff0b4ac499ab5608e27669ad140.mp4",
         "title": "Instant Sound Alert",
@@ -298,7 +232,10 @@
       "disabled": true,
       "settings": {
         "img_width": 340,
-        "img_height": 616
+        "img_height": 616,
+        "content_1": "",
+        "content_2": "",
+        "content_3": ""
       }
     },
     "product-buy": {
@@ -313,8 +250,6 @@
     "video",
     "carousel-2",
     "carousel-1",
-    "image-text-1",
-    "image-text-2",
     "product-comparison",
     "specifications",
     "faq",
