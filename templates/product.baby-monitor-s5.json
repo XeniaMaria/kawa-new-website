@@ -69,7 +69,7 @@
         "template--15914115825824__b1235f69-f0df-4e15-9581-e92175bad203-167117957750bc4710-0": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_1532e284-efcc-49a5-8024-5789183f5963.jpg",
+            "image": "shopify:\/\/shop_images\/2_437ee94a-bc19-43ed-bcef-0f8b44705951.jpg",
             "title": "",
             "content": ""
           }
@@ -110,7 +110,6 @@
     },
     "carousel-2": {
       "type": "kawa-main-product-carousel",
-      "disabled": true,
       "blocks": {
         "carousel-item-1": {
           "type": "carousel_item",
@@ -133,6 +132,7 @@
         "carousel-item-1",
         "carousel-item-2"
       ],
+      "disabled": true,
       "settings": {
       }
     },
@@ -346,7 +346,6 @@
     },
     "tabs": {
       "type": "kawa-product-tabs",
-      "disabled": true,
       "blocks": {
         "tab-1": {
           "type": "tab_item",
@@ -377,6 +376,7 @@
         "tab-2",
         "tab-3"
       ],
+      "disabled": true,
       "settings": {
         "title": "Get a KAWA baby monitor, get a balanced work-life.",
         "description": "You may feel chaotic or anxious whether you’re a first-time parent or growing your family, especially when you have to work while taking care of your baby. KAWA baby camera monitor can offer you peace of mind. Contain all features most parents would desire for a baby monitor according to tens of thousands of surveys."
