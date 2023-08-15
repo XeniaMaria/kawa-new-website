@@ -50,30 +50,28 @@
     },
     "banner": {
       "type": "kawa-main-product-banner",
+      "disabled": true,
       "settings": {
-        "banner_image": "shopify:\/\/shop_images\/af0471597e10c84743607ce5f08d0cc6_04fe2ef7-a940-40aa-a571-9bdb9bfa8495.jpg"
       }
     },
     "video": {
       "type": "kawa-preview-video",
+      "disabled": true,
       "settings": {
         "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/57d135e474854c3b8973a129d0e52f70.mp4",
-        "cover_image": "shopify:\/\/shop_images\/1002_a0aef2da-05ac-47b5-aeea-f11bc985ba2b.jpg",
         "max_width": "mw-1300-c",
         "has_border": false
       }
     },
     "carousel-2": {
       "type": "kawa-main-product-carousel",
-      "disabled": true,
       "blocks": {
         "carousel-item-1": {
           "type": "carousel_item",
           "settings": {
             "name": "",
             "title": "",
-            "content": "",
-            "image": "shopify:\/\/shop_images\/af0471597e10c84743607ce5f08d0cc6_04fe2ef7-a940-40aa-a571-9bdb9bfa8495.jpg"
+            "content": ""
           }
         },
         "carousel-item-2": {
@@ -89,6 +87,7 @@
         "carousel-item-1",
         "carousel-item-2"
       ],
+      "disabled": true,
       "settings": {
       }
     },
@@ -100,8 +99,7 @@
           "settings": {
             "name": "Recording & Playback",
             "title": "Support local recording with TF \/ micro SD card.",
-            "content": "KAWA baby monitor with camera support TF\/micro SD card(not included) up to 256GB to record and playback every precious moment of your baby's growth.",
-            "image": "shopify:\/\/shop_images\/3_c4227125-4ec9-4911-b938-937f8fbf4f0a.jpg"
+            "content": "KAWA baby monitor with camera support TF\/micro SD card(not included) up to 256GB to record and playback every precious moment of your baby's growth."
           }
         },
         "carousel-item-2": {
@@ -109,8 +107,7 @@
           "settings": {
             "name": "2K & 3MP Baby Monitor",
             "title": "Large 5'' IPS display coupled with 2k resolution and crisp night vision.",
-            "content": "Capture every detail in your baby’s room with crystal-clear 2K baby camera real-time image and 5’’ large color screen KAWA baby monitor. Superior night vision offers you the real scenes even in dim conditions. It is 4x clearer than the ordinary 720p resolution.",
-            "image": "shopify:\/\/shop_images\/2_994e82ed-109e-47ca-b189-f0675324fe04.jpg"
+            "content": "Capture every detail in your baby’s room with crystal-clear 2K baby camera real-time image and 5’’ large color screen KAWA baby monitor. Superior night vision offers you the real scenes even in dim conditions. It is 4x clearer than the ordinary 720p resolution."
           }
         }
       },
@@ -118,6 +115,7 @@
         "carousel-item-1",
         "carousel-item-2"
       ],
+      "disabled": true,
       "settings": {
       }
     },
@@ -127,7 +125,6 @@
         "image-text-item-1": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4_0f6e7453-5743-4caa-8d5f-89649106d12c.jpg",
             "title": "Long Battery",
             "content": "Our video baby monitor with high-capacity 4,000mAh battery provides whole day monitoring on screen-off mode."
           }
@@ -135,7 +132,6 @@
         "image-text-item-2": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/5_98c2b9c0-3585-46da-ba96-68dfc6855703.jpg",
             "title": "Upgraded Non-disturbing Night Vision",
             "content": "No red dot or red light from the baby camera, without causing any disturbance to your baby. Superior night vision offers you real scenes even in dim light conditions."
           }
@@ -145,6 +141,7 @@
         "image-text-item-1",
         "image-text-item-2"
       ],
+      "disabled": true,
       "settings": {
       }
     },
@@ -154,7 +151,6 @@
         "template--15871244206240__fcd178ac-b361-4cd5-8c22-649946eb8ddd-167171654696123e49-0": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/02_2.jpg",
             "title": "1000ft Range Transmission",
             "content": "Get stable visuals up to 1000 feet range. Easily receive your baby's smile the first time whether you are in your study, kitchen, bedroom, garden, or on the second floor. (*Note: 1,000ft within a wide, unobstructed area.)"
           }
@@ -162,7 +158,6 @@
         "template--15871244206240__fcd178ac-b361-4cd5-8c22-649946eb8ddd-167171654696123e49-1": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/02_1.jpg",
             "title": "",
             "content": ""
           }
@@ -172,11 +167,13 @@
         "template--15871244206240__fcd178ac-b361-4cd5-8c22-649946eb8ddd-167171654696123e49-0",
         "template--15871244206240__fcd178ac-b361-4cd5-8c22-649946eb8ddd-167171654696123e49-1"
       ],
+      "disabled": true,
       "settings": {
       }
     },
     "video-text": {
       "type": "kawa-video-text",
+      "disabled": true,
       "settings": {
         "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/d74c0ff0b4ac499ab5608e27669ad140.mp4",
         "title": "Instant Sound Alert",
@@ -207,7 +204,6 @@
           "type": "tab_item",
           "settings": {
             "name": "Enhance Night Vision",
-            "image": "shopify:\/\/shop_images\/114_d853b32c-c43e-43f1-8285-ab59427b0dd6.jpg",
             "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/474dba233f0d4ee7b98079840ce67f13.mp4"
           }
         }
@@ -217,6 +213,7 @@
         "tab-2",
         "tab-3"
       ],
+      "disabled": true,
       "settings": {
         "title": "Get a KAWA baby monitor, get a balanced work-life.",
         "description": "You may feel chaotic or anxious whether you’re a first-time parent or growing your family, especially when you have to work while taking care of your baby. KAWA baby camera monitor can offer you peace of mind. Contain all features most parents would desire for a baby monitor according to tens of thousands of surveys."
@@ -228,7 +225,6 @@
         "image-text-item-1": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/P1_429a41fd-6fe5-42f2-8b26-4c6f49be1172.jpg",
             "title": "360° Panoramic View & 4X Zoom",
             "content": "Each corner is covered with pan 350° and tilt 67°, easily making the video monitor controlled remotely. Need a closer look? 4X zoom makes it possible to watch every detail of your baby more closely and clearly."
           }
@@ -236,7 +232,6 @@
         "image-text-item-2": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/A9-300-2_cd7b645a-dc3e-45bf-9843-26e965c59b74.jpg",
             "title": "Room Temperature Sensor",
             "content": "Built-in temperature sensor will notify you with a sound alert and message when the temp exceeds the set range. Ensure your baby is in a comfortable environment."
           }
@@ -244,7 +239,6 @@
         "image-text-item-3": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/7-1.jpg",
             "title": "2-Way Audio Intercom",
             "content": "Sometimes all your baby needs is to hear your voice. The convenient built-in microphone and speaker allow you to quickly and remotely soothe your baby, providing a full sense of security. So you can enjoy a peaceful morning in the kitchen or elsewhere in the home."
           }
@@ -252,7 +246,6 @@
         "image-text-item-4": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/5_0c177200-5d73-4bd2-a65c-e1b504825a46.jpg",
             "title": "VOX Sleep\/Wake & Audio-only Mode",
             "content": "In optional Audio-only mode, you can also hear your baby's voice in real time with the screen off. In Smart VOX mode, the monitor screen will turn on when detecting a sudden voice, like crying or shouting from your baby. You will know instantly when you are needed."
           }
@@ -264,11 +257,13 @@
         "image-text-item-3",
         "image-text-item-4"
       ],
+      "disabled": true,
       "settings": {
       }
     },
     "product-comparison": {
       "type": "kawa-product-comparison",
+      "disabled": true,
       "settings": {
         "title": "Product Comparison",
         "product_1": "baby-monitor-kawa-2k-qhd-5-video-baby-monitor-with-camera-and-audio-no-wifi-night-vision-recording-playback-2-way-talk-temp-sensor-4000mah-4x-zoom-flip-180-lullabies-1000ft-range-s7",
@@ -279,6 +274,7 @@
     },
     "specifications": {
       "type": "kawa-product-specifications",
+      "disabled": true,
       "settings": {
         "title": "Specs"
       }
@@ -321,6 +317,7 @@
         "faq-3",
         "faq-4"
       ],
+      "disabled": true,
       "settings": {
         "title": "FAQ"
       }
@@ -330,11 +327,15 @@
       "disabled": true,
       "settings": {
         "img_width": 340,
-        "img_height": 616
+        "img_height": 616,
+        "content_1": "",
+        "content_2": "",
+        "content_3": ""
       }
     },
     "product-buy": {
       "type": "kawa-product-buy",
+      "disabled": true,
       "settings": {
       }
     },
@@ -350,6 +351,7 @@
     },
     "banner-text-new": {
       "type": "kawa-banner-text-new",
+      "disabled": true,
       "settings": {
         "offset_x": 200,
         "offset_y": 200,
@@ -364,6 +366,7 @@
     },
     "video-text-new": {
       "type": "kawa-video-text-new",
+      "disabled": true,
       "settings": {
         "title": "Discover the Freedom of Flight",
         "des": "Lose yourself in total immersion as you swoop and dive like never before. Combine Avata with DJI goggles for a life-like flying experience.",
@@ -397,17 +400,24 @@
         "item-1",
         "item-2"
       ],
+      "disabled": true,
       "settings": {
         "title_fontsize": 24,
         "title_color": "#00ade5",
         "des_fontsize": 14,
-        "des_color": "#555"
+        "des_color": "#555555"
       }
     },
     "text-new": {
       "type": "kawa-text-new",
+      "disabled": true,
       "settings": {
+        "bg_color": "#fcfcfc",
+        "title_fontsize": 30,
+        "title_color": "#000",
         "title": "Product Design Inspiration Source Stories",
+        "des_fontsize": 14,
+        "des_color": "#555",
         "des": "In medieval Europe,the unicorn became associated with Christianity,and was often depicted as a symbol of Christ or the Virgin Mary.It was believed that the horn of the unicorn had magical properties,and could purify water,heal sickness."
       }
     }
