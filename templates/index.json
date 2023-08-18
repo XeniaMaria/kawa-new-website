@@ -17,6 +17,7 @@
     },
     "f0187556-b504-4167-9f5f-cfae81d1b6c8": {
       "type": "kawa-main-banner-new",
+      "disabled": true,
       "settings": {
         "banner_type": "image",
         "text_top": "",
