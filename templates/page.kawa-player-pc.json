@@ -2,6 +2,7 @@
   "sections": {
     "app-download": {
       "type": "kawa-app-download",
+      "disabled": true,
       "settings": {
         "is_single": true,
         "is_show_qrcode": false,
@@ -41,7 +42,7 @@
         "text_middle": "",
         "text_bottom": "",
         "btn_text": "Download KAWA Player",
-        "btn_target": "https:\/\/drive.google.com\/file\/d\/1L3an59qrlfPx3J-PykkwGqTdW8HVjwRT\/view?usp=sharing",
+        "btn_target": "https:\/\/drive.google.com\/file\/d\/1HlFMRv-fFygGIdsBDmc_LlntHeSIm9AR\/view?usp=sharing",
         "banner_video_pc": "",
         "banner_video_mb": ""
       }
