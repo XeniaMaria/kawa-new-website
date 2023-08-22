@@ -30,10 +30,26 @@
         "show_category": false,
         "product": "qr-code-for-user-manual-dash-cam-2k-kawa-360-dash-camera-for-cars-1440p-with-starlight-color-night-vision-voice-control-emergency-recording-built-in-3d-sensor-hidden-design-dashcam-wdr-wide-angle-24h-parking-monitor"
       }
+    },
+    "a644d0b1-4baf-45fe-9c84-1cfa4deb41e4": {
+      "type": "kawa-banner-product-new",
+      "settings": {
+        "title": "",
+        "banner_type": "image",
+        "banner_product": "",
+        "text_top": "",
+        "text_middle": "",
+        "text_bottom": "",
+        "btn_text": "Download KAWA Player",
+        "btn_target": "https:\/\/drive.google.com\/file\/d\/1L3an59qrlfPx3J-PykkwGqTdW8HVjwRT\/view?usp=sharing",
+        "banner_video_pc": "",
+        "banner_video_mb": ""
+      }
     }
   },
   "order": [
     "app-download",
-    "support-manuals"
+    "support-manuals",
+    "a644d0b1-4baf-45fe-9c84-1cfa4deb41e4"
   ]
 }
