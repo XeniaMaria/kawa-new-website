@@ -52,18 +52,33 @@
         "app_download_apk_tips": ""
       }
     },
-    "support-manuals": {
-      "type": "kawa-support-manuals",
+    "fcecfcc5-197d-44f2-a3c4-889ca6bc96be": {
+      "type": "kawa-app-download",
       "settings": {
-        "title": "Manuals",
-        "show_category": true,
-        "product": "baby-monitor-camera-s6-with-tx"
+        "is_single": true,
+        "is_show_qrcode": false,
+        "app_download_name": "",
+        "app_download_title": "KAWA AUTO APP",
+        "app_download_des": "Control and monitor your Dash Cam D5&D7&D8&D9&D10 and real-time road conditions.",
+        "app_download_learn_more": "",
+        "app_store_img": "shopify:\/\/shop_images\/2.png",
+        "app_download_ios": "",
+        "app_download_ios_tips": "",
+        "google_play_img": "shopify:\/\/shop_images\/1.png",
+        "app_download_android": "",
+        "app_download_android_tips": "",
+        "app_download_code_tips_ios": "",
+        "app_download_code_tips_android": "",
+        "app_download_apk_url": "",
+        "app_download_apk_tips": ""
       }
     },
-    "0662d392-9a9c-4657-8953-96043fa35522": {
-      "type": "kawa-main-banner-new",
+    "a639255c-9ef0-4b5c-b8d8-b030c0620e88": {
+      "type": "kawa-banner-product-new",
       "settings": {
+        "title": "",
         "banner_type": "image",
+        "banner_product": "",
         "text_top": "",
         "text_middle": "",
         "text_bottom": "",
@@ -74,12 +89,21 @@
         "banner_video_pc": "",
         "banner_video_mb": ""
       }
+    },
+    "support-manuals": {
+      "type": "kawa-support-manuals",
+      "settings": {
+        "title": "Manuals",
+        "show_category": true,
+        "product": "baby-monitor-camera-s6-with-tx"
+      }
     }
   },
   "order": [
     "app-download",
     "c52ddc9e-6299-42ce-b24c-aa390e37cb81",
-    "support-manuals",
-    "0662d392-9a9c-4657-8953-96043fa35522"
+    "fcecfcc5-197d-44f2-a3c4-889ca6bc96be",
+    "a639255c-9ef0-4b5c-b8d8-b030c0620e88",
+    "support-manuals"
   ]
 }
