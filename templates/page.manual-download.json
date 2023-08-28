@@ -4,6 +4,7 @@
       "type": "kawa-app-download",
       "settings": {
         "is_single": true,
+        "is_show_qrcode": true,
         "app_download_name": "KAWA IOT",
         "app_download_title": "KAWA IP Camera APP",
         "app_download_des": "Control and monitor your IP Camera and real-time monitor.",
@@ -29,6 +30,7 @@
       "type": "kawa-app-download",
       "settings": {
         "is_single": true,
+        "is_show_qrcode": true,
         "app_download_name": "KAWA DVR",
         "app_download_title": "KAWA DVR APP",
         "app_download_des": "Control and monitor your Dash Cam D6 and real-time road conditions.",
@@ -57,11 +59,27 @@
         "show_category": true,
         "product": "baby-monitor-camera-s6-with-tx"
       }
+    },
+    "0662d392-9a9c-4657-8953-96043fa35522": {
+      "type": "kawa-main-banner-new",
+      "settings": {
+        "banner_type": "image",
+        "text_top": "",
+        "text_middle": "",
+        "text_bottom": "",
+        "btn_text": "Download KAWA Player",
+        "btn_target": "https:\/\/drive.google.com\/file\/d\/1HlFMRv-fFygGIdsBDmc_LlntHeSIm9AR\/view?usp=sharing",
+        "banner_image_pc": "shopify:\/\/shop_images\/kawa_c0cd1592-84f0-46e6-a018-0bb1c5ea93db.jpg",
+        "banner_image_mb": "shopify:\/\/shop_images\/kawa_6bcb0ad9-9534-4c6e-bd09-53e2cdb4731a.jpg",
+        "banner_video_pc": "",
+        "banner_video_mb": ""
+      }
     }
   },
   "order": [
     "app-download",
     "c52ddc9e-6299-42ce-b24c-aa390e37cb81",
-    "support-manuals"
+    "support-manuals",
+    "0662d392-9a9c-4657-8953-96043fa35522"
   ]
 }
