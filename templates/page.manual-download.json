@@ -4,7 +4,7 @@
       "type": "kawa-app-download",
       "settings": {
         "is_single": true,
-        "is_show_qrcode": true,
+        "is_show_qrcode": false,
         "app_download_name": "KAWA IOT",
         "app_download_title": "KAWA IOT APP",
         "app_download_des": "Control and monitor your IP Camera A6.",
@@ -30,7 +30,7 @@
       "type": "kawa-app-download",
       "settings": {
         "is_single": true,
-        "is_show_qrcode": true,
+        "is_show_qrcode": false,
         "app_download_name": "KAWA DVR",
         "app_download_title": "KAWA DVR APP",
         "app_download_des": "Control and monitor your Dash Cam D6 and real-time road conditions.",
