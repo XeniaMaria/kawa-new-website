@@ -14,10 +14,10 @@
         "app_download_bg_mb": "shopify:\/\/shop_images\/2d492b34be543819e883f2ee621ced45.jpg",
         "app_store_img": "shopify:\/\/shop_images\/2.png",
         "app_download_ios": "https:\/\/apps.apple.com\/cn\/app\/kawa-auto\/id6449325955",
-        "app_download_ios_tips": "Requires iOS9.0 or above.",
+        "app_download_ios_tips": "Requires iOS 9.0 or above.",
         "google_play_img": "shopify:\/\/shop_images\/1.png",
         "app_download_android": "https:\/\/play.google.com\/store\/apps\/details?id=com.kawa.auto",
-        "app_download_android_tips": "Requires Android5.0or above.",
+        "app_download_android_tips": "Requires Android 5.0 or above.",
         "app_download_code_tips_ios": "Scan QR code to download",
         "app_download_code_tips_android": "Scan QR code to download",
         "app_download_apk_url": "",
@@ -65,7 +65,6 @@
     },
     "dbc48c40-df54-443f-b186-4300d5e798a6": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "template--15927911055520__dbc48c40-df54-443f-b186-4300d5e798a6-1672052838ee76c00b-0": {
           "type": "heading",
@@ -94,6 +93,7 @@
         "template--15927911055520__dbc48c40-df54-443f-b186-4300d5e798a6-1672052838ee76c00b-1",
         "template--15927911055520__dbc48c40-df54-443f-b186-4300d5e798a6-1672052838ee76c00b-2"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/1_34f3f4db-67d2-4490-9e84-71f29eb1dee8.jpg",
         "height": "adapt",
