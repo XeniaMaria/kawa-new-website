@@ -7,7 +7,7 @@
         "is_show_qrcode": true,
         "app_download_name": "KAWA IOT",
         "app_download_title": "KAWA IOT APP",
-        "app_download_des": "Control and monitor your IP Camera and real-time monitor.",
+        "app_download_des": "Control and monitor your IP Camera A6.",
         "app_download_logo": "shopify:\/\/shop_images\/1_679bb176-533b-4cad-aa52-7edbafe5523b.png",
         "app_download_learn_more": "",
         "app_download_bg": "shopify:\/\/shop_images\/111_63f80c56-334b-44c2-af90-b6fff28e9450.jpg",
@@ -76,6 +76,27 @@
         "app_download_apk_tips": ""
       }
     },
+    "70ded93e-34e8-48ee-a6d2-7fd06ee31dd5": {
+      "type": "kawa-app-download",
+      "settings": {
+        "is_single": true,
+        "is_show_qrcode": false,
+        "app_download_name": "",
+        "app_download_title": "KAWA AIoT APP",
+        "app_download_des": "Control and monitor your Security Camera.",
+        "app_download_logo": "shopify:\/\/shop_images\/KAWA_AUTO_App_icon_77b83832-4921-4fb6-94c1-7f11e5be72df.png",
+        "app_download_learn_more": "",
+        "app_download_bg": "shopify:\/\/shop_images\/2-2_5282d930-bc1b-4735-932c-d9142b9ea9f3.jpg",
+        "app_download_ios": "",
+        "app_download_ios_tips": "",
+        "app_download_android": "",
+        "app_download_android_tips": "",
+        "app_download_code_tips_ios": "",
+        "app_download_code_tips_android": "",
+        "app_download_apk_url": "",
+        "app_download_apk_tips": ""
+      }
+    },
     "a639255c-9ef0-4b5c-b8d8-b030c0620e88": {
       "type": "kawa-banner-product-new",
       "settings": {
@@ -106,6 +127,7 @@
     "app-download",
     "c52ddc9e-6299-42ce-b24c-aa390e37cb81",
     "fcecfcc5-197d-44f2-a3c4-889ca6bc96be",
+    "70ded93e-34e8-48ee-a6d2-7fd06ee31dd5",
     "a639255c-9ef0-4b5c-b8d8-b030c0620e88",
     "support-manuals"
   ]
