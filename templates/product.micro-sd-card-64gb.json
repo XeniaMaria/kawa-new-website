@@ -44,7 +44,8 @@
         "show_discount": false,
         "show_share": false,
         "discount_faq": "",
-        "show_payment_flags": true
+        "show_payment_flags": true,
+        "show_store_info": false
       }
     },
     "banner": {
@@ -58,43 +59,41 @@
       "disabled": true,
       "settings": {
         "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/57d135e474854c3b8973a129d0e52f70.mp4",
-        "cover_image": "shopify:\/\/shop_images\/1002_a0aef2da-05ac-47b5-aeea-f11bc985ba2b.jpg",
         "max_width": "mw-1300-c",
         "has_border": false
       }
     },
     "b1235f69-f0df-4e15-9581-e92175bad203": {
       "type": "kawa-image-text",
-      "disabled": true,
       "blocks": {
         "template--15914115825824__b1235f69-f0df-4e15-9581-e92175bad203-167117957750bc4710-0": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/af0471597e10c84743607ce5f08d0cc6_04fe2ef7-a940-40aa-a571-9bdb9bfa8495.jpg",
+            "image": "shopify:\/\/shop_images\/5-1_3094762d-03ab-4aaf-8d2d-a58874e5e2b1.jpg",
             "title": "",
             "content": ""
           }
         },
         "template--15914115825824__b1235f69-f0df-4e15-9581-e92175bad203-167117957750bc4710-1": {
           "type": "image_text",
-          "disabled": true,
           "settings": {
+            "image": "shopify:\/\/shop_images\/6_9143b9d4-cca4-48db-8c79-5949f61a2828.jpg",
             "title": "",
             "content": ""
           }
         },
         "template--15914115825824__b1235f69-f0df-4e15-9581-e92175bad203-167117957750bc4710-2": {
           "type": "image_text",
-          "disabled": true,
           "settings": {
+            "image": "shopify:\/\/shop_images\/6_3e5ddeb8-430e-46bc-97a0-c7f0d1929d6b.jpg",
             "title": "",
             "content": ""
           }
         },
         "template--15914115825824__b1235f69-f0df-4e15-9581-e92175bad203-167117957750bc4710-3": {
           "type": "image_text",
-          "disabled": true,
           "settings": {
+            "image": "shopify:\/\/shop_images\/15_164c071f-4704-443a-8a06-b5217d4a9f88.jpg",
             "title": "",
             "content": ""
           }
@@ -117,15 +116,13 @@
     },
     "carousel-1": {
       "type": "kawa-main-product-carousel",
-      "disabled": true,
       "blocks": {
         "carousel-item-1": {
           "type": "carousel_item",
           "settings": {
             "name": "Recording & Playback",
             "title": "Support local recording with TF \/ micro SD card.",
-            "content": "KAWA baby monitor with camera support TF\/micro SD card(not included) up to 256GB to record and playback every precious moment of your baby's growth.",
-            "image": "shopify:\/\/shop_images\/3_c4227125-4ec9-4911-b938-937f8fbf4f0a.jpg"
+            "content": "KAWA baby monitor with camera support TF\/micro SD card(not included) up to 256GB to record and playback every precious moment of your baby's growth."
           }
         },
         "carousel-item-2": {
@@ -133,8 +130,7 @@
           "settings": {
             "name": "2K & 3MP Baby Monitor",
             "title": "Large 5'' IPS display coupled with 2k resolution and crisp night vision.",
-            "content": "Capture every detail in your baby’s room with crystal-clear 2K baby camera real-time image and 5’’ large color screen KAWA baby monitor. Superior night vision offers you the real scenes even in dim conditions. It is 4x clearer than the ordinary 720p resolution.",
-            "image": "shopify:\/\/shop_images\/2_994e82ed-109e-47ca-b189-f0675324fe04.jpg"
+            "content": "Capture every detail in your baby’s room with crystal-clear 2K baby camera real-time image and 5’’ large color screen KAWA baby monitor. Superior night vision offers you the real scenes even in dim conditions. It is 4x clearer than the ordinary 720p resolution."
           }
         }
       },
@@ -142,17 +138,16 @@
         "carousel-item-1",
         "carousel-item-2"
       ],
+      "disabled": true,
       "settings": {
       }
     },
     "image-text-1": {
       "type": "kawa-image-text",
-      "disabled": true,
       "blocks": {
         "image-text-item-1": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4_0f6e7453-5743-4caa-8d5f-89649106d12c.jpg",
             "title": "Long Battery",
             "content": "Our video baby monitor with high-capacity 4,000mAh battery provides whole day monitoring on screen-off mode."
           }
@@ -160,7 +155,6 @@
         "image-text-item-2": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/5_98c2b9c0-3585-46da-ba96-68dfc6855703.jpg",
             "title": "Upgraded Non-disturbing Night Vision",
             "content": "No red dot or red light from the baby camera, without causing any disturbance to your baby. Superior night vision offers you real scenes even in dim light conditions."
           }
@@ -170,17 +164,16 @@
         "image-text-item-1",
         "image-text-item-2"
       ],
+      "disabled": true,
       "settings": {
       }
     },
     "0980a0d0-bd15-4ce2-bdf7-480057cb01e6": {
       "type": "kawa-image-text",
-      "disabled": true,
       "blocks": {
         "template--15914115825824__0980a0d0-bd15-4ce2-bdf7-480057cb01e6-167117957750bc4710-0": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/02_1.jpg",
             "title": "Staying with your baby from day to night",
             "content": "You can enjoy your time. This Baby monitor is not only for babies, but also for the elderly, and you can even look after your pets."
           }
@@ -188,7 +181,6 @@
         "template--15914115825824__0980a0d0-bd15-4ce2-bdf7-480057cb01e6-167117957750bc4710-1": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/02_2.jpg",
             "title": "1000ft extra long connection distance.",
             "content": "Get stable visuals with a video baby monitor transmission up to 1000 feet range. Easily receive your baby's smile the first time whether you are in your study, kitchen, bedroom, garden, or on the second floor. Get stable visuals up to 1000 feet range. Easily receive your baby's smile the first time whether you are in your study, kitchen, bedroom, garden, or on the second floor. (*Note: 1,000ft within a wide, unobstructed area.)"
           }
@@ -216,17 +208,16 @@
         "template--15914115825824__0980a0d0-bd15-4ce2-bdf7-480057cb01e6-167117957750bc4710-2",
         "template--15914115825824__0980a0d0-bd15-4ce2-bdf7-480057cb01e6-167117957750bc4710-3"
       ],
+      "disabled": true,
       "settings": {
       }
     },
     "image-text-2": {
       "type": "kawa-image-text",
-      "disabled": true,
       "blocks": {
         "image-text-item-1": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/P1_429a41fd-6fe5-42f2-8b26-4c6f49be1172.jpg",
             "title": "360° Panoramic View & 4X Zoom",
             "content": "Each corner is covered with pan 350° and tilt 67°, easily making the video monitor controlled remotely. Need a closer look? 4X zoom makes it possible to watch every detail of your baby more closely and clearly."
           }
@@ -234,7 +225,6 @@
         "image-text-item-2": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/A9-300-2_cd7b645a-dc3e-45bf-9843-26e965c59b74.jpg",
             "title": "Room Temperature Sensor",
             "content": "Built-in temperature sensor will notify you with a sound alert and message when the temp exceeds the set range. Ensure your baby is in a comfortable environment."
           }
@@ -242,7 +232,6 @@
         "image-text-item-3": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/7-1.jpg",
             "title": "2-Way Audio Intercom",
             "content": "Sometimes all your baby needs is to hear your voice. The convenient built-in microphone and speaker allow you to quickly and remotely soothe your baby, providing a full sense of security. So you can enjoy a peaceful morning in the kitchen or elsewhere in the home."
           }
@@ -250,7 +239,6 @@
         "image-text-item-4": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/5_0c177200-5d73-4bd2-a65c-e1b504825a46.jpg",
             "title": "VOX Sleep\/Wake & Audio-only Mode",
             "content": "In optional Audio-only mode, you can also hear your baby's voice in real time with the screen off. In Smart VOX mode, the monitor screen will turn on when detecting a sudden voice, like crying or shouting from your baby. You will know instantly when you are needed."
           }
@@ -262,6 +250,7 @@
         "image-text-item-3",
         "image-text-item-4"
       ],
+      "disabled": true,
       "settings": {
       }
     },
@@ -285,7 +274,6 @@
     },
     "tabs": {
       "type": "kawa-product-tabs",
-      "disabled": true,
       "blocks": {
         "tab-1": {
           "type": "tab_item",
@@ -307,7 +295,6 @@
           "type": "tab_item",
           "settings": {
             "name": "Enhance Night Vision",
-            "image": "shopify:\/\/shop_images\/114_d853b32c-c43e-43f1-8285-ab59427b0dd6.jpg",
             "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/474dba233f0d4ee7b98079840ce67f13.mp4"
           }
         }
@@ -317,6 +304,7 @@
         "tab-2",
         "tab-3"
       ],
+      "disabled": true,
       "settings": {
         "title": "Get a KAWA baby monitor, get a balanced work-life.",
         "description": "You may feel chaotic or anxious whether you’re a first-time parent or growing your family, especially when you have to work while taking care of your baby. KAWA baby camera monitor can offer you peace of mind. Contain all features most parents would desire for a baby monitor according to tens of thousands of surveys."
@@ -334,7 +322,6 @@
     },
     "faq": {
       "type": "kawa-faq",
-      "disabled": true,
       "blocks": {
         "faq-1": {
           "type": "faq_item",
@@ -371,6 +358,7 @@
         "faq-3",
         "faq-4"
       ],
+      "disabled": true,
       "settings": {
         "title": "FAQ"
       }
@@ -380,7 +368,10 @@
       "disabled": true,
       "settings": {
         "img_width": 340,
-        "img_height": 616
+        "img_height": 616,
+        "content_1": "",
+        "content_2": "",
+        "content_3": ""
       }
     },
     "product-buy": {
