@@ -44,7 +44,8 @@
         "show_discount": false,
         "show_share": false,
         "discount_faq": "",
-        "show_payment_flags": true
+        "show_payment_flags": true,
+        "show_store_info": false
       }
     },
     "banner": {
@@ -59,14 +60,12 @@
       "disabled": true,
       "settings": {
         "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/57d135e474854c3b8973a129d0e52f70.mp4",
-        "cover_image": "shopify:\/\/shop_images\/1002_a0aef2da-05ac-47b5-aeea-f11bc985ba2b.jpg",
         "max_width": "mw-1300-c",
         "has_border": false
       }
     },
     "carousel-1": {
       "type": "kawa-main-product-carousel",
-      "disabled": true,
       "blocks": {
         "carousel-item-1": {
           "type": "carousel_item",
@@ -91,12 +90,12 @@
         "carousel-item-1",
         "carousel-item-2"
       ],
+      "disabled": true,
       "settings": {
       }
     },
     "image-text-1": {
       "type": "kawa-image-text",
-      "disabled": true,
       "blocks": {
         "image-text-item-1": {
           "type": "image_text",
@@ -119,12 +118,12 @@
         "image-text-item-1",
         "image-text-item-2"
       ],
+      "disabled": true,
       "settings": {
       }
     },
     "351b63f1-e016-469c-a58b-b3e8b2c342a5": {
       "type": "kawa-image-text",
-      "disabled": true,
       "blocks": {
         "template--15917345144992__351b63f1-e016-469c-a58b-b3e8b2c342a5-1670556217e8b1e688-0": {
           "type": "image_text",
@@ -147,12 +146,12 @@
         "template--15917345144992__351b63f1-e016-469c-a58b-b3e8b2c342a5-1670556217e8b1e688-0",
         "template--15917345144992__351b63f1-e016-469c-a58b-b3e8b2c342a5-1670556217e8b1e688-3"
       ],
+      "disabled": true,
       "settings": {
       }
     },
     "image-text-2": {
       "type": "kawa-image-text",
-      "disabled": true,
       "blocks": {
         "image-text-item-1": {
           "type": "image_text",
@@ -184,12 +183,12 @@
         "image-text-item-2",
         "image-text-item-3"
       ],
+      "disabled": true,
       "settings": {
       }
     },
     "b5574955-4e4a-4d4c-8849-d1adf0874599": {
       "type": "kawa-image-text",
-      "disabled": true,
       "blocks": {
         "template--15917345144992__b5574955-4e4a-4d4c-8849-d1adf0874599-167064044697626061-0": {
           "type": "image_text",
@@ -221,12 +220,12 @@
         "template--15917345144992__b5574955-4e4a-4d4c-8849-d1adf0874599-167064044697626061-1",
         "template--15917345144992__b5574955-4e4a-4d4c-8849-d1adf0874599-167064044697626061-2"
       ],
+      "disabled": true,
       "settings": {
       }
     },
     "tabs": {
       "type": "kawa-product-tabs",
-      "disabled": true,
       "blocks": {
         "tab-1": {
           "type": "tab_item",
@@ -258,6 +257,7 @@
         "tab-2",
         "tab-3"
       ],
+      "disabled": true,
       "settings": {
         "title": "Capture Your Every Drive in the High Resolution",
         "description": "With 1440P resolution, F2.0 Large Aperture, 400MPS, and support Voice Control Function, KAWA D6 Dash Cam keeps recording in full-color day and night, and captures more light, and ensures ultra-clear night vision video details even at night. Even better, you can free your hands to enjoy the era of intelligence, save the current picture in time"
@@ -271,7 +271,10 @@
         "img_height": 700,
         "img_1": "shopify:\/\/shop_images\/05_2.jpg",
         "img_2": "shopify:\/\/shop_images\/05_1.jpg",
-        "img_3": "shopify:\/\/shop_images\/05_3.jpg"
+        "img_3": "shopify:\/\/shop_images\/05_3.jpg",
+        "content_1": "",
+        "content_2": "",
+        "content_3": ""
       }
     },
     "video-text": {
@@ -304,7 +307,6 @@
     },
     "faq": {
       "type": "kawa-faq",
-      "disabled": true,
       "blocks": {
         "faq-1": {
           "type": "faq_item",
@@ -349,6 +351,7 @@
         "faq-4",
         "08a59491-fcd3-4a8f-a1ab-3b6b04879c5f"
       ],
+      "disabled": true,
       "settings": {
         "title": "FAQ"
       }
@@ -366,7 +369,6 @@
     },
     "product-buy": {
       "type": "kawa-product-buy",
-      "disabled": true,
       "settings": {
       }
     },

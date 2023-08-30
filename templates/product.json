@@ -335,7 +335,6 @@
     },
     "product-buy": {
       "type": "kawa-product-buy",
-      "disabled": true,
       "settings": {
       }
     },
@@ -414,10 +413,10 @@
       "settings": {
         "bg_color": "#fcfcfc",
         "title_fontsize": 30,
-        "title_color": "#000",
+        "title_color": "#000000",
         "title": "Product Design Inspiration Source Stories",
         "des_fontsize": 14,
-        "des_color": "#555",
+        "des_color": "#555555",
         "des": "In medieval Europe,the unicorn became associated with Christianity,and was often depicted as a symbol of Christ or the Virgin Mary.It was believed that the horn of the unicorn had magical properties,and could purify water,heal sickness."
       }
     }
