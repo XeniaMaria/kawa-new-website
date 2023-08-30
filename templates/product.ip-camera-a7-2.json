@@ -54,6 +54,11 @@
         "banner_image": "shopify:\/\/shop_images\/11.jpg"
       }
     },
+    "product-buy": {
+      "type": "kawa-product-buy",
+      "settings": {
+      }
+    },
     "image-text-1": {
       "type": "kawa-image-text",
       "blocks": {
@@ -78,12 +83,6 @@
         "image-text-item-1",
         "image-text-item-2"
       ],
-      "settings": {
-      }
-    },
-    "product-buy": {
-      "type": "kawa-product-buy",
-      "disabled": true,
       "settings": {
       }
     },
@@ -404,8 +403,8 @@
   "order": [
     "main",
     "banner",
-    "image-text-1",
     "product-buy",
+    "image-text-1",
     "3c69da77-60c0-44b7-91cb-3bf215b8d18a",
     "carousel-1",
     "carousel-2",
