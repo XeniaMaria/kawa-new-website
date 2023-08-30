@@ -48,6 +48,11 @@
         "show_store_info": false
       }
     },
+    "product-buy": {
+      "type": "kawa-product-buy",
+      "settings": {
+      }
+    },
     "banner": {
       "type": "kawa-main-product-banner",
       "disabled": true,
@@ -373,15 +378,11 @@
         "content_2": "",
         "content_3": ""
       }
-    },
-    "product-buy": {
-      "type": "kawa-product-buy",
-      "settings": {
-      }
     }
   },
   "order": [
     "main",
+    "product-buy",
     "banner",
     "video",
     "b1235f69-f0df-4e15-9581-e92175bad203",
@@ -395,7 +396,6 @@
     "tabs",
     "video-text",
     "faq",
-    "phone-preview",
-    "product-buy"
+    "phone-preview"
   ]
 }
