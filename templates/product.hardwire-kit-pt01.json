@@ -52,7 +52,7 @@
       "type": "kawa-main-product-banner",
       "disabled": true,
       "settings": {
-        "banner_image": "shopify:\/\/shop_images\/1005_98ef0c03-b7e1-4d48-b25f-255025aa819c.jpg"
+        "banner_image": "shopify:\/\/shop_images\/a3_2_f19abc86-a680-4627-a7b4-b812df790469.jpg"
       }
     },
     "video": {
@@ -73,7 +73,7 @@
             "name": "Recording & Playback",
             "title": "Support local recording with TF \/ micro SD card.",
             "content": "KAWA baby monitor with camera support TF\/micro SD card(not included) up to 256GB to record and playback every precious moment of your baby's growth.",
-            "image": "shopify:\/\/shop_images\/ebbe479b95396f8727b5d81e65f95398_aef25839-c2c4-4c3f-a6fe-a42bd24b043e.jpg"
+            "image": "shopify:\/\/shop_images\/a3_2_f19abc86-a680-4627-a7b4-b812df790469.jpg"
           }
         },
         "carousel-item-2": {
@@ -100,17 +100,17 @@
         "image-text-item-1": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ebbe479b95396f8727b5d81e65f95398_7b744cd9-212b-43f1-bd07-be28f617b6ac.jpg",
-            "title": "Hands-Free Voice Control",
-            "content": "Support English, 日本語, Русский, and Français Voice Control. This dashcams for cars saves the current picture and record an emergency video by directly giving voice commands. Hands-free voice control allows you to focus more on driving safety and quickly complete your request."
+            "image": "shopify:\/\/shop_images\/a3_2_f19abc86-a680-4627-a7b4-b812df790469.jpg",
+            "title": "",
+            "content": ""
           }
         },
         "image-text-item-2": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2k.jpg",
-            "title": "Enhance 2K 1440P",
-            "content": "KAWA Car Cam features a super-high resolution of 1440P (2 times clearer than most 1080P dash cams), capturing license plates, road signs, pedestrians, and other details on the road."
+            "image": "shopify:\/\/shop_images\/A4.jpg",
+            "title": "",
+            "content": ""
           }
         }
       },
@@ -118,7 +118,6 @@
         "image-text-item-1",
         "image-text-item-2"
       ],
-      "disabled": true,
       "settings": {
       }
     },
@@ -128,17 +127,17 @@
         "template--15917345144992__351b63f1-e016-469c-a58b-b3e8b2c342a5-1670556217e8b1e688-0": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/aaa.jpg",
-            "title": "Palm-sized and Hidden Installation",
-            "content": "The compact D6 body does not block the line of sight. Multi-angle rotation adjustment. Special electrostatic adhesives for easy installation.\nThe cigarette lighter is used to obtain electric power, which does not alter the normal circuit of the original car, nor destroy the original interior design, which is safe and reliable."
+            "image": "shopify:\/\/shop_images\/A2_76ef79db-4a2f-40ff-8cc9-085a528661f3.jpg",
+            "title": "",
+            "content": ""
           }
         },
         "template--15917345144992__351b63f1-e016-469c-a58b-b3e8b2c342a5-1670556217e8b1e688-3": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/aaa2.jpg",
-            "title": "With It's Built-In WiFi Feature",
-            "content": "You can download your videos on your iPhone or Android devices using the KAWA DVR APP instantly while you are on the road or on a trip.\nOnce downloaded, you can play your videos in the APP."
+            "image": "shopify:\/\/shop_images\/A8_23e14c8e-236a-4aa4-a39c-a0fbeeadfe37.jpg",
+            "title": "",
+            "content": ""
           }
         }
       },
@@ -146,7 +145,6 @@
         "template--15917345144992__351b63f1-e016-469c-a58b-b3e8b2c342a5-1670556217e8b1e688-0",
         "template--15917345144992__351b63f1-e016-469c-a58b-b3e8b2c342a5-1670556217e8b1e688-3"
       ],
-      "disabled": true,
       "settings": {
       }
     },
@@ -156,34 +154,24 @@
         "image-text-item-1": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/a_4ebf2d16-b3b8-4a30-8d51-50be4737cc42.jpg",
-            "title": "24-Hours Parking Mode",
-            "content": "D6 dash cam has 24-Hours Parking Mode. It requires continuous power and a mini USB Hard Wire Kit (NOT included in the package). Please go to amazon.com and search.\nThis parking mode allows you to record the whole night while you are away."
+            "image": "shopify:\/\/shop_images\/A5_bbe039c2-f5a6-431e-8c81-0b597728b30e.jpg",
+            "title": "",
+            "content": ""
           }
         },
         "image-text-item-2": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/b.jpg",
-            "title": "Wide Angle",
-            "content": "With 145°wide-angle, this dash cam enables you to monitor more lanes without blind spots. Taking into account the vehicle condition of the left and right lanes."
-          }
-        },
-        "image-text-item-3": {
-          "type": "image_text",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/c.jpg",
-            "title": "360 Rotation",
-            "content": "Ultra-compact and hidden design dashcam while achieving 360 ° rotation, you can easily view both the outside scenery and the inside conditions of your car."
+            "image": "shopify:\/\/shop_images\/A7_5dc4f5af-1e6e-4539-9628-b56efe9f3688.jpg",
+            "title": "",
+            "content": ""
           }
         }
       },
       "block_order": [
         "image-text-item-1",
-        "image-text-item-2",
-        "image-text-item-3"
+        "image-text-item-2"
       ],
-      "disabled": true,
       "settings": {
       }
     },
