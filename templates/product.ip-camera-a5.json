@@ -83,7 +83,6 @@
     },
     "product-buy": {
       "type": "kawa-product-buy",
-      "disabled": true,
       "settings": {
       }
     },
@@ -116,7 +115,6 @@
     },
     "carousel-1": {
       "type": "kawa-main-product-carousel",
-      "disabled": true,
       "blocks": {
         "carousel-item-1": {
           "type": "carousel_item",
@@ -141,12 +139,12 @@
         "carousel-item-1",
         "carousel-item-2"
       ],
+      "disabled": true,
       "settings": {
       }
     },
     "carousel-2": {
       "type": "kawa-main-product-carousel",
-      "disabled": true,
       "blocks": {
         "carousel-item-1": {
           "type": "carousel_item",
@@ -171,6 +169,7 @@
         "carousel-item-1",
         "carousel-item-2"
       ],
+      "disabled": true,
       "settings": {
       }
     },
@@ -200,7 +199,6 @@
     },
     "tabs": {
       "type": "kawa-product-tabs",
-      "disabled": true,
       "blocks": {
         "tab-1": {
           "type": "tab_item",
@@ -232,6 +230,7 @@
         "tab-2",
         "tab-3"
       ],
+      "disabled": true,
       "settings": {
         "title": "Capture every details in your house",
         "description": "With 3-megapixel resolution, this smart IP camera keeps 24\/7 Continuous Recording.  Even better, you can receive instant notification on your phone if human, motion or abnormal sound detected in your house."
@@ -359,7 +358,6 @@
     },
     "faq": {
       "type": "kawa-faq",
-      "disabled": true,
       "blocks": {
         "faq-1": {
           "type": "faq_item",
@@ -396,6 +394,7 @@
         "faq-3",
         "faq-4"
       ],
+      "disabled": true,
       "settings": {
         "title": "FAQ"
       }
