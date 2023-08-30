@@ -48,11 +48,6 @@
         "show_store_info": false
       }
     },
-    "product-buy": {
-      "type": "kawa-product-buy",
-      "settings": {
-      }
-    },
     "banner": {
       "type": "kawa-main-product-banner",
       "settings": {
@@ -83,6 +78,12 @@
         "image-text-item-1",
         "image-text-item-2"
       ],
+      "settings": {
+      }
+    },
+    "product-buy": {
+      "type": "kawa-product-buy",
+      "disabled": true,
       "settings": {
       }
     },
@@ -402,9 +403,9 @@
   },
   "order": [
     "main",
-    "product-buy",
     "banner",
     "image-text-1",
+    "product-buy",
     "3c69da77-60c0-44b7-91cb-3bf215b8d18a",
     "carousel-1",
     "carousel-2",
