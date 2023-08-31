@@ -269,15 +269,15 @@
         "faq-1": {
           "type": "faq_item",
           "settings": {
-            "question": "What do I get when I buy this link?",
-            "solution": "Please contact customer service for the accessory or product you wish to purchase before purchasing. This link is for customers to purchase accessories or shipping fee. Thank you for your support."
+            "question": "Can I use it for other Brand Camera?",
+            "solution": "It is compatible with most universal baby monitor camera with 1\/4 threaded hole."
           }
         },
         "faq-4": {
           "type": "faq_item",
           "settings": {
-            "question": "If this link is purchased. Will I receive the product properly?",
-            "solution": "Of course, after our customer service receive your requirements. We will send tracking order number and package picture for you to check after receive your order."
+            "question": "Does this product contain the KAWA Camera?",
+            "solution": "I am sorry dear customer. This product link is only the crib support link. Only include the crib stand and camera base, not include the camera."
           }
         }
       },
