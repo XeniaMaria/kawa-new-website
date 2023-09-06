@@ -1,0 +1,162 @@
+{
+  "sections": {
+    "d03a035d-7327-442b-8eeb-cf2bbfde8897": {
+      "type": "kawa-single-img-text",
+      "settings": {
+        "pc_img": "shopify:\/\/shop_images\/logo_5f1e0f86-dfc2-4efa-9f93-03beabc31e97.jpg",
+        "title": "",
+        "content": "",
+        "text_pos": "center",
+        "text_color": "white"
+      }
+    },
+    "a49650b6-3b6f-4344-beb0-6c5db4da1b71": {
+      "type": "kawa-single-img-text",
+      "settings": {
+        "pc_img": "shopify:\/\/shop_images\/IMG_8522_242144cb-8f8e-449d-ac78-b6701835539a.jpg",
+        "title": "",
+        "content": "",
+        "text_pos": "center",
+        "text_color": "white"
+      }
+    },
+    "1c2fedb3-76c1-4e95-bf91-49c7044b7f94": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15929825788064__1c2fedb3-76c1-4e95-bf91-49c7044b7f94-16722980754425d01d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>KAWA is one of the global leaders in smart hardware from design, development to supply innovative and high-quality products. Based on our technology core-machine vision, plus the algorithm of deep learning, we aim to create an advanced product to where human being around the world by constantly technological innovations. KAWA is creating a safe and convenient environment by samrt technology that will simplify the smart-home experience and make people more relaxed, comfortable and pleasant.<\/p>"
+          }
+        },
+        "template--15929825788064__1c2fedb3-76c1-4e95-bf91-49c7044b7f94-16722980754425d01d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>About KAWA Factory<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--15929825788064__1c2fedb3-76c1-4e95-bf91-49c7044b7f94-16722980754425d01d-1",
+        "template--15929825788064__1c2fedb3-76c1-4e95-bf91-49c7044b7f94-16722980754425d01d-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "e3b758e4-79d5-4577-a0b5-309f24e346da": {
+      "type": "kawa-single-img-text",
+      "settings": {
+        "pc_img": "shopify:\/\/shop_images\/IMG_2813_53cb45b6-59b1-4620-8a6e-4a6edd70ac2e.jpg",
+        "title": "",
+        "content": "",
+        "text_pos": "center",
+        "text_color": "white"
+      }
+    },
+    "e5f94f33-b2e8-42c7-8597-d1b524dcc2b4": {
+      "type": "kawa-single-img-text",
+      "settings": {
+        "pc_img": "shopify:\/\/shop_images\/2.jpg",
+        "title": "",
+        "content": "",
+        "text_pos": "center",
+        "text_color": "white"
+      }
+    },
+    "aabf4efe-f65e-4b5e-9c70-4a630feb36b7": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15929825788064__aabf4efe-f65e-4b5e-9c70-4a630feb36b7-16722980754425d01d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The base covers an area of 30000 square meters, more than 2000 employees, with advanced automatic testing and production equipment, and informationization management system. International Exhibition<\/p>"
+          }
+        },
+        "template--15929825788064__aabf4efe-f65e-4b5e-9c70-4a630feb36b7-16722980754425d01d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>International Exhibition<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--15929825788064__aabf4efe-f65e-4b5e-9c70-4a630feb36b7-16722980754425d01d-1",
+        "template--15929825788064__aabf4efe-f65e-4b5e-9c70-4a630feb36b7-16722980754425d01d-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "d7341b30-557d-4cc4-82cc-ac029782676d": {
+      "type": "kawa-single-img-text",
+      "settings": {
+        "pc_img": "shopify:\/\/shop_images\/4.jpg",
+        "title": "",
+        "content": "",
+        "text_pos": "center",
+        "text_color": "white"
+      }
+    },
+    "70846616-8dfe-4e4f-8a9e-816c4c777d24": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15929805930656__70846616-8dfe-4e4f-8a9e-816c4c777d24-16722890662407fb5f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "template--15929805930656__70846616-8dfe-4e4f-8a9e-816c4c777d24-16722890662407fb5f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Whatever you need, we’re happy to assist you.We’ll try our best to respond within 24 hours.<\/p><p><br\/><strong>KAWA ELECTRONICS COMPANY LIMITED<\/strong><br\/>Support Email：support@kawa-in.com <br\/>Marketing Inquiries：marketing@kawa-in.com<br\/>Address：FLAT A 21\/F CHEUNG LEE IND BLDG 9 CHEUNG LEE ST CHAI WAN HONG KONG <br\/>Monday to Friday：9:00 am - 6:00 pm UTC+8<br\/>Saturday and Sunday：9:00 am - 4:00 pm UTC+8<\/p><p><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15929805930656__70846616-8dfe-4e4f-8a9e-816c4c777d24-16722890662407fb5f-0",
+        "template--15929805930656__70846616-8dfe-4e4f-8a9e-816c4c777d24-16722890662407fb5f-1"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": false,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "cloud-commodity": {
+      "type": "kawa-cloud-commodity",
+      "disabled": true,
+      "settings": {
+        "title": "Subscribe to the cloud storage plan that Suits You"
+      }
+    }
+  },
+  "order": [
+    "d03a035d-7327-442b-8eeb-cf2bbfde8897",
+    "a49650b6-3b6f-4344-beb0-6c5db4da1b71",
+    "1c2fedb3-76c1-4e95-bf91-49c7044b7f94",
+    "e3b758e4-79d5-4577-a0b5-309f24e346da",
+    "e5f94f33-b2e8-42c7-8597-d1b524dcc2b4",
+    "aabf4efe-f65e-4b5e-9c70-4a630feb36b7",
+    "d7341b30-557d-4cc4-82cc-ac029782676d",
+    "70846616-8dfe-4e4f-8a9e-816c4c777d24",
+    "cloud-commodity"
+  ]
+}
