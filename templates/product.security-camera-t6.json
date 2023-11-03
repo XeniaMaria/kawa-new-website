@@ -51,42 +51,67 @@
     "banner": {
       "type": "kawa-main-product-banner",
       "settings": {
-        "banner_image": "shopify:\/\/shop_images\/yi_6e68619f-1c09-424a-b8c2-3d84a14880f7.jpg"
+        "banner_image": "shopify:\/\/shop_images\/3.png"
       }
     },
     "video": {
       "type": "kawa-preview-video",
       "settings": {
         "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/b56f3048489f4ac593a41a003b79f079.mp4",
-        "cover_image": "shopify:\/\/shop_images\/cj1013.00_00_02_20.Still001.jpg",
+        "cover_image": "shopify:\/\/shop_images\/1-1.png",
         "max_width": "mw-1300-c",
         "has_border": false
+      }
+    },
+    "tabs": {
+      "type": "kawa-product-tabs",
+      "blocks": {
+        "tab-1": {
+          "type": "tab_item",
+          "settings": {
+            "name": "A playing dog",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f900d1a65b874a74b75570c350f04b5e.mp4"
+          }
+        },
+        "tab-2": {
+          "type": "tab_item",
+          "settings": {
+            "name": "The night scene outside the house",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6f6ca3f9cfbb4858a2f32b9d7695486e.mp4"
+          }
+        },
+        "tab-3": {
+          "type": "tab_item",
+          "settings": {
+            "name": "Night at the driveway",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/851504bd80fb4266a2e4fe84e4ea644c.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "tab-1",
+        "tab-2",
+        "tab-3"
+      ],
+      "settings": {
+        "title": "True Color Night Vision",
+        "description": "The key to KAWA T6 Pro’s performance lies in its innovative features. The cameras are equipped with a 1\/1.79\" stacked CMOS sensor that enhances data analysis speed and ensures superior night vision capabilities. Furthermore, KAWA T6 Pro security camera boasts an F1.0 super-large aperture lens. This substantial increase in light collection significantly enhances visibility in low-light environments. With an exceptional 4MP super HD resolution of 2688*1520, KAWA T6 Pro security camera provides crystal-clear image details. Its true color night vision technology ensures vivid and accurate color representation even in the darkest conditions. To achieve true color night vision, KAWA T6 Pro relies not only on the lens and sensor technology but also on powerful chipsets and advanced algorithms. The camera features a quad-core Cortex-A7 CPU, clocked at up to 1GHz, significantly boosting overall performance. Additionally, the NPU (Neural Processing Unit) operates at 4TOPs@INT4, delivering four times faster deep neural network-based AI computing."
       }
     },
     "carousel-1": {
       "type": "kawa-main-product-carousel",
       "blocks": {
-        "carousel-item-1": {
-          "type": "carousel_item",
-          "settings": {
-            "name": "360°Panoramic View",
-            "title": "360°Panoramic View",
-            "content": "Each corner covered with pan 350° and tilt 67° easily with KAWA IOT App control remotely, our indoor security camera is very suitable for monitoring the elderly, kids and pet.",
-            "image": "shopify:\/\/shop_images\/8_c20fd379-94a8-4e7f-9c00-513ca2304565.jpg"
-          }
-        },
         "carousel-item-2": {
           "type": "carousel_item",
           "settings": {
-            "name": "Superior Night Vision",
-            "title": "Superior Night Vision",
-            "content": "Smart baby camera has a built-in 940nm infrared fill light, and the image is vivid and clear even in a dim environment. No red light spot, your loved one's sleep is not disturbed.",
-            "image": "shopify:\/\/shop_images\/9_d5b150f6-431f-4302-b87d-18aa75dc7244.jpg"
+            "name": "",
+            "title": "",
+            "content": "",
+            "image": "shopify:\/\/shop_images\/2_d03ef84a-3ce4-490a-af7a-d10251c3e49b.jpg"
           }
         }
       },
       "block_order": [
-        "carousel-item-1",
         "carousel-item-2"
       ],
       "settings": {
@@ -98,25 +123,15 @@
         "carousel-item-1": {
           "type": "carousel_item",
           "settings": {
-            "name": "Auto Motion Tracking",
+            "name": "",
             "title": "",
-            "content": "KAWA indoor camera automatically automatically follows the actions and saves video in real time to record their movement and retain key evidence. And ttracks the motion and record the video if detect people or pet moves front it.",
-            "image": "shopify:\/\/shop_images\/a5_70ccf03e-bbd7-4519-98e1-0d37177b6364.jpg"
-          }
-        },
-        "carousel-item-2": {
-          "type": "carousel_item",
-          "settings": {
-            "name": "AI Human Detection",
-            "title": "AI Human Detection",
-            "content": "Receive instant notification on your phone if human, motion or abnormal sound detected in your house. Automatically record a 30 seconds motion-triggered and noise-triggered video to the cloud(30 days free trial).",
-            "image": "shopify:\/\/shop_images\/b973a8bc988d2c8a0119eff3865a58cf_09a1f654-e6a4-4a47-aba9-c523e33d660a.jpg"
+            "content": "",
+            "image": "shopify:\/\/shop_images\/5.png"
           }
         }
       },
       "block_order": [
-        "carousel-item-1",
-        "carousel-item-2"
+        "carousel-item-1"
       ],
       "settings": {
       }
@@ -141,23 +156,50 @@
         "image-text-item-1": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ecf8ff4caea48d73bbdd49f680da30c4.jpg",
-            "title": "2-Way Audio & Voice Shift",
-            "content": "Featured two-way audio function, you can talk with your baby, elderly and pets in real-time. Apply to restaurants, clothing, convenience stores and warehouses for recording customer conversations and indoor burglary. You can also turn on the Voice Shift to scare away thieves."
+            "image": "shopify:\/\/shop_images\/1be03a3c191772ffdaf3ea0fed39bdbc.gif",
+            "title": "Capture Every Movement  & Moment",
+            "content": "The fundamental feature of a security camera is motion detection, and KAWA T6 series cameras excel at capturing all types of movements in their surroundings. Moreover, these cameras are equipped with advanced human detection capabilities, significantly reducing the occurrence of false alerts. Additionally, they offer motion zone configuration, allowing you to exclude specific areas where certain actions do not require notifications. By leveraging the motion zone settings, you can conveniently avoid unnecessary alerts and optimize the camera's functionality to suit your specific needs."
           }
         },
         "image-text-item-2": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/5_1882d80a-4f15-43a6-91ac-5c59946f1167.jpg",
-            "title": "Works with Amazon Alexa",
-            "content": "See what's happening around your home on Amazon Alexa with simple voice commands. Make your home life more relaxing. (Only for 2.4GHz Wi-Fi networks)"
+            "image": "shopify:\/\/shop_images\/534fba5cfc57dd86871cee005f16cf1b.gif",
+            "title": "Control Via KAWA AIoT App",
+            "content": "With the KAWA AIoT App, you can effortlessly connect to your camera and monitor your home from anywhere, as long as your phone is connected to the internet. Enjoy the convenience of making personalized settings for your camera directly through the app. KAWA AIoT App is free to download and upgrade, ensuring easy access to its features and functionalities.\n\nStay informed and in control with the KAWA AIoT App's instant motion alerts sent directly to your phone whenever the camera detects activity. This seamless notification system allows you to stay vigilant and keep track of everything happening in your home at any given time, granting you peace of mind and enhanced security."
           }
         }
       },
       "block_order": [
         "image-text-item-1",
         "image-text-item-2"
+      ],
+      "settings": {
+      }
+    },
+    "d8b4f897-ded4-4667-a220-bf7642691a4b": {
+      "type": "kawa-image-text",
+      "blocks": {
+        "template--16198507331744__d8b4f897-ded4-4667-a220-bf7642691a4b-image_text-1": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/d451f4d68dc4da984461545edac1a2b9.gif",
+            "title": "Talking, Siren & Spotlights - Warning Help",
+            "content": "While KAWA T6\/T6 Pro security cameras excel at delivering true color night vision without the need for supplemental lighting, we have equipped these cameras with spotlights to provide additional alert assistance. For instance, you have the option to activate the spotlight to deter potential intruders or threats effectively. Also, the cameras support two-way audio, you can talk and listen to the camera even when you are outside."
+          }
+        },
+        "template--16198507331744__d8b4f897-ded4-4667-a220-bf7642691a4b-image_text-2": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/alexa.gif",
+            "title": "More Convenience, Work with Alexa",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16198507331744__d8b4f897-ded4-4667-a220-bf7642691a4b-image_text-1",
+        "template--16198507331744__d8b4f897-ded4-4667-a220-bf7642691a4b-image_text-2"
       ],
       "settings": {
       }
@@ -170,44 +212,6 @@
         "title": "Instant Sound Alert",
         "content": "Built-in microphone can pick up low sound up to 20ft away from your baby’s room for louder volume and crisper audio. Get alerted immediately when your baby needs you via the advanced sound detection technology.",
         "warning": ""
-      }
-    },
-    "tabs": {
-      "type": "kawa-product-tabs",
-      "blocks": {
-        "tab-1": {
-          "type": "tab_item",
-          "settings": {
-            "name": "Support Multiple Cameras",
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f900d1a65b874a74b75570c350f04b5e.mp4",
-            "cover_image": "shopify:\/\/shop_images\/p-1.jpg"
-          }
-        },
-        "tab-2": {
-          "type": "tab_item",
-          "settings": {
-            "name": "AI Motion Detection",
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/be7a45809d8d4323a76b26039176e198.mp4",
-            "cover_image": "shopify:\/\/shop_images\/p-3.jpg"
-          }
-        },
-        "tab-3": {
-          "type": "tab_item",
-          "settings": {
-            "name": "2K Quard High Definition",
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/14f1a07d11eb4ce1a21b4168607debf8.mp4",
-            "cover_image": "shopify:\/\/shop_images\/p-2.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "tab-1",
-        "tab-2",
-        "tab-3"
-      ],
-      "settings": {
-        "title": "Capture every details in your house",
-        "description": "With 3-megapixel resolution, this smart IP camera keeps 24\/7 Continuous Recording.  Even better, you can receive instant notification on your phone if human, motion or abnormal sound detected in your house."
       }
     },
     "image-text-2": {
@@ -252,11 +256,13 @@
         "image-text-item-3",
         "image-text-item-4"
       ],
+      "disabled": true,
       "settings": {
       }
     },
     "product-comparison": {
       "type": "kawa-product-comparison",
+      "disabled": true,
       "settings": {
         "title": "Product Comparison",
         "product_1": "ip-camera-a6",
@@ -309,12 +315,14 @@
         "faq-3",
         "faq-4"
       ],
+      "disabled": true,
       "settings": {
         "title": "FAQ"
       }
     },
     "alexa-video": {
       "type": "kawa-alexa-video",
+      "disabled": true,
       "settings": {
         "title": "Support Guidance Videos for you",
         "jump_link": "https:\/\/www.kawa-in.com\/blogs\/kawa-ip-camera-a6\/how-to-connect-the-camera-a6-to-alexa",
@@ -325,6 +333,7 @@
     },
     "product-buy": {
       "type": "kawa-product-buy",
+      "disabled": true,
       "settings": {
       }
     }
@@ -333,12 +342,13 @@
     "main",
     "banner",
     "video",
+    "tabs",
     "carousel-1",
     "carousel-2",
     "phone-preview",
     "image-text-1",
+    "d8b4f897-ded4-4667-a220-bf7642691a4b",
     "video-text",
-    "tabs",
     "image-text-2",
     "product-comparison",
     "specifications",
