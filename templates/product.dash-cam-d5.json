@@ -44,13 +44,14 @@
         "show_discount": false,
         "show_share": false,
         "discount_faq": "",
-        "show_payment_flags": true
+        "show_payment_flags": true,
+        "show_store_info": false
       }
     },
     "banner": {
       "type": "kawa-main-product-banner",
       "settings": {
-        "banner_image": "shopify:\/\/shop_images\/1005_98ef0c03-b7e1-4d48-b25f-255025aa819c.jpg"
+        "banner_image": "shopify:\/\/shop_images\/A1.jpg"
       }
     },
     "video": {
@@ -58,7 +59,6 @@
       "disabled": true,
       "settings": {
         "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/57d135e474854c3b8973a129d0e52f70.mp4",
-        "cover_image": "shopify:\/\/shop_images\/1002_a0aef2da-05ac-47b5-aeea-f11bc985ba2b.jpg",
         "max_width": "mw-1300-c",
         "has_border": false
       }
@@ -96,6 +96,7 @@
         "tab-2",
         "tab-3"
       ],
+      "disabled": true,
       "settings": {
         "title": "Capture Your Every Drive in the High Resolution",
         "description": "With 1440P resolution, F2.0 Large Aperture, 400MPS, and support Voice Control Function, KAWA D6 Dash Cam keeps recording in full-color day and night, and captures more light, and ensures ultra-clear night vision video details even at night. Even better, you can free your hands to enjoy the era of intelligence, save the current picture in time"
@@ -137,7 +138,7 @@
         "image-text-item-1": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ebbe479b95396f8727b5d81e65f95398_7b744cd9-212b-43f1-bd07-be28f617b6ac.jpg",
+            "image": "shopify:\/\/shop_images\/A2_4d700b77-6290-48cc-9ae9-5c047cf261d6.jpg",
             "title": "Hands-Free Voice Control",
             "content": "Support English, 日本語, Русский, and Français Voice Control. This dashcams for cars saves the current picture and record an emergency video by directly giving voice commands. Hands-free voice control allows you to focus more on driving safety and quickly complete your request."
           }
@@ -145,7 +146,7 @@
         "image-text-item-2": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2k.jpg",
+            "image": "shopify:\/\/shop_images\/A3.jpg",
             "title": "Enhance 2K 1440P",
             "content": "KAWA Car Cam features a super-high resolution of 1440P (2 times clearer than most 1080P dash cams), capturing license plates, road signs, pedestrians, and other details on the road."
           }
@@ -164,17 +165,17 @@
         "template--15917345144992__351b63f1-e016-469c-a58b-b3e8b2c342a5-1670556217e8b1e688-0": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/aaa.jpg",
-            "title": "Palm-sized and Hidden Installation",
-            "content": "The compact D6 body does not block the line of sight. Multi-angle rotation adjustment. Special electrostatic adhesives for easy installation.\nThe cigarette lighter is used to obtain electric power, which does not alter the normal circuit of the original car, nor destroy the original interior design, which is safe and reliable."
+            "image": "shopify:\/\/shop_images\/A4_71d04312-cd07-498b-95c0-7e589da70eec.jpg",
+            "title": "360° Rotation Manually",
+            "content": "Ultra-compact and hidden design dashcam while achieving 360 ° rotation, you can easily view both the outside scenery and the inside conditions of your car."
           }
         },
         "template--15917345144992__351b63f1-e016-469c-a58b-b3e8b2c342a5-1670556217e8b1e688-3": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/aaa2.jpg",
-            "title": "With It's Built-In WiFi Feature",
-            "content": "You can download your videos on your iPhone or Android devices using the KAWA DVR APP instantly while you are on the road or on a trip.\nOnce downloaded, you can play your videos in the APP."
+            "image": "shopify:\/\/shop_images\/A13.jpg",
+            "title": "Wi-Fi & App Control",
+            "content": "With built-in WiFi, KAWA D5 dash camera can connect to the KAWA AUTO App( iOS and Android), 0 data is required to watch real-time footage, play recorded videos as well as download videos to your phone. Also, enjoy continuous OTA updates to automatically fix bugs and update software."
           }
         }
       },
@@ -191,25 +192,25 @@
         "image-text-item-1": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/a_4ebf2d16-b3b8-4a30-8d51-50be4737cc42.jpg",
-            "title": "24-Hours Parking Mode",
-            "content": "D6 dash cam has 24-Hours Parking Mode. It requires continuous power and a mini USB Hard Wire Kit (NOT included in the package). Please go to amazon.com and search.\nThis parking mode allows you to record the whole night while you are away."
+            "image": "shopify:\/\/shop_images\/A7-1.jpg",
+            "title": "Super Capacitor",
+            "content": "KAWA D5 Dash Cam is powered by a Super Capacitor, without lithium-ion battery\n​.Working Temp: -4°F(-20°C)~149°F(65°C)Storage Temp :-22°F(-30°C)~176°F(80°C)\n· Ultra Durability Longer Product Life.\n· Fire and Explosion Proof Providing Safety First.\n· Withstands Higher Heat & Cold Temperature."
           }
         },
         "image-text-item-2": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/b.jpg",
-            "title": "Wide Angle",
-            "content": "With 145°wide-angle, this dash cam enables you to monitor more lanes without blind spots. Taking into account the vehicle condition of the left and right lanes."
+            "image": "shopify:\/\/shop_images\/A9.jpg",
+            "title": "Wide Dynamic Range",
+            "content": "WDR-- Automatically supplementing light in low-light conditions, suppressing overexposure in strong light and backlight, ensuring clarity in sunny, cloudy, and dimly lit nights."
           }
         },
         "image-text-item-3": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/c.jpg",
-            "title": "360 Rotation",
-            "content": "Ultra-compact and hidden design dashcam while achieving 360 ° rotation, you can easily view both the outside scenery and the inside conditions of your car."
+            "image": "shopify:\/\/shop_images\/A5_833c9479-e7f7-4c2e-87d4-4ae4802d4399.jpg",
+            "title": "Emergency Recording with G-Sensor",
+            "content": "When someone hits your car while it was parked or on the road, and if the impact reaches its set G-Sensor level. Camera will lock the video automatically in the Emergency Video. When car is hit while parked under parking monitoring, you can find the videos in the Parking Monitoring Video. Parking mode requires a separate Micro USB hardwire kit (not included)."
           }
         }
       },
@@ -227,25 +228,25 @@
         "template--15917345144992__b5574955-4e4a-4d4c-8849-d1adf0874599-167064044697626061-0": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/d.jpg",
-            "title": "Simple and Fast Installation",
-            "content": "Simple and fast installation within minutes with the contained adhesive tape, and without dismantling the car or hurt the car film."
+            "image": "shopify:\/\/shop_images\/A8_4adafaa5-3164-484c-9eff-a0ca0e9248b5.jpg",
+            "title": "H.265(High Efficiency Video Coding,HEVC)",
+            "content": "H.265 encoding offers faster transmission efficiency and higher image quality than H.264, doubling compression and saving 50% of storage space.(Please ensure that your player supports the H.265 video format)."
           }
         },
         "template--15917345144992__b5574955-4e4a-4d4c-8849-d1adf0874599-167064044697626061-1": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/e.jpg",
-            "title": "Up to 256G TF Card Recording",
-            "content": "We understand how important it is to have a dash cam that can support the largest memory card in the industry. That's why the KAWA D6 is designed to support Micro-SD cards up to 256GB. (Note: The memory card is NOT included in the package.)"
+            "image": "shopify:\/\/shop_images\/A11.jpg",
+            "title": "24\/7 Parking Surveillance",
+            "content": "The built-in G-sensor detects sudden impacts or collisions when your car is parked, initiating recording to provide crucial 24-hour evidence. Receive notifications and access event footage through the KAWA AUTO app. Parking mode requires a separate Micro USB hardwire kit (not included)."
           }
         },
         "template--15917345144992__b5574955-4e4a-4d4c-8849-d1adf0874599-167064044697626061-2": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/f.jpg",
-            "title": "WDR - Wide Dynamic Range",
-            "content": "When the sun directly exposes the camera, the image will be overexposed (brighter image) and when in the opposite direction the image will be underexposed (darker image). So, how to get over and create a robust image so that it doesn't lose its details regardless of various light exposures?\nThat's when the D6's WDR feature comes into play. By activating the WDR function you will get a beautiful clearer and more robust image."
+            "image": "shopify:\/\/shop_images\/1-17.jpg",
+            "title": "Continuous Loop Recording",
+            "content": "When your Micro SD card (not included) is full, the dash cam will overwrite the oldest footage to achieve continuous recording. The emergency-recorded videos are stored in a separate folder and won't be overwritten by regular videos. You can change the recording video duration(options of 1, 2, 3 minutes)."
           }
         }
       },
@@ -265,7 +266,10 @@
         "img_height": 700,
         "img_1": "shopify:\/\/shop_images\/05_2.jpg",
         "img_2": "shopify:\/\/shop_images\/05_1.jpg",
-        "img_3": "shopify:\/\/shop_images\/05_3.jpg"
+        "img_3": "shopify:\/\/shop_images\/05_3.jpg",
+        "content_1": "",
+        "content_2": "",
+        "content_3": ""
       }
     },
     "video-text": {
@@ -298,6 +302,7 @@
     },
     "alexa-video": {
       "type": "kawa-alexa-video",
+      "disabled": true,
       "settings": {
         "title": "Support Guidance Videos for you",
         "jump_link": "https:\/\/www.kawa-in.com\/blogs\/kawa-dash-cam-d6\/how-to-install-your-dash-cam-d6-on-your-car",
@@ -320,28 +325,21 @@
           "type": "faq_item",
           "settings": {
             "question": "How to deal with the abnormal memory when the dash cam is in use?",
-            "solution": "Format the memory card of the recorder. If the memory is still abnormal, it is recommended to replace it with a new memory card of Class 10 or above."
+            "solution": "Format the memory card of the recorder. If the memory is still abnormal, it is recommended to replace it with a new memory card of Class 10 or above, U3 speed."
           }
         },
         "faq-3": {
           "type": "faq_item",
           "settings": {
             "question": "Why the APP won't show the real time recording?",
-            "solution": "The APP needs to be connected to the DVR dedicated wireless network to watch videos in real time. Please switch the mobile WiFi network to \"KAWA_D6_XXXX\", and then enter the APP to view the real-time video."
+            "solution": "The APP needs to be connected to the DVR dedicated wireless network to watch videos in real time. Please switch the mobile WiFi network to \"KAWA_D5_XXXX\", and then enter the APP to view the real-time video."
           }
         },
         "faq-4": {
           "type": "faq_item",
           "settings": {
             "question": "How to activate this dash cam's parking monitoring function?",
-            "solution": "KAWA D6 only supports 24-hour recording when connected to the parking monitoring line (not included in the package). If parking monitoring function is required, please purchase another parking monitoring cable and connect the hardwire kit to your fuse box. (If you do not know how to install the hardwire kit, please ask a professional for help)"
-          }
-        },
-        "08a59491-fcd3-4a8f-a1ab-3b6b04879c5f": {
-          "type": "faq_item",
-          "settings": {
-            "question": "How does the recorder format the memory card?",
-            "solution": "After the APP is successfully connected to the recorder, enter the real-time interface, click the setting button in the upper right corner to enter the setting interface, select Micro SD Card Manage, and then select Formatting to format. Or, click the Power Key three times of succession to format the memory card."
+            "solution": "KAWA D5 only supports 24-hour recording when connected to the parking monitoring line (not included in the package). If parking monitoring function is required, please purchase another parking monitoring cable and connect the hardwire kit to your fuse box. (If you do not know how to install the hardwire kit, please ask a professional for help)"
           }
         }
       },
@@ -349,8 +347,7 @@
         "faq-1",
         "faq-2",
         "faq-3",
-        "faq-4",
-        "08a59491-fcd3-4a8f-a1ab-3b6b04879c5f"
+        "faq-4"
       ],
       "settings": {
         "title": "FAQ"
