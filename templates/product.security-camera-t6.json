@@ -114,6 +114,7 @@
       "block_order": [
         "carousel-item-2"
       ],
+      "disabled": true,
       "settings": {
       }
     },
