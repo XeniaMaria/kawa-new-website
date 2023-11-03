@@ -44,13 +44,14 @@
         "show_discount": false,
         "show_share": false,
         "discount_faq": "",
-        "show_payment_flags": true
+        "show_payment_flags": true,
+        "show_store_info": false
       }
     },
     "banner": {
       "type": "kawa-main-product-banner",
       "settings": {
-        "banner_image": "shopify:\/\/shop_images\/1005_98ef0c03-b7e1-4d48-b25f-255025aa819c.jpg"
+        "banner_image": "shopify:\/\/shop_images\/1-1_36a4eb6c-4b6b-4c9f-9808-15b74dac2a47.jpg"
       }
     },
     "video": {
@@ -58,7 +59,6 @@
       "disabled": true,
       "settings": {
         "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/57d135e474854c3b8973a129d0e52f70.mp4",
-        "cover_image": "shopify:\/\/shop_images\/1002_a0aef2da-05ac-47b5-aeea-f11bc985ba2b.jpg",
         "max_width": "mw-1300-c",
         "has_border": false
       }
@@ -96,6 +96,7 @@
         "tab-2",
         "tab-3"
       ],
+      "disabled": true,
       "settings": {
         "title": "Capture Your Every Drive in the High Resolution",
         "description": "With 1440P resolution, F2.0 Large Aperture, 400MPS, and support Voice Control Function, KAWA D6 Dash Cam keeps recording in full-color day and night, and captures more light, and ensures ultra-clear night vision video details even at night. Even better, you can free your hands to enjoy the era of intelligence, save the current picture in time"
@@ -134,26 +135,26 @@
     "image-text-1": {
       "type": "kawa-image-text",
       "blocks": {
-        "image-text-item-1": {
-          "type": "image_text",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ebbe479b95396f8727b5d81e65f95398_7b744cd9-212b-43f1-bd07-be28f617b6ac.jpg",
-            "title": "Hands-Free Voice Control",
-            "content": "Support English, 日本語, Русский, and Français Voice Control. This dashcams for cars saves the current picture and record an emergency video by directly giving voice commands. Hands-free voice control allows you to focus more on driving safety and quickly complete your request."
-          }
-        },
         "image-text-item-2": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2k.jpg",
-            "title": "Enhance 2K 1440P",
-            "content": "KAWA Car Cam features a super-high resolution of 1440P (2 times clearer than most 1080P dash cams), capturing license plates, road signs, pedestrians, and other details on the road."
+            "image": "shopify:\/\/shop_images\/1-2_d8f350f6-b2fe-496e-b00f-c2fc0793e2b0.jpg",
+            "title": "Adopts Sony Starvis IMX415 chip",
+            "content": "KAWA D8 car dash cam adopts Sony Starvis IMX415 chip, 7-layer optical glass and F1.8 aperture, along with 3D DNR technology for noise reduction processing, allowing for clear capture of license plates, road signs, and pedestrians even in low-light conditions."
+          }
+        },
+        "image-text-item-1": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1-3_af4f5a33-3430-4fa4-a1c6-2fc1eb8cbe0d.jpg",
+            "title": "Compare:· KAWA D8 Real 4K Sony Starvis IMX 415(3840*2160, 8MP, 16:9)",
+            "content": "Other 4K Sony Starvis IMX 335 (2592*1944, 5MP, 4:3)\n*Comparative data sourced from the official Sony website."
           }
         }
       },
       "block_order": [
-        "image-text-item-1",
-        "image-text-item-2"
+        "image-text-item-2",
+        "image-text-item-1"
       ],
       "settings": {
       }
@@ -164,17 +165,17 @@
         "template--15917345144992__351b63f1-e016-469c-a58b-b3e8b2c342a5-1670556217e8b1e688-0": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/aaa.jpg",
-            "title": "Palm-sized and Hidden Installation",
-            "content": "The compact D6 body does not block the line of sight. Multi-angle rotation adjustment. Special electrostatic adhesives for easy installation.\nThe cigarette lighter is used to obtain electric power, which does not alter the normal circuit of the original car, nor destroy the original interior design, which is safe and reliable."
+            "image": "shopify:\/\/shop_images\/A2_4d700b77-6290-48cc-9ae9-5c047cf261d6.jpg",
+            "title": "Hands-Free Voice Control, Supports English,Russian,Japanese,French",
+            "content": "Effortlessly control the car camera front with spoken commands, enabling you to prioritize safety while driving. Simply giving voice commands to take photos, lock the video, turn on\/off WiFi, turn on\/off audio and turn on\/off hotspot."
           }
         },
         "template--15917345144992__351b63f1-e016-469c-a58b-b3e8b2c342a5-1670556217e8b1e688-3": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/aaa2.jpg",
-            "title": "With It's Built-In WiFi Feature",
-            "content": "You can download your videos on your iPhone or Android devices using the KAWA DVR APP instantly while you are on the road or on a trip.\nOnce downloaded, you can play your videos in the APP."
+            "image": "shopify:\/\/shop_images\/1-7.jpg",
+            "title": "3.16'' IPS Screen-KAWA'S Custom Designed",
+            "content": "IPS screen, with its excellent color reproduction an wide viewing angles, brings an outstanding senseof realism and comfort to the visual experience."
           }
         }
       },
@@ -191,25 +192,25 @@
         "image-text-item-1": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/a_4ebf2d16-b3b8-4a30-8d51-50be4737cc42.jpg",
-            "title": "24-Hours Parking Mode",
-            "content": "D6 dash cam has 24-Hours Parking Mode. It requires continuous power and a mini USB Hard Wire Kit (NOT included in the package). Please go to amazon.com and search.\nThis parking mode allows you to record the whole night while you are away."
+            "image": "shopify:\/\/shop_images\/1-6_f548ea8b-9527-4323-a685-2c9012010754.jpg",
+            "title": "Built-in GPS",
+            "content": "Access real-time monitoring of time, speed (mph, km\/h), and coordinates with built-in GPS. This feature helps to track the precise accident location for roadside assistance and insurance claims. Equips real GPS that is built into the front camera for car, unlike others where you can't have the GPS function after replacing the bracket."
           }
         },
         "image-text-item-2": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/b.jpg",
-            "title": "Wide Angle",
-            "content": "With 145°wide-angle, this dash cam enables you to monitor more lanes without blind spots. Taking into account the vehicle condition of the left and right lanes."
+            "image": "shopify:\/\/shop_images\/1-15.jpg",
+            "title": "Wi-Fi & App Control",
+            "content": "With built-in WiFi, KAWA D8 front and rear dash camera can connect to the KAWA AUTO App( iOS and Android), 0 data is required to watch real-time footage, play recorded videos as well as download videos to your phone. Also, enjoy continuous OTA updates to automatically fix bugs and update software."
           }
         },
         "image-text-item-3": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/c.jpg",
-            "title": "360 Rotation",
-            "content": "Ultra-compact and hidden design dashcam while achieving 360 ° rotation, you can easily view both the outside scenery and the inside conditions of your car."
+            "image": "shopify:\/\/shop_images\/1-9.jpg",
+            "title": "Super Capacitor",
+            "content": "KAWA D8 Dash Cam is powered by a Super Capacitor, without lithium-ion battery\n​.Working Temp: -4°F(-20°C)~149°F(65°C)\nStorage Temp :-22°F(-30°C)~176°F(80°C)\n· Ultra Durability Longer Product Life.\n· Fire and Explosion Proof Providing Safety First.\n· Withstands Higher Heat & Cold Temperature."
           }
         }
       },
@@ -227,25 +228,25 @@
         "template--15917345144992__b5574955-4e4a-4d4c-8849-d1adf0874599-167064044697626061-0": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/d.jpg",
-            "title": "Simple and Fast Installation",
-            "content": "Simple and fast installation within minutes with the contained adhesive tape, and without dismantling the car or hurt the car film."
+            "image": "shopify:\/\/shop_images\/1-8.jpg",
+            "title": "LDC (Lens Distortion Correction )",
+            "content": "LDC works by applying mathematical algorithms to the image data to counteract these distortions, resulting in more accurate and visually pleasing photographs."
           }
         },
         "template--15917345144992__b5574955-4e4a-4d4c-8849-d1adf0874599-167064044697626061-1": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/e.jpg",
-            "title": "Up to 256G TF Card Recording",
-            "content": "We understand how important it is to have a dash cam that can support the largest memory card in the industry. That's why the KAWA D6 is designed to support Micro-SD cards up to 256GB. (Note: The memory card is NOT included in the package.)"
+            "image": "shopify:\/\/shop_images\/1-10.jpg",
+            "title": "7-Glass Lens",
+            "content": "· Enhance Sharpness· Color Corrector· Increase Penetration Rate· 3D Digital Noise Reduction· LDC Skewness Correction· Correction Ray· Blocking Clutter"
           }
         },
         "template--15917345144992__b5574955-4e4a-4d4c-8849-d1adf0874599-167064044697626061-2": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/f.jpg",
-            "title": "WDR - Wide Dynamic Range",
-            "content": "When the sun directly exposes the camera, the image will be overexposed (brighter image) and when in the opposite direction the image will be underexposed (darker image). So, how to get over and create a robust image so that it doesn't lose its details regardless of various light exposures?\nThat's when the D6's WDR feature comes into play. By activating the WDR function you will get a beautiful clearer and more robust image."
+            "image": "shopify:\/\/shop_images\/A9.jpg",
+            "title": "Wide Dynamic Range",
+            "content": "WDR-- Automatically supplementing light in low-light conditions, suppressing overexposure in strong light and backlight, ensuring clarity in sunny, cloudy, and dimly lit nights."
           }
         }
       },
@@ -265,7 +266,10 @@
         "img_height": 700,
         "img_1": "shopify:\/\/shop_images\/05_2.jpg",
         "img_2": "shopify:\/\/shop_images\/05_1.jpg",
-        "img_3": "shopify:\/\/shop_images\/05_3.jpg"
+        "img_3": "shopify:\/\/shop_images\/05_3.jpg",
+        "content_1": "",
+        "content_2": "",
+        "content_3": ""
       }
     },
     "video-text": {
@@ -298,6 +302,7 @@
     },
     "alexa-video": {
       "type": "kawa-alexa-video",
+      "disabled": true,
       "settings": {
         "title": "Support Guidance Videos for you",
         "jump_link": "https:\/\/www.kawa-in.com\/blogs\/kawa-dash-cam-d6\/how-to-install-your-dash-cam-d6-on-your-car",
@@ -352,6 +357,7 @@
         "faq-4",
         "08a59491-fcd3-4a8f-a1ab-3b6b04879c5f"
       ],
+      "disabled": true,
       "settings": {
         "title": "FAQ"
       }
