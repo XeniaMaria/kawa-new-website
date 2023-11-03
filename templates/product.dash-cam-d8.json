@@ -1,0 +1,390 @@
+{
+  "sections": {
+    "main": {
+      "type": "kawa-main-product",
+      "blocks": {
+        "store-info-item-1": {
+          "type": "store_info_item",
+          "settings": {
+            "title": "Fast, Free Shipping",
+            "content": "<p>We offer free shipping straight to your door throughout the contiguous US*. It usually takes 3-7 business days* for your package to be delivered, so you can sit back and relax, worry-free.<\/p><p><\/p><p>*Please see our shipping policy for more details.<\/p><p>*Due to COVID-19 shipping times may be delayed.<\/p>"
+          }
+        },
+        "store-info-item-2": {
+          "type": "store_info_item",
+          "settings": {
+            "title": "30-Day Money-Back Guarantee",
+            "content": "<p> Get a full refund when you return your undamaged products within 30 days - for any reason. Once the item arrives back at the eufy warehouse for inspection, the refund process will begin.<\/p><p> See our refund policy for more details about what is needed for a smooth refund process..<\/p>"
+          }
+        },
+        "store-info-item-3": {
+          "type": "store_info_item",
+          "settings": {
+            "title": "Hassle-free Warranty",
+            "content": "<p> eufy provides a straightforward, hassle-free warranty to save you some headaches. All pre-owned and refurbished products come with their own unique warranty that you can find on the product listing or contact us at support@eufylife.com with your order receipt for confirmation.<\/p><p> This limited warranty provided by the manufacturer in no way affects a potential statutory warranty provided by law.<\/p>"
+          }
+        },
+        "store-info-item-4": {
+          "type": "store_info_item",
+          "settings": {
+            "title": "Lifetime Customer Support",
+            "content": "<p> We'll Always be There for You.<\/p><p> If you have any questions or concerns, feel free to contact us at support@eufylife.com.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "store-info-item-1",
+        "store-info-item-2",
+        "store-info-item-3",
+        "store-info-item-4"
+      ],
+      "settings": {
+        "discount_code": "WS24S360",
+        "show_comment": false,
+        "show_discount": false,
+        "show_share": false,
+        "discount_faq": "",
+        "show_payment_flags": true
+      }
+    },
+    "banner": {
+      "type": "kawa-main-product-banner",
+      "settings": {
+        "banner_image": "shopify:\/\/shop_images\/1005_98ef0c03-b7e1-4d48-b25f-255025aa819c.jpg"
+      }
+    },
+    "video": {
+      "type": "kawa-preview-video",
+      "disabled": true,
+      "settings": {
+        "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/57d135e474854c3b8973a129d0e52f70.mp4",
+        "cover_image": "shopify:\/\/shop_images\/1002_a0aef2da-05ac-47b5-aeea-f11bc985ba2b.jpg",
+        "max_width": "mw-1300-c",
+        "has_border": false
+      }
+    },
+    "tabs": {
+      "type": "kawa-product-tabs",
+      "blocks": {
+        "tab-1": {
+          "type": "tab_item",
+          "settings": {
+            "name": "Daytime scene shooting",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/aa234de351a348459923d159658cb1e3.mp4",
+            "cover_image": "shopify:\/\/shop_images\/1005_1e26c7b5-93e7-46b8-9e75-1a8c795a2da8.jpg"
+          }
+        },
+        "tab-2": {
+          "type": "tab_item",
+          "settings": {
+            "name": "Night scene shooting",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/48a0c373cde749538f603dbddfb27724.mp4",
+            "cover_image": "shopify:\/\/shop_images\/1005_881c78a0-fcab-47cf-9a54-1d0786522060.jpg"
+          }
+        },
+        "tab-3": {
+          "type": "tab_item",
+          "settings": {
+            "name": "Voice Control Shooting",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/b7ac5a77a9094f259572426610cd7ba9.mp4",
+            "cover_image": "shopify:\/\/shop_images\/1005_68b9de81-0633-4fc2-b9c6-d8f8d1a001dd.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "tab-1",
+        "tab-2",
+        "tab-3"
+      ],
+      "settings": {
+        "title": "Capture Your Every Drive in the High Resolution",
+        "description": "With 1440P resolution, F2.0 Large Aperture, 400MPS, and support Voice Control Function, KAWA D6 Dash Cam keeps recording in full-color day and night, and captures more light, and ensures ultra-clear night vision video details even at night. Even better, you can free your hands to enjoy the era of intelligence, save the current picture in time"
+      }
+    },
+    "carousel-1": {
+      "type": "kawa-main-product-carousel",
+      "blocks": {
+        "carousel-item-1": {
+          "type": "carousel_item",
+          "settings": {
+            "name": "Recording & Playback",
+            "title": "Support local recording with TF \/ micro SD card.",
+            "content": "KAWA baby monitor with camera support TF\/micro SD card(not included) up to 256GB to record and playback every precious moment of your baby's growth.",
+            "image": "shopify:\/\/shop_images\/ebbe479b95396f8727b5d81e65f95398_aef25839-c2c4-4c3f-a6fe-a42bd24b043e.jpg"
+          }
+        },
+        "carousel-item-2": {
+          "type": "carousel_item",
+          "settings": {
+            "name": "2K & 3MP Baby Monitor",
+            "title": "Large 5'' IPS display coupled with 2k resolution and crisp night vision.",
+            "content": "Capture every detail in your baby’s room with crystal-clear 2K baby camera real-time image and 5’’ large color screen KAWA baby monitor. Superior night vision offers you the real scenes even in dim conditions. It is 4x clearer than the ordinary 720p resolution.",
+            "image": "shopify:\/\/shop_images\/2k.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "carousel-item-1",
+        "carousel-item-2"
+      ],
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "image-text-1": {
+      "type": "kawa-image-text",
+      "blocks": {
+        "image-text-item-1": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ebbe479b95396f8727b5d81e65f95398_7b744cd9-212b-43f1-bd07-be28f617b6ac.jpg",
+            "title": "Hands-Free Voice Control",
+            "content": "Support English, 日本語, Русский, and Français Voice Control. This dashcams for cars saves the current picture and record an emergency video by directly giving voice commands. Hands-free voice control allows you to focus more on driving safety and quickly complete your request."
+          }
+        },
+        "image-text-item-2": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2k.jpg",
+            "title": "Enhance 2K 1440P",
+            "content": "KAWA Car Cam features a super-high resolution of 1440P (2 times clearer than most 1080P dash cams), capturing license plates, road signs, pedestrians, and other details on the road."
+          }
+        }
+      },
+      "block_order": [
+        "image-text-item-1",
+        "image-text-item-2"
+      ],
+      "settings": {
+      }
+    },
+    "351b63f1-e016-469c-a58b-b3e8b2c342a5": {
+      "type": "kawa-image-text",
+      "blocks": {
+        "template--15917345144992__351b63f1-e016-469c-a58b-b3e8b2c342a5-1670556217e8b1e688-0": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/aaa.jpg",
+            "title": "Palm-sized and Hidden Installation",
+            "content": "The compact D6 body does not block the line of sight. Multi-angle rotation adjustment. Special electrostatic adhesives for easy installation.\nThe cigarette lighter is used to obtain electric power, which does not alter the normal circuit of the original car, nor destroy the original interior design, which is safe and reliable."
+          }
+        },
+        "template--15917345144992__351b63f1-e016-469c-a58b-b3e8b2c342a5-1670556217e8b1e688-3": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/aaa2.jpg",
+            "title": "With It's Built-In WiFi Feature",
+            "content": "You can download your videos on your iPhone or Android devices using the KAWA DVR APP instantly while you are on the road or on a trip.\nOnce downloaded, you can play your videos in the APP."
+          }
+        }
+      },
+      "block_order": [
+        "template--15917345144992__351b63f1-e016-469c-a58b-b3e8b2c342a5-1670556217e8b1e688-0",
+        "template--15917345144992__351b63f1-e016-469c-a58b-b3e8b2c342a5-1670556217e8b1e688-3"
+      ],
+      "settings": {
+      }
+    },
+    "image-text-2": {
+      "type": "kawa-image-text",
+      "blocks": {
+        "image-text-item-1": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/a_4ebf2d16-b3b8-4a30-8d51-50be4737cc42.jpg",
+            "title": "24-Hours Parking Mode",
+            "content": "D6 dash cam has 24-Hours Parking Mode. It requires continuous power and a mini USB Hard Wire Kit (NOT included in the package). Please go to amazon.com and search.\nThis parking mode allows you to record the whole night while you are away."
+          }
+        },
+        "image-text-item-2": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/b.jpg",
+            "title": "Wide Angle",
+            "content": "With 145°wide-angle, this dash cam enables you to monitor more lanes without blind spots. Taking into account the vehicle condition of the left and right lanes."
+          }
+        },
+        "image-text-item-3": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/c.jpg",
+            "title": "360 Rotation",
+            "content": "Ultra-compact and hidden design dashcam while achieving 360 ° rotation, you can easily view both the outside scenery and the inside conditions of your car."
+          }
+        }
+      },
+      "block_order": [
+        "image-text-item-1",
+        "image-text-item-2",
+        "image-text-item-3"
+      ],
+      "settings": {
+      }
+    },
+    "b5574955-4e4a-4d4c-8849-d1adf0874599": {
+      "type": "kawa-image-text",
+      "blocks": {
+        "template--15917345144992__b5574955-4e4a-4d4c-8849-d1adf0874599-167064044697626061-0": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/d.jpg",
+            "title": "Simple and Fast Installation",
+            "content": "Simple and fast installation within minutes with the contained adhesive tape, and without dismantling the car or hurt the car film."
+          }
+        },
+        "template--15917345144992__b5574955-4e4a-4d4c-8849-d1adf0874599-167064044697626061-1": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/e.jpg",
+            "title": "Up to 256G TF Card Recording",
+            "content": "We understand how important it is to have a dash cam that can support the largest memory card in the industry. That's why the KAWA D6 is designed to support Micro-SD cards up to 256GB. (Note: The memory card is NOT included in the package.)"
+          }
+        },
+        "template--15917345144992__b5574955-4e4a-4d4c-8849-d1adf0874599-167064044697626061-2": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/f.jpg",
+            "title": "WDR - Wide Dynamic Range",
+            "content": "When the sun directly exposes the camera, the image will be overexposed (brighter image) and when in the opposite direction the image will be underexposed (darker image). So, how to get over and create a robust image so that it doesn't lose its details regardless of various light exposures?\nThat's when the D6's WDR feature comes into play. By activating the WDR function you will get a beautiful clearer and more robust image."
+          }
+        }
+      },
+      "block_order": [
+        "template--15917345144992__b5574955-4e4a-4d4c-8849-d1adf0874599-167064044697626061-0",
+        "template--15917345144992__b5574955-4e4a-4d4c-8849-d1adf0874599-167064044697626061-1",
+        "template--15917345144992__b5574955-4e4a-4d4c-8849-d1adf0874599-167064044697626061-2"
+      ],
+      "settings": {
+      }
+    },
+    "phone-preview": {
+      "type": "kawa-phone-preview",
+      "disabled": true,
+      "settings": {
+        "img_width": 310,
+        "img_height": 700,
+        "img_1": "shopify:\/\/shop_images\/05_2.jpg",
+        "img_2": "shopify:\/\/shop_images\/05_1.jpg",
+        "img_3": "shopify:\/\/shop_images\/05_3.jpg"
+      }
+    },
+    "video-text": {
+      "type": "kawa-video-text",
+      "disabled": true,
+      "settings": {
+        "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/d74c0ff0b4ac499ab5608e27669ad140.mp4",
+        "title": "Instant Sound Alert",
+        "content": "Built-in microphone can pick up low sound up to 20ft away from your baby’s room for louder volume and crisper audio. Get alerted immediately when your baby needs you via the advanced sound detection technology.",
+        "warning": ""
+      }
+    },
+    "product-comparison": {
+      "type": "kawa-product-comparison",
+      "disabled": true,
+      "settings": {
+        "title": "Product Comparison",
+        "product_1": "baby-monitor-camera-s6-with-tx",
+        "product_2": "kawa-5-720p-hd-display-video-baby-monitor-with-night-vision-temperature-sensor-2-way-audio-pan-tilt-zoom-white-noise-lullaby-20-hours-battery-1000ft-range",
+        "product_desc_1": "<p>Sleep tracking and insights<br>(Sleep time, heart rate, movements, history analysis)<\/p><p>Prompts when uncomfortable sleep is detected<\/p><p>2K video and night vision<\/p><p>330° pan, 110° tilt<\/p><p>Room temperature and sound notifications<\/p><p>Two-way talk<\/p><p>5\" touchscreen<\/p><p>Livestream on display and app<\/p><p>Real-time sleep data on display and app<\/p><p>Smart alerts on display and app<\/p>",
+        "product_desc_2": "<p>Sleep tracking and insights<br>(Sleep time, heart rate, movements, history analysis)<\/p><p>Prompts when uncomfortable sleep is detected<\/p><p>2K video and night vision<\/p><p>330° pan, 110° tilt<\/p><p>Room temperature and sound notifications<\/p><p>Two-way talk<\/p><p>LED indicators on baby's status<\/p><p>Livestream on app<\/p><p>Real-time sleep data on app<br> <\/p><p>Smart alerts on app<\/p>"
+      }
+    },
+    "specifications": {
+      "type": "kawa-product-specifications",
+      "disabled": true,
+      "settings": {
+        "title": "Specs"
+      }
+    },
+    "alexa-video": {
+      "type": "kawa-alexa-video",
+      "settings": {
+        "title": "Support Guidance Videos for you",
+        "jump_link": "https:\/\/www.kawa-in.com\/blogs\/kawa-dash-cam-d6\/how-to-install-your-dash-cam-d6-on-your-car",
+        "jump_text": "How to install your Dash Cam D6 on your car?",
+        "cover_image": "shopify:\/\/shop_images\/317F357E-7C16-44ae-89EB-59D87FEE2951.png",
+        "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e37d71a3a79a45459c45965d719f565a.mp4"
+      }
+    },
+    "faq": {
+      "type": "kawa-faq",
+      "blocks": {
+        "faq-1": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What if the mobile phone can't search the recorder WiFi?",
+            "solution": "1. Please confirm the blue or green breathing state of the device indicator (if the indicator is not breathing, try clicking the power button once to turn on the device's WiFi hotspot).\n2. Please keep your mobile phone close to the recorder (within 0.5m is recommended)."
+          }
+        },
+        "faq-2": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How to deal with the abnormal memory when the dash cam is in use?",
+            "solution": "Format the memory card of the recorder. If the memory is still abnormal, it is recommended to replace it with a new memory card of Class 10 or above."
+          }
+        },
+        "faq-3": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Why the APP won't show the real time recording?",
+            "solution": "The APP needs to be connected to the DVR dedicated wireless network to watch videos in real time. Please switch the mobile WiFi network to \"KAWA_D6_XXXX\", and then enter the APP to view the real-time video."
+          }
+        },
+        "faq-4": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How to activate this dash cam's parking monitoring function?",
+            "solution": "KAWA D6 only supports 24-hour recording when connected to the parking monitoring line (not included in the package). If parking monitoring function is required, please purchase another parking monitoring cable and connect the hardwire kit to your fuse box. (If you do not know how to install the hardwire kit, please ask a professional for help)"
+          }
+        },
+        "08a59491-fcd3-4a8f-a1ab-3b6b04879c5f": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How does the recorder format the memory card?",
+            "solution": "After the APP is successfully connected to the recorder, enter the real-time interface, click the setting button in the upper right corner to enter the setting interface, select Micro SD Card Manage, and then select Formatting to format. Or, click the Power Key three times of succession to format the memory card."
+          }
+        }
+      },
+      "block_order": [
+        "faq-1",
+        "faq-2",
+        "faq-3",
+        "faq-4",
+        "08a59491-fcd3-4a8f-a1ab-3b6b04879c5f"
+      ],
+      "settings": {
+        "title": "FAQ"
+      }
+    },
+    "product-buy": {
+      "type": "kawa-product-buy",
+      "settings": {
+      }
+    },
+    "carousel-2": {
+      "type": "kawa-main-product-carousel",
+      "disabled": true,
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "banner",
+    "video",
+    "tabs",
+    "carousel-1",
+    "image-text-1",
+    "351b63f1-e016-469c-a58b-b3e8b2c342a5",
+    "image-text-2",
+    "b5574955-4e4a-4d4c-8849-d1adf0874599",
+    "phone-preview",
+    "video-text",
+    "product-comparison",
+    "specifications",
+    "alexa-video",
+    "faq",
+    "product-buy",
+    "carousel-2"
+  ]
+}
