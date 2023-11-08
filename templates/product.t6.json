@@ -38,6 +38,7 @@
         "store-info-item-3",
         "store-info-item-4"
       ],
+      "disabled": true,
       "settings": {
         "discount_code": "WS24S360",
         "show_comment": false,
@@ -50,6 +51,7 @@
     },
     "product-buy": {
       "type": "kawa-product-buy",
+      "disabled": true,
       "settings": {
       }
     },
@@ -57,6 +59,7 @@
       "type": "kawa-main-product-banner",
       "disabled": true,
       "settings": {
+        "banner_image": "shopify:\/\/shop_images\/2k_71e2e50c-9531-44b4-a69c-5ffaa6d41796.jpg"
       }
     },
     "video": {
@@ -417,6 +420,53 @@
         "des_color": "#555555",
         "des": "In medieval Europe,the unicorn became associated with Christianity,and was often depicted as a symbol of Christ or the Virgin Mary.It was believed that the horn of the unicorn had magical properties,and could purify water,heal sickness."
       }
+    },
+    "3fc645ad-1158-4e95-bb37-5293330ea4ae": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16208835510432__3fc645ad-1158-4e95-bb37-5293330ea4ae-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--16208835510432__3fc645ad-1158-4e95-bb37-5293330ea4ae-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--16208835510432__3fc645ad-1158-4e95-bb37-5293330ea4ae-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16208835510432__3fc645ad-1158-4e95-bb37-5293330ea4ae-heading-1",
+        "template--16208835510432__3fc645ad-1158-4e95-bb37-5293330ea4ae-text-1",
+        "template--16208835510432__3fc645ad-1158-4e95-bb37-5293330ea4ae-buttons-1"
+      ],
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -440,6 +490,7 @@
     "banner-text-new",
     "video-text-new",
     "image-text-new",
-    "text-new"
+    "text-new",
+    "3fc645ad-1158-4e95-bb37-5293330ea4ae"
   ]
 }
