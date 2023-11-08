@@ -351,13 +351,13 @@
           "type": "heading",
           "settings": {
             "heading": "Image with text",
-            "heading_size": "h1"
+            "heading_size": "h0"
           }
         },
         "template--16208835510432__abb722bf-e538-421a-8241-eb8bcbc67ff4-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Seamless Curves for Optimal Fit Ultra Magnetic Driver with Punchy Bass<\/p>",
             "text_style": "body"
           }
         },
@@ -375,6 +375,7 @@
         "template--16208835510432__abb722bf-e538-421a-8241-eb8bcbc67ff4-button-1"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/huawei-freebuds-5-kv-2.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
