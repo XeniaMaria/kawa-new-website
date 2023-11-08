@@ -1,4 +1,4 @@
-{% comment %} {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
+{{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
 
 {%- if section.settings.adapt_height_first_image and section.settings.image != blank -%}
   {%- style -%}
@@ -433,4 +433,3 @@
   ]
 }
 {% endschema %}
- {% endcomment %}
