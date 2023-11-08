@@ -62,14 +62,6 @@
         "banner_image": "shopify:\/\/shop_images\/2k_71e2e50c-9531-44b4-a69c-5ffaa6d41796.jpg"
       }
     },
-    "video": {
-      "type": "kawa-preview-video",
-      "settings": {
-        "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/57d135e474854c3b8973a129d0e52f70.mp4",
-        "max_width": "mw-1300-c",
-        "has_border": false
-      }
-    },
     "carousel-2": {
       "type": "kawa-main-product-carousel",
       "disabled": true,
@@ -352,51 +344,47 @@
         "des_color": "#555555"
       }
     },
-    "3fc645ad-1158-4e95-bb37-5293330ea4ae": {
-      "type": "image-banner",
+    "abb722bf-e538-421a-8241-eb8bcbc67ff4": {
+      "type": "image-with-text",
       "blocks": {
-        "template--16208835510432__3fc645ad-1158-4e95-bb37-5293330ea4ae-heading-1": {
+        "template--16208835510432__abb722bf-e538-421a-8241-eb8bcbc67ff4-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "Image with text",
             "heading_size": "h1"
           }
         },
-        "template--16208835510432__3fc645ad-1158-4e95-bb37-5293330ea4ae-text-1": {
+        "template--16208835510432__abb722bf-e538-421a-8241-eb8bcbc67ff4-text-1": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "text_style": "body"
           }
         },
-        "template--16208835510432__3fc645ad-1158-4e95-bb37-5293330ea4ae-buttons-1": {
-          "type": "buttons",
+        "template--16208835510432__abb722bf-e538-421a-8241-eb8bcbc67ff4-button-1": {
+          "type": "button",
           "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_label": "Button label",
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "template--16208835510432__3fc645ad-1158-4e95-bb37-5293330ea4ae-heading-1",
-        "template--16208835510432__3fc645ad-1158-4e95-bb37-5293330ea4ae-text-1",
-        "template--16208835510432__3fc645ad-1158-4e95-bb37-5293330ea4ae-buttons-1"
+        "template--16208835510432__abb722bf-e538-421a-8241-eb8bcbc67ff4-heading-1",
+        "template--16208835510432__abb722bf-e538-421a-8241-eb8bcbc67ff4-text-1",
+        "template--16208835510432__abb722bf-e538-421a-8241-eb8bcbc67ff4-button-1"
       ],
       "settings": {
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
         "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
@@ -404,7 +392,6 @@
     "main",
     "product-buy",
     "banner",
-    "video",
     "carousel-2",
     "carousel-1",
     "image-text-1",
@@ -420,6 +407,6 @@
     "banner-text-new",
     "video-text-new",
     "image-text-new",
-    "3fc645ad-1158-4e95-bb37-5293330ea4ae"
+    "abb722bf-e538-421a-8241-eb8bcbc67ff4"
   ]
 }
