@@ -210,7 +210,7 @@
           "type": "tab",
           "settings": {
             "title": "Overview",
-            "section-id": "#Overview",
+            "section-id": "Overview",
             "url": ""
           }
         },
@@ -218,7 +218,7 @@
           "type": "tab",
           "settings": {
             "title": "Comparison",
-            "section-id": "#Comparison",
+            "section-id": "Comparison",
             "url": ""
           }
         },
