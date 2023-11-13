@@ -51,7 +51,7 @@
     "banner": {
       "type": "kawa-main-product-banner",
       "settings": {
-        "banner_image": "shopify:\/\/shop_images\/3.png"
+        "banner_image": "shopify:\/\/shop_images\/3_b74bfb0f-a5ce-4a9d-b77e-56e57a7a00fa.jpg"
       }
     },
     "video": {
@@ -69,15 +69,17 @@
         "tab-1": {
           "type": "tab_item",
           "settings": {
-            "name": "The lake at night",
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/7a32c1ec51c44d6a940d063bcf94c88f.mp4"
+            "name": "The playing dog",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/72828a133e5e41b4add5f3d48f15dc82.mp4",
+            "cover_image": "shopify:\/\/shop_images\/t6_5a768803-84f1-4216-b2a2-0789b4b4b7be.jpg"
           }
         },
         "tab-2": {
           "type": "tab_item",
           "settings": {
-            "name": "The Train Theme Park at night",
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/24e85823a546484d8e1188597a85ee4c.mp4"
+            "name": "The driveway at night",
+            "video_link": "",
+            "cover_image": "shopify:\/\/shop_images\/t6_63084e41-aea1-4502-8e0b-b32a943893b9.jpg"
           }
         },
         "tab-3": {
