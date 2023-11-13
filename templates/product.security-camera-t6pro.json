@@ -69,16 +69,17 @@
         "tab-1": {
           "type": "tab_item",
           "settings": {
-            "name": "A playing dog",
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/72828a133e5e41b4add5f3d48f15dc82.mp4",
-            "cover_image": "shopify:\/\/shop_images\/t6_5a768803-84f1-4216-b2a2-0789b4b4b7be.jpg"
+            "name": "The calm sea at night",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6b9fa804d41b4adab663a1df066c3982.mp4",
+            "cover_image": "shopify:\/\/shop_images\/t6_pro_207f9f30-f0b2-473d-bf32-067449af4f55.jpg"
           }
         },
         "tab-2": {
           "type": "tab_item",
           "settings": {
-            "name": "The night scene outside the house",
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6f6ca3f9cfbb4858a2f32b9d7695486e.mp4"
+            "name": "The train theme park at night",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/24e85823a546484d8e1188597a85ee4c.mp4",
+            "cover_image": "shopify:\/\/shop_images\/t6_pro_f65d9112-2fb6-4722-afd0-2a1b9751fbdd.jpg"
           }
         },
         "tab-3": {
