@@ -103,39 +103,13 @@
     },
     "carousel-1": {
       "type": "kawa-main-product-carousel",
-      "blocks": {
-        "carousel-item-2": {
-          "type": "carousel_item",
-          "settings": {
-            "name": "",
-            "title": "",
-            "content": "",
-            "image": "shopify:\/\/shop_images\/2_d03ef84a-3ce4-490a-af7a-d10251c3e49b.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "carousel-item-2"
-      ],
+      "disabled": true,
       "settings": {
       }
     },
     "carousel-2": {
       "type": "kawa-main-product-carousel",
-      "blocks": {
-        "carousel-item-1": {
-          "type": "carousel_item",
-          "settings": {
-            "name": "",
-            "title": "",
-            "content": "",
-            "image": "shopify:\/\/shop_images\/5.png"
-          }
-        }
-      },
-      "block_order": [
-        "carousel-item-1"
-      ],
+      "disabled": true,
       "settings": {
       }
     },
@@ -151,6 +125,33 @@
         "content_1": "",
         "content_2": "",
         "content_3": ""
+      }
+    },
+    "8db81a12-14e9-41dc-91a2-e7bf53e7dcad": {
+      "type": "kawa-image-text",
+      "blocks": {
+        "template--16198576308384__8db81a12-14e9-41dc-91a2-e7bf53e7dcad-image_text-1": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_d03ef84a-3ce4-490a-af7a-d10251c3e49b.jpg",
+            "title": "",
+            "content": ""
+          }
+        },
+        "template--16198576308384__8db81a12-14e9-41dc-91a2-e7bf53e7dcad-image_text-2": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5.png",
+            "title": "",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16198576308384__8db81a12-14e9-41dc-91a2-e7bf53e7dcad-image_text-1",
+        "template--16198576308384__8db81a12-14e9-41dc-91a2-e7bf53e7dcad-image_text-2"
+      ],
+      "settings": {
       }
     },
     "image-text-1": {
@@ -463,6 +464,7 @@
     "carousel-1",
     "carousel-2",
     "phone-preview",
+    "8db81a12-14e9-41dc-91a2-e7bf53e7dcad",
     "image-text-1",
     "d8b4f897-ded4-4667-a220-bf7642691a4b",
     "e83c446f-7996-44ea-b1f7-204d90d1e9bd",
