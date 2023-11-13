@@ -86,7 +86,8 @@
           "type": "tab_item",
           "settings": {
             "name": "The Talking People",
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0fe06a9dfc224b909886c4711abe5887.mp4"
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0fe06a9dfc224b909886c4711abe5887.mp4",
+            "cover_image": "shopify:\/\/shop_images\/t6_f53a0eaa-5cad-4bd6-a244-fb90f758586a.jpg"
           }
         }
       },
@@ -97,7 +98,7 @@
       ],
       "settings": {
         "title": "True Color Night Vision",
-        "description": "The key to KAWA T6’s performance lies in its innovative features. The cameras are equipped with a 1\/1.79\" stacked CMOS sensor that enhances data analysis speed and ensures superior night vision capabilities. Furthermore, KAWA T6 security camera boasts an F1.0 super-large aperture lens. This substantial increase in light collection significantly enhances visibility in low-light environments. With an exceptional 4MP super HD resolution of 2560*1440, KAWA T6 security camera provides crystal-clear image details. Its true color night vision technology ensures vivid and accurate color representation even in the darkest conditions. To achieve true color night vision, KAWA T6 relies not only on the lens and sensor technology but also on powerful chipsets and advanced algorithms. The camera features a quad-core Cortex-A7 CPU, clocked at up to 1GHz, significantly boosting overall performance. Additionally, the NPU (Neural Processing Unit) operates at 4TOPs@INT4, delivering four times faster deep neural network-based AI computing."
+        "description": "The key to KAWA T6’s performance lies in its innovative features. The cameras are equipped with a 1\/3\" stacked CMOS sensor that enhances data analysis speed and ensures superior night vision capabilities. Furthermore, KAWA T6 security camera boasts an F1.0 super-large aperture lens. This substantial increase in light collection significantly enhances visibility in low-light environments. With an exceptional 4MP super HD resolution, KAWA T6 security camera provides crystal-clear image details. Its true color night vision technology ensures vivid and accurate color representation even in the darkest conditions. To achieve true color night vision, KAWA T6 relies not only on the lens and sensor technology but also on powerful chipsets and advanced algorithms. The camera features a quad-core Cortex-A7 CPU, clocked at up to 1GHz, significantly boosting overall performance. Additionally, the NPU (Neural Processing Unit) operates at 4TOPs@INT4, delivering four times faster deep neural network-based AI computing."
       }
     },
     "carousel-1": {
@@ -122,19 +123,32 @@
     },
     "carousel-2": {
       "type": "kawa-main-product-carousel",
+      "settings": {
+      }
+    },
+    "70efe243-7dea-4d33-b11d-eb486444fa6b": {
+      "type": "kawa-image-text",
       "blocks": {
-        "carousel-item-1": {
-          "type": "carousel_item",
+        "template--16198507331744__70efe243-7dea-4d33-b11d-eb486444fa6b-image_text-1": {
+          "type": "image_text",
           "settings": {
-            "name": "",
+            "image": "shopify:\/\/shop_images\/2_9800966c-509b-4975-a5ca-d13a65576347.jpg",
             "title": "",
-            "content": "",
-            "image": "shopify:\/\/shop_images\/5.png"
+            "content": ""
+          }
+        },
+        "template--16198507331744__70efe243-7dea-4d33-b11d-eb486444fa6b-image_text-4": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5.png",
+            "title": "",
+            "content": ""
           }
         }
       },
       "block_order": [
-        "carousel-item-1"
+        "template--16198507331744__70efe243-7dea-4d33-b11d-eb486444fa6b-image_text-1",
+        "template--16198507331744__70efe243-7dea-4d33-b11d-eb486444fa6b-image_text-4"
       ],
       "settings": {
       }
@@ -188,7 +202,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/d451f4d68dc4da984461545edac1a2b9.gif",
             "title": "Talking, Siren & Spotlights - Warning Help",
-            "content": "While KAWA T6\/T6 Pro security cameras excel at delivering true color night vision without the need for supplemental lighting, we have equipped these cameras with spotlights to provide additional alert assistance. For instance, you have the option to activate the spotlight to deter potential intruders or threats effectively. Also, the cameras support two-way audio, you can talk and listen to the camera even when you are outside."
+            "content": "While KAWA T6 security cameras excel at delivering true color night vision without the need for supplemental lighting, we have equipped these cameras with spotlights to provide additional alert assistance. For instance, you have the option to activate the spotlight to deter potential intruders or threats effectively. Also, the cameras support two-way audio, you can talk and listen to the camera even when you are outside."
           }
         },
         "template--16198507331744__d8b4f897-ded4-4667-a220-bf7642691a4b-image_text-2": {
@@ -196,13 +210,39 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/alexa.gif",
             "title": "More Convenience, Work with Alexa",
-            "content": ""
+            "content": "Control it with your voice. Just ask Alexa to show the video of your camera on the Echo Spot, Echo Show or Fire TVs, and everything is done."
           }
         }
       },
       "block_order": [
         "template--16198507331744__d8b4f897-ded4-4667-a220-bf7642691a4b-image_text-1",
         "template--16198507331744__d8b4f897-ded4-4667-a220-bf7642691a4b-image_text-2"
+      ],
+      "settings": {
+      }
+    },
+    "3a5e31f7-a50f-461d-9f17-32d51bea1a24": {
+      "type": "kawa-image-text",
+      "blocks": {
+        "template--16198507331744__3a5e31f7-a50f-461d-9f17-32d51bea1a24-image_text-1": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/t6_256_g.jpg",
+            "title": "Diverse Storage Functions",
+            "content": "KAWA T6 security cameras are equipped with advanced H.265 compression video coding, supporting up to 256GB micro SD card, and also cloud storage. You can check the recordings stored in the card\/cloud via KAWA AIoT App and connect the card to the computer to check the recordings."
+          }
+        },
+        "template--16198507331744__3a5e31f7-a50f-461d-9f17-32d51bea1a24-image_text-2": {
+          "type": "image_text",
+          "settings": {
+            "title": "Suitable for All Weathers",
+            "content": "No matter the weather conditions—rainy, windy, or snowy—KAWA T6 cameras are designed to withstand and excel in any climate. Rest assured, these cameras are built to endure and deliver reliable performance regardless of outdoor conditions."
+          }
+        }
+      },
+      "block_order": [
+        "template--16198507331744__3a5e31f7-a50f-461d-9f17-32d51bea1a24-image_text-1",
+        "template--16198507331744__3a5e31f7-a50f-461d-9f17-32d51bea1a24-image_text-2"
       ],
       "settings": {
       }
@@ -339,6 +379,92 @@
       "disabled": true,
       "settings": {
       }
+    },
+    "965a4717-8973-4af3-bfd7-2c901aea0ea7": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16198507331744__965a4717-8973-4af3-bfd7-2c901aea0ea7-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "What's in the box?",
+            "heading_size": "h1"
+          }
+        },
+        "template--16198507331744__965a4717-8973-4af3-bfd7-2c901aea0ea7-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>1 x KAWA T6 pro camera<\/p><p>1 x DC power adapter<\/p><p>1 x User manual<\/p><p>1 x Mounting gasket<\/p><p>1 x Waterproof kit<\/p><p>2 x Positioning stickers<\/p><p>1 x Screw set<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--16198507331744__965a4717-8973-4af3-bfd7-2c901aea0ea7-heading-1",
+        "template--16198507331744__965a4717-8973-4af3-bfd7-2c901aea0ea7-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/11-1_dc181b6e-64fb-4c60-9946-046fcd9fc171.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "4a3cfe13-ab09-4b22-b776-6e12a4e7b4b9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16198507331744__4a3cfe13-ab09-4b22-b776-6e12a4e7b4b9-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h1><strong>Size and Details<\/strong><\/h1>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--16198507331744__4a3cfe13-ab09-4b22-b776-6e12a4e7b4b9-heading-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "16a7517e-54d6-4c99-a6e0-f11617da7713": {
+      "type": "kawa-image-text",
+      "blocks": {
+        "template--16198507331744__16a7517e-54d6-4c99-a6e0-f11617da7713-image_text-1": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/10_4a26cad2-48ea-463d-be02-183829bc5eec.jpg",
+            "title": "",
+            "content": ""
+          }
+        },
+        "template--16198507331744__16a7517e-54d6-4c99-a6e0-f11617da7713-image_text-2": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9_40e043a1-656a-4eaa-86fd-936c21940997.jpg",
+            "title": "",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16198507331744__16a7517e-54d6-4c99-a6e0-f11617da7713-image_text-1",
+        "template--16198507331744__16a7517e-54d6-4c99-a6e0-f11617da7713-image_text-2"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -348,15 +474,20 @@
     "tabs",
     "carousel-1",
     "carousel-2",
+    "70efe243-7dea-4d33-b11d-eb486444fa6b",
     "phone-preview",
     "image-text-1",
     "d8b4f897-ded4-4667-a220-bf7642691a4b",
+    "3a5e31f7-a50f-461d-9f17-32d51bea1a24",
     "video-text",
     "image-text-2",
     "product-comparison",
     "specifications",
     "faq",
     "alexa-video",
-    "product-buy"
+    "product-buy",
+    "965a4717-8973-4af3-bfd7-2c901aea0ea7",
+    "4a3cfe13-ab09-4b22-b776-6e12a4e7b4b9",
+    "16a7517e-54d6-4c99-a6e0-f11617da7713"
   ]
 }
