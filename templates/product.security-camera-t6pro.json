@@ -70,7 +70,8 @@
           "type": "tab_item",
           "settings": {
             "name": "A playing dog",
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/72828a133e5e41b4add5f3d48f15dc82.mp4"
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/72828a133e5e41b4add5f3d48f15dc82.mp4",
+            "cover_image": "shopify:\/\/shop_images\/t6_5a768803-84f1-4216-b2a2-0789b4b4b7be.jpg"
           }
         },
         "tab-2": {
@@ -84,7 +85,8 @@
           "type": "tab_item",
           "settings": {
             "name": "The driveway at night",
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/851504bd80fb4266a2e4fe84e4ea644c.mp4"
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/851504bd80fb4266a2e4fe84e4ea644c.mp4",
+            "cover_image": "shopify:\/\/shop_images\/t6_pro.jpg"
           }
         }
       },
@@ -193,13 +195,40 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/alexa.gif",
             "title": "More Convenience, Work with Alexa",
-            "content": ""
+            "content": "Control it with your voice. Just ask Alexa to show the video of your camera on the Echo Spot, Echo Show or Fire TVs, and everything is done."
           }
         }
       },
       "block_order": [
         "template--16198507331744__d8b4f897-ded4-4667-a220-bf7642691a4b-image_text-1",
         "template--16198507331744__d8b4f897-ded4-4667-a220-bf7642691a4b-image_text-2"
+      ],
+      "settings": {
+      }
+    },
+    "e83c446f-7996-44ea-b1f7-204d90d1e9bd": {
+      "type": "kawa-image-text",
+      "blocks": {
+        "template--16198576308384__e83c446f-7996-44ea-b1f7-204d90d1e9bd-image_text-1": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/t6_pro_256_g.jpg",
+            "title": "Diverse Storage Functions",
+            "content": "KAWA T6 pro security cameras are equipped with advanced H.265 compression video coding, supporting up to 256GB micro SD card, and also cloud storage. You can check the recordings stored in the card\/cloud via KAWA AIoT App and connect the card to the computer to check the recordings."
+          }
+        },
+        "template--16198576308384__e83c446f-7996-44ea-b1f7-204d90d1e9bd-image_text-2": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/80a8924c0b1024315f31a72b1541cfbc_8276d081-bd92-4e7f-aecb-f3ce9188320d.gif",
+            "title": "Suitable for All Weathers",
+            "content": "No matter the weather conditions—rainy, windy, or snowy—KAWA T6 Pro cameras are designed to withstand and excel in any climate. Rest assured, these cameras are built to endure and deliver reliable performance regardless of outdoor conditions."
+          }
+        }
+      },
+      "block_order": [
+        "template--16198576308384__e83c446f-7996-44ea-b1f7-204d90d1e9bd-image_text-1",
+        "template--16198576308384__e83c446f-7996-44ea-b1f7-204d90d1e9bd-image_text-2"
       ],
       "settings": {
       }
@@ -273,6 +302,7 @@
     },
     "specifications": {
       "type": "kawa-product-specifications",
+      "disabled": true,
       "settings": {
         "title": "Specs"
       }
@@ -336,6 +366,92 @@
       "disabled": true,
       "settings": {
       }
+    },
+    "3191df4e-12f6-49b5-9dec-cc39a9462e41": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16198576308384__3191df4e-12f6-49b5-9dec-cc39a9462e41-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "What's in the box?",
+            "heading_size": "h1"
+          }
+        },
+        "template--16198576308384__3191df4e-12f6-49b5-9dec-cc39a9462e41-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>1 x KAWA T6 pro camera<\/p><p>1 x DC power adapter<\/p><p>1 x User manual<\/p><p>1 x Mounting gasket<\/p><p>1 x Waterproof kit<\/p><p>2 x Positioning stickers<\/p><p>1 x Screw set<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--16198576308384__3191df4e-12f6-49b5-9dec-cc39a9462e41-heading-1",
+        "template--16198576308384__3191df4e-12f6-49b5-9dec-cc39a9462e41-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/11-2_c8039dd0-6ef3-4f3d-9eb2-379c6fa4bc7e.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "0b4f3419-1c52-402a-9e6d-bf3657282bf0": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16198576308384__0b4f3419-1c52-402a-9e6d-bf3657282bf0-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Size and Details<\/p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--16198576308384__0b4f3419-1c52-402a-9e6d-bf3657282bf0-heading-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "b0ada85e-49c3-44bf-960e-69346ba00522": {
+      "type": "kawa-image-text",
+      "blocks": {
+        "template--16198576308384__b0ada85e-49c3-44bf-960e-69346ba00522-image_text-1": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/10_4129eb08-6c80-4ab5-9e7f-f78a71aa64ca.png",
+            "title": "",
+            "content": ""
+          }
+        },
+        "template--16198576308384__b0ada85e-49c3-44bf-960e-69346ba00522-image_text-2": {
+          "type": "image_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9_01b27aec-acdd-4009-a310-3835696d66f6.png",
+            "title": "",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16198576308384__b0ada85e-49c3-44bf-960e-69346ba00522-image_text-1",
+        "template--16198576308384__b0ada85e-49c3-44bf-960e-69346ba00522-image_text-2"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -348,12 +464,16 @@
     "phone-preview",
     "image-text-1",
     "d8b4f897-ded4-4667-a220-bf7642691a4b",
+    "e83c446f-7996-44ea-b1f7-204d90d1e9bd",
     "video-text",
     "image-text-2",
     "product-comparison",
     "specifications",
     "faq",
     "alexa-video",
-    "product-buy"
+    "product-buy",
+    "3191df4e-12f6-49b5-9dec-cc39a9462e41",
+    "0b4f3419-1c52-402a-9e6d-bf3657282bf0",
+    "b0ada85e-49c3-44bf-960e-69346ba00522"
   ]
 }
