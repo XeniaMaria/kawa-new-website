@@ -235,6 +235,7 @@
         "template--16198507331744__3a5e31f7-a50f-461d-9f17-32d51bea1a24-image_text-2": {
           "type": "image_text",
           "settings": {
+            "image": "shopify:\/\/shop_images\/t6.gif",
             "title": "Suitable for All Weathers",
             "content": "No matter the weather conditions—rainy, windy, or snowy—KAWA T6 cameras are designed to withstand and excel in any climate. Rest assured, these cameras are built to endure and deliver reliable performance regardless of outdoor conditions."
           }
@@ -393,7 +394,7 @@
         "template--16198507331744__965a4717-8973-4af3-bfd7-2c901aea0ea7-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>1 x KAWA T6 camera<\/p><p>1 x DC power adapter<\/p><p>1 x User manual<\/p><p>1 x Mounting gasket<\/p><p>1 x Waterproof kit<\/p><p>2 x Positioning stickers<\/p><p>1 x Screw set<\/p>",
+            "text": "<p>1 x KAWA T6 pro camera<\/p><p>1 x DC power adapter<\/p><p>1 x User manual<\/p><p>1 x Mounting gasket<\/p><p>1 x Waterproof kit<\/p><p>2 x Positioning stickers<\/p><p>1 x Screw set<\/p>",
             "text_style": "body"
           }
         }
