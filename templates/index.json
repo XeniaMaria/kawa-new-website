@@ -2,6 +2,22 @@
   "sections": {
     "6617e918-4f16-45b7-a0d8-64c251fe0091": {
       "type": "kawa-main-banner-new",
+      "blocks": {
+        "29c6f14a-6fc0-46d7-90ab-49e45dbc3474": {
+          "type": "image_carousel_item",
+          "settings": {
+            "text_top": "",
+            "text_middle": "",
+            "text_bottom": "",
+            "btn_text": "",
+            "btn_target": "",
+            "image_pc": "shopify:\/\/shop_images\/pc_f3604c54-a426-45f2-95e9-0d95b8de6d6d.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "29c6f14a-6fc0-46d7-90ab-49e45dbc3474"
+      ],
       "settings": {
         "banner_type": "image",
         "text_top": "",
