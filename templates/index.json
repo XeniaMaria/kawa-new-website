@@ -2,22 +2,6 @@
   "sections": {
     "6617e918-4f16-45b7-a0d8-64c251fe0091": {
       "type": "kawa-main-banner-new",
-      "blocks": {
-        "29c6f14a-6fc0-46d7-90ab-49e45dbc3474": {
-          "type": "image_carousel_item",
-          "settings": {
-            "text_top": "",
-            "text_middle": "",
-            "text_bottom": "",
-            "btn_text": "",
-            "btn_target": "",
-            "image_pc": "shopify:\/\/shop_images\/pc_f3604c54-a426-45f2-95e9-0d95b8de6d6d.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "29c6f14a-6fc0-46d7-90ab-49e45dbc3474"
-      ],
       "settings": {
         "banner_type": "image",
         "text_top": "",
@@ -33,16 +17,15 @@
     },
     "f0187556-b504-4167-9f5f-cfae81d1b6c8": {
       "type": "kawa-main-banner-new",
-      "disabled": true,
       "settings": {
         "banner_type": "image",
         "text_top": "",
         "text_middle": "",
         "text_bottom": "",
-        "btn_text": "Check the Live Video",
-        "btn_target": "https:\/\/www.youtube.com\/watch?v=JppEL5pvihk&t=33205s",
-        "banner_image_pc": "shopify:\/\/shop_images\/youtub_a9d36acc-f663-4af4-9d2a-2ce0e14cc60e.jpg",
-        "banner_image_mb": "shopify:\/\/shop_images\/youtub_27d53616-ac17-422c-a313-e9013fe46a72.jpg",
+        "btn_text": "",
+        "btn_target": "",
+        "banner_image_pc": "shopify:\/\/shop_images\/pc_f3604c54-a426-45f2-95e9-0d95b8de6d6d.jpg",
+        "banner_image_mb": "shopify:\/\/shop_images\/3ef8122524d0884c15ce311fb9ab4d8a.jpg",
         "banner_video_pc": "",
         "banner_video_mb": ""
       }
