@@ -24,7 +24,6 @@
     },
     "flash-sale-1": {
       "type": "kawa-flash-sale",
-      "disabled": true,
       "blocks": {
         "flash-sale-product-1": {
           "type": "flash-sale-product",
@@ -47,12 +46,12 @@
         "flash-sale-product-1",
         "flash-sale-product-2"
       ],
+      "disabled": true,
       "settings": {
       }
     },
     "flash-sale-nav": {
       "type": "kawa-flash-sale-nav",
-      "disabled": true,
       "blocks": {
         "flash-sale-collection-1": {
           "type": "flash-sale-collection",
@@ -94,17 +93,17 @@
         "flash-sale-collection-2",
         "flash-sale-collection-3"
       ],
+      "disabled": true,
       "settings": {
       }
     },
     "flash-sale-2": {
       "type": "kawa-flash-sale",
-      "disabled": true,
       "blocks": {
         "flash-sale-product-1": {
           "type": "flash-sale-product",
           "settings": {
-            "product": "kawa-3mp-ip-camera-video-wifi-surveillance-cameras-indoor-security-cam-smart-home-baby-monitor-tracking-audio-alexa",
+            "product": "ip-camera-a7",
             "product_tags": "2K\/3MP,AI Human Detection,360°Panoramic View,Works with Alexa",
             "product_img": "shopify:\/\/shop_images\/13_300x300_ee7ccb48-d01c-41c3-9243-d15e06509557.jpg"
           }
@@ -113,7 +112,7 @@
           "type": "flash-sale-product",
           "disabled": true,
           "settings": {
-            "product": "kawa-3mp-ip-camera-video-wifi-surveillance-cameras-indoor-security-cam-smart-home-baby-monitor-tracking-audio-alexa",
+            "product": "ip-camera-a7",
             "product_tags": "Dual Lens,Person\/Vehicle Detection,180° View (Horizontal),4K Ultra HD"
           }
         }
@@ -122,12 +121,12 @@
         "flash-sale-product-1",
         "flash-sale-product-2"
       ],
+      "disabled": true,
       "settings": {
       }
     },
     "flash-sale-ad": {
       "type": "kawa-flash-sale-ad",
-      "disabled": true,
       "blocks": {
         "ad-block-1": {
           "type": "ad-block",
@@ -186,6 +185,7 @@
         "ad-block-5",
         "ad-block-6"
       ],
+      "disabled": true,
       "settings": {
         "title": "Why Pick Dual-Lens Security Cameras?",
         "description": "Kawa Duo Series security cameras equipped with two lenses allow you to see a much broader world with less distortion. Reolink TrackMix Series cameras are equipped with a telephoto lens and a wide-angle lens, providing wide-angle view and close-up view synchronously on the screen. It can also automatically track and zoom in on the detected objects.",
@@ -194,7 +194,6 @@
     },
     "flash-sale-comment": {
       "type": "kawa-flash-sale-comment",
-      "disabled": true,
       "blocks": {
         "comment-1": {
           "type": "comment",
@@ -202,7 +201,7 @@
             "star_number": 5,
             "comment_title": "It Works Perfectly!",
             "comment_content": "This is what I exactly need at home. Being away all day at work and having a helpful watchful eye so that I can easily check my phone give me peace of mind. It gives me notifications of any motion and sounds detections, is very easy to operate, simple manual instructions. What I like the most is the clarity of the camera captions, I can vividly see everything. It’s worth the price! I will recommend it to everyone home!",
-            "comment_product": "kawa-3mp-ip-camera-video-wifi-surveillance-cameras-indoor-security-cam-smart-home-baby-monitor-tracking-audio-alexa",
+            "comment_product": "ip-camera-a7",
             "username": "Amanda"
           }
         },
@@ -212,7 +211,7 @@
             "star_number": 5,
             "comment_title": "Fantastic Camera! Well worth the buy! Good value for price & Excellent App Features!",
             "comment_content": "The picture quality is fantastic, and motion detection picks up even the slightest motion, and micro-records it. I got a 32GB micro-SD for $10 and have extra capacity to record. Night vision is extremely good as well! Automatically switches modes when the lights go out. Two-way audio is beyond incredible!! Beats many other cameras (like Eufy, etc.) that I know other people have! The device is extremely reliable, and the application is excellent! Easy-to-use and friendly! BONUS is the near 360 pan and large tilt.",
-            "comment_product": "kawa-3mp-ip-camera-video-wifi-surveillance-cameras-indoor-security-cam-smart-home-baby-monitor-tracking-audio-alexa",
+            "comment_product": "ip-camera-a7",
             "username": "James"
           }
         },
@@ -232,13 +231,13 @@
         "comment-2",
         "comment-3"
       ],
+      "disabled": true,
       "settings": {
         "title": "Trusted by Hundreds of Thousands of Users"
       }
     },
     "flash-sale-explore": {
       "type": "kawa-flash-sale-explore",
-      "disabled": true,
       "blocks": {
         "flash-sale-collection-1": {
           "type": "flash-sale-collection",
@@ -270,6 +269,7 @@
         "flash-sale-collection-2",
         "flash-sale-collection-3"
       ],
+      "disabled": true,
       "settings": {
         "title": "Explore Other Categories"
       }
