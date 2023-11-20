@@ -1,0 +1,89 @@
+{
+  "sections": {
+    "test-club": {
+      "type": "kawa-test-club",
+      "blocks": {
+        "product_card_1": {
+          "type": "testing_product_card",
+          "settings": {
+            "card_product": "baby-monitor-camera-s6-with-tx",
+            "required": 5,
+            "applied": 382,
+            "star_number": 4,
+            "comment_number": 312,
+            "valid_area": "US",
+            "comment_1_name": "Cassiopée Martin",
+            "comment_1_date": "June 23, 2022",
+            "comment_1_star_number": 5,
+            "comment_1_content": "I do enjoy this site, there are any good freebies on here you can test out. I do not like the paypal fees that are taken out of your funds when you transfer everything. Wish there were a different way to get the funds transferred without having to lose some to paypal fees. All in all, it is a pretty good site with a good abundance of items.",
+            "comment_2_name": "Nate Hardy",
+            "comment_2_date": "June 23, 2022",
+            "comment_2_star_number": 5,
+            "comment_2_content": "I have a very good experience with all products that I got and tested. I use them all.",
+            "comment_3_name": "Sarah K.",
+            "comment_3_date": "June 18, 2022",
+            "comment_3_star_number": 5,
+            "comment_3_content": "I love using this website it helped me a lot i didnt have money they saved me money and saved my life"
+          }
+        },
+        "product_card_2": {
+          "type": "testing_product_card",
+          "settings": {
+            "card_product": "kawa-5-720p-hd-display-video-baby-monitor-with-night-vision-temperature-sensor-2-way-audio-pan-tilt-zoom-white-noise-lullaby-20-hours-battery-1000ft-range",
+            "required": 5,
+            "applied": 382,
+            "star_number": 4.5,
+            "comment_number": 383,
+            "valid_area": "US",
+            "comment_1_name": "Cassiopée Martin",
+            "comment_1_date": "June 23, 2022",
+            "comment_1_star_number": 5,
+            "comment_1_content": "I do enjoy this site, there are any good freebies on here you can test out. I do not like the paypal fees that are taken out of your funds when you transfer everything. Wish there were a different way to get the funds transferred without having to lose some to paypal fees. All in all, it is a pretty good site with a good abundance of items.",
+            "comment_2_name": "Nate Hardy",
+            "comment_2_date": "June 23, 2022",
+            "comment_2_star_number": 5,
+            "comment_2_content": "I have a very good experience with all products that I got and tested. I use them all.",
+            "comment_3_name": "Sarah K.",
+            "comment_3_date": "June 18, 2022",
+            "comment_3_star_number": 5,
+            "comment_3_content": "I love using this website it helped me a lot i didnt have money they saved me money and saved my life"
+          }
+        },
+        "product_card_3": {
+          "type": "testing_product_card",
+          "settings": {
+            "card_product": "baby-monitor-with-camera-and-audio-kawa-video-baby-monitor-no-wifi-5-720p-hd-display-110-wide-angle-night-vision-temperature-sensor-2-way-audio-ptz-white-noise-20hrs-battery-1000ft-range",
+            "required": 5,
+            "applied": 382,
+            "star_number": 5,
+            "comment_number": 182,
+            "valid_area": "US",
+            "comment_1_name": "Cassiopée Martin",
+            "comment_1_date": "June 23, 2022",
+            "comment_1_star_number": 5,
+            "comment_1_content": "I do enjoy this site, there are any good freebies on here you can test out. I do not like the paypal fees that are taken out of your funds when you transfer everything. Wish there were a different way to get the funds transferred without having to lose some to paypal fees. All in all, it is a pretty good site with a good abundance of items.",
+            "comment_2_name": "Nate Hardy",
+            "comment_2_date": "June 23, 2022",
+            "comment_2_star_number": 5,
+            "comment_2_content": "I have a very good experience with all products that I got and tested. I use them all.",
+            "comment_3_name": "Sarah K.",
+            "comment_3_date": "June 18, 2022",
+            "comment_3_star_number": 5,
+            "comment_3_content": "I love using this website it helped me a lot i didnt have money they saved me money and saved my life"
+          }
+        }
+      },
+      "block_order": [
+        "product_card_1",
+        "product_card_2",
+        "product_card_3"
+      ],
+      "disabled": true,
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "test-club"
+  ]
+}
