@@ -56,6 +56,7 @@
     },
     "video": {
       "type": "kawa-preview-video",
+      "disabled": true,
       "settings": {
         "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4f0047d982584bec9654887e2ed34ed4.mp4",
         "cover_image": "shopify:\/\/shop_images\/1002_fd8eb1a0-fe37-4fc6-bed3-190ac1fb7fa7.jpg",
@@ -117,15 +118,6 @@
     "carousel-1": {
       "type": "kawa-main-product-carousel",
       "blocks": {
-        "carousel-item-1": {
-          "type": "carousel_item",
-          "settings": {
-            "name": "Recording & Playback",
-            "title": "Support local recording with TF \/ micro SD card.",
-            "content": "KAWA baby monitor with camera support TF\/micro SD card(not included) up to 256GB to record and playback every precious moment of your baby's growth.",
-            "image": "shopify:\/\/shop_images\/3_e109c935-62c5-4d6d-9a15-e2a810324197.jpg"
-          }
-        },
         "carousel-item-2": {
           "type": "carousel_item",
           "settings": {
@@ -137,7 +129,6 @@
         }
       },
       "block_order": [
-        "carousel-item-1",
         "carousel-item-2"
       ],
       "settings": {
@@ -167,6 +158,7 @@
         "image-text-item-1",
         "image-text-item-2"
       ],
+      "disabled": true,
       "settings": {
       }
     },
@@ -203,7 +195,7 @@
         "image-text-item-1": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/P1_7079470e-b96e-4f81-821c-4b083622a27a.jpg",
+            "image": "shopify:\/\/shop_images\/P1_6b9313c3-987b-461f-8f89-8953d69262cd.jpg",
             "title": "360° Panoramic View & 4X Zoom",
             "content": "Each corner is covered with pan 350° and tilt 67°, easily making the video monitor controlled remotely. Need a closer look? 4X zoom makes it possible to watch every detail of your baby more closely and clearly."
           }
@@ -211,7 +203,7 @@
         "image-text-item-2": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/A9-300-2_12fe38d1-0146-45b7-a33c-601326ba25ce.jpg",
+            "image": "shopify:\/\/shop_images\/A9-300-2_caff6d62-aca6-4000-81e1-2786797efcb9.jpg",
             "title": "Room Temperature Sensor",
             "content": "Built-in temperature sensor will notify you with a sound alert and message when the temp exceeds the set range. Ensure your baby is in a comfortable environment."
           }
@@ -219,7 +211,7 @@
         "image-text-item-3": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/7-1_14516d16-6c98-47f2-b214-cb76ad3895e8.jpg",
+            "image": "shopify:\/\/shop_images\/z6.jpg",
             "title": "2-Way Audio Intercom",
             "content": "Sometimes all your baby needs is to hear your voice. The convenient built-in microphone and speaker allow you to quickly and remotely soothe your baby, providing a full sense of security. So you can enjoy a peaceful morning in the kitchen or elsewhere in the home."
           }
@@ -227,7 +219,7 @@
         "image-text-item-4": {
           "type": "image_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/5_70692618-71e4-4ac6-848f-4e311c34249b.jpg",
+            "image": "shopify:\/\/shop_images\/6-1-300_9ada5c2a-f245-426c-b069-f669da813f2f.jpg",
             "title": "VOX Sleep\/Wake & Audio-only Mode",
             "content": "In optional Audio-only mode, you can also hear your baby's voice in real time with the screen off. In Smart VOX mode, the monitor screen will turn on when detecting a sudden voice, like crying or shouting from your baby. You will know instantly when you are needed."
           }
@@ -246,7 +238,7 @@
       "type": "kawa-product-comparison",
       "settings": {
         "title": "Product Comparison",
-        "product_1": "baby-monitor-camera-s7-with-tx",
+        "product_1": "kawa-baby-monitor-s7-yellow-bear-cover-with-camera-and-audio-2k-qhd-5-hd-display-video-baby-monitor-with-night-vision-temperature-sensor-2-way-audio-pan-tilt-zoom-white-noise-lullaby-20-hours-battery-life-1000ft-range",
         "product_2": "baby-monitor-camera-s6-with-tx",
         "product_desc_1": "<p>2K QHD Resolution<\/p><p>Support Recording\/Playback: Yes<br><\/p><p>Large 5'' IPS Display<\/p><p>Enhance Night Vision<\/p><p>Room Temperature and Sound Alert<\/p><p>Two-way talk<\/p><p>360° Panoramic View:  pan 350° and tilt 67°<\/p><p>VOX Mode \/ Audio-only<\/p><p>Long Battery &amp; Long Distance:<br>1000ft Range &amp; 4000mAh for Monitor.<br>Camera: plug in outlet.<\/p><p>Without the Risk of Hacking<br>No Wi-Fi, No APP<\/p>",
         "product_desc_2": "<p>720P Resolution<br><\/p><p>Support Recording\/Playback: No<\/p><p>Large 5'' IPS display<\/p><p>Enhance Night Vision<\/p><p>Room Temperature and Sound Alert<\/p><p>Two-way talk<\/p><p>360° Panoramic View:  pan 350° and tilt 67°<\/p><p>VOX Mode \/ Audio-only<\/p><p>Long Battery &amp; Long Distance:<br>1000ft Range &amp; 4000mAh for Monitor.<br>Camera: plug in outlet.<\/p><p>Without the Risk of Hacking<br>No Wi-Fi, No APP<\/p>"
