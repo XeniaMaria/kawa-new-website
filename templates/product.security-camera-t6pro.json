@@ -56,6 +56,7 @@
     },
     "video": {
       "type": "kawa-preview-video",
+      "disabled": true,
       "settings": {
         "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/b56f3048489f4ac593a41a003b79f079.mp4",
         "cover_image": "shopify:\/\/shop_images\/1-1.png",
