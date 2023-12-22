@@ -251,7 +251,21 @@
     },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "15683396631634586217": {
+        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "disabled": false,
+        "settings": {
+          "button_color": "#44b2e8",
+          "button_icon": "chat_bubble",
+          "button_horizontal_position": "bottom_right",
+          "button_vertical_position": "lowest",
+          "button_text": "chat_with_us",
+          "greeting_message": "👋 Free Gift. Get it now.👋                             This activity is about KAWA New Arrival 4K + 1080P Dual Dash cam D8. You will have the chance to get the KAWA 64GB Micro SD card and KAWA hardwire Kit, if you are interested in, please send us your name and email to register. We will reply you within 24 Hours. Thank you so much."
+        }
+      }
+    }
   },
   "presets": {
     "Default": {
