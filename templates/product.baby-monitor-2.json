@@ -1,0 +1,408 @@
+{
+  "sections": {
+    "main": {
+      "type": "kawa-main-product",
+      "blocks": {
+        "store-info-item-1": {
+          "type": "store_info_item",
+          "settings": {
+            "title": "Fast, Free Shipping",
+            "content": "<p>We offer free shipping straight to your door throughout the contiguous US*. It usually takes 3-7 business days* for your package to be delivered, so you can sit back and relax, worry-free.<\/p><p><\/p><p>*Please see our shipping policy for more details.<\/p><p>*Due to COVID-19 shipping times may be delayed.<\/p>"
+          }
+        },
+        "store-info-item-2": {
+          "type": "store_info_item",
+          "settings": {
+            "title": "30-Day Money-Back Guarantee",
+            "content": "<p> Get a full refund when you return your undamaged products within 30 days - for any reason. Once the item arrives back at the eufy warehouse for inspection, the refund process will begin.<\/p><p> See our refund policy for more details about what is needed for a smooth refund process..<\/p>"
+          }
+        },
+        "store-info-item-3": {
+          "type": "store_info_item",
+          "settings": {
+            "title": "Hassle-free Warranty",
+            "content": "<p> eufy provides a straightforward, hassle-free warranty to save you some headaches. All pre-owned and refurbished products come with their own unique warranty that you can find on the product listing or contact us at support@eufylife.com with your order receipt for confirmation.<\/p><p> This limited warranty provided by the manufacturer in no way affects a potential statutory warranty provided by law.<\/p>"
+          }
+        },
+        "store-info-item-4": {
+          "type": "store_info_item",
+          "settings": {
+            "title": "Lifetime Customer Support",
+            "content": "<p> We'll Always be There for You.<\/p><p> If you have any questions or concerns, feel free to contact us at support@eufylife.com.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "store-info-item-1",
+        "store-info-item-2",
+        "store-info-item-3",
+        "store-info-item-4"
+      ],
+      "settings": {
+        "discount_code": "WS24S360",
+        "show_comment": false,
+        "show_discount": false,
+        "show_share": false,
+        "discount_faq": "",
+        "show_payment_flags": false,
+        "show_store_info": false
+      }
+    },
+    "product-buy": {
+      "type": "kawa-product-buy",
+      "settings": {
+      }
+    },
+    "banner": {
+      "type": "kawa-main-product-banner",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "video": {
+      "type": "kawa-preview-video",
+      "disabled": true,
+      "settings": {
+        "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/57d135e474854c3b8973a129d0e52f70.mp4",
+        "max_width": "mw-1300-c",
+        "has_border": false
+      }
+    },
+    "carousel-2": {
+      "type": "kawa-main-product-carousel",
+      "blocks": {
+        "carousel-item-1": {
+          "type": "carousel_item",
+          "settings": {
+            "name": "",
+            "title": "",
+            "content": ""
+          }
+        },
+        "carousel-item-2": {
+          "type": "carousel_item",
+          "settings": {
+            "name": "",
+            "title": "",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "carousel-item-1",
+        "carousel-item-2"
+      ],
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "carousel-1": {
+      "type": "kawa-main-product-carousel",
+      "blocks": {
+        "carousel-item-1": {
+          "type": "carousel_item",
+          "settings": {
+            "name": "Recording & Playback",
+            "title": "Support local recording with TF \/ micro SD card.",
+            "content": "KAWA baby monitor with camera support TF\/micro SD card(not included) up to 256GB to record and playback every precious moment of your baby's growth."
+          }
+        },
+        "carousel-item-2": {
+          "type": "carousel_item",
+          "settings": {
+            "name": "2K & 3MP Baby Monitor",
+            "title": "Large 5'' IPS display coupled with 2k resolution and crisp night vision.",
+            "content": "Capture every detail in your baby’s room with crystal-clear 2K baby camera real-time image and 5’’ large color screen KAWA baby monitor. Superior night vision offers you the real scenes even in dim conditions. It is 4x clearer than the ordinary 720p resolution."
+          }
+        }
+      },
+      "block_order": [
+        "carousel-item-1",
+        "carousel-item-2"
+      ],
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "image-text-1": {
+      "type": "kawa-image-text",
+      "blocks": {
+        "image-text-item-1": {
+          "type": "image_text",
+          "settings": {
+            "title": "Long Battery",
+            "content": "Our video baby monitor with high-capacity 4,000mAh battery provides whole day monitoring on screen-off mode."
+          }
+        },
+        "image-text-item-2": {
+          "type": "image_text",
+          "settings": {
+            "title": "Upgraded Non-disturbing Night Vision",
+            "content": "No red dot or red light from the baby camera, without causing any disturbance to your baby. Superior night vision offers you real scenes even in dim light conditions."
+          }
+        }
+      },
+      "block_order": [
+        "image-text-item-1",
+        "image-text-item-2"
+      ],
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "fcd178ac-b361-4cd5-8c22-649946eb8ddd": {
+      "type": "kawa-image-text",
+      "settings": {
+      }
+    },
+    "video-text": {
+      "type": "kawa-video-text",
+      "disabled": true,
+      "settings": {
+        "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/d74c0ff0b4ac499ab5608e27669ad140.mp4",
+        "title": "Instant Sound Alert",
+        "content": "Built-in microphone can pick up low sound up to 20ft away from your baby’s room for louder volume and crisper audio. Get alerted immediately when your baby needs you via the advanced sound detection technology.",
+        "warning": ""
+      }
+    },
+    "tabs": {
+      "type": "kawa-product-tabs",
+      "blocks": {
+        "tab-1": {
+          "type": "tab_item",
+          "settings": {
+            "name": "4X Zoom",
+            "image": "shopify:\/\/shop_images\/111.jpg",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/57d135e474854c3b8973a129d0e52f70.mp4"
+          }
+        },
+        "tab-2": {
+          "type": "tab_item",
+          "settings": {
+            "name": "2-Way Audio Intercom",
+            "image": "shopify:\/\/shop_images\/112.jpg",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0e9abb267dc24bacaa06c810731a86cf.mp4"
+          }
+        },
+        "tab-3": {
+          "type": "tab_item",
+          "settings": {
+            "name": "Enhance Night Vision",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/474dba233f0d4ee7b98079840ce67f13.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "tab-1",
+        "tab-2",
+        "tab-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Get a KAWA baby monitor, get a balanced work-life.",
+        "description": "You may feel chaotic or anxious whether you’re a first-time parent or growing your family, especially when you have to work while taking care of your baby. KAWA baby camera monitor can offer you peace of mind. Contain all features most parents would desire for a baby monitor according to tens of thousands of surveys."
+      }
+    },
+    "image-text-2": {
+      "type": "kawa-image-text",
+      "blocks": {
+        "image-text-item-1": {
+          "type": "image_text",
+          "settings": {
+            "title": "360° Panoramic View & 4X Zoom",
+            "content": "Each corner is covered with pan 350° and tilt 67°, easily making the video monitor controlled remotely. Need a closer look? 4X zoom makes it possible to watch every detail of your baby more closely and clearly."
+          }
+        },
+        "image-text-item-2": {
+          "type": "image_text",
+          "settings": {
+            "title": "Room Temperature Sensor",
+            "content": "Built-in temperature sensor will notify you with a sound alert and message when the temp exceeds the set range. Ensure your baby is in a comfortable environment."
+          }
+        },
+        "image-text-item-3": {
+          "type": "image_text",
+          "settings": {
+            "title": "2-Way Audio Intercom",
+            "content": "Sometimes all your baby needs is to hear your voice. The convenient built-in microphone and speaker allow you to quickly and remotely soothe your baby, providing a full sense of security. So you can enjoy a peaceful morning in the kitchen or elsewhere in the home."
+          }
+        },
+        "image-text-item-4": {
+          "type": "image_text",
+          "settings": {
+            "title": "VOX Sleep\/Wake & Audio-only Mode",
+            "content": "In optional Audio-only mode, you can also hear your baby's voice in real time with the screen off. In Smart VOX mode, the monitor screen will turn on when detecting a sudden voice, like crying or shouting from your baby. You will know instantly when you are needed."
+          }
+        }
+      },
+      "block_order": [
+        "image-text-item-1",
+        "image-text-item-2",
+        "image-text-item-3",
+        "image-text-item-4"
+      ],
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "product-comparison": {
+      "type": "kawa-product-comparison",
+      "disabled": true,
+      "settings": {
+        "title": "Product Comparison",
+        "product_1": "baby-monitor-kawa-2k-qhd-5-video-baby-monitor-with-camera-and-audio-no-wifi-night-vision-recording-playback-2-way-talk-temp-sensor-4000mah-4x-zoom-flip-180-lullabies-1000ft-range-s7",
+        "product_2": "baby-monitor-camera-s6-with-tx",
+        "product_desc_1": "<p>2K QHD Resolution<\/p><p>Support Recording\/Playback: Yes<br><\/p><p>Large 5'' IPS Display<\/p><p>Enhance Night Vision<\/p><p>Room Temperature and Sound Alert<\/p><p>Two-way talk<\/p><p>360° Panoramic View:  pan 350° and tilt 67°<\/p><p>VOX Mode \/ Audio-only<\/p><p>Long Battery &amp; Long Distance:<br>1000ft Range &amp; 4000mAh for Monitor.<br>Camera: plug in outlet.<\/p><p>Without the Risk of Hacking<br>No Wi-Fi, No APP<\/p>",
+        "product_desc_2": "<p>720P Resolution<br><\/p><p>Support Recording\/Playback: No<\/p><p>Large 5'' IPS display<\/p><p>Enhance Night Vision<\/p><p>Room Temperature and Sound Alert<\/p><p>Two-way talk<\/p><p>360° Panoramic View:  pan 350° and tilt 67°<\/p><p>VOX Mode \/ Audio-only<\/p><p>Long Battery &amp; Long Distance:<br>1000ft Range &amp; 4000mAh for Monitor.<br>Camera: plug in outlet.<\/p><p>Without the Risk of Hacking<br>No Wi-Fi, No APP<\/p>"
+      }
+    },
+    "specifications": {
+      "type": "kawa-product-specifications",
+      "disabled": true,
+      "settings": {
+        "title": "Specs"
+      }
+    },
+    "faq": {
+      "type": "kawa-faq",
+      "blocks": {
+        "faq-1": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What do I get when I buy this link?",
+            "solution": "Please contact customer service for the accessory or product you wish to purchase before purchasing. This link is for customers to purchase accessories or shipping fee. Thank you for your support."
+          }
+        },
+        "faq-4": {
+          "type": "faq_item",
+          "settings": {
+            "question": "If this link is purchased. Will I receive the product properly?",
+            "solution": "Of course, after our customer service receive your requirements. We will send tracking order number and package picture for you to check after receive your order."
+          }
+        }
+      },
+      "block_order": [
+        "faq-1",
+        "faq-4"
+      ],
+      "settings": {
+        "title": "FAQ"
+      }
+    },
+    "phone-preview": {
+      "type": "kawa-phone-preview",
+      "disabled": true,
+      "settings": {
+        "img_width": 340,
+        "img_height": 616,
+        "content_1": "",
+        "content_2": "",
+        "content_3": ""
+      }
+    },
+    "alexa-video": {
+      "type": "kawa-alexa-video",
+      "disabled": true,
+      "settings": {
+        "title": "use alexa",
+        "jump_link": "#",
+        "jump_text": "how to connect alexa",
+        "video_link": "https:\/\/reolink.com\/wp-content\/assets\/banner\/reolink-go-pt-homepage-banner-pc.mp4"
+      }
+    },
+    "banner-text-new": {
+      "type": "kawa-banner-text-new",
+      "disabled": true,
+      "settings": {
+        "offset_x": 200,
+        "offset_y": 200,
+        "title": "Two-Way Audio: Talk Like You’re Here",
+        "des": "Built-in mic & speaker allow you to listen and talk back to whoever the camera catches in real time: A “hello” to families and friends or a warning to suspicious strangers.",
+        "banner_img": "shopify:\/\/shop_images\/11.jpg",
+        "icon_one": "shopify:\/\/shop_images\/6c09258e0af82bf1510f1a6f46919e97.png",
+        "icon_text_one": "Microphone",
+        "icon_two": "shopify:\/\/shop_images\/08eb545fd08c4b82cdde655ddca5ac97.png",
+        "icon_text_two": "Speaker"
+      }
+    },
+    "video-text-new": {
+      "type": "kawa-video-text-new",
+      "disabled": true,
+      "settings": {
+        "title": "Discover the Freedom of Flight",
+        "des": "Lose yourself in total immersion as you swoop and dive like never before. Combine Avata with DJI goggles for a life-like flying experience.",
+        "video_url_pc": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/fd5bb78358954e02a5d6013bae20fefc.mp4",
+        "video_url_mb": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/db8a3e3cd2a2479595c51bc79239056a.mp4"
+      }
+    },
+    "image-text-new": {
+      "type": "kawa-image-text-new",
+      "blocks": {
+        "item-1": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/c8577a1df210126991a8c79837c61c3f.jpg",
+            "title": "2K Picture-Prefect Detail",
+            "des": "4X clearer than ordinary 720p resolution,see your baby's each tiny movement.",
+            "img_position": "left"
+          }
+        },
+        "item-2": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/c8577a1df210126991a8c79837c61c3f.jpg",
+            "title": "2-Way AudioIntercom",
+            "des": "The convenient built-in microphone and speaker allows you to quickly and remotely soothe your baby.",
+            "img_position": "right"
+          }
+        }
+      },
+      "block_order": [
+        "item-1",
+        "item-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "title_fontsize": 24,
+        "title_color": "#00ade5",
+        "des_fontsize": 14,
+        "des_color": "#555555"
+      }
+    },
+    "text-new": {
+      "type": "kawa-text-new",
+      "disabled": true,
+      "settings": {
+        "bg_color": "#fcfcfc",
+        "title_fontsize": 30,
+        "title_color": "#000000",
+        "title": "Product Design Inspiration Source Stories",
+        "des_fontsize": 14,
+        "des_color": "#555555",
+        "des": "In medieval Europe,the unicorn became associated with Christianity,and was often depicted as a symbol of Christ or the Virgin Mary.It was believed that the horn of the unicorn had magical properties,and could purify water,heal sickness."
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-buy",
+    "banner",
+    "video",
+    "carousel-2",
+    "carousel-1",
+    "image-text-1",
+    "fcd178ac-b361-4cd5-8c22-649946eb8ddd",
+    "video-text",
+    "tabs",
+    "image-text-2",
+    "product-comparison",
+    "specifications",
+    "faq",
+    "phone-preview",
+    "alexa-video",
+    "banner-text-new",
+    "video-text-new",
+    "image-text-new",
+    "text-new"
+  ]
+}
