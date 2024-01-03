@@ -45,7 +45,7 @@
         "show_share": false,
         "discount_faq": "",
         "show_payment_flags": true,
-        "show_store_info": false
+        "show_store_info": true
       }
     },
     "banner": {
@@ -366,7 +366,6 @@
     },
     "product-buy": {
       "type": "kawa-product-buy",
-      "disabled": true,
       "settings": {
       }
     },
