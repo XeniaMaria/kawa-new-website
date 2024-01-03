@@ -48,6 +48,11 @@
         "show_store_info": false
       }
     },
+    "product-buy": {
+      "type": "kawa-product-buy",
+      "settings": {
+      }
+    },
     "banner": {
       "type": "kawa-main-product-banner",
       "settings": {
@@ -376,12 +381,6 @@
         "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e015fce24bcd472a825c589da83d4c63.mp4"
       }
     },
-    "product-buy": {
-      "type": "kawa-product-buy",
-      "disabled": true,
-      "settings": {
-      }
-    },
     "965a4717-8973-4af3-bfd7-2c901aea0ea7": {
       "type": "image-with-text",
       "blocks": {
@@ -471,6 +470,7 @@
   },
   "order": [
     "main",
+    "product-buy",
     "banner",
     "video",
     "tabs",
@@ -487,7 +487,6 @@
     "specifications",
     "faq",
     "alexa-video",
-    "product-buy",
     "965a4717-8973-4af3-bfd7-2c901aea0ea7",
     "4a3cfe13-ab09-4b22-b776-6e12a4e7b4b9",
     "16a7517e-54d6-4c99-a6e0-f11617da7713"
