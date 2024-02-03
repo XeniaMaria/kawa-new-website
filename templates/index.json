@@ -2,6 +2,22 @@
   "sections": {
     "6617e918-4f16-45b7-a0d8-64c251fe0091": {
       "type": "kawa-main-banner-new",
+      "blocks": {
+        "image_carousel_item_Ky6Fcx": {
+          "type": "image_carousel_item",
+          "settings": {
+            "text_top": "",
+            "text_middle": "",
+            "text_bottom": "",
+            "btn_text": "",
+            "btn_target": "",
+            "image_pc": "shopify:\/\/shop_images\/2024_spring_sale_20_off.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_carousel_item_Ky6Fcx"
+      ],
       "settings": {
         "banner_type": "image",
         "text_top": "",
