@@ -2,22 +2,6 @@
   "sections": {
     "6617e918-4f16-45b7-a0d8-64c251fe0091": {
       "type": "kawa-main-banner-new",
-      "blocks": {
-        "image_carousel_item_Ky6Fcx": {
-          "type": "image_carousel_item",
-          "settings": {
-            "text_top": "",
-            "text_middle": "",
-            "text_bottom": "",
-            "btn_text": "",
-            "btn_target": "",
-            "image_pc": "shopify:\/\/shop_images\/2024_spring_sale_20_off.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "image_carousel_item_Ky6Fcx"
-      ],
       "settings": {
         "banner_type": "image",
         "text_top": "",
@@ -33,15 +17,16 @@
     },
     "f0187556-b504-4167-9f5f-cfae81d1b6c8": {
       "type": "kawa-main-banner-new",
+      "disabled": true,
       "settings": {
         "banner_type": "image",
         "text_top": "",
         "text_middle": "",
         "text_bottom": "",
-        "btn_text": "",
+        "btn_text": "Buy Now",
         "btn_target": "",
-        "banner_image_pc": "shopify:\/\/shop_images\/pc_855f70e4-b5d1-42c0-82ca-a27696e04b7f.jpg",
-        "banner_image_mb": "shopify:\/\/shop_images\/3ef8122524d0884c15ce311fb9ab4d8a_9a566ee1-472a-46a8-87d0-64b9f140ba42.jpg",
+        "banner_image_pc": "shopify:\/\/shop_images\/2024_spring_sale_20_off.jpg",
+        "banner_image_mb": "shopify:\/\/shop_images\/2024_spring_sale_20_off.png",
         "banner_video_pc": "",
         "banner_video_mb": ""
       }
