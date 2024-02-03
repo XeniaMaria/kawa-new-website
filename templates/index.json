@@ -1,5 +1,21 @@
 {
   "sections": {
+    "f0187556-b504-4167-9f5f-cfae81d1b6c8": {
+      "type": "kawa-main-banner-new",
+      "disabled": true,
+      "settings": {
+        "banner_type": "image",
+        "text_top": "",
+        "text_middle": "",
+        "text_bottom": "",
+        "btn_text": "Buy Now",
+        "btn_target": "",
+        "banner_image_pc": "shopify:\/\/shop_images\/1_4d552fe5-2c29-49b7-94c4-55387b973fed.jpg",
+        "banner_image_mb": "shopify:\/\/shop_images\/1_379d0557-fe7d-4abb-876b-e6fec41fd5f4.jpg",
+        "banner_video_pc": "",
+        "banner_video_mb": ""
+      }
+    },
     "6617e918-4f16-45b7-a0d8-64c251fe0091": {
       "type": "kawa-main-banner-new",
       "settings": {
@@ -13,22 +29,6 @@
         "banner_image_mb": "shopify:\/\/shop_images\/t6pro_39d2fdc9-ba57-4007-a11d-7f3ce66d136c.jpg",
         "banner_video_pc": "https:\/\/www.kawa-in.com\/products\/kawa-t6-pro",
         "banner_video_mb": "https:\/\/www.kawa-in.com\/p"
-      }
-    },
-    "f0187556-b504-4167-9f5f-cfae81d1b6c8": {
-      "type": "kawa-main-banner-new",
-      "disabled": true,
-      "settings": {
-        "banner_type": "image",
-        "text_top": "",
-        "text_middle": "",
-        "text_bottom": "",
-        "btn_text": "Buy Now",
-        "btn_target": "",
-        "banner_image_pc": "shopify:\/\/shop_images\/2024_spring_sale_20_off.jpg",
-        "banner_image_mb": "shopify:\/\/shop_images\/2024_spring_sale_20_off.png",
-        "banner_video_pc": "",
-        "banner_video_mb": ""
       }
     },
     "kawa_video_banner": {
@@ -353,8 +353,8 @@
     }
   },
   "order": [
-    "6617e918-4f16-45b7-a0d8-64c251fe0091",
     "f0187556-b504-4167-9f5f-cfae81d1b6c8",
+    "6617e918-4f16-45b7-a0d8-64c251fe0091",
     "kawa_video_banner",
     "kawa-new-products",
     "kawa-products-card",

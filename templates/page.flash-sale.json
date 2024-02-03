@@ -3,8 +3,8 @@
     "f215b601-5e65-4e80-b769-197ee4946c50": {
       "type": "kawa-single-img-text",
       "settings": {
-        "pc_img": "shopify:\/\/shop_images\/PC_2d52cf77-004a-4477-b226-7f120a30fb5d.jpg",
-        "mobile_img": "shopify:\/\/shop_images\/PC_2d52cf77-004a-4477-b226-7f120a30fb5d.jpg",
+        "pc_img": "shopify:\/\/shop_images\/1_4d552fe5-2c29-49b7-94c4-55387b973fed.jpg",
+        "mobile_img": "shopify:\/\/shop_images\/1_379d0557-fe7d-4abb-876b-e6fec41fd5f4.jpg",
         "title": "",
         "content": "",
         "text_pos": "center",
@@ -25,6 +25,30 @@
     "flash-sale-1": {
       "type": "kawa-flash-sale",
       "blocks": {
+        "flash_sale_product_MWYBy7": {
+          "type": "flash-sale-product",
+          "settings": {
+            "product": "kawa-t6-pro",
+            "product_tags": "",
+            "product_img": "shopify:\/\/shop_images\/kawa-t6-pro-security-camera-true-color-night-vision_52771e69-c77b-4681-a9c9-adf1303ff2d1.jpg"
+          }
+        },
+        "flash_sale_product_kRQU7d": {
+          "type": "flash-sale-product",
+          "settings": {
+            "product": "kawa-t6",
+            "product_tags": "",
+            "product_img": "shopify:\/\/shop_images\/kawa-t6-security-camera-true-color-night-vision_4cb4004f-e053-44cd-9703-ea4f647f0567.jpg"
+          }
+        },
+        "flash_sale_product_pPTtwN": {
+          "type": "flash-sale-product",
+          "settings": {
+            "product": "baby-monitor-camera-s5-with-tx",
+            "product_tags": "",
+            "product_img": "shopify:\/\/shop_images\/2_699ff67e-c6d6-4c82-9f34-e7b964edda22.jpg"
+          }
+        },
         "flash-sale-product-1": {
           "type": "flash-sale-product",
           "settings": {
@@ -43,6 +67,9 @@
         }
       },
       "block_order": [
+        "flash_sale_product_MWYBy7",
+        "flash_sale_product_kRQU7d",
+        "flash_sale_product_pPTtwN",
         "flash-sale-product-1",
         "flash-sale-product-2"
       ],
