@@ -119,6 +119,7 @@
         "flash-sale-collection-2",
         "flash-sale-collection-3"
       ],
+      "disabled": true,
       "settings": {
       }
     },
@@ -138,7 +139,8 @@
           "type": "flash-sale-product",
           "settings": {
             "product": "ip-camera-a7",
-            "product_tags": "Dual Lens,Person\/Vehicle Detection,180° View (Horizontal),4K Ultra HD"
+            "product_tags": "Dual Lens,Person\/Vehicle Detection,180° View (Horizontal),4K Ultra HD",
+            "product_img": "shopify:\/\/shop_images\/6391ace427ade714b70fb966024ae804_457497c8-20e3-4d16-a2e2-3531afaac584.jpg"
           }
         },
         "flash_sale_product_PDya7b": {
