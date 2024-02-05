@@ -90,7 +90,6 @@
         },
         "df737849-a28d-4beb-9b91-0bca5d691161": {
           "type": "flash-sale-collection",
-          "disabled": true,
           "settings": {
             "collection": "",
             "collection_name": "",
@@ -120,7 +119,6 @@
         "flash-sale-collection-2",
         "flash-sale-collection-3"
       ],
-      "disabled": true,
       "settings": {
       }
     },
@@ -129,6 +127,7 @@
       "blocks": {
         "flash-sale-product-1": {
           "type": "flash-sale-product",
+          "disabled": true,
           "settings": {
             "product": "ip-camera-a7",
             "product_tags": "2K\/3MP,AI Human Detection,360°Panoramic View,Works with Alexa",
@@ -137,7 +136,6 @@
         },
         "flash-sale-product-2": {
           "type": "flash-sale-product",
-          "disabled": true,
           "settings": {
             "product": "ip-camera-a7",
             "product_tags": "Dual Lens,Person\/Vehicle Detection,180° View (Horizontal),4K Ultra HD"
