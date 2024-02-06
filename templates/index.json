@@ -2,14 +2,13 @@
   "sections": {
     "f0187556-b504-4167-9f5f-cfae81d1b6c8": {
       "type": "kawa-main-banner-new",
-      "disabled": true,
       "settings": {
         "banner_type": "image",
         "text_top": "",
         "text_middle": "",
         "text_bottom": "",
         "btn_text": "Buy Now",
-        "btn_target": "",
+        "btn_target": "shopify:\/\/pages\/flash-sales",
         "banner_image_pc": "shopify:\/\/shop_images\/1_4d552fe5-2c29-49b7-94c4-55387b973fed.jpg",
         "banner_image_mb": "shopify:\/\/shop_images\/1_379d0557-fe7d-4abb-876b-e6fec41fd5f4.jpg",
         "banner_video_pc": "",
