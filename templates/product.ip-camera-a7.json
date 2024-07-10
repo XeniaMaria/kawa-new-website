@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -67,7 +76,6 @@
     },
     "carousel-1": {
       "type": "kawa-main-product-carousel",
-      "disabled": true,
       "blocks": {
         "carousel-item-1": {
           "type": "carousel_item",
@@ -92,12 +100,12 @@
         "carousel-item-1",
         "carousel-item-2"
       ],
+      "disabled": true,
       "settings": {
       }
     },
     "carousel-2": {
       "type": "kawa-main-product-carousel",
-      "disabled": true,
       "blocks": {
         "carousel-item-1": {
           "type": "carousel_item",
@@ -122,6 +130,7 @@
         "carousel-item-1",
         "carousel-item-2"
       ],
+      "disabled": true,
       "settings": {
       }
     },
@@ -141,7 +150,6 @@
     },
     "image-text-1": {
       "type": "kawa-image-text",
-      "disabled": true,
       "blocks": {
         "image-text-item-1": {
           "type": "image_text",
@@ -164,6 +172,7 @@
         "image-text-item-1",
         "image-text-item-2"
       ],
+      "disabled": true,
       "settings": {
       }
     },
@@ -179,7 +188,6 @@
     },
     "tabs": {
       "type": "kawa-product-tabs",
-      "disabled": true,
       "blocks": {
         "tab-1": {
           "type": "tab_item",
@@ -211,6 +219,7 @@
         "tab-2",
         "tab-3"
       ],
+      "disabled": true,
       "settings": {
         "title": "Capture every details in your house",
         "description": "With 3-megapixel resolution, this smart IP camera keeps 24\/7 Continuous Recording.  Even better, you can receive instant notification on your phone if human, motion or abnormal sound detected in your house."
@@ -218,7 +227,6 @@
     },
     "image-text-2": {
       "type": "kawa-image-text",
-      "disabled": true,
       "blocks": {
         "image-text-item-1": {
           "type": "image_text",
@@ -259,6 +267,7 @@
         "image-text-item-3",
         "image-text-item-4"
       ],
+      "disabled": true,
       "settings": {
       }
     },
@@ -267,7 +276,7 @@
       "disabled": true,
       "settings": {
         "title": "Product Comparison",
-        "product_1": "ip-camera-a6",
+        "product_1": "kawa-a6-ip-camera-2k-indoor-security-camera-2-4g-wifi-360-ip-cameras-for-home-security-pet-camera-2-way-audio-night-vision-motion-detection-cloud-tf-card-storage-works-with-alexakawa-a6",
         "product_2": "baby-monitor-camera-s7-with-tx",
         "product_desc_1": "<p>2K QHD Resolution<\/p><p>Support Recording\/Playback: Yes<br>Support Could Storage too.<\/p><p>Screen: No<\/p><p>Can be connected to Phone: Yes<\/p><p>Enhance Night Vision<\/p><p>Smart AI Detection &amp; Instant Alerts<\/p><p>Two-way talk<\/p><p>360° Panoramic View:  pan 350° and tilt 67°<\/p><p>Auto Motion Tracking &amp; Built in Siren<\/p><p>Multi-users &amp; Multiple View<\/p>\n<p>Camera: plug in outlet.<br>Without Battery<\/p><p>Works with Alexa &amp; Connect to KAWA IOT APP<\/p>",
         "product_desc_2": "<p>2K QHD Resolution<\/p><p>Support Recording\/Playback: Yes<br><\/p><p>Screen: Large 5'' IPS Display<\/p><p>Can be connected to Phone: No<\/p><p>Enhance Night Vision<\/p><p>Room Temperature &amp; Sound Alert<\/p><p>Two-way talk<\/p><p>360° Panoramic View:  pan 350° and tilt 67°<\/p><p>VOX Mode \/ Audio-only<\/p><p>Long Battery &amp; Long Distance:<br>1000ft Range &amp; 4000mAh for Monitor.<br>Camera: plug in outlet.<\/p><p>Without the Risk of Hacking<br>No Wi-Fi, No APP<\/p>"
@@ -282,7 +291,6 @@
     },
     "faq": {
       "type": "kawa-faq",
-      "disabled": true,
       "blocks": {
         "faq-1": {
           "type": "faq_item",
@@ -319,6 +327,7 @@
         "faq-3",
         "faq-4"
       ],
+      "disabled": true,
       "settings": {
         "title": "FAQ"
       }
