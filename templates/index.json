@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "f0187556-b504-4167-9f5f-cfae81d1b6c8": {
@@ -114,7 +123,7 @@
         "50f5f7fa-a213-4103-960b-cd2bef194fc2": {
           "type": "product-slide",
           "settings": {
-            "product_item": "dashcam-d6",
+            "product_item": "kawa-d6",
             "product_image": "shopify:\/\/shop_images\/1_3_b59daf7b-45c7-4a44-b26e-8dd38464ffdc.jpg",
             "tag": ""
           }
@@ -157,7 +166,7 @@
         "product-card-3": {
           "type": "product-card",
           "settings": {
-            "card_product": "dashcam-d6",
+            "card_product": "kawa-d6",
             "card_image": "shopify:\/\/shop_images\/1005_-app_76242b15-2217-4845-beb5-ca074d79deb5.jpg",
             "card_image_mb": "shopify:\/\/shop_images\/1005_-app.jpg",
             "title": "Hands-Free Voice Control",
