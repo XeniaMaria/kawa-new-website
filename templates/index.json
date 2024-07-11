@@ -99,7 +99,7 @@
         "product-slide-2": {
           "type": "product-slide",
           "settings": {
-            "product_item": "baby-monitor-camera-s7-with-tx",
+            "product_item": "kawa-s7",
             "product_image": "shopify:\/\/shop_images\/1002_0468f762-da35-4d68-9fa1-db1c29f8f160.jpg",
             "tag": ""
           }
@@ -156,7 +156,7 @@
         "product-card-2": {
           "type": "product-card",
           "settings": {
-            "card_product": "baby-monitor-camera-s7-with-tx",
+            "card_product": "kawa-s7",
             "card_image": "shopify:\/\/shop_images\/02_-app.jpg",
             "card_image_mb": "shopify:\/\/shop_images\/02_-app_403b9a32-e562-4f64-ad26-444df92c4566.jpg",
             "title": "Large 5'' IPS display 2K",

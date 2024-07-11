@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -66,7 +75,6 @@
     },
     "carousel-1": {
       "type": "kawa-main-product-carousel",
-      "disabled": true,
       "blocks": {
         "carousel-item-1": {
           "type": "carousel_item",
@@ -91,12 +99,12 @@
         "carousel-item-1",
         "carousel-item-2"
       ],
+      "disabled": true,
       "settings": {
       }
     },
     "carousel-2": {
       "type": "kawa-main-product-carousel",
-      "disabled": true,
       "blocks": {
         "carousel-item-1": {
           "type": "carousel_item",
@@ -121,6 +129,7 @@
         "carousel-item-1",
         "carousel-item-2"
       ],
+      "disabled": true,
       "settings": {
       }
     },
@@ -130,7 +139,7 @@
       "settings": {
         "title": "Product Comparison",
         "product_1": "baby-monitor-camera-s6-with-tx",
-        "product_2": "baby-monitor-camera-s7-with-tx",
+        "product_2": "kawa-s7",
         "product_desc_1": "<p>720P Resolution<br><\/p><p>Support Recording\/Playback: No<\/p><p>Large 5'' IPS display<\/p><p>Enhance Night Vision<\/p><p>Room Temperature and Sound Alert<\/p><p>Two-way talk<\/p><p>360° Panoramic View:  pan 350° and tilt 67°<\/p><p>VOX Mode \/ Audio-only<\/p><p>Long Battery &amp; Long Distance:<br>1000ft Range &amp; 4000mAh for Monitor.<br>Camera: plug in outlet.<\/p><p>Without the Risk of Hacking<br>No Wi-Fi, No APP<\/p>",
         "product_desc_2": "<p>2K QHD Resolution<\/p><p>Support Recording\/Playback: Yes<br><\/p><p>Large 5'' IPS Display<\/p><p>Enhance Night Vision<\/p><p>Room Temperature and Sound Alert<\/p><p>Two-way talk<\/p><p>360° Panoramic View:  pan 350° and tilt 67°<\/p><p>VOX Mode \/ Audio-only<\/p><p>Long Battery &amp; Long Distance:<br>1000ft Range &amp; 4000mAh for Monitor.<br>Camera: plug in outlet.<\/p><p>Without the Risk of Hacking<br>No Wi-Fi, No APP<\/p>"
       }
@@ -185,7 +194,6 @@
     },
     "tabs": {
       "type": "kawa-product-tabs",
-      "disabled": true,
       "blocks": {
         "tab-1": {
           "type": "tab_item",
@@ -222,6 +230,7 @@
         "tab-3",
         "3f2fe361-2f25-4067-b4c5-38056f64eefc"
       ],
+      "disabled": true,
       "settings": {
         "title": "Clear & Color, Even at Night or from Afar",
         "description": "With 5-megapixel resolution and built-in spotlights, this smart IP camera keeps recording in full color day and night. Even better, you can zoom in optically to find more details."
