@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "dealer-banner": {
@@ -139,7 +148,7 @@
         "dfd81343-4462-4b14-8982-0ab27a15fe86": {
           "type": "preview_product",
           "settings": {
-            "product": "ip-camera-a7"
+            "product": "kawa-a7"
           }
         },
         "bb0f3f5d-f4e8-4546-9bee-2e31995d80a2": {

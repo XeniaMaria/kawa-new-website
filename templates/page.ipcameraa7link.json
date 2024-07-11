@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "app-download": {
@@ -61,7 +70,7 @@
       "settings": {
         "title": "Manuals",
         "show_category": false,
-        "product": "ip-camera-a7"
+        "product": "kawa-a7"
       }
     },
     "dbc48c40-df54-443f-b186-4300d5e798a6": {

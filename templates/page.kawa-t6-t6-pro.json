@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "31948728-271e-4069-94bd-2a86622730f7": {
@@ -36,7 +45,7 @@
       "settings": {
         "title": "Manuals",
         "show_category": false,
-        "product": "ip-camera-a7"
+        "product": "kawa-a7"
       }
     },
     "0783235c-ced2-4f22-b968-bebe13223c12": {
