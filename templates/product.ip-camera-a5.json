@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -332,7 +341,7 @@
       "type": "kawa-product-comparison",
       "settings": {
         "title": "Product Comparison",
-        "product_1": "ip-camera-a5",
+        "product_1": "kawa-a5",
         "product_2": "ip-camera-a7",
         "product_desc_1": "<p>2K QHD Resolution<\/p><p>Support Recording\/Playback: Yes<br>Support Could Storage too.<\/p><p>Screen: No<\/p><p>Can be connected to Phone: Yes<\/p><p>Enhance Night Vision<\/p><p>Smart AI Detection &amp; Instant Alerts<\/p><p>Two-way talk<\/p><p>360° Panoramic View:  Manually operated rotating Camera<\/p><p>Motion Detection<\/p><p>Multi-users &amp; Multiple View<\/p>\n<p>Camera: plug in outlet.<br>Without Battery<\/p><p>Connect to KAWA IOT APP<\/p>",
         "product_desc_2": "<p>2K QHD Resolution<\/p><p>Support Recording\/Playback: Yes<br>Support Could Storage too.<\/p><p>Screen: No<\/p><p>Can be connected to Phone: Yes<\/p><p>Enhance Night Vision<\/p><p>Smart AI Detection &amp; Instant Alerts<\/p><p>Two-way talk<\/p><p>360° Panoramic View:  pan 350° and tilt 67°(Operate Rotating Camera via APP)<\/p><p>Auto Motion Tracking &amp; Follow the action<\/p><p>Multi-users &amp; Multiple View<\/p>\n<p>Camera: plug in outlet.<br>Without Battery<\/p><p>Connect to KAWA IOT APP<\/p>"
